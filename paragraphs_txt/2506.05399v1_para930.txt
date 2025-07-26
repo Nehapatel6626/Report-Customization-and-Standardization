@@ -1,0 +1,4 @@
+[110] M. Cornia, M. Stefanini, L. Baraldi, R. Cucchiara, Meshed-memory
+transformer for image captioning, in: Proceedings of the IEEE/CVF
+conference on computer vision and pattern recognition, 2020, pp.
+10578–10587.

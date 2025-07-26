@@ -1,0 +1,1 @@
+When referencing cells, I will use the A1 reference style, which is used by most spreadsheet

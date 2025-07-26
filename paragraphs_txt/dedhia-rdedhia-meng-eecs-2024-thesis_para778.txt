@@ -1,0 +1,1 @@
+alphabetical characters that are in whitelisted functions, e.g. SUM and AVERAGE . Note that

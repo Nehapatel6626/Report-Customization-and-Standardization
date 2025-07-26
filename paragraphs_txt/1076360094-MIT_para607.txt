@@ -1,0 +1,12 @@
+Name
+author dot
+author lc
+author len
+author mismatch
+author num
+author oth
+author uc
+box nonother types
+box other only
+company mismatch
+count acroform

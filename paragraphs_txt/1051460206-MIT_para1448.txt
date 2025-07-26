@@ -1,0 +1,1 @@
+extract coarser  features  from the input image  followed  by  convolutional  decoding  layers  that

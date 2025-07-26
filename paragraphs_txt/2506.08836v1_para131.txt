@@ -1,0 +1,7 @@
+In a separate experiment, we concatenated consecutive test set samples to
+create complete audio broadcasts. The resulting test audio files reached lengths
+of up to 1 hour, with an average duration of 21 minutes. Using the ZHAW
+medium and ZHAW large-v3 models, we found that the performance is similar
+to the results presented in Table 4. This indicates that the findings in Table 4
+remain valid even for audio segments considerably longer than those typically
+found in scientific datasets.

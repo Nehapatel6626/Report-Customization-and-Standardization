@@ -1,0 +1,1 @@
+element.  The  final layer  for each convolutional  block  is the  max pool  layer, which uses  a 2x2

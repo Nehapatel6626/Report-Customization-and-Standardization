@@ -1,0 +1,20 @@
+Abstract. Swiss German is a low-resource language represented by di-
+verse dialects that differ significantly from Standard German and from
+each other, lacking a standardized written form. As a result, transcrib-
+ing Swiss German involves translating into Standard German. Existing
+datasets have been collected in controlled environments, yielding effec-
+tive speech-to-text (STT) models, but these models struggle with spon-
+taneous conversational speech.
+This paper, therefore, introduces the new SRB-300 dataset, a 300-hour
+annotated speech corpus featuring real-world long-audio recordings from
+39 Swiss German radio and TV stations. It captures spontaneous speech
+across all major Swiss dialects recorded in various realistic environments
+and overcomes the limitation of prior sentence-level corpora.
+We fine-tuned multiple OpenAI Whisper models on the SRB-300 dataset,
+achieving notable enhancements over previous zero-shot performance
+metrics. Improvements in word error rate (WER) ranged from 19% to
+33%, while BLEU scores increased between 8% and 40%. The best fine-
+tuned model, large-v3, achieved a WER of 17.1% and a BLEU score of
+74.8. This advancement is crucial for developing effective and robust STT
+systems for Swiss German and other low-resource languages in real-world
+contexts.

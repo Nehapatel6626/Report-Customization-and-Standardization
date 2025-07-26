@@ -1,0 +1,3 @@
+This work considers that the robotic system might need to adapt due to changes in the environment,
+changes in the system’s quality attributes (QAs) (Board, 2023), component failures, and changes in the
+robot’s selected actions.

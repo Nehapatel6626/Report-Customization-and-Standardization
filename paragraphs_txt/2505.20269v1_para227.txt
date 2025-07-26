@@ -1,0 +1,3 @@
+The results of the second experiment are shown in Figures 2 and 3. The x-axis
+shows the number of neurons in each hidden layer in both Figures. While the
+y-axis shows the average running time for computing explanations. Furthermore,

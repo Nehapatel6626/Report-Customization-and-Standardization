@@ -1,0 +1,2 @@
+Algorithm 1 MP: Planner for Planning a Plan
+input Objectives O, explicit constraints CE, agent pool A,

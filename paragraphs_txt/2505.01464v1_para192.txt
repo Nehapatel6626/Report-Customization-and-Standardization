@@ -1,0 +1,2 @@
+• R (Recursion): An+1 = f (An, sn), where An ∈ Re, sn ∈ Σ
+• C+ (Convergence): An → Zi, where Z = (cid:83)

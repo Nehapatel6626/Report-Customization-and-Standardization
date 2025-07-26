@@ -1,0 +1,6 @@
+Q4: What solution does this paper propose? 
+A4:  We  propose  modeling  GUI-inspired  metaphors—such  as  Submit  and  Reset—as  explicit  tasks  within  LLM 
+prompts.  By  capturing  user  acknowledgment  (Submit-like)  or  context  switching  (Reset-like)  as  structured  session 
+data, the system maintains clarity over whether the user wants to continue with the same context or switch to a new 
+one. We also employ chain-of-thought (CoT) reasoning (see Q6) for multi-step tasks, enabling the LLM to clarify 
+ambiguous details in user inputs and guide the back-end more transparently.

@@ -1,0 +1,2 @@
+P(with|agreement) = 0.15
+P(with|breach) = 0.02

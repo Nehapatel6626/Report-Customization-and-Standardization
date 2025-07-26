@@ -1,0 +1,1 @@
+bright (high luminance)  and the background to  be dark (low luminance).  When the particle

@@ -1,0 +1,3 @@
+Data Structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.  
+Different kinds of data structures are suited to different kinds of applications.  
+Storing and retrieving can be carried out on data stored in both main memory and in secondary memory.

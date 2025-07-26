@@ -1,0 +1,134 @@
+What can computer science learn from fine arts approach to teaching?
+
+Bridging knowledge gaps • Advocating for change • Educating everyone
+Lecia Barker and Kathy Garvin-Doxas University of Colorado
+
+Eric Roberts
+Stanford University
+Overview of talk
+Eric Roberts
+Why are we here?
+The importance of interdisciplinarity
+What does CS need to learn about social science?
+Kathy Garvin-Doxas
+A tale of two cultures
+Research methodology
+Findings: climate issues, collaboration, pedagogy
+What does social science need to learn about CS?
+
+Why are we here?
+The persistent challenge of attracting a broad audience to computer science
+The influence of “CS culture” on recruitment and retention
+A recognition that pedagogy helps to frame cultural perceptions
+The importance of finding synergies between domain knowledge and social science knowledge
+Low participation of women in computer science
+18% of all CS doctoral degrees 
+28% of all CS bachelors degrees
+13% of CS “Advanced Placement” test takers in 2003
+Participation by targeted minorities is even lower.
+The importance of interdisciplinarity
+In the last ten years, I’ve had the opportunity to teach collaboratively with colleagues from several Stanford departments
+In each case, the experience has been enriching, not only for its own sake, but also because of its effect on my CS teaching
+Integrating a range of fields makes CS seem accessible to a wider range of students
+What does CS need to learn about social science?
+Our community has tried many strategies over the years to increase diversity
+While some of those strategies have been successful, others are counterproductive
+Most of us have no tools or training to assess the effectiveness of our initiatives
+One of the great strengths of the NCWIT is the pairing of a social science network with the industry and academic alliances
+Research Methods
+
+“Triangulated” research method
+Document review (e.g., syllabus)
+Records review (e.g., grades)
+Ethnographic observation
+Informal and formal interviews
+
+Ethnographic data collection
+Deep understanding of social setting
+Observe what people say and do
+Interpret what these actions mean
+Ask questions to find out if interpretations are accurate
+Write “field notes”
+Observations and interpretations, hunches
+Conduct Interviews with members of the setting
+Content analysis of field notes & interviews
+Read through, search for patterns
+Identify themes recurring across courses, observers
+Code data to understand 
+frequency of occurrence
+importance in the social context
+Ask insiders if interpretations are accurate
+Data collected
+>600 hours classroom observation in introductory, mid-level, and project classes
+Formal interviews with >170 students
+Many informal interviews
+
+Findings
+
+Key areas of difference
+Knowledge sharing
+
+Assessment techniques
+Knowledge sharing
+
+
+CS professor: I called a student by his name and he asked me, ‘why do you know my name?’.
+Interviewer:  Are you more inclined to talk to the other students in recitation?   
+Student: A little bit.                       
+Another student:  Yeah, I've, I've talked to people in recitations.  I talk to NO ONE in the class.  I only talk to a couple of people in the recitation.
+Interviews: Belief that group work is prohibited
+“[We are] strictly forbidden from working with other students on projects.  The cheating policy that [the professor] distributed first day of class said that, pretty much, ‘If we catch any duplication of code, anything that even resembles somebody else's code closely, you will both receive an immediate F in the class and be dropped’.  So, yeah we're not allowed to work with the other students at all.” 
+Interviews: Fear of asking questions
+“I was initially [willing to ask questions], and then, I don’t ask questions anymore.  [sigh] I just feel like, I must know so little compared to everyone else there that I’m embarrassed. I don’t want to ask…There’s five people who are already expert programmers and already know everything.”
+“A lot of times the males liked to throw big words around (which intimated me at first), but later I realized it was all just talk to impress other students.”
+Assessment
+Computer grading
+Focus on programming
+Does it compile?
+Implications for students
+Less experienced students (most women) quickly lose confidence
+inability to gauge own progress in relation to peers
+Students learn little from each other
+fear of being seen as stupid or not belonging
+Students come to believe that learning in CS should be private, individual 
+senior projects courses seen as burdensome; students end up “dividing and conquering”
+
+Patterned practices observed in TAM classrooms
+Lecture and lab combined: less one-way communication, more interactive environment
+students constantly call on each other and the professor for help 
+Students sometimes taught professors
+it is okay to not know something 
+Learning often by trial and error
+Public critique of assignments prior to individualized grading
+Interviews: Learning with each other
+It’s okay to ask somebody questions. You know that they’re on the same page and ask dumb questions to each other that you wouldn’t normally ask. 
+…I got a chance to get to know more of the people in there because we help each other with technical stuff, and when one person doesn’t know, the next does.  So we just help each other out and that’s how we get to know each other. 
+Interviews: A mutually supportive environment
+Well it’s kind of just a community environment…you learn as a community.  It’s where you can count on each other.  It’s just very neighborly.
+I could see it starting to be a little community because part of it is collaborating and getting ideas.  So if you have familiar students, it was very comfortable to see familiar faces.
+Interviews: Expectation for collaboration in the classroom
+I couldn’t believe these students demanding class time for more time to work together.  I told some colleagues and they were shocked.  I mean, this is just unheard of in engineering.  It’s not the way we teach. – Computer science professor teaching TAM students
+Assessment 
+I think it’s important that the class is coming together and critiquing and reviewing each other’s work.  I mean, I was really nervous the first time. There were these incredibly talented people looking at my work.  But really it’s good to just have the people there because they provide feedback and can help you with ideas.  
+Everybody had to be on display, though, so as the semester went on, I got used to it.  And it was kind of cool, because even I had ideas to share with other students sometimes.
+Implications for students
+Learning is a collaborative accomplishment
+Sets the expectation that one will work with others
+Public assessment permits students to gauge their own skills in comparison to their peers
+In such a classroom, students have great access to hearing each other speak, not just hearing their professors’ specialized jargon
+What does that have to do with diversity?
+Research shows women tend to prefer collaborative learning environments
+Women come into CS with less experience
+Lose confidence easily because they cannot accurately judge their progress (in addition to the more difficult environment)
+Though they perform as well as their male peers
+Fail to develop an identity of  “computer scientist”
+Change of pedagogy/learning environment may both attract and retain women
+Collaborative environments are better for both males and females
+In educational research, it is well established that all students learn more when
+they are engaged in two-way communication with the instructor
+collaborate with other students
+hear their peers articulate what they are learning 
+So can CS professors adapt this pedagogy?
+Find ways of ensuring that students hear each other articulate what they are learning
+E.g., student pairs might work out an algorithm in class
+Find a way for students to display solutions to the rest of the class

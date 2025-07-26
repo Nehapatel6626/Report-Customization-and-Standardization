@@ -1,0 +1,2 @@
+3. Account for the idle time of each person.
+4. The schedule consists of three columns: time, task, and

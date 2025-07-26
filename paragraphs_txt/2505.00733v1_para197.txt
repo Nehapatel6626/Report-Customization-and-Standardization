@@ -1,0 +1,3 @@
+An AUV can have the Quality
+Attributes battery level, battery
+consumption, and safety level

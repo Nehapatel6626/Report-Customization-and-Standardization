@@ -1,0 +1,1 @@
+Circuit optimization involves rewriting the quantum circuit. Rewriting consists of six steps:

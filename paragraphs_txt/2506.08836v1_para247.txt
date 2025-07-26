@@ -1,0 +1,4 @@
+12. Liu, Y., Yang, X., Qu, D.: Exploration of Whisper fine-tuning strategies for
+low-resource ASR. EURASIP Journal on Audio, Speech, and Music Process-
+ing 2024(1), 29 (Jun 2024). https://doi.org/10.1186/s13636-024-00349-3, https:
+//doi.org/10.1186/s13636-024-00349-3

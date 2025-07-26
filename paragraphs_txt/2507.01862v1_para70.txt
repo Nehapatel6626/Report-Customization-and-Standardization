@@ -1,0 +1,3 @@
+The approach generalizes beyond customer management to any domain with multi-step workflows—travel bookings, 
+appointment scheduling, e-commerce carts. Whenever confirm (submit) vs. reset (cancel) is relevant, and step-by-step 
+CoT clarifications are needed, this method can reduce ambiguity.

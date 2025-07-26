@@ -1,0 +1,4 @@
+Planning performance is assessed across three conﬁgura-
+tions: DeepSeek + MP, GPT-4o + MP, and Claude +
+MP. The prior results in Section 3 show that all LLMs
+fail the task when executed independently.

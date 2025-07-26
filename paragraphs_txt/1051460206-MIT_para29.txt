@@ -1,0 +1,1 @@
+We  calculated  the accuracy,  sensitivity,  and  specificity  of the  Autoscope  system with

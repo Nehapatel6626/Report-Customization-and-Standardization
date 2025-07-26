@@ -1,0 +1,1 @@
+This section begins with the evaluation of the Naïve Bayes Classifier and the Decision Tree classifier. We then discuss the effect of using modifications such as cross-validation and ensembles. Finally, we evaluate our Hybrid Classifier.

@@ -1,0 +1,7 @@
+Requirement 3 - Dynamic Evasive Behavior Management. It must effec-
+tively handle evasive behaviors encountered during the collection of wild samples
+for integration. Wild samples may employ dynamic evasion techniques or be so
+damaged or corrupted that execution is impossible [35], thereby complicating
+dynamic signature extraction performed by state-of-the-art tools [16]. To ad-
+dress this challenge, a static analysis-based approach can mitigate these issues
+by extracting valuable information and artifacts independently of execution.

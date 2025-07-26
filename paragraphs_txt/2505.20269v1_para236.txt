@@ -1,0 +1,4 @@
+In this work, we compare two logical encodings of ANNs: one has been used
+in the literature to provide explanations [5, 8], and another [17] that we have
+adapted for our context of explainability. Our experiments indicate that both
+encodings have similar running times for computing explanations, even as the

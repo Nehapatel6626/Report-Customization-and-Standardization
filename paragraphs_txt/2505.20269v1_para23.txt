@@ -1,0 +1,5 @@
+to 18%. Surprisingly, both methods exhibit similar running times for computing
+explanations. Furthermore, our adaptation outperforms the other encoding in
+the overall time, encompassing both building logical constraints and computing
+explanations. In this case, the results indicate an improvement of up to 16%. In
+summary, our main contributions are described in the following:

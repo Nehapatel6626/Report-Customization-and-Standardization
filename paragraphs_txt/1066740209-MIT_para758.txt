@@ -1,0 +1,1 @@
+and record all numbers that are cohort sizes. However, notice that cohort sizes must

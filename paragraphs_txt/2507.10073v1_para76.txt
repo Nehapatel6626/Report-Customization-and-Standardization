@@ -1,0 +1,9 @@
+Future research should explore potential approaches to addressing these limitations, includ-
+ing more diverse training data, culturally-informed alignment objectives, and innovative
+architectures that might better capture the embodied and contextual nature of human moral
+reasoning. Additionally, researchers using LLMs as tools for social science should develop
+robust validation protocols to assess the alignment between model-generated and human
+responses for their specific research contexts. As AI systems continue to play increasingly
+important roles in mediating social processes across cultural contexts, addressing these
+limitations in cultural representation becomes not merely a technical challenge but an
+ethical imperative. Genuine AI alignment requires systems that can appropriately represent

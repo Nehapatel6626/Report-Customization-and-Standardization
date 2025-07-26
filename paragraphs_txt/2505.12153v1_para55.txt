@@ -1,0 +1,4 @@
+i=1
+where ni is the number of training samples at hospital i and
+n is the total data across all institutions. To mitigate non-IID
+data challenges, we introduce weighted local updates

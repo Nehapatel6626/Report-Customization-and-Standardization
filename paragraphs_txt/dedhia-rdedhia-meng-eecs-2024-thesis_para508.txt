@@ -1,0 +1,1 @@
+as =5*(A3+A4+A5) , as mathematical expressions. I’ll use the term formula to refer to any

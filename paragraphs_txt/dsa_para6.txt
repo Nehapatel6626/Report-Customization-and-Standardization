@@ -1,0 +1,10 @@
+Introduction 
+Definitions
+Classification of Data Structures
+Arrays and Linked Lists 
+Abstract Data Types [ADT]
+The List ADT
+Array-based Implementation
+Linked List Implementation
+Cursor-based Implementation
+Doubly Linked Lists

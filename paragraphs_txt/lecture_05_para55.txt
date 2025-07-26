@@ -1,0 +1,12 @@
+How do I fix “graffe”?
+Search through all words:
+graf
+craft
+grail
+giraffe
+Pick the one that’s closest to graffe
+What does “closest” mean?
+We need a distance metric.
+The simplest one: edit distance
+I.e. Unix diff
+(More sophisticated probabilistic ones: noisy channel)

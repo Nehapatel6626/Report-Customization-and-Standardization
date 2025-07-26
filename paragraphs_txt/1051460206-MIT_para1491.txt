@@ -1,0 +1,13 @@
+We  will first introduce  the  standard  segmentation  algorithm.  In the standard  algorithm,
+we  use  common image  segmentation  techniques  to  find particle  coordinates.  First, we  apply  an
+adaptive  thresholding  algorithm to transform  the greyscale  image  to a  binary image.  Each  pixel
+is labeled  as either a 0  (background)  or  1  (foreground).  Adaptive  thresholding  functions
+determine  a new threshold  for each pixel based on the values  of the surrounding  pixel.  By  doing
+this,  adaptive  thresholding takes  into  account  localized  variations,  for  example,  in the
+illumination  of the image.  Second,  a connected  component analysis  is used  in order  to isolate
+each group  of connected  foreground pixels.  For each connected  component  identified,  we
+remove  components  with a  size below  4  foreground  pixels. This component  removal  technique
+filters out stray  foreground  pixels,  and we  assume  the remaining  foreground pixels  map to  actual
+particles.  Then,  in order to  combine  clumps  of particles  into  a  single  coordinate,  we use  the  close
+operator  followed  by the  dilation  operator.  Finally, we  identify  the centroid  of each remaining
+connected  component,  and  use this to  produce  a crop to  be  classified.

@@ -1,0 +1,1 @@
+we prefer to use conventional clusters evaluation methods as the Elbow Method and the

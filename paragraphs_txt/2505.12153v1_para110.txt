@@ -1,0 +1,6 @@
+In real surgeries,
+patient conditions can change unpredictably. The ability of
+an RL policy to dynamically adapt is crucial. We define the
+Dynamic Policy Adaptation Rate as the model’s ability to
+shift its decision-making strategy in response to new patient
+conditions.

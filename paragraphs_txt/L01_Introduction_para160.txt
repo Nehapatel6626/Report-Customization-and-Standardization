@@ -1,0 +1,7 @@
+What algorithms can approximate functions well (and when)?
+How does number of training examples influence accuracy?
+How does complexity of hypothesis representation impact it?
+How does noisy data influence accuracy?
+What are the theoretical limits of learnability?
+How can prior knowledge of learner help?
+What clues can we get from biological learning systems?

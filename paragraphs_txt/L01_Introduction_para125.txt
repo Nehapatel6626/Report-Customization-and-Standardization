@@ -1,0 +1,4 @@
+Clustering - group points into “classes”
+Other ideas:
+look for mathematical relationships between features
+look for anomalies in data bases (data that does not fit)

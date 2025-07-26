@@ -1,0 +1,1 @@
+and si is the  set of class  scores.  The subscript  i  represents  the values  for a specific  image.  A  loss

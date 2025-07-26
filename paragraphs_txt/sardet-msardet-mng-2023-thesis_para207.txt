@@ -1,0 +1,1 @@
+iser Finger Temperature (°C) and SiCl4 Head Pressure (Torr) plotted against

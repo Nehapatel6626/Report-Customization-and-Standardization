@@ -1,0 +1,5 @@
+Increasing trust in DNN classification by reporting more than class assignment.
+Both A and B are members of class 1 and correctly classified.
+Explainer algorithm reports distance to decision boundary.
+More trust in result for A than B because further from decision boundary
+Noise is less likely to be factor in assignment of A to class 1

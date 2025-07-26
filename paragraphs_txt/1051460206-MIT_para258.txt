@@ -1,0 +1,1 @@
+material  from 'Convolutional  Neural  Networks  for Visual  Recognition'  at Stanfrod (Li  and

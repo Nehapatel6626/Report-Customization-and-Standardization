@@ -1,0 +1,2 @@
+Gc ∈C 1(cos(Ginput,Gc)≥tc)
+maxp∈P

@@ -1,0 +1,8 @@
+The dataset is  composed  of 13,713  grayscale  images  of urine particles,  with dimensions
+ranging from 36x36  pixels to  250x250  pixels3 1. Each  image is pre-labeled  with one  of sixteen
+classes.  Figure  4-2  showcases  images  from the main  particle  classes,  including  (from left to
+right):  red blood cells,  white  blood  cells,  epithelial cells,  casts,  bacteria,  crystals,  yeast  and
+sperm.  The  images  are provided  by  Iris Diagnostics,  and acquired  with the iQ-200,  a urinanalyis
+device  with a retail price  of $100,000  to $150,000.  The iQ-200  has an  estimated  digital
+resolution of 1.36um.  With a 20x  objective and no eyepiece,  the  iQ-200 might have an  optical
+resolution that is around the digital resolution.

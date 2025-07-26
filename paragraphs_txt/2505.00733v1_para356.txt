@@ -1,0 +1,5 @@
+To evaluate ROSA’s performance, metrics were collected with the SUAVE exemplar. The metrics
+collected were the ones available in SUAVE, search time and distance of the pipeline inspected, in addition
+to the reaction time metric introduced in this paper. For the original use case, the experiments were
+performed with no managing subsystem, with a BT managing system, with Metacontrol9, and with ROSA.
+For the extended use case, the experiments were performed with a BT managing system and with ROSA.

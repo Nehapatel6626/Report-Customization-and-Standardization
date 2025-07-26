@@ -1,0 +1,2 @@
+The user of an ADT needs only to know that a set of operations are available for the data type, but does not need to know how they are applied 
+Several simple ADTs, such as integer, real, character, pointer and so on, have been implemented and are available for use in most languages

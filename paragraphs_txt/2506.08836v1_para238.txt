@@ -1,0 +1,7 @@
+7. Dolev, E., Lutz, C., Aepli, N.: Does Whisper Understand Swiss German? An
+Automatic, Qualitative, and Human Evaluation. In: Scherrer, Y., Jauhiainen,
+T., Ljubešić, N., Zampieri, M., Nakov, P., Tiedemann, J. (eds.) Proceedings
+of the Eleventh Workshop on NLP for Similar Languages, Varieties, and Di-
+alects (VarDial 2024). pp. 28–40. Association for Computational Linguistics, Mex-
+ico City, Mexico (Jun 2024). https://doi.org/10.18653/v1/2024.vardial-1.3, https:
+//aclanthology.org/2024.vardial-1.3

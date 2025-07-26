@@ -1,0 +1,3 @@
+4.  Aniello Esposito, Jessica R. Jones, Sebastien Cabaniols, and David Brayford. A hybrid classical- 
+quantum hpc workload. In 2023 IEEE International Conference on Quantum Computing and Engi- 
+neering (QCE), volume 02, pages 117–121, 2023.

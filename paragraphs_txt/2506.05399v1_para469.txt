@@ -1,0 +1,3 @@
+mc > mr
+1
+e(1−mr/mc) mc ⩽ mr

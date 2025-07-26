@@ -1,0 +1,6 @@
+The sample generation process resulted in the sample length distribution
+depicted in Figure 1. Thus, the samples are considerably longer than in the cor-
+pora in section 3. It is important to note that samples with lengths significantly
+shorter than 30 seconds typically occur at the end of the original audio file or
+cannot be merged with adjacent segments, as doing so would lead to sample
+lengths exceeding 30 seconds.

@@ -1,0 +1,6 @@
+3. Run-Time Monitor.
+The run-time monitor handles
+real-time adjustments to the static plan in response to un-
+expected changes, such as resource delays, environmental
+disruptions, or evolving task requirements. This compo-
+nent ensures adaptability and robustness by:

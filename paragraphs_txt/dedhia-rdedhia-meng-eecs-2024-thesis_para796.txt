@@ -1,0 +1,1 @@
+spaces between any periods and slashes in the URLs, so that they are displayed as strings

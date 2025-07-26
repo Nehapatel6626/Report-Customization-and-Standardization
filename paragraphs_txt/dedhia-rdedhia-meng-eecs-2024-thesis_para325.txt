@@ -1,0 +1,1 @@
+valid math function before executing it. However, such a mitigation can be easily bypassed

@@ -1,0 +1,1 @@
+Previously, human annotators provided data by manually searching for papers on

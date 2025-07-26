@@ -1,0 +1,5 @@
+aberrations,  focus,  lighting, contrast,  etc.  The microscope  system is composed  of an optical
+resolution and a digital resolution.  Whichever  of these  two resolutions  is lower limits the
+resolution of the entire  microscope  system.  Table 3  summarizes  the theoretical  optical  and digital
+resolutions  achieved  with the AutoScope imaging  system.  We  show the  process  of deriving  these
+resolutions  across  the next two  sections.

@@ -1,0 +1,1 @@
+or an isolated computer. A Cuckoo server runs on the host computer receives ﬁles and

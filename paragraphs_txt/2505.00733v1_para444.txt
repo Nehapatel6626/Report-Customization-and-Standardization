@@ -1,0 +1,6 @@
+In this scenario, a UAV has to search for samples in a predefined area and analyze them. To accomplish
+this mission, the UAV can perform the actions (A1) search for samples, (A2) pick up and analyze samples,
+(A3) analyze samples on site, (A4) return to base and recharge, and (A5) land and fold gripper. The analyze
+action A2 performs a better analysis than A3, however, it consumes more battery. Furthermore, action A2
+requires a gripper, while A3 requires an infra-red camera. When operating, the UAV might run out of
+battery, and its gripper might fail.

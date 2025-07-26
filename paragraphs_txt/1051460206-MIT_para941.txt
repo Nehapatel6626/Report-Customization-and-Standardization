@@ -1,0 +1,1 @@
+window with a stride  of 2.  The  input  image  is  resized to  64x64  pixels,  with a depth of I  channel.

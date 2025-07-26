@@ -1,0 +1,4 @@
+Need to know where the first node is
+the rest of the nodes can be accessed
+No need to move the elements in the list for insertion and deletion operations
+No memory waste

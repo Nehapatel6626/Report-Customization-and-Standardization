@@ -1,0 +1,4 @@
+In this paper, we studied quantum algorithm performance improvement techniques in 
+transpilation, optimization, error mitigation, and machine learning. An approximation- 
+based novel optimization technique is proposed. The proposed AQFT algorithm improves 
+performance in addition to exponential speedups for QFT computation.

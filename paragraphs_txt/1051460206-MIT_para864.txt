@@ -1,0 +1,1 @@
+CNN,  we  send a set  of images  through  the network  simultaneously.  The  benefit  of using a  larger

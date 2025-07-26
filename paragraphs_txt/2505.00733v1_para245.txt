@@ -1,0 +1,2 @@
+These requirements limit which technology can be used. For example, technologies using graph-based or
+descriptive logic-based knowledge representation techniques (e.g., OWL (Antoniou and van Harmelen,

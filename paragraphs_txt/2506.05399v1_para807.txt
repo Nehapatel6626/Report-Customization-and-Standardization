@@ -1,0 +1,3 @@
+[5] J. Yu, J. Li, Z. Yu, Q. Huang, Multimodal transformer with multi-view
+visual representation for image captioning, IEEE transactions on circuits
+and systems for video technology 30 (12) (2019) 4467–4480.

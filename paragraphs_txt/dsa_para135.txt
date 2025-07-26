@@ -1,0 +1,5 @@
+We’ll consider only few operations and not all operations on Lists
+Let us consider Insert
+There are two possibilities:
+Ordered List 
+Unordered List

@@ -1,0 +1,1 @@
+rootmissionaborted?armthrustersguidedmodeSearchPipeline :RosaActionInspectPipeline :RosaActionpipeline found?pipelineinspected?Recharge :RosaActionIsActionFeasible(SearchPipeline)?IsActionFeasible(InspectPipeline)?IsActionFeasible(Recharge)?conditionactionsequence with memorysequencereactive sequencefallbackSilva et al.

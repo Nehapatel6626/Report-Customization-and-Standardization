@@ -1,0 +1,3 @@
+Land, A. H. and Doig, A. G. An automatic method of solving dis-
+crete programming problems. Econometrica, 28(3):497–520,
+1960.

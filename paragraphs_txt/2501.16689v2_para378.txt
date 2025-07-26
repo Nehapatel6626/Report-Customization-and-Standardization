@@ -1,0 +1,6 @@
+By combining these OR techniques with agent-based sys-
+tems, the validation protocol ensures comprehensive and
+adaptive checks for workﬂow consistency. Future work can
+explore integrating heuristic methods, such as genetic algo-
+rithms or simulated annealing, to further enhance recovery
+processes.

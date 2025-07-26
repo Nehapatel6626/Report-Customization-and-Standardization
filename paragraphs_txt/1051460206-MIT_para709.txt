@@ -1,0 +1,9 @@
+In an ideal  system, there is a theoretical  limit to the optical resolution  defined  as the
+diffraction-limited  resolution.  Diffraction  is the bending of a light wave around an  object that has
+a size in  the  same range  as the wavelength  of the light.  In Figure  3-4,  an incident  light wave is
+diffracted  by an object with  a width of w.  The  inverted cone  represents  the  diffraction pattern,
+which includes  a primary maximum  (0 th order  lobe)  in the  same direction  as  the  incident  light
+beam, and  secondary  maxima that fan around  the primary  maxima.  The  0 1h  order  lobe has the
+maximum intensity while  the  side lobes having  increasingly  smaller luminous  intensities.  The
+diffraction  pattern  fans out in  180-degrees  around the  0 th  order  lobe, with another  maximum
+occurring  at every  6  degrees.  The angle  of diffraction,  6,  is determined  by:

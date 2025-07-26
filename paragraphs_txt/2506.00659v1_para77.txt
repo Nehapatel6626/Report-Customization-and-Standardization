@@ -1,0 +1,9 @@
+Description
+Whether it is an internal function, a library imported function, or an entry point
+containing function.
+The size of the function in bytes.
+The function size in bytes, including any padding.
+Indicates whether the function has any side effects such as modifying external vari-
+ables or writing to files.
+The number of calling conventions used by the function.
+The number of basic blocks in the function.

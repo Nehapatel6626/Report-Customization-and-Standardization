@@ -1,0 +1,1 @@
+• Header: The header contains the PDF number and format information.

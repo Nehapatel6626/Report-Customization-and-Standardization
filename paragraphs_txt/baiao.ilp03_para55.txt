@@ -1,0 +1,1 @@
+FORTE (First Order Revision of Theories from Examples) is a system for automatically refining first-order Horn-clause knowledge bases. This powerful representation language allows FORTE to work in domains involving relations, such as our DDODB domain.

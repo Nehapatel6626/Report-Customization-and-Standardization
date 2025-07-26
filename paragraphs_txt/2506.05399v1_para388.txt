@@ -1,0 +1,7 @@
+In Show, Attend, and Tell, attention involves a set of at-
+tended visual features (z) generated from an attention function
+(fatt), which can be soft deterministic or hard and stochastic. In
+soft attention, the input to the LSTM comprises weighted image
+characteristics that take attention into account rather than the
+image x. Soft attention reduces the weight of irrelevant places
+with low attention, which helps to focus on relevant areas.

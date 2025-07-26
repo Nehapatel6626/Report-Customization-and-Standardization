@@ -1,0 +1,2 @@
+(S1W eightf inalpass − S1W eightinitialpass) ∗ 1000
+DepT imef inalpass − DepT imeinitialpass

@@ -1,0 +1,1 @@
+• Verify global constraint satisfaction.

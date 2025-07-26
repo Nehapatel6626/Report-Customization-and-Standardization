@@ -1,0 +1,3 @@
+Figure 10. Minimum knowledge required to model adaptation given Assumptions 1 and 2. The name
+attribute is depicted as name: Entity or name: Relationship inside each diamond and rectangle shape,
+respectively.

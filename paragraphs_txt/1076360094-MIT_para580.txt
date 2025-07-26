@@ -1,0 +1,1 @@
+PDFs are parsable, but many malicious PDFs are malformed and while they

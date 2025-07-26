@@ -1,0 +1,5 @@
+are better suited to the new configuration. To address this challenge, robots can be designed as self-adaptive
+systems (SASs) with the ability to perform task-and-architecture co-adaptation (TACA) (C´amara et al.,
+2020), i.e., simultaneously adapt their task execution and software architecture dependently during runtime.
+This work focuses on proposing a systematic solution for enabling TACA that can be reused with different
+robotic systems.

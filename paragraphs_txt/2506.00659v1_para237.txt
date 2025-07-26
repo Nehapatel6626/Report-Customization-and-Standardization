@@ -1,0 +1,4 @@
+27. PEiD: Peid. https://www.aldeid.com/wiki/PEiD (2024), accessed: 2024-04-15
+28. Perdisci, R., Lanzi, A., Lee, W.: Classification of packed executables for accurate
+computer virus detection. Pattern Recognition Letters 29(14), 1941–1946 (2008).
+https://doi.org/10.1016/j.patrec.2008.06.016

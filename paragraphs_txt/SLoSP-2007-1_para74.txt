@@ -1,0 +1,1 @@
+A better predictor would use n2 as well as v, n1, p

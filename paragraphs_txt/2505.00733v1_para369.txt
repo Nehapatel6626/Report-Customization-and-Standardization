@@ -1,0 +1,3 @@
+Changing water visibility (U2) was addressed with parameter adaptation by including three component
+configurations for the generate spiral node, each representing a different altitude for searching for
+the pipeline. Furthermore, a water visibility constraint was added to each configuration, representing

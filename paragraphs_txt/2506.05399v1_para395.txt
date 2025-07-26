@@ -1,0 +1,2 @@
+and considers only these parts when generating the next word
+in the caption, disregarding the rest [51].

@@ -1,0 +1,1 @@
+When  we include  Solution  3, the  R-squared  value  decreases to  0.92.  However,  these

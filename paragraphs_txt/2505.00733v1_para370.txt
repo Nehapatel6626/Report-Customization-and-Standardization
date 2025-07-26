@@ -1,0 +1,3 @@
+9 Metacontrol is the only managing subsystem packaged with SUAVE. The Metacontrol implementation for this use case is described in detail in the SUAVE
+paper (Silva et al., 2023).
+10 To the best of our knowledge, these are the only two scenarios in the literature in which the authors explicitly claim the need for TACA.

@@ -1,0 +1,1 @@
+The focus of this work was to apply TREND3 to automatically revise the analysis algorithm of the heuristic module, according to experimental results on top of the OO7 benchmark presented as examples.

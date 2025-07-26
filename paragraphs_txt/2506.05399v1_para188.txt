@@ -1,0 +1,17 @@
+The drawback of attention-based approaches is the low pre-
+cision in selecting the attention area, as mentioned in some arti-
+cles. Most attention-based methods choose regions of the same
+size and shape without considering the image contents. De-
+termining the best number of area recommendations involves a
+trade-off between small and huge amounts of detail. Another is-
+sue is the single-stage structure of attention-based approaches.
+Since most approaches have a single encoder-decoder attention
+structure, they cannot generate detailed captions for the images
+[7]. In a typical attention-based paradigm, an adaptive atten-
+tion module learns how often to attend, while a base attention
+model performs a single attention step for each time step. In
+these methods, the characteristic of the image matches one cap-
+tioning word at each time step. As the output of one atten-
+tion mechanism depends directly on the outcome of another,
+the relationship between the attended feature and the attention
+inquiry is not modeled [24].

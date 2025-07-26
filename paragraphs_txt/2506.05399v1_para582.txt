@@ -1,0 +1,12 @@
+where gn(c) is a vector formed by all n-grams of length n of
+the candidate sentence, ∥gn(c)∥ is the magnitude of the vector
+gn(c), gn(r j) is a vector formed by all n-grams of length n of
+(cid:13)(cid:13)(cid:13) is the magnitude of the
+the set of reference sentences,
+vectors gn(r j), gk(r j) is TF-IDF weighting for each n-gram wk
+of the set of reference sentences, gk(c) is TF-IDF weighting for
+each n-gram wk of the candidate sentence, hk(r j) is the number
+of occurrences of an n-gram wk in a reference sentence, hk(c)
+is the number of occurrences of an n-gram wk in the candidate
+sentence, Ω is the vocabulary of all n-grams, and I is the set of
+all images in the dataset.

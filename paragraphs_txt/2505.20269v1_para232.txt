@@ -1,0 +1,9 @@
+Figure 2 suggests that our proposal, for ANNs with one hidden layer,
+achieved a superior average running time for computing explanations in
+the voting dataset. This encoding outperforms the other approach with
+percentage improvements ranging from approximately 7.69% to 40.82%. The
+most significant improvements are observed with higher neuron counts. For
+instance, with 85 neurons per layer, our proposal shows an improvement
+of around 40.82%, and with 95 neurons, the improvement is about 31.65%.
+Moreover, our proposal generally exhibits similar or lower standard deviations,
+indicating more consistent performance across different number of neurons.

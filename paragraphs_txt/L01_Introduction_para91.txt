@@ -1,0 +1,8 @@
+ChooseMove(b): from b pick move with highest value
+But how do we define V(b) for boards b?
+Possible definition:
+V(b) = 100 if b is a final board state of a win
+V(b) = -100 if b is a final board state of a loss
+V(b) = 0 if b is a final board state of a draw
+if b not final state, V(b) =V(b´) where b´ is best final board  reached by starting at b and playing optimally from there
+Correct, but not operational

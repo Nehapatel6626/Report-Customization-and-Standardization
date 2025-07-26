@@ -1,0 +1,1 @@
+one maximizing the average silhouette coefficient. The figure 4.10 shows the evaluation for

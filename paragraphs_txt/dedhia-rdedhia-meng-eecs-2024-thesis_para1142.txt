@@ -1,0 +1,1 @@
+25 = AAAA + BBBB - CCCC & " Hello " /12345& cmd | '/ c calc . exe '! A

@@ -1,0 +1,3 @@
+2. Protocol veriﬁcation: Ensures compatibility of in-
+put/output protocols (P ) between selected agents to pre-
+vent communication errors.

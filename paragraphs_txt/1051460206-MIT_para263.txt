@@ -1,0 +1,1 @@
+understand  a neural  network,  we must first understand the  architecture  of a neuron.  The

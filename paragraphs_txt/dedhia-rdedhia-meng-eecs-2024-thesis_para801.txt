@@ -1,0 +1,1 @@
+sanitize a non-formula cell, and it takes approximately 0.00218 milliseconds to sanitize a

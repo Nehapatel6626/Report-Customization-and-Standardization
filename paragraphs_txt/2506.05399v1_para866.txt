@@ -1,0 +1,6 @@
+[50] D. Wang, H. Hu, D. Chen, Transformer with sparse self-attention mech-
+anism for image captioning, Electronics Letters 56 (15) (2020) 764–766.
+[51] K. Xu, J. Ba, R. Kiros, K. Cho, A. Courville, R. Salakhudinov, R. Zemel,
+Y. Bengio, Show, attend and tell: Neural image caption generation
+with visual attention, in: International conference on machine learning,
+PMLR, 2015, pp. 2048–2057.

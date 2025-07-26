@@ -1,0 +1,3 @@
+[75] C. Wang, Y. Shen, L. Ji, Geometry attention transformer with position-
+aware lstms for image captioning, Expert Systems with Applications 201
+(2022) 117174.

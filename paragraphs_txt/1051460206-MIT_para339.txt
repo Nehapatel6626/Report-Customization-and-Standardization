@@ -1,0 +1,1 @@
+correlation),  activation and  max pooling.  The  simplest block can be  represented by a  single

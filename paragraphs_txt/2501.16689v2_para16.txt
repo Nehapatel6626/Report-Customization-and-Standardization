@@ -1,0 +1,12 @@
+2. Attention Bias and Constraint Drift.
+In complex sce-
+narios, LLMs demonstrate a critical cognitive limitation
+known as cognitive tunneling. This phenomenon occurs
+when recently provided context dominates and progres-
+sively erodes earlier-established constraints. When plan-
+ning a multi-leg journey, for instance, an LLM might opti-
+mize the ﬁnal travel segment while completely neglecting
+crucial earlier constraints such as vehicle availability or re-
+quired rest periods. This bias toward local optimization fun-
+damentally undermines the global feasibility of generated
+plans.

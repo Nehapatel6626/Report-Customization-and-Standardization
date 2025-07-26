@@ -1,0 +1,1 @@
+Data normalization  is a  set of transformations  that normalize  the distribution of the  input

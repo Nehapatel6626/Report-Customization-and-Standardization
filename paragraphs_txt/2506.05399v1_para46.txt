@@ -1,0 +1,12 @@
+The application of deep learning approaches to segmenta-
+tion analysis of 2D and 3D images was discussed in a study by
+[35]. The study highlighted that while applying deep learning
+methods to segmentation analysis might seem straightforward
+for humans, it remains a challenge for computers due in part
+to the limited understanding of the functioning and processing
+mechanisms of the human brain. The study categorized super-
+vised learning-based techniques into encoder-decoder architect-
+ure-based, compositional architecture-based, attention-based, se-
+mantic concept-based, stylized captions, dense image caption-
+ing, and novel object-based image captioning, as outlined by
+[2].

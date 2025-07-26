@@ -1,0 +1,17 @@
+This phase comprises three steps, depicted in Fig. 2.
+1i Graph Extraction. PackHero must first obtain the CG specific to the
+unpacking stub extracted through the previously mentioned heuristic.
+2i Similarity Evaluation. The second step consists of evaluating the simi-
+larity between the embeddings computed by the GMN for the input graph and
+the graphs in the DB. Comparing the input graph against all graphs in the
+DB may be computationally expensive and decrease the general identification
+performance. Hence, PackHero computes the cosine similarity between the in-
+put graph and the medoids associated with each computed cluster to select the
+“closer” clusters. In other words, each PackHero identification corresponds at
+least to m GMN inferences, where m is the number of clusters. PackHero selects
+clusters represented by medoids with a positive cosine similarity with the input
+graph. Once the clusters are selected, PackHero evaluates the similarity between
+the input graph and each graph contained in the selected clusters.
+3i Packer Identification. Now, up to m clusters are identified as potential
+matches, and the similarity between the input graph and all graphs within these
+m clusters is computed. PackHero identifies the packer with the highest score

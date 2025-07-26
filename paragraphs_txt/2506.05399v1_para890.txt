@@ -1,0 +1,3 @@
+[74] W. Zhao, X. Wu, J. Luo, Cross-domain image captioning via cross-
+modal retrieval and model adaptation, IEEE Transactions on Image Pro-
+cessing 30 (2020) 1180–1192.

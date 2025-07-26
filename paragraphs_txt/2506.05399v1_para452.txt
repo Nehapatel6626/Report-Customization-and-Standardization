@@ -1,0 +1,7 @@
+Train
+Datasets
+Flickr8k
+6,000
+Flickr30k
+29,783
+MS COCO 113,287

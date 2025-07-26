@@ -1,0 +1,1 @@
+– Codify everything that falls under comments in data set (so it can be used as categorical

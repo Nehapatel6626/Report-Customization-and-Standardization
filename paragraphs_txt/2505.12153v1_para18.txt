@@ -1,0 +1,8 @@
+access, and sophisticated attacks such as model inversion and
+membership inference attacks, which can expose sensitive
+patient information [15]. Additionally, centralized models may
+fail to adequately capture the nuances of institution-specific
+surgical practices and procedural variations,
+thus limiting
+their translational efficacy and hindering personalized surgical
+decision-making [16].

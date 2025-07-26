@@ -1,0 +1,7 @@
+Dictionary ADT
+list
+binary search tree
+AVL tree
+Splay tree
+Red-Black tree
+hash table

@@ -1,0 +1,1 @@
+In setting up the experiment, we perform 25 random trials. For both D1 and D2, the

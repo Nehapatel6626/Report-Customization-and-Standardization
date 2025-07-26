@@ -1,0 +1,8 @@
+For AI Governance and Policy Further, our findings reveal risks in deploying AI
+systems across cultural contexts without considering their limitations in representing diverse
+moral frameworks. As AI increasingly mediates social processes, inability to accurately
+represent diverse moral intuitions could harm non-dominant cultural groups. Cultural impact
+assessments should be part of AI governance frameworks, with additional safeguards where
+significant limitations exist. Meaningful diversity in AI development teams is not merely a
+matter of fairness but a technical necessity for creating systems that adequately represent
+diverse human values.

@@ -1,0 +1,1 @@
+2.3 When opened in LibreOffice Calc, this formula sends the contents of the

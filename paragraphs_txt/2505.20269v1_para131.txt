@@ -1,0 +1,6 @@
+j=1,j̸=i oi ≤ oj, then oi ≤ oj is true under
+A for some j. Therefore, the assignment A ∪ {qj (cid:55)→ 1} satisfies the Equations
+(6)-(8). Conversely, if an assignment A satisfies Equations (6)-(8), it clearly also
+satisfies (cid:87)N
+j=1,j̸=i oi ≤ oj. We conclude this section with a proposition regarding
+the number of variables and constraints of the encoding discussed above.

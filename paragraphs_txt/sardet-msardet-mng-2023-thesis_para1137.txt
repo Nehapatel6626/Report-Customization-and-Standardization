@@ -1,0 +1,1 @@
+the original algorithm uses the Euclidean distance between objects as the base of its similar-

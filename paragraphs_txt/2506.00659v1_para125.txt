@@ -1,0 +1,12 @@
+introduce a clustering approach that reduces inference time and improves iden-
+tification performance, as demonstrated in our Experimental Validation. Each
+cluster contains graphs from only a single packer, allowing the identification
+of potential sub-groups within the same packer. This packer unicity is ensured
+by constructing the distance matrix in an intra-packer manner, as expressed in
+Algorithm 2. This approach can mitigate variations in unpacking stubs due to
+different configurations or versions of the same packer [16]. PackHero employs
+hierarchical clustering with a single linkage merge criterion, using a distance
+matrix derived from the trained GMN as input. The silhouette score [38] de-
+termines the optimal number of flat clusters for each packer. Finally, PackHero
+computes a medoid for each cluster, representing the graph with the minimal
+sum of dissimilarities to all other graphs in the cluster [38].

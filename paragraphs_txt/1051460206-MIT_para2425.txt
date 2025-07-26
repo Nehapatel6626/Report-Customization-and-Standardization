@@ -1,0 +1,1 @@
+In  order to validate the  accuracy  of the AutoScope,  we compared  the AutoScope results

@@ -1,0 +1,1 @@
+Volume 1 of Parallel Distributed Processing (1986) shows that limitations of Rosenblatt’s perceptron pointed out by Minsky and Papert (1969) can be overcome by multilayer perceptron (MLP)

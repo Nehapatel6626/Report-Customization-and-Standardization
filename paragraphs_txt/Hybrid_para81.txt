@@ -1,0 +1,1 @@
+There are other advantages of using the Hybrid over these other classifiers. Decision trees experience an exponential blow-up in their memory requirement as the χ-value decreases and the tree depth increases. And so does the Hybrid classifier. Figure 6 shows this blow-up for both the datasets by plotting the number of nodes in the tree. Hybrid

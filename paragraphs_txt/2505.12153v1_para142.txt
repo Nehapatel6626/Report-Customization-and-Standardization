@@ -1,0 +1,3 @@
+σ2, communication rounds T , local epochs E
+Ensure: Privacy-preserving optimised global policy π∗
+G

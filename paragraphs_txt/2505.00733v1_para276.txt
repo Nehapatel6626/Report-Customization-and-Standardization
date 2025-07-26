@@ -1,0 +1,1 @@
+6 In addition to ROSA, this work provides a generic ROS package to integrate ROS 2 with TypeDB: https://github.com/kas-lab/ros_typedb

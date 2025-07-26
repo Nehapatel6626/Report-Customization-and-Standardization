@@ -1,0 +1,1 @@
+We have discussed, implemented and analyzed decision trees and the naïve Bayes approach to machine learning.  We discussed problems with such learning techniques.  Optimizations, such as cross validation, ensembles and pruning, to eliminate problems such as over-fitting, were discussed and implemented.

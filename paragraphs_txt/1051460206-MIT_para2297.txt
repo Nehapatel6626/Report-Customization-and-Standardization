@@ -1,0 +1,1 @@
+average  number of particles  observed in a high-powered  field,  measured  as a count/HPF.

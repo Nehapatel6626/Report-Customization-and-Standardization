@@ -1,0 +1,2 @@
+Figure 4.8: t-sne visualization of machines
+labeling for rod draw data set.

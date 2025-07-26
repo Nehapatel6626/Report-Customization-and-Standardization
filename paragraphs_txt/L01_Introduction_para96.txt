@@ -1,0 +1,3 @@
+Collection of rules?
+IF double jump available THEN
+  make double jump

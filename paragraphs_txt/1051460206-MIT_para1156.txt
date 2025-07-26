@@ -1,0 +1,6 @@
+be  seen in Figure 4-7,  the overall  accuracy of a CNN  clearly  decreases  as the  resolution
+decreases.  The  accuracy  decreased  by  1.4%  from 91.4% at resolution of 1.36um to 90.0% at a
+resolution of 4.56um. The resolution  is reduced by  a factor  of 3.35  while the accuracy  is only
+reduced  by  1.4%.  This result  implies that majority  of features necessary  to accurately  classify the
+particles is still included  in the information  represented  in images  with a resolution  of 4.56um.
+Similar results  hold for a resolution  of 1 Oum  at 84.7%  accuracy.  More importantly,  these results

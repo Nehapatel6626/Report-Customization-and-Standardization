@@ -1,0 +1,41 @@
+Description
+Desired number of ﬁles to generate
+desired label to generate data
+set of malicious samples
+set of benign samples
+oracle function that indicates if malicious functionality in tact
+set of mutant ﬁles
+set of malicious mutant ﬁles
+set of malicious samples
+cutoﬀ specifying the minimum ﬁtness function score for “evasive” ﬁles
+function that creates mutations using a set maliciuos and benign ﬁles
+Classiﬁer
+Individual probabilistic score
+PDFRate (primary) classiﬁer
+Output of C1
+Cuckoo (primary) classiﬁer
+Output of C2
+Virus Total (primary) classiﬁer
+Output of C3
+Secondary classiﬁer using p1 and p2 as inputs
+Output of C4
+Secondary classiﬁer using p1, p2, and p3 as inputs
+Output of C5
+set of p1 scores
+set of p3 scores
+Samples
+Number of samples
+Individual sample
+Classiﬁer
+True Labels
+Predicted Labels
+Set of probabilities
+Individual probabilistic score
+Output of the last classiﬁer used in making a decisino
+Decision function
+Lower threshold for probability score i
+Upper threshold for probability score i
+Last threshold used in making a decision
+Number of primary classiﬁers used in classifying a ﬁle
+Number of total classiﬁers used
+value of accuracy score vs. time

@@ -1,0 +1,1 @@
+for the output  fully-connected  layer where  act(x)  =  x.  The  input  to the  first fully-connected

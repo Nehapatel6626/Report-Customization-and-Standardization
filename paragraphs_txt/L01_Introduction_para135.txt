@@ -1,0 +1,2 @@
+During search processes (planning, etc.) remember work involved in solving tough problems
+Reuse the acquired knowledge when presented with similar problems in the future (avoid bad decisions)

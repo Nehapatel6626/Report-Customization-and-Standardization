@@ -1,0 +1,1 @@
+commands that launch external programs, or click on URLs, they will have to manually edit

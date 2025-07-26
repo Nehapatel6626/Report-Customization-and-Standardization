@@ -1,0 +1,1 @@
+snippet has the candidate cohort size surrounded by 10 words on either side (4 to 5

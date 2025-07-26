@@ -1,0 +1,1 @@
+a cost function. Since the active defender system utilizes a set of thresholds to

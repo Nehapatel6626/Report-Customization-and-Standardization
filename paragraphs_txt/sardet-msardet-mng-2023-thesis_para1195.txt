@@ -1,0 +1,1 @@
+we just explained the two first steps (base data frame and dimensionality reduction) in the

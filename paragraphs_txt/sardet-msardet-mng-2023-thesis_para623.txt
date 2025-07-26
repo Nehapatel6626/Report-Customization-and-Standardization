@@ -1,0 +1,1 @@
+Here is an exhaustive list of variables captured during the two steps of acquisition.

@@ -1,0 +1,5 @@
+Given a wordlist of Chinese, and a string.
+Start a pointer at the beginning of the string
+Find the longest word in dictionary that matches the string starting at pointer
+Move the pointer over the word in string
+Go to 2

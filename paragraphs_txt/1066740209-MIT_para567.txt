@@ -1,0 +1,1 @@
+classifier made the mistakes because it didn’t recognize some strange strings as protein

@@ -1,0 +1,5 @@
+Examples for Principal 1:  Formal Definitions
+An encryption scheme is secure if no adversary can find the secret key when given a ciphertext.
+An encryption scheme is secure if no adversary can find the plaintext that corresponds to a given ciphertext.
+An encryption scheme is secure if no adversary can determine any character of the plaintext that corresponds to a given ciphertext.
+Although these capture many important aspects of privacy, they do not capture general information that the ciphertext may leak, which is not part of the plaintext itself, taking into account any information the attacker already has.

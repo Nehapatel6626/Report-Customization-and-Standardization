@@ -1,0 +1,1 @@
+For our CNNs,  we use p convolutional  blocks, where  p usually  is between  2 to  4.  Within each

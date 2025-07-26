@@ -1,0 +1,6 @@
+l=1 nl fewer variables than the one presented
+in Section 3. Additionally, this encoding has (cid:80)nL−1
+fewer constraints.
+l=1 nl
+Consequently, one would expect a reduction in running time for both building
+the logical constraints and computing explanations.

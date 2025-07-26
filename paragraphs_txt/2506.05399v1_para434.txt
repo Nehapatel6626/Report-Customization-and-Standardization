@@ -1,0 +1,11 @@
+The Flickr8K dataset, which consists of 8,000 images, ini-
+tially includes five English captions per image. The first 2,261
+images from its training set were selected for this study, and
+a professional translator created 750 Arabic captions. The re-
+maining images were translated into Arabic using Google Trans-
+late, followed by manual verification by native speakers. In to-
+tal, 3,427 images (from both MS COCO and Flickr8K) were
+used, with a vocabulary size of 9,854 words, and the longest
+caption containing 27 words. For experiments, the dataset was
+split into 2,400 training images (70%), 411 development im-
+ages (12%), and 616 test images (18%).

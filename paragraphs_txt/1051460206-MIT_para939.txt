@@ -1,0 +1,1 @@
+the  filter  layer(s)  is an  element-wise  activation  layer,  implementing  a  ReLU  function  across  each

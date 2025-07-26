@@ -1,0 +1,1 @@
+maximal  spatial  resolution is determined  by  the Nyquist-Shannon  sampling theorem  that states

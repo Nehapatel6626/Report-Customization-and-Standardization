@@ -1,0 +1,1 @@
+it’s actually necessary to use NLP to automatically process data, when the amount of

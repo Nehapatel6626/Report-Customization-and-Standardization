@@ -1,0 +1,1 @@
+Those combinations are such that the new variables/axes (i.e., principal components) are

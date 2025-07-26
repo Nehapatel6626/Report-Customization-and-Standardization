@@ -1,0 +1,1 @@
+(e.g., using a simple XML parser or regex) and integrate them into existing application logic.

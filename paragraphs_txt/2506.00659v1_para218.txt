@@ -1,0 +1,6 @@
+10. Galloro, N., Polino, M., Carminati, M., Continella, A., Zanero, S.: A Systematical
+and longitudinal study of evasive behaviors in windows malware. Computers & Se-
+curity 113, 102550 (Feb 2022). https://doi.org/10.1016/j.cose.2021.102550
+11. Hamilton, W.L.: Graph Representation Learning. Synthesis Lectures on Artificial
+Intelligence and Machine Learning 14(3), 1–159 (2020), publisher: Morgan and
+Claypool

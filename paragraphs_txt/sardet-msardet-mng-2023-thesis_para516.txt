@@ -1,0 +1,1 @@
+long short-term memory (LSTM) neural network has been created, implemented and trained

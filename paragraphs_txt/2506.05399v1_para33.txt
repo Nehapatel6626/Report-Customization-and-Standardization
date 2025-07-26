@@ -1,0 +1,5 @@
+Beyond these applications, image captioning plays a crucial
+role in virtual assistants [15], image retrieval [16], and informa-
+tion retrieval [17], as well as enhancing user engagement on so-
+cial media platforms [18]. Additionally, researchers are explor-
+ing its potential in emerging technologies such as automated

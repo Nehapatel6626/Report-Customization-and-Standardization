@@ -1,0 +1,7 @@
+G = (T, N, S, R, P)
+T is set of terminals
+N is set of nonterminals
+For NLP, we usually distinguish out a set P  N of preterminals, which always rewrite as terminals
+S is the start symbol (one of the nonterminals)
+R is rules/productions of the form X  , where X is a nonterminal and  is a sequence of terminals and nonterminals (possibly an empty sequence)
+P(R) gives the probability of each rule.

@@ -1,0 +1,4 @@
+The original exposition of the Porter stemmer did not describe it as a transducer but…
+Each stage is separate transducer
+The stages can be composed to get one big transducer
+http://tartarus.org/martin/PorterStemmer/

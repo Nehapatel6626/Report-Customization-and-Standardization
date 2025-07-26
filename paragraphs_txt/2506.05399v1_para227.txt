@@ -1,0 +1,4 @@
+MultiHead(Q, K, V) = Concat (head1, . . . , headh) W O
+(cid:17)
+i , VW V
+i

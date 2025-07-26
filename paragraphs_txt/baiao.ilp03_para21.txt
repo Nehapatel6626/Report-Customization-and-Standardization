@@ -1,0 +1,1 @@
+Given the schema of the database to be distributed, as in any distribution design methodology, we need to capture the set of operations over the database and quantitative information in order to define a fragmentation schema to be applied on the database schema, which is the goal of the fragmentation phase.

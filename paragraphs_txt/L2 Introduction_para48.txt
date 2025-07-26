@@ -1,0 +1,3 @@
+Should loan be approved?
+Compare a linear combination of applicant's attributes to a threshold.
+Both weights and threshold determined from historical data.

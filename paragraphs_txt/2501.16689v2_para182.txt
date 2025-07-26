@@ -1,0 +1,3 @@
+Here, N denotes roles assigned to agents, and E represents
+dependencies between roles, including constraints such as
+timing, data ﬂow, and supervision requirements.

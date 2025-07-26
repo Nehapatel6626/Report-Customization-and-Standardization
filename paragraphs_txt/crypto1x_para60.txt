@@ -1,0 +1,2 @@
+Chosen-ciphertext attack (active-adaptive):       the adversary is additionally able to obtain some information  about the decryption of ciphertexts of its choice, other than the one it must decrypt (or obtain information about its plaintext).                
+Different applications of encryption may require the encryption scheme to be resilient to different types of attack.

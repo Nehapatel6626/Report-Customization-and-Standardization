@@ -1,0 +1,1 @@
+a command that downloads the attack payload from a server controlled by the attacker, and

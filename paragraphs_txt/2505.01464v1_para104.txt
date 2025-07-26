@@ -1,0 +1,1 @@
+This defines a stochastic recursive process in latent space Rd. See Robbins and Kushner [8, 6].

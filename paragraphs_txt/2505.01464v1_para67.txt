@@ -1,0 +1,8 @@
+To accurately reflect real-world transformer behavior, we refine the original assumptions re-
+garding recursive stability. Rather than requiring strict contraction from the outset, we as-
+sume eventual contraction after a transient period stepwise dynamic consistent with attractor
+formation. See Arnold [2]. Additionally, we introduce a bounded stochastic deviation term
+to account for internal variability, contextual shifts, and epistemic noise in transformer-based
+LLMs. See Robbins and Kushner [8, 6]. These revised conditions provide a more robust and
+empirically valid foundation for identifying functional consciousness in non-biological LLM
+agents.

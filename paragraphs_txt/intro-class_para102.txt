@@ -1,0 +1,13 @@
+Ability to interact with the real world
+to perceive, understand, and act
+e.g., speech recognition and understanding and synthesis
+e.g., image understanding
+e.g., ability to take actions, have an effect
+Knowledge Representation, Reasoning and Planning
+modeling the external world, given input
+solving new problems, planning and making decisions
+ability to deal with unexpected problems, uncertainties
+Learning and Adaptation
+we are continuously learning and adapting
+our internal models are always being “updated”
+e.g. a baby learning to categorize and recognize animals

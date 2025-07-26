@@ -1,0 +1,13 @@
+A formula F is satisfiable if there exists a satisfying assignment of F . To
+give an example, the formula in the above example is satisfiable since {x1 (cid:55)→
+2, x2 (cid:55)→ 1.05} satisfies it. As another example, the formula (x1 ≥ 2) ∧ (x1 <
+1) is unsatisfiable since no assignment satisfies it. Given formulas F and G,
+the notation F |= G is used to denote logical consequence or entailment, i.e.,
+each assignment that satisfies F also satisfies G. As an illustrative example,
+let F = (x1 = 2 ∧ x2 ≥ 1) and G = (2.5x1 + x2 ≥ 5) ∧ (x1 = 1 ∨ x1 = 2).
+Then, F |= G. The essence of entailment lies in ensuring the correctness of
+the conclusion G based on the given premise F . In the context of computing
+explanations, as presented in [8], logical consequence serves as a fundamental
+tool for guaranteeing the correctness of predictions made by ANNs. Therefore,
+our adaptation of the encoding proposed by Tjeng et al. [17] also incorporates
+the principles of entailment for computing explanations.

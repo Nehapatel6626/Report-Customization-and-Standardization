@@ -1,0 +1,10 @@
+We used the PDFs  of particles  to generate  209  digital urine  samples.  Each  digital urine
+solution consisted  of RBCs, WBCs,  microbeads  and 'other'  particles.  To  determine  a  particle
+count/HPF  for a digital urine  solution,  we sampled the  PDF. For the RBC  and WBC  counts  we
+used the  RBC and  WBC  PDFs.  For the  microbeads,  we used  the PDF of the epithelial cells.  For
+the 'other'  particles,  we  also used the PDF of the epithelial  cells,  but we  increased  the resulting
+count drawn from the PDF  by  1.  So,  if we drew a count of 3.1  'other'  particles  per HPF from the
+PDF,  we used  4.1  'other'  particles  per HPF  for the sample  of digital  urine.  The main  reason  for
+this is to ensure that no digital  urine solution  has zero particles  in it, which  would bias our  results
+because  the algorithm  would  always achieve  100%  accuracy on these  solutions  (with no  particles
+to classify,  there  can be  no classification  errors).

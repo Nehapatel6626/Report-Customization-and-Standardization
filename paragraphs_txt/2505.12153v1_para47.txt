@@ -1,0 +1,14 @@
+incisions,
+suturing, etc. The robot does not know the optimal actions
+initially but gradually learns by experimenting with different
+actions, observing their outcomes (e.g., successful incision,
+minimal damage to tissue, or better healing outcomes), and
+adjusting its strategy based on these results. Each hospital or
+centre can train its RL model using local patient data (e.g.,
+from its surgeries) and share model updates (e.g., gradients
+or weights) with a central server. The server aggregates these
+updates into a global model, which is then sent back to the
+hospitals for further improvement. The key advantage here is
+that the data never leaves the local institution, ensuring privacy
+and security, but the model is still able to learn from a large,
+diverse set of data across multiple hospitals.

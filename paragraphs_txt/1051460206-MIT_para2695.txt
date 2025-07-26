@@ -1,0 +1,4 @@
+Hans,  C.,  Merchant,  F.  A.  & Shah,  S.  K.  Decision  fusion for urine  particle  classification  in
+multispectral  images.  in Proceedings of the Seventh Indian Conference on Computer
+Vision,  Graphics and Image Processing - ICVGIP '10 419-426  (2010).
+doi:10. 1145/1924559.1924615

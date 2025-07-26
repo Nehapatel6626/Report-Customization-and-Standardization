@@ -1,0 +1,1 @@
+where  W  is the the weight  matrix (with each  row representing  the weights of a single neuron),  x

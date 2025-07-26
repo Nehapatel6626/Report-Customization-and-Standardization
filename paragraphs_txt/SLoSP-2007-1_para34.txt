@@ -1,0 +1,5 @@
+But a treebank gives us many things
+Reusability of the labor
+Broad coverage
+Frequencies and distributional information
+A way to evaluate systems

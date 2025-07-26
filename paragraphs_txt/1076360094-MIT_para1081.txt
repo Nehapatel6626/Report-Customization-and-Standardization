@@ -1,0 +1,1 @@
+p1p1p3sNoYesNoYes(p1, p2)NoYesNoNoYesYesp4p4p2ssMaliciousBenignp1t11212>p1t1>MaliciousBenignBenignp4t4>p4t4>Maliciousp5t5>PDFrate(C1)C4C5Virus totalCuckoo(C2)(C3)keep false rejection of benign ﬁles below a certain speciﬁed rate for user happiness.

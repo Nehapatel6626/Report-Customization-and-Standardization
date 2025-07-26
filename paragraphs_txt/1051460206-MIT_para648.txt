@@ -1,0 +1,1 @@
+Field of view  is the  area of the  in-focus object  that is projected  onto  the image  sensor.  For

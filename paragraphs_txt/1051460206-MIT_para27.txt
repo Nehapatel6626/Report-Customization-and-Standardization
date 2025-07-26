@@ -1,0 +1,6 @@
+million  urine tests are  ordered  each year in the  US,  costing  between  $800  to  $2,000  million in
+direct  costs.  46%  of all  urinalysis tests  include  microscopic  analysis,  which  involves  identifying
+and  counting  each  particle  found in the urine.  Microscopic  urinalysis  is a costly  and  complex
+process  done in medical  laboratories.  An  inexpensive  and automated  cell-counting  system  would
+(1)  increase  access to  microscopic  urinalysis  and  (2) shorten  the turn-around  time  for physicians
+to make  diagnostic  decisions  by  permitting  the test to  be  done  at the point-of-care.

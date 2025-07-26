@@ -1,0 +1,16 @@
+Input: timestamps, durations
+Output: schedule conﬂicts
+Monitor: schedule_state() → alerts
+Optimize: timeline_adjust()
+Input: locations, routes
+Output: travel updates
+Monitor: location_state() → alerts
+Optimize: route_adjust()
+Input: resource demands
+Output: allocation status
+Monitor: resource_state() → alerts
+Optimize: resource_adjust()
+Input: safety requirements
+Output: violation alerts
+Monitor: safety_state() → alerts
+Enforce: safety_rules()

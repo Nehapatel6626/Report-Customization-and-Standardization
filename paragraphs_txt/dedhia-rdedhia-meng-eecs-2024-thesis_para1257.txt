@@ -1,0 +1,1 @@
+edoverflow. “Csv export filter bypass leads to formula injection.” (Apr. 26, 2017),

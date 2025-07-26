@@ -1,0 +1,1 @@
+- Finally, we create (cid:96)T using all possible combinations of threshold pairs across

@@ -1,0 +1,35 @@
+1c Collecting Packed Programs. The first step consists of collecting pro-
+grams for the packers we want to integrate into the tool. It is important to
+distinguish between an accessible and non-accessible packer. The former enables
+the use of the actual code packer to generate packed samples, including all possi-
+ble versions and configurations. This case is, therefore, ideal. Hence, we consider
+the “non-accessible packers” scenario to be the general case.
+2c Graphs Extraction. PackHero extracts a Call Graph for each collected
+program. Our implementation relies on radare2 [29] to analyze and extract the
+CGs. Each vertex of a CG consists of 12 features extracted using radare2 (shown
+in Table 2). Furthermore, a heuristic designed to filter the unpacking stub part
+of the CG is applied to simplify the topology of each graph (details in Subsec-
+tion 3.3). PackHero collects the generated CGs into a Database (DB) of graphs.
+3c Graph Matching Network Training. PackHero identifies intrinsic simi-
+larities between extracted CGs using a Graph Matching Network (GMN) [18], a
+specialized Graph Neural Network (GNN). The GMN processes pairs of graphs
+and outputs a numeric vector (embedding) for each graph. These embeddings
+result from information propagation between the two graphs, differing from tra-
+ditional embedding techniques [11] that compute embeddings solely from individ-
+ual graphs. To train the GMN, we label graph pairs as “similar” if they originate
+from the same packer and “dissimilar” otherwise. The network is trained to min-
+imize the distance between embeddings of similar graph pairs while maximizing
+the distance for dissimilar pairs. The loss function is defined as L(G1, G2) =
+E(G1,G2,l) [max{0, γ − l(1 − cos(G1, G2))}], where l ∈ {−1, 1} is the label associ-
+ated with the pair of graphs < G1, G2 >,γ is a margin parameter and cos is the
+cosine similarity [38] between the two graphs. In this case, the cos is intended as
+the cosine similarity between the two embeddings of size 256 extracted from the
+two graphs via the GMN. Lastly, E is the empirical risk we want to minimize,
+which can be done through stochastic gradient descent. The overall GMN design
+follows the original implementation of the paper that introduced it [18]. Finally,
+we propose a clustering approach to stabilize the number of matches required
+to identify each packer and improve the overall performance of the framework.
+Therefore, we also store the clusters and their respective medoids. Finally, we
+compute a cluster-specific threshold tc = 1
+j=1 cos(Gi, Gj)−σ. Namely,
+n2

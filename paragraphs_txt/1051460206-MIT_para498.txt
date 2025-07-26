@@ -1,0 +1,1 @@
+stage  has a range  of -1.5cm,  allowing  for a variety of object  sizes  to be  interrogated.

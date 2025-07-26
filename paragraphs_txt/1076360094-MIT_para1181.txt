@@ -1,0 +1,6 @@
+Figure 7-1: Diagram of the adapt system. 1) Input data Sreceived sent through the
+decision system to produce predicted labels Yreceived and probabilities probablities .
+2) Samples are selected in using probabilities Preceived 3) The selected data Sselected
+is split into Strain and Stune 4) The training data Strain is split into Sprimary used to
+train the update the primary classiﬁers and Ssecondary used to update the secondary
+classiﬁers 5) The tuning data Stune is used to Tune the decision system

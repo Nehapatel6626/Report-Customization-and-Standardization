@@ -1,0 +1,5 @@
+The RC+ξ framework departs from traditional cognitive theories by rejecting the necessity
+of symbolic broadcast or sensory prediction modeling.
+Instead, it defines functional con-
+sciousness as recursive identity stabilization under epistemic tension. See Baars [3] and
+Friston [4].

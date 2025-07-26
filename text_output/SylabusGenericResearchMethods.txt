@@ -1,0 +1,157 @@
+Geographic Research Methodology		
+
+
+
+Geography 4020									Generic
+
+
+
+Course Syllabus
+
+Instructor: Dr. Paul Sutton
+
+Office Hours: By appointment or drop by my office and take your chances 
+
+Office: #116 Boettcher West
+
+Phone: (303) 871-2399
+
+E-mail: psutton@du.edu
+
+
+
+Lecture: Tuesday  2:00-4:50 (Boettcher West 124)
+
+
+
+Required Text: An Introduction to Scientific Research Methods in Geography
+
+                         By Daniel R. Montello and Paul C. Sutton 
+
+
+
+
+
+Course Description
+
+This course will prepare you to make independent contributions to the discipline of geography by designing, conducting, and communicating the results of your own research. We take a scientific approach to the discipline from which we will go over topics such as: 1) The Scientific Method, 2) History and philosophical systems of the discipline of Geography: Natural Science, Social Science, and the Humanities, 3) Fundamental research concepts such as theory, empiricism, and scale, 4) Data collection and measurement, 5) Design of Analysis and Design of Experiments, 6) Sampling and statistical data analysis, 7) Data display and geo-visualization, 8) Reliability and validity, 9) GIScience and GISystems, 10) Scientific writing and communication, and 11) Ethics in Research. Throughout the course you will be conducting your own literature review and sharing it with the class. In addition to simply being a great way to inform yourself of a subject area, a literature review is also a means by which you make sure that whatever research you choose to embark on has not been done before and is informed by what others have already explored and communicated to the broader community. In addition you will prepare a research proposal as both a powerpoint presentation and as a written document. Ideally this research proposal will be your actual proposal for your graduate degree but this is not absolutely required.
+
+
+
+Method of Grading
+
+Class Participation							          	            10%
+
+Weekly Paper Abstracts and Discussion Questions (8 at 5% each)                    	40%
+
+Composite bibliography of at least 50 references					  5%
+
+Completion Certificate of the RCR at this web site				  5%
+
+https://www.citiprogram.org/default.asp?language=english
+
+
+
+Powerpoint Presentation of Research Proposal					15%
+
+Written Research Proposal								25%							
+
+Tentative Schedule of Lecture Topics
+
+
+
+Note: As stated above, this is a ‘Tentative’ schedule of lecture topics. Some weeks may bleed into the previous or following weeks topics. Typically I will lead a lecture/discussion on the readings from the text for the first hour or so of class. This will be followed by discussions and presentations from you the students on either your research project or your abstracts. 
+
+
+
+Week 1 (Tuesday January 6th)
+
+Reading: Chapter 1 & 2 A Scientific Approach to Geography & Fundamental Research Concepts  Discussion of Geography as hybrid discipline that incorporates physical science, social science, and the humanities. Theory, Hypotheses, and Empiricism. Discussion of issues of scale in geographic inquiry.
+
+
+
+Week 2 (Tuesday January 13th) 
+
+Reading: Chapter 3, 4, 5 & 6  Data Collection, Physical Measurements, Behavioral Observations and Archives, and Explicit Reports  Primary and secondary data sources, Quantitative and qualitative approaches to inquiry, coding of data to facilitate analysis
+
+
+
+NOTE: Today Class will meet in the Library – The Research Instruction Room room 213 Main Level (I will be at a conference). Eliana Schonberg will give a short talk about the services of the Writing Center at 2:00 and then Joe Kraus (our science librarian) will show you how to use things like ‘RefWorks’ an EndNote / ProCite kind of software package that you can use to create your own reference library, in addition Joe will show you how to use Web of Science and other Library resources. 
+
+
+
+Week 3 (Tuesday January 20th)
+
+Reading: Chapter 7 Research Design (Design of Experiments and Design of Analysis)
+
+The idea of experimental control and how we often do not have it in geographic research. Overview of basic research designs and a discussion of computational modeling. 
+
+ 
+
+Week 4 (Tuesday January 27th)
+
+Reading: Chapters 8 Sampling
+
+Sampling Frames and Sampling Designs. Issues associated with spatial sampling. Discussion of sampling with considerations of spatial auto-correlation. 
+
+
+
+Week 5 (Tuesday February 3rd )
+
+Reading: Chapter 9 Statistical Data Analysis
+
+Stochastic vs. Deterministic processes and models. Statistical description as an efficient means of summarizing large quantities of information. The logic of statistical inference and hypothesis testing. 
+
+
+
+
+
+
+
+
+
+Week 6 (Tuesday February 10th  )
+
+Reading: Chapter 10  Data Display: Tables, Graphs, Maps, Visualizations
+
+A good figure is worth 1,000 words. This week we will look at many of the principles of the visual display of quantitative and qualitative information. A good supplemental text for this weeks topic is Edwin Tuffte’s The Visual Display of Quantitative Information. 
+
+
+
+Week 7 (Tuesday February 17th )
+
+Reading: Chapter 10  Reliability and Validity 
+
+Here we will examine the idea of ‘reliability’ of measurements. We will also discuss related issues of accuracy and precision. Validity or the ‘Truth Value’ of research results and interpretations will also be discussed. Various types of validity will be defined: Internal Validity, External Validity, Construct Validity, and Statistical Conclusion Validity.
+
+Week 8 (Tuesday February 24th  )
+
+Reading: Chapter 12 Geographic Information Techniques in Geography and GIScience
+
+Here we discuss several aspects of the special nature of spatial data and the means by which we represent and analyse spatial data. Spatial scale, temporal scale, measurement scale, and the modifiable areal unit problem will also come into play. 
+
+
+
+Week 9 (Tuesday March 3rd )
+
+
+
+Reading: Chapter 13 & 14 Scientific Communication in Geography and Ethics in Research
+
+This week we will provide some general and specific suggestions for various modes of scientific communication including oral presentations and journal articles. Some discussion of the peer review system and major library resources will also take place. The final chapter on ethics will cover some of the standard ethical issues that institutional review boards consider on a regular basis particularly issues associated with human subjects research. Also, everyone should complete the Responsible Conduct of Research (RCR) course at this web site:
+
+https://www.citiprogram.org/default.asp?language=english
+
+
+
+Week 10 (Tuesday March 10th  )  
+
+No Reading assignment. Student Research Presentations
+
+
+
+Assignment Expectations
+
+See the course web page for samples of what the expectations for the assignments are.
+
+This will include: Powerpoint Presentation, Research Proposal, and an Abstract with discussion questions for Garret Hardin’s paper Paramount Principles in Ecological Economics.

@@ -1,0 +1,7 @@
+4. p3 ← C3(s)
+5. p5 ← C5(p1, p2, p3)
+if p5 < t1
+5 then
+Pf inal ← (p5 − t5) ∗ 3
+3
+ˆY ← { ˆY |F alse}

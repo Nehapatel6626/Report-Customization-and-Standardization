@@ -1,0 +1,21 @@
+( (S
+    (NP-SBJ (DT The) (NN move))
+    (VP (VBD followed)
+      (NP
+        (NP (DT a) (NN round))
+        (PP (IN of)
+          (NP
+            (NP (JJ similar) (NNS increases))
+            (PP (IN by)
+              (NP (JJ other) (NNS lenders)))
+            (PP (IN against)
+              (NP (NNP Arizona) (JJ real) (NN estate) (NNS loans))))))
+      (, ,)
+      (S-ADV
+        (NP-SBJ (-NONE- *))
+        (VP (VBG reflecting)
+          (NP
+            (NP (DT a) (VBG continuing) (NN decline))
+            (PP-LOC (IN in)
+              (NP (DT that) (NN market)))))))
+    (. .)))

@@ -1,0 +1,1 @@
+Training the network by back propagation lets the data determine the features of the machine-learning model

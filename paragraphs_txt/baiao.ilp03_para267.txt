@@ -1,0 +1,1 @@
+Lima, F., & Mattoso, M. (1996). Performance Evaluation of Distribution in OODBMS: a Case Study with O2. Proc IX Int'l Conf. on Par & Dist Computing Systems (PDCS'96), ISCA-IEEE, Dijon, pp.720-726.

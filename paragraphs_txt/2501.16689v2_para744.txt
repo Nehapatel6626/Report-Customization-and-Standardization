@@ -1,0 +1,2 @@
+Dynamic Adjustment Mechanism When deviations oc-
+cur, the system initiates a three-phase response:

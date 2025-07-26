@@ -1,0 +1,6 @@
+2004)) do not satisfy the representation requirements above apart from allowing attributes for entities (part
+of Requirement 4). Although it is possible to transform the proposed knowledge model into one that can be
+represented with graph-based or description logic-based approaches by reifying the model (Oliv´e, 2007),
+each reification applied to the original model can be considered as an introduction of a semantic disparity
+between the CDM and the machine-readable model, making it harder to understand and reuse it. Thus, this
+work does not consider applying reification.

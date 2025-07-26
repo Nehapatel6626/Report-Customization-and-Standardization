@@ -1,0 +1,5 @@
+Newsgroup cs.class.cs460
+Compass for assignments
+Web sitehttp://www.cs.illinois.edu/class/sp10/cs460
+Have a wiki set up for lab infrastructure notes
+Could use that for other communication if beneficial

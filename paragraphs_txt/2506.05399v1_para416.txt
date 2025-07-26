@@ -1,0 +1,11 @@
+Furthermore, with the MS COCO dataset, techniques such
+as [79] and [77] demonstrate strong performance, scoring highly
+in the BLEU and CIDEr metrics, showcasing their effective-
+ness in generating diverse and accurate captions. However,
+achieving high performance on non-English datasets such as
+Bengali BORNON and Indonesian FEEH-ID is more challeng-
+ing, underscoring the need for further research and develop-
+ment in multilingual and culturally diverse image captioning
+techniques. This variation underscores the importance of cre-
+ating more inclusive datasets and methods that perform well in
+linguistic and cultural contexts.

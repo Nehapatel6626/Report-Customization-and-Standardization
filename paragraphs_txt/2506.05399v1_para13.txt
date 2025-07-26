@@ -1,0 +1,11 @@
+Image captioning involves generating an image description,
+which includes identifying important objects and their relation-
+ships and creating syntactically and semantically correct sen-
+tences. This task requires collaboration between the computer
+vision (CV) and natural language processing (NLP) research
+communities [1] [2]. The large volume of unannotated images
+on the Internet has driven the automated image captioning pro-
+cess [3]. Furthermore, advances in deep learning models have
+significantly improved computer vision and natural language
+processing capabilities [4] [5]. Fig.1 shows the general archi-
+tecture of the image captioning model.

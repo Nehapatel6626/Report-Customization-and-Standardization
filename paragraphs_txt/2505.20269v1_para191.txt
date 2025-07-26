@@ -1,0 +1,5 @@
+Proposition 3. Let C be an instance predicted as a class c ∈ K by an ANN,
+then formula C ∧ F ∧ ¬E has n0 + nL + (cid:80)nL−1
+l=1 nl real variables and nL − 1 +
+(cid:80)nL−1
+l=1 nl

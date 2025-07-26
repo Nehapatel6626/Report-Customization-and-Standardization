@@ -1,0 +1,1 @@
+23.  Shuangbao (Paul) Wang. Recursion depth reduction in shor’s algorithm. Optica Publishing Group,

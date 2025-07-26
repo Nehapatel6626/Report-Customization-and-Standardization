@@ -1,0 +1,7 @@
+We introduced a novel approach to modeling acknowledgment and context switching within domain-specific chatbot 
+applications  by  repurposing  GUI  metaphors  (Submit/Reset)  as  explicit  tasks  in  LLM  prompts.  By  capturing  these 
+actions as structured session data—such as <isCustomerConfirmed>yes</isCustomerConfirmed>—and incorporating 
+chain-of-thought  reasoning  (internally  for  clarity),  we  align  the  conversational  flow  with  back-end  logic  more 
+effectively. Our examples in customer management and hotel booking scenarios demonstrate how this mechanism 
+helps  mitigate  user  confusion,  preserve  coherent  context,  and  create  a  more  efficient,  user-friendly  interaction 
+paradigm.

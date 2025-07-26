@@ -1,0 +1,1 @@
+Bias is separate from attribute vector p. Weights are row vectors in matrix W; hence not transpose is required. In this case W is 1xR. Input is transformed by W and b into n for “net”.  Net is transformed into a in the output node.

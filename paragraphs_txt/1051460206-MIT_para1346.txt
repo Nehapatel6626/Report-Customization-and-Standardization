@@ -1,0 +1,12 @@
+we  observe  the lowest accuracies  with white  blood cells, having  an average  final  accuracy  of
+64%.  A  likely explanation  for this result is  the medium from  which we  obtain the white blood
+cells  from.  Specifically,  the BA/F3  white  blood cells  are  obtained from a medium  (a culture
+medium with  fetal bovine serum)  that includes  many contaminating  particles.  When labeling  the
+WBCs,  it is difficult to differentiate  between  the actual  WBCs  and the  many contamination
+particles.  Thus, the  WBC  labels will  have an  increased  amount  of human  error,  leading to a
+system poorly  trained  in identifying  WBCs.  This  issue transfers  to later experiments  since  1)  the
+CNN  is poorly trained  to  identify  WBCs  and 2) the the WBC  medium  introduces these
+contamination  particles  in all future  experiments.  Figure 4-13  shows  an AutoScope  image  of the
+WBC  reference  solution  with just WBCs.  In the zoomed  in image, we  can observe  WBCs
+surrounded  by  contamination  particles  labeled as  others.  In this image,  the  'other'  particles  seem
+more clear,  but some  are  ambiguous  to the  naked eye.

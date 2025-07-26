@@ -1,0 +1,4 @@
+Oliv´e, A. (2007). Conceptual modeling of information systems (Springer). doi:10.1007/978-3-540-39390-0
+Park, Y.-S., Koo, H.-M., and Ko, I.-Y. (2012). A task-based and resource-aware approach to dynamically
+generate optimal software architecture for intelligent service robots. Software: Practice and Experience
+42, 519–541

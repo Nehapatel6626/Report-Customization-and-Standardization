@@ -1,0 +1,4 @@
+[80] R. Mulyawan, A. Sunyoto, A. H. Muhammad, Automatic indonesian
+image captioning using cnn and transformer-based model approach, in:
+2022 5th International Conference on Information and Communications
+Technology (ICOIACT), 2022, pp. 355–360.

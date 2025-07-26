@@ -1,0 +1,1 @@
+and uses it to run the command wget , which downloads the file “malware.exe”. It then uses

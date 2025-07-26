@@ -1,0 +1,5 @@
+Combinatorial Explosion
+Micro-world successes don’t scale up.
+How to Organize and accumulate large amounts of knowledge?
+How to translate from informal, ill-structured statements to formal reasoning (e.g., understand a story)?
+What are reasonable simplifying assumptions?

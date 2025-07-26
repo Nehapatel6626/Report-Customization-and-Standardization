@@ -1,0 +1,4 @@
+given only the pointer location, we cannot access its predecessor in the list.
+Another task that is difficult to perform on a linear linked list is traversing the list in reverse.
+Doubly linked list A linked list in which each node is linked to both its successor and its predecessor
+In such a case, where we need to access the node that precedes a given node, a doubly linked list is useful.

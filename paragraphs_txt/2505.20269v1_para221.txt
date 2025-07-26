@@ -1,0 +1,6 @@
+Despite the encoding by Fischetti and Jo [5] achieved a better average running
+time for computing explanations in 7 out of 12 cases, both encodings generally
+perform similarly when considering the variability of the time. For instance, in
+the spect dataset, the average execution time of the encoding by Fischetti and
+Jo [5] (2.64 seconds) falls within the range of the average minus the standard
+deviation of our approach (3.21 − 1.81). This pattern is observed across several

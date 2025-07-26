@@ -1,0 +1,4 @@
+Q1: Why compare graphical user interface (GUI) interactions with chatbots? 
+A1: Traditional GUIs often provide explicit buttons for Submit (committing data) and Reset (discarding data). These 
+interactions are unambiguous, allowing the back-end to track user intent clearly. In contrast, chatbots rely heavily on 
+natural language cues that can be vague or underspecified, leading to confusion about user intent and context [1].

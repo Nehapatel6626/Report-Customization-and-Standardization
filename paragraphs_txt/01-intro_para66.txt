@@ -1,0 +1,8 @@
+(4th C BC+) Aristotle, George Boole, Gottlob Frege, Alfred Tarski
+formalizing the laws of human thought
+(16th C+) Gerolamo Cardano, Pierre Femat, James Bernoulli, Thomas Bayes
+formalizing probabilistic reasoning
+(1950+) Alan Turing, John von Neumann, Claude Shannon
+thinking as computation
+(1956) John McCarthy, Marvin Minsky, Herbert Simon, Allen Newell
+start of the field of AI

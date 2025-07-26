@@ -1,0 +1,9 @@
+WER BLEU fine-tuned Model
+Corpus
+23.7
+SPC
+SDS-200
+18.2
+STT4SG-350 14.0
+44.4
+SRB-300

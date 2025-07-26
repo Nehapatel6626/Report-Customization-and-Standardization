@@ -1,0 +1,7 @@
+Since we are assuming the semantics of formulas over the domain of real
+numbers, an assignment A for a formula F is a mapping from the first-order
+variables of F to elements in the domain of real numbers. For instance, {x1 (cid:55)→
+2.3, x2 (cid:55)→ 1} is an assignment for (2.5x1 + 3.1x2 ≥ 6) ∧ (x1 = 1 ∨ x1 = 2) ∧ (x1 =
+2 → x2 ≤ 1.1). An assignment A satisfies a formula F if F is true under this
+assignment. For example, {x1 (cid:55)→ 2, x2 (cid:55)→ 1.05} satisfies the formula in the above
+example, whereas {x1 (cid:55)→ 2.3, x2 (cid:55)→ 1} does not satisfy it.

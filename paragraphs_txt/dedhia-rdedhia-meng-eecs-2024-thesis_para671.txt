@@ -1,0 +1,1 @@
+special characters forces spreadsheet programs to read formulas as simple text, and as a

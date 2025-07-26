@@ -1,0 +1,1 @@
+provided  in  Table  11  maps a range  of particle  counts to  a cumulative sample  count for that

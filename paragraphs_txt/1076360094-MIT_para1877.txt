@@ -1,0 +1,1 @@
+simple evaluation function could be the f1 score for the aggregate decision system.

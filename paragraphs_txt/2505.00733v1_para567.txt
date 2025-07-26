@@ -1,0 +1,4 @@
+Thalheim, B. (2000). Entity-relationship modeling - foundations of database technology (Springer)
+Valner, R., Vunder, V., Aabloo, A., Pryor, M., and Kruusam¨ae, K. (2022). TeMoto: A Software Framework
+for Adaptive and Dependable Robotic Autonomy With Dynamic Resource Management. IEEE Access
+10, 51889–51907

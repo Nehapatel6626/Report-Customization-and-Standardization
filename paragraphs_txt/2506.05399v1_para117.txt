@@ -1,0 +1,8 @@
+standing pipelines as they effectively represent the relational
+structure between objects in an image. The study provides a
+detailed taxonomy of graph types employed in this domain, an
+extensive review of GNN models applied to 2D image under-
+standing, and a forward-looking roadmap for future research.
+This survey covers key applications such as image captioning,
+visual question answering, and image retrieval, specifically fo-
+cusing on approaches that exploit GNN-based architectures.

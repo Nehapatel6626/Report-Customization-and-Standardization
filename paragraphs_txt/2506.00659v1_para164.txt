@@ -1,0 +1,16 @@
+Table 5 shows the average number of inference calls to the GMN during the
+identification, i.e., the average number of matched graphs needed to identify a
+packer from a program. Removing the clustering approach, the similarity with
+the input graph is evaluated with the entire collection. Thus, the metric is always
+equal to the size of the entire collection. In contrast, the values we empirically
+obtain with the use of the clustering approach show are close to the ideal number
+of inference calls to identify the packer. The ideal number of inference calls in
+the presence of the clustering approach is represented by the sum of m (number
+of clusters) and the number of programs per packer stored in the DB. Thus,
+we can state that, involving the clustering approach, the PackHero’s number of
+inference calls does not depend on the number of packers but only on the number
+of samples for each packer stored in the DB. To further emphasize the significance
+of the results shown in Table 5, it is important to consider the inference time
+for our GMN. Indeed, while this network’s expressive power surpasses that of
+its alternatives, it comes with the trade-off of increased temporal complexity.
+In this experiment, the average single inference time recorded was 1.76ms. The

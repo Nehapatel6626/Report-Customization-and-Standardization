@@ -1,0 +1,1 @@
+The cost function is set up as described in Chapter 6, using the g1() function and

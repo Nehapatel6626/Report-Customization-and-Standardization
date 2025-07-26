@@ -1,0 +1,9 @@
+Reactive Planning Performance The ﬂight delay sce-
+nario revealed signiﬁcant differences between LLMs’ ca-
+pabilities. DeepSeek demonstrated superior spatial reason-
+ing by routing Michael directly to the airport, an insight
+that should have come from MP’s common-sense spatial
+reasoning. This unexpected ability to improve workﬂow
+highlights the synergy between MP and LLM —MP pro-
+vided early alert through its information agent (Table 15 in
+Appendix E.9).

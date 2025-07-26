@@ -1,0 +1,3 @@
+where  p  is the  ground truth probability  distribution,  q is the  estimated probability  distribution,
+and j is the  index of each  class.  This loss formulation  quantifies  the difference  between
+distribution  p and  q,  and is derived  from comparing  encoding  schemes  within information

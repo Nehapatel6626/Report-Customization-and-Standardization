@@ -1,0 +1,1 @@
+number of breaks per kilometers and decide if the preform should be scraped or send back

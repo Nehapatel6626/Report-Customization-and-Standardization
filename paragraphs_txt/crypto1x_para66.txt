@@ -1,0 +1,3 @@
+Principal 3 – Proofs of Security
+Rigorous vs Ad Hoc Approaches to Security  (take-away: solutions that rely on definitions, assumptions and proofs are better than off-the-cuff solutions).
+Provable Security and Real-World Security       (take-away: provable security does not imply security in the real-world: it is only as good as the assumptions made)

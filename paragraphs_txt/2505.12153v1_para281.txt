@@ -1,0 +1,26 @@
+Future work will clinically validate the robotic-assisted
+surgery framework with real patient data and partner hos-
+pitals, focusing on adaptability, generalization, and real-time
+performance under healthcare regulations. Key improvements
+target computational efficiency and latency using hardware-
+efficient strategies like quantised models, edge computing, and
+lightweight compression. In parallel, a critical direction will
+explore formal verification techniques to rigorously validate
+the correctness, safety, and privacy guarantees of the FL proto-
+cols and policy adaptation mechanisms. This includes employ-
+ing model checking and formal methods to analyse decision-
+making sequences in high-assurance surgical settings, ensuring
+that the learned policies conform to medical safety constraints
+and privacy-preserving standards. Such verification methods
+will further strengthen the framework’s trustworthiness and
+clinical readiness, especially for regulatory approval in safety-
+critical applications. Additionally, security concerns related
+to privacy attacks, adversarial robustness, and reconstruction
+threats will be addressed. Scalability and personalization will
+improve through hospital-specific model fine-tuning, ensuring
+collaborative performance. The framework may also advance
+to real-time patient monitoring and remote diagnostics, empha-
+sizing energy efficiency for underserved areas. This project ad-
+vances privacy-preserving, adaptive, secure AI-driven robotic
+surgery, tackling key challenges in privacy, efficiency, and
+clinical integration.

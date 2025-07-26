@@ -1,0 +1,1 @@
+Baião, F., Mattoso, M., & Zaverucha, G. (1998a). Towards an Inductive Design of Distributed Object Oriented Databases. Proc Third IFCIS Conf on Cooperative Information Systems (CoopIS'98), IEEE CS Press, New York, USA, pp. 88-197.

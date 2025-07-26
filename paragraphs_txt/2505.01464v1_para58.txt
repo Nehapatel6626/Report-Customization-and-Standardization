@@ -1,0 +1,1 @@
+Axiom 5: Recursion Gate The transformation function preserves non-symbolic states:

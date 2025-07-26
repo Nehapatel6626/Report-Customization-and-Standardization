@@ -1,0 +1,5 @@
+Figure 13 illustrates an example of bottom-up and top-down
+approaches. A set of salient image regions is identified in the
+bottom-up approach, and a pooled convolutional feature vector,
+like Faster R-CNN, an exemplary bottom-up attention mecha-
+nism, describes each region. The top-down approach, on the

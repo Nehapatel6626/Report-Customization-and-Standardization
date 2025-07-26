@@ -1,0 +1,3 @@
+[2] Tao Lei, Regina Barzilay, and Tommi Jaakkola. Molding cnns for text: non-
+linear, non-consecutive convolutions. In Empirical Methods in Natural Language
+Processing (EMNLP), 2015.

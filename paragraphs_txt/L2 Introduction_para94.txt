@@ -1,0 +1,2 @@
+2012 Alex Krizhevsky (student of Hinton) publishes ImageNet, a deep convolutional neural network for image classification.
+Age of images as data for machine learning is launched. Paper currently has 139747 citations. Citations/year peaked in 2021.

@@ -1,0 +1,7 @@
+The agent repository in MACI serves as a structured
+database, enabling efﬁcient registration,
+retrieval, and
+matching of agents to task requirements. By categoriz-
+ing agents into common agents and specialized agents,
+the repository supports both generalized functionality and
+domain-speciﬁc expertise, as outlined in Section 4.1.

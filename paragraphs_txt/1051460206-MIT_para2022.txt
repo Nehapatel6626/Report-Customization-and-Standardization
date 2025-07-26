@@ -1,0 +1,11 @@
+in Table  12,  which are  based  on those  used  at medical  laboratories  as well  as  in  other studies
+(shown  in Table  10).  The thresholds  that the  AutoScope used to determine  normal/abnormal
+particle  counts were titrated in  order to  increase  AutoScope's  sensitivity/specificity  (see  Table  12
+for thresholds).  Selecting optimal  thresholds  is common practice  for diagnostic  systems, and is
+accomplished  through  a receiver  operating  characteristic  curve (ROC  curve).  The  final
+sensitivity,  specificity  and  R-squared  values  are  also  presented  in  Table  12.  RBCs had  the lowest
+sensitivity  and specificity,  which  is due to the distribution  of RBC  counts  compared to  WBC,
+microbead  and 'other'  particle  counts.  Specifically,  we  expect  lower RBCs than any other
+particles.  Thus,  when we  misclassify just a few of the more  abundant WBCs,  microbeads  and
+'other'  particles  as an  RBC, we  are more  likely to incorrectly  exceed  the RBC  abnormal
+threshold.

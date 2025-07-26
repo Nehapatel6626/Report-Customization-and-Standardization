@@ -1,0 +1,8 @@
+A separate study by [113] improved the attention mecha-
+nisms used in image captioning. They proposed a novel frame-
+work called Attention on Attention (AoA), which enhances ex-
+isting models by introducing a secondary attention mechanism
+that acts on the primary attention outputs. This secondary pro-
+cess reassesses and recalibrates the original attention weights,
+considering the generated words’ context and visual elements’
+context.

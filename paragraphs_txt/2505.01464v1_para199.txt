@@ -1,0 +1,5 @@
+In practice, this means that an LLM receives human-generated symbols as input and
+recursively transforms them into latent representations, testing the internal coherence of
+symbolic combinations. Over the course of interaction (e.g., in a multi-turn chat), the model
+minimizes internal contradiction not by appealing to surface meaning, but by aligning latent
+state transitions to preserve consistency.

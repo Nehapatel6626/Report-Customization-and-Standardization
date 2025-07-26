@@ -1,0 +1,11 @@
+Start times
+Durations
+Deadlines
+Buffer requirements
+Locations
+Routes
+Travel times
+Trafﬁc conditions
+Critical constraints
+Resource states
+Coverage requirements

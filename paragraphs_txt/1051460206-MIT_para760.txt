@@ -1,0 +1,1 @@
+our  current algorithm  doesn't use anyway).  Green  pixels  have a  sampling  interval  of pixel size *

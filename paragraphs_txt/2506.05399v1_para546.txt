@@ -1,0 +1,7 @@
+CIDEr was specifically designed to evaluate image captions
+and descriptions. Unlike other metrics that only work with five
+captions per image, it utilizes consensus through TF-IDF, mak-
+ing it unsuitable for analyzing the consensus between generated
+captions and human assessments [7]. Therefore, the average co-
+sine similarity between the candidate and reference sentences is
+used to calculate the CIDEr score for n-grams of length n as

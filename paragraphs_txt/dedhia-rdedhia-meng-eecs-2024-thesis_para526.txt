@@ -1,0 +1,1 @@
+When RFC 4180 was written, since the CSV format hadn’t been formalized yet, there

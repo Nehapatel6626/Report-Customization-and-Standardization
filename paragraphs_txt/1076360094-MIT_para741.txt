@@ -1,0 +1,1 @@
+following four logical modules Synthesize, Model, Decide, and Adapt (SMDA). Syn-

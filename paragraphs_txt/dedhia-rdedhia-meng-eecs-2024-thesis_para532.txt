@@ -1,0 +1,1 @@
+didn’t need to. Records consisted of a set of text strings, or fields, separated by commas,

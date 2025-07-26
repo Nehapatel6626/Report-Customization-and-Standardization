@@ -1,0 +1,3 @@
+Table 9. Audio data per broadcast station. IDs that start with 1 correspond to TV
+stations, while those starting with 2 correspond to radio stations. Stations 271 to 276
+are excluded from the training set.

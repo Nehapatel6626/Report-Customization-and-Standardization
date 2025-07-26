@@ -1,0 +1,4 @@
+Sanchez-Lopez, J. L., Su´arez Fern´andez, R. A., Bavle, H., Sampedro, C., Molina, M., Pestana, J., et al.
+(2016). Aerostack: An architecture and open-source software framework for aerial robotics. In 2016
+International Conference on Unmanned Aircraft Systems (ICUAS). 332–341. doi:10.1109/ICUAS.2016.
+7502591

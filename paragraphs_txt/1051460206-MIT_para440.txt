@@ -1,0 +1,1 @@
+the magnitude  of the  'slope'  of the  loss  function at it's current  weight.

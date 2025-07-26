@@ -1,0 +1,3 @@
+• Robust Optimization: Focuses on solutions that re-
+main feasible under uncertainty, ensuring plans adapt
+to disruptions (Ben-Tal & Nemirovski, 2009).

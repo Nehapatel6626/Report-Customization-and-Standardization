@@ -1,0 +1,2 @@
+Figure 5-3.  The semantic segmentation algorithm used a trained FCN network to threshold the
+image,  and then extracts the particle centroids from the binary image.

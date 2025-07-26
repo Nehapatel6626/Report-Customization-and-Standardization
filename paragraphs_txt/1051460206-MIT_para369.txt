@@ -1,0 +1,1 @@
+into  a set of class scores  at the output.  CNNs  are  highly  complex  scoring  functions with millions

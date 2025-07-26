@@ -1,0 +1,7 @@
+The corpus was created to reflect diversity, aiming to include all dialect re-
+gions, while ensuring a balanced gender ratio. However, children and individuals
+over 65 might be significantly underrepresented, as most speakers are broadcast
+presenters, likely in their professional years. Thus, older individuals, as well as
+younger ones, are primarily represented in conversational contexts (ref. Table 8).
+As a result, models trained on this dataset may perform below average for these
+demographic groups and individuals with strong, less commonly spoken dialects.

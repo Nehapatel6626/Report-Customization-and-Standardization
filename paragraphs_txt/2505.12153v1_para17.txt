@@ -1,0 +1,6 @@
+Traditionally, RL-driven surgical systems have predomi-
+nantly relied on centralized training paradigms, wherein sen-
+sitive patient data from multiple institutions are aggregated
+and stored in a central repository for model development
+[14]. This centralized approach introduces significant privacy
+risks, increasing vulnerabilities to data breaches, unauthorized

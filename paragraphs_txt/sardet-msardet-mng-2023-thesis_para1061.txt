@@ -1,0 +1,1 @@
+(axes) that are constructed as linear combinations or mixtures of the initial variables (axes).

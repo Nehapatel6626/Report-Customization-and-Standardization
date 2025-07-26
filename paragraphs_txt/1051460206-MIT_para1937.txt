@@ -1,0 +1,1 @@
+PDF. The PDF  outputs counts  in terms of particles  per HPF. During  manual  microscopy  in  labs,

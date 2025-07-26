@@ -1,0 +1,3 @@
+Alberts et al. (2025) recently conducted a systematic mapping study2 on “robotics software architecture-
+based self-adaptive systems” (RSASSs), identifying 37 primary studies on RSASSs published since 2011.
+Among these, Alberts et al. (2025) identified that four studies (Park et al., 2012; Lotz et al., 2013; Gherardi

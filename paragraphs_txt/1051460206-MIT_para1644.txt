@@ -1,0 +1,7 @@
+same as  the per particle  accuracy  that we will  later use  to characterize  algorithm performance.
+Figure  5-4  shows the per pixel  accuracy across  training  cycles.  Although the system  seems  to
+plateau rapidly,  it's critical  to  allow the FCN  to train  to completion.  The performance  gains in
+accurately  identifying  particles  are  significant as we  increase  the per pixel  accuracy  from  98% to
++99%.  As can  be  seen  in Figure  5-5,  this +1%  increase  in per-pixel  accuracy  changes the
+predicted output  from foreground blobs  interspersed  with background  pixels to  filled foreground
+circles.

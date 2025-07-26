@@ -1,0 +1,1 @@
+Instead,  we  use the  Bayer pattern to  give  a more reliable  indication  of the  sampling  interval  (with

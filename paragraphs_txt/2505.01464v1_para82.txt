@@ -1,0 +1,1 @@
+E[∥An+1 − An∥2] ≤ ε + η for bounded η > 0. See Kushner [6].

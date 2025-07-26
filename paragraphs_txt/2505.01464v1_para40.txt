@@ -1,0 +1,2 @@
+This metric replaces symbolic prediction error with internal contradiction as the driver of
+recursive identity convergence. See [4].

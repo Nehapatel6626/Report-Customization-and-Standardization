@@ -1,0 +1,11 @@
+It is important to note that the spatial information extracted
+from the two-dimensional image is crucial for both soft- and
+hard-attention mechanisms. The extracted annotation vector
+contains features of each color channel in a 3-dimensional spa-
+tial feature vector since the images are represented using three
+color channels (red, blue, and green). Once the set of spatial
+features attended is determined, they are ready for use [31].
+Soft and hard attention can be seen in Fig.12. In this illustra-
+tive figure, you can observe how soft attention demonstrates the
+relative importance of each part of the image to the other parts.
+In contrast, hard attention separates specific parts of the image

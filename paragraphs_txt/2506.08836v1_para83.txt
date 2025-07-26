@@ -1,0 +1,8 @@
+Description
+unique clip identifier
+path to the Swiss German clip in the audio folder
+unique identification of the broadcast station
+unique sample identifier
+duration of the clip in seconds
+start timestamps of the merged utterances in the original audio
+end timestamps of the merged utterances in the original audio

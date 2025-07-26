@@ -1,0 +1,1 @@
+4. an experimental evaluation of ROSA based on simulated robotic self-adaptation scenarios.

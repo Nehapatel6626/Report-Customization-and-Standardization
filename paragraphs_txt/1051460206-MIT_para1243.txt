@@ -1,0 +1,1 @@
+shown  in Table 6.  90% of each class  was allocated  for training  while  10%  of each class  was

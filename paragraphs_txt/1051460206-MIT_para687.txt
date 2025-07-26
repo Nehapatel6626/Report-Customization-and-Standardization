@@ -1,0 +1,1 @@
+The  resolution  is a  critical  design  parameter  since it  defines  the smallest  feature  that can

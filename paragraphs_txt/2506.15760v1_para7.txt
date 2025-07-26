@@ -1,0 +1,6 @@
+Quantum computing has advanced from computing using quantum chips alone to a quan- 
+tum and High Performance Computing (HPC) hybrid approach with heterogeneous orches- 
+tration, development tools such as transpiler services, to abstraction services which focus 
+on  circuit  and  application  functions.  The  Quantum  Information  Software  Kit  (Qiskit) 
+Code Assistant uses Artificial Intelligence (AI) to help programmers generate function- 
+related block code [1, 2].

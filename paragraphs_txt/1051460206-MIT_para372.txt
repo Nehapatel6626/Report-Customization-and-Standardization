@@ -1,0 +1,1 @@
+where ximage  is a vectorized  input  image,  W  is the  set  of trainable  weights  of the network,

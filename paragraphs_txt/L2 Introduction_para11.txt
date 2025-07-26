@@ -1,0 +1,1 @@
+Brain analogy: Input from multiple neurons are combined to produce a signal s.  Neuron receiving the signal can transform it before passing it on to another neuron.

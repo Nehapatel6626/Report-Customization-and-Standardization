@@ -1,0 +1,1 @@
+Dependency structure shows which words depend on (modify or are arguments of) which other words.

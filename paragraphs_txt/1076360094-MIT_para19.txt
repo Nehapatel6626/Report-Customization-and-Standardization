@@ -1,0 +1,12 @@
+In
+Over the last few years, cyber attacks have become increasingly sophisticated.
+an eﬀort to defend themselves, corporations often look to machine learning, aiming
+to use the large amount of data collected on cyber attacks and software systems
+to defend systems at scale. Within the ﬁeld of machine learning in cybersecurity,
+PDF malware is a popular target of study, as the diﬃculty of classifying malicious
+ﬁles makes it a continuously eﬀective method of attack. The obstacles are many:
+Datasets change over time as attackers change their behavior, and the deployment
+of a malware detection system in a resource-constrained environment has minimum
+throughput requirements, meaning that an accurate but time-consuming classiﬁer
+cannot be deployed. Recent work has also shown how automated malicious ﬁle cre-
+ation methods are being used to evade classiﬁcation.

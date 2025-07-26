@@ -1,0 +1,1 @@
+[8]  F. Esposito, D. Malerba, and G. Semeraro, “Decision Tree Pruning as a Search in the State Space,” Machine Learning: ECML-93, Berlin, 1993.

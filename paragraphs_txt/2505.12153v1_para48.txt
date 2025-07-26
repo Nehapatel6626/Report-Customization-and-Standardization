@@ -1,0 +1,15 @@
+A detailed summary of the parameters and notation used
+throughout this study is provided in Table I, ensuring clarity
+and consistency in defining key mathematical formulations
+and system components. One of the exciting opportunities
+that FL offers in this domain is the ability to train mul-
+tiple policies (i.e., different RL models) that specialize in
+different surgical contexts or conditions. For example, one
+policy might be particularly good for handling minimally
+invasive surgery while another might be better suited for open
+surgery or tissue repair. Another policy could specialize in
+robotic-assisted precision surgeries. The global model, which
+combines knowledge from all hospitals, can then intelligently
+select and apply the appropriate policy depending on the
+context of the current surgery (e.g., the type of procedure being
+performed, the patient’s condition, or the tools available).

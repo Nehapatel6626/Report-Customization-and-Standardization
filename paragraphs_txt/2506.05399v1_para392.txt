@@ -1,0 +1,5 @@
+Soft attention can be trained through standard backpropa-
+gation by applying weights to the annotated vector of picture
+features when the feature is salient. In contrast, stochastic hard
+attention can be trained by maximizing the lower bound varia-
+tion [35].

@@ -1,0 +1,2 @@
+if all checks pass
+if any check fails

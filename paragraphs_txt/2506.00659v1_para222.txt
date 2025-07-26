@@ -1,0 +1,4 @@
+14. Jacob, G., Comparetti, P., Neugschwandtner, M., Kruegel, C., Vigna, G.: A static,
+packer-agnostic filter to detect similar malware samples. In: International Con-
+ference on Detection of intrusions and malware, and vulnerability assessment.
+vol. 7591 (01 2010). https://doi.org/10.1007/978-3-642-37300-8_6

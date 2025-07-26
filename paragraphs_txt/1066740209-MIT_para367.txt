@@ -1,0 +1,1 @@
+mentions the number of people who had the mutation and the disease.

@@ -1,0 +1,4 @@
+21. Luk, C.K., Cohn, R., Muth, R., Patil, H., Klauser, A., Lowney, G., Wallace, S.,
+Reddi, V.J., Hazelwood, K.: Pin: building customized program analysis tools with
+dynamic instrumentation. SIGPLAN Not. 40(6), 190–200 (jun 2005). https://
+doi.org/10.1145/1064978.1065034

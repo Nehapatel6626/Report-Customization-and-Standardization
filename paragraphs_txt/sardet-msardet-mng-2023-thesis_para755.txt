@@ -1,0 +1,1 @@
+telemetry on end-points is lost. Additionally, some differences between the two spindles from

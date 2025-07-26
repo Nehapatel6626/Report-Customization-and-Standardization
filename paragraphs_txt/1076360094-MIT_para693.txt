@@ -1,0 +1,1 @@
+It performs better than PDFRate and Cuckoo is able to distinguish most malicious

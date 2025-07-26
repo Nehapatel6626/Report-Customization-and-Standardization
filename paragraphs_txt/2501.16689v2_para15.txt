@@ -1,0 +1,4 @@
+create signiﬁcant barriers to self-assessment. This intrin-
+sic limitation means LLMs cannot reliably detect errors or
+inconsistencies in their generated content, necessitating ex-
+ternal mechanisms to validate and reﬁne their output.

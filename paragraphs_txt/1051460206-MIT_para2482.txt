@@ -1,0 +1,6 @@
+results  are  significantly biased  by  the  inaccuracy  of a single image.  Specifically,  the results  of
+Solution 3  are fully  represented  by the inaccuracies  of a single  image where  other Solutions  are
+represented by  the average  of multiple  images. Furthermore,  we expect  to  obtain  poor results
+with Solution  3  since it's composed  of 100% WBCs,  for which we get the  lowest  classification
+accuracy.  Even  when  including  Solution 3,  we  still achieve  an R-squared  comparable  to  clinical
+standards,  as  seen in  Table X.

@@ -1,0 +1,5 @@
+C ← ∅
+for each unique packer p ∈ P do
+DBp ← {G ∈ DB | P(G) = p}
+D ← initialize empty distance matrix for DBp
+for Gi, Gj ∈ DBp, i ̸= j do

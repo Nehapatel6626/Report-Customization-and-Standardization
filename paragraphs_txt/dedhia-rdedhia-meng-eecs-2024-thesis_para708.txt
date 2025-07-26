@@ -1,0 +1,1 @@
+the beginning of cells. Similarly, if a spreadsheet program parses single or double quotes as

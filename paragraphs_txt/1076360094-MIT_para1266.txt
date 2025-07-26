@@ -1,0 +1,6 @@
+Table 8.1: Experimental data 25 trials the Active Defender System performance over
+5 stages. Column µF 1 corresponds to the average f1 score across all trials. Column σf 1
+corresponds to the standard deviation in f1 score across all trials. Column µT imeperF ile
+corresponds to the average estimated classiﬁcation time per ﬁle. Column σT imeperF ile
+corresponds to the standard deviation in approximated average classiﬁcation time per
+ﬁle.

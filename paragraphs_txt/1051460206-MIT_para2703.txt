@@ -1,0 +1,1 @@
+13.  Karpathy,  A.  & Li, F.-F.  Convolutional Neural  Networks for  Visual  Recognition  (CS23 1).

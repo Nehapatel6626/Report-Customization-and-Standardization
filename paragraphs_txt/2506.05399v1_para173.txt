@@ -1,0 +1,9 @@
+Recent image captioning models leverage transformer ar-
+chitectures to connect informative regions in the image using
+attention, resulting in excellent performance. However, some
+previous transformer-based image captioning models have limi-
+tations because the transformer’s internal architecture was orig-
+inally designed for machine translation. Text sequences are in-
+herently sequential, whereas images are two- or three-dimensional,
+leading to significant differences in the relative spatial relation-
+ships between regions in images compared to phrases [47].

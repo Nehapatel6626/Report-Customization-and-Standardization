@@ -1,0 +1,1 @@
+The  training  data for the  FCN was generated  from the  same  process/data  used to  create

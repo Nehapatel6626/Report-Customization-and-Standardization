@@ -1,0 +1,5 @@
+Cipher: enables the expression of a public code by a secret code by making the relevant information confidential. 
+Cryptographic system: cryptographic algorithms (e.g. a cipher).
+Plaintext: information encoded by using a public code.
+Ciphertext: information encoded by using a cipher. 
+Encryption, decryption: actions that transform a plaintext to a ciphertext, and a ciphertext to a plaintext.

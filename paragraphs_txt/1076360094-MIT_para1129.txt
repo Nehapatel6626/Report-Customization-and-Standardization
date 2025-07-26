@@ -1,0 +1,1 @@
+produces threshold pairs using the 0%, 20%, 40%, 60%, 80%, and 100% percentile

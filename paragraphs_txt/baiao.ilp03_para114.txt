@@ -1,0 +1,1 @@
+navigates( O, Y, X ).

@@ -1,0 +1,1 @@
+uncorrelated and most of the information within the initial variables is ‘captured by’ the first

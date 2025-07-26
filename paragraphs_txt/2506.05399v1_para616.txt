@@ -1,0 +1,5 @@
+As AI evolves, attention-based transformer models will re-
+main superior in bridging the gap between vision and language.
+Addressing the challenges and opportunities outlined in this
+survey will be essential for realizing the full potential of image
+captioning in diverse real-world applications.

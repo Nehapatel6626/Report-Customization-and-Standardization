@@ -1,0 +1,4 @@
+We aim to connect our work to the existing critique of LLMs, with a focus on their application
+and the perception of their capabilities in terms of language understanding and ability to
+communicate. Further, we outline the unreflected application of synthetic users in the social
+sciences as human replacements and critique the expressiveness of those studies.

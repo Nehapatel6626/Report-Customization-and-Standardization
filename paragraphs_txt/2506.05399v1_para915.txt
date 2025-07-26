@@ -1,0 +1,4 @@
+[96] L. Alzubaidi, J. Zhang, A. J. Humaidi, A. Al-Dujaili, Y. Duan, O. Al-
+Shamma, J. Santamar´ıa, M. A. Fadhel, M. Al-Amidie, L. Farhan, Re-
+view of deep learning: Concepts, cnn architectures, challenges, applica-
+tions, future directions, Journal of big Data 8 (1) (2021) 1–74.

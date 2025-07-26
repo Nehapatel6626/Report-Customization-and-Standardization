@@ -1,0 +1,3 @@
+Identify implicit
+constraints that may be overlooked, such as transition
+times, dependencies, or practical limitations.

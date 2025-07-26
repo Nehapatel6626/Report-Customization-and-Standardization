@@ -1,0 +1,1 @@
+reduction in segmentation  accuracy  maps to  a 20%  reduction in  cell  count accuracies  for a

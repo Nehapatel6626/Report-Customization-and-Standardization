@@ -1,0 +1,1 @@
+aims to partition n observations into k clusters in which each observation belongs to the

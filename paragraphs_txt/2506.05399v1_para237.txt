@@ -1,0 +1,6 @@
+may affect the quality of the generated captions [2]. The effec-
+tiveness of attention mechanisms in deep learning models has
+led researchers to emphasize their importance in image caption-
+ing [31]. Fig. 6 shows changes in attention over time as the
+model generates each word to reflect the relevant parts of the
+image [51].

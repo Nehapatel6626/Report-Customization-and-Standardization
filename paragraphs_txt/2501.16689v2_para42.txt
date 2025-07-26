@@ -1,0 +1,3 @@
+Moreover, MACI advances the state of the art in multi-
+agent systems by addressing challenges that existing frame-
+works have not fully resolved.

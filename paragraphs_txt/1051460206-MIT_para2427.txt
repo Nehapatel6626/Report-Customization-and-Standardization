@@ -1,0 +1,6 @@
+We  sent three  samples  (Solution  5,  6  and 8)  of the  synthetic  urine to a clinical  urinalysis
+lab (MIT  Medical  Laboratory).  Without  knowledge  of the concentrations  of the samples,  the lab
+performed  a standard  microscopic  urinalysis  test, and reported back RBC/HPF  and WBC/HPF
+for each  sample.  The  medical laboratory  results are  provided  in ranges  of particles  per HPF  (see
+Table  17).  We could not  send all  synthetic urine  solutions to  a medical  laboratory  for testing
+since  some  solutions  had microbeads,  which medical  laboratories do  not deal  with.

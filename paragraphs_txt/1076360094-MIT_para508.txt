@@ -1,0 +1,1 @@
+base list of objects described with the oﬀset, and whether each object is in the body

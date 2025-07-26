@@ -1,0 +1,6 @@
+In contrast, Claude produced two feasible plans but missed
+the 10:00 AM alert in WR, starting its schedule at 1:00 PM
+and missing opportunities for proactive actions like early
+Grandma pickup to free Sarah as a driver. GPT4o failed
+entirely, producing three constraint violations it could not
+recognize, preventing further improvements.

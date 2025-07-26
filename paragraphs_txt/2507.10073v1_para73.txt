@@ -1,0 +1,6 @@
+For Social Science Research For social scientists using LLMs as research tools, our
+findings suggest both opportunities and limitations. These models provide a unique oppor-
+tunity to study cross-cultural understanding challenges. Researchers should empirically
+validate model-generated responses against human baseline data rather than assuming valid
+synthetic populations. Integrating insights from moral psychology into AI development
+could inform targeted approaches to addressing limitations in cultural representation.

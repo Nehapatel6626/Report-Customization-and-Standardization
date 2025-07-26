@@ -1,0 +1,7 @@
+time difference observed in the tests conducted on 9 packers is not substantial
+between the version with and without clustering. However, in a scenario with
+200 packers and 100 samples in the DB for each packer, the time required for
+identification would be ≈ 35s without clustering but only 21ms with it.
+Answer to RQ2. The clustering approach improves PackHero’s performance,
+especially with limited samples per packer, while its effectiveness remains unaf-
+fected by the number of recognized packers, ensuring scalability.

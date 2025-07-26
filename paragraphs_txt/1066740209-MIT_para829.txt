@@ -1,0 +1,1 @@
+than SVM for all metrics (Table 6.5), probably because of the relatively few training

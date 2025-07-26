@@ -1,0 +1,3 @@
+• Solution quality vs optimal
+• Computation attempts before giving up
+• Error recognition capability

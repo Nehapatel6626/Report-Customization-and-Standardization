@@ -1,0 +1,5 @@
+The application of the MFQ-2 across multiple LLMs and cultural contexts reveals notable
+patterns in how these models represent diverse moral frameworks compared to human
+responses. Figure 1 illustrates the comparative distribution of moral foundation dimensions
+across human responses, Llama 3.1 8B, and Mistral 7B, with data points representing
+different country perspectives.

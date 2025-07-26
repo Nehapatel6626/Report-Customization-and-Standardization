@@ -1,0 +1,10 @@
+The first attentive deep paradigm for image captioning was
+Show, Attend, and Tell [118]. In this model, the decoder used
+an LSTM for language modeling, and the feature extractor was
+a CNN. Specifically, the VGG model was pre-trained on Ima-
+geNet. Show, Attend, and Tell was quite similar to other CNN-
+LSTM encoder-decoder architectures for captioning videos, ex-
+cept that it utilized two attention mechanism variants: soft and
+hard attention on the spatial convolutional features to generate
+a set of attended features for the LSTM decoder, acting as a
+language model.

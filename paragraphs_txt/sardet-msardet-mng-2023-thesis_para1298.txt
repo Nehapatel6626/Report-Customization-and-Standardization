@@ -1,0 +1,1 @@
+periods (those have been assigned by hand) to the clusters found by the algorithm. An ideal

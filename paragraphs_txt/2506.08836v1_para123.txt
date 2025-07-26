@@ -1,0 +1,39 @@
+Fine-Tuning
+WER BLEU
+45.3
+zero-shot
+37.4
+63.2
+on SRB-300
+25.0
+58.1
+zero-shot
+27.2
+70.5
+on SRB-300
+19.7
+50.5
+31.4
+on STT4SG-350
+71.0
+on STT4SG-350 and SRB-300 19.4
+63.7
+23.5
+zero-shot
+72.3
+18.4
+on SRB-300
+69.1
+21.1
+zero-shot
+on SRB-300
+17.1 74.8
+61.8
+26.5
+71.8
+18.7
+37.5
+on STT4SG-350
+44.4
+60.8
+on STT4SG-350 and SRB-300 24.7

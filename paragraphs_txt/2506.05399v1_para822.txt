@@ -1,0 +1,6 @@
+[18] K. Shuster, S. Humeau, H. Hu, A. Bordes, J. Weston, Engaging image
+captioning via personality, in: Proceedings of the IEEE/CVF Conference
+on Computer Vision and Pattern Recognition, 2019, pp. 12516–12526.
+[19] H. Fujiyoshi, T. Hirakawa, T. Yamashita, Deep learning-based image
+recognition for autonomous driving, IATSS research 43 (4) (2019) 244–
+252.

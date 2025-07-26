@@ -1,0 +1,1 @@
+p_a1_ref_range = re . compile ( " [A - Z ]+[0 -9]+:[ A - Z ]+[0 -9]+ " )

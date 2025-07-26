@@ -1,0 +1,1 @@
+An alternative direction is to use a bidirectional LSTM which also captures the

@@ -1,0 +1,1 @@
+Gaussian kernel of width 0.1 . . . . . . . . . . . . . . . . . . . . . . .

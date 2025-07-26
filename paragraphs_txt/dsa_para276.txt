@@ -1,0 +1,2 @@
+When list has only one node, that the head points to the same node as the tail, the removal is quite simple. 
+Algorithm disposes the node, pointed by head (or tail) and sets both head and tail to NULL.

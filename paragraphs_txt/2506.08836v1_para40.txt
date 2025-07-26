@@ -1,0 +1,4 @@
+60.7 XLS-R 1B, [25]
+69.6 XLS-R 1B, [20]
+74.7 XLS-R 1B, [20]
+37.5 XLS-R 1B, this work (ref. Table 4)

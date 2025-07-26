@@ -1,0 +1,1 @@
+First,  we  compare  the  average  AutoScope  results  for each solution  to the reference  (see

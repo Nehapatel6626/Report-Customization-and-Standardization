@@ -1,0 +1,1 @@
+2 from js import document , FileReader , Uint8Array , File , URL

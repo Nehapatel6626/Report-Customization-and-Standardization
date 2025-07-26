@@ -1,0 +1,1 @@
+subtraction,  where  a mean  intensity  value  is subtracted  from each  color channel  of a pixel.  The

@@ -1,0 +1,6 @@
+SPC The Swiss Parliaments Corpus (SPC) [22] consists of 299 hours of tran-
+scribed recordings of the Bernese parliament "Grosser Rat". The data is divided
+into a training set of 293 hours and a test set of 6 hours. Since the parliament is
+located in Bern, most speakers use a Bernese dialect. The annotations are not
+entirely accurate transcriptions. The duration of the samples varies from 0.1 s to
+108 s, with an average duration of 7.1 s.

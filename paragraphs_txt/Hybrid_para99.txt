@@ -1,0 +1,1 @@
+[10] G. Tesauro,  “Temporal Difference Learning and TD-Gammon,” Communications of the ACM, 38(3), 1995.

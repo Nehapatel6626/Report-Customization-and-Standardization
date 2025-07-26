@@ -1,0 +1,4 @@
+– A hybrid ML and graph signature-based approach for packer identification,
+enabling automatic and scalable integration of both accessible and non-
+accessible packers (e.g., custom or closed-source) directly from packed pro-
+grams throughout the tool lifecycle.

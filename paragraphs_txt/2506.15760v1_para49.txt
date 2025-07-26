@@ -1,0 +1,2 @@
+–  EstimatorQNN. Combine parametrized quantum circuits and Estimator primitive. 
+–  SampleQNN. Translate bit-string into the desired outputs.

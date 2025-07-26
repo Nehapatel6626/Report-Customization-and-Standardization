@@ -1,0 +1,6 @@
+This research introduces Multi-Agent Collaborative Intelli-
+gence (MACI), a framework designed to overcome funda-
+mental limitations in current LLMs for reasoning and plan-
+ning. By reimagining computational intelligence through
+a hierarchical, distributed architecture, MACI represents a
+structured approach to complex problem-solving.

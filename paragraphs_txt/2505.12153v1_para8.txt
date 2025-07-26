@@ -1,0 +1,4 @@
+Index Terms—Federated Deep Reinforcement Learning, Au-
+tonomous Surgical Robots, Task-Based Privacy Preservation,
+Federated Learning, Differential Privacy, Secure Reinforcement
+Learning, Homomorphic Encryption, and Secure Aggregation.

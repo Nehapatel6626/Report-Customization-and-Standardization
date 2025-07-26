@@ -1,0 +1,1 @@
+(S1W eigthf inalpass − S1W eightinitialpass) ∗ 1000 ∗ 100

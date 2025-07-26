@@ -1,0 +1,5 @@
+Function call stack
+Removing recursion
+Balancing symbols (parentheses)
+Evaluating Reverse Polish Notation
+Depth first search

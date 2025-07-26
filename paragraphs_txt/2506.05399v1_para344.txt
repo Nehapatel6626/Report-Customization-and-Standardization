@@ -1,0 +1,1 @@
+Figure 9: A general architecture of the CNN-LSTM encoder-decoder model for image captioning.

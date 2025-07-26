@@ -1,0 +1,5 @@
+architecture
+the
+uses
+as
+region

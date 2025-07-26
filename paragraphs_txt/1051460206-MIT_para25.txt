@@ -1,0 +1,4 @@
+system that could  accurately  detect  red blood cells  (RBCs),  white blood cells  (WBCs), and other
+particles  in  urine.  The  Autoscope is a proof-of-concept  for this end-to-end  automated
+microscopic  urinalysis  system.  A  similar  system can eventually  be  applied to  microscopic
+analysis  of blood.

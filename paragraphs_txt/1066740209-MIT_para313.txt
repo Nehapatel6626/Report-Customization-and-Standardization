@@ -1,0 +1,1 @@
+a regularizing term on 𝑧, so that rationales are both concise. The term also rewards

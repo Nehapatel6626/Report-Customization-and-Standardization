@@ -1,0 +1,1 @@
+Prerequisites Courses: COP3530 (Data Structures) or equivalent

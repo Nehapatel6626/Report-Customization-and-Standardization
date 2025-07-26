@@ -1,0 +1,14 @@
+7 provides a comparison of FL and CL across various per-
+formance metrics. The results demonstrate that FL, despite its
+privacy-preserving advantages, achieves comparable or even
+superior accuracy in certain aspects. Specifically, FL exhibits a
+15% increase in risk mitigation compared to CL, underscoring
+its potential for enhancing safety and reliability. Furthermore,
+FL significantly outperform CL in terms of privacy, with
+P-Leakage values reduced by 60% and Policy Divergence
+reduced by 50%. The OPE score, combining both P-Leakage
+and policy divergence, is also higher for FL, indicating a more
+favourable balance between privacy and performance. These
+results underscore the potential of FL to match or surpass the
+accuracy of CL while offering stronger privacy assurances,
+especially in sensitive areas like healthcare.

@@ -1,0 +1,5 @@
+An ANN is a function that maps elements in the feature space into the set
+of classes K. A feedforward ANN is composed of L + 1 layers of neurons. Each
+layer l ∈ {0, 1, ..., L} is composed of nl neurons, numbered from 1 to nl. Layer
+0 is fictitious and corresponds to the input of the ANN, while the last layer,
+K corresponds to its outputs. Layers 1 to L − 1 are typically referred to as

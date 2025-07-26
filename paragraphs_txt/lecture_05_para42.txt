@@ -1,0 +1,9 @@
+!, ? relatively unambiguous
+Period “.” is quite ambiguous
+Sentence boundary
+Abbreviations like Inc. or Dr.
+General idea:
+Build a binary classifier: 
+Looks at a “.”
+Decides EndOfSentence/NotEOS
+Could be hand-written rules, or machine-learning

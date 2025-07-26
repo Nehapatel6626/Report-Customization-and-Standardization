@@ -1,0 +1,1 @@
+A  trained CNN  must be  invariant to certain  image transformations,  often  including

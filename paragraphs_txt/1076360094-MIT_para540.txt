@@ -1,0 +1,1 @@
+see a representation of a Javascript stream object. In this case, it is a benign alert

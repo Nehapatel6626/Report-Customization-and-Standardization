@@ -1,0 +1,1 @@
+(cid:96)t1 ≡ {(0.0, 0.1), (0.1, 0.2), (0.3, 0.4), (0.4, 0.5)}. The last threshold list is ((cid:96)t5) a list of

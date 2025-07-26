@@ -1,0 +1,1 @@
+Figure 4 depicts the manner in which the total number of errors decreases as the number of trees in the cross validation increases.  The general trend is as expected with the total number of errors decreasing with the number of trees in the cross validation algorithm.  There are however two irregularities worth noting.  Firstly, for

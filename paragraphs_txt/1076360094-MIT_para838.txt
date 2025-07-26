@@ -1,0 +1,1 @@
+Step 1 : Create a set of mutant ﬁles using fm using the set of Sm. Call this set Smutants.

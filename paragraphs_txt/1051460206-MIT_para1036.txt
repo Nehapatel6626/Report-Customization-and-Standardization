@@ -1,0 +1,1 @@
+by  the image.  Thus,  when a downsampled  image  is upsampled,  the practical  resolution of the

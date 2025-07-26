@@ -1,0 +1,1 @@
+Internet standard that indicates the media type of a message [26].

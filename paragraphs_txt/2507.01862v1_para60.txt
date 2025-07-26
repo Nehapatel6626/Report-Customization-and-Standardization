@@ -1,0 +1,6 @@
+User: “Is Delta a customer?” 
+LLM: “Delta Airlines has been a customer for two years.” 
+User: “Dental.” 
+LLM: “Delta Airlines provides a dental plan for employees…” 
+User: “No, I meant Delta Dental.” 
+LLM: ”…Delta Dental might be a separate entity; let me see…”

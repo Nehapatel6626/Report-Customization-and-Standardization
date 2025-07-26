@@ -1,0 +1,6 @@
+runtime, ROSA performs parameter adaptation by switching the selected component
+configurations. It performs structural adaptation by changing the selected function designs
+and consequently the active Components. The task decision layer in combination with ROSA performs
+TACA by selecting suitable function designs and component configurations for each Action
+the robot needs to perform, and with the task decision layer selecting different Actions to perform
+according to the feasible configurations.

@@ -1,0 +1,3 @@
+FindKth
+	Next	     	O(1)	
+	Previous

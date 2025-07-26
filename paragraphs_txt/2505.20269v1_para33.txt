@@ -1,0 +1,2 @@
+In this section, we introduce some initial concepts and terminology to understand
+the rest of this work.

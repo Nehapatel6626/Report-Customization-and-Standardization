@@ -1,0 +1,2 @@
+in the choice. This observation suggests that treating single-element clusters as
+outliers and excluding them could enhance PackHero’s performance.

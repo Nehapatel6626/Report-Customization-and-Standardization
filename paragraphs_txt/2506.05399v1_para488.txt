@@ -1,0 +1,8 @@
+Calculating the longest common subsequence (LCS), the
+longest matching sequence of words between the original and
+predicted summaries, forms the basis of the ROUGE algorithm.
+Unlike matching words consecutively, LCS allows for matches
+that reflect the word order at the sentence level. Additionally,
+LCS automatically includes common n-grams in sequence, re-
+moving the need to calculate predetermined n-gram sequences.
+Mathematically, ROUGE can be defined as

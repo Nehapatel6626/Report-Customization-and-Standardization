@@ -1,0 +1,13 @@
+The Challenge of Embodied Cognition Our findings provide empirical support for the
+theoretical critique raised in the background section regarding the embodiment deficit in
+LLMs. The difficulty these models demonstrate in representing culturally-specific moral
+intuitions may reflect their fundamental disconnection from the embodied experiences that
+shape human moral reasoning. Moral intuitions are not merely abstract principles but are
+deeply connected to lived experiences, emotional responses, and cultural practices. Without
+embodiment in the physical world, LLMs may be inherently limited in their ability to
+represent the full richness of human moral cognition. This limitation suggests the need for
+greater epistemological humility in deploying LLMs across cultural contexts. While these
+models can generate text that superficially resembles human moral reasoning, our findings
+indicate that they do not reliably capture the nuanced ways moral intuitions vary across
+cultures. This disconnect between surface-level competence and deeper understanding
+represents a fundamental challenge for AI alignment.

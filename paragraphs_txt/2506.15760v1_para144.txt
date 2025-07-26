@@ -1,0 +1,3 @@
+1.  Laxmisha Rai, Smriti Khatiwada, Chunrao Deng, and Fasheng Liu. Cross-language code development 
+with generative ai: A source-to-source translation perspective. In 2024 IEEE 7th International Con- 
+ference on Electronic Information and Communication Technology (ICEICT), pages 562–565, 2024.

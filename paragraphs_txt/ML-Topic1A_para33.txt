@@ -1,0 +1,8 @@
+Aka Pattern recognition
+Face recognition: Pose, lighting, occlusion (glasses, beard), make-up, hair style 
+Character recognition: Different handwriting styles.
+Speech recognition: Temporal dependency. 
+Use of a dictionary or the syntax of the language. 
+Sensor fusion: Combine multiple modalities; eg, visual (lip image) and acoustic for speech
+Medical diagnosis: From symptoms to illnesses
+Web Advertizing: Predict if a user clicks on an ad on the Internet.

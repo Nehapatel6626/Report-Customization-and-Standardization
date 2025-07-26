@@ -1,0 +1,1 @@
+we  will  introduce  general  techniques  for the  effective training  of convolutional  neural  networks

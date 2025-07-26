@@ -1,0 +1,5 @@
+The SRB-300 speech corpus is divided into three datasets: training (76%), val-
+idation (10%), and test (14%), as shown in Table 3. The test set also includes
+6 hours of audio from 6 radio stations not present in the training or validation
+datasets. This allows us to evaluate performance on previously unseen broadcast
+stations.

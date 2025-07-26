@@ -1,0 +1,15 @@
+Similarly, [40] presents an analysis of transformer networks
+in computer vision, with a special emphasis on their applica-
+tions in natural and medical image analysis. Although trans-
+formers were initially designed for natural language process-
+ing, their recent adaptation to image-based tasks has demon-
+strated promising results, positioning them as a viable alterna-
+tive to traditional convolutional neural networks. The review
+highlights core principles of the transformer’s attention mecha-
+nism, which enables effective long-range feature extraction. It
+explores various transformer-based architectures applied to crit-
+ical tasks such as image segmentation, classification, registra-
+tion, and diagnosis. The paper also highlights the current limi-
+tations of transformer networks in image analysis and outlines
+potential research directions to enhance their effectiveness, par-
+ticularly in the context of medical imaging.

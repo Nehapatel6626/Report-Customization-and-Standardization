@@ -1,0 +1,4 @@
+1. Exact Methods: Representative methods are Branch
+and Bound (Land & Doig, 1960), Dynamic Program-
+ming (Bellman, 1962), and Integer Linear Program-
+ming (Dantzig et al., 1954).

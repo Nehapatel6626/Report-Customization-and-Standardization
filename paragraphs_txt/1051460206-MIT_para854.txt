@@ -1,0 +1,1 @@
+update  the CNN's parameters.  The  validation  set is  used to evaluate  the networks  accuracy

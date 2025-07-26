@@ -1,0 +1,1 @@
+First, the  FCN paper uses  transfer learning,  a technique  of transferring  the weights of the

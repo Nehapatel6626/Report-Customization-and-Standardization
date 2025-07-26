@@ -1,0 +1,28 @@
+As discussed in Subsection 4.2, to demonstrate the integration is always feasi-
+ble we have to deal with a scenario in which we need to collect programs in
+the wild to integrate the new packer. Thus, we have to face the possibility that
+these programs are not numerous. We have already tested PackHero in a sce-
+nario with few samples for its configuration. Here, we aim to evaluate how many
+samples PackHero needs to “integrate” a new packer with the entire system al-
+ready configured. The process of integration corresponds to the “configuration”
+of PackHero described in Subsection 1. Since the workflow includes a Graph
+Matching Network (GMN), we can avoid re-training the model from scratch.
+Indeed, given that we use a Neural Network (NN), it can be updated through
+fine-tuning, i.e., partially re-training on new samples. At the same time, Pack-
+Hero may even allow us to avoid fine-tuning the model altogether. Specifically,
+a new packer can be integrated into PackHero without re-training the GMN,
+simply by adding its corresponding graphs to the DB. However, this approach is
+feasible only if the collected graphs for the packer are sufficiently homogeneous.
+Currently, we assume that manual intervention was previously performed on the
+packer samples to be integrated, which we assume are always correctly labeled.
+We evaluate PackHero with and without fine-tuning the GMN. We train a
+GMN for each packer, excluding it from the training set, which consists of 100
+samples per remaining packer. Then, we integrate samples from the “unseen”
+packer. In the version without fine-tuning, we add the new packer’s graphs di-
+rectly to the DB. In the fine-tuned version, we fine-tune the GMN using the
+new graphs before integration. To compare PackHero with SotA tools, we repli-
+cate the experiment using three ML-based approaches from Table 1: Random-
+ness Profiles [33], Binary Diffing [15] (best-performing version: LCS-SVM), and
+2SPIFF [19]. As implementations of these tools are unavailable, we reimplement
+them to the best of our ability and validate the implementations by compar-
+ing the achieved accuracy on the remaining packers in this experiment. For a

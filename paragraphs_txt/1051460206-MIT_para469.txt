@@ -1,0 +1,1 @@
+each sub-function  within the network is differentiable  (and a few other restrictions).

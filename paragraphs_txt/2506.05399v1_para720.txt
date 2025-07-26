@@ -1,0 +1,1 @@
+Capture the dependencies within the image areas and regions

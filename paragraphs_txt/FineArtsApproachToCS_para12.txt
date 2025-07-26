@@ -1,0 +1,3 @@
+In the last ten years, I’ve had the opportunity to teach collaboratively with colleagues from several Stanford departments
+In each case, the experience has been enriching, not only for its own sake, but also because of its effect on my CS teaching
+Integrating a range of fields makes CS seem accessible to a wider range of students

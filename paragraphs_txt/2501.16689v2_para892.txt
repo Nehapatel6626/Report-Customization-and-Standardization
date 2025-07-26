@@ -1,0 +1,5 @@
+Impact Analyzer
+Alert details, work-
+ﬂow dependencies
+Replan(affected_nodes,
+time_window)

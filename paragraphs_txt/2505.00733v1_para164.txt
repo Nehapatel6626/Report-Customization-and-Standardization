@@ -1,0 +1,4 @@
+name:String @key
+priority:Integer
+status:String
+is-selected:Bool

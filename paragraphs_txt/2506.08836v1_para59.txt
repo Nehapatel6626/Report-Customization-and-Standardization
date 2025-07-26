@@ -1,0 +1,1 @@
+– Timestamps were rounded to whole seconds because the transcription tool

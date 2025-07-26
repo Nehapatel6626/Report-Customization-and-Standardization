@@ -1,0 +1,9 @@
+where W represents a planning system composed of spe-
+cialized, coordinated agents. Similar to a compiler gen-
+erator producing compilers from speciﬁcations, MP con-
+structs agent networks from task requirements. It analyzes
+objectives, identiﬁes required roles and dependencies, se-
+lects appropriate agents, and establishes interaction pro-
+tocols. This produces a workﬂow template that deﬁnes
+the planning state space and the coordination mechanisms
+needed to solve the task.

@@ -1,0 +1,3 @@
+sent to a medical lab for analysis. All  CDFs approach 1.0 at large particle counts, even  the white
+blood cell's CDF.  (b)  The estimated probability density functions.  The line graph represents the
+derived model.  The histogram represents the results from sampling from the probability density

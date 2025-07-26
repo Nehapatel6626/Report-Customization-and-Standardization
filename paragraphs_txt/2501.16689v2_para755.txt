@@ -1,0 +1,1 @@
+update : (Wcurrent, S∗) → Wnew

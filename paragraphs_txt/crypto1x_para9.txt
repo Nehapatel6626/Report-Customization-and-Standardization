@@ -1,0 +1,6 @@
+Discuss the challenges of teaching a course in cryptography.
+Discuss the effectiveness & practicality of cryptography.
+Discuss Shannon’s encryption model.
+Discuss classical ciphers
+Discuss the foundations of cryptography.
+Establish a mindset for developing crypto- graphy systems for Information Assurance.

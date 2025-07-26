@@ -1,0 +1,4 @@
+[10] H. Ayesha, S. Iqbal, M. Tariq, M. Abrar, M. Sanaullah, I. Abbas,
+A. Rehman, M. F. K. Niazi, S. Hussain, Automatic medical image in-
+terpretation: State of the art and future directions, Pattern Recognition
+(2021) 107856.

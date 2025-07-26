@@ -1,0 +1,1 @@
+values: (1) cells with no formulas and no URLs, and (2) cells with formulas that did not

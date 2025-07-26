@@ -1,0 +1,2 @@
+Figure 4.10: Clusters evaluation using Silhouette method for deposition, sintering, rod draw
+and IPQ data (distance cosine)

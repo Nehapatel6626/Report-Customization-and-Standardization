@@ -1,0 +1,5 @@
+LLM Output 
+<isCustomerConfirmed>no</isCustomerConfirmed> 
+<chainOfThought>User specifically wants XYZCompany info only,  
+discarding  ABCCompany  context.</chainOfThought>'their'  recent  news,  referring  to  ABCCompany.  Context 
+remains ABCCompany.</chainOfThought>

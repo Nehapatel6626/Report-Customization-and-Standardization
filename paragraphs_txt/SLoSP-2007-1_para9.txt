@@ -1,0 +1,7 @@
+The parsers produced detailed, linguistically rich representations
+Parsers had uneven and usually rather poor coverage
+E.g., 30% of sentences received no analysis
+Even quite simple sentences had many possible analyses
+Parsers either had no method to choose between them or a very ad hoc treatment of parse preferences
+Parsers could not be learned from data
+Parser performance usually wasn’t or couldn’t be assessed quantitatively and the performance of different parsers was often incommensurable

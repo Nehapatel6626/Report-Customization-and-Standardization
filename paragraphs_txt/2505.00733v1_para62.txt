@@ -1,0 +1,20 @@
+Parameter Structural A-t-T T-t-A
+No
+ICE (Niemczyk et al., 2017)
+No
+Hochgeschwender et al. (2016)
+Yes
+Metacontrol (Bozhinoski et al., 2022)
+No
+SHAGE (Park et al., 2012)
+No
+Lotz et al. (2013)
+RRA (Gherardi and Hochgeschwender, 2015) Yes
+Yes
+TeMoto (Valner et al., 2022)
+Yes
+MORPH (Braberman et al., 2017)
+C´amara et al. (2020)
+Yes
+Yes
+ROSA

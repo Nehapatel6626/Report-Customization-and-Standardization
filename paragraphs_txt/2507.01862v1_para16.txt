@@ -1,0 +1,11 @@
+Conversational interfaces have been extensively studied for tasks such as customer support, information retrieval, and 
+personal assistance [1,2]. Much of the prior work focuses on natural conversation flow or dialogue state tracking [4], 
+which  aims  to  maintain  a  belief  state  of  user  goals.  However,  these  methods  often  do  not  explicitly  treat  commit 
+(submit) or discard (reset) as separate metaphors—many rely on generalized user intent classification that can miss 
+the nuance of partial context resets or confirmations central to domain-specific applications. 
+Recent advancements in Large Language Models have enabled systems to generate structured outputs that can be 
+parsed in a programming context [3]. Efforts to unify LLM-based text generation with traditional application flow 
+frequently  highlight  prompt  design  [5]—specifically,  how  to  craft  instructions  so  that  the  LLM’s  output  is  both 
+semantically correct and programmatically useful. Our work builds on this line of research by introducing task-based 
+prompting  that  mirrors  GUI  actions,  augmented  with  chain-of-thought  reasoning,  thereby  reducing  ambiguity  and 
+preserving clarity in multi-turn dialogues.

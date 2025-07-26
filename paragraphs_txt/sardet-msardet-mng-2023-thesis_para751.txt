@@ -1,0 +1,1 @@
+fied: load cell measurement is made at the same moment the traverse is changing direction

@@ -1,0 +1,3 @@
+[29] Charles Smutz and Angelos Stavrou. Malicious pdf detection using metadata
+and structural features. In Proceedings of the 28th Annual Computer Security
+Applications Conference, pages 239–248. ACM, 2012.

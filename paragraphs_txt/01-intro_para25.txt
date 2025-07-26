@@ -1,0 +1,6 @@
+Hardware (build brains)
+“network” (neural networks?)
+Algorithm + representation
+Intermediate Behavior (cognitive modeling)
+Task Performance (Deep Blue, Turing Test)
+Task Competence (Idealized view)

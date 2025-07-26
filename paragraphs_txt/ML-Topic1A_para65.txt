@@ -1,0 +1,7 @@
+International Conference on Machine Learning (ICML) 
+European Conference on Machine Learning (ECML)
+Neural Information Processing Systems (NIPS)
+Computational Learning 
+International Joint Conference on Artificial Intelligence (IJCAI)
+ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
+IEEE Int. Conf. on Data Mining (ICDM)

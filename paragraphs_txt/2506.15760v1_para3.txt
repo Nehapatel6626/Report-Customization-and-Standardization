@@ -1,0 +1,6 @@
+Abstract. This paper discusses the compilation, optimization, and error mitigation of quantum algo- 
+rithms, essential steps to execute real-world quantum algorithms. Quantum algorithms running on a hybrid 
+platform with QPU and CPU/GPU take advantage of existing high-performance computing power with 
+quantum-enabled  exponential  speedups.  The  proposed  approximate  quantum  Fourier  transform  (AQFT) 
+for quantum algorithm optimization improves the circuit execution on top of an exponential speed-ups the 
+quantum Fourier transform has provided.

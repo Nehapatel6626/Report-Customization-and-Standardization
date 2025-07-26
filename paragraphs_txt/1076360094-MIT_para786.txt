@@ -1,0 +1,1 @@
+unsupervised. In the supervised method the focus is on creating samples that are able

@@ -1,0 +1,2 @@
+August 2023, The Principles of Data-Centric AI. Communications of the ACM vol. 66 no. 8 DOI: 10.1145/3571724
+“…focus on the human-centered nature of data that feeds AI systems…”

@@ -1,0 +1,1 @@
+ROSA: A Knowledge-based Solution for Robot Self-Adaptation

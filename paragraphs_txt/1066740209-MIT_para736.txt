@@ -1,0 +1,1 @@
+al’s word-level model that predicts which segments of the document is the rationale.

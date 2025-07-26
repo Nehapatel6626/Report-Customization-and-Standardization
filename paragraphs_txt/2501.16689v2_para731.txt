@@ -1,0 +1,3 @@
+The workﬂow monitoring operates through a hierarchical
+protocol system that enables both routine supervision and
+dynamic adjustments.

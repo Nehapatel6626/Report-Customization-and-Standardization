@@ -1,0 +1,4 @@
+Figure 3.11: Rod profile (refractive index)
+plotted against position in the rod cross
+section. 4 rods from one preform are plot-
+ted each time.

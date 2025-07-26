@@ -1,0 +1,13 @@
+Quantum phase transforms are additions in frequency domain, The full recursion period- 
+finding algorithm calls 196 time recursively to factor 35. For a number N = 91(7 
+13), the 
+algorithm calls itself 257 times. The experiments were carried out on ibmq qasm simulator 
+using Ubuntu18.10 Cosmic64 
+bit virtual machine installed with Qiskit. Initially all 13 
+qubits are set to superposition states using the Hadamard gates. An additional two groups 
+of  registers  one  that  contains  6  qubits  and  another  one  contains  9  qubits  are  used  to 
+store temporary results. A group of 14 quantum registers to store the final results after 
+measurements. Using the AQFT method, the recursive calls were reduced to 54 and 178 
+respectively, a roughly n 
+log2n improvement without affecting the final results. In both 
+cases, the quantum instance fires 1024 shots at the backend.

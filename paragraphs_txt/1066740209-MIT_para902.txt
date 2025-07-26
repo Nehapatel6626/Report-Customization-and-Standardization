@@ -1,0 +1,2 @@
+[6] Ye Zhang, Iain James Marshall, and Byron C. Wallace. Rationale-augmented
+convolutional neural networks for text classification. CoRR, abs/1605.04469, 2016.

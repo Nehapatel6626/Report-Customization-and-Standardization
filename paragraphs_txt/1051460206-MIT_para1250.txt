@@ -1,0 +1,1 @@
+were  fed into the  CNN.  We  augmented the  dataset  by  applying  random rotations,  shifts,  flips  and

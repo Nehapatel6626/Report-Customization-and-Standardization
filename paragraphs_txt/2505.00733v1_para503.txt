@@ -1,0 +1,10 @@
+This work proposed ROSA, a knowledge-based solution for task-and-architecture co-adaptation in robotic
+systems that promotes reusability, extensibility, and composability. Reusability was achieved by proposing
+a knowledge model that can capture the knowledge required for TACA and using it at runtime to reason
+about adaptation. Extensibility and composability were achieved with an architectural design that allows
+ROSA’s components to be stateless and self-contained. The feasibility of using ROSA in robotic systems at
+runtime was demonstrated by applying it in simulation to the SUAVE exemplar. ROSA’s reusability was
+demonstrated by using it to model different self-adaptive robotic systems and showing that it can capture
+all relevant knowledge for adaptation necessary for these use cases. Furthermore, ROSA’s development
+effort and its scalability were demonstrated for the use cases presented in this paper and for a hypothetical
+scenario.

@@ -1,0 +1,8 @@
+AI became an industry (1980 – 1989)
+wide applications in various domains
+commercially available tools
+Current trends (1990 – present)
+more realistic goals 
+more practical (application oriented)
+resurgence of neural networks and emergence of genetic algorithms
+distributed AI, intelligent agents, and semantic web

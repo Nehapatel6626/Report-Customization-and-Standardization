@@ -1,0 +1,14 @@
+Symbol
+n-gram
+Pn
+BP
+R
+P
+F1
+weight(n)
+geometric mean Geometric mean of n-gram precision scores
+W
+Wr
+f req(w, G)
+IDF(w)
+S PICE(S , R)

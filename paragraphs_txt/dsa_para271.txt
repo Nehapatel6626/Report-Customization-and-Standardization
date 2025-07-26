@@ -1,0 +1,3 @@
+There are four cases, which can occur while removing the node. 
+We have the same four situations, but the order of algorithm actions is opposite.
+Notice, that removal algorithm includes the disposal of the deleted node - unnecessary in languages with automatic garbage collection (Java).

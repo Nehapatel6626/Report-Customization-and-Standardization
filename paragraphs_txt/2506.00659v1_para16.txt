@@ -1,0 +1,26 @@
+Recovering packed code might seem feasible through dynamic analysis, as
+executing a packed program can trigger it to unpack itself. However, modern
+malware increasingly employs dynamic evasive behaviors designed to detect anal-
+ysis environments and prevent the program from exposing its true functionality
+at runtime [10]. As a result, packed malware with evasive tactics often resists
+dynamic-based analysis techniques. Additionally, incorporating dynamic analysis
+mechanisms into commercial AVs presents challenges, such as requiring kernel-
+level privileges to execute untrusted code [9,1] and introducing significant com-
+putational overhead due to the virtualization infrastructure [22]. Alternatively,
+static identification of the specific packer used in a malware sample could allow
+AVs to retrieve the original code, if possible, by executing a corresponding un-
+packer when available. Previous works in this area have applied signature-based
+methods [13] or ML-based algorithms using static features [15,19,33]. While ef-
+fective for known packers, these approaches demand substantial effort to accom-
+modate new packers or variations of existing ones. This challenge is amplified by
+the frequent emergence of custom packers in novel malware [33], necessitating
+either extensive manual signature analysis (e.g., with Detect It Easy [13]) or
+complete re-training of ML-based models. Recent work proposed PackGenome,
+a tool that automates YARA rule generation from packed samples to detect
+packed binaries [16]. While effective on large and heterogeneous datasets, it re-
+lies on dynamic analysis, requiring packers to generate custom-packed samples,
+limiting the integration of newly discovered packers. These limitations motivated
+our research into new methodologies for code packer identification, focusing on
+minimizing packer integration effort. The primary challenge lies in achieving a
+balance between accuracy, rapid adaptability for integrating newly discovered
+packers, resilience against dynamic evasion techniques, and overall scalability.

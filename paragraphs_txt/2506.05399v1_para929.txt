@@ -1,0 +1,5 @@
+[109] X. Wang, X. Fang, Y. Yang, Dm-catn: Deep modular co-attention trans-
+former networks for image captioning, in:
+International Conference
+on Artificial Intelligence and Intelligent Information Processing (AIIIP
+2022), Vol. 12456, SPIE, 2022, pp. 600–606.

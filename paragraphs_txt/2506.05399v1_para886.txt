@@ -1,0 +1,4 @@
+[70] J. Lu, C. Xiong, D. Parikh, R. Socher, Knowing when to look: Adaptive
+attention via a visual sentinel for image captioning, in: Proceedings of
+the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 375–383.

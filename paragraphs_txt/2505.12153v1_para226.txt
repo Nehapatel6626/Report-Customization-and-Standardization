@@ -1,0 +1,2 @@
+Policy divergence measures how different local policies are
+from a globally trained policy, serving as a proxy for privacy

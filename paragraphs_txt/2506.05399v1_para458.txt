@@ -1,0 +1,12 @@
+Bilingual Evaluation Understudy (BLEU) is a metric used
+to evaluate the quality of machine-generated text. Assess in-
+dividual text segments by comparing them to reference texts.
+The BLEU score varies depending on the number of reference
+translations and the length of the text produced. Generally,
+short-generated texts have higher BLEU scores ranging from
+0 to 1. BLEU-1 uses unigram comparisons between candidate
+and reference sentences, while bigram comparisons are used
+for BLEU-2. An empirical maximum order of four optimizes
+correlation with human judgments. Unigram scores determine
+the adequacy of the BLEU metrics, while higher n-gram scores
+determine fluency [124]. The BLEU formula is defined as

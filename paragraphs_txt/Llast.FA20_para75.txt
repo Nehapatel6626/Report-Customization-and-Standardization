@@ -1,0 +1,11 @@
+CS 525, Offered Spring 2021!
+Looks at hot topics of research in distributed systems: cutting-edge papers on clouds+datacenters, p2p, distributed machine learning, sensor/IoT networks, distributed algorithms, and other distributed systems
+We will read many papers (and webpages) for cutting-edge systems (research and production)
+If you liked CS425’s material, it’s likely you’ll enjoy CS525!
+Project: Choose between Research project or Entrepreneurial project
+Research Project: Your project will build a cutting-edge research distributed system, and write and publish a paper on it
+Entrepreneurial Project: Your project will build a distributed system for a new startup company idea (your own!) and perform associated research with it
+Projects are in groups of your choosing (2-3).
+Both graduates and undergraduates welcome! (UG fill this out for consent: https://my.cs.illinois.edu/ugradrecs/petitions/ ).
+Class size is around 70-100
+Previous research projects published in journals and conferences, some great startup ideas too!

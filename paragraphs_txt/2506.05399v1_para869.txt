@@ -1,0 +1,4 @@
+[55] V. Jindal, Generating image captions in arabic using root-word based
+recurrent neural networks and deep neural networks, in: Proceedings
+of the AAAI Conference on Artificial Intelligence, Vol. 32, 2018, p.
+144–151.

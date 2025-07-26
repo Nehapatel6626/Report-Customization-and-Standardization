@@ -1,0 +1,3 @@
+Tab. 1: Mean absolute difference (𝑚𝑑) between human responses and LLMs across all countries/per-
+sonas combinations grouped by continent, demonstrating varying levels of alignment across cultural
+contexts. Smallest distance for each row by model and for each continent by model mean marked bold.

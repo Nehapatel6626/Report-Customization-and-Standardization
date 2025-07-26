@@ -1,0 +1,6 @@
+Braberman, V., D’Ippolito, N., Kramer, J., Sykes, D., and Uchitel, S. (2017). An extended description
+In Software
+of morph: A reference architecture for configuration and behaviour self-adaptation.
+Engineering for Self-Adaptive Systems III. Assurances, eds. R. de Lemos, D. Garlan, C. Ghezzi, and
+H. Giese (Cham: Springer International Publishing), Lecture Notes in Computer Science, 377–408.
+doi:10.1007/978-3-319-74183-3 13

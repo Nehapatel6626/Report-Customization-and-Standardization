@@ -1,0 +1,1 @@
+Decision trees have been used for a variety of purposes such as pattern matching and machine learning.  The reader is encouraged to examine the references provided for an in-depth discussion of decision trees.  A brief description is provided here.

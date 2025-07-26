@@ -1,0 +1,1 @@
+frequency( O, F ) :- example( frequency( O, F ) ).

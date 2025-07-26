@@ -1,0 +1,3 @@
+To fulfill the architectural premise that all knowledge required for the adaption logic should be captured in
+a central KB, this work proposes a KB component composed of the knowledge model depicted in Figure 2
+and the set of rules depicted in Figure 3, described in Section 5.1 and Section 5.2 respectively.

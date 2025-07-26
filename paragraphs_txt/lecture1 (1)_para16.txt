@@ -1,0 +1,7 @@
+Become familiar with some of the fundamental data structures in computer science
+Improve ability to solve problems abstractly
+data structures are the building blocks
+Improve ability to analyze your algorithms
+prove correctness
+gauge (and improve) time complexity
+Become modestly skilled with the UNIX operating system and X-windows (you’ll need this in upcoming courses)

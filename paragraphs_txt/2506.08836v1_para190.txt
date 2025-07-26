@@ -1,0 +1,6 @@
+1. Babu, A., Wang, C., Tjandra, A., Lakhotia, K., Xu, Q., Goyal, N., Singh,
+K., Von Platen, P., Saraf, Y., Pino, J., Baevski, A., Conneau, A., Auli,
+M.: XLS-R: Self-supervised Cross-lingual Speech Representation Learning at
+Scale. In: Interspeech 2022. pp. 2278–2282. ISCA (Sep 2022). https://doi.org/
+10.21437/Interspeech.2022-143, https://www.isca-archive.org/interspeech_2022/
+babu22_interspeech.html

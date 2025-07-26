@@ -1,0 +1,1 @@
+instance, the  FCN can be trained  with  augmented  crops,  and then provide  predictions  on the

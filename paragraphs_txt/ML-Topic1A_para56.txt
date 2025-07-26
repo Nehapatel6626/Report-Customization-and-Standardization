@@ -1,0 +1,9 @@
+Topics:
+Policies: what actions should an agent take in a particular situation
+Utility estimation: how good is a state (used by policy)
+No supervised output but delayed reward
+Credit assignment problem (what was responsible for the outcome) 
+Applications: 
+Game playing
+Robot in a maze
+Multiple agents, partial observability, ...

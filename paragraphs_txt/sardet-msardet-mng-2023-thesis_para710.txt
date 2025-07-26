@@ -1,0 +1,1 @@
+Process parameters: drying furnace temperature, sintering furnace temperature, He and Cl2

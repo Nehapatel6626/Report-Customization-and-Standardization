@@ -1,0 +1,9 @@
+Common Agents Common agents are designed to han-
+dle foundational planning tasks that align with MACI’s
+state space dimensions (Who, Where, When, What, Why).
+These agents provide general-purpose functionality that en-
+sures consistency, feasibility, and robustness across plan-
+ning tasks. Their primary responsibilities include:
+• Constraint Validation Agents: Ensure adherence to tem-
+poral, spatial, and resource constraints by verifying the
+feasibility of generated plans.

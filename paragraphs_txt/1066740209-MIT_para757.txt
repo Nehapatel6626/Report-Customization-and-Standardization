@@ -1,0 +1,1 @@
+A naive way to annotate the cohort sizes is having annotators read the entire abstract

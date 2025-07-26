@@ -1,0 +1,3 @@
+9. Egele, M., Scholte, T., Kirda, E., Kruegel, C.: A survey on automated dynamic
+malware-analysis techniques and tools. ACM Comput. Surv. 44(2) (mar 2008).
+https://doi.org/10.1145/2089125.2089126

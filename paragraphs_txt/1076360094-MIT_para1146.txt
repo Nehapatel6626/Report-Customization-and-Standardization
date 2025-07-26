@@ -1,0 +1,17 @@
+1,t2
+list of threshold combinations for (t1
+1)
+2,t2
+list of threshold combinations for (t1
+2)
+3,t2
+list of threshold combinations for (t1
+3)
+4,t2
+list of threshold combinations for (t1
+4)
+list of threshold combinations for (t5)
+4,t2
+set of thresholds {t1
+list of threshold sets
+simple enumeration function

@@ -1,0 +1,4 @@
+Fundamentally different hardware may
+require fundamentally different algorithms!
+ Very much an open question.
+ Neural net research.

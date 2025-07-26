@@ -1,0 +1,1 @@
+relationshipAccess( X,Y,Z ):-example(relationshipAccess(X,Y,Z)).

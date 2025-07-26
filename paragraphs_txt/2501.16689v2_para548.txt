@@ -1,0 +1,1 @@
+Optimal tour time: 24 minutes, achieved by three routes:

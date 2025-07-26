@@ -1,0 +1,1 @@
+Fogel, L., Zaverucha, G. (1998). Normal programs and Multiple Predicate Learning. Proc 8th Int’l Conference on Inductive Logic Programming (ILP’98), Madison, July, LNAI 1446, Springer Verlag, pp. 175-184.

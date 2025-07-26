@@ -1,0 +1,5 @@
+Each agent is registered in the repository using a standard-
+ized protocol buffer that encodes the following attributes:
+• Input/output protocol (P ): Deﬁnes the data format and
+expected interactions for seamless communication.
+• Agent type (t): Speciﬁes whether the agent is common

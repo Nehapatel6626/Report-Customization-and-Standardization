@@ -1,0 +1,1 @@
+where PositiveInstance (NegativeInstance) is a list of positive (negative) facts of the concept to be learned, Objects are the representation of the application domain (in the DDODB domain, objects are represented as the classes and operations of the current application), and Facts are facts from the fundamental domain theory.

@@ -1,0 +1,1 @@
+centroid.  We  split all the labeled  images  into  a training  set (90%)  and a validation  set  (at  least

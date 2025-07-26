@@ -1,0 +1,1 @@
+through the network.  To normalize  each  image, we  apply  zero-mean  subtraction  on  each color

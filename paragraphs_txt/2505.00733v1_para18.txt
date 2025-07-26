@@ -1,0 +1,8 @@
+The feasibility of using ROSA for runtime self-adaptation in robotic systems is demonstrated by applying
+it to the SUAVE exemplar (Silva et al., 2023), and its adaptation performance is evaluated in comparison to
+other approaches available in the exemplar. ROSA’s reusability is demonstrated by using it to model the
+TACA scenarios described by Braberman et al. (2017) and C´amara et al. (2020). The development effort for
+using ROSA is evaluated by analyzing the number of elements contained in the knowledge models created
+to solve the aforementioned use cases and comparing it with the size of a BT-based approach used to solve
+SUAVE. ROSA’s development effort scalability is demonstrated by showing how ROSA’s knowledge
+model grows with the addition of extra adaptations in a hypothetical scenario.

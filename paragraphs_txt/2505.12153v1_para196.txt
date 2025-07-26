@@ -1,0 +1,3 @@
+where g is the original gradient and N (0, σ2) is Gaussian
+noise. The privacy budget ϵ is computed using the RDP
+framework

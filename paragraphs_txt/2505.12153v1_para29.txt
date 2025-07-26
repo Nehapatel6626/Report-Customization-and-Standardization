@@ -1,0 +1,5 @@
+• We present a dynamic policy adaptation mechanism
+that empowers surgical robots to autonomously select
+optimal task-specific policies in real-time, ensuring en-
+hanced adaptability, precision, and patient-specific surgi-
+cal decision-making.

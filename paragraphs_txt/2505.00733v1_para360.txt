@@ -1,0 +1,4 @@
+To evaluate the development effort of using ROSA to enable adaptation in robotic systems, we analyze
+the number of elements contained in the ROSA model created to solve the use cases described in this paper.
+Furthermore, we compare it to the number of elements modeled with the BT approach to solve the SUAVE
+use case.

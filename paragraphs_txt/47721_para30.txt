@@ -1,0 +1,4 @@
+Sample size
+ It is important to mention in the protocol what
+ would be the minimum  sample required and how
+ it is  arrived

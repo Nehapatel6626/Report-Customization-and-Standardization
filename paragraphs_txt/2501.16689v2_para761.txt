@@ -1,0 +1,3 @@
+Table 10 presents the resulting workﬂow network W∗,
+which includes all nodes and edges, and their assigned
+agents and protocols.

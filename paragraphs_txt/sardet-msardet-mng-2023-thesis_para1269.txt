@@ -1,0 +1,1 @@
+the number of clusters suggested by the silhouette method in order to limit single point

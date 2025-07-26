@@ -1,0 +1,6 @@
+Stale Memory and Iterative Revisions
+tions can propagate errors due to partial constraint resets.
+Reason: Over-reliance on previous solutions without full
+constraint re-evaluation leads to compounding errors.
+Relation to Gödel’s Incompleteness:
+• Systems capable of arithmetic contain unprovable

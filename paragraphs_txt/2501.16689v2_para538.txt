@@ -1,0 +1,3 @@
+The termination criteria can be modiﬁed to stop the algo-
+rithm if no meaningful improvement is observed after k
+consecutive iterations.

@@ -1,0 +1,3 @@
+In 1990s, ANNs are de-mystified
+ANN joins ranks of non-parametric statistical methods
+Training methods are recognized as non-biological

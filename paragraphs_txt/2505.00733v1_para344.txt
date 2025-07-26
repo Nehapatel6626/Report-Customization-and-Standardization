@@ -1,0 +1,2 @@
+• Reusability: To what extent can ROSA’s knowledge model capture the knowledge required for TACA?
+• Development effort: What is the development effort of using ROSA for adding adaptation to different

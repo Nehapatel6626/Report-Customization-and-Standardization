@@ -1,0 +1,2 @@
+What does the transition table for an FSA consist of?
+How does that change with an FST?

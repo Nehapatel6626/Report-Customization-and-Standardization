@@ -1,0 +1,1 @@
+extension that sanitizes all downloaded CSV files in order to remove the risk of CSV injection

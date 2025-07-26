@@ -1,0 +1,4 @@
+The TSP experiment benchmarks MP against standalone
+planners (Claude, DeepSeek, GPT-4o) and their MP-
+integrated counterparts. The metrics include solution qual-
+ity and optimality.

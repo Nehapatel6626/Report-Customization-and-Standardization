@@ -1,0 +1,1 @@
+range.  When data is provided  in this format,  it's more accurate  to build models  against the CDFs.

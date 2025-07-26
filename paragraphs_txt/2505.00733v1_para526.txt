@@ -1,0 +1,5 @@
+Board, S. E. (2023). The Guide to the Systems Engineering Body of Knowledge (SEBoK), v. 2.8, R.J.
+Cloutier (Editor in Chief). Hoboken, NJ: The Trustees of the Stevens Institute of Technology. Accessed
+9-October-2023. BKCASE is managed and maintained by the Stevens Institute of Technology Systems
+Engineering Research Center, the International Council on Systems Engineering, and the Institute of
+Electrical and Electronics Engineers Systems Council

@@ -1,0 +1,3 @@
+d) Applications in novel domains: Extending image captioning
+to forensic analysis, cultural heritage, and personalized AI
+assistants.

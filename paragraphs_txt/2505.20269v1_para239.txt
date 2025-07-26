@@ -1,0 +1,9 @@
+number of neurons and layers increases. Furthermore, our experimental results
+suggest that our adaptation is generally more efficient for ANNs with one hidden
+layer, while the performance advantage diminishes for ANNs with two hidden
+layers. However, our proposal achieved a better running time for building the
+encoding for ANNs with two layers, showing an improvement of up to 18%. This
+can help to decrease the scalability issue for building the logical constraints given
+an ANN. Furthermore, this encoding obtained better results also in the overall
+time, i.e., the time for computing explanations plus the time for building the
+logical constraints, showing an improvement of up to 16%.

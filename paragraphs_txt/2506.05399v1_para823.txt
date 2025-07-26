@@ -1,0 +1,4 @@
+[20] A. P. Shah, J.-B. Lamare, T. Nguyen-Anh, A. Hauptmann, Cadp: A
+novel dataset for cctv traffic camera based accident analysis, in: 2018
+15th IEEE International Conference on Advanced Video and Signal
+Based Surveillance (AVSS), IEEE, 2018, pp. 1–9.

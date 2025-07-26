@@ -1,0 +1,1 @@
+We then compared the costs of the resulting fragmentation schemas obtained from the initial and the revised versions of the analysis algorithm, after executing the vertical and horizontal fragmentation algorithms (those algorithms were not considered for the revision process).

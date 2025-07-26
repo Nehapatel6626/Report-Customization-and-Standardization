@@ -1,0 +1,8 @@
+Our research investigates how consistently LLMs represent diverse moral frameworks
+without specialized fine-tuning. We extend previous research [munker2024towards] that
+examined political bias in LLMs through the lens of the Moral Foundation Theory
+(MFQ) [graham2009liberals] by applying the updated Moral Foundations Questionnaire
+Version (MFQ-2) [atari2023morality] across cross-cultural contexts rather than political
+ideologies. The MFQ-2 expands upon the original questionnaire by providing a more
+nuanced measurement of moral intuitions across dimensions. Thus, the updated version
+allows for a more comprehensive assessment across different cultural contexts.

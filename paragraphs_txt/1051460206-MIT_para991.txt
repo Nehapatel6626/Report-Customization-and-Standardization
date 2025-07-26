@@ -1,0 +1,1 @@
+zero-mean  subtraction based  on the mean pixel  value of the  color channel.  Resampling  and

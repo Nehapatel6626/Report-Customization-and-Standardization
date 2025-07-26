@@ -1,0 +1,1 @@
+In order  to train  CNNs, the  data  should be  separated  into  a training  set,  a validation  set

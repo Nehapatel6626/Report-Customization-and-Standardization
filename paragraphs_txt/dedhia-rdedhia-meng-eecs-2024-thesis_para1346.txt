@@ -1,0 +1,1 @@
+[42] NotSoSecure. “Data exfiltration via formula injection part1.” (May 29, 2018),

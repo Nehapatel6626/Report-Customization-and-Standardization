@@ -1,0 +1,1 @@
+mean of which variable during which stage) when creating the features vectors could

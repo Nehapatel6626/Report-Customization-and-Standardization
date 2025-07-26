@@ -1,0 +1,3 @@
+Below is an illustrative TypeScript code snippet that shows how we construct a Customer Confirmation Prompt. The 
+goal is to detect whether the user wants to continue with the current customer or switch to a new one. We also provide 
+“chain-of-thought” instructions so that the LLM’s output includes a trace of its reasoning:

@@ -1,0 +1,3 @@
+rozado2023political] resulting from training data selection and alignment processes.
+Furthermore, we compare small and large versions of each model family to assess if the
+number of parameters improves cultural understanding and diverse representation.

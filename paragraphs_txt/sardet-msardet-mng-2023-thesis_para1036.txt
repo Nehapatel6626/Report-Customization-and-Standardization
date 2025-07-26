@@ -1,0 +1,1 @@
+twice the number of stages in the process (mean and variance) and one preform run will be

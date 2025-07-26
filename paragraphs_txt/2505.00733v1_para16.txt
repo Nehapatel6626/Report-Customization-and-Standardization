@@ -1,0 +1,10 @@
+To address the limitations of SAS methods for TACA, this paper proposes to extend traditional robotics
+architectures with a novel knowledge-based managing subsystem for RObot Self-Adaptation (ROSA)
+that promotes reusability, composability, and extensibility. The main novelty of ROSA is its knowledge
+base (KB) which captures knowledge about the actions the robot can perform, the robot’s architecture, the
+relationship between both, and their requirements to answer questions such as “What actions can the robot
+perform in situation X?” and “What is the best configuration available for each action in situation Y?”, for
+example, “Can the robot perform an inspection action when the battery level is lower than 50%?” or “What
+is the best software configuration for the inspection action when the visibility is low?”. This results in a
+reusable solution for TACA in which all application-specific aspects of the adaptation logic are captured in
+its KB.

@@ -1,0 +1,1 @@
+It takes longer to sanitize formula cells because the program must find all

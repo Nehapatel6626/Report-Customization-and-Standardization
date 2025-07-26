@@ -1,0 +1,1 @@
+a new approach: to zoom out times series and study overall patterns and trends in the data.

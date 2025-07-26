@@ -1,0 +1,6 @@
+Directly
+Communication (Email, IM, VoIP)
+Commerce (business, banking, e-commerce, etc)
+Control systems (public utilities, etc)
+Information and entertainment
+Sensitive data stored on the Internet

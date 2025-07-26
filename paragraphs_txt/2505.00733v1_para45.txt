@@ -1,0 +1,12 @@
+Numerous approaches have been proposed for programming and designing autonomous robot
+architectures (Kortenkamp et al., 2016). In recent years, two main trends have emerged: component-based
+frameworks and middlewares–among which ROS Macenski et al. (2022) stands out due to its widespread
+adoption in academia and industry–and layered architectures (Barnett et al., 2022). Barnett et al. (2022)
+reviewed 21 robotics architectures and concluded that most architectures follow a layered pattern, and even
+those that do not can still have their elements mapped onto a layered architectural structure. Furthermore,
+they found that all architectures include a bottom functional layer responsible for interacting with the
+robot’s hardware, an upper task decision layer–whose responsibilities vary across architectures–and an
+arbitrary number of intermediate layers. This work aims to design a reusable solution for TACA that can be
+integrated into robotics architectures adhering to these architectural patterns. To achieve this, the proposed
+solution establishes a clear separation between architectural management and task logic, organizing them
+into distinct layers, or subsystems, as commonly referred to in the self-adaptive systems community.

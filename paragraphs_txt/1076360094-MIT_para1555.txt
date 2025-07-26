@@ -1,0 +1,1 @@
+pdfrate 107 pos page min

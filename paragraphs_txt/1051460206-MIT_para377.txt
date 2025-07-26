@@ -1,0 +1,1 @@
+of the loss  function across  our entire training  set.  This  is accomplished  by  iteratively  updating the

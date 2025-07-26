@@ -1,0 +1,1 @@
+estimate  the  sensitivity  and  specificity  of the AutoScope.  Table  11  summarizes the  number  of

@@ -1,0 +1,1 @@
+the cluster. The input taken by the algorithm is the number of clusters k that should be

@@ -1,0 +1,4 @@
+This scaled very badly and didn’t give coverage
+Minimal grammar on “Fed raises” sentence: 36 parses
+Simple 10 rule grammar: 592 parses
+Real-size broad-coverage grammar: millions of parses

@@ -1,0 +1,1 @@
+The  strategy  to  select a  set of weights  is to iteratively  update  each weight  in the  network

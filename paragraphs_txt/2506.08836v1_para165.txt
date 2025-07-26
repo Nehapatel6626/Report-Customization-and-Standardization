@@ -1,0 +1,5 @@
+Speaker Gender Total (h) Total (%) Training (h) Training(%) Test (h) Test(%)
+female
+female & male
+male
+unknown

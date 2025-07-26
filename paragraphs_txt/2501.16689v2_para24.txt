@@ -1,0 +1,8 @@
+- Task-speciﬁc Agents: These agents cater to domain-
+speciﬁc requirements, including task-dependent data and
+knowledge augmentation, selection of the most effective
+planning algorithms, safety and ethics assessment, and
+emergency response optimization. By integrating do-
+main expertise, they extend the capabilities of common
+agents, enabling MACI to address specialized planning
+challenges with precision and adaptability.

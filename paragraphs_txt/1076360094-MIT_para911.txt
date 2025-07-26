@@ -1,0 +1,1 @@
+In our active defender system, we use the training data provided to us in the form of

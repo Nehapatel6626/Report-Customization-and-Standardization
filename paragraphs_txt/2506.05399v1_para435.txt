@@ -1,0 +1,8 @@
+Two test scenarios were proposed in [57]: (1) Machine trans-
+lation approach – English image descriptions were translated
+into Arabic using Google Translate, often leading to grammat-
+(2) LSTM-based
+ical errors and poorly structured sentences.
+Arabic generation – Instead of relying on translation, an LSTM-
+based Arabic language model was trained to generate more nat-
+ural and grammatically accurate captions.

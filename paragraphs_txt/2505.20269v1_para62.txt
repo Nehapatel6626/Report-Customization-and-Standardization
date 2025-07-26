@@ -1,0 +1,10 @@
+An important observation is that a MILP problem without an objective
+function corresponds to a satisfiability problem, as discussed in Section 2.1.
+Given that
+relies on logical
+consequence, and considering the connection between satisfiability and logical
+consequence, we employ a MILP solver
+to address explanation tasks.
+Additionally, throughout the construction of the MILP model, we utilize
+optimization, specifically employing a MILP solver, to determine tight lower
+and upper bounds for the neurons of ANNs.

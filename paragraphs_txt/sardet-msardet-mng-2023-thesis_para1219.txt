@@ -1,0 +1,1 @@
+i and all clusters to which i does not belong the following way: S(i) = b(i)−a(i)

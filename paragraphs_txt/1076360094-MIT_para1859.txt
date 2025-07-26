@@ -1,0 +1,1 @@
+• split train tune fn : function to split data between training model and tuning

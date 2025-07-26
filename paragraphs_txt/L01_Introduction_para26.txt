@@ -1,0 +1,10 @@
+Unsupervised Learning
+Clustering [Jain et al. review paper]
+Reinforcement Learning [M13]
+Learning Theory
+Bayesian Methods [M6, Russell & Norvig Chapter]
+PAC Learning [M7]
+Support Vector Methods [Burges tutorial]
+Hybrid Methods [M12]
+Ensembles [Opitz & Maclin paper, WF7.4]
+Mining Association Rules [Apriori paper]

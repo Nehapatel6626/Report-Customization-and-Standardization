@@ -1,0 +1,44 @@
+Packer identification is a multi-label classification task aimed at determining
+the specific packer used to compress or obfuscate a program. This capability
+allows AV tools to statically unpack programs, thereby enhancing malware de-
+tection [22]. In contrast, packer detection identifies whether a program is packed,
+often employing static methods such as similarity comparisons [14,28] or entropy
+analysis [12,2]. However, these methods are less effective against low-entropy
+packers [22]. This paper focuses on packer identification and categorizes existing
+approaches into two main families: signature-based methods, which rely on man-
+ually or automatically generated signatures, and pattern recognition techniques,
+predominantly driven by ML-based algorithms.
+Signature-based Methods. Packers often leave specific artifacts that can be
+used to create signature databases. Detect It Easy (DIE) is a well-known tool
+for packer identification via signature matching [13], outperforming tools like
+PEiD [27] with its open architecture that allows users to add JavaScript-like
+scripts for packer detection. However, it requires the manual creation of signa-
+ture scripts for new packers and their variants, making it challenging to integrate
+new packers, especially with limited analyzable packed samples. A key limitation
+of signature-based detection is the need to analyze many samples to identify
+invariant byte sequences that can be used as signatures. To address this, re-
+searchers have explored automating the signature extraction process. Raff et al.
+propose a method to automatically generate YARA rules [30], a format for defin-
+ing malware characteristics [3]. Nevertheless, code packing can still easily defeat
+these rules, similar to other signature schemes. To the best of our knowledge,
+the State-of-the-art (SotA) tool for signature generation in packed programs is
+PackGenome [16]. Inspired by biological processes, PackGenome identifies sig-
+nificant instructions in the first unpacking layer (the only statically visible one).
+It uses Intel Pintool [21] to monitor packed programs in a controlled environ-
+ment, recording and labeling instructions that write “unpacked” instructions.
+By analyzing multiple executions of programs packed with the same packer and
+applying similarity metrics, PackGenome extracts packer-specific “genes” to gen-
+erate YARA rules. However, this approach relies on dynamic analysis, making it
+vulnerable to evasive techniques that hinder the extraction of relevant genes, as
+empirically confirmed in our experimental evaluation (Subsection 4.5). Accurate
+packer identification often requires generating a large number of signatures. For
+instance, PackGenome recommends using the actual packer to create extensive
+variations of the unpacking stub. However, this approach is impractical in real-
+world scenarios where malicious software frequently employs custom packers that
+are inaccessible to analysts. Additionally, the limited availability of samples for
+such packers makes it infeasible to build a comprehensive signature database.
+ML-based Packer Identification. The second family of identification meth-
+ods relies on pattern recognition algorithms, particularly Machine Learning tech-
+niques. Proposed approaches include constructing randomness profiles for packed
+samples [33], applying binary diffing [15], extracting features from the topology
+of CGs [19], and evaluating the similarity of Consistently-Executing Graphs

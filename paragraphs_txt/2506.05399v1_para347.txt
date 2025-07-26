@@ -1,0 +1,11 @@
+In a different approach, [50] utilized a faster region-CNN
+(R-CNN) to extract visual features for a given image. These
+features are then inputted into the transformer encoder, allow-
+ing the transformer to effectively capture object information by
+overcoming interference from non-critical objects. The atten-
+tion matrix computed from the transformer encoder is passed
+into the attention gate, where the attention weight values below
+the gate threshold are truncated. The decreasing threshold leads
+to the preservation of more non-zero values, expanding the at-
+tention scope of the self-attention module from local items to
+all objects as the network layer expands.

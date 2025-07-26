@@ -1,0 +1,45 @@
+Name
+α
+λ
+µ
+Sreceived
+Preceived
+Yreceived
+Sselected
+ST rain
+Sselected
+ST rain
+ST rainP rimary
+ST rainSecondary Samples used to train secondary classiﬁers
+Samples used to tune the decision function
+ST une
+Classiﬁer
+C
+Individual probabilistic score
+p
+PDFRate (primary) classiﬁer
+C1
+Output of C1
+p1
+C2
+Cuckoo (primary) classiﬁer
+Output of C2
+p2
+Virus Total (primary) classiﬁer
+C3
+Output of C3
+p3
+Secondary classiﬁer using p1 and p2 as inputs
+C4
+Output of C4
+p4
+Secondary classiﬁer using p1, p2, and p3 as inputs
+C5
+Cost function
+c
+Enumeration function that generates initial threshold sets to evaluate
+e()
+Diﬀerence in successive g() scores after which to stop optimizing thresholds
+(cid:15)
+maximum number of iterations to run in each tuning step
+niterations

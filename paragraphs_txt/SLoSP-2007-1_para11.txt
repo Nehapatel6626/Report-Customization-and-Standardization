@@ -1,0 +1,4 @@
+Over the last 12 years statistical parsing has succeeded wonderfully!
+NLP researchers have produced a range of (often free, open source) statistical parsers, which can parse any sentence and often get most of it correct
+These parsers are now a commodity component
+The parsers are still improving year-on-year.

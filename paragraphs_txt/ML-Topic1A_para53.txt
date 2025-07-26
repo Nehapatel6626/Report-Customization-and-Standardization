@@ -1,0 +1,8 @@
+Learning “what normally happens”
+No output
+Clustering: Grouping similar instances
+Other applications: Summarization, Association Analysis
+Example applications
+Customer segmentation in CRM
+Image compression: Color quantization
+Bioinformatics: Learning motifs

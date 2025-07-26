@@ -1,0 +1,1 @@
+Notepad itself is not a malicious program, similar commands can be used to run other

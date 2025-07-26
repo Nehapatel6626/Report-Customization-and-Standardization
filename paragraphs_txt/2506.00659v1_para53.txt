@@ -1,0 +1,23 @@
+(CEGs) [17]. S. Li et al. observed that while most packers significantly affect
+binary entropy, individual packers exhibit distinctive randomness patterns [33].
+They used sliding windows [8] to build randomness profiles, training a k-nearest
+neighbor classifier. Kim et al. employed an SVM classifier with binary diffing
+measures as kernels, achieving the best performance using the longest common
+substring computed from the first 15 bytes at each program’s entry point [15].
+This method leverages the similarity of initial instructions in unpacking stubs
+from the same packer, but its effectiveness is lowered by code obfuscation [16,37].
+Hao et al. represented packed programs as CGs and trained an SVM classifier
+using topological features (e.g., entry point indegree) and general file information
+like size or section count [19]. While we draw on this idea to represent packed
+programs through CGs, our methodology directly uses graphs, offering better
+generalization and results. X. Li et al. [17] proposed a similar approach by com-
+paring graphs using a Weisfeler-Lehman shortest path kernel. Instead of employ-
+ing CGs, they introduce CEGs to simulate static execution points by traversing
+procedures, locating branch instructions, and forming flow paths. However, they
+do not address the challenge posed by the increasing number of graphs that must
+be compared during identification due to the introduction of new packers. To
+the best of our knowledge, none of these works have released their code. How-
+ever, three of the four approaches were straightforward to implement, enabling
+their comparison with our method (results in Subsection 4.4). The fourth, CEG,
+relies on a heuristic for graph extraction, making reimplementation challenging
+without significant assumptions. Therefore, it was excluded from our study.

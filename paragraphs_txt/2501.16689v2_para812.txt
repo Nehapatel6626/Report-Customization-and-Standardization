@@ -1,0 +1,5 @@
+Interaction Type
+Node-to-Node Interactions
+Cook↔ Supervi-
+sor
+Driver1 ↔ Driver2

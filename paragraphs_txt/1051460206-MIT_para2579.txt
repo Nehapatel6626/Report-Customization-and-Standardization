@@ -1,0 +1,1 @@
+Figure 6-11.  The  reference results compared to the AutoScope results in terms of relative

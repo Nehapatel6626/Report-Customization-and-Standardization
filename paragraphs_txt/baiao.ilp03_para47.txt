@@ -1,0 +1,1 @@
+In the DDODB domain, the set of facts define a particular database schema definition (classes with their cardinalities, relationships – of a specific type - between classes) and the applications (operations with their frequencies, classifications and their accessed classes) that run on the database.

@@ -1,0 +1,7 @@
+We will first cover background knowledge in the following areas:
+Breast Cancer (basics)
+Mammography (fundamentals, main problems)
+Deep Learning (fundamentals, architectures, platforms)
+Mass/Abnormality Detection and Classification (review)
+Student paper presentations for in-depth understanding of representative methods in the field.
+A tentative schedule can be found on the CS791 webpage.

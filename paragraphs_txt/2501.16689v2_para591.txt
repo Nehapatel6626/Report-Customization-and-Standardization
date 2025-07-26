@@ -1,0 +1,1 @@
+Next, MP identiﬁes dependencies (E) between roles:

@@ -1,0 +1,3 @@
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Chi, E. H., Le,
+Q., and Zhou, D. Chain of thought prompting elicits reasoning
+in large language models. Neurips, 2022.

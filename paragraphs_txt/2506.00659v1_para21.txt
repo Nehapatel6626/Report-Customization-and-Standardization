@@ -1,0 +1,18 @@
+repacked with various commercial and free packers, categorized by complexity
+according to existing taxonomies [34]. PackHero achieves a macro-average F1-
+score of 93.7% and an accuracy of 98.7% using only 10 programs per packer
+during configuration. In its best configuration, utilizing 100 samples per packer,
+it reaches a macro-average F1-score of 98.3% and an accuracy of 99.8%. The scal-
+ability of PackHero, supported by its clustering approach, is validated through
+comparisons with a non-clustering version in terms of both performance and
+inference calls to the GMN. Once configured, PackHero requires significantly
+fewer samples to converge and stabilize than existing ML-based tools, need-
+ing just 10 samples versus 40 for the best-performing alternative. Moreover,
+PackHero features a constant integration cost, whereas the integration cost of
+other ML-based tools increases linearly with the number of packers recognized.
+PackHero is a robust alternative to signature-based detection tools, achieving
+performance aligned with SotA tools. Notably, it performs significantly better
+against virtualization-based [32] packers like Themida/Winlicense, which employ
+advanced dynamic evasive behaviors that hinder signature extraction in dynamic
+analysis-based tools. Specifically, PackHero achieves a perfect recall of 100% on
+this packer, compared to 92% for DIE and 31% for PackGenome.

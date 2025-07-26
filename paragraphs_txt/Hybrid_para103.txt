@@ -1,0 +1,1 @@
+[14] Yerazunis, W.S., "The Spam-Filtering Accuracy Plateau at 99.9% Accuracy and How to Get Past It", MIT Spam Conference, January 2004.

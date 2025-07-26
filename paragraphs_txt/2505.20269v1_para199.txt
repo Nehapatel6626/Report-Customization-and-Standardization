@@ -1,0 +1,11 @@
+In this section, we detail the experiments conducted to compare our proposal
+against the encoding presented in [5]. Our evaluation consists of two main
+experiments. In the first one, we compare the two encodings using 12 datasets.
+In the second one, we conduct a detailed comparison using a single dataset. We
+vary the architecture of the trained ANNs to explore the effect of the number of
+layers and neurons. We evaluate the performance of each encoding in terms of
+time for building logical constraints and time for computing explanations. We
+explained all instances in a given dataset and calculated the average time and
+standard deviation to compare times for computing explanations. In the other
+case, given a trained ANN on a dataset, we built the logical constraints 10 times
+and calculated the average time and standard deviation.

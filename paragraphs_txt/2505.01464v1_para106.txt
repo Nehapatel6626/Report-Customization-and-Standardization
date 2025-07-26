@@ -1,0 +1,1 @@
+Assume f becomes contractive after some N ∈ N:

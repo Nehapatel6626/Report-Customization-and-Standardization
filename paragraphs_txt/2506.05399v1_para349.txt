@@ -1,0 +1,5 @@
+a novel normalization method and demonstrated its feasibility
+and advantages for hidden activation within self-attention. They
+proposed a geometry-aware self-attention (GSA) class that ex-
+tends self-attention to explicitly consider relative geometry re-
+lations between objects in an image for feature extraction.

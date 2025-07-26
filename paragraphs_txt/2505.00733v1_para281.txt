@@ -1,0 +1,2 @@
+$c has status $c status;
+$c status like ’unfeasible|failure’;

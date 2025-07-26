@@ -1,0 +1,1 @@
+training,  the goal  is to select  weights that minimize  this loss  function  across the  image dataset.

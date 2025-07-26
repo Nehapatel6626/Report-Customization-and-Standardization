@@ -1,0 +1,1 @@
+computed to identify the principal components. The principal components are new variables

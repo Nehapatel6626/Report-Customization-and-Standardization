@@ -1,0 +1,10 @@
+In the context of image captioning, [106] proposed a Multi-
+Gate Attention (MGA) block within a pre-layer norm trans-
+former architecture. This architecture modifies the standard
+self-attention mechanism by incorporating multiple gate mech-
+anisms, thus enhancing its capabilities. The pre-layer norm
+transformer architecture differs from the original transformer
+architecture in that the layer normalization is placed before the
+self-attention module, and the feedforward layer and subsequent
+layers are eliminated. This simplification aims to increase the
+model’s efficiency for image captioning.

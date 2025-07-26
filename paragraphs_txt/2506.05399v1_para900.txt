@@ -1,0 +1,5 @@
+[84] W. P. Pa, T. L. Nwe, et al., Automatic myanmar image captioning us-
+ing cnn and lstm-based language model, in: Proceedings of the 1st Joint
+Workshop on Spoken Language Technologies for Under-resourced lan-
+guages (SLTU) and Collaboration and Computing for Under-Resourced
+Languages (CCURL), 2020, pp. 139–143.

@@ -1,0 +1,12 @@
+Data, Data, DATA!!!
+Examples
+World wide web
+Human genome project
+Business data (WalMart sales “baskets”)
+Idea: sift heap of data for nuggets of knowledge
+Some tasks beyond programming
+Example: driving
+Idea: learn by doing/watching/practicing (like humans)
+Customizing software
+Example: web browsing for news information
+Idea: observe user tendencies and incorporate

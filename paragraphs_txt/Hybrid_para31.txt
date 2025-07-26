@@ -1,0 +1,1 @@
+and predicts the class with the highest value of P(y|x).

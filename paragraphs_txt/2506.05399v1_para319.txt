@@ -1,0 +1,9 @@
+4.2.3. The convolutional neural network-recurrent neural net-
+works - long short-term memory encoder-decoder model
+The work of [93] proposed a multi-modal attention mech-
+anism for generating news image captions. This mechanism
+combines visual and textual attention to generate captions from
+news images and text. The goal is to ensure that the caption
+of a news image reflects the specific event reported, making it
+different from a general caption. More than 98% attention was
+paid to the text, while the rest focused on the image.

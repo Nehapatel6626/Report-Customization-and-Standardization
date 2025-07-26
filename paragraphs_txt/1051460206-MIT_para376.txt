@@ -1,0 +1,1 @@
+training, the  goal is to adjust the  weights,  W,  of the  network  in order to minimize  Li, the output

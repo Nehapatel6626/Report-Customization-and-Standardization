@@ -1,0 +1,1 @@
+Fung, C., Karlapalem, K., Li, Q., (2002), Object-Oriented Systems: An Evaluation of Vertical Class Partitioning for Query Processing in Object-Oriented Databases, IEEE Transactions on Knowledge and Data Engineering, Sep/Oct, Vol. 14, No. 5

@@ -1,0 +1,16 @@
+- Schedule tracking
+- Buffer management
+- Sequence logic
+- Critical path
+- Location tracking
+- Route optimization
+- Trafﬁc updates
+- Distance constraints
+- Vehicle allocation
+- Kitchen resources
+- People availability
+- Capacity limits
+- Oven monitoring
+- Driving safety
+- Food safety
+- Critical rules

@@ -1,0 +1,12 @@
+a human-written reference sentence using generalized unigram
+matching. The score is computed based on the matched words’
+precision, recall, and alignment. When multiple reference sen-
+tences are involved, the candidate’s final evaluation score is de-
+termined by choosing the best score among all independently
+computed ones. METEOR incorporates stemming, synonym
+matching, and standard exact word matching, making it more
+effective at the sentence or segment level [7]. The maximum
+score can be estimated by computing the F-measure through
+explicit unigram matching (i.e., word-for-word matching) be-
+tween the candidate and reference translations. The METEOR
+metric is defined as

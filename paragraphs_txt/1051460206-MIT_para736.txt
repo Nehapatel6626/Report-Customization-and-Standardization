@@ -1,0 +1,1 @@
+where  A  is the  wavelength of the  incident light.  The  1.22  is  included to  take  into account  the 20%

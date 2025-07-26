@@ -1,0 +1,6 @@
+Bottom-up parsing is data directed
+The initial goal list of a bottom-up parser is the string to be parsed. If a sequence in the goal list matches the RHS of a rule, then this sequence may be replaced by the LHS of the rule.
+Parsing is finished when the goal list contains just the start category.
+If the RHS of several rules match the goal list, then there is a choice of which rule to apply (search problem)
+Can use depth-first or breadth-first search, and goal ordering.
+The standard presentation is as shift-reduce parsing.

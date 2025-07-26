@@ -1,0 +1,3 @@
+The architectural knowledge (see Table 2) captures what actions the robot can accomplish, the set of
+functionalities the robot needs to realize an action, the set of components required to realize a functionality,
+and the possible parameters for a component.

@@ -1,0 +1,3 @@
+Manual inspection of the transcriptions indicated that they were generally
+highly accurate. Most errors were attributed to uncommon named entities, such
+as locations, brands, and persons.

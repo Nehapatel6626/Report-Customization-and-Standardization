@@ -1,0 +1,15 @@
+Model
+Whisper small
+ZHAW small
+Whisper medium
+ZHAW medium
+ZHAW medium 2
+ZHAW medium 3
+Whisper large-v2
+ZHAW large-v2
+Whisper large-v3
+ZHAW large-v3
+Whisper large-v3-turbo zero-shot
+ZHAW large-v3-turbo on SRB-300
+XLS-R-1B
+XLS-R-1B

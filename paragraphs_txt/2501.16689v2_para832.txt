@@ -1,0 +1,10 @@
+Once after the original plan was revised by MP to in-
+clude more speciﬁc details, clarify ambiguous explicit con-
+straints, and deﬁne implicit constraints, the performance
+of the three LLMs used in the experiment improved sig-
+niﬁcantly. When the augmented plan W∗ was input into
+DeepSeek, GPT4o, and Claude, each model successfully
+generated a feasible plan within two to three iterations.
+(The case study in Section 3 shows that DeepSeek was con-
+fusing and GPT4o repeatedly committed constraint viola-
+tions.)

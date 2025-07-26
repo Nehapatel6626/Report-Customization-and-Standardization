@@ -1,0 +1,1 @@
+• hash: sha1 hash of the ﬁle to uniquely identify the sample

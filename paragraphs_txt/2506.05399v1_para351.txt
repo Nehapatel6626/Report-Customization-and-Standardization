@@ -1,0 +1,10 @@
+State-of-the-art techniques directly encode identified object
+regions and utilize region features. However, this approach
+presents challenges related to object relationships and the po-
+tential for incorrect item detection. Significant computational
+power is also required to compute region features, particularly
+when using high-performing CNN-based detectors like Faster
+R-CNN. The study by [100] addressed these issues by replac-
+ing a CNN backbone with a transformer to overcome the draw-
+backs of CNN-based detectors and reduce computational costs
+for extracting initial features from input images.

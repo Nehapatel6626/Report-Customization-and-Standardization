@@ -1,0 +1,3 @@
+Inference (Without): 
+No explicit “reset” cue is given. The system lumps “Dental” under Delta Airlines until the user explicitly clarifies 
+“Delta Dental” as a new customer. This leads to confusion and extra steps.

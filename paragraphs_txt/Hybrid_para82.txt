@@ -1,0 +1,1 @@
+Figure 5: This graph depicts how the number of errors varies for the three classifiers for different χ values on the large (above) and small (below) spam datasets.

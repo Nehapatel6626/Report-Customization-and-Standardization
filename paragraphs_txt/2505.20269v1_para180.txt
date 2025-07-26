@@ -1,0 +1,3 @@
+Proposition 2. Let ¬E be defined as in Equations (10)-(12). Let i ∈ {1, ..., N }
+be fixed and ubi be such that oi ≤ ubi. Let lbj be such that lbj ≤ oj, for j ∈
+{1, ..., N } \ {i}. Therefore,

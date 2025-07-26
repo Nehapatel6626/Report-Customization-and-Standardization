@@ -1,0 +1,2 @@
+xSubset of Arabic Flickr8k (2000 images)
+Top performer for each metric is underlined

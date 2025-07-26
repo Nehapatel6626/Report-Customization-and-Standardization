@@ -1,0 +1,6 @@
+By addressing these tasks, common agents form the back-
+bone of MACI’s planning architecture. Their modular de-
+sign enables reuse across multiple domains, and their col-
+laborative functionality ensures they work seamlessly with
+specialized agents to maintain global consistency and co-
+herence within the planning workﬂow.

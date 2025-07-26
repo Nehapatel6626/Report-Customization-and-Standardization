@@ -1,0 +1,3 @@
+Minimum Edit Distance
+A “dynamic programming” algorithm
+We will see a probabilistic version of this called “Viterbi”

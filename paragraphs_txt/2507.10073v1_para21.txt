@@ -1,0 +1,11 @@
+Our study addresses a critical question in AI alignment research: Are LLMs truly representing
+diverse human values, or merely averaging across them? This question becomes particularly
+significant when considering the application of LLMs as synthetic populations in social
+science research—a growing trend that assumes these models can accurately represent human
+response distributions across different demographic and cultural groups. Recent studies
+have highlighted inconsistencies in LLM alignment, particularly regarding ideological
+and moral representations. Prior research [munker2024towards] demonstrates that in-
+context prompting alone fails to consistently align model-generated responses with human
+ideological distributions. High response variance across multiple repetitions suggests that
+current LLMs do not robustly encode stable moral perspectives, further complicating efforts
+for reliable AI alignment.

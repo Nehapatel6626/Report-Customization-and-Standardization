@@ -1,0 +1,5 @@
+When the execute component receives an event message indicating that a new reconfiguration plan was
+added to the KB, it calls the service ‘/reconfiguration plan/get latest’ to get the latest reconfiguration
+plan. Then, it adapts the robot’s architecture according to the reconfiguration plan. Finally, it calls the
+services ‘/reconfiguration plan/result/set’ and ‘/component/active/set’ to update the KB with the result of
+the reconfiguration plan and which components are active.

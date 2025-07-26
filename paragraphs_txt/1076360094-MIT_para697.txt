@@ -1,0 +1,1 @@
+Using human analysts to inspect malware samples is the most accurate form of de-

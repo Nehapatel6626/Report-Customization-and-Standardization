@@ -1,0 +1,8 @@
+When navigating, the robot performs adaptation by selecting which corridors it needs to go through
+given its feasible configurations, and by selecting a suitable architecture configuration for each corridor
+it goes through. For example, to go from point A to B, the AGV can go directly through a corridor with
+obstacles C1 or through corridors C4 → C3 → C2 without obstacles. Ideally, the AGV should go through
+C1 as it is the shortest path. Considering that the Kinect and AMCL combination is the only one with
+enough accuracy to go through a corridor with obstacles, in the case that the Kinect fails, the robot needs to
+perform TACA by adapting its task plan to go through C4 → C3 → C2 while simultaneously adapting its
+architecture, e.g., to use the lidar as its sensing component.

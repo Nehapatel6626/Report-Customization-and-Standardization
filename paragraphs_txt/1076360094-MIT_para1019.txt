@@ -1,0 +1,1 @@
+The cost function expresses the two objectives we speciﬁed above – whether the

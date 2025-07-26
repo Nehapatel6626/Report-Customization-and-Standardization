@@ -1,0 +1,41 @@
+Description
+Total time taken to make decision per ﬁle
+Average time taken to make decision per ﬁle
+Recall
+Precision
+function that computes the f1 score
+precision recall weight – weight of precision vs recall
+Function describing accuracy of a system
+Speciﬁc evaluation function maximizing f1 score.
+Speciﬁc evaluation function maximizing recall given precision above 0.9
+Cost function
+Enumeration function that generates initial threshold sets to evaluate
+Diﬀerence in successive g() scores after which to stop optimizing thresholds
+maximum number of iterations to run in each tuning step
+1,t2
+list of threshold combinations for (t1
+1)
+2,t2
+list of threshold combinations for (t1
+2)
+3,t2
+list of threshold combinations for (t1
+3)
+4,t2
+list of threshold combinations for (t1
+4)
+list of threshold combinations for (t5)
+set of thresholds {t1
+4,t2
+list of threshold sets
+simple enumeration function
+Minimum probability used in selecting data
+weight between data used for training and tuning
+Samples received by decision system
+predicted probability for received samples produced by decision function
+predicted labels for received samples produced by decision function
+Samples selected for updated the system
+Samples selected for updated the system
+Samples selected for updated the system
+Samples used to train classiﬁers
+Samples used to train primary classiﬁers

@@ -1,0 +1,1 @@
+hold static tabular data. They are commonly used for exchanging data between different

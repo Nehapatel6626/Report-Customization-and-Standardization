@@ -1,0 +1,103 @@
+1/19/2010
+Cyber Security Spring 2010
+Introduction to Cyber Security Lab
+CS460
+Susan Hinrichs
+Spring 2010
+1/19/2010
+Cyber Security Spring 2010
+Administrivia
+Meet Tuesdays/Thursdays 12:30-1:45pm 1302 Siebel
+Security lab in 0222 SC
+Office hours in lab, time TBA
+shinrich@cs.uiuc.edu
+Office 4224 SC
+Lab Assistant
+Still looking for one...
+1/19/2010
+Cyber Security Spring 2010
+Means of Communication
+Newsgroup cs.class.cs460
+Compass for assignments
+Web sitehttp://www.cs.illinois.edu/class/sp10/cs460
+Have a wiki set up for lab infrastructure notes
+Could use that for other communication if beneficial
+1/19/2010
+Cyber Security Spring 2010
+Class Structure
+Complements introductory security courses like Computer Security I
+Teach computer and network security mechanisms used in the field
+Teach design techniques
+A sampling of security technologies
+Class meetings
+Lectures on background material
+In class exercises in lab
+Guest lectures
+1/19/2010
+Cyber Security Spring 2010
+Options for In Class Labs
+10 workstations in 0222
+Too few to allow for a good in class lab experience
+Will try to supplement with some additional VMs
+Want to identify a secondary time to allow for class labs to be run twice.
+Before or after normal class time?
+Some time on MWF?
+1/19/2010
+Cyber Security Spring 2010
+Class Non-Goal
+Class will not make you expert in any particular security technology
+If that is your goal, better to take a specific technology training course or self study
+1/19/2010
+Cyber Security Spring 2010
+Topics
+Secure Programming 
+Least-privilege programming and impersonation 
+Worm anatomy 
+Malware frameworks
+OS security 
+Windows ACLs and security policies 
+Vista/Windows 7 security additions 
+SE Linux domain type enforcement policies 
+Mandatory access controls in SE Linux and perhaps other OS's 
+User identity 
+Database Security 
+1/19/2010
+Cyber Security Spring 2010
+More Topics
+Network Security 
+Firewall configuration 
+IPSec 
+IPv6 
+Access control servers 
+Network intrusion detection and monitoring 
+Honey pots 
+Wireless security 
+Network scanning 
+Web security
+Defensive system design 
+Security architectures 
+Penetration testing 
+1/19/2010
+Cyber Security Spring 2010
+Reading Materials
+Introductory Security Text for reference
+Like Pfleeger and Pfleeger's Security In Computing, or Bishop's Computer Security: Art and Science, or Stalling's text
+Supplemented with many papers and manuals
+1/19/2010
+Cyber Security Spring 2010
+Course Evaluation
+~5 Lab exercises – 50%
+~2 Papers – 25%
+Final design project – 25%
+Folks taking for graduate credit 
+Research/deploy an additional technology
+Pick your technology soon
+e.g. PAM, AppArmour, BitLocker
+1/19/2010
+Cyber Security Spring 2010
+Questions for the class
+Have you taken an introductory security class?
+Are you familiar with Windows and/or Linux?
+Are you comfortable with C, C++, and/or Java?
+Are you familiar with IP networking?
+What do you hope to get out of this class?

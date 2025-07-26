@@ -1,0 +1,5 @@
+Additional texts available on Canvas, under “Pages” (for your personal use only, do not distribute)
+Introduction to Deep Learning: From Logical Calculus to Artificial Intelligence, by Sandro Skansi, Springer, 2018.
+Neural Networks and Deep Learning: A Textbook, by Charu Aggarwal, Springer, 2018.
+Deep Learning With Python (2nd edition), by Francois Chollet, Manning, 2021.
+Computer Vision: Algorithms and Applications, by Richard Szeliski, Springer, 2011.

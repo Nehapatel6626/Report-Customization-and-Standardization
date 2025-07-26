@@ -1,0 +1,6 @@
+Therefore, transcribing Swiss German is conventionally done in Standard Ger-
+man, which is considered a translation task rather than a mere transcription.
+This translation comes with the corresponding difficulties, e.g., due to spelling
+ambiguities or only partly matching vocabularies [16]. Phonetic, morphological,
+and syntactic variations across Swiss German dialects and even within the same
+dialect further complicate the transcription task.

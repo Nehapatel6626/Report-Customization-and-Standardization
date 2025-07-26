@@ -1,0 +1,7 @@
+are limited. In retrieval-based systems, captions are retrieved
+from a set of existing captions. This approach has the advan-
+tage of generating generic and syntactically correct captions.
+However, it may not produce semantically accurate captions
+specific to the image. Both template-based and retrieval-based
+approaches are not flexible enough, as they rely on existing cap-
+tions in the training set or hard-coded language structures [2].

@@ -1,0 +1,6 @@
+demonstrated that X-LAN produces significant performance im-
+provements in benchmark datasets compared to existing meth-
+ods, offering a more scalable and effective solution to gener-
+ate detailed and contextually accurate image descriptions. By
+enhancing both efficiency and accuracy, X-LAN advanced the
+capabilities of image captioning systems.

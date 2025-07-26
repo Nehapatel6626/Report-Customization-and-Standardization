@@ -1,0 +1,13 @@
+This work explores two different encodings to improve the scalability of
+providing correct minimal explanations for ANNs, building upon [8]. In addition
+to the logical constraints of [5], we adopt the encoding proposed by Tjeng et al.
+[17], which uses fewer variables and constraints, and excludes logical implications.
+By reducing variables and constraints compared to [5], our approach aims to
+enhance explanation computation performance. To adapt the approach of [17]
+for explanations, we introduce new constraints to ensure correctness. In line
+with the encodings proposed by Fischetti and Jo [5] and Tjeng et al. [17], we
+also compute lower and upper bounds for each neuron. These bounds are found
+through optimization using a MILP solver. Moreover, these bounds can aid the
+solver in computing explanations more rapidly. In this manner, we compare the
+time required for constructing logical constraints with lower and upper bounds
+of each neuron, along with the time needed for computing explanations.

@@ -1,0 +1,17 @@
+Each hospital trains RL policies tailored to specific surgical
+procedures, such as colonoscopy or minimally invasive cardiac
+surgery. Given that multiple policies may exist for the same
+surgical task across different hospitals, a selection mecha-
+nism is required. The proposed framework evaluates available
+policies based on cumulative reward and predefined surgical
+performance metrics, ensuring that the policy demonstrating
+superior performance is selected for real-time execution. This
+dynamic selection process Optimises surgical precision and
+adaptability. The proposed RL framework is formulated as
+a Markov Decision Processes (MDP), defined by the tuple
+(S, A, P, R, γ), where S represents the state space, encom-
+passing patient-specific parameters, surgical conditions, and
+real-time sensor inputs. A denotes the action space, consisting
+of robotic movements, tool manipulations, and incision strate-
+gies. P (s′|s, a) is the transition probability function governing
+state transitions based on the applied action.

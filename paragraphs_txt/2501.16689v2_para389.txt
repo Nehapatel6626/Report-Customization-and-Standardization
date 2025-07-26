@@ -1,0 +1,6 @@
+To demonstrate MACI’s adaptability, this section presents
+empirical results from applying the framework to multi-
+ple domains. Examples include ﬁnancial portfolio manage-
+ment, urban trafﬁc planning, and hospital resource alloca-
+tion, highlighting MACI’s advantages over state-of-the-art
+systems.

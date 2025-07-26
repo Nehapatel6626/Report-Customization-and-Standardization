@@ -1,0 +1,3 @@
+Kushmerick, N., Hanks, S., and Weld, D. S. An algorithm for
+probabilistic planning. Artiﬁcial Intelligence, 76(1-2):239–286,
+1995.

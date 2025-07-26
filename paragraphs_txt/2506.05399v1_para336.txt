@@ -1,0 +1,14 @@
+In most methods, the image is first fed into a CNN to gen-
+erate image features, which will then be used as input for the
+language processing component. The convolution layer reduces
+the image into features by using information from nearby pix-
+els. It then employs prediction layers to forecast the target val-
+ues. This is achieved by creating a dot product using multiple
+convolution filters, or kernels, which scan the image and ex-
+tract unique aspects of the image. The max pooling layer helps
+to reduce the spatial size of the convolved features and prevents
+overfitting by providing an abstract representation of the con-
+volved features. Although there are many different activation
+functions, RelU is the most commonly used one in various types
+of neural networks due to its ease of training and superior per-
+formance due to its linear behavior [96].

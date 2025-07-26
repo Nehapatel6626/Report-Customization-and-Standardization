@@ -1,0 +1,7 @@
+Diagnosis: Attention Narrowing Claude detects con-
+straint violations in other LLMs’ plans but both GPTo4 and
+DeepSeek struggle with self-validation, revealing an asym-
+metry in error detection. LLMs often embed ﬂawed inter-
+pretations of constraints during planning (e.g., rigidly inter-
+preting “someone must be in the house” when the turkey is
+in the oven), propagating errors through their frameworks.

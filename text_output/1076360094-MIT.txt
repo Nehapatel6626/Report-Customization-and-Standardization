@@ -1,0 +1,4413 @@
+Towards Building Active Defense for Software
+
+Applications
+
+by
+
+Zara Perumal
+
+Submitted to the Department of Electrical Engineering and Computer
+Science
+in partial fulﬁllment of the requirements for the degree of
+
+Masters of Engineering in Electrical Engineering and Computer
+Science
+
+at the
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+January 2018
+
+c(cid:13) Massachusetts Institute of Technology 2018. All rights reserved.
+
+Author . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Department of Electrical Engineering and Computer Science
+January 19, 2018
+
+Certiﬁed by . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Kalyan Veeramchaneni
+Principle Research Scientist
+Thesis Supervisor
+
+Accepted by . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Christopher Terman
+Chairman, Masters of Engineering Thesis Committee
+
+2
+
+Towards Building Active Defense for Software Applications
+
+by
+
+Zara Perumal
+
+Submitted to the Department of Electrical Engineering and Computer Science
+on January 19, 2018, in partial fulﬁllment of the
+requirements for the degree of
+Masters of Engineering in Electrical Engineering and Computer Science
+
+Abstract
+
+In
+Over the last few years, cyber attacks have become increasingly sophisticated.
+an eﬀort to defend themselves, corporations often look to machine learning, aiming
+to use the large amount of data collected on cyber attacks and software systems
+to defend systems at scale. Within the ﬁeld of machine learning in cybersecurity,
+PDF malware is a popular target of study, as the diﬃculty of classifying malicious
+ﬁles makes it a continuously eﬀective method of attack. The obstacles are many:
+Datasets change over time as attackers change their behavior, and the deployment
+of a malware detection system in a resource-constrained environment has minimum
+throughput requirements, meaning that an accurate but time-consuming classiﬁer
+cannot be deployed. Recent work has also shown how automated malicious ﬁle cre-
+ation methods are being used to evade classiﬁcation.
+
+Motivated by these challenges, we propose an active defender system to adapt to
+evasive PDF malware in a resource-constrained environment. We observe this system
+to improve the f1 score from 0.17535 to 0.4562 over ﬁve stages of receiving PDF ﬁles
+that the system considers unlabeled. Furthermore, average classiﬁcation time per ﬁle
+is low across all 5 stages, and is reduced from an average of 1.16908 seconds per ﬁle
+to 1.09649 seconds per ﬁle.
+
+Beyond classifying malware, we provide a general active defender framework that
+can be used to deploy decision systems for a variety of resource-constrained adversarial
+problems.
+
+Thesis Supervisor: Kalyan Veeramchaneni
+Title: Principle Research Scientist
+
+3
+
+4
+
+Acknowledgments
+
+First, I would like to thank my advisor Kalyan for exploring a new direction in my
+
+project. When I started my MENG, I was excited about using machine learning in
+
+cybersecurity, but I knew little about the details of what that meant. He took a
+
+risk on my project and we dove into a new area of work. Throughout the process
+
+of brainstorming, exploring experimental options, identifying interesting problems,
+
+and building and deploying a system, Kalyan continuously supported me and pro-
+
+vided feedback with new insights on the project. I am incredibly grateful to him for
+
+providing me this opportunity to work on such an interesting project.
+
+I would like to thank Professor Rivest for sparking my interest in cybersecurity.
+
+Taking 6.857 Senior Spring and having the opportunity to work on election cyberse-
+
+curity motivated me to pursue cybersecurity.
+
+Thank you to the Data to AI lab for providing feedback, and thank you Brian
+
+Jones for helping me set up the Malware sandbox. I would also like to thank Course
+
+6 department and especially Anne Hunter for enabling me to pursue the my Masters
+
+of Engineering.
+
+Finally, I am thankful to my family for their love and support. I would also like
+
+to thank the friends and mentors who made the last ﬁve years not only rewarding,
+
+but also fun. I would like to thank Kyra Horne for providing food and support and
+
+enabling me to ﬁnish my thesis. Finally, I would like to thank Bullet for being the
+
+best dog, and a “security expert.”
+
+5
+
+6
+
+Contents
+
+1 Introduction
+
+1.1 Contributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+1.2 Thesis Organization . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2 Malware through PDFs
+
+2.1 Structure of a PDF . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2.2 Malware in PDFs . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2.3 Our dataset . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2.4 PDF Malware Detection . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2.4.1 Using Network Features
+
+. . . . . . . . . . . . . . . . . . . . .
+
+2.4.2 Using Static Features . . . . . . . . . . . . . . . . . . . . . . .
+
+2.4.3 Dynamic Behavioural Analysis . . . . . . . . . . . . . . . . . .
+
+2.4.4 Publicly available APIs . . . . . . . . . . . . . . . . . . . . . .
+
+2.4.5 Human expert analysis . . . . . . . . . . . . . . . . . . . . . .
+
+2.4.6 Hybrid systems . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2.5 Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3 Active defender system
+
+3.1 Active Defender System . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4 Synthesizing training data
+
+4.1 Machine learning to create malicious samples . . . . . . . . . . . . . .
+
+4.1.1 Methods to evade classiﬁers
+
+. . . . . . . . . . . . . . . . . . .
+
+7
+
+17
+
+20
+
+21
+
+23
+
+23
+
+26
+
+27
+
+29
+
+29
+
+29
+
+31
+
+33
+
+34
+
+35
+
+36
+
+37
+
+40
+
+41
+
+41
+
+42
+
+4.1.2
+
+fmutate() . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4.1.3 Evasive Performance . . . . . . . . . . . . . . . . . . . . . . .
+
+5 Learning models from training data
+
+5.1 Primary classiﬁers . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5.1.1 PDFRate (C1) . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5.1.2 Cuckoo (C2) . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5.1.3 Virus Total (C3)
+
+. . . . . . . . . . . . . . . . . . . . . . . . .
+
+5.2 Secondary Classiﬁers . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6 The decision system
+
+6.1 Bi-level decision function . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.2 Hierarchical tunable decision system . . . . . . . . . . . . . . . . . .
+
+6.3 Cost function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.3.1
+
+g(.) function . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.4 Tuning algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+6.4.1
+
+e() . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7 Adapting over time
+
+7.1 Adapt in Active Defender
+
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+8 Experimental Results
+
+8.1 Experimental setup . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8.2 Experimental Results . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9 Discussion and Future Work
+
+9.1 Evasion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9.2 Active Defender . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9.2.1 Decision System . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9.2.2 Adaptation . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9.2.3 Resource-Constrained Classiﬁcation Systems . . . . . . . . . .
+
+9.2.4 Using Active Learning to Improve Against Evasive Samples . .
+
+45
+
+45
+
+49
+
+49
+
+49
+
+50
+
+50
+
+50
+
+53
+
+54
+
+55
+
+55
+
+55
+
+58
+
+58
+
+63
+
+64
+
+67
+
+67
+
+69
+
+73
+
+73
+
+74
+
+74
+
+75
+
+75
+
+75
+
+8
+
+9.3 SMDA Framework . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9.4 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+A PDFRate Classiﬁer Features
+
+B Virus Total Classiﬁers
+
+C SMDA Software
+
+C.1 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+C.2 Design Goals
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+C.3 Modules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+C.3.1 Sample Generator . . . . . . . . . . . . . . . . . . . . . . . . .
+
+C.3.2 Model
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+C.3.3 PredictionPipeline
+
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+C.3.4 FeatureExtraction . . . . . . . . . . . . . . . . . . . . . . . . .
+
+C.3.5 Evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+C.4 Testing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+C.5 Documentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+76
+
+76
+
+77
+
+81
+
+89
+
+89
+
+89
+
+90
+
+91
+
+91
+
+91
+
+93
+
+93
+
+93
+
+94
+
+9
+
+10
+
+List of Figures
+
+1-1 Modules of the SMDA framework for building adaptive models in ad-
+
+versarial environments. . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+20
+
+2-1 Source for a simple hello world PDF . . . . . . . . . . . . . . . . . .
+
+24
+
+2-2 Rendered version of simple hello world PDF . . . . . . . . . . . . . .
+
+25
+
+2-3 Example of un-obfuscated code as a PDF object . . . . . . . . . . . .
+
+26
+
+2-4 Example of obfuscated code as a PDF object . . . . . . . . . . . . . .
+
+27
+
+2-5 KDE approximation of Probability Density for scores generated using
+
+the PDFRate classiﬁer. This plot shows the malicious variants in pink
+
+and benign variants in blue. The KDE plot was generated with a
+
+Gaussian kernel of width 0.1 . . . . . . . . . . . . . . . . . . . . . . .
+
+31
+
+2-6 KDE approximation of Probability Density for binary Cuckoo classiﬁer
+
+scores. This plot shows the malicious variants in pink and benign
+
+variants in blue. The KDE plot was generated with a Gaussian kernel
+
+of width 0.1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+33
+
+2-7 KDE approximation of Probability Density for percent of Virus Total
+
+classiﬁers that classify a ﬁle as malicious. This plot shows the mali-
+
+cious variants in pink and benign variants in blue. The KDE plot was
+
+generated with a Gaussian kernel of width 0.1. . . . . . . . . . . . . .
+
+35
+
+11
+
+3-1 Active Defender Sytem Design: The Active Defender system uses the
+
+SMDA framework design and deploy a system to build and deploy a
+
+decision system. First the system is initialized by Synthesizing training
+
+data, learning a probabilistic model, and tuning the decision function.
+
+After the system is deployed it is used to decide on new data includ-
+
+ing evasive data generated by the attacker. After a decision is made
+
+on newly received data, the system adapts to update the model and
+
+decision function . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+40
+
+4-1 KDE approximation of Probability Density for the PDFRate scores.
+
+This plot shows the classiﬁcation scores for diﬀerent types of ﬁles.
+
+The Benign ﬁles are shown as pink, the Contagio malware samples
+
+are shown in purple, the EvadeML variants are shown in blue and the
+
+Max-Diﬀ variants are shown in green. The KDE plot was generated
+
+with Gaussian kernel of width 0.15, and 0.15 , 0.17,.17, for the Benign,
+
+Contagio, EvadeML, and Max-Diﬀ ﬁles respectively. In this case the
+
+Evade-ML, Max-Diﬀ, and Benign ﬁles had very similar probability
+
+densities. In order to diﬀerentiate them, diﬀering width kernels were
+
+used. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+46
+
+4-2 KDE approximation of Probability Density for percent of Virus To-
+
+talEngines classiﬁers that classify a ﬁle as malicious. This plot shows
+
+the classiﬁcation scores for diﬀerent types of ﬁles. The Benign ﬁles are
+
+shown as pink, the Contagio malware samples are shown in purple,
+
+the EvadeML variants are shown in blue and the Max-Diﬀ variants are
+
+shown in green. The KDE plot was generated with Gaussian kernel of
+
+width 0.15, and 0.15 , 0.17,.17, for the Benign, Contagio, EvadeML,
+
+and Max-Diﬀ ﬁles respectively. . . . . . . . . . . . . . . . . . . . . . .
+
+47
+
+12
+
+5-1 Active Defender Classiﬁers: In active primary classiﬁers (C1,C2,C3) re-
+
+ceive samples and produce probabilistic scores (p1,p2,p3). Secondary
+
+classiﬁers operate oﬀ of probabilistic scores as inputs. Secondary clas-
+
+siﬁer C4 uses inputs (p1,p2) to produce the probabilistic score p4. Sec-
+
+ondary classiﬁer C4 uses inputs (p1,p2,p3) to produce the probabilistic
+
+score p5.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+50
+
+6-1 Bi-level decision function. Using an input score of pi, the bi-level deci-
+
+sion returns a result if it is certain of the classiﬁcation. It classiﬁes an
+
+input as benign if pi < t1
+
+i and malicious if pi ≥ t2
+i
+
+. . . . . . . . . . .
+
+54
+
+6-2 Active Defender Hierarchical Decision Algorithm: A PDF is ﬁrst sent
+
+to the PDFRate classiﬁer (C1). Based on the output of PDFrate, p1,
+
+a decision is made whether to return a result or send the ﬁle to the
+
+Cuckoo classiﬁer (C2). If the ﬁle is sent to the Cuckoo classiﬁer, the
+
+results from PDFRate (p1), and Cuckoo (p2) are sent to the secondary
+
+classiﬁer C4 and a decision is made as to whether to return a result
+
+or sent the ﬁle to VirusTotal (C3). If the ﬁle is sent to the VirusTotal
+
+classiﬁer, classiﬁcation scores from the PDFRate (p1), Cuckoo (p2),
+
+and VirusTotal (p3) classiﬁers are sent to the C5 secondary classiﬁer
+
+and a ﬁnal decision is made.
+
+. . . . . . . . . . . . . . . . . . . . . . .
+
+57
+
+7-1 Diagram of the adapt system. 1) Input data Sreceived sent through the
+
+decision system to produce predicted labels Yreceived and probabilities
+
+probablities . 2) Samples are selected in using probabilities Preceived 3)
+
+The selected data Sselected is split into Strain and Stune 4) The training
+
+data Strain is split into Sprimary used to train the update the primary
+
+classiﬁers and Ssecondary used to update the secondary classiﬁers 5) The
+
+tuning data Stune is used to Tune the decision system . . . . . . . . .
+
+64
+
+13
+
+8-1 Splitting Experimental Data. In the following experiment the data is
+
+split into data sets D1 and D2. D1 is used to initialize the decision sys-
+
+tem. D2 represents data received by the system after it is deployed. D2
+
+is split into subsets qi, representing the ﬁles received in each successive
+
+stage. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+68
+
+8-2 Updating the decision system. In the experiment, training data D1 is
+
+used to initialize the decision system. After the system is deployed, it
+
+received additional data. After each additional received dataset qi, the
+
+decision system adapts. . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+68
+
+8-3 Active Defender Accuracy over Adaptation. In this ﬁgure, we observe
+
+the f1 score vs. the experimental stage over time. We plot the mean
+
+f1 score as points and show the standard deviation in the surrounding
+
+band. In this experiment, we observe the experiment achieving poor
+
+results in Stage 1 when evasive samples are introduced. Over time, we
+
+observe that the f1 score increase over time as the system adapts to
+
+evasive samples. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+70
+
+8-4 Active Defender Average Classiﬁcation Time over Adaptation. In this
+
+ﬁgure we observe the estimated average classiﬁcation time per ﬁle at
+
+each stage. We plot the mean time score as points and show the stan-
+
+dard deviation in the surrounding band. Here we see that the average
+
+classiﬁcation time is pretty low – around 1 second – throughout the
+
+course of the experiment, and decreases over time. In addition, the de-
+
+viation in time is small across successive stages, and is not observable
+
+due to the estimation function.
+
+. . . . . . . . . . . . . . . . . . . . .
+
+71
+
+14
+
+List of Tables
+
+2.1 Subset of features used by the PDFRate classiﬁer. The full set of
+
+PDFRAte features is available in Apprendix A . . . . . . . . . . . . .
+
+30
+
+3.1 Notation and Deﬁnitions used in the SMDA algorithms table (1/2)
+
+3.2 Notation and Deﬁnitions used in the SMDA algorithms table (2/2)
+
+.
+
+.
+
+38
+
+39
+
+4.1 Notation and Deﬁnitions used in the Synthesize algorithms. . . . . . .
+
+42
+
+5.1 Notation and Deﬁnitions used in the Model algorithms.
+
+. . . . . . . .
+
+51
+
+6.1 Notation and Deﬁnitions used in the Decide algorithms (1/2) . . . . .
+
+6.2 Notation and Deﬁnitions used in the Decide algorithms (2/2) . . . . .
+
+60
+
+61
+
+7.1 Notation and Deﬁnitions used in the Adapt algorithms.
+
+. . . . . . . .
+
+66
+
+8.1 Experimental data 25 trials the Active Defender System performance
+
+over 5 stages. Column µF 1 corresponds to the average f1 score across
+
+all trials. Column σf 1 corresponds to the standard deviation in f1
+
+score across all trials. Column µT imeperF ile corresponds to the average
+
+estimated classiﬁcation time per ﬁle. Column σT imeperF ile corresponds
+
+to the standard deviation in approximated average classiﬁcation time
+
+per ﬁle.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+70
+
+A.1 PDFRate Features
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+77
+
+15
+
+16
+
+Chapter 1
+
+Introduction
+
+In recent years, cyber attacks have increased dramatically in scale and sophistication.
+
+Last spring brought the WannaCry ransomware attack, which crippled the comput-
+
+ers of both users and institutions around the world[12]. Soon after came attacks on
+
+the Equifax credit reporting agency, which resulted in the release of the personal
+
+information of millions of users [24]. In addition, banks and Bitcoin exchanges have
+
+been subject to an increasing number of attacks throughout the last few years [2]. A
+
+common trend across recent attacks is the increasing sophistication of the attackers.
+
+Recent cyber attacks are increasingly attributed to Nation-State actors, or Nation-
+
+State sponsored cyber-gangs. These powerful attackers often target individuals or
+
+small-scale enterprises. The asymmetry between the resources an adversary can de-
+
+vote to attacking a system and the resources a corporation can devote to preventing
+
+such an attack presents a challenging problem.
+
+In addition, the increasing scale of software systems makes it even more diﬃcult
+
+to defend against attacks. Even a small social media platform cannot comb through
+
+every user’s behaviour manually to see if an account has been compromised. As
+
+enterprises collect and store more and more data, machine learning is being used
+
+to help teams ranging from marketing and sales and human resources to product
+
+development and execution. As a result, the interest in developing machine learning-
+
+based solutions has increased exponentially[5].
+
+These enterprises also seek a better answer to the question “Can we use machine
+
+17
+
+learning to detect, predict and defend against cyber attacks?” As researchers study
+
+the problem, we have begun to realize that developing solutions for cyber security is
+
+one of the most complex machine learning endeavors we can undertake.
+
+Many signiﬁcant challenges stand in the way of automating security. The ﬁrst is
+
+the evolving nature of cyber attacks. Traditional machine learning operates under
+
+the assumption that the data used to model behaviour is similar to what arrives when
+
+the system is deployed. This doesn’t hold in cybersecurity. As a researcher is design-
+
+ing a defense system by modeling data, attackers are designing automated evasive
+
+algorithms to evade these deployed models. This means that machine learning mod-
+
+els based on past attacks will quickly become outdated if they cannot automatically
+
+adapt to a changing environment.
+
+The second challenge stems from the complex dynamics of the security ecosystem.
+
+The actors in a given security problem generally include enterprises who want to
+
+defend themselves, sophisticated attackers, overburdened security analysts, and end-
+
+users with a limited knowledge of how to protect themselves and subsequently the
+
+enterprise. Complications might include detection strategies being public knowledge,
+
+or the limited availability of computational resources. Such a dynamic and complex
+
+environment means that solutions can fall short in a number of ways. For instance,
+
+a highly optimized and accurate attack detection solution could be useless if the
+
+enterprise does not have the resources to deploy it.
+
+In the large space of machine learning in cybersecurity, recent research has focused
+
+both on the sub-problem of PDF malware detection and, more recently, the automated
+
+evasion of detection. 91% of security breaches are caused by low volume phishing
+
+attacks1. These attacks typically use social engineered messages in combination with
+
+malicious URLs or ﬁles to gain entry into a system. PDFs are an especially popular
+
+method of attack. PDFs appear commonplace, and end users are used to receiving a
+
+variety of benign documents as PDFs, including e-books, papers, syllabi, and reports.
+
+While users inherently trust PDFs, they are an incredibly ﬂexible document format
+
+that make it easy to embed and disguise a variety of malicious code. This makes
+
+1http://info.greathorn.com/2017-spear-phishing-report
+
+18
+
+them a promising method of attack. While PDFs have been used for years as an
+
+attack vector, PDF-based malware is a continuous form of attack as vulnerabilities
+
+are found in PDF readers such as Google Chrome 2. Furthermore, document-based
+
+malware can be a powerful entry point and has been shown to be able to download
+
+other malware, hide malicious scripts within the document, spy on users, or encrypt
+
+an end user’s computer in a ransomware attack [4].
+
+Because PDF malware is so dangerous, a variety of solutions have been proposed
+
+for preventing these attacks, using diﬀerent methods of classiﬁcation. Starting at
+
+the delivery mechanism, network analysis is used to detect an unusual volume of
+
+emails. Next, static classiﬁers are used to check for known malicious bit-strings or to
+
+extract the simple features used in machine learning classiﬁers. Dynamic classiﬁers
+
+put the ﬁle in an isolated environment and look for malicious behaviour. API-based
+
+classiﬁers allow ﬁles to be submitted and analyzed across a suite of diﬀerent and
+
+powerful detection methods. Finally, human analysts can manually inspect a ﬁle
+
+using a variety of software and hardware tools.
+
+These solutions have two problems. First, in a resource-constrained environment,
+
+a defense system does not have the time necessary to send every ﬁle it receives to an
+
+accurate classiﬁer such as a human analyst, and must choose a faster, less accurate
+
+option. Second, automated classiﬁers can be evaded by sophisticated attackers, and
+
+such a system can become obsolete if an attacker’s behaviour changes after it is
+
+deployed [39].
+
+Motivated by these problems, we designed the SMDA framework. We aimed to
+
+design a framework that could provide accurate detection in a resource-constrained,
+
+adversarial environment. A system that can intelligently handle resource limitations
+
+and remain robust to a changing environment can be widely deployed. Furthermore,
+
+our system uses active learning to provide accurate results in the presence of adver-
+
+sarial evasion algorithms. In this project, we also propose a software system that can
+
+generalize to a variety of adversarial problems, and unify researchers and developers
+
+in developing active defense solutions.
+
+2https://thestack.com/security/2016/06/09/pdf-exploit-found-in-default-google-chrome-reader/
+
+19
+
+The SMDA framework provides four modules – Synthesize, Model, Decide, Adapt
+
+– to generate data, develop machine learning models of the data and true labels,
+
+classify input data, and adapt to improve the system over time. By developing a
+
+general framework, we can use this software system for a variety of use cases and
+
+easily benchmark, improve, and deploy classiﬁcation systems.
+
+Figure 1-1: Modules of the SMDA framework for building adaptive models in adver-
+sarial environments.
+
+For the PDF malware use case, we explored how the SMDA framework could
+
+be used to build the Active Defender PDF malware classiﬁcation system. Several
+
+recent studies suggest automated methods for PDF malware classiﬁcation evasion
+
+[39, 11, 14, 28]. By deploying the model in the PDF use case and generating evasive
+
+data, we are able to easily test how the algorithm performs against evasive adversaries.
+
+1.1 Contributions
+
+In this thesis, we make the following contributions to enable machine learning in
+
+cybersecurity.
+
+1. We provide an active learning decision system to maintain high accuracy in the
+
+20
+
+presence of motivated adversaries using evasive strategies.
+
+2. We propose a resource allocation algorithm to optimize the use of available
+
+detection methods in a resource-constrained environment.
+
+3. We provide a general purpose SMDA framework to enable the building, evalu-
+
+ating, and deploying of decision systems in an adversarial environment.
+
+4. We present the Max-Diﬀ algorithm, which is shown to confuse even the most
+
+sophisticated automated classiﬁer.
+
+1.2 Thesis Organization
+
+The remaining chapters of this thesis are organized as follows:
+
+• Chapter 2 describes PDF malware and the data set used in this project.
+
+• Chapter 3: introduces the SMDA logical framework.
+
+• Chapter 4: describes the Synthesize module of SMDA.
+
+• Chapter 5: describes the Learn module of SMDA.
+
+• Chapter 6: describes the Decision module of SMDA.
+
+• Chapter 7: describes the Adapt module of SMDA.
+
+• Chapter 8: describes the experimental results and performance of the active
+
+defender system.
+
+• Chapter 9: describes our key ﬁndings and future directions.
+
+21
+
+22
+
+Chapter 2
+
+Malware through PDFs
+
+The portable document format (PDF for short) is the most popular format for doc-
+
+ument sharing. As a result, PDFs are often passed through emails as attachments.
+
+Many applications also support PDF uploads, which are used for everything from
+
+academic conference paper submissions to government agencies accepting tax forms.
+
+Because PDFs are so common, end users often trust them. However, this unassum-
+
+ing document contains a powerful format that enables attackers to embed and hide
+
+malicious code. In this thesis, we will focus on PDFs to create an active defender
+
+using our smda framework. This chapter will cover the following core concepts:
+
+• The structure of PDFs
+
+• How malware is embedded in PDFs
+
+• The current detection techniques available
+
+2.1 Structure of a PDF
+
+The PDF ﬁle that we see on a daily basis is a rendered version of PDF source code.
+
+PDFs use a hierarchical tree structure to store objects. The high-level structure of a
+
+PDF contains four main sections.
+
+• Header: The header contains the PDF number and format information.
+
+23
+
+• Body: The body is the essential element of PDF ﬁles. It contains objects of the
+
+8 basic types, namely: Boolean, Numeric, String, Null, Names – representing
+
+key labels or name such as ”//Page”, Arrays, Dictionaries, and Streams, cor-
+
+responding to an dictionary and sequence of bytes. The objects are organized
+
+in a hierarchical tree structure, storing the relations between various objects.
+
+This tree structure enables the storage of complex relationships.
+
+• Cross Reference Table (CRT): The CRT indexes the components in the body
+
+• Trailer: The trailer speciﬁes how to ﬁnd the CRT and other special objects
+
+Figure 2-1: Source for a simple hello world PDF
+
+For example, we analyze the simple Hello World PDF described in an IDR solu-
+
+tions tutorial1. In this example, we view the source in a text editor in Figure 2-1
+
+and the rendered version in Figure 2-2.
+
+1https://blog.idrsolutions.com/2010/10/make-your-own-pdf-ﬁle-part-4-hello-world-pdf/
+
+24
+
+Figure 2-2: Rendered version of simple hello world PDF
+
+In looking through the PDF source in Figure 2-1 we see the header in line 1, the
+
+body in lines 3 through 18, the cross reference table (CRT) in lines 19 through 27 and
+
+the trailer from lines 31 to 33. The header simply describes the version of PDF used.
+
+In the body, the nodes of the tree and the corresponding objects at nodes 1 through
+
+6 are described. In the cross reference table we see “xref” followed by 0, indicating
+
+the special node that marks the head of the list and 7, representing the total number
+
+of objects in the list including the head of the list. In lines 21 through 27 we see the
+
+base list of objects described with the oﬀset, and whether each object is in the body
+
+section (lines ending in n) or not. In lines 29 through 33, we see the trailer section
+
+which describes the byte oﬀset to the xref key work.
+
+While this is one source code representation that can generate the rendered version
+
+shown in Figure 2-2, many other source implementations can result in the same visual
+
+document.
+
+25
+
+2.2 Malware in PDFs
+
+The ﬂexible structure of PDFs means it is easy to manipulate them by changing the
+
+ﬁle slightly and hiding code deep within branches of the tree structure. Furthermore,
+
+the hierarchical structure enables easy mutation by inserting, swapping or deleting
+
+elements across multiple ﬁles [32].
+
+PDF malware is an eﬀective way for adversaries to gain access to a computer
+
+system. Since end users trust PDFs and open them more frequently than other ﬁles,
+
+they provide a conduit for attackers to gain access to a system using a static document
+
+linked to on a website or sent as a shared ﬁle. While PDF reader vulnerabilities have
+
+been reported for years, new threats are continuously discovered as attackers become
+
+more sophisticated, targeting vulnerabilities and hiding their approaches [34]. In the
+
+past year alone, over a hundred new vulnerabilities were reported for PDFs on a
+
+variety of targets from Acrobat to Chrome [39, 3].
+
+Figure 2-3: Example of un-obfuscated code as a PDF object
+
+Due to the expressive nature of the PDF format, there are many places to hide
+
+malicious functionality within a PDF. Most, but not all, PDF exploits are based
+
+on Javascript. Javascript is often buried within deep branches of the PDF object
+
+structure. These scripts can also be disguised and encoded in streams that are only
+
+interpreted as Javascript through the eval() function, so that even with manual in-
+
+spection of the PDF source and Javascript, the purpose may be unclear [31]. Even if
+
+26
+
+Figure 2-4: Example of obfuscated code as a PDF object
+
+the injected code is the same, attackers can mutate other aspects of the ﬁle, such as
+
+the length and contents, to change the ﬁle and confuse classiﬁers.
+
+Javascript can be embedded as a stream object in a PDF ﬁle2. In Figure 2-3, we
+
+see a representation of a Javascript stream object. In this case, it is a benign alert
+
+box. However, using character encoding, adversaries can disguise the purpose of the
+
+code used. In Figure 2-4, we see the same code represented as an encoded stream,
+
+which is then called in a later object. Here it is unclear what the purpose of the code
+
+is, which makes it more diﬃcult to scan a ﬁle for known malicious Javascript code.
+
+In practice, attackers may use automated tools to inject code to attack known PDF
+
+reader vulnerabilities [26].
+
+2.3 Our dataset
+
+To demonstrate the eﬃcacy of diﬀerent detection techniques in Section 4 we have
+
+currently generated a repository of 207,119 total PDFs. From these ﬁles, we collected
+
+2https://www.cyren.com/blog/articles/how-pdf-ﬁles-hide-malware-example-pdf-scan-from-
+
+xerox-1247
+
+27
+
+classiﬁer scores for 79,949 ﬁles and created a labeled set. Of these ﬁles, 35,269 are
+
+malicious ﬁles and 44,680 are benign. We created the dataset from a combination of
+
+existing, externally provided PDF ﬁles, and variations of these PDF ﬁles generated
+
+via a process we call mutation. Here is a list of sources we used to gather these PDFs:
+
+– Contagio: External PDFs were downloaded from the Contagio dataset. The
+
+Contagio dataset provided a corpus of 9,000 benign PDFs and 10,597 malicious
+
+ﬁles[1].
+
+– EvadeML: Evade ML data provided by Weilin Xu contains 16440 malicious
+
+PDF ﬁles developed using the “EvadeML” algorithm. These ﬁles are based oﬀ
+
+of 500 malicious ﬁles in the Contagio data set and are designed to confuse the
+
+PDFRate classiﬁer [39].
+
+– Self-generated: PDFs can be generated from existing PDFs according to the
+
+“Random-Mutation”,“Evade-M” [39] or“Max-Dif” algorithms. These are de-
+
+scribed in more detail in the Chapter 4. Both the “Evade-ML” and ”Max-Diﬀ”
+
+algorithms are based on genetic programming. These algorithms create pools
+
+of samples, score them, and select the best-scoring samples to mutate to create
+
+more malicious ﬁles. In this data set, we generated 8232 malicious ﬁles using
+
+the “Max-Diﬀ” algorithm and 35,680 benign ﬁles using random mutation.
+
+Base PDF Information We keep the following base information for each PDF in
+
+the dataset:
+
+• Filepath: the local location of the ﬁle
+
+• Malicious Source: Boolean ﬂag indicating if this is derived from a malicious or
+
+benign ﬁle
+
+• hash: sha1 hash of the ﬁle to uniquely identify the sample
+
+• can parse: Boolean ﬂag indicating if this is parseable by a PDFRW PDF reader
+
+which reads in a PDF ﬁle into a JSON tree structure. In practice, most benign
+
+28
+
+PDFs are parsable, but many malicious PDFs are malformed and while they
+
+can be used to exploit a system, cannot be read by the PDFRW parser used to
+
+create mutants of ﬁles.
+
+2.4 PDF Malware Detection
+
+There have been many approaches to detecting malware within PDFs, operating oﬀ
+
+of various software security designs. Throughout the many implementations of such
+
+detection, there are three main types of PDF malware detection and prevention: net-
+
+work features, static ﬁle features, and dynamic behavioural analysis. Other methods
+
+use a combination of detection methods to give a ﬁnal prediction.
+
+2.4.1 Using Network Features
+
+Network detection is the ﬁrst line of defense, and aims to prevent delivery of malicious
+
+content before a user has a chance to download it. Through email analysis such as
+
+spam detection or network frequency methods, enterprises can ﬁlter out anomalous
+
+behaviour and limit the phishing emails and attached malware that makes it to the
+
+end-user [15, 21]. This is usually done in combination with static or dynamic analysis.
+
+2.4.2 Using Static Features
+
+Static detection uses static features of the PDF data to process ﬁles quickly before
+
+passing them on to the users. These methods are preferred for their low latency, but
+
+have higher error rates than dynamic methods. Static classiﬁcation methods include
+
+signature based detection methods which could search a received ﬁle for unique bit
+
+string of known malicious ﬁles. Other methods attempt to utilize higher level features
+
+of the ﬁle. Early solutions were based oﬀ of n-gram analysis or javascript pattern
+
+recognition [20, 22]. However the most successful static PDF feature based classiﬁers,
+
+have been P DF Rate which operates oﬀ of PDF meta-data and byte-level ﬁlestructure
+
+and Hidost operating oﬀ of structural paths.
+
+29
+
+Feature
+pdfrate 0
+pdfrate 1
+pdfrate 2
+pdfrate 3
+pdfrate 4
+pdfrate 5
+pdfrate 6
+pdfrate 7
+pdfrate 8
+pdfrate 9
+pdfrate 10
+
+Name
+author dot
+author lc
+author len
+author mismatch
+author num
+author oth
+author uc
+box nonother types
+box other only
+company mismatch
+count acroform
+
+Table 2.1: Subset of features used by the PDFRate classiﬁer. The full set of PDFRAte
+features is available in Apprendix A
+
+PDFRate classiﬁer: The PDFRate classiﬁer is a static machine learning classiﬁer
+
+which collects features based on the structure and meta data of a PDF document
+
+[30]. Once the model is trained, it is fast, taking less than a second to classify a
+
+document. However it has been shown to be evaded by adversarial algorithms using
+
+genetic programming methods [39]. The classiﬁer works as follows:
+
+– Extract features/attributes: We extract 135 features, described in the PDFRate
+
+documentation [6],[29]. The PDFRate features are considered to be set of fea-
+
+tures for static classiﬁcation [39]. The features describes statistics and attributes
+
+of the of the PDF structure such as sown in Table 2.1 and Appendix A.
+
+– Train a machine learning classiﬁer: The standard PDFRate classiﬁer is a ran-
+
+dom forest machine learning classiﬁer trained on a labeled features from 5,000
+
+malicious and 5,000 benign ﬁles from the Contagio dataset [6, 29]. The classi-
+
+ﬁcation score is a ﬂoating point value where scores close to -1 indicate benign
+
+ﬁles and scores close to 1 correspond to malicious ﬁles. This data is separate
+
+from the main dataset we use in for our experiments.
+
+– For a new PDF the detection is made by:
+
+– Extracting the features
+
+30
+
+– Generating a score using the trained classiﬁer
+
+– Thresholding a score and making a decision
+
+How good is this classiﬁer? In reviewing the distribution of PDFRate classiﬁca-
+
+tion scores Figure 2-5,we observe that the distribution does not have clear separation
+
+between the benign and malicious scores. The PDFRate classiﬁer is able to separate
+
+a portion of the malicious ﬁles, however a large portion of the ﬁles are misclassiﬁed
+
+and receive similar scores as the benign ﬁles.
+
+Figure 2-5: KDE approximation of Probability Density for scores generated using
+the PDFRate classiﬁer. This plot shows the malicious variants in pink and benign
+variants in blue. The KDE plot was generated with a Gaussian kernel of width 0.1
+
+2.4.3 Dynamic Behavioural Analysis
+
+These methods have been found to have remarkably high accuracy compared to static
+
+approaches. Dynamic methods observe the behaviour of a ﬁle on an isolated virtual
+
+machine or hardware sandbox. Since they monitor the behaviour of a ﬁle, rather than
+
+31
+
+features they can be more diﬃcult to evade. However they can be evaded through en-
+
+vironmental detection, delaying malicious behaviour or other methods. Furthermore,
+
+these methods have high latency and would signiﬁcantly reduce performance if they
+
+were the only source of detection [31]. Sandboxes such as the Cuckoo dynamic sand-
+
+box detection framework works well for an Oracle to ensure a mutated ﬁle maintains
+
+the malicious behaviour of the source ﬁle. However, for use in deployed detection
+
+systems, this solution has latency that can range from 5 seconds to several minutes
+
+to get results. [39].
+
+Cuckoo The Cuckoo Sandbox runs each PDF dynamic analysis sandbox on an iso-
+
+lated “sandboxed” environment. The isolated environment could be virtual machines
+
+or an isolated computer. A Cuckoo server runs on the host computer receives ﬁles and
+
+sends them to a virtual machine for analysis. In the virtual machine, Cuckoo simu-
+
+lates opening PDFs in vulnerable version of Adobe Acrobat, and collects information
+
+and compares to a set of known behavioural signatures. Cuckoo is fairly accurate for
+
+known malicious signatures, and usually requires 30 seconds of simulation time in a
+
+virtual machine. For our experiments we used virtual machines set up in VMWare,
+
+running Windows XP and a vulnerable version of Adobe Acrobat Reader 8.1.1. From
+
+the results of the Cuckoo classiﬁcation, we recorded the following outputs for each
+
+PDF:
+
+• Signatures observed : This is a list of the known malicious behavioural signa-
+
+tures observed on the virtual machine when the PDF was processed. If the list
+
+is empty, no signatures were observed in Cuckoo.
+
+• Cuckoo Decision: This is a Boolean variable describing if any signatures were
+
+observed
+
+How good is this detector? The Cuckoo classiﬁer also is shown to achieve better
+
+separation in malicious and benign scores than the PDFRate classiﬁer, as shown in
+
+Figure 2-6. However, we still observe a portion of the malicious ﬁles achieve the
+
+classiﬁcation scores as benign ﬁles.
+
+32
+
+Figure 2-6: KDE approximation of Probability Density for binary Cuckoo classiﬁer
+scores. This plot shows the malicious variants in pink and benign variants in blue.
+The KDE plot was generated with a Gaussian kernel of width 0.1
+
+2.4.4 Publicly available APIs
+
+Virus Total is an API based classiﬁer that runs a suite of static classiﬁers anti-
+
+virus engines that run on a submitted PDF. These anti-virus engines often use a
+
+combination of classiﬁcation techniques to return results. Aggregating these results
+
+can result in a highly accurate classiﬁcation, but can be time and resource intensive.
+
+We typically observed classiﬁcation to take about two minutes, but in times of high
+
+server load this can be longer. Furthermore corporations may be rate limited by the
+
+API and may have to pay for uploads.
+
+We collect the following information for each ﬁle from the Virus Total results:
+
+• Percent Malicious : This is the aggregate percent of antivirus engines that
+
+classiﬁed the uploaded PDF as malicious
+
+• Classiﬁer Results. For each of the scanners used by Virus Total we collect
+
+33
+
+the following classiﬁcation attributes: version of scanner used, scan result, and
+
+malicious classiﬁcation. Some of the classiﬁers used by Virus Total include
+
+Endgame, Kaspersky Antivirus, Symantec, and Sophos. See full set of Virus
+
+Total Classiﬁers in appendix [B]
+
+How good is this detector?: Virus Total is considered to be state of art in malicious
+
+ﬁle scanning and is operated by Google. It runs up to 59 other static dynamic and
+
+antivirus classiﬁers and returns the results of classiﬁcation. Furthermore it collects a
+
+large data set of ﬁles from submitters around the world. In 2007 it was listed as one
+
+of the best products developed that year 3. Virus Total is shown to perform the best
+
+of all the classiﬁers and is able to catch many evasive ﬁles as shown in Figure 2-7.
+
+It performs better than PDFRate and Cuckoo is able to distinguish most malicious
+
+ﬁles, however there are still some malicious ﬁles that receive the same classiﬁcation
+
+scores as benign ﬁles.
+
+2.4.5 Human expert analysis
+
+Using human analysts to inspect malware samples is the most accurate form of de-
+
+tection. Analysts can compare samples through a variety of methods comparing
+
+networks calls, memory access, or running the sample on a hardware sandbox or
+
+comparing activity on a device through a ﬁrewall. This is an extremely accurate form
+
+of classiﬁcation; however, the scale of incoming PDFs requires other methods to be
+
+used.
+
+How good are humans?:
+
+In addition to the automated classiﬁers we model a
+
+human classiﬁer with access to a variety of software an hardware tools. The human is
+
+100% accurate in classiﬁcation, but is very time intensive and can take several hours
+
+to return a result.
+
+3https://www.google.com/search?q=best+products+2007+virus+totaloq=best+products+2007
+
++virus+totalaqs=chrome..69i57j69i64.3734j0j4sourceid=chromeie=UTF-8
+
+34
+
+Figure 2-7: KDE approximation of Probability Density for percent of Virus Total
+classiﬁers that classify a ﬁle as malicious. This plot shows the malicious variants in
+pink and benign variants in blue. The KDE plot was generated with a Gaussian
+kernel of width 0.1.
+
+2.4.6 Hybrid systems
+
+Hybrid classiﬁcation systems have been developed to attempt to achieve increased
+
+accuracy without the time constraints of dynamic systems. The ALDOCX system
+
+uses active learning combined with human analysts to provide an accurate DOCX
+
+classiﬁcation framework [23]. Other systems such as MDScan combine static docu-
+
+ment analysis and dynamic code execution on PDFs, however these systems can be
+
+expensive or time consuming if the require multiple types if they expensive classiﬁers
+
+every time[36].
+
+35
+
+2.5 Conclusions
+
+From the data analysis, we observe that neither the initial PDFrate or Cuckoo clas-
+
+siﬁers perform well on adversarial data. This suggests combining information from
+
+classiﬁers and using the Virus Total classiﬁer at least some point in training is neces-
+
+sary to obtain accurate classiﬁcation results.
+
+36
+
+Chapter 3
+
+Active defender system
+
+In this project, we aim to not only provide a method of PDF Malware detection
+
+system, but also to provide general purpose framework for building decision systems
+
+that perform well in the presence of adversaries and a changing dataset. To this
+
+eﬀort, we propose the SMDA framework. The goal of this framework is to separate
+
+the algorithms used to deploy a decision system into separate logical models.
+
+Separating the process into distinct modules enables researchers and developers to
+
+more easily pursue their targeted interests and interface with each other. Researcher
+
+scientists can more easily develop and evaluate proposed algorithms for speciﬁc com-
+
+ponents. Developers can more easily combine these modules and choose algorithms
+
+that perform best for their use case.
+
+Through studying PDF Malware detection, we found evaluating and deploying
+
+classiﬁcation systems in an adversarial environment can be broken down into the
+
+following four logical modules Synthesize, Model, Decide, and Adapt (SMDA). Syn-
+
+thesize corresponds to algorithms to create (adversarial) data. Model corresponds to
+
+methods for modeling the data. Decide corresponds to the decision function turn-
+
+ing an internal representation and features of a sample into a prediction. Adapt
+
+corresponds to functions used to update learned models and decision function.
+
+By providing these abstractions and general purpose framework, we hope to fa-
+
+cilitate easy integration of state of the art algorithms deployed for a variety of use
+
+cases.
+
+37
+
+Name
+nv
+y
+Sm
+Sb
+o()
+Smutants
+Sm
+mutant
+Sevade
+cutof f
+fmutate(Sm, Sb)
+C
+p
+C1
+p1
+C2
+p2
+C3
+p3
+C4
+p4
+C5
+p5
+P1
+P3
+S
+|S|
+s
+C
+Y
+ˆY
+P
+p
+plast
+Di
+t1
+i
+t2
+i
+tlast
+Npc used
+Npc total
+γ
+
+Description
+Desired number of ﬁles to generate
+desired label to generate data
+set of malicious samples
+set of benign samples
+oracle function that indicates if malicious functionality in tact
+set of mutant ﬁles
+set of malicious mutant ﬁles
+set of malicious samples
+cutoﬀ specifying the minimum ﬁtness function score for “evasive” ﬁles
+function that creates mutations using a set maliciuos and benign ﬁles
+Classiﬁer
+Individual probabilistic score
+PDFRate (primary) classiﬁer
+Output of C1
+Cuckoo (primary) classiﬁer
+Output of C2
+Virus Total (primary) classiﬁer
+Output of C3
+Secondary classiﬁer using p1 and p2 as inputs
+Output of C4
+Secondary classiﬁer using p1, p2, and p3 as inputs
+Output of C5
+set of p1 scores
+set of p3 scores
+Samples
+Number of samples
+Individual sample
+Classiﬁer
+True Labels
+Predicted Labels
+Set of probabilities
+Individual probabilistic score
+Output of the last classiﬁer used in making a decisino
+Decision function
+Lower threshold for probability score i
+Upper threshold for probability score i
+Last threshold used in making a decision
+Number of primary classiﬁers used in classifying a ﬁle
+Number of total classiﬁers used
+value of accuracy score vs. time
+
+Table 3.1: Notation and Deﬁnitions used in the SMDA algorithms table (1/2)
+
+38
+
+Description
+Total time taken to make decision per ﬁle
+Average time taken to make decision per ﬁle
+Recall
+Precision
+function that computes the f1 score
+precision recall weight – weight of precision vs recall
+Function describing accuracy of a system
+Speciﬁc evaluation function maximizing f1 score.
+Speciﬁc evaluation function maximizing recall given precision above 0.9
+Cost function
+Enumeration function that generates initial threshold sets to evaluate
+Diﬀerence in successive g() scores after which to stop optimizing thresholds
+maximum number of iterations to run in each tuning step
+1,t2
+list of threshold combinations for (t1
+1)
+2,t2
+list of threshold combinations for (t1
+2)
+3,t2
+list of threshold combinations for (t1
+3)
+4,t2
+list of threshold combinations for (t1
+4)
+list of threshold combinations for (t5)
+set of thresholds {t1
+4,t2
+list of threshold sets
+simple enumeration function
+Minimum probability used in selecting data
+weight between data used for training and tuning
+Samples received by decision system
+predicted probability for received samples produced by decision function
+predicted labels for received samples produced by decision function
+Samples selected for updated the system
+Samples selected for updated the system
+Samples selected for updated the system
+Samples used to train classiﬁers
+Samples used to train primary classiﬁers
+
+Name
+(cid:80)
+i ri
+(cid:80)
+1
+i ri
+|S|
+recall()
+precision()
+f1
+β
+g(.)
+g1
+g2
+c
+e()
+(cid:15)
+niterations
+(cid:96)t1
+(cid:96)t2
+(cid:96)t3
+(cid:96)t4
+(cid:96)t5
+T
+(cid:96)T
+e1()
+α
+λ
+Sreceived
+Preceived
+Yreceived
+Sselected
+ST rain
+Sselected
+ST rain
+ST rainP rimary
+ST rainSecondary Samples used to train secondary classiﬁers
+Samples used to tune the decision function
+ST une
+
+4,t5}
+
+3,t2
+
+3,t1
+
+1,t1
+
+1,t2
+
+2,t2
+
+2,t1
+
+Table 3.2: Notation and Deﬁnitions used in the SMDA algorithms table (2/2)
+
+39
+
+3.1 Active Defender System
+
+As shown in Figure 3-1, Active Defender utilizes the SMDA framework to maintain
+
+high accuracy while reducing classiﬁcation time and resource usage. In subsequent
+
+chapters, we describe the SMDA abstractions in detail and how they are used in
+
+active defender.
+
+Figure 3-1: Active Defender Sytem Design: The Active Defender system uses the
+SMDA framework design and deploy a system to build and deploy a decision system.
+First the system is initialized by Synthesizing training data, learning a probabilistic
+model, and tuning the decision function. After the system is deployed it is used to
+decide on new data including evasive data generated by the attacker. After a decision
+is made on newly received data, the system adapts to update the model and decision
+function
+
+40
+
+Chapter 4
+
+Synthesizing training data
+
+To develop a adaptive machine learning solution, we need labeled training examples
+
+from past. For any given malware type - PDF or others - one may start with some
+
+examples made available from the past. Some are either available publicly or pro-
+
+vided privately by security teams. Additionally, security teams can create malware
+
+directly to test their own defenses. In recent years, machine learning has been used to
+
+automatically create malware samples. In this chapter we describe multiple methods
+
+used to create malware samples and devise a strategy of our own. Our focus is still
+
+on PDFs.
+
+4.1 Machine learning to create malicious samples
+
+Beyond the direct methods used to inject malicious code and create PDF ﬁles, at-
+
+tackers can mutate of existing PDF malware in order to avoid detection. Automatic
+
+creation of malicious samples can be approached in two ways (i)supervised and (ii)
+
+unsupervised. In the supervised method the focus is on creating samples that are able
+
+to evade a detector - typically a machine learning classiﬁer itself. A second approach,
+
+is unsupervised which attempts to create samples that are distant in feature space
+
+but are still malicious. In the next subsection, we present the supervised methods.
+
+In the case of PDF Malware, attackers can create malware by either building
+
+malicious seeds through injecting javascript into a PDF ﬁle, or automated generation
+
+41
+
+Name
+nv
+y
+Sm
+Sb
+o()
+Smutants
+Sm
+mutant
+Sevade
+p1
+p3
+P1
+P3
+cutof f
+fmutate(Sm, Sb)
+
+Description
+Desired number of ﬁles to generate
+desired label to generate data
+set of malicious samples
+set of benign samples
+oracle function that indicates if malicious functionality in tact
+set of mutant ﬁles
+set of malicious mutant ﬁles
+set of malicious samples
+output of C1
+output of C3
+set of p1 scores
+set of p3 scores
+cutoﬀ specifying the minimum ﬁtness function score for “evasive” ﬁles
+function that creates mutations using a set malicious and benign ﬁles
+
+Table 4.1: Notation and Deﬁnitions used in the Synthesize algorithms.
+
+of mutants from existing malicious seeds. Many features in PDF malware are used
+
+used manipulate the presented features of a ﬁle without modifying the underlying
+
+functionality.
+
+In this case, there are two types of Synthesize functions used. The ﬁrst type Initial
+
+Sample Synthesis. This could be done by loading a folder of ﬁles and generating labels.
+
+4.1.1 Methods to evade classiﬁers
+
+Many recent studies have focused on methods for generating adversarial PDF ﬁles to
+
+evade machine learning classiﬁers. In almost all cases, these methods rely on feedback
+
+from the classiﬁer - that they are trying to evade - to create new variants. Hence we
+
+categorize them as supervised methods.
+
+The mimicus framework presents a method to manipulate PDF classiﬁcation using
+
+mimicry attack through modifying mutable features and through gradient descent
+
+methods using attributes of the model [6, 19]. The EvadeML framework presents a
+
+blackbox genetic programming approach to evade a classiﬁer when the classiﬁcation
+
+score is known [39]. The EvadeHC method, evades machine learning classiﬁers that
+
+evades classiﬁers without knowledge of the model or classiﬁcation score [14]. The
+
+42
+
+SeedExploreExploit framework presents another evasion method for deceiving black
+
+box classiﬁers by allowing adversaries to prioritize level diversity and accuracy to
+
+generate samples [28].
+
+Other methods operate on the feature space and generate evasive features that
+
+could confuse classiﬁers, however it often unclear how to convert evasive features back
+
+into a malicious ﬁle [17].
+
+Many other methods have been presented to deceive machine learning classiﬁers
+
+based on the stationarity assumption not holding in an adversarial environment [13,
+
+27, 14, 25, 16, 35, 13, 9, 8, 18, 7]
+
+These attacks often focus on complex classiﬁers like deep learning systems, where
+
+classiﬁers can be over ﬁt to rely on features that are correlated with malware rather
+
+than those necessary for malware. In [38], Wang et al showed that complex classiﬁers
+
+are able to be evaded with the presence of even one unnecessary feature.
+
+EvadeML
+
+Of all the methods under this paradigm of creating evasive variants, we focus on
+
+EvadeML. The authors of EvadeML have made their software open source. EvadeML
+
+uses a genetic programming method to produce tree-structure variants of malicious
+
+seeds - to evade static classiﬁers such as Hidost and PDFRate. These variants are
+
+then tested against the Cuckoo sandbox to ensure maintained malicious activity then
+
+scored using static classiﬁcation scores [39]. With these parameters, EvadeML was
+
+able to achieve was able ﬁnd variants that recieved classiﬁcation scores of < 0 with
+
+PDFRate classiﬁcation scores in range -1 (benign) to 1 (malicious) for all 500 mali-
+
+cious seeds. This indicates it was successfully able to confuse the PDFRate classiﬁer.
+
+The algorithm works as follows:
+
+Step 0 : Start with an empty set Sevade = {}
+
+Step 1 : Create a set of mutant ﬁles using fm using the set of Sm. Call this set Smutants.
+
+Step 2 : Check which among the mutants are malicious using the oracle function o().
+
+In our case this is the Cuckoo classiﬁer. Call this set Sm
+
+mutant
+
+43
+
+Step 3 : Apply PDFRate classiﬁer to the set Sm
+
+mutant and generate classiﬁcation scores.
+
+Step 4 : Select the mutants that have classiﬁcation scores greater than the cutoﬀ. Add
+
+these to the set Sevade. These ﬁles represent the ones that are able to evade the
+
+PDFrate classiﬁer.
+
+Step 5 : Repeat steps 1 -4 until |Sevade| ≥ nv.
+
+Max-Diﬀ algorithm
+
+We propose the Max-Diﬀ algorithm as an alternative way to generate malicious
+
+ﬁles. The Max-Diﬀ algorithm is similar to the EvadeML algorithm in that it uses a
+
+malicious and benign pool of variants, scores the malicious variants, mutates mutates
+
+the best scoing variants, adds them to the pool of malicious ﬁles and continues.
+
+However, unlike the Evade-ML algorithm, it does not seek to ﬁnd ﬁles that receives
+
+a classiﬁcation score less than the cutof f for a single classiﬁer. Instead, it selects for
+
+ﬁles that receive diﬀerent classiﬁcation scores with diﬀerent classiﬁers in the system.
+
+In the case of Active Defender system, Max-Diﬀ targets ﬁles that evade PDFRate or
+
+Virus Total.
+
+The algorithm works are follows:
+
+Step 0 : Start with an empty set Sevade = {}
+
+Step 1 : Create a set of mutant ﬁles using fm using the set of Sm. Call this set Smutants.
+
+Step 2 : Check which among the mutants are malicious using the oracle function o().
+
+In our case this is the Cuckoo classiﬁer. Call this set Sm
+
+mutant
+
+Step 3 : Apply PDFRate classiﬁer to the set Sm
+
+mutant and generate classiﬁcation scores.
+
+Collect these scores in P1
+
+Step 4: Upload the set to the Virus Total website and generate virus total classiﬁer
+
+scores for Sm
+
+mutant and generate classiﬁcation scores. Collect these scores in P3
+
+44
+
+Step 5 : Select the mutants that have (p1 − p3) greater than a threshold speciﬁed by
+
+cutoﬀ. Add these to the set Sevade. These ﬁles represent ﬁles that diﬀerent scores
+
+between PDFRate and Virus Total and could confuse a classiﬁcation system.
+
+Step 6 : Repeat steps 1 -4 until |Sevade| ≥ nv.
+
+4.1.2 fmutate()
+
+Evasive algorithms require a mutation function, fmutate(), that creates variants of
+
+malicious ﬁles. The mutation function requires a pool malicious ﬁles Sm and a pool
+
+of benign ﬁles. The malicious ﬁles are mutated using components from the pool of
+
+benign ﬁles Sb.
+
+The mutation function implemented using a modiﬁed version of the PDFRW
+
+software package1, works as follows:
+
+Step 1 : Load all PDF ﬁles are loaded into a tree structure.
+
+Step 2 : Mutate each malicious PDF by randomly selecting one of the following meth-
+
+ods:
+
+– Insert randomly selected sub-tree from a randomly selected sub-tree from
+
+the benign ﬁle.
+
+– Swap a randomly selected sub element with randomly selected sub-tree
+
+from benign ﬁle.
+
+– Delete a randomly selected element in the malicious tree representation.
+
+Step 3 : Write tree representation of mutated malicious ﬁles to PDF ﬁles.
+
+4.1.3 Evasive Performance
+
+In analyzing these algorithms, we characterize their performance on PDFRate – the
+
+fastest classiﬁer and Virus Total the most accurate classiﬁer. As we see in Figure 4-1
+
+in this case malicious ﬁles generated using the Evade-ML, are eﬀective in evading
+
+1https://github.com/mzweilin/pdfrwructure
+
+45
+
+classiﬁcation. As shown in Figure 4-2, we observe that evasive ﬁles generated using
+
+the Max-Diﬀ algorithm are especially eﬀective at evading the Virus Total classiﬁer
+
+and achieve the same scores as benign ﬁles. In comparing these results we see that
+
+the more time consuming classiﬁer, Virus Total, does achieve higher accuracy against
+
+evasive variants than the PDFRate classiﬁer. However, even Virus Total is not fool-
+
+proof which motivates the need for use of human analysts.
+
+Figure 4-1: KDE approximation of Probability Density for the PDFRate scores. This
+plot shows the classiﬁcation scores for diﬀerent types of ﬁles. The Benign ﬁles are
+shown as pink, the Contagio malware samples are shown in purple, the EvadeML
+variants are shown in blue and the Max-Diﬀ variants are shown in green. The KDE
+plot was generated with Gaussian kernel of width 0.15, and 0.15 , 0.17,.17, for the
+Benign, Contagio, EvadeML, and Max-Diﬀ ﬁles respectively. In this case the Evade-
+ML, Max-Diﬀ, and Benign ﬁles had very similar probability densities. In order to
+diﬀerentiate them, diﬀering width kernels were used.
+
+46
+
+Figure 4-2: KDE approximation of Probability Density for percent of Virus Total-
+Engines classiﬁers that classify a ﬁle as malicious. This plot shows the classiﬁcation
+scores for diﬀerent types of ﬁles. The Benign ﬁles are shown as pink, the Contagio
+malware samples are shown in purple, the EvadeML variants are shown in blue and
+the Max-Diﬀ variants are shown in green. The KDE plot was generated with Gaus-
+sian kernel of width 0.15, and 0.15 , 0.17,.17, for the Benign, Contagio, EvadeML,
+and Max-Diﬀ ﬁles respectively.
+
+47
+
+48
+
+Chapter 5
+
+Learning models from training data
+
+In our active defender system, we use the training data provided to us in the form of
+
+Sm and Sb ﬁles to train multiple models. We divide the classiﬁers into two types pri-
+
+mary and secondary. Primary classiﬁers/models take the ﬁles as input and produce
+
+a probabilistic score p. Secondary classiﬁers/models take output of the primary clas-
+
+siﬁers and deliver a probabilistic score. All secondary models are machine learning
+
+models, whereas not all primary models are. These models enable us to develop an
+
+incremental decision system as we will describe in Chapter 6 that in turn allows us
+
+to trade oﬀ between accuracy and resources used.
+
+5.1 Primary classiﬁers
+
+The active defender system uses the the Model framework to call the PDFRate,
+
+Cuckoo, and Virus Total classiﬁers. For simplicity we describe samples as an array
+
+of ﬁle paths and labels as array of 1 for malicious and 0 for benign.
+
+5.1.1 PDFRate (C1)
+
+The PDFRate classiﬁer takes labeled ﬁlenames as inputs and extracts static features
+
+of the ﬁle as discussed in Chapter 2 and Appendix A. A random forest machine
+
+learning model is then trained on the set of features and labels.
+
+49
+
+Figure 5-1: Active Defender Classiﬁers: In active primary classiﬁers (C1,C2,C3) re-
+ceive samples and produce probabilistic scores (p1,p2,p3). Secondary classiﬁers oper-
+ate oﬀ of probabilistic scores as inputs. Secondary classiﬁer C4 uses inputs (p1,p2) to
+produce the probabilistic score p4. Secondary classiﬁer C4 uses inputs (p1,p2,p3) to
+produce the probabilistic score p5.
+
+5.1.2 Cuckoo (C2)
+
+The Cuckoo classiﬁer (C2) does not require feature extraction or training. When the
+
+Cuckoo model is used, it sends ﬁles to a running Cuckoo server that accepts ﬁles and
+
+returns scores p2 indicating if known behavioural signatures of malicious ﬁles were
+
+detected .
+
+5.1.3 Virus Total (C3)
+
+Similarly, Virus Total (C3) does not require feature extraction or training. When the
+
+Virus Total model is used, it uploads ﬁles to the Virus Total API and outputs the
+
+percent Virus Total classiﬁers that classify the ﬁle as malicious (p5) as described in
+
+Chapter 2 and Appendix B
+
+5.2 Secondary Classiﬁers
+
+Secondary classiﬁers are designed taking in output score from the primary classiﬁers
+
+and learning a machine learning model. Two secondary classiﬁers are developed in
+
+our active defender system. They are:
+
+– C4 uses the outputs of PDFRate (C1) and Cuckoo (C2) as inputs and produces
+
+a probabilistic score (p4).
+
+50
+
+Name Description
+S
+Sm
+Sb
+C
+p
+C1
+p1
+C2
+p2
+C3
+p3
+C4
+p4
+C5
+p5
+
+Samples
+Malicious samples
+Benign samples
+Classiﬁer
+Individual probabilistic score
+PDFRate (primary) classiﬁer
+Output of C1
+Cuckoo (primary) classiﬁer
+Output of C2
+Virus Total (primary) classiﬁer
+Output of C3
+Secondary classiﬁer using p1 and p2 as inputs
+Output of C4
+Secondary classiﬁer using p1, p2, and p3 as inputs
+Output of C5
+
+Table 5.1: Notation and Deﬁnitions used in the Model algorithms.
+
+– C5 uses the outputs of PDFRate (C1), Cuckoo (C2), and Virus Total (C3) as
+
+inputs and produces a probabilistic score (p5).
+
+51
+
+52
+
+Chapter 6
+
+The decision system
+
+In the previous chapter, we presented multiple classiﬁers that we can train using
+
+the data available to us. In real time, in order to determine whether or not a new
+
+input ﬁle s is malicious, we apply a hierarchical decision system that makes use of
+
+multiple classiﬁers. In this system, we use three primary classiﬁers. Classiﬁer C1,
+
+PDFRate, is the cheapest of all in terms of the computational time required to make
+
+a decision, but is also the most inaccurate and could be evaded easily. The Cuckoo
+
+classiﬁer, C2, requires the dynamic analysis of the ﬁle, and thus needs more time than
+
+C1. VirusTotal, C3, requires us to use their API, and it takes about 2 minutes on an
+
+average to receive the scores back. Among the three, Virus Total is the most accurate.
+
+For these reasons, in developing a decision system, we considered the following goals:
+
+– Increase throughput: We would like to make decisions for PDFs as fast as
+
+possible. Because PDFRate is the fastest and Virus Total is the slowest in
+
+giving us the prediction, we would like to use PDFRate to make a decision for
+
+as many cases as possible.
+
+– Maintain accuracy: While it is easiest to increase throughput by choosing to
+
+use the PDFRate classiﬁer every time, this will lead to a lot of false positives if
+
+we have to maintain a high recall for detection of malware (see Chapter 2). To
+
+maintain a recall of 90% or higher, we would have to augment and use Cuckoo
+
+or VirusTotal.
+
+53
+
+To achieve the goals above, we propose the following:
+
+– a bi-level decision function for classiﬁers described in section 6.1,
+
+– a hierarchical, tunable decision system, described in section 6.2,
+
+– A cost function that evaluates the eﬃcacy of a given decision system, described
+
+in section 6.3,
+
+– a tuning algorithm that produces a decision system that can be used, described
+
+in section 6.4.
+
+6.1 Bi-level decision function
+
+Given a classiﬁer Ci and its output score pi, a bi-level decision function allows us
+
+to make a decision, Di based on two decision thresholds, t1
+
+i and t2
+
+i ,as depicted in
+
+Figure 6-1 and more formally given by:
+
+
+
+
+
+
+Di
+
+Benign
+
+if pi < t1
+i
+
+Uncertain, output pi
+
+if pi ≥ t1
+
+i and pi < t2
+i
+
+(6.1)
+
+Malicious
+
+if pi ≥ t2
+i
+
+This allows us to make a decision when we are absolutely conﬁdent, and enables us
+
+to postpone the decision in a region where we are uncertain.
+
+Figure 6-1: Bi-level decision function. Using an input score of pi, the bi-level decision
+returns a result if it is certain of the classiﬁcation. It classiﬁes an input as benign if
+pi < t1
+
+i the decision function returns pi as it is uncertain of the result.
+
+i and malicious if pi ≥ t2
+i
+i < pi < t2
+
+. If t1
+
+54
+
+MaliciousBenignpiti2ti16.2 Hierarchical tunable decision system
+
+The hierarchical decision system is shown in Figure 6-2 and formally in Algorithm 1.
+
+This system determines a ﬁnal classiﬁcation result (y) and a probabilistic score (Pf inal)
+
+for each input sample using layers of bi − level classiﬁers.
+
+The Pf inal score is calculated using the output of the last classiﬁer (plast), the
+
+threshold used in the last decision (tlast) , the number of primary classiﬁers used
+
+(Npc used), and the total available primary classiﬁers (Npc total) classiﬁers as shown
+
+below:
+
+Pf inal =
+
+Npc used
+Npc total
+
+∗ (plast − tlast)
+
+(6.2)
+
+6.3 Cost function
+
+The cost function expresses the two objectives we speciﬁed above – whether the
+
+desired accuracy is achieved and the throughput. Given a fully speciﬁed decision
+
+system, with classiﬁers C1...5, decision thresholds t1
+
+1, t2
+
+1, t1
+
+4, t2
+
+4, t5, and a set of ﬁles S,
+
+the cost,c incurred by the system is evaluated as:
+
+c = −γ ∗ g( ˆY , Y ) + (1 − γ) ∗
+
+1
+|S|
+
+(cid:88)
+
+ri
+
+i
+
+(6.3)
+
+where ˆY is the predicted labels, Y are the corresponding true labels, g(.) measures
+
+the accuracy of the predicted labels, and 1
+|S|
+
+i ri is the average classiﬁcation time
+taken to make these decisions based on the subset of models used for each ﬁle in the
+
+(cid:80)
+
+set per sample, and γ is a weight associated with each of the factors.
+
+6.3.1 g(.) function
+
+The g(.) function describes the accuracy of a system. We provide two methods of
+
+characterizing system accuracy.
+
+55
+
+Algorithm 1 ActiveDefender.Decide(S,t1
+
+1, t2
+
+1, t1
+
+2, t2
+
+2, t1
+
+3, t2
+
+3, t1
+
+4, t2
+
+4, t5, C1, C2, C3, C4, C5)
+
+ˆY ← {}
+Pf inal ← {}
+for s ∈ S do
+
+1. p1 ← C1(s)
+if p1 < t1
+
+1 then
+Pf inal ← (t1
+ˆY ← { ˆY |F alse}
+
+1 − p1) ∗ 1
+3
+
+else if p1 > t2
+
+1 then
+Pf inal ← (p1 − t2
+ˆY ← { ˆY |T rue}
+
+1) ∗ 1
+3
+
+else
+
+2. p2 ← C2(s)
+3. p4 ← C4(p1, p2)
+if p4 < t1
+
+4 then
+Pf inal ← (t1
+ˆY ← { ˆY |F alse}
+
+4 − p4) ∗ 2
+3
+
+else if p4 > t2
+
+4 then
+Pf inal ← (p4 − t2
+ˆY ← { ˆY |T rue}
+
+4) ∗ 2
+3
+
+else
+
+4. p3 ← C3(s)
+5. p5 ← C5(p1, p2, p3)
+if p5 < t1
+5 then
+Pf inal ← (p5 − t5) ∗ 3
+3
+ˆY ← { ˆY |F alse}
+
+else
+
+Pf inal ← (p5 − t5) ∗ 3
+3
+ˆY ← { ˆY |T rue}
+
+end if
+
+end if
+
+end if
+end for
+return < ˆY , Pf inal >
+
+56
+
+Figure 6-2: Active Defender Hierarchical Decision Algorithm: A PDF is ﬁrst sent
+to the PDFRate classiﬁer (C1). Based on the output of PDFrate, p1, a decision is
+made whether to return a result or send the ﬁle to the Cuckoo classiﬁer (C2).
+If
+the ﬁle is sent to the Cuckoo classiﬁer, the results from PDFRate (p1), and Cuckoo
+(p2) are sent to the secondary classiﬁer C4 and a decision is made as to whether to
+return a result or sent the ﬁle to VirusTotal (C3). If the ﬁle is sent to the VirusTotal
+classiﬁer, classiﬁcation scores from the PDFRate (p1), Cuckoo (p2), and VirusTotal
+(p3) classiﬁers are sent to the C5 secondary classiﬁer and a ﬁnal decision is made.
+
+In g1(.) the f1 score is optimized to improve precision and recall equally.
+
+g1(.) = f1(predicted, true labels)
+
+(6.4)
+
+In g2(.) the function requires a minimal threshold of precision and then optimizes
+
+for recall. This function is especially applicable for malware detection as allowing an
+
+additional malicious ﬁle to enter the system can be very costly, but is required to
+
+57
+
+p1p1p3sNoYesNoYes(p1, p2)NoYesNoNoYesYesp4p4p2ssMaliciousBenignp1t11212>p1t1>MaliciousBenignBenignp4t4>p4t4>Maliciousp5t5>PDFrate(C1)C4C5Virus totalCuckoo(C2)(C3)keep false rejection of benign ﬁles below a certain speciﬁed rate for user happiness.
+
+g2 =
+
+
+
+
+recall( ˆY , Y )
+
+if precision( ˆY , Y ) ≥ 0.9
+
+
+0
+
+otherwise
+
+(6.5)
+
+6.4 Tuning algorithm
+
+The tuning algorithm uses additional data to optimize the decision function using
+
+a cost function. Since the active defender system utilizes a set of thresholds to
+
+determine the decision for an input sample as shown in Algorithm 1, tune optimizes
+
+these thresholds based on their eﬀect on a cost function.
+
+Tune comprises two main steps. First, the tune algorithm enumerates an initial
+
+set of classiﬁer thresholds using an enumeration function e() to generate a set of
+
+thresholds T , and scores them with the cost function c. Enumerating a large threshold
+
+set is important in systems with complex costs functions such as g2(.) which are not
+
+monotonic. If too few initial thresholds are enumerated, optimization can result in
+
+thresholds that ﬁnd a local rather than global minimum cost function value.
+
+Second, tune uses a maximum of niterations of Bayesian hyper-parameter tuning to
+
+propose an additional candidate threshold, evaluate it using c, add it to the thresh-
+
+old set T , and ﬁnd the thresholds that minimize the cost function c.
+
+In iterative
+
+tuning, (cid:15) speciﬁes the minimum distance between successive minimum scores to stop
+
+optimization [33, 10].
+
+Bayesian optimization allows for the optimization of a black-box cost function
+
+using a set of tunable parameters.
+
+In our system, the tunable parameters for the
+
+decision system are the lower thresholds in each set and the diﬀerence between the
+
+lower and upper thresholds (which is ﬁxed to 0 for the last threshold set).
+
+6.4.1 e()
+
+The enumeration function e() produces a list of threshold sets necessary to minimize
+
+the cost function. This is done in two steps.
+
+58
+
+- First, we produce a 4 list of possible threshold pairs for each pair of thresholds:
+
+(cid:96)t1,(cid:96)t2,(cid:96)t3,(cid:96)t4 (t1
+
+1,t2
+
+1),(t1
+
+2,t2
+
+2),(t1
+
+3,t2
+
+3), and (t1
+
+4,t2
+
+4) respectively.
+
+- For the last threshold t5 we produce a single list of possible thresholds (cid:96)t5.
+
+- Finally, we create (cid:96)T using all possible combinations of threshold pairs across
+
+lists (cid:96)t1,(cid:96)t2,(cid:96)t3,(cid:96)t4 and (cid:96)t5.
+
+We propose a simple enumeration function e1(). The enumeration function e1()
+
+produces threshold pairs using the 0%, 20%, 40%, 60%, 80%, and 100% percentile
+
+values of previous classiﬁcation scores for that classiﬁer. For example, if previous
+
+PDFRate classiﬁcation scores p1 were observed between 0.0 and 0.5, then:
+
+(cid:96)t1 ≡ {(0.0, 0.1), (0.1, 0.2), (0.3, 0.4), (0.4, 0.5)}. The last threshold list is ((cid:96)t5) a list of
+
+the 0% , 20%, 40%, 60%, 80%, and 100% percentiles for respective score p5.
+
+More complex enumeration functions can be developed to capture a more expres-
+
+sive range of thresholds.
+
+59
+
+Description
+Samples
+Number of samples
+Individual sample
+Classiﬁer
+True Labels
+Predicted Labels
+Set of probabilities
+Individual probabilistic score
+PDFRate (primary) classiﬁer
+Output of C1
+Cuckoo (primary) classiﬁer
+Output of C2
+Virus Total (primary) classiﬁer
+Output of C3
+Secondary classiﬁer using p1 and p2 as inputs
+Output of C4
+Secondary classiﬁer using p1, p2, and p3 as inputs
+Output of C5
+Output of the last classiﬁer used in making a decision
+Decision function
+Lower threshold for probability score i
+Upper threshold for probability score i
+Output probability score of active defender system
+Last threshold used in making a decision
+Number of primary classiﬁers used in classifying a ﬁle
+Number of total classiﬁers used
+value of accuracy score vs. time
+Total time taken to make decision per ﬁle
+Average time taken to make decision per ﬁle
+Recall
+
+Name
+S
+|S|
+s
+C
+Y
+ˆY
+P
+p
+C1
+p1
+C2
+p2
+C3
+p4
+C4
+p4
+C5
+p5
+plast
+Di
+t1
+i
+t2
+i
+Pf inal
+tlast
+Npc used
+Npc total
+γ
+(cid:80)
+1
+i ri
+|S|
+recall()
+precision() Precision
+f1
+β
+g(.)
+g1
+g2
+c
+e()
+(cid:15)
+
+i ri
+(cid:80)
+
+niterations
+
+function that computes the f1 score
+precision recall weight – weight of precision vs recall
+Function describing accuracy of a system
+Speciﬁc evaluation function maximizing f1 score.
+Speciﬁc evaluation function maximizing recall given precision above 0.9
+Cost function
+Enumeration function that generates initial threshold sets to evaluate
+Small value specifying distance in successive g() scores after which
+to stop optimizing thresholds
+maximum number of iterations to run in each tuning step
+
+Table 6.1: Notation and Deﬁnitions used in the Decide algorithms (1/2)
+
+60
+
+Description
+
+Name
+niterations maximum number of iterations to run in each tuning step
+(cid:96)t1
+(cid:96)t2
+(cid:96)t3
+(cid:96)t4
+(cid:96)t5
+T
+(cid:96)T
+e1()
+
+1,t2
+list of threshold combinations for (t1
+1)
+2,t2
+list of threshold combinations for (t1
+2)
+3,t2
+list of threshold combinations for (t1
+3)
+4,t2
+list of threshold combinations for (t1
+4)
+list of threshold combinations for (t5)
+4,t2
+set of thresholds {t1
+list of threshold sets
+simple enumeration function
+
+4,t5}
+
+3,t2
+
+2,t2
+
+1,t1
+
+3,t1
+
+2,t1
+
+1,t2
+
+Table 6.2: Notation and Deﬁnitions used in the Decide algorithms (2/2)
+
+61
+
+62
+
+Chapter 7
+
+Adapting over time
+
+In the active defender system one of the important aspects is to incorporate adap-
+
+tation of the entire system over time. A lot of work has been done to show how
+
+motivated attackers can build evasive variants. It is natural to ask how would the de-
+
+fense mechanisms adapt as new variants are produced. Known as active learning, this
+
+adaptation can happen over time by simply adding training examples whose labels
+
+are veriﬁed.
+
+In [37], Veeramachaneni and Arnaldo study the use of Active Learning in a human
+
+in the loop detection system. Using multiple outlier detection systems to send suspi-
+
+cious data to analysts the system is able to improve the machine learning model - over
+
+time. Building on the idea of sending data that is classiﬁed with some uncertainty
+
+by a faster more cost-eﬀective model to a more expensive, but accurate analyst, we
+
+expand this method to use a variety of possible ways to generate more training data.
+
+Our new training examples come from the following ways:
+
+– higher accuracy classiﬁers: we can incorporate predictions from Virus Total as
+
+possible source of truth and incorporate them as training examples.
+
+– human analysts: we can send some examples to humans to get their analysis.
+
+This is an expensive mechanism but still doable.
+
+– synthetically generated evasive variants: From time to time, we can create
+
+evasive variants using the machine learning methods we described in Chapter 4.
+
+63
+
+For these evasive variants we know the ground truth and they can provide
+
+training examples for our system.
+
+Figure 7-1: Diagram of the adapt system. 1) Input data Sreceived sent through the
+decision system to produce predicted labels Yreceived and probabilities probablities .
+2) Samples are selected in using probabilities Preceived 3) The selected data Sselected
+is split into Strain and Stune 4) The training data Strain is split into Sprimary used to
+train the update the primary classiﬁers and Ssecondary used to update the secondary
+classiﬁers 5) The tuning data Stune is used to Tune the decision system
+
+7.1 Adapt in Active Defender
+
+In the active experiment, we use additional data to update the models and tune the
+
+decision system. The system can be adapted using synthetic data or unlabeled data.
+
+In the case of unlabeled data, the system generates labels and ﬁnal probabilities using
+
+the predictions from the previous learned models and the decision system. The adapt
+
+algorithm uses the following steps as shown in Figure 7-1.
+
+– Select: chooses the data that is is above a set minimum probability threshold
+
+(α) to be used to update the system
+
+– Update: uses a fraction of the selected data speciﬁed by (λ) to learned model.
+
+This data is split again into data used to train the primary and secondary clas-
+
+siﬁers, speciﬁed by parameter µ. In the active defender system, the P DF Rate
+
+classiﬁer (C1) is the only one of the primary classiﬁers that can be retrained to
+
+utilize additional data.
+
+64
+
+The secondary training data is appended to additional secondary training data
+
+and the secondary classiﬁers, C4, C5 are updated using the new predictions of
+
+PDFRate for the labeled data.
+
+– Tune: uses the remaining data to tune the decision function according to
+
+a speciﬁed enumeration function,e(), maximum number of tuning iterations
+
+(niterations), and diﬀerence between successive minimum scores (cid:15).
+
+65
+
+Description
+Minimum probability used in selecting data
+weight between data used for training and tuning
+weight between training data used for primary and secondary classiﬁers
+Samples received by decision system
+predicted probability for received samples produced by decision function
+predicted labels for received samples produced by decision function
+Samples selected for updated the system
+Samples selected for updated the system
+Samples selected for updated the system
+Samples used to train classiﬁers
+Samples used to train primary classiﬁers
+
+Name
+α
+λ
+µ
+Sreceived
+Preceived
+Yreceived
+Sselected
+ST rain
+Sselected
+ST rain
+ST rainP rimary
+ST rainSecondary Samples used to train secondary classiﬁers
+Samples used to tune the decision function
+ST une
+Classiﬁer
+C
+Individual probabilistic score
+p
+PDFRate (primary) classiﬁer
+C1
+Output of C1
+p1
+C2
+Cuckoo (primary) classiﬁer
+Output of C2
+p2
+Virus Total (primary) classiﬁer
+C3
+Output of C3
+p3
+Secondary classiﬁer using p1 and p2 as inputs
+C4
+Output of C4
+p4
+Secondary classiﬁer using p1, p2, and p3 as inputs
+C5
+Cost function
+c
+Enumeration function that generates initial threshold sets to evaluate
+e()
+Diﬀerence in successive g() scores after which to stop optimizing thresholds
+(cid:15)
+maximum number of iterations to run in each tuning step
+niterations
+
+Table 7.1: Notation and Deﬁnitions used in the Adapt algorithms.
+
+66
+
+Chapter 8
+
+Experimental Results
+
+In order to understand the performance of the active defender system, we analyze its
+
+accuracy and resource usage as it adapts.
+
+In the experimental design, we ﬁrst split the data into two data sets, as shown in
+
+Figure 8-1. D1 corresponds to data used to train the system, and D2 is data received
+
+by the system after it is deployed.
+
+Training Data:
+
+D1 is the training data available to the system before it is deployed. In our exper-
+
+imental setup, D1 consists of the 10,597 Contagio malware ﬁles and 10,597 benign
+
+PDFs randomly selected from the 44,680 benign ﬁles discussed in Section 2.3. This
+
+training data consists of malicious ﬁles collected by security analysts and a corpus of
+
+collected benign PDF ﬁles.
+
+Adaptation Data:
+
+The adaptation data, D2, consists of the evasively generated malware and remaining
+
+benign PDF ﬁles Figure 8-1. As shown in Figure 8-1, this data is split into subsets
+
+q1 through q5 and is sent to the decision system across 5 stages or time periods.
+
+8.1 Experimental setup
+
+In setting up the experiment, we perform 25 random trials. For both D1 and D2, the
+
+order of the ﬁles is randomized across trials, so splitting gives diﬀerent subsets q1 ...
+
+67
+
+Figure 8-1: Splitting Experimental Data.
+In the following experiment the data is
+split into data sets D1 and D2. D1 is used to initialize the decision system. D2
+represents data received by the system after it is deployed. D2 is split into subsets
+qi, representing the ﬁles received in each successive stage.
+
+Figure 8-2: Updating the decision system. In the experiment, training data D1 is used
+to initialize the decision system. After the system is deployed, it received additional
+data. After each additional received dataset qi, the decision system adapts.
+
+68
+
+q5.
+
+In setting up the decision system, we set the following tuning parameters, as
+
+described in Chapter 6 and in Chapter 7.
+
+The cost function is set up as described in Chapter 6, using the g1() function and
+
+a γ value of 0.9 to prioritize accuracy over resource constraints.
+
+The tuning parameters use e1() as the threshold enumeration function and an
+
+epsilon value of (cid:15) ≡ 0.1 specifying successive minimum cost scores.
+
+8.2 Experimental Results
+
+Overall, we see that the system is able to adapt to achieve high accuracy in the
+
+presence of evasive adversaries, and to reduce resource usage over time.
+
+Accuracy
+
+As shown in Figure 8-3 and Table 8.1, we observe the performance of the decision
+
+system on classifying successive sets of received ﬁles. We characterize accuracy by
+
+observing the f1 score, comparing truth versus labeled data. As evasive variants are
+
+introduced in stage 1, we observe a low f1 score. However, as stages progress, we
+
+observe that the system is able to adapt to improve accuracy over time.
+
+Resource Usage
+
+In this experiment, we characterize the resource usage by studying the average time
+
+used to classify each ﬁle. As shown in Figure 8-4 and Table 8.1, when the system
+
+is initialized, classiﬁcation time is relatively low, at around 1(s) per ﬁle. However,
+
+we observe that the classiﬁcation time continues to decrease over time, indicating
+
+that the PDFRate static classiﬁer is improving and being utilized.
+
+In calculating
+
+the estimated classiﬁcation time, we model the PDFRate as taking 1 second, Cuckoo
+
+as taking 25 seconds and VirusTotal as taking 90 seconds. Notably, the standard
+
+deviation in classiﬁcation time is to small to observe using four decimals of precision.
+
+This is likely due to the majority of ﬁles being classiﬁed by the static classiﬁer and
+
+our estimation function limiting the variability in time.
+
+69
+
+Figure 8-3: Active Defender Accuracy over Adaptation. In this ﬁgure, we observe the
+f1 score vs. the experimental stage over time. We plot the mean f1 score as points
+and show the standard deviation in the surrounding band. In this experiment, we
+observe the experiment achieving poor results in Stage 1 when evasive samples are
+introduced. Over time, we observe that the f1 score increase over time as the system
+adapts to evasive samples.
+
+Stage µf 1
+1
+2
+3
+4
+5
+
+0.17535
+0.19852
+0.44201
+0.45301
+0.4562
+
+σf 1
+0.01003
+0.01459
+0.01804
+0.01829
+0.02082
+
+µT imeperF ile σT imeperF ile
+1.16908
+1.16908
+1.10766
+1.10208
+1.09649
+
+<0.0001
+<0.0001
+<0.0001
+<0.0001
+<0.0001
+
+Table 8.1: Experimental data 25 trials the Active Defender System performance over
+5 stages. Column µF 1 corresponds to the average f1 score across all trials. Column σf 1
+corresponds to the standard deviation in f1 score across all trials. Column µT imeperF ile
+corresponds to the average estimated classiﬁcation time per ﬁle. Column σT imeperF ile
+corresponds to the standard deviation in approximated average classiﬁcation time per
+ﬁle.
+
+70
+
+Figure 8-4: Active Defender Average Classiﬁcation Time over Adaptation. In this
+ﬁgure we observe the estimated average classiﬁcation time per ﬁle at each stage. We
+plot the mean time score as points and show the standard deviation in the surrounding
+band. Here we see that the average classiﬁcation time is pretty low – around 1 second
+– throughout the course of the experiment, and decreases over time. In addition, the
+deviation in time is small across successive stages, and is not observable due to the
+estimation function.
+
+71
+
+72
+
+Chapter 9
+
+Discussion and Future Work
+
+Through this project, we were able to make four contributions. First, we developed
+
+a method to use machine learning in cybersecurity in a resource-constrained environ-
+
+ment
+
+Second, we developed algorithms that use active learning to improve fast classiﬁers
+
+in the presence of adversaries.
+
+Third, we provide an extensible framework to facilitate building, evaluating and
+
+deploying decision systems in an adversarial and resource-constrained environment.
+
+Fourth, we provide a simple evasive algorithm that was shown to confuse auto-
+
+mated classiﬁers.
+
+Through studying the adversarial and resource-constrained problem of detecting
+
+evasive PDF malware and building these solutions, we identiﬁed a few takeaways that
+
+motivate future work.
+
+9.1 Evasion
+
+In studying the available classiﬁers, it was surprising to see that max-diﬀ algorithm
+
+was eﬀective in causing confusion in the Virus Total classiﬁer. Virus Total is a
+
+powerful classiﬁcation system that has been acquired by Google and was considered
+
+73
+
+to be one of the best products of 20071. If this genetic programming-based algorithm
+
+can cause confusion in malicious and benign ﬁles, it suggests that adversaries are more
+
+than capable of deploying their own evasive algorithms to evade automated classiﬁers.
+
+This motivates the need for human-in-the-loop systems and systems that adapt over
+
+time.
+
+9.2 Active Defender
+
+9.2.1 Decision System
+
+In studying the behaviour of the active defender decision system, we identiﬁed in-
+
+teresting aspects of the threshold decision method that impact performance, and
+
+identiﬁed areas of the decision system that future work could explore.
+
+We saw that the choice of both the evaluation function and the number of classi-
+
+ﬁers used aﬀect modeling performance.
+
+In the choice of the decision function, we observed that non-continuous or complex
+
+evaluation functions need more initial thresholds to be enumerated, and thus require
+
+more time to adapt the decision system. When deploying these systems, defenders
+
+should explore tradeoﬀs between choice in evaluation function and tuning time.
+
+Threshold / Adaptation scaling:
+
+In the current implementation of the decision system, for n primary classiﬁers, there
+
+are 2n -1 thresholds. However, in tuning the thresholds, we enumerate the initial
+
+threshold set combinatorially before turning with Bayesian optimization. Future work
+
+could focus on reducing the set of initial thresholds necessary to tune in proportion
+
+to the number of classiﬁers used.
+
+Using additional primary classiﬁers:
+
+In analyzing methods to improve this system, we started with the primary classiﬁers
+
+used. In this thesis we focused on three primary methods of classiﬁcation: static,
+
+dynamic, and API-based. Studying the integration of additional primary classiﬁers
+
+1https://www.google.com/search?q=best+products+2007+virus+totaloq=best+products+2007
+
++virus+totalaqs=chrome..69i57j69i64.3734j0j4sourceid=chromeie=UTF-8
+
+74
+
+(such as humans) or unsupervised methods would be an interesting next step. Al-
+
+ternatively, unsupervised anomaly detection could provide valuable insight into a
+
+changing dataset, and thus further improve the system.
+
+Another possibility for improving the decision systems lies with randomization.
+
+Randomly selecting a small number of ﬁles to be sent to the most accurate classiﬁers
+
+can strengthen the system against ﬁles that can completely evade simple classiﬁers.
+
+9.2.2 Adaptation
+
+In this thesis, we discussed simple adaptation methods. However, additional methods
+
+can be used to improve adaptation. First, as the system adapts and identiﬁes ﬁles
+
+that confuse fast classiﬁers and require the use of expensive ones, it could synthesize
+
+variants similar to these ﬁles, using automated evasive algorithms to retrain and
+
+improve static models. Alternatively, in adaptation a system could use optimization
+
+methods more targeted to speciﬁc use cases in an eﬀort to improve performance.
+
+9.2.3 Resource-Constrained Classiﬁcation Systems
+
+Thanks to the increasing amounts of data collected by enterprises, machine learning
+
+can be an asset to cybersecurity. However, each company or institution looking to
+
+defend their system will have diﬀerent limitations on the amount of resources they
+
+can devote to analyzing data. The active defender system can be tailored to diﬀerent
+
+resource limitations and diﬀerent environments, using a variety of evaluation or cost
+
+functions.
+
+9.2.4 Using Active Learning to Improve Against Evasive Sam-
+
+ples
+
+In adversarial environments that require cybersecurity, it is essential to be able to
+
+update to a changing data distribution. We showed how the Active Defender system
+
+provides a mechanism for updating results using higher accuracy as the adversaries
+
+evolve over time.
+
+75
+
+9.3 SMDA Framework
+
+The SMDA framework provides a platform for bringing together innovative algo-
+
+rithms made by research scientists with developers who have the data to deploy these
+
+algorithms. Future work directions include improving the SMDA framework to gen-
+
+eralize to adversarial use in the cybersecurity space as well as in other areas, such as
+
+detecting malicious bots on social media.
+
+9.4 Conclusion
+
+As motivated attackers use more and more computational resources and state-of-the-
+
+art algorithms to persistently attack smaller corporations, it is necessary to ﬁgure
+
+out how to automate detection in a resource-constrained environment. In this thesis,
+
+we built the SMDA framwork and the Active Defender classiﬁcation system which
+
+perform well when faced with the hard problem of detecting evasive malware. Further-
+
+more, we believe that this software framework and algorithms can generalize beyond
+
+PDF malware detection, enabling researchers and corporations to work together to
+
+secure systems against powerful and evolving adversaries.
+
+76
+
+Appendix A
+
+PDFRate Classiﬁer Features
+
+Feature
+
+Name
+
+Feature
+
+Name
+
+pdfrate 0
+
+author dot
+
+pdfrate 18
+
+count box overlap
+
+pdfrate 1
+
+author lc
+
+pdfrate 19
+
+count endobj
+
+pdfrate 2
+
+author len
+
+pdfrate 20
+
+count endstream
+
+pdfrate 3
+
+author mismatch
+
+pdfrate 21
+
+count eof
+
+pdfrate 4
+
+author num
+
+pdfrate 22
+
+count font
+
+pdfrate 5
+
+author oth
+
+pdfrate 23
+
+count font obs
+
+pdfrate 6
+
+author uc
+
+pdfrate 24
+
+count image large
+
+pdfrate 7
+
+box nonother types
+
+pdfrate 25
+
+count image med
+
+pdfrate 8
+
+box other only
+
+pdfrate 26
+
+count image small
+
+pdfrate 9
+
+company mismatch
+
+pdfrate 27
+
+count image total
+
+pdfrate 10
+
+count acroform
+
+pdfrate 28
+
+count image xlarge
+
+pdfrate 11
+
+count acroform obs
+
+pdfrate 29
+
+count image xsmall
+
+pdfrate 12
+
+count action
+
+pdfrate 30
+
+count javascript
+
+pdfrate 13
+
+count action obs
+
+pdfrate 31
+
+count javascript obs
+
+pdfrate 14
+
+count box a4
+
+pdfrate 32
+
+count js
+
+pdfrate 15
+
+count box legal
+
+pdfrate 33
+
+count js obs
+
+pdfrate 16
+
+count box letter
+
+pdfrate 34
+
+count obj
+
+pdfrate 17
+
+count box other
+
+pdfrate 35
+
+count objstm
+
+77
+
+Feature
+
+Name
+
+Feature
+
+Name
+
+pdfrate 36
+
+count objstm obs
+
+pdfrate 64 keywords num
+
+pdfrate 37
+
+count page
+
+pdfrate 65 keywords oth
+
+pdfrate 38
+
+count page obs
+
+pdfrate 66 keywords uc
+
+pdfrate 39
+
+count startxref
+
+pdfrate 67
+
+len obj avg
+
+pdfrate 40
+
+count stream
+
+pdfrate 68
+
+len obj max
+
+pdfrate 41
+
+count stream diﬀ
+
+pdfrate 69
+
+len obj min
+
+pdfrate 42
+
+count trailer
+
+pdfrate 70
+
+len stream avg
+
+pdfrate 43
+
+count xref
+
+pdfrate 71
+
+len stream max
+
+pdfrate 44
+
+createdate dot
+
+pdfrate 72
+
+len stream min
+
+pdfrate 45
+
+createdate mismatch
+
+pdfrate 73 moddate dot
+
+pdfrate 46
+
+createdate ts
+
+pdfrate 74 moddate mismatch
+
+pdfrate 47
+
+createdate tz
+
+pdfrate 75 moddate ts
+
+pdfrate 48
+
+createdate version ratio
+
+pdfrate 76 moddate tz
+
+pdfrate 49
+
+creator dot
+
+pdfrate 77 moddate version ratio
+
+pdfrate 50
+
+creator lc
+
+pdfrate 78 pdﬁd0 dot
+
+pdfrate 51
+
+creator len
+
+pdfrate 79 pdﬁd0 lc
+
+pdfrate 52
+
+creator mismatch
+
+pdfrate 80 pdﬁd0 len
+
+pdfrate 53
+
+creator num
+
+pdfrate 81 pdﬁd0 mismatch
+
+pdfrate 54
+
+creator oth
+
+pdfrate 82 pdﬁd0 num
+
+pdfrate 55
+
+creator uc
+
+pdfrate 83 pdﬁd0 oth
+
+pdfrate 56 delta ts
+
+pdfrate 57 delta tz
+
+pdfrate 84 pdﬁd0 uc
+
+pdfrate 85 pdﬁd1 dot
+
+pdfrate 58
+
+image mismatch
+
+pdfrate 86 pdﬁd1 lc
+
+pdfrate 59
+
+image totalpx
+
+pdfrate 87 pdﬁd1 len
+
+pdfrate 60 keywords dot
+
+pdfrate 88 pdﬁd1 mismatch
+
+pdfrate 61 keywords lc
+
+pdfrate 89 pdﬁd1 num
+
+pdfrate 62 keywords len
+
+pdfrate 90 pdﬁd1 oth
+
+pdfrate 63 keywords mismatch
+
+pdfrate 91 pdﬁd1 uc
+
+78
+
+Feature
+
+Name
+
+pdfrate 92
+
+pdﬁd mismatch
+
+pdfrate 93
+
+pos acroform avg
+
+pdfrate 94
+
+pos acroform max
+
+pdfrate 95
+
+pos acroform min
+
+pdfrate 96
+
+pos box avg
+
+pdfrate 97
+
+pos box max
+
+pdfrate 98
+
+pos box min
+
+pdfrate 99
+
+pos eof avg
+
+pdfrate 100 pos eof max
+
+pdfrate 101 pos eof min
+
+pdfrate 102 pos image avg
+
+pdfrate 103 pos image max
+
+pdfrate 104 pos image min
+
+pdfrate 105 pos page avg
+
+pdfrate 106 pos page max
+
+pdfrate 107 pos page min
+
+pdfrate 108 producer dot
+
+pdfrate 109 producer lc
+
+pdfrate 110 producer len
+
+pdfrate 111 producer mismatch
+
+pdfrate 112 producer num
+
+pdfrate 113 producer oth
+
+Feature
+
+Name
+
+pdfrate 114 producer uc
+
+pdfrate 115
+
+ratio imagepx size
+
+pdfrate 116
+
+ratio size obj
+
+pdfrate 117
+
+ratio size page
+
+pdfrate 118
+
+ratio size stream
+
+pdfrate 119
+
+size
+
+pdfrate 120
+
+subject dot
+
+pdfrate 121
+
+subject lc
+
+pdfrate 122
+
+subject len
+
+pdfrate 123
+
+subject mismatch
+
+pdfrate 124
+
+subject num
+
+pdfrate 125
+
+subject oth
+
+pdfrate 126
+
+subject uc
+
+pdfrate 127
+
+title dot
+
+pdfrate 128
+
+title lc
+
+pdfrate 129
+
+title len
+
+pdfrate 130
+
+title mismatch
+
+pdfrate 131
+
+title num
+
+pdfrate 132
+
+title oth
+
+pdfrate 133
+
+title uc
+
+pdfrate 134 version
+
+79
+
+80
+
+Appendix B
+
+Virus Total Classiﬁers
+
+The following classiﬁers and information used in Virus Total to analyze a submitted
+
+ﬁle1.
+
+• AegisLab (AegisLab)
+
+• Agnitum
+
+• AhnLab (AhnLab V3)
+
+• Antiy Labs (Antiy-AVL)
+
+• Androguard
+
+• Aladdin (eSafe)
+
+• ALWIL (Avast! Antivirus)
+
+• AVG Technologies (AVG)
+
+• Avira
+
+• BluePex (AVware)
+
+• Baidu (Baidu-International)
+
+• BitDefender GmbH (BitDefender)
+
+1https://www.virustotal.com/en/about/credits/
+
+81
+
+• Bkav Corporation (Bkav)
+
+• ByteHero Information Security Technology Team (ByteHero)
+
+• Cat Computer Services (Quick Heal)
+
+• CarbonBlack
+
+• Cuckoo Sandbox
+
+• CMC InfoSec (CMC Antivirus)
+
+• CYREN
+
+• ClamAV
+
+• Comodo (Comodo)
+
+• CrowdStrike
+
+• Doctor Web Ltd. (Dr.Web)
+
+• Emsi Software GmbH (Emsisoft)
+
+• Endgame
+
+• Eset Software (ESET NOD32)
+
+• Exif Tool
+
+• Fortinet
+
+• FRISK Software (F-Prot)
+
+• F-Secure
+
+• G Data Software (G Data)
+
+• Hacksoft (The Hacker)
+
+• Hauri (ViRobot)
+
+82
+
+• IKARUS Security Software (IKARUS)
+
+• INCA Internet (nProtect)
+
+• Invincea (Invincea, acquired by Sophos)
+
+• Intel Security (McAfee)
+
+• Jiangmin
+
+• K7 Computing (K7AntiVirus, K7GW)
+
+• Kaspersky Lab (Kaspersky Anti-Virus)
+
+• Kingsoft
+
+• Malwarebytes Corporation (Malwarebytes’ Anti-Malware)
+
+• Magic Descriptor
+
+• Microsoft (Malware Protection)
+
+• Microworld (eScan)
+
+• Nano Security (Nano Antivirus)
+
+• Norman (Norman Antivirus)
+
+• NSRL
+
+• Panda Security (Panda Platinum)
+
+• PDFiD
+
+• Peﬁle
+
+• PEiD
+
+• Qihoo 360
+
+• Rising Antivirus (Rising)
+
+83
+
+• Sigcheck
+
+• Snort
+
+• Sophos (SAV)
+
+• SUPERAntiSpyware
+
+• Suricata
+
+• ssdeep
+
+• Symantec Corporation (Symantec)
+
+• Taggant packer information tool
+
+• TrID
+
+• Tencent
+
+• ThreatTrack Security (VIPRE Antivirus)
+
+• TotalDefense
+
+• Trend Micro (TrendMicro, TrendMicro-HouseCall)
+
+• UEFI Firmware parser
+
+• VirusBlokAda (VBA32)
+
+• Webroot
+
+• Wireshark
+
+• WhiteArmor
+
+• Zemana behaviour
+
+• Zillya! (Zillya)
+
+• Zoner Software (Zoner Antivirus)
+
+84
+
+Bibliography
+
+[1] Contagio dump, http://contagiodump.blogspot.com (accessed on 2016.11.11).
+
+[2] Cybersecurity ceo says beware of north korean hackers ’building a cache of bit-
+
+coin’.
+
+[3] Multiple vulnerabilities in adobe acrobat and adobe reader could allow for remote
+
+code execution (apsb17-36).
+
+[4] The rise of document-based malware. https://www.sophos.com/en-us/security-
+
+news-trends/security-trends/the-rise-of-document-based-malware.aspx.
+
+[5] The
+
+rise
+
+of
+
+machine
+
+learning
+
+(ml)
+
+in
+
+cybersecurity.
+
+https://www.crowdstrike.com/resources/white-papers/rise-machine-learning-
+ml-cybersecurity/.
+
+[6] Mimicus framweork. https://github.com/srndic/mimicus, 2017.
+
+[7] Hyrum S Anderson, Anant Kharkar, Bobby Filar, and Phil Roth. Evading ma-
+
+chine learning malware detection.
+
+[8] George Argyros, Ioannis Stais, Suman Jana, Angelos D Keromytis, and Aggelos
+Kiayias. Sfadiﬀ: Automated evasion attacks and ﬁngerprinting using black-
+box diﬀerential automata learning. In Proceedings of the 2016 ACM SIGSAC
+Conference on Computer and Communications Security, pages 1690–1701. ACM,
+2016.
+
+[9] George Argyros, Ioannis Stais, Aggelos Kiayias, and Angelos D Keromytis. Back
+in black: towards formal, black box analysis of sanitizers and ﬁlters. In Security
+and Privacy (SP), 2016 IEEE Symposium on, pages 91–109. IEEE, 2016.
+
+[10] HDI Project Bennet Cyphers,
+
+Kalyan Veeramachaneni.
+
+Btb.
+
+https://github.com/HDI-Project/BTB, 2017.
+
+[11] Battista Biggio, Igino Corona, Davide Maiorca, Blaine Nelson, Nedim ˇSrndi´c,
+Pavel Laskov, Giorgio Giacinto, and Fabio Roli. Evasion attacks against machine
+learning at test time. In Joint European Conference on Machine Learning and
+Knowledge Discovery in Databases, pages 387–402. Springer, 2013.
+
+[12] Thomas P. Bossert. It’s oﬃcial: North korea is behind wannacry, Dec 2017.
+
+85
+
+[13] Yizheng Chen, Yacin Nadji, Athanasios Kountouras, Fabian Monrose, Roberto
+Perdisci, Manos Antonakakis, and Nikolaos Vasiloglou. Practical attacks against
+graph-based clustering. arXiv preprint arXiv:1708.09056, 2017.
+
+[14] Hung Dang, Yue Huang, and Ee-Chien Chang. Evading classiﬁers by morphing
+
+in the dark. 2017.
+
+[15] Demidova Gudkova, Vergelis. Kaspersky security bulletin. spam and phishing in
+
+2016 q3, 2016.
+
+[16] Hossein Hosseini, Baicen Xiao, Andrew Clark, and Radha Poovendran. Attack-
+ing automatic video analysis algorithms: A case study of google cloud video
+intelligence api. arXiv preprint arXiv:1708.04301, 2017.
+
+[17] Weiwei Hu and Ying Tan. Generating adversarial malware examples for black-
+
+box attacks based on gan. arXiv preprint arXiv:1702.05983, 2017.
+
+[18] Alex Kantchelian, JD Tygar, and Anthony Joseph. Evasion and hardening of
+tree ensemble classiﬁers. In International Conference on Machine Learning, pages
+2387–2396, 2016.
+
+[19] Pavel Laskov et al. Practical evasion of a learning-based classiﬁer: A case study.
+In Security and Privacy (SP), 2014 IEEE Symposium on, pages 197–211. IEEE,
+2014.
+
+[20] Wei-Jen Li, Salvatore Stolfo, Angelos Stavrou, Elli Androulaki, and Angelos D
+Keromytis. A study of malcode-bearing documents. In International Conference
+on Detection of Intrusions and Malware, and Vulnerability Assessment, pages
+231–250. Springer, 2007.
+
+[21] Matthew V Mahoney and Philip K Chan. Phad: Packet header anomaly detec-
+
+tion for identifying hostile network traﬃc. 2001.
+
+[22] Davide Maiorca, Igino Corona, and Giorgio Giacinto. Looking at the bag is not
+enough to ﬁnd the bomb: an evasion of structural methods for malicious pdf ﬁles
+detection. In Proceedings of the 8th ACM SIGSAC symposium on Information,
+computer and communications security, pages 119–130. ACM, 2013.
+
+[23] Nir Nissim, Aviad Cohen, and Yuval Elovici. Aldocx: Detection of unknown
+malicious microsoft oﬃce documents using designated active learning methods
+based on new structural feature extraction methodology. IEEE Transactions on
+Information Forensics and Security, 2016.
+
+[24] Michael Riley, Jordan Robertson, and Anita Sharpe. The equifax hack has the
+
+hallmarks of state-sponsored pros, Sep 2017.
+
+[25] Ishai Rosenberg, Asaf Shabtai, Lior Rokach, and Yuval Elovici. Generic black-
+box end-to-end attack against rnns and other api calls based malware classiﬁers.
+arXiv preprint arXiv:1707.05970, 2017.
+
+86
+
+[26] Oﬀensive
+
+Client
+security.com/metasploit-unleashed/client-side-exploits/, 2017.
+
+Security.
+
+exploits.
+
+side
+
+https://www.oﬀensive-
+
+[27] Tegjyot Singh Sethi and Mehmed Kantardzic. Data driven exploratory attacks
+on black box classiﬁers in adversarial domains. arXiv preprint arXiv:1703.07909,
+2017.
+
+[28] Tegjyot Singh Sethi, Mehmed Kantardzic, and Joung Woo Ryu. security the-
+ater: On the vulnerability of classiﬁers to exploratory attacks. In Paciﬁc-Asia
+Workshop on Intelligence and Security Informatics, pages 49–63. Springer, 2017.
+
+[29] Charles Smutz and Angelos Stavrou. Malicious pdf detection using metadata
+and structural features. In Proceedings of the 28th Annual Computer Security
+Applications Conference, pages 239–248. ACM, 2012.
+
+[30] Charles Smutz and Angelos Stavrou. When a tree falls: Using diversity in en-
+
+semble classiﬁers to identify evasion in malware detectors. NDSS, 2016.
+
+[31] Nedim ˇSrndic and Pavel Laskov. Detection of malicious pdf ﬁles based on hi-
+In Proceedings of the 20th Annual Network &
+
+erarchical document structure.
+Distributed System Security Symposium, 2013.
+
+[32] Nedim ˇSrndi´c and Pavel Laskov. Hidost: a static machine-learning-based detec-
+tor of malicious ﬁles. EURASIP Journal on Information Security, 2016(1):22,
+2016.
+
+[33] Thomas Swearingen, Will Drevo, Bennett Cyphers, Alfredo Cuesta-Infante, Arun
+Ross, and Kalyan Veeramachaneni. Atm: A distributed, collaborative, scalable
+system for automated machine learning.
+
+[34] @threatintel.
+
+vulnerability.
+https://www.symantec.com/connect/blogs/pdf-malware-writers-keep-targeting-
+vulnerability.
+
+Pdf malware writers
+
+targeting
+
+keep
+
+[35] Liang Tong, Bo Li, Chen Hajaj, and Yevgeniy Vorobeychik. Feature conservation
+in adversarial classiﬁer evasion: A case study. arXiv preprint arXiv:1708.08327,
+2017.
+
+[36] Zacharias Tzermias, Giorgos Sykiotakis, Michalis Polychronakis, and Evange-
+los P Markatos. Combining static and dynamic analysis for the detection of
+malicious documents. In Proceedings of the Fourth European Workshop on Sys-
+tem Security, page 4. ACM, 2011.
+
+[37] Kalyan Veeramachaneni,
+
+Ignacio Arnaldo, Vamsi Korrapati, Constantinos
+Bassias, and Ke Li. Aiˆ 2: training a big data machine to defend.
+In Big
+Data Security on Cloud (BigDataSecurity), IEEE International Conference on
+High Performance and Smart Computing (HPSC), and IEEE International Con-
+ference on Intelligent Data and Security (IDS), 2016 IEEE 2nd International
+Conference on, pages 49–54. IEEE, 2016.
+
+87
+
+[38] Beilun Wang, Ji Gao, and Yanjun Qi. A theoretical framework for robustness
+of (deep) classiﬁers under adversarial noise. arXiv preprint arXiv:1612.00334,
+2016.
+
+[39] Weilin Xu, Yanjun Qi, and David Evans. Automatically evading classiﬁers. In
+Proceedings of the 2016 Network and Distributed Systems Symposium, 2016.
+
+88
+
+Appendix C
+
+SMDA Software
+
+C.1 Overview
+
+In previous chapters we discussed the logical abstractions and classes of algorithms
+
+in the SMDA framework. Our goal in developing the software is to create an open
+
+source platform that can generalize building decision systems in a variety of adver-
+
+sarial environments. We aim to make it easy for developers to improve upon existing
+
+algorithms and easy for developers to deploy a detection system. By providing this
+
+software system we can connect algorithms researchers with end-users and provide a
+
+system for building an evaluating detection systems for developers.
+
+In this chapter, we discuss the design goals in implementing the software frame-
+
+work, the current implementation, and future directions.
+
+C.2 Design Goals
+
+In this section we discuss our primary design goals in software system design.
+
+In
+
+priority order, they are Usability, Extensibility, and Scalability.
+
+Usability
+
+Our ﬁrst goal in designing the system is make the software easy to use by developers
+
+trying to deploy a detection system in an adversarial environment. To this eﬀort, we
+
+want it to be as easy as possible for developers to input their data, select their system
+
+89
+
+conﬁguration, and evaluate system performance.
+
+Extensibility
+
+Our second goal is to make the system easily extendable. While we’ve developed
+
+algorithms that perform well for PDF malware detection in a resource constrained
+
+environment, we recognize other researches may have developed new algorithms to
+
+synthesize data, model data, deploy decision functions, or adapt systems. We hope
+
+to make a collaborative environment so researchers can benchmark their algorithms
+
+against existing algorithms and data sets and facilitate algorithms to be deployed by
+
+end users.
+
+To accomplish the goal of enabling extensible we utilize a highly modular design.
+
+Making modules independent as possible and automating testing allows for compo-
+
+nents to be improved independents of the rest of the system.
+
+Scalability
+
+We aim to implement the SMDA framework so that it can scale to adding additional
+
+classes. Using a hierarchical model, we limit scale of testing.
+
+C.3 Modules
+
+The initial version of the system has the following modules. This may be subject to
+
+change as we deploy with beta-testers and gain a better understanding of the best
+
+interface for developers and researchers.
+
+For each of the four classes of algorithms we have corresponding abstract class.
+
+Synthesize is done in the SampleGenerator, and corresponds to the generating data.
+
+Learn is implemented in the Model class. Decide and Adapt are implemented in the
+
+PredictionPipeline class as they can have dependencies on the models used.
+
+In addition to the three core abstract classes and corresponding packages, we
+
+implement packages for the necessary static functions needed to deploy the model.
+
+The static function packages are FeatureExtraction and Evaluation.
+
+90
+
+C.3.1 Sample Generator
+
+SampleGenerator creates labeled data to be used in model training, experimental eval-
+
+uation, or adaptation. The abstract class requires the generate(n samples) method
+
+to be implemented to return a tuple of an array of nsamples and nlabels.
+
+Creating subclasses of SampleGenerator enables specifc dataset creation. For
+
+example, in the simple case samples can be created from a CSV ﬁle. More advanced
+
+implementations would be to use evasive algorithms to create evasive ﬁles from a set
+
+of known malicious and benign ﬁles.
+
+C.3.2 Model
+
+Model allows for ﬁtting the labeled data to a known distribution. The abstract model
+
+class requires that the sample type be set to indicate the acceptable inputs for a ﬁle.
+
+Model.ﬁt() operates on extracted features from samples and the corresponding labels
+
+to model the data. Model.predict() returns a tuple of categorical predictions and
+
+corresponding conﬁdence.
+
+C.3.3 PredictionPipeline
+
+PredicitonPipleine is the class used to facilitate deploying a detection model. Pre-
+
+dictionPipelines requires an input model or models, feature extraction functions, and
+
+initial thresholds and hyper parameters used for training and tuning.
+
+This abstract skeleton for a PredictionPipeline contains the following methods:
+
+•
+
+init
+
+• extract features : feature extraction function
+
+• train : train the model(s) used in the system
+
+• @public: predict
+
+• tune: optimize decision system
+
+91
+
+• @public: adapt
+
+• adapt unlabled
+
+This simple skeleton where the required public methods are predict and adapt.
+
+Other functions follow the suggested logical breakdown for system models and may
+
+be very simple depending on model(s) used and requirements.
+
+MultiModelThresholdPredictionPipeline is an implementation of pipeline that im-
+
+plements the threshold decision making necessary for a system with multiple classiﬁers
+
+in a resource constrained environment using bayesian hyper parameter tuning to opt-
+
+mize decision thresholds. This can generalize for any set of samples and classiﬁers
+
+where the following parameters are set:
+
+• primary models : base classiﬁers
+
+• primary model names : name for base classiﬁers
+
+• secondary models : machine learning models to use to model output of base
+
+classiﬁers
+
+• training data : initial training daata for primary classiﬁers
+
+• feature fns : functions to extract features for each base classiﬁer
+
+• thresholds : initial system thresholds
+
+• eval fn : function to maximize when tuning system.
+
+E.g. (1-pct of maximum time taken) + precision when recall is ≥ 90
+
+• split train tune fn : function to split data between training model and tuning
+
+decision function
+
+• split train primary secondary fn : function to split data between training pri-
+
+mary and secondary classiﬁers
+
+• max tune iterations : maximum number of iterations to run per round of tuning
+
+92
+
+• tune eps : acceptable diﬀerence between best evaluation function scores to de-
+
+termine end of tuning
+
+• enumerate options fn : Enumerate initial threshold options
+
+• conf threshold : Value that speciﬁes minimum conﬁdence in data / labels used
+
+to adapt system
+
+C.3.4 FeatureExtraction
+
+FeatureExtraction corresponds to the package of static functions used to extract fea-
+
+tures from a sample. Examples of feature extraction include selecting columns from
+
+a dataframe or extracting the PDFrate features from the path to a PDF ﬁle.
+
+C.3.5 Evaluation
+
+Correctly specifying function is essential to providing a good system. The evaluation
+
+function is a negative cost function which is maximized as the system is tuned. A
+
+simple evaluation function could be the f1 score for the aggregate decision system.
+
+However in some cases, there are other meta information of the method of classiﬁca-
+
+tion that impact the score. In the case of the active defender system the evaluation as
+
+the negative of the cost functions described in Chapter 7. This requires the predicted
+
+value, the true value, and classiﬁer used as meta data.
+
+Other evaluation functions could maximize accuracy as long as average classifying
+
+time is less than a speciﬁed threshold.
+
+C.4 Testing
+
+We designed the system to be as module are possible to enable independent testing
+
+and evaluation of system modules. We implemented unit tests usint the Nose python
+
+testing framework and enabled continuous integration using Circle.ci.
+
+93
+
+C.5 Documentation
+
+To facilitate ease of understanding we use function, class, and package level docu-
+
+mentation using the Sphinx documentation package.
+
+94
+
+

@@ -1,0 +1,1 @@
+In this case, new node is inserted right before the current head node.

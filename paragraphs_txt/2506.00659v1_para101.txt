@@ -1,0 +1,2 @@
+G ← directed global call graph from F , C ← ∅
+for e ∈ E do

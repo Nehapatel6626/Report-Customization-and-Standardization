@@ -1,0 +1,2 @@
+Figure 4.17:
+means clustering for IPQ data set.

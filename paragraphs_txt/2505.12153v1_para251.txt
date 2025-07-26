@@ -1,0 +1,6 @@
+To rigorously evaluate the performance and privacy char-
+acteristics of our proposed FDRL framework, we conducted
+a series of simulations designed to mimic real-world sur-
+gical scenarios. This section details the experimental setup,
+simulation parameters, and the hardware used, providing a
+comprehensive overview of our experimental methodology.

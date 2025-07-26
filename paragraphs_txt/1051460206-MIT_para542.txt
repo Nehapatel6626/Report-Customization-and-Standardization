@@ -1,0 +1,1 @@
+side lobes  created during  diffraction will  now enter the objective  lens, causing  an increase  in the

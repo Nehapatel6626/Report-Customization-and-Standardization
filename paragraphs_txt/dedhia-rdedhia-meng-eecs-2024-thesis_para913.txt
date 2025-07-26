@@ -1,0 +1,1 @@
+cell_copy = re . sub ( ' [\ t \ n \ r ] ' , " " , cell )

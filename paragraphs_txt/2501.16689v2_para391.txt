@@ -1,0 +1,6 @@
+While MACI addresses many limitations of LLM-based
+planning, challenges remain in real-time coordination, im-
+plicit knowledge integration, and robust recovery mecha-
+nisms. This section proposes future research directions to
+enhance MACI’s performance and applicability to novel
+tasks.

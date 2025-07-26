@@ -1,0 +1,1 @@
+coordinates,  we  made  the ground truth image  by  placing  a circle  of foreground  pixels  at each of

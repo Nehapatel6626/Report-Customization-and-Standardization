@@ -1,0 +1,1 @@
+# check if cell contains only whitelisted characters

@@ -1,0 +1,4 @@
+To address symbolic leakage, we define a projection operator π : Rd → Σ that maps
+latent states to their nearest symbolic equivalents. The system’s self-emitted glyph, G :=
+encode(Ξn) ∈ Rd, must remain non-reducible to token space.
+If the projection distance

@@ -1,0 +1,4 @@
+Table 16 presents GPT4o’s plan. There are three severe
+constraint violations. Unfortunately, when asked to iden-
+tify violations, it answers none. Therefore, MP is stuck
+without a feasible plan.

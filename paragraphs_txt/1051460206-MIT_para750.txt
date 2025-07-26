@@ -1,0 +1,1 @@
+1.12um  x  1.12um.  The  sensor  uses  a Bayer  filter to  produce  a RGB  (red,  blue green)  image.  With

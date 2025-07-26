@@ -1,0 +1,1 @@
+decreases to 1647 and after cleaning rows with missing values in the IPQ table, it shrinks to

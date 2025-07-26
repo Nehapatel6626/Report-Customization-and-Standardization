@@ -1,0 +1,10 @@
+enqueue R
+enqueue O
+dequeue
+enqueue T
+enqueue A
+enqueue T
+dequeue 
+dequeue
+enqueue E
+dequeue

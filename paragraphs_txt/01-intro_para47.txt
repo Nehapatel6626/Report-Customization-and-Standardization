@@ -1,0 +1,2 @@
+Software: not physical but not simulated.
+Active: not a help system (softbot safety!)

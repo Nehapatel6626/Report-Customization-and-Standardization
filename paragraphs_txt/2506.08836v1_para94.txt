@@ -1,0 +1,4 @@
+Dataset Num. samples Ratio (%) t (h) t rel. (%)
+Training
+Validation
+Test

@@ -1,0 +1,1 @@
+Figure 8-1. D1 corresponds to data used to train the system, and D2 is data received

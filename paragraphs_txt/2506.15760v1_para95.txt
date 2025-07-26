@@ -1,0 +1,4 @@
+Unlike using symbolic manipulation to solve problems, as we usually see in calculus, nu- 
+merical algorithms use approximation to find solutions. This is especially useful in solving 
+engineering problems, as well as solving problems in physics, life science, medicine, finan- 
+cial, and aerospace. Traditional error analysis on numerical algorithms focuses mostly on

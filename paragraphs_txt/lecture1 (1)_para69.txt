@@ -1,0 +1,8 @@
+Object dequeue() {
+	assert(!is_empty)
+	return_data = front->data
+	temp = front
+	front = front->next
+	delete temp
+	return temp->data	
+}

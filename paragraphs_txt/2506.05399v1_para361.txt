@@ -1,0 +1,9 @@
+The LATGeO framework, based on transformer technology,
+was introduced in [105] to generate captions for images. It in-
+corporates multi-level geometrically coherent and visual rec-
+ommendations to establish relationships between objects based
+on their localized ratios. A new label-attention module (LAM)
+was developed to connect the visual and linguistic aspects to
+extend the traditional transformer. In this proposed approach,
+object labels are included as input data at each decoder layer to
+assist in constructing captions.

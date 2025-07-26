@@ -1,0 +1,6 @@
+Pros
+Directly supported by C
+Provides random access
+Cons
+Size determined at compile time
+Inserting and deleting elements is time consuming

@@ -1,0 +1,4 @@
+The validation protocol implements a multi-stage process
+for ensuring state consistency. When any agent proposes
+a state change, the validation agent initiates a sequence of
+checks:

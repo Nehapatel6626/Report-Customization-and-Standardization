@@ -1,0 +1,2 @@
+discretization errors. In other words, errors caused by using finite number of approxima- 
+tions of variables compared with continuous variables. Rearrange

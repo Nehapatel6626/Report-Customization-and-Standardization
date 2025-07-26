@@ -1,0 +1,3 @@
+6. Common Sense Agent: Identiﬁes implicit constraints, in-
+tegrates practical knowledge, and ensures plans align
+with real-world considerations.

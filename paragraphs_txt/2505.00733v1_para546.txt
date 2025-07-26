@@ -1,0 +1,3 @@
+Hern´andez, C., Bermejo-Alonso, J., and Sanz, R. (2018). A Self-Adaptation Framework Based on
+Functional Knowledge for Augmented Autonomy in Robots. Integrated Computer-Aided Engineering
+25, 157–172

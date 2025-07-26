@@ -1,0 +1,5 @@
+The proposed knowledge model was presented as a conceptual data model (CDM) in a non-machine-
+readable format. To transform the knowledge model into a machine-readable format while maintaining its
+semantics and structure, its representation requirements must be identified and used to select a suitable
+technology to implement it. The representation requirements imposed by the proposed knowledge model
+are:

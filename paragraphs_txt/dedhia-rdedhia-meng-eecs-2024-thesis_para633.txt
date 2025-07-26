@@ -1,0 +1,1 @@
+3524 identifies a vulnerability in versions of Apache OpenOffice before 4.1.1 that "allows

@@ -1,0 +1,4 @@
+Proposition 1. Let C be an instance predicted as a class c ∈ K by an ANN, the
+formula C ∧F ∧¬E has n0 +nL +2 (cid:80)nL−1
+l=1 nl
+binary variables. Also, the formula has n0 + 2nL + 5 (cid:80)nL−1

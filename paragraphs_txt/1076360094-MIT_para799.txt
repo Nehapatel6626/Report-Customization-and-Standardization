@@ -1,0 +1,1 @@
+In this case, there are two types of Synthesize functions used. The ﬁrst type Initial

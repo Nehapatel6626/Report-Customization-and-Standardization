@@ -1,0 +1,17 @@
+Abbreviation Full Form
+AI
+CNN
+RNN
+LSTM
+GRU
+NLP
+CV
+GAN
+BLEU
+METEOR
+CIDEr
+ROUGE
+SPICE
+VLP
+MS COCO
+SLR

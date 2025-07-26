@@ -1,0 +1,9 @@
+Message Encryption
+Message authentication, digital signatures
+Secret key exchange/distribution
+Secure access (access control)
+e-commerce, e-government, e-auctions,         e-voting and other e-applications.
+Digital cash (Bitcoin)
+Blockchain (chain-of-custody)
+Support system security
+. . . and more

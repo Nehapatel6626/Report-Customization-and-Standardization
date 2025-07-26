@@ -1,0 +1,1 @@
+convergence.  The  benefit of using  a  smaller  batch  size  is the increased  speed  of the

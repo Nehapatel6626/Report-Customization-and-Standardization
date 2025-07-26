@@ -1,0 +1,1 @@
+Data measured: gaz/liquid flow rates through MFC, furnace temperature zone-wise, pressure

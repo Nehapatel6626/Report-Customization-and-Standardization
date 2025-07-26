@@ -1,0 +1,7 @@
+Transformers generate the words of the caption all at once,
+while model-based RNN still produces the caption word by
+word (see Fig. 10). In the model on the left, which is a CNN-
+RNN-based model, the caption words are produced one by one
+[51]. On the other hand, the model on the right demonstrates
+the transformer’s ability to generate a full text with all words
+simultaneously [111].

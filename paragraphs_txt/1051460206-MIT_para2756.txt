@@ -1,0 +1,3 @@
+Chen,  L.-C.,  Papandreou,  G.,  Kokkinos,  I.,  Murphy,  K.  & Yuille,  A.  L.  DeepLab:
+Semantic  Image  Segmentation  with  Deep  Convolutional Nets,  Atrous  Convolution,  and
+Fully  Connected  CRFs.  (2016).  doi:10.1 109/TPAMI.2017.2699184

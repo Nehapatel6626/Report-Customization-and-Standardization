@@ -1,0 +1,3 @@
+Although TSP involves a straightforward, single-thread
+planning process, MP still provides notable enhance-
+ments. Again, see Appendix D for details.

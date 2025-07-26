@@ -1,0 +1,11 @@
+Diagnoses: Common-Sense Constraints and Isolated
+Processing Syndrome Current LLM systems require ex-
+plicit speciﬁcation of real-world constraints that humans
+consider common sense, highlighting a limitation in their
+planning capabilities. Furthermore, we identiﬁed what
+we term isolated processing syndrome, where LLMs han-
+dle sub-tasks independently without maintaining awareness
+of overall constraints. This syndrome manifests itself in
+two critical ways: the system either misses obvious opti-
+mizations or proposes solutions that violate the stated con-
+straints, leading to an infeasible or suboptimal plan.

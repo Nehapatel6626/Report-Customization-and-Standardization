@@ -1,0 +1,5 @@
+18. Li, Y., Gu, C., Dullien, T., Vinyals, O., Kohli, P.: Graph Matching Networks for
+Learning the Similarity of Graph Structured Objects. In: Chaudhuri, K., Salakhut-
+dinov, R. (eds.) Proceedings of the 36th International Conference on Machine
+Learning. Proceedings of Machine Learning Research, vol. 97, pp. 3835–3845.
+PMLR (Jun 2019)

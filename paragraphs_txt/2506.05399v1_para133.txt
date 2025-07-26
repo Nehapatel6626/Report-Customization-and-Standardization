@@ -1,0 +1,11 @@
+The creation of image captions or descriptions can be ap-
+proached in various ways. Common architectures such as CNN,
+RNN, and LSTM are often used to generate image captions. A
+convolutional neural network (CNN), an artificial intelligence
+(AI) network, has been utilized in many fields, including pattern
+recognition and natural language processing. Artificial neural
+networks (ANNs) are mathematical models with layers typi-
+cally consisting of an input layer, an output layer, and one or
+more hidden layers. If x represents the input and f is the ac-
+tivation function, mathematically, a neuron can be represented
+as

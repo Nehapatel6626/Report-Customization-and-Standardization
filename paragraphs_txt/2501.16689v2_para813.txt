@@ -1,0 +1,4 @@
+Protocol: cooking_handoff()
+Message: (task, duration, reqs.)
+Protocol: pickup_handoff()
+Message: (location, time, passenger)

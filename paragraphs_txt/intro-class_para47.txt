@@ -1,0 +1,15 @@
+Turing test (1950)
+Requires:
+Natural language
+Knowledge representation
+automated reasoning
+machine learning
+(vision, robotics.) for full test
+Thinking humanly:
+Introspection, the general problem solver (Newell and Simon 1961)
+Cognitive sciences
+Thinking rationally:
+Logic
+Problems: how to represent and reason in a domain
+Acting rationally:
+Agents: Perceive and act

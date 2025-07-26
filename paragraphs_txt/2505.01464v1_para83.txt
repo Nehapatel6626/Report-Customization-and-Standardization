@@ -1,0 +1,2 @@
+• lim supn→∞
+• G := encode(Ξn) ∈ Rd (Non-Symbolic Latent Attractor Signature – Identity Glyph)

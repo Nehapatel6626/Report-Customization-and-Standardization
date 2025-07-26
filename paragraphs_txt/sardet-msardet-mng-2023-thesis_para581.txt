@@ -1,0 +1,1 @@
+1. Draw the systems base case: analysis of the current situation.

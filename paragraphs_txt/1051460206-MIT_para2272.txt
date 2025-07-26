@@ -1,0 +1,1 @@
+Step  2:  Use the AutoScope's  algorithms to automatically  calculate  particle counts

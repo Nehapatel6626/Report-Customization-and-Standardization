@@ -1,0 +1,1 @@
+Figure 4-8.  We  manually labeled particles to train the CNN  by preparing slides that included

@@ -1,0 +1,1 @@
+are acquired by a PLC (Programmable Logic Controller), then, at the end of the run, those

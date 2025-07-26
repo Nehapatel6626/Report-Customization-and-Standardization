@@ -1,0 +1,3 @@
+22.  Shuangbao Paul Wang and Paul A. Mullin. Trustworthy artificial intelligence for cyber threat analysis. 
+In Kohei Arai, editor, Intelligent Systems and Applications, pages 493–504. Springer Lecture Notes, 
+2022.

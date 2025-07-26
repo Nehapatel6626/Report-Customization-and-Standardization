@@ -1,0 +1,12 @@
+Example: Taxi driver
+Simple reflex
+If car-in-front-is-breaking then initiate-breaking
+Agents that keep track of the world
+If car-in-front-is-breaking and on fwy then initiate-breaking
+needs internal state
+goal-based
+If car-in-front-is-breaking and needs to get to hospital then go to adjacent lane and plan
+search and planning
+utility-based
+If car-in-front-is-breaking and on fwy and  needs to get to hospital alive then search of a way to get to the hospital that will make your passengers happy.
+Needs utility function that map a state to a real function (am I happy?)

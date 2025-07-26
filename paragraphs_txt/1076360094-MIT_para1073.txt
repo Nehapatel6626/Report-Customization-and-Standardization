@@ -1,0 +1,9 @@
+Figure 6-2: Active Defender Hierarchical Decision Algorithm: A PDF is ﬁrst sent
+to the PDFRate classiﬁer (C1). Based on the output of PDFrate, p1, a decision is
+made whether to return a result or send the ﬁle to the Cuckoo classiﬁer (C2).
+If
+the ﬁle is sent to the Cuckoo classiﬁer, the results from PDFRate (p1), and Cuckoo
+(p2) are sent to the secondary classiﬁer C4 and a decision is made as to whether to
+return a result or sent the ﬁle to VirusTotal (C3). If the ﬁle is sent to the VirusTotal
+classiﬁer, classiﬁcation scores from the PDFRate (p1), Cuckoo (p2), and VirusTotal
+(p3) classiﬁers are sent to the C5 secondary classiﬁer and a ﬁnal decision is made.

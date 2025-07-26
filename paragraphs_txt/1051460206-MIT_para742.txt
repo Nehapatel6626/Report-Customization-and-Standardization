@@ -1,0 +1,1 @@
+The  digital  sampling of images  can  also  limit the  end-to-end resolution  of a  system.  The

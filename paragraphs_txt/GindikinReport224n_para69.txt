@@ -1,0 +1,1 @@
+Each path is assigned the probability using our language model. We use the usual Markov conditional independence assumption, thus given a path (w1,w2,…,wn) its probability is given by

@@ -1,0 +1,5 @@
+Parameter scaling effects Comparing small and large versions within model families
+reveals inconsistent scaling benefits. While Mistral 123B (𝑚𝑑 = 1.036) significantly
+outperforms Mistral 7B (𝑚𝑑 = 3.487), Qwen2.5 7B (𝑚𝑑 = 0.817) shows better alignment
+than its larger counterpart Qwen2.5 72B (𝑚𝑑 = 1.143). It suggests that parameter count
+alone does not guarantee improved cultural representation.

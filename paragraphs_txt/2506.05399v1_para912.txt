@@ -1,0 +1,3 @@
+[93] J. Chen, H. Zhuge, A news image captioning approach based on multi-
+modal pointer-generator network, Concurrency and Computation: Prac-
+tice and Experience (2019) e5721.

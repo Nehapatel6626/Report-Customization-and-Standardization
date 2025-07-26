@@ -1,0 +1,3 @@
+12. Hamrock, J., Lyda, R.: Using entropy analysis to find encrypted and packed mal-
+ware. IEEE Security & Privacy 5(02), 40–45 (mar 2007). https://doi.org/10.
+1109/MSP.2007.48

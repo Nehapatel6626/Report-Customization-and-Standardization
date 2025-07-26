@@ -1,0 +1,5 @@
+Figure 8-1: Splitting Experimental Data.
+In the following experiment the data is
+split into data sets D1 and D2. D1 is used to initialize the decision system. D2
+represents data received by the system after it is deployed. D2 is split into subsets
+qi, representing the ﬁles received in each successive stage.

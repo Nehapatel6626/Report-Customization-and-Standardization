@@ -1,0 +1,1 @@
+– C5 uses the outputs of PDFRate (C1), Cuckoo (C2), and Virus Total (C3) as

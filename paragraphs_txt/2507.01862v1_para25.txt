@@ -1,0 +1,1 @@
+2.  Seamless Integration: Developers can parse the LLM’s output tags and the chain-of-thought textual segments

@@ -1,0 +1,4 @@
+agent coordination. Unlike previous static collaboration
+frameworks, MACI facilitates real-time constraint resolu-
+tion and dynamic replanning, signiﬁcantly advancing adap-
+tive computational reasoning.

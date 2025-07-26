@@ -1,0 +1,2 @@
+Figure 6-2: Learning curves for training and testing for the carrier vs. noncarrier
+extractor

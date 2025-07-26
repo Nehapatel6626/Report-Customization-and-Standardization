@@ -1,0 +1,1 @@
+I also compared the performances of RCNN and SVM. RCNN performed worse

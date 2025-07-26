@@ -1,0 +1,18 @@
+This thesis presents an in-depth investigation on characterization of optical fiber preform
+core manufacturing and the identification of underlying trends in measured production data.
+While walking through the different operations involved in the process, we explained the chal-
+lenges associated with insuring refractive index profile precision and glass purity. Starting
+with unsupervised learning, process by process, we applied linear and non linear dimensional-
+ity reduction algorithms (PCA and t-sne) to features matrices created from time series data
+and have been able to connect data clusters with context information like machines or month
+of the year. Then considering the core fabrication process as a whole, we studied the propa-
+gation of trends in the data sets up to quality measurements using Dice’s statistic to gauge
+similarities between samples sets. Finally, we developed some data-driven regression models
+in order to predict the refractive index measured at the end using data from all processes.
+As a result, Kernel algorithms performed the best and almost as well on raw statistics from
+all processes as on encoded information about machine sequences and dates. This super-
+vised approach demonstrated some great potential for the development of prediction tools
+which could help design the optimized production line. An underlying objective is to support
+Sterlite Technologies Limited in using data-driven approach applied to process control for its
+plant in Waluj and Shendra starting by implementing good practices for variables measure-
+ment, logging and tracking.

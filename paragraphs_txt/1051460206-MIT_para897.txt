@@ -1,0 +1,1 @@
+we perform rotations,  mirrors and translations,  with the  magnitude  of these transformations

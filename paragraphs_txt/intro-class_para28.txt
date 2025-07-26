@@ -1,0 +1,2 @@
+Isn't there a solid definition of intelligence that doesn't depend on relating it to human intelligence? 
+Not yet. The problem is that we cannot yet characterize in general what kinds of computational procedures we want to call intelligent. We understand some of the mechanisms of intelligence and not others.

@@ -1,0 +1,6 @@
+Less experienced students (most women) quickly lose confidence
+inability to gauge own progress in relation to peers
+Students learn little from each other
+fear of being seen as stupid or not belonging
+Students come to believe that learning in CS should be private, individual 
+senior projects courses seen as burdensome; students end up “dividing and conquering”

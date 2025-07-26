@@ -1,0 +1,2 @@
+Analysis of deep-learning image classifiers can show the 
+most important part of the image for different predictions with different levels of confidence; however, image fragments (which humans understand) are not the features the algorithm uses to make the predictions.

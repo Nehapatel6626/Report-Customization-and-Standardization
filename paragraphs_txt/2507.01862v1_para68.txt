@@ -1,0 +1,3 @@
+Although we focus on textual chat, the same approach can extend to voice-based interfaces or mixed interactions 
+where  users  toggle  between  speech  and  minimal  GUIs.  Each  “action”  still  needs  to  be  recognized,  tracked,  and 
+potentially explained in a chain-of-thought if the developer requires full transparency.

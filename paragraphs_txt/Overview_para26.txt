@@ -1,0 +1,1 @@
+Primarily intended for highly motivated students who are interested in applying pattern recognition, machine learning and deep learning techniques to a practical problem of tremendous importance.

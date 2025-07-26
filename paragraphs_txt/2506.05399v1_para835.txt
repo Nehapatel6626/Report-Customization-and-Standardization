@@ -1,0 +1,4 @@
+[32] H. Sharma, D. Padha, A comprehensive survey on image caption-
+ing: from handcrafted to deep learning-based techniques, a taxonomy
+and open research issues, Artificial Intelligence Review 56 (11) (2023)
+13619–13661.

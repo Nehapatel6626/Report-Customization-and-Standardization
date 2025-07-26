@@ -1,0 +1,14 @@
+The study by [110] introduced an improved architecture for
+image captioning by incorporating a unique memory mecha-
+nism into a Transformer-based framework, addressing the chal-
+lenges of maintaining long-range relationships and contextual
+coherence in traditional image captioning algorithms. The au-
+thors proposed the Meshed-Memory Transformer (MMT), which
+integrates a memory module to improve the model’s capacity to
+retain and utilize data in both temporal and spatial dimensions.
+This memory-enhancing mechanism and a typical Transformer
+model helped the MMT system capture complex links between
+generated text and visual elements, leading to more detailed and
+cohesive captions. The research demonstrated that MMT sig-
+nificantly improved captioning performance in various bench-
+mark datasets.

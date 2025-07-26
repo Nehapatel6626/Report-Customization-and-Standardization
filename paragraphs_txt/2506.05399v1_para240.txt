@@ -1,0 +1,8 @@
+The human visual system inspires the mechanism of atten-
+tion in image processing. Like our eyes do not take in every de-
+tail of an image at once, the attention mechanism also focuses
+on the key elements before moving on to the next. This ap-
+proach is believed to enhance image captioning by eliminating
+irrelevant information. By mimicking the cognitive function of
+human vision, this mechanism can also reduce computational
+load and improve training accuracy [38].

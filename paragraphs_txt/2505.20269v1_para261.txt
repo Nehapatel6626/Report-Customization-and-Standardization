@@ -1,0 +1,4 @@
+[10] Katz, G., Huang, D.A., Ibeling, D., Julian, K., Lazarus, C., Lim, R., Shah,
+P., Thakoor, S., Wu, H., Zeljić, A., Dill, D.L., Kochenderfer, M.J., Barrett,
+C.: The marabou framework for verification and analysis of deep neural
+networks. In: 31st CAV (2019)

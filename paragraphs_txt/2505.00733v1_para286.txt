@@ -1,0 +1,1 @@
+Listing 2. TypeQL rule to infer whether a component is in ‘configuration error’

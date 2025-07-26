@@ -1,0 +1,7 @@
+Figure 3.6: Kendall’s correlation coeffi-
+cients matrix between the time series vari-
+ables SiCl4 Liquid Temperature, GeCl4
+Liquid Temperature, SiCl4 Hotbox Tem-
+perature, GeCl4 Hotbox Temperature,
+GeCl4 Hot Finger Temperature and SiCl4
+Hot Finger Temperature.

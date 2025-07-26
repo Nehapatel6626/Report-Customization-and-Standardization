@@ -1,0 +1,4 @@
+[10] S. Hafeez, A. R. Khan, M. Al-Quraan, L. Mohjazi, A. Zoha, M. A.
+Imran, and Y. Sun, ”Blockchain-assisted UAV communication systems:
+A comprehensive survey,” IEEE Open J. Veh. Technol., vol. 4, pp. 558-
+580, 2023.

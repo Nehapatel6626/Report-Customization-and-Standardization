@@ -1,0 +1,7 @@
+Deep Blue defeated the reigning world chess champion Garry Kasparov in 1997 
+Proved a mathematical conjecture (Robbins conjecture) unsolved for decades 
+No hands across America (driving autonomously 98% of the time from Pittsburgh to San Diego) 
+During the 1991 Gulf War, US forces deployed an AI logistics planning and scheduling program that involved up to 50,000 vehicles, cargo, and people 
+NASA's on-board autonomous planning program controlled the scheduling of operations for a spacecraft 
+Proverb solves crossword puzzles better than most humans
+DARPA grand challenge 2003-2005, Robocup

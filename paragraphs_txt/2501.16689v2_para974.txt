@@ -1,0 +1,28 @@
+Sarah
+Start turkey
+13:00
+Sarah
+Start side dishes
+14:00
+Emily
+Land at airport
+14:30
+Michael
+15:00 Arrive from NY
+James
+Land at airport
+16:00
+Michael
+16:30
+Leave for Grandma
+James
+16:30 Get rental car
+James
+Pick up Emily
+17:00
+17:00
+Michael
+Pick up Grandma
+17:30 Return home with Grandma Michael
+18:00 Arrive with Emily
+18:00 Dinner starts

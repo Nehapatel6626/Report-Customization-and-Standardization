@@ -1,0 +1,2 @@
+image descriptions, in: Proceedings of the IEEE conference on computer
+vision and pattern recognition, 2015, pp. 3128–3137.

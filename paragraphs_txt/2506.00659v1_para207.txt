@@ -1,0 +1,4 @@
+1. Aghakhani, H., Gritti, F., Mecca, F., Lindorfer, M., Ortolani, S., Balzarotti, D.,
+Vigna, G., Kruegel, C.: When Malware is Packin’ Heat; Limits of Machine Learning
+Classifiers Based on Static Analysis Features. In: Proceedings of Symposium on
+Network and Distributed System Security (NDSS) (Feb 2020)

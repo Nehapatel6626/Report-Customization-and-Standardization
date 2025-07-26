@@ -1,0 +1,1 @@
+image  in a batch  must have the same  dimensions.  This enables  4-D  matrix  multiplication,

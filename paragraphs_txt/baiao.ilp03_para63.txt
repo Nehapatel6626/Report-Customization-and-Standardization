@@ -1,0 +1,1 @@
+FORTE assumes that the initial domain theory is divided into two files: the “fundamental domain theory”(FDT) file (with predicates that are assumed correct) and the “initial theory to be revised”(THY) file (with predicates subject to the revision process).

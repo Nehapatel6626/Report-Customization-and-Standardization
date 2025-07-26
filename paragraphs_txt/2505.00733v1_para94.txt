@@ -1,0 +1,9 @@
+limitations in reusability and practical applicability in robotics. The authors of MORPH (Braberman et al., 2017)
+note that no complete system has been developed, and they have not demonstrated its feasibility. While the
+approach proposed by C´amara et al. (2020) provides the most complete solution to TACA in the literature,
+it also faces reusability limitations by relying on multiple distinct domain-specific language (DSL) models
+and requiring task-specific implementations for model transformations. To address these limitations, this
+work proposes capturing all the knowledge required for adaptation logic in a single knowledge model.
+This approach requires only one model–conforming to the proposed knowledge model–to be designed for
+each application. Additionally, an open-source reference implementation of ROSA is provided, enabling
+researchers to reuse, extend, and build upon the proposed solution.

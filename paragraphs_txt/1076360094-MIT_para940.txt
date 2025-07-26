@@ -1,0 +1,1 @@
+Secondary classiﬁers are designed taking in output score from the primary classiﬁers

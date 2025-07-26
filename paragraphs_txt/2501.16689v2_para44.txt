@@ -1,0 +1,4 @@
+MACI bridges this gap by integrating a meta-planning
+module with independent agents that validate constraints,
+enabling robust and adaptable solutions in dynamic real-
+world scenarios. The meta-planner constructs task-speciﬁc

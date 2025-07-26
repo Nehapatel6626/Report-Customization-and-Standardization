@@ -1,0 +1,10 @@
+Common Goals:
+Heterogeneity
+Robustness
+Availability
+Transparency
+Concurrency
+Efficiency
+Scalability
+Security
+Openness

@@ -1,0 +1,1 @@
+diagramed  in Figure 5-1.  Broadly, the FCN  works  through  convolutional  encoding  layers that

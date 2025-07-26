@@ -1,0 +1,4 @@
+4.2 hypothesis testing
+  significant association – chi square test
+ significant relation – student T – test
+ significant difference – f test

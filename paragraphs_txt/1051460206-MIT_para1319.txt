@@ -1,0 +1,1 @@
+accuracy  of the  CNN  converged  to 89.3%.  Since the the training  accuracy  and the validation

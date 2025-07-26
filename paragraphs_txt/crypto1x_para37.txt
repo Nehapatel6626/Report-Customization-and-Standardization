@@ -1,0 +1,4 @@
+Ceasar’s cipher is a mono-alphabetic substitution: it uses the permutation of one alphabet.
+Vigenere’s poly-alphabetic cipher
+Multiple alphabetic substitutions are used
+Example: Keyword RELATIONS

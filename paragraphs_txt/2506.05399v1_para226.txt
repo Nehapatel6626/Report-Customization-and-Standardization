@@ -1,0 +1,14 @@
+In [46], the usefulness of the linear projection of queries,
+keys, and values multiple times was demonstrated using dis-
+tinct learned linear projections. The queries, keys, and values
+were projected to dimensions dq, dk, and dv rather than using
+a single attention function with model-dimensional keys, val-
+ues, and queries. The attention function was applied to these
+projected versions simultaneously, resulting in dv-dimensional
+output values. The model could use multi-head attention to data
+from multiple representation subspaces at different locations.
+Their study used eight parallel attention layers, or heads, with
+the formula dk = dv = dmodel/h = 64 applied to each. Despite
+using multiple heads, the total computing cost was comparable
+to that of single-head attention with full dimensionality due to
+the lower dimension of each head as shown in (8),

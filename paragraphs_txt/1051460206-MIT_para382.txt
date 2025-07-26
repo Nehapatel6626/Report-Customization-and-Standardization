@@ -1,0 +1,3 @@
+within  CNNs,  including  support vector machine  (SVM)  loss  and  least  square errors  (L2  loss).  In
+this work,  we  obtain the overall  loss  (Li) by  combining  the cross  entropy data  loss (Lentropy)
+with a regularization  loss  (Lreguiarization).

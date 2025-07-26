@@ -1,0 +1,12 @@
+Self-attention can be formally explained through the scaled-
+dot product mechanism. It involves a multiplicative attention
+operator that works with three sets of vectors: a set of query
+vectors Q, a set of key vectors K, and a set of value vectors
+V. Each set consists of nk element-strong vectors created using
+linear projections of an identical input set of components. The
+key and query vectors are used to compute the similarity distri-
+bution, which is then used to calculate a weighted sum of the
+value vectors. This process helps to capture the relationships
+and dependencies between different elements in the set. [25]
+has further contributed to understanding self-attention and its
+applications.

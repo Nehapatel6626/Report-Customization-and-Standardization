@@ -1,0 +1,3 @@
+Gherardi and Hochgeschwender (2015) proposed RRA as a model-based approach for structural,
+parameter, and connection adaptation in robotic systems. Their method employs six distinct models
+to capture all the knowledge required for adaptation. These models represent the robot’s architecture and

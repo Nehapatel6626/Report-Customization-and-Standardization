@@ -1,0 +1,8 @@
+[87] M. F. Khan, S. Sadiq-Ur-Rahman, M. S. Islam, Improved bengali im-
+age captioning via deep convolutional neural network based encoder-
+decoder model, in: Proceedings of International Joint Conference on
+Advances in Computational Intelligence, Springer, 2021, pp. 217–229.
+[88] M. Humaira, P. Shimul, M. A. R. K. Jim, A. S. Ami, F. M. Shah, A
+hybridized deep learning method for bengali image captioning, Interna-
+tional Journal of Advanced Computer Science and Applications 12 (2)
+(2021).

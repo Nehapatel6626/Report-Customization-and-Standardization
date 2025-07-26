@@ -1,0 +1,5 @@
+The choice of base-2 entropy (H2(D)) aligns with stan-
+dard privacy analysis in information theory, where entropy is
+conventionally measured in bits. Additionally, it is consistent
+with the FL literature, where privacy metrics involving MI
+calculations commonly use base-2 logarithms for assessment.

@@ -1,0 +1,1 @@
+characters, such as semicolons, pipes, tabs, and single or double quotes [27].

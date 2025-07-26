@@ -1,0 +1,1 @@
+the overall average silhouette coefficient for each value of k. Thus, the optimal k is the

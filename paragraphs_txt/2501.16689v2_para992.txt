@@ -1,0 +1,6 @@
+EST) rather than arrival time (1:00 PM EST). An early in-
+formation agent could enable replanning three hours sooner
+by monitoring ﬂight departures. To remedy this oversight,
+the meta-planner adds an early information agent speciﬁca-
+tion, detailed in Table 15. DeepSeek was aware of this alert
+in a timely manner, but Claude was not.

@@ -1,0 +1,8 @@
+The relationship between satisfiability and entailment is a fundamental
+aspect of logic. It is widely known that, for all formulas F and G, it holds that
+F |= G iff F ∧¬G is unsatisfiable. For instance, (x1 = 2∧x2 ≥ 1)∧¬((2.5x1+x2 ≥
+5) ∧ (x1 = 1 ∨ x1 = 2)) has no satisfying assignment since an assignment that
+satisfies (x1 = 2 ∧ x2 ≥ 1) also satisfies (2.5x1 + x2 ≥ 5) ∧ (x1 = 1 ∨ x1 = 2) and,
+therefore, does not satisfy ¬((2.5x1 + x2 ≥ 5) ∧ (x1 = 1 ∨ x1 = 2)). Since our
+approach builds upon the concept of logical consequence, we can leverage this
+connection in the context of computing explanations for ANNs.

@@ -1,0 +1,1 @@
+means that, for the corresponding row variable, clusters have been observed to be correlated

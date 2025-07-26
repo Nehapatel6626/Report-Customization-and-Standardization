@@ -1,0 +1,10 @@
+The survey [37] explores the challenges and advancements
+in image captioning. The frameworks traditionally relied on a
+two-step pipeline, where visual features were extracted before
+being processed into natural language descriptions. However,
+with the emergence of sequential deep learning models, such as
+Recurrent Neural Networks (RNNs), Long Short-Term Mem-
+ory (LSTM) networks, and Gated Recurrent Units (GRUs), the
+efficiency and accuracy of caption generation have improved
+significantly. The paper provides a review of the modeling ar-
+chitectures used, and highlights key research challenges.

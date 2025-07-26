@@ -1,0 +1,1 @@
+Find:	a revised theory RT expressed in L that is a minimal modification of T such that RT is correct on the instances of both P and N

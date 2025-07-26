@@ -1,0 +1,5 @@
+Input, forget, memory, output gates, and hidden state are
+represented by variables it, ft, ct, ot, and ht, respectively. T is a
+mapping with the formula fs,t : Rs → Rt. As a result, R(D+m+n)
+to Rn is mapped by TD+m+n,n. ˆz ∈ RD stands for the context vec-
+tor that captures the visual data of a particular area in the input

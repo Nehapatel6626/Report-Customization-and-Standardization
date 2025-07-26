@@ -1,0 +1,6 @@
+Final answer
+An encryption scheme is secure if no adversary can determine any meaningful information about the plaintext from the ciphertext.
+What is considered to be a break?
+What is assumed to be the power of the adversary?
+A first definition of security:
+A cryptographic scheme for a given task is secure if no adversary of a specified power (e.g., an “efficient adversary”)  can achieve a specific break.

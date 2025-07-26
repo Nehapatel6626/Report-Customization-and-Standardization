@@ -1,0 +1,10 @@
+Current multi-agent systems (MAS) primarily function as
+integration platforms for coordinating multiple LLMs. No-
+table frameworks include Microsoft’s AutoGen (Wu et al.,
+2024), the Multi-LLM Agent Debate Framework (Du et al.,
+2023; Chang, 2023; 2024a;b), LangGraph and CrewAI
+(LangChain AI, 2024; Moura, 2024), XAgent (Xia et al.,
+2023), and CAMEL (Li et al., 2023). While these frame-
+works excel in agent coordination, they prioritize task dis-
+tribution over the comprehensive constraint management
+necessary for complex planning.

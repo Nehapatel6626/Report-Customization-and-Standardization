@@ -1,0 +1,1 @@
+distance between  adjacent  pixels  on the  image  sensor represent  the sampling  interval.  The

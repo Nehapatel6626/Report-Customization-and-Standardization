@@ -1,0 +1,3 @@
+10. Gulati, A., Qin, J., Chiu, C.C., Parmar, N., Zhang, Y., Yu, J., Han, W., Wang,
+S., Zhang, Z., Wu, Y., Pang, R.: Conformer: Convolution-augmented Trans-
+former for Speech Recognition. In: Interspeech 2020. pp. 5036–5040. ISCA (Oct

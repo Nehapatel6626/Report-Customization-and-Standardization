@@ -1,0 +1,3 @@
+• C+ (Convergence): Identity forms when recursive updates converge toward a stable
+attractor manifold Z ⊆ Re \ Σ. This convergence may involve transient instability but
+stabilizes over time.

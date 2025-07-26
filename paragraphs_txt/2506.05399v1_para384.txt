@@ -1,0 +1,1 @@
+Figure 10: Image captioning models: (a) CNN-RNN based model [51], (b) transformer-based model [111].

@@ -1,0 +1,3 @@
+In Sections 4 and 5, we show how MACI’s meta-planner
+effectively revises plans by debugging errors and adapting
+to dynamic constraints.

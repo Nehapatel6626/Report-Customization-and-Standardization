@@ -1,0 +1,11 @@
+Common Goals:
+Heterogeneity – can the system handle a large variety of types of PCs and devices?
+Robustness – is the system resilient to host crashes and failures, and to the network dropping messages? 
+Availability – are data+services always there for clients?
+Transparency – can the system hide its internal workings from the users?
+Concurrency – can the server handle multiple clients simultaneously?
+Efficiency – is the service fast enough? Does it utilize 100% of all resources?
+Scalability – can it handle 100 million nodes without degrading service? (nodes=clients and/or servers) How about 6 B? More?
+Security – can the system withstand hacker attacks?
+Openness – is the system extensible?
+(Also: consistency, CAP, partition-tolerance, ACID, BASE, and others … )

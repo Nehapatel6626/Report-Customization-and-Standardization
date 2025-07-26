@@ -1,0 +1,1 @@
+Figure 2.20: The CSV injection attack used to deploy the BazarBackdoor malware. The

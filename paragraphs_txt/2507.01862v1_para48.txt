@@ -1,0 +1,3 @@
+<isCustomerConfirmed>no</isCustomerConfirmed> 
+ <chainOfThought>User  is  naming  ABCCompany,  no  current  customer  context  is  set,  so  we  treat  it  as  a  new      
+search.</chainOfThought>

@@ -1,0 +1,6 @@
+Next, we present the experimental setup, describing technologies, datasets,
+the
+the
+results providing a comparative analysis of the running times for building
+logical constraints and computing explanations. Finally, we highlight specific
+improvements observed in our proposal.

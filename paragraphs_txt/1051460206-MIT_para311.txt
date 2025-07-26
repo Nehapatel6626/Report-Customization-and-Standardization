@@ -1,0 +1,1 @@
+in the previous  hidden  layer).  This produces  an output vector  with a  numerical  score  for each

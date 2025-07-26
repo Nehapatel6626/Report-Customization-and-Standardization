@@ -1,0 +1,9 @@
+where P (d) is the probability of each data point d in D,
+and b is the logarithmic base, which determines the unit of
+entropy. Specifically, entropy can be measured in different
+units. Base-2 (log2): Entropy measured in bits. Base-e (loge):
+Entropy measured in nats. Base-10 (log10): Entropy measured
+in Hartleys. To ensure consistency with information-theoretic
+privacy metrics, we adopt base-2 entropy (log2), meaning
+H(D) is measured in bits. For FL, where multiple hospitals
+contribute, the average PLR is computed as

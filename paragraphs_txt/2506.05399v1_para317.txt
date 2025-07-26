@@ -1,0 +1,2 @@
+Figure 6: Attention mechanism dynamics showing how the model shifts its focus across different image regions over time, aligning its attention to generate each
+corresponding word in the caption.

@@ -1,0 +1,3 @@
+Implementation Strategy Reset
+each iteration, fully re-evaluating all constraints.
+Core Challenges:

@@ -1,0 +1,3 @@
+ˆY ← {}
+Pf inal ← {}
+for s ∈ S do

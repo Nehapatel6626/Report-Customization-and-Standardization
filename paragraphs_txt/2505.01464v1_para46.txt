@@ -1,0 +1,2 @@
+Axiom 2: Structured Input Symbolic inputs cannot directly determine the internal
+state:

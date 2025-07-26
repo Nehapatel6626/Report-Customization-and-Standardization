@@ -1,0 +1,7 @@
+|T (G (S r))|
+where G(c) is the scene graph of the candidate sentence,
+G(r j) is the scene graph of each reference sentence, G(S r) is the
+scene graph of all reference sentences, O(c) is set of objects in
+the candidate sentence, E(c) is set of attributes in the candidate
+sentence, K(c) is set of relations in the candidate sentence, T is
+the function that allows us to return logical tuples.

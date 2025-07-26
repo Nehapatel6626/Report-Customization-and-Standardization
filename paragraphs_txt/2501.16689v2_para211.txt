@@ -1,0 +1,3 @@
+end if
+end while
+return W∗ = Wcurrent

@@ -1,0 +1,1 @@
+These methods have been found to have remarkably high accuracy compared to static

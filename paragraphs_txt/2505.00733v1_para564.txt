@@ -1,0 +1,3 @@
+Silva, G. R., P¨aßler, J., Zwanepol, J., Alberts, E., Tarifa, S. L. T., Gerostathopoulos, I., et al. (2023).
+SUAVE: An exemplar for self-adaptive underwater vehicles. In Proc. 18th IEEE/ACM Symposium on
+Software Engineering for Adaptive and Self-Managing Systems (SEAMS 2023) (IEEE), 181–187

@@ -1,0 +1,7 @@
+The key parsing decision: How do we ‘attach’ various kinds of constituents – PPs, adverbial or participial phrases, coordinations, etc.
+Prepositional phrase attachment:
+I saw the man with a telescope
+What does with a telescope modify?  
+The verb saw?
+The noun man?
+Is the problem ‘AI complete’? Yes, but …

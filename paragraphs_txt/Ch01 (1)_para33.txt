@@ -1,0 +1,10 @@
+Here are some example applications
+Computer vision: face recognition from a large set
+Robotics: autonomous (mostly) automobile
+Natural language processing: simple machine translation
+Expert systems: medical diagnosis in a narrow domain
+Spoken language systems: ~1000 word continuous speech
+Planning and scheduling: Hubble Telescope experiments
+Learning: text categorization into ~1000 topics
+User modeling: Bayesian reasoning in Windows help (the infamous paper clip…)
+Games: Grand Master level in chess (world champion), checkers, etc.

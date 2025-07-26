@@ -1,0 +1,7 @@
+In formal systems, consistency proofs require a “higher-
+order” system. Analogously, MACI provides a validation
+framework that operates as a higher-order metasystem for
+LLM output. By decoupling planning from validation,
+MACI mirrors the separation needed in formal systems,
+where validation is performed independently to avoid con-
+ﬂicts and errors.

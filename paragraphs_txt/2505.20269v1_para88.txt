@@ -1,0 +1,22 @@
+The encoding of ANNs used in [8] and originally proposed by Fischetti and Jo
+[5] uses implications to represent the behavior of the ReLU activation function.
+We encode an ANN with L + 1 layers as in Equations (3)-(5). In the following,
+we explain the notation. The encoding uses variables xl
+i and on with the same
+i and zl
+meaning as in the notation for ANNs. Auxiliary variables sl
+i control the
+behaviour of ReLU activations. Variable zl
+i is binary and if zl
+i is equal to 1, the
+ReLU output xl
+i is 0 and −sl
+i is equal to the linear part. Otherwise, the output
+i is equal to the linear part and sl
+xl
+s,i is the upper
+bound of variable sl
+x,i is the upper bound of variable xl
+i.
+Each variable x0
+i has also lower and upper bounds li, ui, respectively, defined by

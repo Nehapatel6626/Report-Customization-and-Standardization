@@ -1,0 +1,4 @@
+[8] O. S. Al-Kadi, Combined statistical and model based texture features
+for improved image classification, in: 4th IET International Conference
+on Advances in Medical, Signal and Information Processing-MEDSIP
+2008, IET, 2008, pp. 1–4.

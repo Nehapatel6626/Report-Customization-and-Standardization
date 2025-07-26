@@ -1,0 +1,1 @@
+standardization  and  PCA/whitening.  The  most common  data normalization  approach  is mean-

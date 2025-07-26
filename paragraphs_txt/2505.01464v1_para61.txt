@@ -1,0 +1,3 @@
+Axiom 6: Stochastic Stability The perturbation noise εn does not dominate the re-
+cursive dynamics. That is, the recursive structure f (An, sn) is contractive in expectation,
+and:

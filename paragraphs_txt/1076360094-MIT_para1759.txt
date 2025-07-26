@@ -1,0 +1,4 @@
+[36] Zacharias Tzermias, Giorgos Sykiotakis, Michalis Polychronakis, and Evange-
+los P Markatos. Combining static and dynamic analysis for the detection of
+malicious documents. In Proceedings of the Fourth European Workshop on Sys-
+tem Security, page 4. ACM, 2011.

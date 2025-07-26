@@ -1,0 +1,1 @@
+The model can achieve excellent results with larger corpus

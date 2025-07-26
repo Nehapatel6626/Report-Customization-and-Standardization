@@ -1,0 +1,16 @@
+The transformer consists of two main parts: an encoder and
+a decoder. Multi-head attention functions as parallel heads of
+self-attention. Self-attention is the mechanism used by trans-
+formers to incorporate the context of other relevant words into
+the processing of the current word. Another component is the
+fully connected feedforward network, consisting of two linear
+transformations consistent across positions but varying param-
+eters from layer to layer. The transformer adds a vector to each
+input embedding to help determine the position of each word;
+position embedding is a way of considering the order of words
+in an input sequence. The linear layer is a simple, fully con-
+nected neural network that transforms the vector produced by
+the decoder stack into a much larger vector known as a logit
+vector. SoftMax provides the probabilities. The cell with the
+highest probability is chosen, and the word associated with it is
+produced as the output [46].

@@ -1,0 +1,6 @@
+Post-validation examines the resulting state. The validation
+agent veriﬁes that all constraints remain satisﬁed after the
+change. Common sense agent reviews the new state for
+practical issues that formal checks might miss. Strategy
+agent conﬁrms the transition aligns with overall planning
+objectives.

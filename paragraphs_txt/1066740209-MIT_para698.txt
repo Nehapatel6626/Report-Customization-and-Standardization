@@ -1,0 +1,1 @@
+ever, when I tested removing sequences without tagging proteins and chromosomes,

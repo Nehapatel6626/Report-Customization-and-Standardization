@@ -1,0 +1,1 @@
+convolutional  block has 32  filters  and the second  convolutional  block has  64 filters.

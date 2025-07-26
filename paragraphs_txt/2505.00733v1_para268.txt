@@ -1,0 +1,7 @@
+Knowledge model and rules: To exemplify how the knowledge model is implemented, Listing 1 depicts
+how the functional-requirement relationship and the Action entity are defined with TypeQL
+(TypeDB’s query language). Line 1 defines the functional-requirement relationship, and lines 2-3
+define that it can relate elements that play the role of actions and required-functions. Lines 5-7 define
+the Action entity and that it has the attributes ‘action-name’ (its unique identifier) and ‘action-status’.
+Lines 8-9 define that it can play the action role in a functional-requirement relationship and the
+constrained role in a constraint relationship.

@@ -1,0 +1,1 @@
+the trailer from lines 31 to 33. The header simply describes the version of PDF used.

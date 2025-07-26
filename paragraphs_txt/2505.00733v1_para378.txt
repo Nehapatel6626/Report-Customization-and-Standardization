@@ -1,0 +1,4 @@
+Note that extending the solution to solve SUAVE’s extended version only required the inclusion of
+additional knowledge of the recharge action and the constraint to the search pipeline and inspect
+pipeline actions. This demonstrates that an existing application modeled with ROSA can easily be extended
+to solve additional adaptation scenarios.

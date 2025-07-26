@@ -1,0 +1,3 @@
+[111] M. Cornia, L. Baraldi, R. Cucchiara, Explaining transformer-based im-
+age captioning models: An empirical analysis, AI Communications
+35 (2) (2022) 111–129.

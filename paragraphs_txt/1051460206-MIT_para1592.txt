@@ -1,0 +1,1 @@
+manageable  dimensions  (like 480x480px).  The  reason  for this is that the GPU  has  a limited

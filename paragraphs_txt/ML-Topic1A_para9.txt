@@ -1,0 +1,8 @@
+Retail: Market basket analysis, Customer relationship management (CRM)
+Finance: Credit scoring, fraud detection
+Manufacturing: Optimization, troubleshooting
+Medicine: Medical diagnosis
+Telecommunications: Quality of service optimization
+Bioinformatics: Motifs, alignment
+Web mining: Search engines
+...

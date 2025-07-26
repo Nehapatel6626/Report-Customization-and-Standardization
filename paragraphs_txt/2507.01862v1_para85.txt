@@ -1,0 +1,2 @@
+4.  Brown, T., et al.: “Language Models are Few-Shot Learners.” Advances in Neural Information Processing Systems, 2020. 
+5.  Reynolds, L., & McDonell, K.: “Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm.” arXiv

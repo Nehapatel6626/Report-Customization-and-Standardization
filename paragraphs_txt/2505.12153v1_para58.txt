@@ -1,0 +1,2 @@
+where L(θi; Di) is the local loss function, η is the learning
+rate, and λ is the regularization term.

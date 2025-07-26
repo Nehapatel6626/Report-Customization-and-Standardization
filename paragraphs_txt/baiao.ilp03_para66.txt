@@ -1,0 +1,1 @@
+The predicate navigatesFromTo/3 from figure 5 defines if an operation navigates from one class X to another class Y (or vice-versa) in a path expression. Additionally, we had to create predicates isNotDerivedFragmented/1 and isNotVerticallyFragmented/1 due to the fact that negated literals (general logic programs) are not addressed by FORTE revision operators.

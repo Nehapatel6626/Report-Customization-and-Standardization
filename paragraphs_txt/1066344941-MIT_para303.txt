@@ -1,0 +1,4 @@
+automate
+Vision
+text-spotting
+​

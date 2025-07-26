@@ -1,0 +1,10 @@
+We evaluate the impact of the clustering approach on PackHero’s performance
+and scalability. To do this, we replicate the experiment from Section 4.2 without
+the clustering layer: PackHero evaluates similarity with all graphs in the DB
+and computes packer-specific thresholds instead of cluster-specific ones. Fig. 4
+illustrates the performance gap between PackHero with and without clustering.
+This gap is more pronounced for smaller training set sizes and narrows as the
+training set size increases. Without clustering, the unknown rate consistently
+drops to 0, as the unknown classification (explained in Section 3) depends on
+the similarity step involving clusters’ medoids. However, the absence of clustering
+increases False Positives. These results demonstrate that incorporating clustering

@@ -1,0 +1,1 @@
+Here we discuss several aspects of the special nature of spatial data and the means by which we represent and analyse spatial data. Spatial scale, temporal scale, measurement scale, and the modifiable areal unit problem will also come into play.

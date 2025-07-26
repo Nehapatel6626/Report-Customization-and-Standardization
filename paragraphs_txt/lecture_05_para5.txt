@@ -1,0 +1,3 @@
+FSTs allow us to take an input and deliver a structure based on it
+Or… take a structure and create a surface form
+Or take a structure and create another structure

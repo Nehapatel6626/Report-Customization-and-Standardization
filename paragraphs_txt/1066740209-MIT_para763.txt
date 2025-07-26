@@ -1,0 +1,1 @@
+means that annotating whether a number is a cohort size or not only requires reading

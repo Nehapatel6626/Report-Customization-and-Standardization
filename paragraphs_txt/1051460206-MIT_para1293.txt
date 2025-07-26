@@ -1,0 +1,1 @@
+VGG 16  ImageNet,  a variety of hyperparameters,  etc. From all  of these iterations,  we  chose this

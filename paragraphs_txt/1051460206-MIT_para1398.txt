@@ -1,0 +1,1 @@
+Within image  processing,  segmentation  is  important  since it allows  us to  localize  objects  of

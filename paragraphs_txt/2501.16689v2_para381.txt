@@ -1,0 +1,9 @@
+While the state space dimensions—Who, Where, When,
+What, and Why—are broad enough to cover diverse do-
+mains, additional customization may be required for unique
+applications. This section examines how MACI generalizes
+across domains like ﬁnancial planning, healthcare logistics,
+and supply chain optimization. The travel planning ex-
+ample is illustrative, emphasizing how MACI dynamically
+adapts state spaces and agents to domain-speciﬁc require-
+ments.

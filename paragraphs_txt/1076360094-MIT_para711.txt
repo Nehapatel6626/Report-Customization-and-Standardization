@@ -1,0 +1,4 @@
+Figure 2-7: KDE approximation of Probability Density for percent of Virus Total
+classiﬁers that classify a ﬁle as malicious. This plot shows the malicious variants in
+pink and benign variants in blue. The KDE plot was generated with a Gaussian
+kernel of width 0.1.

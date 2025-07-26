@@ -1,0 +1,5 @@
+Figure 2. ROSA’s knowledge model. Architectural knowledge is on the left. Adaptation heuristic
+knowledge in the center. Reconfiguration Plan knowledge on the right. The labels on the arrows represent
+which role an entity or relationship plays in a relationship. Instances of the entities, relationships, and
+attributes with purple font are created at runtime. Instances of the other entities, relationships, and attributes
+are defined at design time.

@@ -1,0 +1,1 @@
+sends them to a virtual machine for analysis. In the virtual machine, Cuckoo simu-

@@ -1,0 +1,9 @@
+of two subnetworks to generate captions. The language model
+is based on RNN-LSTM to encode linguistic sequences of dif-
+ferent lengths. At the same time, the image encoder is a fully
+convolutional network based on the Visual Geometry Group
+(VGG) that extracts image features as a fixed-length vector. A
+decoder model takes the fixed vectors from the previous models
+as input and makes the final prediction. It was suggested that
+this merged model could achieve excellent results for Arabic
+image captioning with a larger corpus.

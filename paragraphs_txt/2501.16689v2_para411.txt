@@ -1,0 +1,3 @@
+7. Constraint Validation Agent: Ensures that all constraints
+are satisﬁed and that proposed plans remain feasible.
+8. Plan Evaluation Agent: Assesses the effectiveness of

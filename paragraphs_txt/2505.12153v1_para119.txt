@@ -1,0 +1,10 @@
+(11)
+In this context, d(st, st−1) represents the change in patient
+state between consecutive time steps, while θ is a predefined
+threshold used to determine whether a significant state change
+has occurred. The indicator function I(d(st, st−1) > θ)
+evaluates whether a notable state change has taken place, and
+I(at ̸= at−1) checks whether the policy adjusted its decision
+accordingly. A higher adaptation metric, denoted as αadapt,
+indicates that the RL model is quickly adapting to new surgical
+scenarios, enhancing its robustness for real-world deployment.

@@ -1,0 +1,2 @@
+This paper introduced PackHero, a packer identifier that leverages a heuristic to
+extract a Call Graph (CG) representing the unpacking routine of a program. Us-

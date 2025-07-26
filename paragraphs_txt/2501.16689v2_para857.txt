@@ -1,0 +1,26 @@
+James
+1:00 PM
+James
+1:00-1:30 PM Luggage pickup
+James
+1:30-2:00 PM Rent car
+Sarah
+2:00 PM
+Start turkey
+James
+2:00-3:00 PM Drive home
+Emily
+2:30 PM
+3:00 PM
+Michael
+3:00-4:00 PM Drive to airport, pick up Emily Michael
+Michael
+4:00-5:00 PM Return home with Emily
+Michael
+5:00-5:30 PM Drive to Grandma’s
+Michael
+5:30-6:00 PM Return with Grandma
+Sarah
+4:00-6:00 PM Prepare side dishes
+All
+6:00 PM

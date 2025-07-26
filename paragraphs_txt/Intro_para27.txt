@@ -1,0 +1,11 @@
+Secure Programming 
+Least-privilege programming and impersonation 
+Worm anatomy 
+Malware frameworks
+OS security 
+Windows ACLs and security policies 
+Vista/Windows 7 security additions 
+SE Linux domain type enforcement policies 
+Mandatory access controls in SE Linux and perhaps other OS's 
+User identity 
+Database Security

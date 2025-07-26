@@ -1,0 +1,6 @@
+Table 3. The elements of the adaptation heuristic knowledge. Instances of the elements with purple font
+are created at runtime. Instances of the other elements are defined at design time. The ‘@key’ expression
+after an attribute indicates that the attribute is used as a unique identifier. E stands for entity and R stands
+for relationship.
+Name
+Measure

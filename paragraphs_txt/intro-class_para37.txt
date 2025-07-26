@@ -1,0 +1,7 @@
+Human-like (“How to simulate humans intellect and behavior on by a machine.)
+Mathematical problems (puzzles, games, theorems)
+Common-sense reasoning (if there is parking-space, probably illegal to park)
+Expert knowledge: lawyers, medicine, diagnosis
+Social behavior
+Rational-like: 
+achieve goals, have performance measure

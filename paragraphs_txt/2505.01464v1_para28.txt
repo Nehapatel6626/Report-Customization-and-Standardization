@@ -1,0 +1,3 @@
+This distinction reflects the epistemic separation between representation and recursion in
+latent systems, aligning with non-symbolic theories of consciousness and the metaphysical
+principle that the knower of data cannot be the data itself. See [3, 9, 1].

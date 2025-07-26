@@ -1,0 +1,1 @@
+1 weight vector connecting hidden layer to output defines a linear discriminant separating the hidden-layer features

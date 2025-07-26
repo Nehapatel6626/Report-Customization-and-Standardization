@@ -1,0 +1,13 @@
+Autonomous robots must operate in diverse environments and handle multiple tasks despite
+uncertainties. This creates challenges in designing software architectures and task decision-
+making algorithms, as different contexts may require distinct task logic and architectural
+configurations. To address this, robotic systems can be designed as self-adaptive systems
+capable of adapting their task execution and software architecture at runtime based on their
+context. This paper introduces ROSA, a novel knowledge-based framework for RObot Self-
+Adaptation, which enables task-and-architecture co-adaptation (TACA) in robotic systems. ROSA
+achieves this by providing a knowledge model that captures all application-specific knowledge
+required for adaptation and by reasoning over this knowledge at runtime to determine when
+and how adaptation should occur. In addition to a conceptual framework, this work provides
+an open-source ROS 2-based reference implementation of ROSA and evaluates its feasibility
+and performance in an underwater robotics application. Experimental results highlight ROSA’s
+advantages in reusability and development effort for designing self-adaptive robotic systems.

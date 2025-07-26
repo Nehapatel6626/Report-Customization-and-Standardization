@@ -1,0 +1,1 @@
+output  layer, the weight  matrix  W  has  a size  of (number of output classes  X number  of neurons

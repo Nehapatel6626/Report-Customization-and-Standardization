@@ -1,0 +1,3 @@
+The Call Graph (CG) is a widely adopted structure [23]. It is also used in
+security-related tasks such as malware detection [20]. Our approach is based
+on a principle of “same packer, similar CGs” [19]. To the best of our knowledge,

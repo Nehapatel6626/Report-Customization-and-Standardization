@@ -1,0 +1,1 @@
+Given annotations on which sentences are rationales, we can create a straightforward

@@ -1,0 +1,1 @@
+input image being processed by  the CNN.  The  base architecture can be customized with p (the

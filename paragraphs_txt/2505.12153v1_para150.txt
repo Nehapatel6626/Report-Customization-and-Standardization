@@ -1,0 +1,6 @@
+Sample (s, a, r, s′) from Di
+Compute gradient ∇Li(πi)
+Apply DP noise: ∇L′
+i = ∇Li + N (0, σ2)
+Update policy: πi ← πi + η∇L′
+i

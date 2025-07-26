@@ -1,0 +1,1 @@
+Attackers can use CSV injection attacks to steal user data, such as in figures 2.1 and 2.2.

@@ -1,0 +1,5 @@
+[30] C. Wohlin, Guidelines for snowballing in systematic literature studies
+and a replication in software engineering, in: Proceedings of the 18th
+International Conference on Evaluation and Assessment in Software En-
+gineering, EASE ’14, Association for Computing Machinery, New York,
+NY, USA, 2014, pp. 1–10.

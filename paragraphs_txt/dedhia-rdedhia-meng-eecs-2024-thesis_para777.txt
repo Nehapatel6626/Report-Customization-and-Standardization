@@ -1,0 +1,1 @@
+The extension is more strict when considering formula cells. The extension only allows

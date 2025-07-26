@@ -1,0 +1,4 @@
+[89] G. Kulkarni, V. Premraj, V. Ordonez, S. Dhar, S. Li, Y. Choi, A. C.
+Berg, T. L. Berg, Babytalk: Understanding and generating simple image
+descriptions, IEEE transactions on pattern analysis and machine intelli-
+gence 35 (12) (2013) 2891–2903.

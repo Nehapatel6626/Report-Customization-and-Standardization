@@ -1,0 +1,1 @@
+The PDFRate classiﬁer takes labeled ﬁlenames as inputs and extracts static features

@@ -1,0 +1,6 @@
+We used different sizes of OpenAI’s Whisper8 model for our fine-tuning experi-
+ments. Whisper is an open-source multilingual transformer [29] model designed
+for automatic speech recognition, translation, and language detection [24]. It
+was trained on an extensive multilingual corpus collected through web crawling.
+Thanks to its internal segmentation, Whisper can transcribe audio of arbitrary
+length [24].

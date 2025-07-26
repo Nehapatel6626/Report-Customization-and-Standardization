@@ -1,0 +1,1 @@
+Fig. 3: Metrics trends varying the number of programs to configure PackHero.

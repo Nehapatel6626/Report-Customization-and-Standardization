@@ -1,0 +1,4 @@
+Sequential Planning Performance With MP’s en-
+hanced workﬂow W∗, all three LLMs successfully gener-
+ated feasible solutions, a signiﬁcant improvement over their
+previous failures with the original problem speciﬁcation.

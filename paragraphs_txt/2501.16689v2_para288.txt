@@ -1,0 +1,7 @@
+Structured Meta-Planning for Constraint-Aware Exe-
+cution: The framework implements a structured meta-
+planner that explicitly separates planning from execution.
+This architectural approach dismantles the attention-driven
+limitations that have historically constrained LLM perfor-
+mance, enabling a more deliberate and controlled planning
+mechanism.

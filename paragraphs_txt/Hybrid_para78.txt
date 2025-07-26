@@ -1,0 +1,1 @@
+On the other hand, on the small dataset, Decision Trees perform better than the Naïve Bayes classifier, potentially due to greater dependencies in the attributes. Here, the Hybrid classifier behaves exactly like the Decision Trees for χ ~0.

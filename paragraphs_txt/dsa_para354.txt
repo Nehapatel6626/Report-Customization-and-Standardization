@@ -1,0 +1,5 @@
+As an example, consider the Inserting an item. 
+To link the new node, after a given node, in a singly linked list, we need to change two pointers: 
+newNode->next and 
+location->next. 
+The same operation on a doubly linked list requires four pointer changes.

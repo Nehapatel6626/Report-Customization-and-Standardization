@@ -1,0 +1,1 @@
+cell containing that formula to make sure that any spreadsheet program that opens the CSV

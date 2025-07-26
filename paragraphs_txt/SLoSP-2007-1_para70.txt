@@ -1,0 +1,5 @@
+Chrysler confirmed that it would end its troubled venture with Maserati.
+Should be a noun attachment but get wrong answer:
+w		C(w)		C(w, with)
+end	5156		607
+venture	1442		155

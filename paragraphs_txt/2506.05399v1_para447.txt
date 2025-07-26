@@ -1,0 +1,5 @@
+c) Bornon dataset: Contains 4,100 images, each with five Ben-
+gali captions, totaling 20,500 captions. It covers diverse top-
+ics, including animals, people, food, weather, and vehicles.
+The Images were sourced from a personal photography club,
+and 17 native Bengali speakers annotated captions.

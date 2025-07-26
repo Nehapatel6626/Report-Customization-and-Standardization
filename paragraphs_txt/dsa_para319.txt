@@ -1,0 +1,2 @@
+If L  = 5, then L  represents list (A, B, E)
+If M = 3, then M represents list (C, D, F)

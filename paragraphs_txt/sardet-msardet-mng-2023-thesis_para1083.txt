@@ -1,0 +1,1 @@
+reduce data, you can get that matrix and apply it to a new set of data with the same result.

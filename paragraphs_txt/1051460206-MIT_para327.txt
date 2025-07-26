@@ -1,0 +1,1 @@
+the convolutional  layers  is the  dimensionality  reduction  of both  the  weights and  input data.  The

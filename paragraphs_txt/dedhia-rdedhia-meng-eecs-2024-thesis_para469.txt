@@ -1,0 +1,1 @@
+See figure 2.20 for the exact CSV injection formula used to launch the BazarBackdoor

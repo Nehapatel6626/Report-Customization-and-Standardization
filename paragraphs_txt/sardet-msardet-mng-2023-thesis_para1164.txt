@@ -1,0 +1,4 @@
+Figure 4.3: t-sne applied to Head Endburner
+Hydrogen Flow measurements (distance: co-
+sine, perplexity:50) with spindle number la-
+beling.

@@ -1,0 +1,13 @@
+The inspect pipeline Action can
+be required to be performed at
+runtime, leading ROSA to configure
+the AUV appropriately to carry out
+the inspection action
+battery
+The
+Attributes
+measurement of 0.5
+If the water visibility environmental
+attribute is low, the high altitude
+configuration for the generate spiral
+search path node cannot be selected

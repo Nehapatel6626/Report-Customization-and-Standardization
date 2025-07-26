@@ -1,0 +1,3 @@
+3. Agent ranking: Ranks agents by their relevance, efﬁ-
+ciency, and historical user rating (r) to select the optimal
+candidates.

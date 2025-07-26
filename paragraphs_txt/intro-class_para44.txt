@@ -1,0 +1,6 @@
+Requires
+Natural language
+Knowledge representation
+Automated reasoning
+Machine learning 
+(vision, robotics) for full test

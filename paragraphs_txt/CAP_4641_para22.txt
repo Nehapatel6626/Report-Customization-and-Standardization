@@ -1,0 +1,1 @@
+Apply the formal approaches to representing these linguistic phenomena, such as formal models of grammar, HMMs, and frame semantics.

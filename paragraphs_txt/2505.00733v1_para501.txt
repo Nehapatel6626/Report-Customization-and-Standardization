@@ -1,0 +1,4 @@
+In conclusion, given Assumptions 1 and 2, the total overhead per action can be defined as 10 + 6 ∗
+nsa + 3 ∗ npa, where nsa and npa represent the number of structural and parameter adaptations for the
+action, respectively. This indicates that the ROSA model grows linearly with the number of actions and
+adaptations, which is made possible by the clear separation of the task and adaptation logic.

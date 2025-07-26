@@ -1,0 +1,1 @@
+opens the calculator program on the victim’s machine using the rundll32 command [15].

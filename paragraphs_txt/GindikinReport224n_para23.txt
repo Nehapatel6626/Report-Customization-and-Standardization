@@ -1,0 +1,1 @@
+The system worked better when there were many total words processed from the sources.  Although the number of unique word token did not necessarily increase rapidly as the source of text became large, the number of unique bigrams increased and made the training data somewhat less sparse.  This improved the occurrence rate of valid sentences appearing at the output of the system.

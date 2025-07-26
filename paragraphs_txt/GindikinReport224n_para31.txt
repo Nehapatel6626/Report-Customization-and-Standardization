@@ -1,0 +1,1 @@
+We first turn the mnemonic into a sequence of constraints. For example, let’s say we wanted to find a mnemonic for the first three digits of pi, ‘314’ (an example of would be ‘and I said’). The constraints for our search are that the first word is three letters, the second one, and the third four. We can now form a lattice:

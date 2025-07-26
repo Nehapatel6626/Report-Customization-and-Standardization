@@ -1,0 +1,5 @@
+Q3: How do Large Language Models (LLMs) come into play? 
+A3:  LLMs  can  generate  text  (including  structured  data,  such  as  XML  tags)  based  on  prompts.  In  traditional 
+programming workflows, developers can prompt an LLM to produce specific variables or tags, parse these outputs, 
+and  then  feed  them  back  into  the  application’s  logic  [3].  This  creates  a  bridge  between  the  flexibility  of  natural 
+language and the clarity of explicit UI actions.

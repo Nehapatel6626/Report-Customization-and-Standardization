@@ -1,0 +1,1 @@
+[21]   Zitnick,   C.L.,   Doll    ́ar,   P.:   Edge   boxes:   Locating   object   proposals   from   edges.   In:   Computer

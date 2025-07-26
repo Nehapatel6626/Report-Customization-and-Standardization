@@ -1,0 +1,2 @@
+What is artificial intelligence? 
+It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.

@@ -1,0 +1,12 @@
+In this section, we present an adaptation of the encoding proposed by
+Tjeng et al. [17] for logic-based explainability. In such a work, the authors
+originally used the encoding to find adversarial examples without using logical
+implications. Even more importantly, such an encoding uses fewer variables and
+constraints compared to [5]. Then, we expect that our adaptation can lead to
+a better execution time for both building the logical constraints and computing
+explanations. Adapting the encoding in [17] to the context of computing
+explanations requires incorporating additional constraints that were not part
+of the original work. These new constraints represent the class predicted by the
+ANN as a formula E, as seen in Section 3. However, to maintain the concept of
+the original encoding without implications, we define these additional constraints
+without implications.

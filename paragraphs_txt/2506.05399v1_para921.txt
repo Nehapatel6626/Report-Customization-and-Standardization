@@ -1,0 +1,3 @@
+[103] G. Li, L. Zhu, P. Liu, Y. Yang, Entangled transformer for image cap-
+tioning, in: Proceedings of the IEEE/CVF International Conference on
+Computer Vision, 2019, pp. 8928–8937.

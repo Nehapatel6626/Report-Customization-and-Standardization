@@ -1,0 +1,1 @@
+Input: gaz flow rate into the burners (H2, O2, SiCl4, GeCl4).

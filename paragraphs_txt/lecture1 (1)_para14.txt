@@ -1,0 +1,7 @@
+326 Web page: www/education/courses/326/01su
+326 course directory: /cse/courses/cse326
+326 mailing list: cse326@cs.washington.edu
+subscribe to the mailing list using majordomo, see homepage
+Course labs are 232 and 329 Sieg Hall
+lab has NT machines w/X servers to access UNIX
+All programming projects graded on UNIX/g++

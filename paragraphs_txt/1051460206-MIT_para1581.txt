@@ -1,0 +1,1 @@
+these labeled  coordinates.  The  result is a  mask with a white  foreground  circle at each  of the

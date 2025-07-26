@@ -1,0 +1,13 @@
+Word-internal punctuation
+M.p.h
+Ph.D.
+AT&T
+01/02/06
+Google.com
+555,500.50
+Expanding clitics
+What’re -> what are
+I’m -> I am
+Multi-token words
+New York
+Rock ‘n’ roll

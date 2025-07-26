@@ -1,0 +1,4 @@
+In the 1990’s there was a growing concern that work in classical AI ignored crucial scientific questions:
+How do we integrate the components of intelligence (e.g. learning & planning)?
+How does perception interact with reasoning?
+How does the demand for  real-time performance in a complex, changing environment affect the architecture of intelligence?

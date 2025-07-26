@@ -1,0 +1,2 @@
+The speech data was recorded from radio and TV broadcasts. To extract 30 s
+speech samples for the datasets, the following steps were performed.

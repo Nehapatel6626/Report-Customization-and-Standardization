@@ -1,0 +1,39 @@
+Name
+(cid:80)
+i ri
+(cid:80)
+1
+i ri
+|S|
+recall()
+precision()
+f1
+β
+g(.)
+g1
+g2
+c
+e()
+(cid:15)
+niterations
+(cid:96)t1
+(cid:96)t2
+(cid:96)t3
+(cid:96)t4
+(cid:96)t5
+T
+(cid:96)T
+e1()
+α
+λ
+Sreceived
+Preceived
+Yreceived
+Sselected
+ST rain
+Sselected
+ST rain
+ST rainP rimary
+ST rainSecondary Samples used to train secondary classiﬁers
+Samples used to tune the decision function
+ST une

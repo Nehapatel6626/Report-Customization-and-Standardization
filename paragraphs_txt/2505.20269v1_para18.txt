@@ -1,0 +1,10 @@
+Some approaches aim to provide explanations for machine learning models
+with formal guarantees of correctness [16, 8, 4, 7, 1, 18]. Ignatiev et al. [8]
+proposed a logic-based algorithm that gives minimal and correct explanations
+for ANNs, utilizing logical constraints originally designed for finding adversarial
+examples Fischetti and Jo [5]. These constraints include linear equations,
+implications, solved using a Mixed Integer Linear
+inequalities, and logical
+Programming (MILP) solver. However, scalability issues arise, particularly with
+large ANNs, necessitating further development before deployment in large-scale
+production environments.

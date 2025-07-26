@@ -1,0 +1,1 @@
+malicious functionality within a PDF. Most, but not all, PDF exploits are based

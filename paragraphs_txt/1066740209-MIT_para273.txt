@@ -1,0 +1,1 @@
+I used the SVM model to classify abstracts because of the relatively few training

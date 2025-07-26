@@ -1,0 +1,7 @@
+This structured retrieval mechanism ensures that MACI ef-
+ﬁciently scales to complex planning problems without re-
+quiring predeﬁned agent hierarchies. By leveraging pro-
+tocol buffers and a structured repository, MACI achieves
+both modularity and adaptability, allowing new agents to be
+introduced seamlessly while maintaining coherence across
+multi-agent interactions.

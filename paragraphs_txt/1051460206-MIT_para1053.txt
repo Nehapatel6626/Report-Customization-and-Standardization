@@ -1,0 +1,1 @@
+Figure 4-4.  To decrease the resolution of the original images, we resampled the images to

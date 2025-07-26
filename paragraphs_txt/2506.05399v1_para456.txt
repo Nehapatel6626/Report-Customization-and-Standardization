@@ -1,0 +1,4 @@
+metrics in image captioning. Table 4 provides definitions of
+key symbols used in the evaluation metrics. These definitions
+help understand the mathematical formulations behind BLEU,
+METEOR, CIDEr, ROUGE, and SPICE.

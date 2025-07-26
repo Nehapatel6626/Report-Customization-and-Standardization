@@ -1,0 +1,9 @@
+21. Plüss, M., Hürlimann, M., Cuny, M., Stöckli, A., Kapotis, N., Hartmann, J., Ulasik,
+M.A., Scheller, C., Schraner, Y., Jain, A., Deriu, J., Cieliebak, M., Vogel, M.: SDS-
+200: A Swiss German Speech to Standard German Text Corpus. In: Calzolari, N.,
+Béchet, F., Blache, P., Choukri, K., Cieri, C., Declerck, T., Goggi, S., Isahara, H.,
+Maegaard, B., Mariani, J., Mazo, H., Odijk, J., Piperidis, S. (eds.) Proceedings of
+the Thirteenth Language Resources and Evaluation Conference. vol. Proceedings
+of the Thirteenth Language Resources and Evaluation Conference, pp. 3250–3256.
+European Language Resources Association, Marseille, France (Jun 2022), https:
+//aclanthology.org/2022.lrec-1.347

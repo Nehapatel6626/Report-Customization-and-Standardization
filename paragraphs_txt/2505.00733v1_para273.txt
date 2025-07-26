@@ -1,0 +1,3 @@
+rule defines that a Component has a ‘configuration error’ status when it is required, it does not have an
+‘unfeasible’ or ‘failure’ status, and it is in a component-configuration relationship that is selected
+and has an ‘unfeasible’ status (see Figure 3c).

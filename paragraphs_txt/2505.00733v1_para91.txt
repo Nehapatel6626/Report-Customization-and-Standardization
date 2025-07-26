@@ -1,0 +1,9 @@
+Niemczyk and Geihs (2015); Niemczyk et al. (2017) propose ICE as a method for adapting the
+information processing subsystem in multi-robot systems, specifically by adapting the connections between
+system components. Their approach uses an ontology to define each component’s required inputs and
+outputs, along with quality-of-service information for each connection. This ontology is then translated
+into answer set programming (ASP), and an ASP solver determines an optimal configuration. While they
+conceptually demonstrate how their method could be applied to robots, they do not demonstrate it with a
+robotic system. Moreover, their approach focuses solely on structural and connection adaptation to maintain
+the functionality of the information processing subsystem, without considering other subsystems of the
+robotic system.

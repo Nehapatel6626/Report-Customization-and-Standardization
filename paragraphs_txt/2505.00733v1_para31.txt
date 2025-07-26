@@ -1,0 +1,5 @@
+The remainder of this paper is organized as follows. Section 2 describes the TACA use case used to
+exemplify and evaluate this work. Section 3 presents related works. Section 4 describes how this work
+proposes to extend robotics architectures with ROSA. Section 5 details ROSA’s KB. Section 6 describes
+the proposed reference implementation of ROSA. Section 7 showcases ROSA’s evaluation. Section 8
+concludes this work and presents future research directions.

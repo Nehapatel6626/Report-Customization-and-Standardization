@@ -1,0 +1,1 @@
+Next,  we present the accuracy  of the  CNN  as the image resolutions  are decreased.  As  can

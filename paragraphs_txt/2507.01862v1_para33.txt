@@ -1,0 +1,4 @@
+How it works: 
+1.  User Query: The user’s most recent input. 
+2.  Current Customer Name: The context the chatbot is currently using. 
+3.  User Query History: A list of previous queries to help the LLM track context.

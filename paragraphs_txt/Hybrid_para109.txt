@@ -1,0 +1,1 @@
+[19] Shipp C.A. and L.I. Kuncheva. “An investigation into how AdaBoost affects classifier diversity,” In the Proceedings of IPMU 2002, Annecy, France, 2002.

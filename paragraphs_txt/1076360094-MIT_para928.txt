@@ -1,0 +1,5 @@
+Figure 5-1: Active Defender Classiﬁers: In active primary classiﬁers (C1,C2,C3) re-
+ceive samples and produce probabilistic scores (p1,p2,p3). Secondary classiﬁers oper-
+ate oﬀ of probabilistic scores as inputs. Secondary classiﬁer C4 uses inputs (p1,p2) to
+produce the probabilistic score p4. Secondary classiﬁer C4 uses inputs (p1,p2,p3) to
+produce the probabilistic score p5.

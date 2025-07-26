@@ -1,0 +1,13 @@
+In most deep learning models, CNN is an encoder network,
+while RNNs are used as language-model decoder networks. How-
+ever, some image captioning models use RNN for the encoder
+and decoder networks. A recurrent neural network includes
+an LSTM (long-short-term memory) component for long-term
+and short-term memory. LSTM is used for sentence representa-
+tion to create image captions and extract features of images and
+words [23]. However, RNNs, LSTMs, and GRUs are suscep-
+tible to problems such as vanishing gradients, training difficul-
+ties, and long sequences. RNNs may not retain all information
+at the beginning of a long sequence. The specific operations of
+the LSTM-based decoder used in [6] to generate captions are
+described in (2), (3), and (4).

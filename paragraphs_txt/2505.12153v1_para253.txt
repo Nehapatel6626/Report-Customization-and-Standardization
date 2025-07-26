@@ -1,0 +1,19 @@
+We developed a synthetic surgical environment using
+Python, leveraging libraries such as NumPy for numerical
+computations and Matplotlib/Seaborn for data visualization.
+This environment was designed to simulate surgical proce-
+dures across multiple hospital sites, each possessing unique pa-
+tient data distributions and surgical specializations. The envi-
+ronment models surgical tasks as MDP, which provide a struc-
+tured framework for representing sequential decision-making
+problems. In this context, the state space represents patient-
+specific parameters, including vital signs, medical imaging
+data, and physiological states. The action space encompasses
+robotic tool movements, incision strategies, and other surgical
+interventions. The reward function is designed to incentivize
+optimal surgical outcomes, penalizing errors and rewarding
+precision. Transition probabilities model the dynamic changes
+in the patient’s state based on the actions taken by the surgical
+robot. This comprehensive simulation environment allowed us
+to thoroughly evaluate the FDRL framework under various
+realistic conditions.

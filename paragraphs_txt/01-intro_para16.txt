@@ -1,0 +1,1 @@
+1011 neurons1014 synapsescycle time: 10-3 sec

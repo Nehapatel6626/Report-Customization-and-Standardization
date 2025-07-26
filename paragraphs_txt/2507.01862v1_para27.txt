@@ -1,0 +1,3 @@
+3.  Consistency  Across  Interactions:  Multiple  tasks  (e.g.,  IsHotelSelectionConfirmed,  IsBookingReset)  can  be 
+introduced,  each  one  governing  a  piece  of  the  dialogue  state,  guided  by  CoT  to  clarify  how  each  decision  is 
+reached.

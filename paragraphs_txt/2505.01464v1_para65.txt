@@ -1,0 +1,1 @@
+This assumption supports convergence under noise. See Robbins and Kushner [8, 6].

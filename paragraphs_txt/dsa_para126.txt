@@ -1,0 +1,5 @@
+void display(int array[],int num_values)
+{
+	for (int I = 0; i<num_values; i++)
+		cout<< array[i] << “  ”;
+}

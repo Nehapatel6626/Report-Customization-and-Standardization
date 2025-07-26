@@ -1,0 +1,1 @@
+through  a technique  called Stochastic  Gradient  Descent.  Broadly,  SGD  uses gradients  of the  loss

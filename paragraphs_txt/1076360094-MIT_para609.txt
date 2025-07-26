@@ -1,0 +1,1 @@
+PDFRate classiﬁer: The PDFRate classiﬁer is a static machine learning classiﬁer

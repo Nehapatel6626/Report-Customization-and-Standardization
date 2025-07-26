@@ -1,0 +1,3 @@
+5. Do, A., Brown, O., Wang, Z., Mathew, N., Liu, Z., Ahmed, J., Yu, C.: Using
+fine-tuning and min lookahead beam search to improve Whisper (Sep 2023), http:
+//arxiv.org/abs/2309.10299, arXiv:2309.10299 [cs, eess]

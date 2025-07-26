@@ -1,0 +1,6 @@
+with the reference  results (done  in the next  section  - 6.3.2.3).  However,  since the  reference
+results  were  determined through  a manual  process,  we first needed  a way to confirm  the  accuracy
+of the reference  results.  We  accomplished this by  sending a few  synthetic  urine solutions to  a
+medical  laboratory  for testing.  Then, we  compared the medical  laboratory  results with the
+reference  results that we calculated  in-house.  In this section,  we  show that the reference  results
+are  within the ranges  of results provided  by the  medical  laboratory.

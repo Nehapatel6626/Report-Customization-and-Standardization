@@ -1,0 +1,10 @@
+Image captioning involves generating textual descriptions from input images, bridging the gap between computer vision and nat-
+ural language processing. Recent advancements in transformer-based models have significantly improved caption generation by
+leveraging attention mechanisms for better scene understanding. While various surveys have explored deep learning-based ap-
+proaches for image captioning, few have comprehensively analyzed attention-based transformer models across multiple languages.
+This survey reviews attention-based image captioning models, categorizing them into transformer-based, deep learning-based, and
+hybrid approaches. It explores benchmark datasets, discusses evaluation metrics such as BLEU, METEOR, CIDEr, and ROUGE,
+and highlights challenges in multilingual captioning. Additionally, this paper identifies key limitations in current models, including
+semantic inconsistencies, data scarcity in non-English languages, and limitations in reasoning ability. Finally, we outline future
+research directions, such as multimodal learning, real-time applications in AI-powered assistants, healthcare, and forensic analysis.
+This survey serves as a comprehensive reference for researchers aiming to advance the field of attention-based image captioning.

@@ -1,0 +1,1 @@
+normalization  is  done to  all  images,  while  augmentation  is only  done  with the training dataset.

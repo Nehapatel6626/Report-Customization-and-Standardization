@@ -1,0 +1,11 @@
+// Phase 1: Network Construction
+1. Extract roles N from O
+2. Identify dependencies E from CE
+// Phase 2: Agent Assignment
+3. Assign agents to nodes: ∀n ∈ N , select αn ∈ An
+(Eq. 4)
+4. Assign agents to dependencies: ∀eij ∈ E, select αij ∈
+Ae
+(Eq. 5)
+// Phase 3: Iterative Reﬁnement
+while improvement in V (W, M) do

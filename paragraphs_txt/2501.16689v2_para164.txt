@@ -1,0 +1,6 @@
+The repository’s standardized agent speciﬁcations and
+matching mechanism enable MACI to scale efﬁciently
+across domains. By leveraging modular designs and pro-
+tocol buffers, new agents can be integrated seamlessly into
+existing workﬂows, ensuring adaptability and extensibility
+without compromising performance or consistency.

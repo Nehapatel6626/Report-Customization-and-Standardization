@@ -1,0 +1,4 @@
+We do, however, have to be careful about the end cases:
+If location->back is NULL, we are deleting the first node
+if location->next is NULL, we are deleting the last node. 
+If both location->back and location->next are NULL, we are deleting the only node.

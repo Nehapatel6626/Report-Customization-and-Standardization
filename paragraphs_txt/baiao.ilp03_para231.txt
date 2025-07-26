@@ -1,0 +1,1 @@
+Cost(OO7) = 100*cost(Q1) + 50*cost(Q2) + 10*cost(Q3) + 30*cost(T1) + 30*cost(T2)

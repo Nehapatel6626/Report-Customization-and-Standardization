@@ -1,0 +1,3 @@
+• Temporal Agent: Schedules with veriﬁed buffer times
+• Spatial Agent: Real-time location and route mgmt.
+• Safety Agent: Role coverage for supervision

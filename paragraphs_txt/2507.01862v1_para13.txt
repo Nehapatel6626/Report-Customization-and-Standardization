@@ -1,0 +1,7 @@
+Q6: How is chain-of-thought (CoT) integrated into your prompts? 
+A6: We instruct the LLM to produce structured intermediate steps, effectively revealing its internal reasoning about 
+user context changes or form-like actions (e.g., “submit” vs. “reset” intentions). These steps are included in the LLM’s 
+output (potentially as JSON/XML segments or separate explanatory text) but are primarily used internally for clarity 
+and debugging. By parsing this CoT output, the back-end can follow a transparent, step-by-step rationale: deciding 
+whether to commit certain data, reset fields, or switch contexts based on the user’s utterance. While the CoT can be 
+hidden from end users, it allows developers to better understand how the LLM arrives at certain actions.

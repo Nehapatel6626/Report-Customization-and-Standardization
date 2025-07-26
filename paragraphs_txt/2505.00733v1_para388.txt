@@ -1,0 +1,1 @@
+Listing 5. Snippet of SUAVE’s use case implementation in TypeDB

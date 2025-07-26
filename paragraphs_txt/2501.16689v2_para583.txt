@@ -1,0 +1,4 @@
+This simple task demonstrates that MP can be valuable
+for monitoring the execution process, validating the correct-
+ness of intermediate results, and suggesting more efﬁcient
+algorithmic approaches.

@@ -1,0 +1,8 @@
+To generate machine learner need to know:
+What experience?
+Direct or indirect?
+Learner controlled?
+Is the experience representative?
+What exactly should be learned?
+How to represent the learning function?
+What algorithm used to learn the learning function?

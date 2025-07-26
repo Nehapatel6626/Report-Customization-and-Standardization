@@ -1,0 +1,1 @@
+5.2  Example Conversation with and with isCustomerConfirmed (SUBMIT | RESET)

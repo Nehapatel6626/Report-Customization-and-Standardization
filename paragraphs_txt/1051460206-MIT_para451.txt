@@ -1,0 +1,1 @@
+Figure 2-3.  A  demonstration of how CNNs recursively calculate the gradient with respect to the

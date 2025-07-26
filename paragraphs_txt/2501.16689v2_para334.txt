@@ -1,0 +1,3 @@
+Li, G., Hammoud, H., et al. Camel: Communicative agents
+for "mind" exploration of large scale language model society.
+arXiv preprint arXiv:2303.17760, 2023.

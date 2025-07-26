@@ -1,0 +1,10 @@
+In the English Flickr8k dataset, the method described in
+[68] achieved a high BLEU-1 score of 0.690, giving a strong
+performance in generating relevant captions. However, with
+the Arabic Flickr8k dataset, the method in [64] only achieved
+a BLEU-1 score of 0.598, revealing the challenges of adapt-
+ing methods to different languages and contexts. Additionally,
+when the method described in [88] was applied to the Bengali
+Flickr8k dataset, it produced lower scores, with many values
+marked as ’NA,’ suggesting that all metrics did not evaluate the
+approach.

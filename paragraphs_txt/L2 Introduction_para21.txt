@@ -1,0 +1,1 @@
+In perceptron applications, signal is a linear combination of the inputs, which includes a bias node x0=1 in addition to attribute values. This signal can be written s = wTx, where w is a weight vector to be optimized and x is the input attribute vector.

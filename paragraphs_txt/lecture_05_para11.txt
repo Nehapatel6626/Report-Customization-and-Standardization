@@ -1,0 +1,1 @@
+We use one machine to transduce between the lexical and the intermediate level, and another to handle the spelling changes to the surface tape

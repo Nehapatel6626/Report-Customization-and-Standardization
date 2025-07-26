@@ -1,0 +1,4 @@
+BT managing system: The BT used to model SUAVE’s task logic without adaptation contains 10 nodes,
+and the BT used for the extended use case contains 16 nodes. These values were deducted from the
+development effort metric for the BT managing system since they are independent of the adaptation
+problem.

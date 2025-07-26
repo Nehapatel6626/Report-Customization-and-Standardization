@@ -1,0 +1,10 @@
+Mitigation, which measures the ability to Minimise errors and
+improve procedural safety, is 15.2% higher in FL than in CL.
+This indicates that FL-trained models adapt more effectively
+to dynamic surgical environments, potentially reducing risks
+during real-world deployment. Additionally, PLR is reduced
+by 60% in FL, highlighting its advantage in securing sensitive
+patient data. Unlike CL, which requires direct data aggregation
+and exposes information to central repositories, FL performs
+decentralized learning, inherently enhancing privacy preserva-
+tion.

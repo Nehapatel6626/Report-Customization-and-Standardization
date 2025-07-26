@@ -1,0 +1,1 @@
+data acquisition pipeline which can be presented in three categories:

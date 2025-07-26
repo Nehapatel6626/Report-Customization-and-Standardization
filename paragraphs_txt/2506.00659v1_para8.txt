@@ -1,0 +1,19 @@
+Abstract. Anti-analysis techniques, particularly packing, challenge mal-
+ware analysts, making packer identification fundamental. Existing packer
+identifiers have significant limitations: signature-based methods lack flex-
+ibility and struggle against dynamic evasion, while Machine Learning ap-
+proaches require extensive training data, limiting scalability and adapt-
+ability. Consequently, achieving accurate and adaptable packer identifica-
+tion remains an open problem. This paper presents PackHero, a scalable
+and efficient methodology for identifying packers using a novel static ap-
+proach. PackHero employs a Graph Matching Network and clustering to
+match and group Call Graphs from programs packed with known pack-
+ers. We evaluate our approach on a public dataset of malware and be-
+nign samples packed with various packers, demonstrating its effectiveness
+and scalability across varying sample sizes. PackHero achieves a macro-
+average F1-score of 93.7% with just 10 samples per packer, improving
+to 98.3% with 100 samples. Notably, PackHero requires fewer samples to
+achieve stable performance compared to other Machine Learning-based
+tools. Overall, PackHero matches the performance of State-of-the-art
+signature-based tools, outperforming them in handling Virtualization-
+based packers such as Themida/Winlicense, with a recall of 100%.

@@ -1,0 +1,5 @@
+Key Insight: In a typical GUI, Submit commits the data the user has entered, while Reset discards it, returning to a 
+default or initial state. We replicate this idea in the chatbot context by designing specialized prompts that explicitly 
+label user intentions. For example, when a user appears to confirm a specific customer, we interpret that as a Submit-
+like action. Conversely, when the user wants to abandon the current customer or switch to a new one, we treat it as a 
+Reset-like action.

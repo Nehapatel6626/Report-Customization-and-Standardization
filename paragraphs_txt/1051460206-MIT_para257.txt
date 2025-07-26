@@ -1,0 +1,1 @@
+descent  (SGD).  The  background  on neural  networks presented  in this chapter  is inspired by

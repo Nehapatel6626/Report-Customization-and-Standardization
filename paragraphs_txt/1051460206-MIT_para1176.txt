@@ -1,0 +1,1 @@
+AutoScope  classification  CNN.  The  goal  of this  CNN is to accurately  classify a crop of a particle

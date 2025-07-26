@@ -1,0 +1,1 @@
+attacker can use to remotely access the victim’s computer. One example of a type of rootkit

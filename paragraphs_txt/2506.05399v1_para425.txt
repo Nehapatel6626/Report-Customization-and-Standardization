@@ -1,0 +1,2 @@
+The Flickr8K dataset, developed by [121], was publicly re-
+It comprises 8,000 images sourced from the

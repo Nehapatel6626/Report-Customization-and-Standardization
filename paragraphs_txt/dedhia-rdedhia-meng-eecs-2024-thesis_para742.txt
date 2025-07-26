@@ -1,0 +1,1 @@
+checks to see if the cell contains any non-whitelisted characters or strings.

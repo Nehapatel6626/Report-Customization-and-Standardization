@@ -1,0 +1,4 @@
+Algorithm
+A high level, language independent description of a step-by-step process for solving a problem
+Data Structure
+A set of algorithms which implement an ADT

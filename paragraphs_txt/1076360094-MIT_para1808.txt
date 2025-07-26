@@ -1,0 +1,1 @@
+Learn is implemented in the Model class. Decide and Adapt are implemented in the

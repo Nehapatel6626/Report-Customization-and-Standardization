@@ -1,0 +1,1 @@
+[60] S. M. Sabri, Arabic image captioning using deep learning with attention,

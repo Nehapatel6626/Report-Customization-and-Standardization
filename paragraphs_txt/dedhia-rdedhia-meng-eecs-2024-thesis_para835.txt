@@ -1,0 +1,1 @@
+so that it can find and remove injection attacks from other file types, such as PDF files and

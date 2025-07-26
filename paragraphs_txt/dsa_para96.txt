@@ -1,0 +1,5 @@
+The elements of a list are 34, 12, 52, 16, 12
+Find (52) -> 3
+Insert (20, 4) -> 34, 12, 52, 20, 16, 12
+Delete (52) -> 34, 12, 20, 16, 12
+FindKth (3) -> 20

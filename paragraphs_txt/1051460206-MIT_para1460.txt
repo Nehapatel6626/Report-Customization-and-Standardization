@@ -1,0 +1,1 @@
+same  size as the  input region.  The  major benefit  of implementing  fully-connected  layers as

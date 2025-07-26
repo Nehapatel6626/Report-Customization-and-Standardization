@@ -1,0 +1,1 @@
+base  CNN  architecture  as we introduce  the specific  algorithms.  We  have discussed  each building

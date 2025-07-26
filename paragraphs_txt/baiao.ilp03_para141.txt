@@ -1,0 +1,1 @@
+By running both versions of the analysis algorithm on top of the OO7 benchmark application, we notice that class atomicPart is indicated for hybrid fragmentation (primary horizontal + vertical) after the revision (instead of derived horizontal fragmentation), as illustrated in table 2.

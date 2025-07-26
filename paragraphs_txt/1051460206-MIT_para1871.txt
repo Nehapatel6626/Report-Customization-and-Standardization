@@ -1,0 +1,1 @@
+prob(sample count 5  x)  =  aleb,*x  +  a2 eb2*x  +  1

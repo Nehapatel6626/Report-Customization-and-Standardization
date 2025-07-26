@@ -1,0 +1,1 @@
+the low F1 score for this classifier isn’t a huge issue, as long as one sentence in each

@@ -1,0 +1,9 @@
+We compare our FDRL framework with a centralized RL
+framework as a baseline (where all policies are pooled to-
+gether) for privacy effectiveness using the following privacy
+metrics. Additionally, we introduce an experimental evaluation
+that systematically analyzes how different privacy settings (ϵ,
+σ2) impact surgical performance in terms of accuracy, safety,
+and adaptability. A privacy utility tradeoff plot is included to
+evaluate how privacy constraints influence surgical precision,
+task success rates, and training efficiency.

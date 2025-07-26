@@ -1,0 +1,2 @@
+• Driver Monitor: Validates driver availability
+• Supervisor Monitor: Ensures oven supervision

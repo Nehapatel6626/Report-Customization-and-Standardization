@@ -1,0 +1,6 @@
+Result Summary Without MP, DeepSeek performs
+best, while Claude and GPT-4o struggle, each exceeding
+the optimal travel time by more than 10%. With MP,
+Claude requires two iterations to reach the optimal distance,
+while both GPT-4o and DeepSeek solve the problem in a
+single attempt.

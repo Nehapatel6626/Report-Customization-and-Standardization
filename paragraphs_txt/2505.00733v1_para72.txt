@@ -1,0 +1,4 @@
+and Hochgeschwender, 2015; C´amara et al., 2020) consider, to varying degrees, the relationship between
+the tasks a robot performs and architectural adaptation. A non-systematic snowballing of the primary
+studies identified by Alberts et al. (2025) revealed two additional studies (Braberman et al., 2017; Valner
+et al., 2022) that also explore this relationship.

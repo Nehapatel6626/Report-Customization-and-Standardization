@@ -1,0 +1,13 @@
+age captioning
+This section evaluates the effectiveness of various state-of-
+the-art methods for Image Captioning, as presented in Table 2.
+The table includes numerous methods used on different datasets,
+including Arabic datasets such as Flickr8k and Flickr30k and
+English datasets like Flickr8k, Flickr30k, and MSCOCO, along
+with other datasets from various languages. Performance was
+measured using several metrics, including CIDEr, METEOR,
+ROUGE-L, SPICE, and BLEU scores at four levels (BLEU-1
+through BLEU-4). Upon a thorough examination, it is evident
+that the technique [55] achieved a high BLEU-1 score of 0.658
+when applied to the Flickr8k Arabic dataset using manual ex-
+traction. Compared to non-English datasets, methods applied

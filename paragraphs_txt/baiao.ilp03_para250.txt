@@ -1,0 +1,1 @@
+Bellatreche, L., Simonet, A., & Simonet, M. (1996). Vertical Fragmentation in Distributed Object Database Systems with Complex Attributes and Methods. Proc 7th Int’l Workshop Database and Expert Systems Applications (DEXA’96), IEEE Computer Society, Zurich, pp. 15-21.

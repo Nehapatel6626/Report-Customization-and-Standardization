@@ -1,0 +1,1 @@
+For example, a 10-dimensional data gives you 10 principal components, but PCA orders the

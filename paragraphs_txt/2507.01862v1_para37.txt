@@ -1,0 +1,4 @@
+or 
+<isCustomerConfirmed>no</isCustomerConfirmed>  and  a  <chainOfThought>...</chainOfThought>  block 
+summarizing the reasoning. While the back-end can parse the chain-of-thought for logging or debugging, end-
+users typically only see the summarized result.

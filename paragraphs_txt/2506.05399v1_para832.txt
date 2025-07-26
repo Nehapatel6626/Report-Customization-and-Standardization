@@ -1,0 +1,3 @@
+[29] T. Pang, P. Li, L. Zhao, A survey on automatic generation of medical
+imaging reports based on deep learning, BioMedical Engineering On-
+Line 22 (1) (2023) 48.

@@ -1,0 +1,4 @@
+More speciﬁcally, GPT-4o assigned Sarah to monitor the
+oven, but missed reallocating this task to Grandma earlier,
+preventing Sarah from serving as an additional driver, a
+missed efﬁciency gain.

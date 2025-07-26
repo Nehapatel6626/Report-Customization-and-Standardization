@@ -1,0 +1,3 @@
+Long,  J.,  Shelhamer,  E.  & Darrell,  T. Fully  convolutional networks  for semantic
+segmentation.  in Proceedings of the IEEE Computer Society Conference on Computer
+Vision and Pattern Recognition 07-12-June,  3431-3440  (2015).

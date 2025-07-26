@@ -1,0 +1,1 @@
+107 transistors1010 bits of RAMcycle time: 10-9 sec

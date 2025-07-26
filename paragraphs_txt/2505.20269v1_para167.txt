@@ -1,0 +1,4 @@
+are not originally present in [17]. However, they are necessary for the context
+of computing explanations for ANNs. In Equations (10)-(12) we represent our
+proposal for encoding formula ¬E, where the prediction associated with an input
+C is class ci.

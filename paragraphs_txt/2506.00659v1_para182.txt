@@ -1,0 +1,2 @@
+Fig. 6: # Samples involved in the integration (m = 10 new packers, l = 40
+samples per packer, n already integrated packers).

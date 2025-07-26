@@ -1,0 +1,12 @@
+Neural nets vs AI
+McCulloch & Pitts 1943
+Died out in 1960’s, revived in 1980’s
+Neural nets vastly simplified model of real neurons, but still useful & practical – massive parallelism
+particular family of learning and representation techniques
+Logic vs Probability
+In 1950’s logic seemed more computationally & expressively attractive (McCarthy, Newell)
+attempts to extend logic “just a little” to deal with the fact that the world is uncertain!
+1988 – Judea Pearl’s work on Bayes nets 
+provided efficient computational framework 
+Today – no longer rivals
+hot topic: combining probability & first-order logic

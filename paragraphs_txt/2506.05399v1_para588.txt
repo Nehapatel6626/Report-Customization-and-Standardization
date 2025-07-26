@@ -1,0 +1,2 @@
+SPICE (c, S r) = F1 (c, S r) = 2 · P (c, S r) · R (c, S r)
+P (c, S r) + R (c, S r)

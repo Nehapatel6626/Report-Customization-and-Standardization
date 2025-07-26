@@ -1,0 +1,1 @@
+Blockeel, H., & De Raedt, L. (1998). IsIdd: an Interactive System for Inductive Database Design. Applied Artificial Intelligence, 12(5), pp. 385-420.

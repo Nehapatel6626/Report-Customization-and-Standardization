@@ -1,0 +1,7 @@
+Machine learning is programming computers to optimize a performance criterion using example data or past experience.
+There is no need to “learn” to calculate payroll
+Learning is used when:
+Human expertise does not exist (navigating on Mars),
+Humans are unable to explain their expertise (speech recognition)
+Solution changes in time (routing on a computer network)
+Solution needs to be adapted to particular cases (user biometrics)

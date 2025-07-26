@@ -1,0 +1,3 @@
+[91] M. Sezgin, B. l. Sankur, Survey over image thresholding techniques
+and quantitative performance evaluation, Journal of Electronic imaging
+13 (1) (2004) 146–168.

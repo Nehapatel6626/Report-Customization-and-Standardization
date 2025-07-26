@@ -1,0 +1,9 @@
+Code packing, a widely used anti-analysis technique [10], affects the performance
+of both Machine Learning (ML)-based and traditional signature-based malware
+detection systems [22]. Packers encrypt or compress executable code, render-
+ing static analysis ineffective [34]. At runtime, an unpacking stub embedded in
+the executable restores the original code by decrypting or decompressing it in
+memory, allowing the program to execute. This ability to bypass static analy-
+sis makes packing particularly appealing to malware authors. The prevalence of
+packed malware can bias ML-based detectors into flagging all packed executables
+as malicious [1]. However, this assumption is flawed, as many benign programs

@@ -1,0 +1,1 @@
+Next, we  developed  a convolutional  neural  network to  automatically  differentiate  red

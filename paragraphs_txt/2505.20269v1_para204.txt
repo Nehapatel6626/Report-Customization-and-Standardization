@@ -1,0 +1,14 @@
+We used Python to implement the approaches and to run the experiments.
+TensorFlow was used to manipulate ANNs, including the training and testing
+steps. CPLEX was used as the MILP solver and accessed by the DOcplex library.
+We used 12 datasets from the UCI Machine Learning Repository2 and Penn
+Machine Learning Benchmarks3, each ranging from 9 to 32 integer, continuous,
+categorical or binary features. The number of instances in the selected datasets
+ranges from 156 to 691. The types of classification problems related to
+these datasets are binary and multi-class classification. The preprocessing
+performed on the datasets included one-hot encoding of the categorical data and
+normalization of the continuous features to the range [0, 1]. This normalization
+was not applied to the integer features to avoid transforming their space into
+continuous, which could compromise formal guarantees on the correctness of the
+algorithm. As far as we know, such a methodology was not considered in earlier
+works.

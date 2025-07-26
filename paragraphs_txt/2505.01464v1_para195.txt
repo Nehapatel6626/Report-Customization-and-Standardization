@@ -1,0 +1,1 @@
+• ξ (Epistemic Tension): ξn = ∥An+1 − An∥2

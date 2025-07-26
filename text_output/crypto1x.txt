@@ -1,0 +1,191 @@
+1
+CIS 5371   Cryptography
+Introduction
+
+Based on: Jonathan Katz & Yehuda Lindel Introduction to Modern Cryptography
+
+2
+Prerequisites for this course
+Basic Mathematics, in particular Number Theory
+Basic Probability Theory
+Problem solving skills
+Programming skills (for projects)
+3
+Goals for the Introduction
+Discuss the challenges of teaching a course in cryptography.
+Discuss the effectiveness & practicality of cryptography.
+Discuss Shannon’s encryption model.
+Discuss classical ciphers
+Discuss the foundations of cryptography.
+Establish a mindset for developing crypto- graphy systems for Information Assurance.
+
+Challenges for teaching a cryptography course
+Education problem: the gap between state-of the-art research in cryptography and standard applications.
+Two aspects of cryptanalysis: breaking systems vs proving robustness.
+The evolutionary aspect of cryptography.
+4
+5
+Classical vs Modern Cryptography
+Pre 1940: The art of writing 
+the code (e.g., hieroglyph) was the secret of the scribes
+secret codes we required for diplomacy, for individual privacy or during wars
+Post 1940: The science/technology of developing techniques for securing 
+digital information
+digital transactions and 
+distributed computations 
+Usage: 
+Pre 1970: mainly intelligence (military, diplomatic)
+Post 1970: everybody 
+6
+Modern Cryptography
+Message Encryption
+Message authentication, digital signatures
+Secret key exchange/distribution
+Secure access (access control)
+e-commerce, e-government, e-auctions,         e-voting and other e-applications.
+Digital cash (Bitcoin)
+Blockchain (chain-of-custody)
+Support system security
+. . . and more
+7
+Some key words
+Cipher: enables the expression of a public code by a secret code by making the relevant information confidential. 
+Cryptographic system: cryptographic algorithms (e.g. a cipher).
+Plaintext: information encoded by using a public code.
+Ciphertext: information encoded by using a cipher. 
+Encryption, decryption: actions that transform a plaintext to a ciphertext, and a ciphertext to a plaintext.
+8
+The setting for private key encryptionShannon encryption model
+
+
+The syntax of a cipher
+A cipher (Gen,Enc,Dec) is defined by:                 a plaintext source (with a distribution), a secret key distribution, a ciphertext space, with
+Gen: a key generation algorithm
+that is probabilistic an outputs a key k according to some distribution.
+Enc: an encryption algorithm
+That takes as input key k and a plaintext m and outputs a ciphertext c:  c = Enck(m).
+Dec: a decryption algorithm
+That takes as input a key k and a ciphertext c and outputs a plaintext m’: m’ = Deck(c).
+Must have m’ = m.
+
+9
+10
+Kerckhoffs’ principle
+“The cipher method must not be required  to be secret, and it must be able to fall into the hands of the enemy without inconvenience.’’
+[In French: Il faut qu’il n’exige pas le secret, et qu’il puisse sans inconvénient tomber entre les mains de l’ennemi.]
+Todays understanding
+Security should not rely on the secrecy of the algorithms being used---indeed these algorithms should be public.
+Open crypto design vs “security by obscurity”.
+Classical ciphers transpositions & substitutions
+Scytale cipher: Spartan warriors used it to encrypt messages.                                                           A leather belt was wrapped around a baton (cylinder): = σκυτάλη in greek. Encryption was performed by writing the message along the axis, and then unwrapping the belt. 
+Decryption involved wrapping the belt around a scytale of the same diameter and reading along the axis.
+This encryption consists of a secret permutation of the characters of the message, called a transposition.  
+
+
+
+11
+Classical cipherstranspositions and substitutions
+
+12
+Ceasar wheel
+
+Classical ciphers             transpositions and substitutions
+Ceasar’s cipher is a mono-alphabetic substitution: it uses the permutation of one alphabet.
+Vigenere’s poly-alphabetic cipher
+Multiple alphabetic substitutions are used
+Example: Keyword RELATIONS
+
+
+
+
+[R=17, t=19, K=10; E=4, o=14 , S=18,  …]
+13
+Classical Cipherscryptanalysis
+Cryptanalysis based on 
+statistical pattern of the English language:    the frequency of letters, digrams etc.
+
+
+
+
+
+
+                Relative letter frequency
+14
+Classical Ciphers, Cryptanalysis
+Cryptanalysis based on Statistical pattern of the English language:                            the frequency of digrams, trigrams etc.
+10 most popular digrams: 
+   TH, HE, IN, ER, AN, RE, ED, ON, ES, ST
+10 most popular trigrams:
+   THE, ING, AND, HER, ERE, ENT, THA, NTH, WAS, ETH
+
+
+
+
+
+
+
+               
+15
+Basic principles of modern cryptography
+Principle 1 – Formal definitions
+Importance of design
+Importance of usage
+Importance of study
+16
+Basic Principles of Modern Cryptography
+Examples for Principal 1:  Formal Definitions
+An encryption scheme is secure if no adversary can find the secret key when given a ciphertext.
+An encryption scheme is secure if no adversary can find the plaintext that corresponds to a given ciphertext.
+An encryption scheme is secure if no adversary can determine any character of the plaintext that corresponds to a given ciphertext.
+Although these capture many important aspects of privacy, they do not capture general information that the ciphertext may leak, which is not part of the plaintext itself, taking into account any information the attacker already has.
+
+17
+Basic Principles of          Modern Cryptography
+Final answer
+An encryption scheme is secure if no adversary can determine any meaningful information about the plaintext from the ciphertext.
+What is considered to be a break?
+What is assumed to be the power of the adversary?
+A first definition of security:
+A cryptographic scheme for a given task is secure if no adversary of a specified power (e.g., an “efficient adversary”)  can achieve a specific break.
+
+18
+Attack Scenarios Specific Breaks
+Ciphertext-only attack (passive):                        the adversary observes one or more ciphertext(s) and attempts to deduce information about the corresponding plaintext(s).
+Known-plaintext attacks (passive):                       the adversary is additionally able to learn one or more ciphertext/plaintext pairs using some key, and must deduce information about the plaintext of some other ciphertext produced using the same key
+Chosen-plaintext attack (active-adaptive):          the adversary is additionally able to obtain plaintext/ ciphertexts pairs of its choice.  
+19
+Attack Scenarios Specific Breaks
+Chosen-ciphertext attack (active-adaptive):       the adversary is additionally able to obtain some information  about the decryption of ciphertexts of its choice, other than the one it must decrypt (or obtain information about its plaintext).                
+Different applications of encryption may require the encryption scheme to be resilient to different types of attack.
+20
+Basic principles of Modern Cryptography
+Principal 2 – Precise Assumptions
+Validation of the assumption
+By there very nature assumptions/statements are not proven but conjectured . . . 
+Comparison of schemes
+If one scheme makes a weaker assumption than another then the first is to be preferred . . .  
+Facilitation of proofs of security
+If the security of a scheme cannot be proven unconditionally and must rely on an assumption then a mathematical proof that the construction is secure requires a precise definition of the statement.
+21
+Basic principles of Modern Cryptography
+Principal 3 – Proofs of Security
+Rigorous vs Ad Hoc Approaches to Security  (take-away: solutions that rely on definitions, assumptions and proofs are better than off-the-cuff solutions).
+Provable Security and Real-World Security       (take-away: provable security does not imply security in the real-world: it is only as good as the assumptions made)
+
+22
+Basic principles of Modern Cryptography
+Mathematics and the real world --- models
+If a definition does not model appropriately the real world problem then the definition may be useless, e.g.
+ the adversarial power may be to week, or 
+ the break may not be foreseen.
+Our arguments
+Appeal to intuition
+Proof of equivalence
+Examples
+
+23
+Basic principles of Modern Cryptography
+Rigorous Proofs of security
+Reductionist approach: 
+“Given assumption X is true, construction Y is secure according to the given definitions.”
+24

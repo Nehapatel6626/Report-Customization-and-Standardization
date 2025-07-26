@@ -1,0 +1,2 @@
+folder structure  necessary  for model  training.  They  include
+datapreperation/createclassificationfolderfrom

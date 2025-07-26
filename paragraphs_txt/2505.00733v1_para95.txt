@@ -1,0 +1,10 @@
+On the other hand, previous knowledge-based methods for RSASS(Park et al., 2012; Niemczyk and
+Geihs, 2015; Niemczyk et al., 2017; Hochgeschwender et al., 2016; Hern´andez et al., 2018; Bozhinoski
+et al., 2022) do not capture all knowledge required to enable TACA. They either lack the ability to capture
+the relationship between the robot’s actions and architecture (Hochgeschwender et al., 2016; Hern´andez
+et al., 2018; Bozhinoski et al., 2022), or the knowledge required to decide when and how the robotic
+system should adapt (Park et al., 2012). Although these works do not capture all the knowledge required
+for TACA, they are able to capture, to varying degrees, knowledge that supports RSASSs. Thus, this work
+takes inspiration from them to design ROSA’s knowledge model while addressing their limitations. More
+concretely, ROSA’s knowledge model is designed to capture the relationship between the robot’s actions
+and architecture and the knowledge required to decide when and how TACA should be performed.

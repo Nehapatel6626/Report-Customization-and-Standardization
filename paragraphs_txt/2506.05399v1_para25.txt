@@ -1,0 +1,6 @@
+Deep learning algorithms are effective at handling the com-
+plexities of image captioning. This survey offers a comprehen-
+sive analysis of transformer models and attention mechanisms
+in image captioning, providing a current overview of the rele-
+vant literature. The discussion is structured around the follow-
+ing research questions.

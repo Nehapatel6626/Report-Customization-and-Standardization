@@ -1,0 +1,1 @@
+Getoor., L., Friedman, N., Koller, D., & Taskar, B. (2001). Probabilistic Models of Relational Structure. Proc Int’l Conf Machine Learning, Williamstown.

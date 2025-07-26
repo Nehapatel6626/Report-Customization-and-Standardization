@@ -1,0 +1,3 @@
+[105] S. Dubey, F. Olimov, M. A. Rafique, J. Kim, M. Jeon, Label-attention
+transformer with geometrically coherent objects for image captioning,
+Information Sciences 623 (2023) 812–831.

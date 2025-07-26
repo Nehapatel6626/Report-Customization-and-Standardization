@@ -1,0 +1,6 @@
+where I(·) is an indicator function, ∆st denotes the state varia-
+tion, and θ is a predefined threshold. A higher αadapt signifies
+a more responsive policy, enhancing the model’s robustness
+for real-world deployment. To ensure data confidentiality, we
+integrate Differential Privacy (DP) into the federated training
+process

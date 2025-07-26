@@ -1,0 +1,1 @@
+overall, pressure and temperature variable from machine 1 are controlled more uniformly as,

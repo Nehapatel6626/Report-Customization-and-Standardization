@@ -1,0 +1,12 @@
+Data: 
+ProfitableCustomer=No, CustId=103, YearsCredit=9, LoanBalance=2400, Income=52,000, OwnHouse=Yes, OtherDelinqAccts=2, MaxBillingCyclesLate=3
+ProfitableCustomer=Yes, CustId=231, YearsCredit=3, LoanBalance=500, Income=36,000, OwnHouse=No, OtherDelinqAccts=0, MaxBillingCyclesLate=1
+ProfitableCustomer=Yes, CustId=42, YearsCredit=15, LoanBalance=0, Income=90,000, OwnHouse=Yes, OtherDelinqAccts=0, MaxBillingCyclesLate=0
+…
+Rules that might be learned from data:
+IF Other-Delinquent-Accounts > 2, AND
+   Number-Delinquent-Billing-Cycles > 1
+THEN Profitable-Customer? = No   [Deny Credit Application]
+IF Other-Delinquent-Accounts == 0, AND
+   ((Income > $30K) OR (Years-of-Credit > 3))
+THEN Profitable-Customer? = Yes  [Accept Application]

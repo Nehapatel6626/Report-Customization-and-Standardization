@@ -1,0 +1,1 @@
+In order to apply the FORTE system to the DDODB problem, we had to model and represent all relevant information from the DDODB domain in an adequate way as required by FORTE. This basically included representing both our initial domain theory and the set of examples.

@@ -1,0 +1,6 @@
+Model
+Whisper small
+Whisper medium
+Whisper large-v2
+Whisper large-v3
+Whisper large-v3-turbo

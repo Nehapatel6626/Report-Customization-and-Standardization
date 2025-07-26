@@ -1,0 +1,2 @@
+Proof. Step 1 (Stochastic Recursive Mapping):
+The update rule is defined as:

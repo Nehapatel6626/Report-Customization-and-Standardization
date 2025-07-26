@@ -1,0 +1,14 @@
+In their work, [55] proposed a method for generating cap-
+tions directly from images in Arabic. They utilized root-word-
+based recurrent neural networks and deep neural networks. The
+process involved extracting root words from the images, trans-
+lating them into morphological inflections, and then using the
+dependency tree relations of these words to establish the sen-
+tence order in Arabic. They used two datasets for their study:
+the Flickr8k dataset, which had manually written captions in
+Arabic by professional Arabic translators, and a collection of
+405,000 images with captions from various newspapers in Mid-
+dle Eastern countries. The findings indicated that the direct one-
+stage generation of Arabic captions yielded better results than a
+two-stage process involving using English captions in the Ara-
+bic translation.

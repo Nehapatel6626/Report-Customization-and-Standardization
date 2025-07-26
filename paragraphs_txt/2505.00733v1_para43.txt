@@ -1,0 +1,2 @@
+task execution and architectural adaptation. Additionally, it discusses how these works influenced the
+design of the proposed framework and highlights its distinctions from existing approaches.

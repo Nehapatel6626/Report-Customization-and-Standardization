@@ -1,0 +1,9 @@
+In a separate study, [4] presented recent work on Arabic im-
+age captioning. Their research introduced an architecture-based
+encoder-decoder that outperforms classical methods using the
+standard Neural Machine Translation (NMT) approach. This
+approach used a CNN as an encoder to extract visual informa-
+tion from the input image. At the same time, an LSTM acts
+as a decoder, producing a probability distribution over possible
+next steps to generate the caption. The proposed active learning
+framework involved human annotators to refine the automatic

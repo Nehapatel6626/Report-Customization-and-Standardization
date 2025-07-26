@@ -1,0 +1,2 @@
+Throughout this paper, the SUAVE exemplar (Silva et al., 2023) is used as an example to ease the
+understanding of the proposed solution, and later, it is used to evaluate ROSA.

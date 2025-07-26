@@ -1,0 +1,5 @@
+To enable adaptation, the knowledge model captures what can be adapted with the architectural knowledge
+depicted in Figure 2a; why to adapt and how to select an adaptation with the adaptation heuristics knowledge
+depicted in Figure 2b; and how to execute an adaptation with the reconfiguration plan knowledge depicted
+in Figure 2c. Tables 2-4 define each element in the model alongside examples based on SUAVE to ease its
+understanding.

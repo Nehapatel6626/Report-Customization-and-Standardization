@@ -1,0 +1,6 @@
+This evaluation demonstrates that in addition to SUAVE, the knowledge required for the adaptation logic
+to solve the AGV and UAV use cases can be captured with ROSA’s knowledge model. This indicates that
+ROSA’s knowledge model can be used to capture the knowledge required for TACA in adaptation scenarios
+similar to the ones presented. Furthermore, it shows that all entities and relationships contained in the
+proposed knowledge model had to be used to model the aforementioned adaptation scenarios, supporting
+their inclusion in the knowledge model.

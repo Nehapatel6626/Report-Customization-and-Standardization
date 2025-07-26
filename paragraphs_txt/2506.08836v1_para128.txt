@@ -1,0 +1,3 @@
+Additionally, we fine-tuned the XLS-R 1B model on the new SRB-300 dataset.
+This resulted in performance improvements comparable to the fine-tuned ZHAW
+small model.

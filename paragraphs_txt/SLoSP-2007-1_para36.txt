@@ -1,0 +1,9 @@
+Phrase structure organizes words into nested constituents.
+How do we know what is a constituent?  (Not that linguists don't argue about some cases.)
+Distribution: a constituent behaves as a unit that can appear in different places:
+John talked [to the children] [about drugs].
+John talked [about drugs] [to the children].
+*John talked drugs to the children about
+Substitution/expansion/pro-forms:
+I sat [on the box/right on top of the box/there].
+Coordination, regular internal structure, no intrusion, fragments, semantics, …

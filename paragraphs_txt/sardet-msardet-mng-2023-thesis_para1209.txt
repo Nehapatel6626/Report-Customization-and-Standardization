@@ -1,0 +1,1 @@
+way to do it could be to use the intuition from the t-sne observations but more conventionally,

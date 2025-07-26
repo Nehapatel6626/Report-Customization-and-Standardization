@@ -1,0 +1,4 @@
+choosePrimaryHorizontalFragmentationMethod(A,B):-
+   fdt:classification(A,selection),
+   fdt:operationAccess(A,[B]).
+   fdt:cardinality(B,large).

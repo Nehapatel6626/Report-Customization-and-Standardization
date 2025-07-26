@@ -1,0 +1,3 @@
+• Temporal: Veriﬁed airport processing + travel times
+• Spatial: Traveling routes with trafﬁc consideration
+• Safety: Continuous oven supervision requirement

@@ -1,0 +1,1 @@
+of objects in the list including the head of the list. In lines 21 through 27 we see the

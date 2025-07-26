@@ -1,0 +1,1 @@
+occurs  when there is  a  1 -to- I  relationship  between  the reference  and  AutoScope  relative  counts,

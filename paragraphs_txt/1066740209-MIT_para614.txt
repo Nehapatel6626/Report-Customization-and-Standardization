@@ -1,0 +1,1 @@
+I first train the model by feeding in each sentence at a time, converting each

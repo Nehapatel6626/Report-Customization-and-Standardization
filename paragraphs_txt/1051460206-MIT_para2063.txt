@@ -1,0 +1,1 @@
+AutoScope  achieves  better results than the  iQ-200  across all metrics,  except  for the  specificity  of

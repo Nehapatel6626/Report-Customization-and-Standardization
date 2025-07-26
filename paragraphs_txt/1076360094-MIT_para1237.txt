@@ -1,0 +1,1 @@
+epsilon value of (cid:15) ≡ 0.1 specifying successive minimum cost scores.

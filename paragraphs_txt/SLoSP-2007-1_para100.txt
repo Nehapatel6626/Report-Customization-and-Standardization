@@ -1,0 +1,5 @@
+Unable to deal with empty categories: termination problem, unless rewriting empties as constituents is somehow restricted (but then it's generally incomplete)
+Useless work: locally possible, but globally impossible.
+Inefficient when there is great lexical ambiguity (grammar-driven control might help here)
+Conversely, it is data-directed: it attempts to parse the words that are there.
+Repeated work: anywhere there is common substructure

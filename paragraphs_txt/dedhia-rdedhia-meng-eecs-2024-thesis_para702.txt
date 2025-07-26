@@ -1,0 +1,1 @@
+Lastly, many of the solutions don’t handle all possible injection attacks. For example,

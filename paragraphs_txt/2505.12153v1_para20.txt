@@ -1,0 +1,15 @@
+Federated Learning (FL) has emerged as a promising dis-
+tributed learning paradigm that addresses the privacy chal-
+lenges associated with centralized RL training. FL enables
+collaborative model training across multiple geographically
+distributed hospitals or healthcare institutions without the need
+for direct sharing of sensitive patient data [17]–[19]. In FL,
+each participating institution trains AI models locally on its
+private dataset. Subsequently, instead of sharing raw data,
+institutions share only aggregated model updates, such as
+gradients or parameter differentials, with a central server or
+aggregator. This process preserves data privacy and security by
+ensuring that sensitive patient information remains within the
+confines of individual institutions. Consequently, FL promotes
+robust collaborative learning across diverse clinical environ-
+ments while mitigating privacy risks.

@@ -1,0 +1,6 @@
+utilizes self-attention to enhance the performance of sequence-
+analysis tasks. This has led to exploring transformers in [107].
+The experimental validation was conducted using the caption
+dataset from the University of California (UC)-Merced. The
+proposed technique can potentially generate helpful textual de-
+scriptions for remote-sensing images.

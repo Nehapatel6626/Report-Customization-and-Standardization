@@ -1,0 +1,5 @@
+ROSA modular architecture has been designed to provide reuse and extensibility of the framework by
+future works applying self-adaptation principles in robotics architectures. For example, the current ROSA
+implementation supports integration with robotics architectures using planning or behavior tree solutions
+for the task deliberation layer, but it would be interesting to extend it to support other decision-making
+methods, such as state machines or Markov decision processes.

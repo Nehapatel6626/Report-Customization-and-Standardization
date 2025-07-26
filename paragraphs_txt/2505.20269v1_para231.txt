@@ -1,0 +1,3 @@
+the standard deviation is indicated by the shaded region in both Figures. Figure
+2 refers to ANNs with one hidden layer, while Figure 3 refers to ANNs with two
+hidden layers.

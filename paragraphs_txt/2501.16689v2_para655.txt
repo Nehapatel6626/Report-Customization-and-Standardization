@@ -1,0 +1,13 @@
+Input Protocol
+Role: cook
+Qualiﬁcations:
+skills
+Time:
+cook
+Role: driver
+Qs: license, rest
+Where: current GPS
+Role: supervisor
+Location: house
+Duration:
+time

@@ -1,0 +1,1 @@
+classifier is a SGDClassifier with hinge loss, L2 penalty, and 6 iterations. For featuriz-

@@ -1,0 +1,1 @@
+Our second goal is to make the system easily extendable. While we’ve developed

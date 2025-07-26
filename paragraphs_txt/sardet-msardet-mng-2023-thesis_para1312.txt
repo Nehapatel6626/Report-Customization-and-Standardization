@@ -1,0 +1,1 @@
+we choose to consider each rod measurement as an output observation for the associated

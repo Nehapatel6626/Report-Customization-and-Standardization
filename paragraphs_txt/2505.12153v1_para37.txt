@@ -1,0 +1,8 @@
+The integration of RL into surgical robotics has demon-
+strated significant potential for optimising surgical procedures,
+enhancing precision, and minimising patient risk [1]. How-
+ever, deploying RL in surgical settings presents substantial
+challenges, including data scarcity, patient variability, privacy
+concerns, and the need for dynamic policy adaptation. To
+address these challenges, we propose a FDRL framework,
+enabling multiple hospitals to collaboratively train RL models

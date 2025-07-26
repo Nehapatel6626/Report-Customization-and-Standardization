@@ -1,0 +1,4 @@
+We established guidelines for correcting the automatically generated transcrip-
+tions to ensure consistency in the ground truth transcriptions. Additionally, we
+created a list where students could enter and search for the correct spelling of
+translated words and names (Table 12).

@@ -1,0 +1,1 @@
+Output yi  =  Sigmoid(wiTx). Assign example to class with largest output (most probable class)

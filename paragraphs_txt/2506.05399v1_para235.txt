@@ -1,0 +1,15 @@
+Techniques such as CNN or RNN can generate image de-
+scriptions but cannot analyze the image over time. Moreover,
+these approaches do not consider the spatial elements of the
+image that are crucial for generating image captions. Instead,
+attention-based techniques are gaining popularity in deep learn-
+ing, as they consider the entire context when creating captions.
+They can dynamically focus on different elements of the input
+image as the output sequences are generated. These methods
+commonly use CNN to gather image data and then employ a
+language generation phase to produce words or sentences based
+on the output. Each language generation step focuses on the im-
+age’s prominent areas until reaching the final state. Although
+attention-based methods aim to identify various regions of the
+image when generating words or phrases for image captions,
+the accuracy of the attention maps produced by these methods

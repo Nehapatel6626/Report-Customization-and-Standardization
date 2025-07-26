@@ -1,0 +1,1 @@
+Figure 3: GAN-based model for image captioning [44].

@@ -1,0 +1,1 @@
+in Table 6.7. The best context was a context of 6 words, closely followed by a context

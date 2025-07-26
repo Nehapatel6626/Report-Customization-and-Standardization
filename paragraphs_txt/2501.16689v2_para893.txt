@@ -1,0 +1,6 @@
+This addition allows the workﬂow to initiate replanning at
+the earliest possible moment when upstream changes occur,
+signiﬁcantly enhancing the system’s proactive planning ca-
+pability. Since none of the planned elements have been exe-
+cuted, this reactive planning effectively functions as proac-
+tive planning.

@@ -1,0 +1,15 @@
+Recently, researchers at the Massachusetts General Hospital and the Dana Farber
+Cancer Institute built a calculator that estimates risk of cancer based on genetic
+mutations. The calculator requires a lot of high quality data from medical journals,
+which is laborious to obtain by hand.
+In this thesis, I automate the process of
+obtaining medical abstracts from PubMed and develop a classifier that uses domain
+knowledge to determine relevant abstracts. The classifier is very accurate (percent
+correct = 0.898, F1 = 0.86, recall = 0.905), and is significantly better than the
+majority baseline.
+I explore an alternative model that exploits rationales within
+abstracts, which could lead to an even greater accuracy. After determining relevant
+abstracts, it’s useful to find the size of the cohorts, which is an indicator for the quality
+of the medical study. Hence, I built a classifier that can accurately extract cohort
+sizes from abstracts (F1 = 0.883), and developed a strong baseline for distinguishing
+gene carrier cohort sizes from noncarriers.

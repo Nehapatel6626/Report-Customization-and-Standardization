@@ -1,0 +1,1 @@
+Any path through this lattice corresponds to an utterance, such as ‘Who I know’, or ‘For a give’, which correctly encodes ‘314’, though some of them may well be grammatically ill-formed and some will make no sense.

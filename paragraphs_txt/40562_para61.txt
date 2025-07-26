@@ -1,0 +1,1 @@
+Tenths of a point, such as .5 - .9 will be rounded up, e.g., 83.5 = 84 whereas .0 - .4 will be rounded down, e.g., 83.4 = 83

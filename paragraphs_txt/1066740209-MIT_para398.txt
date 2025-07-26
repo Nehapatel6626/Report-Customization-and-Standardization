@@ -1,0 +1,1 @@
+To generate a table using this tool, first initialize the table with all the column

@@ -1,0 +1,3 @@
+where Wglobal represents the globally trained model weights,
+Dall is the entire dataset from all hospitals, and H2(Dall) is
+the Shannon entropy of the full dataset.

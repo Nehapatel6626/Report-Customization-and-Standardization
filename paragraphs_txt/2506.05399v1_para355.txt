@@ -1,0 +1,11 @@
+Remote sensing image captioning (RSI) aims to generate
+descriptions of the information contained in RSIs automatically.
+The multiscale information of RSIs encompasses the properties
+and complex relationships of items of various sizes. The study
+by [102] developed a new model based on the encoder-decoder
+framework. In this model, ResNet50 serves as the encoder to
+extract multi-scale information. At the same time, a multi-layer
+aggregated transformer (MLAT) is employed in the decoder to
+construct sentences using the extracted data effectively. Addi-
+tionally, LSTM aggregates features from multiple transformer
+encoding levels to enhance feature representations.

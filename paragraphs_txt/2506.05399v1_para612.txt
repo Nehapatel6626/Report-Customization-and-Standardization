@@ -1,0 +1,3 @@
+a) Multimodal learning and cross-domain image captioning:
+Integrating vision, language, and other sensory inputs for
+richer, more context-aware captions.

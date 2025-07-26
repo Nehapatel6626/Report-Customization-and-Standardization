@@ -1,0 +1,2 @@
+(usually the point of intersection  on the  optical  axis).  Using  a thin lens  approximation  for the
+reversed  lens  system,  the focal  length f is:

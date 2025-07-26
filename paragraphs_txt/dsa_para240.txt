@@ -1,0 +1,2 @@
+It can be done in two steps: 
+Update the next link of the new node, to point to the current head node.

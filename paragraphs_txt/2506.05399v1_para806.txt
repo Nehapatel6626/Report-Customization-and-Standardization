@@ -1,0 +1,6 @@
+[3] H. N. Tien, T.-H. Do, V.-A. Nguyen, Image captioning in vietnamese
+language based on deep learning network, in: International Conference
+on Computational Collective Intelligence, Springer, 2020, pp. 789–800.
+[4] M. Cheikh, M. Zrigui, Active learning based framework for image cap-
+tioning corpus creation, in: International Conference on Learning and
+Intelligent Optimization, Springer, 2020, pp. 128–142.

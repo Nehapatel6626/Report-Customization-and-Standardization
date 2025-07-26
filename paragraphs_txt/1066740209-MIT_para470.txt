@@ -1,0 +1,1 @@
+To convert text numbers, I hard coded a list of number words, and if a word is

@@ -1,0 +1,1 @@
+*  Redesign  the mechanical  case  of the AutoScope  to  make it more user-friendly.

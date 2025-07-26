@@ -1,0 +1,1 @@
+The Hybrid Classifier combines the Decision Tree Classifiers' propensity to separate out dependent attributes, and the effective classification by the Naïve Bayes Classifier on independent attributes.

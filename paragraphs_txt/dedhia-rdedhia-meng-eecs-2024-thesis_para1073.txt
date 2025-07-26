@@ -1,0 +1,1 @@
+js_array = Uint8Array . new ( len ( encoded_data ) )

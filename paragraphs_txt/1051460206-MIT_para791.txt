@@ -1,0 +1,1 @@
+graph, with pixel  intensity vs.  relative  column position can be  seen  in Figure  3-6.  From this

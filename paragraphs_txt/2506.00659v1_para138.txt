@@ -1,0 +1,22 @@
+the remaining programs for testing. Starting from the 100 programs for each
+packer, we gradually eliminate 10 programs and create 10 different collections
+of gradually smaller sizes. We use these 10 collections to configure PackHero.
+Then, we test our approach, configured with different “training” sizes, using the
+same test dataset. The metrics we use to evaluate PackHero in this experiment
+are precision, recall, F1-score, accuracy, FPR, and the unknown rate. Each plot
+in Fig. 3 shows the macro-average results, i.e., the average results among the 9
+packers in the dataset. Looking at the precision, F1-score, recall, and accuracy,
+the tool does not perform badly even with only 10 programs per packer. Fur-
+thermore, starting from 30 samples per packer, PackHero maintains all metrics
+above 0.96. In addition, the plot shows precision and recall converge in the long
+run. We also notice that from the configuration of 70 samples for packers, Pack-
+Hero achieves a good balance between precision and recall, which means a good
+tradeoff between False Positives (FPs) and False Negatives (FNs). As regards the
+FPR and the unknown rate trends, they follow all the other metrics. The FPR is
+overall low and always below 0.00418, i.e., 0.41% of FPs. We also observe higher
+unknown rates for lower “training sizes”, which means PackHero becomes more
+confident in his choices as the “training” size increases. The plot fluctuations are
+because the experiment was done with a single run due to the computational
+cost of training and testing with 10 different configurations. However, a single
+run places PackHero in a realistic scenario with limited samples and no ability
+to select the most suitable ones for tool configuration.

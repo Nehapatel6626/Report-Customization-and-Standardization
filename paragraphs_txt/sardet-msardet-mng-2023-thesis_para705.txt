@@ -1,0 +1,1 @@
+Data measured: weight is measured with a load-cell mounted on the spindle. Mass flow

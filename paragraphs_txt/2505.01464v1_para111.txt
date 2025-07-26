@@ -1,0 +1,1 @@
+This allows for non-contractive drift early in the recursion and delayed stabilization.

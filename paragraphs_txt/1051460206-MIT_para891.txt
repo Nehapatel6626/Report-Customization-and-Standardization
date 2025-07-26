@@ -1,0 +1,1 @@
+translation,  reflection,  and rotation.  Furthermore,  the size  of training  datasets in medical  imaging

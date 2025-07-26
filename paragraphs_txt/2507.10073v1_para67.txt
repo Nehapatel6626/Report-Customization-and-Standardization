@@ -1,0 +1,10 @@
+Training Data and Alignment Biases The systematic pattern of better representation for
+Western versus non-Western cultural contexts suggests potential biases in model training data
+and alignment processes. This finding aligns with broader concerns about over-representing
+Western, Educated, Industrialized, Rich, and Democratic (WEIRD) perspectives in AI
+training data. The fact that increased model size did not consistently improve cultural
+representation fidelity suggests that the limitation is not addressed by scaling. Rather more
+deliberate efforts to ensure diverse cultural representation in training data and alignment
+processes may be necessary. It might include targeted data collection from underrepresented
+cultural contexts, culturally informed evaluation metrics, and the inclusion of diverse cultural
+perspectives in alignment objectives.

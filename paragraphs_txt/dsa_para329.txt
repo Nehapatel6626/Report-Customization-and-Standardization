@@ -1,0 +1,6 @@
+Pros
+Size determined during runtime
+Inserting and deleting elements is quick
+Cons
+No random access
+User must provide programming support

@@ -1,0 +1,1 @@
+Figure 2: A typical LSTM unit consisting of forget, input, and output gates.

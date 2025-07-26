@@ -1,0 +1,1 @@
+Table 4.3 compares the accuracy, precision, recall and F1 scores across 5 different

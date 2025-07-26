@@ -1,0 +1,13 @@
+The process of image captioning starts with an input im-
+age. The next step is image processing, which involves resiz-
+ing, normalizing, and augmenting the image. This is followed
+by feature extraction using CNN architectures like ResNet or
+Inception, which encode the features into a fixed-size vector. In
+the language processing stage, models like RNN, LSTM, GRU,
+or Transformer convert words into vectors and predict the next
+word in the sequence. The attention mechanism selectively fo-
+cuses on different parts of the image to enhance the captioning
+process. Finally, in the output stage, a descriptive caption is
+generated. For example, ”A little girl in a pink dress going into
+a wooden cabin.” This architecture effectively combines com-
+puter vision and natural language processing to automatically

@@ -1,0 +1,1 @@
+converted  the  data in Table  11  to  cumulative  probabilities.  Then,  we used  a two exponential

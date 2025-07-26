@@ -1,0 +1,1 @@
+maprole : O → {(ni, qi)}

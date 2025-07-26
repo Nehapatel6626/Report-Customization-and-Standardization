@@ -1,0 +1,3 @@
+Training  Accuracy
+--  Validation Accuracy
+Random  Selection

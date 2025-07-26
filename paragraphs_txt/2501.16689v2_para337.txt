@@ -1,0 +1,2 @@
+Ren, W. and Beard, R. W. Consensus protocols in multi-agent
+coordination. Proceedings of the IEEE, 94(3):625–641, 2005.

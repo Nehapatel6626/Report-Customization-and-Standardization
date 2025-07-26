@@ -1,0 +1,5 @@
+To address these limitations, we propose Multi-Agent
+Collaborative Intelligence (MACI), a framework designed
+to enhance reasoning and planning through a multi-
+component architecture. MACI introduces three core com-
+ponents:

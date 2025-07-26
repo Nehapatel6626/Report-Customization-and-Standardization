@@ -1,0 +1,6 @@
+• We develop a secure privacy-preserving communica-
+tion architecture by incorporating advanced cryptographic
+techniques,
+to
+safeguard sensitive medical data during federated training
+and aggregation.

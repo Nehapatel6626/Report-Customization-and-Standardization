@@ -1,0 +1,6 @@
+The sum of the counts of the clipped n gram of candidate
+sentences in corpus CCn is divided by the total number of candi-
+date n-grams. Cn is used to calculate the modified precision for
+each n-gram. It enables us to determine the sufficiency and flu-
+ency of the candidate translation relative to the reference trans-
+lation as

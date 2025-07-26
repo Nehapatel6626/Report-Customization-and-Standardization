@@ -1,0 +1,1 @@
+The Initial Theory To Be Revised.  The THY file contains predicates from the initial domain theory for FORTE to revise (i.e., concepts from the analysis algorithm that may be modified), and is illustrated in figure 6.

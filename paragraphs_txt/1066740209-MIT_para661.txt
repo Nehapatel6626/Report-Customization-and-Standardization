@@ -1,0 +1,1 @@
+Various n-gram ranges were evaluated using 5 trials. In each trial, the data array

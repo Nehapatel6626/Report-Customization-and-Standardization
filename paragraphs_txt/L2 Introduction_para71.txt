@@ -1,0 +1,4 @@
+Rosenblatt developed the perceptron learning algorithm, 
+which uses y = sign(wTx) in the output node to perform 
+multivariate binary linear classification. If the classes 
+are linearly separable, as in Boolean AND below, PLA finds a boundary in attribute space that separates members from non-members.

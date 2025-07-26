@@ -1,0 +1,4 @@
+[126] S. Banerjee, A. Lavie, Meteor: An automatic metric for mt evaluation
+with improved correlation with human judgments, in: Proceedings of the
+acl workshop on intrinsic and extrinsic evaluation measures for machine
+translation and/or summarization, 2005, pp. 65–72.

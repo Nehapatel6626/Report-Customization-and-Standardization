@@ -1,0 +1,4 @@
+15.  Shuangbao Paul Wang and Robert S. Ledley. Computer Architecture and Security. Wiley, 2013. 
+16.  IBM.  Solve higher-order binary optimization problems with q-ctrl’s optimization solver, 2024. 
+17.  IBM.  Dynamical decoupling, 2024. 
+18.  Joel J. Wallman and Joseph Emerson. Noise tailoring for scalable quantum computation via random-

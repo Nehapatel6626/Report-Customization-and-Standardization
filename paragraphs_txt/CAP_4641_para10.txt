@@ -1,0 +1,1 @@
+Textbook: “Speech and Language Processing, 2nd Edition” by Daniel Jurafsky and James H. Martin, Pearson Prentice Hall, 2009 (ISBN-13: 978-0-13-187321-6).

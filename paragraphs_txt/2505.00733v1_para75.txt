@@ -1,0 +1,11 @@
+Lotz et al. (2013) proposed a method to model operational and quality variability using two distinct
+domain-specific languages (DSLs) models. Their work provides a high-level discussion on how these
+models could be used at runtime to enable architectural adaptation based on the actions executed by the
+robot. An interesting aspect of their approach is the clear separation between functional and non-functional
+requirements: one model captures the task deliberation logic, functional requirements, and their variation
+points, while the other focuses on non-functional requirements and their possible variations. While this
+separation of concerns simplifies the modeling process, combining task deliberation with functional
+requirements reduces reusability. Any change in the task deliberation logic directly impacts the modeling
+of functional requirements, making the approach less flexible. Additionally, they do not provide sufficient
+details on how these models are used at runtime, nor do they present an evaluation to demonstrate the
+feasibility of their approach.

@@ -1,0 +1,1 @@
+spreadsheet programs such as Excel. The user has the ability to edit the list of whitelisted

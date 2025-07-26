@@ -1,0 +1,4 @@
+Image Captioning, and Transformer-Based Image Captioning.
+The state-of-the-art image captioning methods are provided in
+Table 2. Furthermore, Table 6 offers a summary of image cap-
+tioning models for different languages.

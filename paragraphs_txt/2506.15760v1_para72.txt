@@ -1,0 +1,1 @@
+3.  Implement modular exponentiation xa modN on the function registers, the state be-

@@ -1,0 +1,1 @@
+[12]  J. Rennie, “Improving multi-class text classification with Naive bayes,” Proceedings of ICML, 2003.

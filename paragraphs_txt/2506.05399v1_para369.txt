@@ -1,0 +1,6 @@
+(LSTNet) to facilitate local object recognition during caption-
+ing. They also employed layer-specific fusion (LSF) for cross-
+layer semantic complement, combining information from mul-
+tiple encoder layers. The experimental results demonstrated
+that LSTNet’s local visual modeling outperformed many state-
+of-the-art captioning models.

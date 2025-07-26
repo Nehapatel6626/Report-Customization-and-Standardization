@@ -1,0 +1,1 @@
+The  sensitivity  and  specificity  measure  the ability  of a test to  accurately  separate  inputs

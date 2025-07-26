@@ -1,0 +1,13 @@
+The transformer network uses an encoder-decoder architec-
+ture similar to RNN but with a key distinction. Unlike RNNs,
+transformers can simultaneously process the entire input sen-
+tence or sequence without any time step associated with the
+input. Transformers consist of N identical layers, each con-
+taining three sub-layers. The first layer utilizes a multi-head
+self-attention technique, including a mechanism to prevent the
+model from seeing future data, ensuring that the model only
+uses prior words to generate the current term. The second layer
+performs multi-head attention over the output of the first layer,
+serving as the foundation for correlating text and visual infor-
+mation with the attention mechanism. The third layer is a fully
+connected feedforward network. Following layer normaliza-

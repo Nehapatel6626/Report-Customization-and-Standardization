@@ -1,0 +1,8 @@
+Mathematics and the real world --- models
+If a definition does not model appropriately the real world problem then the definition may be useless, e.g.
+ the adversarial power may be to week, or 
+ the break may not be foreseen.
+Our arguments
+Appeal to intuition
+Proof of equivalence
+Examples

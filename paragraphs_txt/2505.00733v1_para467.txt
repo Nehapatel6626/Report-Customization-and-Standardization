@@ -1,0 +1,4 @@
+ROSA: In TypeDB, each entity and relationship is inserted in the KB with TypeQL queries such as the
+ones presented in Listing 5. Thus, the total number of queries that the roboticist must define to solve an
+adaptation scenario is equal to the sum of the number of entities and relationships contained in the model,
+with a clear separation between the task and adaptation logic.

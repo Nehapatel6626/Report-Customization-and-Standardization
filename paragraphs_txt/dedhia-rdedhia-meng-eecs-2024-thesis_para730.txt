@@ -1,0 +1,1 @@
+sanitize a CSV file. The code for the browser extension can be found at the following link:

@@ -1,0 +1,5 @@
+Learning general models from a data of particular examples 
+Data is cheap and abundant (data warehouses, data marts); knowledge is expensive and scarce. 
+Example in retail: Customer transactions to consumer behavior: 
+	People who bought “Da Vinci Code” also bought “The Five People You Meet in Heaven”  (www.amazon.com)
+Build a model that is a good and useful approximation to the data.

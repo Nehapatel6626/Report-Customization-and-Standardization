@@ -1,0 +1,5 @@
+[48] T. Wolf, J. Chaumond, L. Debut, V. Sanh, C. Delangue, A. Moi, P. Cis-
+tac, M. Funtowicz, J. Davison, S. Shleifer, et al., Transformers: State-
+of-the-art natural language processing, in: Proceedings of the 2020 Con-
+ference on Empirical Methods in Natural Language Processing: System
+Demonstrations, 2020, pp. 38–45.

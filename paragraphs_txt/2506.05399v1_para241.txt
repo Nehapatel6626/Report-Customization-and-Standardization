@@ -1,0 +1,8 @@
+Attention mechanisms are widely used in applications such
+as image captioning, machine translation, speech recognition,
+image synthesis, and visual question-answering models [5] [53].
+Attention has been shown to connect the meaning of features,
+which aids in understanding how one aspect relates to another.
+Incorporating this into a neural network helps the model fo-
+cus on the most important and relevant features while ignoring
+other noisy parts of the data space distribution [35].

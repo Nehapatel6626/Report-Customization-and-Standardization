@@ -1,0 +1,4 @@
+Figure 9. Snippet of the BT used to capture SUAVE’s task and adaption logic. WV and BL represent the
+measured water visibility and battery level, respectively. GSP, MM, and FP represent SUAVE’s generate
+search path node, maintain motion node, and follow pipeline node, respectively. The set action changes the
+system’s modes.

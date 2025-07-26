@@ -1,0 +1,7 @@
+~5 Lab exercises – 50%
+~2 Papers – 25%
+Final design project – 25%
+Folks taking for graduate credit 
+Research/deploy an additional technology
+Pick your technology soon
+e.g. PAM, AppArmour, BitLocker

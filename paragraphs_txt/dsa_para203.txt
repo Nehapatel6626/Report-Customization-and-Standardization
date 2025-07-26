@@ -1,0 +1,6 @@
+Need to define a size for array
+High overestimate (waste of space)
+insertion and deletion is very slow
+need to move elements of the list
+redundant memory space
+it is difficult to estimate the size of array

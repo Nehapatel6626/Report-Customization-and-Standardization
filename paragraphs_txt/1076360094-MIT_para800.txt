@@ -1,0 +1,1 @@
+Sample Synthesis. This could be done by loading a folder of ﬁles and generating labels.

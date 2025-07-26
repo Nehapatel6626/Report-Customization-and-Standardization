@@ -1,0 +1,14 @@
+In addition, [58] developed a new Arabic image caption-
+ing dataset and evaluated two models with this dataset, demon-
+strating the superiority of the end-to-end model. Fig. 7 illus-
+trates the proposed model employing a sequence-to-sequence
+encoder-decoder framework for image captioning. This involves
+encoding the input image into a feature vector using CNN and
+decoding that feature vector into an Arabic sentence using RNN.
+An automatic model that converts standard Arabic children’s
+stories into representative images that support the meaning of
+the words was proposed by [95]. The method consists of seven
+steps: Keyword extraction, query formulation, image selection,
+captioning, sentence similarity, image ranking, and image eval-
+uation. Teachers or parents can use this system to help children
+review the materials they have studied in school.

@@ -1,0 +1,10 @@
+Answer to RQ1. The number of packed programs required to configure Pack-
+Hero depends on the desired performance level. With just 10 samples per packer,
+PackHero achieves a minimum macro-average F1 score of 93.7% and accuracy of
+98.7%. Increasing the sample size to 30 can further improve recall and F1-score
+while maintaining high precision and accuracy. Table 3 demonstrates PackHero’s
+ability to effectively identify multiple packers from different families. Given the
+dataset’s composition, PackHero successfully integrates and recognizes packers
+of varying complexity in both packed malware and benign programs. Specifically,
+based on the taxonomy by Ugarte-Pedrero et al. [34], PackHero performs well
+on Type-I (UPX), VM-based (Themida), and Type-III (PECompact) packers.

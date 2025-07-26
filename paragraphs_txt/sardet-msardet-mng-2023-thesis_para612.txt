@@ -1,0 +1,1 @@
+gated data are stored on a cloud from where they can be pulled in csv or excel formats which

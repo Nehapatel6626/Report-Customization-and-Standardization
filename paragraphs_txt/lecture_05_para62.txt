@@ -1,0 +1,7 @@
+But that generates a huge search space
+Initial state is the word we’re transforming
+Operators are insert, delete, substitute
+Goal state is the word we’re trying to get to
+Path cost is what we’re trying to minimize
+Navigating that space in a naïve backtracking fashion would be incredibly wasteful
+Why?

@@ -1,0 +1,5 @@
+As a future work, we intend to integrate learning in ROSA. For example, machine learning methods
+could be explored to update at runtime the Quality Attribute and Environmental Attribute
+estimations and constraints values. Another possibility is learning that constraints and estimations exist
+without prior knowledge, i.e., learning that the relationship itself should be modeled. ROSA’s interfaces to
+manipulate the KB at runtime could be exploited for this end.

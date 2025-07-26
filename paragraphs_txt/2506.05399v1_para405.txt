@@ -1,0 +1,22 @@
+The study by [120] emphasized the importance of visual
+relationships among objects, advancing the field of image cap-
+tioning. Traditional image captioning models typically focus on
+object detection and identification, generating descriptive text
+based solely on these aspects. However, such approaches often
+neglect the intricate connections and interactions between ob-
+jects that can greatly enhance the depth of the captions. The
+authors introduced a new approach integrating a visual rela-
+tionship module into the captioning architecture to address this
+limitation. This module analyzes and encodes the interactions
+between elements in an image using a graph-based representa-
+tion. This enables the model to understand better and express
+the spatial and functional relationships between items, result-
+ing in more detailed and contextually accurate captions. The
+research offered a comprehensive analysis of their methodol-
+ogy, demonstrating significant improvements in relevance and
+caption quality compared to existing approaches. The authors
+expanded the boundaries of current image captioning systems
+by showcasing through extensive experiments that incorporat-
+ing visual relationships enhanced the descriptive power of the
+captions and improved the model’s ability to generate coherent
+and contextually appropriate descriptions.

@@ -1,0 +1,3 @@
+Example
+An AUV can have the Measures
+battery level or water visibility

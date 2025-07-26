@@ -1,0 +1,7 @@
+void enqueue(Object x) {
+	if (is_empty())
+		front = back = new Node(x)
+	else
+		back->next = new Node(x)
+		back = back->next
+}

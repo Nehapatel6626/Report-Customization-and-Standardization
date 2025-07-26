@@ -1,0 +1,6 @@
+Acknowledgments. We thank our industrial project partners for providing the audio
+and metadata for the new SRB-300 corpus. Additionally, we appreciate the assistance
+of our students in reviewing and correcting the transcriptions. We also thank all our
+colleagues at ETHZ, FHNW, and ZHAW for making their datasets SwissDial, SPC,
+SDS-200, and STT4SG-350 available. Innosuisse funded this study under project num-
+ber 105.791 IP-ICT.

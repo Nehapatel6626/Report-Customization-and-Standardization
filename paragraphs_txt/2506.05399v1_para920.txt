@@ -1,0 +1,3 @@
+[102] C. Liu, R. Zhao, Z. Shi, Remote-sensing image captioning based on
+multilayer aggregated transformer, IEEE Geoscience and Remote Sens-
+ing Letters 19 (2022) 1–5.

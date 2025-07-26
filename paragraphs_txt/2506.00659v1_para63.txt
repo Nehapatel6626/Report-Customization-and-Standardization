@@ -1,0 +1,4 @@
+Requirement 4 - Scalability. It must handle a growing number of packers
+without performance degradation, integrating new ones seamlessly without ma-
+jor architectural changes or resource demands. In other words, it must handle
+many/several packer families in parallel.

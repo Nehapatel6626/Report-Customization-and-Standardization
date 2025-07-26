@@ -1,0 +1,1 @@
+image  remains the  same.  In other words, the information  contained  in the upsampled image  is the

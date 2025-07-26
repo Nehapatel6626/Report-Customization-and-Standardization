@@ -1,0 +1,5 @@
+30. Raff, E., Zak, R., Lopez Munoz, G., Fleming, W., Anderson, H.S., Filar, B.,
+Nicholas, C., Holt, J.: Automatic yara rule generation using biclustering. In: Pro-
+ceedings of the 13th ACM Workshop on Artificial Intelligence and Security. p.
+71–82. AISec’20, Association for Computing Machinery, New York, NY, USA
+(2020). https://doi.org/10.1145/3411508.3421372

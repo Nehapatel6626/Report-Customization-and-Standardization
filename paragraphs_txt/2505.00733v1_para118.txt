@@ -1,0 +1,15 @@
+(CDM) conforming to a
+is presented as a conceptual data model
+particular case of the enhanced entity-relationship (EER)Thalheim (1993, 2000) model, an extension
+of
+that accounts for subclassing and higher-order
+relationships, i.e., relations between relationships. The EER model captures information as entities,
+relationships, and attributes. An entity is a “’thing’ which can be distinctly identified” Chen (1976),
+a relationship is an association among entities or relationships, and an attribute represents a
+property of an entity or relationship Thalheim (1993, 2000). In addition, entities and relationships
+play a role in the relationships they are part of, which is identified by the label on the
+arrows in Figure 2. This CDM was selected since it supports n-ary relationships, many-to-
+many relationships, higher-order relationships, and attributes for both entities and relationships.
+Section 6.1 details why these representation capabilities are relevant to the proposed model. The rules are
+also described at a conceptual level as decision diagrams. Section 6.2 presents the details on how the
+knowledge model and rules can be implemented and executed and runtime.

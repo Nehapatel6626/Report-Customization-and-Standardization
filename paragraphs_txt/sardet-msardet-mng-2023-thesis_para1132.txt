@@ -1,0 +1,1 @@
+constructs a probability distribution over pairs of high-dimensional objects in such a way

@@ -1,0 +1,1 @@
+this is fine. For example, "ATM-positive" should still be converted to "gene-positive".

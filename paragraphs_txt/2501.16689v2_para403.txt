@@ -1,0 +1,4 @@
+fedge
+dist(·) Capability distance
+mapedge Dependency
+tion

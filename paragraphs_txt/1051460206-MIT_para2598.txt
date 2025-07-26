@@ -1,0 +1,1 @@
+AutoScope  resolutions.  This served  as  a proof of concept  of the classification  algorithm.  Next,

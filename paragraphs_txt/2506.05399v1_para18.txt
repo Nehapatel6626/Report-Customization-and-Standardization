@@ -1,0 +1,14 @@
+Image captioning combines research from the computer vi-
+sion and natural language processing communities [1]. A cap-
+tioning model aims to present a scene and text, a task that comes
+naturally to the human brain. It is common for humans to in-
+terpret information quickly from an image at one glance. How-
+ever, challenges such as parallax errors make image captioning
+a complex problem that is not fully resolved. This error can
+make it difficult for the human eye and computer vision sys-
+tems to detect objects at certain angles where their appearance
+changes, making them hard to recognize. In addition, objects
+of the same class might have various shapes and appearances
+from different angles, further complicating the task. Overlap-
+ping objects and scene clutter also pose challenges for accurate
+object detection [7].

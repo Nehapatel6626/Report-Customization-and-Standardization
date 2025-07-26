@@ -1,0 +1,8 @@
+Sample Generation The samples were extended by 0.2 seconds at both the
+beginning and the end to ensure that no utterances were inadvertently cut off due
+to inaccuracies in the rounded timestamps. Each sample was assigned a random
+identifier and automatically supplemented with metadata, including details such
+as the broadcast station, speaker gender, and its position (index) within the
+entire broadcast. A detailed description of each available attribute is provided
+in Table 2. This data was obtained from the original metadata accompanying
+the raw audio data.

@@ -1,0 +1,7 @@
+exposing patient data. The integration of privacy-enhancing
+techniques such as DP, SMPC, and HE ensures robust pro-
+tection against privacy threats while maintaining high surgical
+precision. The dynamic policy adaptation mechanism further
+enhances adaptability by selecting optimal RL policies based
+on patient-specific conditions and surgical complexities, im-
+proving decision-making in robotic-assisted procedures.

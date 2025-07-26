@@ -1,0 +1,5 @@
+Fig. 2. Federated Deep Reinforcement Learning Architecture for Privacy-
+Preserving Robotic-Assisted Surgery. The framework illustrates a multi-
+layered workflow comprising local RLtraining at distributed hospitals usingDP
+and HE, secure aggregation at the federated aggregator, and optimal surgical
+policy selection at the robotic decision layer using a MSS.

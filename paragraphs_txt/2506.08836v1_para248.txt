@@ -1,0 +1,6 @@
+13. Lodagala, V.: Fine-tuning and evaluating Whisper models for Automatic Speech
+Recognition (May 2023), https://github.com/vasistalodagala/whisper-finetune
+14. Loshchilov, I., Hutter, F.: Decoupled Weight Decay Regularization. In: 7th Inter-
+national Conference on Learning Representations, ICLR 2019, New Orleans, LA,
+USA, May 6-9, 2019. OpenReview.net (2019), https://openreview.net/forum?id=
+Bkg6RiCqY7

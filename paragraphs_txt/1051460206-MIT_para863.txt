@@ -1,0 +1,1 @@
+CNNs  are trained on  batches  of images.  So,  for each  forward and backpropagation  through a

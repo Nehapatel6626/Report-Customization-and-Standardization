@@ -1,0 +1,4 @@
+At 10:00 AM Eastern time, Sarah is notiﬁed that James’s
+ﬂight is delayed by three hours, with a new arrival time of
+4:00 PM. Incorporating this unexpected delay, MP gener-
+ates a reactive plan, WR.

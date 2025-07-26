@@ -1,0 +1,4 @@
+In this case, first node (current head node) is removed from the list.
+It can be done in two steps: 
+Update head link to point to the node, next to the head. 
+Dispose removed node.

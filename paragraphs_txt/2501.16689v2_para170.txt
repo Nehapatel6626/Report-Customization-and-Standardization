@@ -1,0 +1,3 @@
+This structured state space allows the meta-planner to gen-
+erate workﬂows that account for all relevant constraints and
+dependencies across diverse domains.

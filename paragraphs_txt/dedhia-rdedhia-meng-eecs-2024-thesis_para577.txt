@@ -1,0 +1,1 @@
+A fourth advantage of CSV files is that their structure is simple and lightweight. They

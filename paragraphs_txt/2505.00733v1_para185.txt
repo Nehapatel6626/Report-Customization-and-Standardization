@@ -1,0 +1,27 @@
+Definition
+“Measure is defined as a function
+over observations, state variables,
+and parameters.”(iee, 2024)
+Quality Attribute is defined as a
+function over the system’s state
+variables. Which, according to
+the Software Engineering Body
+of Knowledge (Board, 2023),
+can be considered as “System
+functional
+non-functional
+requirements used to evaluate the
+system performance”
+Environmental Attribute is defined
+as a function over observations
+is,
+the environment. That
+of
+it
+the
+represents a metric of
+environment with respect
+to a
+certain attribute
+Represents the Actions required
+at runtime

@@ -1,0 +1,1 @@
+function with respect  to  each trainable  weight  to iteratively  update  each weight  in the network.

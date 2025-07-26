@@ -1,0 +1,1 @@
+– Make sure that sampling time is constant.

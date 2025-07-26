@@ -1,0 +1,4 @@
+24. Muralidharan, T., Cohen, A., Gerson, N., Nissim, N.: File packing from the mal-
+ware perspective: Techniques, analysis approaches, and directions for enhance-
+ments. ACM Comput. Surv. 55(5) (dec 2022). https://doi.org/10.1145/3530810
+25. Oreans Technologies: Winlicense. https://www.oreans.com/WinLicense.php, ac-

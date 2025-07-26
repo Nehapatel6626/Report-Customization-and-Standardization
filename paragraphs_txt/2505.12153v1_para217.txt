@@ -1,0 +1,5 @@
+where Wi represents the policy weights at hospital i, Di is
+the local dataset at hospital i, and H2(Di) denotes Shannon
+entropy (in bits) for dataset Di. For Centralized Training,
+where data is aggregated across all hospitals, the PLR is given
+by

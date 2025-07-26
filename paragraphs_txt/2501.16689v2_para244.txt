@@ -1,0 +1,2 @@
+The planner monitors nodes and edges, enabling dynamic
+adjustments. The full speciﬁcations are in Appendix E.

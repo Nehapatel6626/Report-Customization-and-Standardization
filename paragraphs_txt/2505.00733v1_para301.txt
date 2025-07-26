@@ -1,0 +1,15 @@
+Name
+∼/function/adaptable
+∼/function designs/selectable
+∼/function designs/priority
+∼/component/adaptable
+∼/component configuration/selectable
+∼/component configuration/priority
+∼/select configuration
+∼/reconfiguration plan/get latest
+∼/reconfiguration plan/result/set
+∼/component/active/set
+∼/component parameters/get
+∼/action/selectable
+∼/action/request
+∼/query

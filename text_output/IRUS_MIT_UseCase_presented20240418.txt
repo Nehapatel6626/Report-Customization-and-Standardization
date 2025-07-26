@@ -1,0 +1,125 @@
+Institutional Repository Usage Statistics 
+(IRUS) at DSpace@MIT
+
+Sadie Roosa
+April 18, 2024
+LyrOpen Fair
+
+Introduction
+
+Sadie Roosa - Collections Strategist for 
+Repository Services at MIT
+
+DSpace@MIT - custom DSpace 6.3 app, hosted 
+by Atmire
+IRUS set up in October 2023 
+
+Overview
+
+• Why we chose to set up IRUS
+• Benefits and potential benefits of IRUS
+• How we are using IRUS so far
+• Challenges with usage stats
+
+Open scholcomm 
+infrastructure
+Libraries budget repurposed for open and 
+equitable scholarship
+
+Supporting open infrastructure, not just open 
+content
+
+Standard - COUNTER
+
+Better align reporting on use of content in our 
+repository with user of other libraries collections
+
+Better align reporting on use of content in our 
+repository with use of content in other (non-
+DSpace) repositories
+
+Demonstrating value
+
+A more centralized, transparent place to show 
+how much our repository is used and add to the 
+story of how much repositories are used across 
+the board
+- Breakdowns by country of user
+- Breakdowns by content type
+
+Easy set up
+
+● Easy to set up
+
+a. DSpace 6 tracker code plug in (tracker code 
+incorporated in codebase from DSpace 7 on)
+
+b. Simple onboarding document with Lyrasis
+c. Only took a few emails back and forth!
+
+Potential benefits
+
+● DOI and ORCID search promises a lot
+a. a reason to work towards better ORCID 
+
+integration in our repository
+
+b. a reason to promote more folks to use IRUS so 
+
+we can aggregate more stats on DOIs 
+representing items deposited in multiple 
+repositories
+
+How we are using IRUS
+
+So far just running reports manually for content 
+types of interest and regular monthly/annual 
+reporting
+
+What can we use it to count?
+
+● Monthly/yearly use since we set IRUS up
+
+• Entire repository
+• Specific content types
+
+•
+
+Individual items
+
+● Most popular items in various categories for a set period 
+
+of time
+
+• Ex: Most popular thesis by total item requests in February 2024
+
+What can’t we use it to count?
+
+● All time numbers
+
+• Especially for individual items, most authors, 
+librarians, and users are interested in total 
+download count
+
+● Our repository has been around since 2002 and 
+there are 130,000+ items that have previous 
+downloads not counted in IRUS
+
+Reporting on subsets
+
+● Our repository isn’t organized by content types 
+
+and not everything has a content type 
+
+● We’ve historically reported along collection lines 
+
+and we can’t do that in IRUS
+
+a. Do we do both?
+b. Do we shift what we’re reporting on?
+
+Thank you!
+
+Please feel free to reach out at sroosa@mit.edu
+
+

@@ -1,0 +1,17 @@
+Makes data reading errors,
+compromising solution ac-
+curacy
+Unable to implement exact
+algorithms like Held-Karp
+None observed for
+this
+problem size
+Requires external guidance
+for algorithm selection and
+parameter tuning
+Requires more computa-
+tional resources with larger
+ant population and itera-
+tion count
+None signiﬁcant for given
+problem

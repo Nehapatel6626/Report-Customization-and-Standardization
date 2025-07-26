@@ -1,0 +1,1 @@
+ground  truth label.  For  q, the  softmax function transforms the  raw  class scores  produced by  the

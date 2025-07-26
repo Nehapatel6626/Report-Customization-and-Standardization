@@ -1,0 +1,10 @@
+respect to urine  solutions composed  of RBCs,  WBCs,  and microbeads.  The  specificity  and
+sensitivity was  determined  by  generating  209  digital urine  specimens modeled  after urine
+received in  medical  labs.  The  Autoscope  had a  sensitivity  of 88%  and 91%  and a specificity  of
+89% and 97% for RBCs  and WBCs,  respectively.  Next, we determined  the  Autoscope's  accuracy
+by fabricating  8  synthetic  urine  samples  with RBCs,  WBCs and microbeads.  The  reference
+results  were  confirmed through  a medical  laboratory.  The  AutoScope's  counts  and the  reference
+counts were  linearly  correlated  to  each other  (r2= 0.980)  across  all particles.  The  sensitivity,
+specificity,  and R-squared values  for the AutoScope  are  comparable  (and mostly better)  than the
+same metrics  for the  iQ-200,  a $100,000-$150,000  state-of-the-art  semi-automated  urinalysis
+system.

@@ -1,0 +1,6 @@
+CSV injection occurs when an attacker injects malicious code into a CSV file, and this
+code is executed when the file is opened in a spreadsheet program. This type of attack is
+possible because most spreadsheet programs have a set of built-in functions that run auto-
+matically when a CSV file is opened with the spreadsheet program. Given the widespread
+usage of CSV files and programs that interpret those CSV files, the risk posed by such CSV
+injection attacks is great.

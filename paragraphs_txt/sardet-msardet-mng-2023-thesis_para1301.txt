@@ -1,0 +1,2 @@
+Figure 4.22: Example of studying how coherent clusters identified by k-means/k-medoids
+algorithms are with know deposition machines hardware changes.

@@ -1,0 +1,4 @@
+An algorithm modeled after 
+the brain that can be trained 
+might give good results even 
+if we don’t know why.

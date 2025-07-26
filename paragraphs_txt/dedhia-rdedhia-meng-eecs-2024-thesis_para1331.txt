@@ -1,0 +1,1 @@
+https://vulncat.fortify.com/en/detail?id=desc.dataflow.java.formula_injection

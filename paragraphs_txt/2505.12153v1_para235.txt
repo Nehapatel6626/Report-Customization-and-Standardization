@@ -1,0 +1,3 @@
+where πi(a|s) is the policy trained on hospital
+πglobal(a|s) is the globally trained policy.
+The average policy divergence in FL is

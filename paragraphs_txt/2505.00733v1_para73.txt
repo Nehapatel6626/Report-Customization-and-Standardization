@@ -1,0 +1,7 @@
+In the context of knowledge-based methods, Alberts et al. (2025) identified six studies (Park et al.,
+2012; Niemczyk and Geihs, 2015; Hochgeschwender et al., 2016; Niemczyk et al., 2017; Bozhinoski and
+Wijkhuizen, 2021; Silva et al., 2023) that use knowledge representation techniques to capture knowledge
+required for the adaptation logic. Among these, (Bozhinoski and Wijkhuizen, 2021; Silva et al., 2023) do
+not propose solutions for RSASSs but instead demonstrate the application of Metacontrol (Hern´andez et al.,
+2018; Bozhinoski et al., 2022) in different robotics use cases. While these methods do not address TACA,
+they provide valuable insights for designing knowledge-based approaches to self-adaptation.

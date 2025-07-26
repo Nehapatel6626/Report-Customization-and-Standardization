@@ -1,0 +1,1 @@
+• Completion Checker Agent: Veriﬁes tour completeness

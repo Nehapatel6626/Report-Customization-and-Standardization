@@ -1,0 +1,12 @@
+1943     	McCulloch & Pitts: Boolean circuit model of brain
+1950     	Turing's "Computing Machinery and Intelligence"
+1956		Dartmouth meeting: "Artificial Intelligence" adopted
+1952—69	Look, Ma, no hands! 
+1950s	Early AI programs, including Samuel's checkers		program, Newell & Simon's Logic Theorist, 		Gelernter's Geometry Engine
+1965		Robinson's complete algorithm for logical reasoning
+1966—73	AI discovers computational complexity		Neural network research almost disappears
+1969—79	Early development of knowledge-based systems
+1980-- 	AI becomes an industry 
+1986-- 	Neural networks return to popularity
+1987--	AI becomes a science 
+1995--	The emergence of intelligent agents

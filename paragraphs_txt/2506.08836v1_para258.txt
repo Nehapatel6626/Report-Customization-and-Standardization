@@ -1,0 +1,4 @@
+22. Plüss, M., Neukom, L., Scheller, C., Vogel, M.: Swiss Parliaments Corpus, an
+Automatically Aligned Swiss German Speech to Standard German Text Corpus.
+In: Proceedings of the Swiss Text Analytics Conference 2021. Online (Jun 2021),
+https://ceur-ws.org/Vol-2957/paper3.pdf

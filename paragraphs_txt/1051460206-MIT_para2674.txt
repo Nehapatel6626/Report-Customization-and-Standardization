@@ -1,0 +1,5 @@
+2.  LabelingAlgos
+This  folder  contains  scripts to  build tools that allow  a user to manually  label  the location  and
+type of particle  in AutoScope  images.  This is done  to develop  a training dataset.  The training
+datasets  are  fed  into the training  scripts  above.
+3.  Sub-Tasks

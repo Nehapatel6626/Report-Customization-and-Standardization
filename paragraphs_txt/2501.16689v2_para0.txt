@@ -1,0 +1,2 @@
+MACI: Multi-Agent Collaborative Intelligence
+for Adaptive Reasoning and Temporal Planning

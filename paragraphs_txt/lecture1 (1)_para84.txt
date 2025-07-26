@@ -1,0 +1,9 @@
+void push(Object x) {
+	assert(!is_full())
+	S[back] = x
+	back++
+}
+Object top() {
+	assert(!is_empty())
+	return S[back - 1]
+}

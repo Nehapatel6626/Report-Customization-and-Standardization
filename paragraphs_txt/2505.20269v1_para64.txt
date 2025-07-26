@@ -1,0 +1,11 @@
+In machine learning, classification problems are defined over a set of n features
+F = {x1, ..., xn} and a set of N classes K = {c1, c2, ..., cN }. In this work, we
+consider that each feature xi ∈ F takes its values vi from the domain of real
+numbers. Moreover, each feature xi has an upper bound ui and a lower bound
+li such that li ≤ xi ≤ ui, and its domain is the closed interval [li, ui]. This is
+represented as a set of domain constraints or feature space D = {l1 ≤ x1 ≤
+u1, l2 ≤ x2 ≤ u2, ..., ln ≤ xn ≤ un}. For example, a feature for the height of a
+person belongs to the real numbers and may have lower and upper bounds of
+0.5 and 2.1 meters, respectively. Furthermore, {x1 = v1, x2 = v2, ..., xn = vn}
+represents a specific point or instance of the feature space such that each vi is
+in the domain of xi.

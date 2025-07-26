@@ -1,0 +1,3 @@
+Cox, M. T. and Veloso, M. M. Goal transformations in continu-
+ous planning. AAAI Fall Symposium on Distributed Continual
+Planning, pp. 23–30, 1998.

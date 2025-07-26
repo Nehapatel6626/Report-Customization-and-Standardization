@@ -1,0 +1,4 @@
+Figure 3.7: Kendall’s correlation coefficients matrix between the time series variables Weight,
+O2 flow, H2 flow, SiCl4 flow, GeCl4 flow, Diameter, C2H2 flow, Make O2 flow, Tail End
+Burner H2 flow, Head End Burner H2 flow, Tail End Burner O2 flow, Head End Burner O2
+flow and Inner O2 flow.

@@ -1,0 +1,3 @@
+Beetz, M., M¨osenlechner, L., and Tenorth, M. (2010). CRAM — A Cognitive Robot Abstract Machine
+for everyday manipulation in human environments. In 2010 IEEE/RSJ International Conference on
+Intelligent Robots and Systems. 1012–1017. doi:10.1109/IROS.2010.5650146

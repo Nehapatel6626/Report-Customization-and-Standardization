@@ -1,0 +1,1 @@
+matrix.  Another way  to visualize  a transpose  convolution is through an  upsampling  scheme

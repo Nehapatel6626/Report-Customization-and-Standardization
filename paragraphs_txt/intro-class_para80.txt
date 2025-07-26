@@ -1,0 +1,2 @@
+Human agent: eyes, ears, and other organs for sensors; hands,
+legs, mouth, and other body parts for actuators

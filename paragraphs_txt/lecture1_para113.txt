@@ -1,0 +1,1 @@
+corporate cybersecurity = availability, integrity and secrecy of information systems and networks in the face of attacks, accidents and failures with the goal of protecting a corporation’s operations and assets

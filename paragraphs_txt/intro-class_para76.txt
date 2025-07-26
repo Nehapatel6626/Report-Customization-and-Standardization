@@ -1,0 +1,5 @@
+Agents and environments
+Rationality
+PEAS (Performance measure, Environment, Actuators, Sensors)
+Environment types
+Agent types

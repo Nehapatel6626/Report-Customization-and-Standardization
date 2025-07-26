@@ -1,0 +1,1 @@
+3. Extract cohort sizes to be used for rating papers based on quality of the study

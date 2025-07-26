@@ -1,0 +1,4 @@
+• Dynamic Programming (DP): Decomposes prob-
+lems into sequential subproblems, useful for validat-
+ing processes like inter-terminal walking or luggage
+claiming time (Bellman, 1957).

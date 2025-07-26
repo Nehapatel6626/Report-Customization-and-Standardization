@@ -1,0 +1,5 @@
+The ANOVA results provide strong evidence that current LLMs, despite generating su-
+perficially different text when prompted with different cultural personas, often fail to
+produce statistically distinct response patterns that would reflect genuine differences in
+moral frameworks. This homogenization effect undermines the validity of using these
+models to represent diverse cultural perspectives in synthetic social science research.

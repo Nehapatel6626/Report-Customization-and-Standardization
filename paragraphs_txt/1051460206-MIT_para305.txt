@@ -1,0 +1,2 @@
+to  leverage  this operation to  increase  performance.  Specifically,  instead  of applying  the Nf
+operation of each neuron separately,  the  operation of the  fully connected  layer can be  represented

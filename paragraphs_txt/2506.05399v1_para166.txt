@@ -1,0 +1,14 @@
+The Long Short-Term Memory Network (LSTM) is a type
+of recurrent neural network (RNN) known for its superior per-
+formance. However, training LSTM networks can be challeng-
+ing due to the complex addressing and overwriting mechanisms,
+the inherently sequential nature of the required processing, and
+the significant amount of storage needed during the procedure
+[7]. While LSTMs are slower at processing than CNNs, they
+excel at modeling dynamic temporal behavior in language, which
+cannot be achieved using only a language model [2]. On the
+other hand, global CNN features are known for their ease of use
+and compact representation. However, this approach also leads
+to excessive information compression and requires granularity,
+making it difficult for a captioning model to provide detailed
+descriptions [25].

@@ -1,0 +1,1 @@
+Carey, M., DeWitt, D., & Naughton, J. (1993). The OO7 Benchmark. Proc 1993 ACM SIGMOD 22(2), Washington DC, pp. 12-21.

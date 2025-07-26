@@ -1,0 +1,4 @@
+[130] A. Abu-Srhan, I. Almallahi, M. A. Abushariah, W. Mahafza, O. S. Al-
+Kadi, Paired-unpaired unsupervised attention guided gan with transfer
+learning for bidirectional brain mr-ct synthesis, Computers in Biology
+and Medicine 136 (2021) 104763.

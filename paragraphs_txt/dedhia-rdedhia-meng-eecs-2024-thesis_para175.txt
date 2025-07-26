@@ -1,0 +1,1 @@
+victim’s machine and starts pinging a remote computer. With enough victims,

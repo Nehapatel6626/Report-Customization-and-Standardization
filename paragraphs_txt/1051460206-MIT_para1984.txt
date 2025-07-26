@@ -1,0 +1,1 @@
+squared  value  for each particle,  and  compare them to  the results for the  iQ-200.

@@ -1,0 +1,4 @@
+– Vehicle passenger capacity
+– Oven temperature management
+– Kitchen workspace limits
+– Shared resource coordination

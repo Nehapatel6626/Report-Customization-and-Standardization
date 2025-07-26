@@ -1,0 +1,2 @@
+is applied to the resulting matrix to create a probability distri-
+bution for each word in the output phrase over the vocabulary.

@@ -1,0 +1,4 @@
+• Mixed-Integer Linear Programming (MILP): Opti-
+mizes decision variables subject to linear constraints
+and objective functions, often used in scheduling and
+resource allocation (Wolsey & Nemhauser, 1998).

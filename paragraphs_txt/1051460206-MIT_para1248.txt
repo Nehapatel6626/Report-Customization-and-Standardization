@@ -1,0 +1,1 @@
+sensor,  and thus directly obtaining  a higher-resolution  grayscale  image.

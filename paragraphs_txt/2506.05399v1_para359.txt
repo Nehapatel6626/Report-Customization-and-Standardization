@@ -1,0 +1,4 @@
+The research by [104] introduced an attention-based ap-
+proach. The model is designed to capture dependencies within
+image areas and between image regions and external states. Us-
+ing the self-attention method, the captioning model can identify

@@ -1,0 +1,1 @@
+These costs were calculated according to the cost model from [30], assuming that the query optimizer was able to choose the most efficient way of executing each query (that is, choosing the least cost between the “naïve-pointer”, value-based join and pointer-based join algorithms). The resulting costs are illustrated in figure 9.

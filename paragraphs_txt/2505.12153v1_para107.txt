@@ -1,0 +1,8 @@
+2) Surgical Risk Mitigation Score: An essential criterion
+for selecting an optimal surgical RL policy is its ability
+to Minimise risk during robotic-assisted procedures. Surgical
+risks primarily arise from excessive force application, unin-
+tended tissue damage, and critical surgical errors. To evaluate
+a policy’s safety and reliability, we introduce the surgical risk
+mitigation score (Rmit), which provides a quantitative measure
+of risk reduction.

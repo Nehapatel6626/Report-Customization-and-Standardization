@@ -1,0 +1,5 @@
+extraction
+text
+pipeline
+to
+applying

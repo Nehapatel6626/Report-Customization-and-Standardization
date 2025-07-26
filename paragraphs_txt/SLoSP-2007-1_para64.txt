@@ -1,0 +1,4 @@
+Ford, Bresnan, and Kaplan (1982) [promoting ‘lexicalist’ linguistic theories] argued:
+Order of grammatical rule processing [by a person] determines closure effects
+Ordering is jointly determined by strengths of alternative lexical forms, strengths of alternative syntactic rewrite rules, and the sequences of hypotheses in the parsing process.
+“It is quite evident, then, that the closure effects in these sentences are induced in some way by the choice of the lexical items.” (Psycholinguistic studies show that this is true independent of discourse context.)

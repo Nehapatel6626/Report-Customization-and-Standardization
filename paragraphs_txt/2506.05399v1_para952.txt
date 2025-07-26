@@ -1,0 +1,3 @@
+[131] L. Gong, J. M. Crego, J. Senellart, Enhanced transformer model for data-
+to-text generation, in: Proceedings of the 3rd Workshop on Neural Gen-
+eration and Translation, 2019, pp. 148–156.

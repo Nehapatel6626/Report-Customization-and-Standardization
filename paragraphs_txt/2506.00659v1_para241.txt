@@ -1,0 +1,4 @@
+31. Rahbarinia, B., Balduzzi, M., Perdisci, R.: Exploring the Long Tail of (Malicious)
+Software Downloads. In: 2017 47th Annual IEEE/IFIP International Conference
+on Dependable Systems and Networks (DSN). pp. 391–402 (2017). https://doi.
+org/10.1109/DSN.2017.19

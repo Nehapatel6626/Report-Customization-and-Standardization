@@ -1,0 +1,8 @@
+Myanmar’s [84] proposed an image captioning method com-
+bining two parts: CNN for image feature extraction and LSTM
+for text generation. New datasets were built based on the Flickr8k
+dataset. The new datasets used 3,000 images from the Flickr8k
+dataset, each with five annotated Myanmar captions. This ap-
+proach reduced the manual captioning time by translating the
+sentences. The generated text was evaluated using BLEU, and
+satisfactory results were obtained.

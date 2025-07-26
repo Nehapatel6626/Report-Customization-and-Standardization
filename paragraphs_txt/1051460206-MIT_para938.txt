@@ -1,0 +1,1 @@
+smaller  filters, which reduces  the size  of a network without  sacrificing  functionality.  Following

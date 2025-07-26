@@ -1,0 +1,5 @@
+29. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N.,
+Kaiser, L., Polosukhin, I.: Attention is All you Need. In: Advances in Neural In-
+formation Processing Systems. vol. 30, pp. 6000–6010. Curran Associates, Inc.
+(2017). https://doi.org/10.5555/3295222.3295349, https://papers.nips.cc/paper_
+files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html

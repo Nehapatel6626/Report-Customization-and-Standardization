@@ -1,0 +1,3 @@
+RosaAction action is responsible for querying the KB to request or cancel an Action when the execution
+of an action starts or finishes. Each PlanSys2 action that should be managed by ROSA should derive from
+RosaAction, and it should implement the logic for the specific action execution.

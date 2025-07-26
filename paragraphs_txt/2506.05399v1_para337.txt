@@ -1,0 +1,10 @@
+In a CNN network, the higher layers are believed to capture
+high-level semantic information. As a result, the output of the
+fully connected layer can represent the image’s global informa-
+tion. However, since this output lacks spatial information, the
+output of the last convolutional layer is often utilized. This is
+because the expanded receptive field of the higher layer in CNN
+corresponds to a region of the original image, where each point
+on the spatial feature map corresponds to a region of the origi-
+nal image [97]. The architecture of the CNN model is shown in
+Fig. 8.

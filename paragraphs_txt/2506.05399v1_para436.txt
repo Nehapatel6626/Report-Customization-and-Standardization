@@ -1,0 +1,9 @@
+To evaluate the model’s performance, three distinct test sets
+(1) Simulated trained images – The model was
+were used:
+tested using trained images from Flickr8K. (2) Unseen test im-
+ages – The model was evaluated using images from the Flickr8K
+test set that were not seen during training. (3) Tishreen Univer-
+sity dataset – A new test dataset was created using images from
+Tishreen University, further improving the reliability of the ex-
+periments.

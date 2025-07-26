@@ -1,0 +1,6 @@
+x is input vector
+w is weight vector
+y = sign(wTx)
++1 for class members
+-1 for nonmembers
+Called “hard limit”

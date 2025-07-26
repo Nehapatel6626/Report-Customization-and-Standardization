@@ -1,0 +1,4 @@
+Tasks in MACI are modeled in a general ﬁve-dimensional
+state space to ensure comprehensive representation of con-
+straints and dependencies. These dimensions include:
+1. Who (Actors): Identiﬁes roles, constraints, and transi-

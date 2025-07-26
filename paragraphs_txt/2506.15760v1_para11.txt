@@ -1,0 +1,5 @@
+Quantum Machine Learning (QML) uses the hybrid approach trains ML models on QPU, 
+and runs the predictions on classical HPCs. With add-on tools, including MPF, AQC- 
+Tensor, Operator Back Propagation (OBP), and SQD, speed-ups in chemistry simulation 
+David C. Wyld et al. (Eds): ADCO, CMCA, NeCoM, NLPI, CSITEC, BDBS, DMML, SP – 2025 
+pp. 01-08, 2025. CS & IT - CSCP 2025

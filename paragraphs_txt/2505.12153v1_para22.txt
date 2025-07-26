@@ -1,0 +1,22 @@
+To address these pressing challenges data scarcity, pri-
+vacy concerns, and procedural variability we propose a novel
+Federated Deep Reinforcement Learning (FDRL) framework
+designed to enhance both security and adaptability in RAS.
+Motivated by these privacy imperatives and the need for
+enhanced adaptability and robustness in surgical RL, this re-
+search introduces a novel FDRL framework explicitly designed
+for RAS. Our approach integrates advanced cryptographic
+privacy-enhancing technologies (PETs), including differential
+privacy, Secure Aggregation, and Homomorphic Encryption
+(HE), to provide robust guarantees of patient data confiden-
+tiality throughout the federated training process [20]. A key
+innovation of our framework is the dynamic policy adaptation
+mechanism. This mechanism empowers surgical robots to
+intelligently select and execute the most appropriate RL policy
+in real-time, based on the dynamic and evolving context of
+the surgical procedure, including patient-specific conditions,
+surgical complexity, and procedural demands [21]. Through
+this dynamic adaptation, the proposed framework significantly
+enhances surgical adaptability, precision, and patient safety
+by leveraging a diverse repertoire of federated-trained RL
+policies.

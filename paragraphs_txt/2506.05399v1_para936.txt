@@ -1,0 +1,3 @@
+[116] Y. Wang, X. Sun, X. Li, W. Zhang, X. Gao, Reasoning like humans: on
+dynamic attention prior in image captioning, Knowledge-Based Systems
+228 (2021) 107313.

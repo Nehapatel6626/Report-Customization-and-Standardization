@@ -1,0 +1,21 @@
+Metadata
+clip_id
+clip_path
+sender_id
+sample_id
+duration_s
+starts
+ends
+original_media_file original audio file, from which the sample was extracted
+index
+sender
+recording_date
+gender
+speaker
+form
+type
+kind
+style_element
+language
+media_type
+text

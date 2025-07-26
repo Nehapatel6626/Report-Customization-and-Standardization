@@ -1,0 +1,2 @@
+Edge Cases: Users might use ambiguous language or sarcasm, potentially causing faulty CoT or misclassification. 
+Fine-tuning and robust prompt engineering can mitigate this.

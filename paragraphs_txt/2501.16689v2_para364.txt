@@ -1,0 +1,6 @@
+Recovery begins by logging the failure cause and violated
+constraints. The strategy agent then works with domain
+agents to generate alternative proposals that satisfy the
+constraints. This might involve relaxing non-critical con-
+straints or exploring different approaches to meet the plan-
+ning objectives.

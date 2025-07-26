@@ -1,0 +1,12 @@
+Figure 2 shows the geographic distribution of the broadcasting stations, and
+Figure 3 the length distribution of the audio samples in the SRB-300 dataset.
+To that end, the broadcasting stations were categorized into 10 dialect regions.
+The diameters of the circles in Figure 2 represent the total duration of samples
+collected from broadcast stations within each region. We have ensured that the
+SRB-300 corpus is weighted to reflect the size of their speaker populations.6 Since
+regional broadcasting stations generally feature local presenters and cater to local
+listeners, we can assume that the dialects of the speakers closely align with the
+locations of these stations. Therefore, we anticipate that the most prominent
+Swiss dialects are well represented in the dataset. The green background in
+Figure 2 indicates the approximate border of the Swiss German language in
+Switzerland.7

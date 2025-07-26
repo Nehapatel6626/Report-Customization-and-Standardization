@@ -1,0 +1,4 @@
+[98] L. Guo, J. Liu, X. Zhu, P. Yao, S. Lu, H. Lu, Normalized and geometry-
+aware self-attention network for image captioning, in: Proceedings of
+the IEEE/CVF conference on computer vision and pattern recognition,
+2020, pp. 10327–10336.

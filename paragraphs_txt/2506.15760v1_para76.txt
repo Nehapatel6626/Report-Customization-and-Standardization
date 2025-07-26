@@ -1,0 +1,2 @@
+. 
+4.  Perform a quantum Fourier transform on the argument register, resulting in the state:

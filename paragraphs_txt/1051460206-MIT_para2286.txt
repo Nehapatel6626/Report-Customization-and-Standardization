@@ -1,0 +1,2 @@
+provides the AutoScope's relative counts compared to the reference results for that solution.  (a)
+An AutoScope  image for solution 7.  (b)  An AutoScope  image from solution 8.

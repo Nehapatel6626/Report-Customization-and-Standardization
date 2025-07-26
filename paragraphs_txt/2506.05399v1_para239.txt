@@ -1,0 +1,17 @@
+Human attention patterns and visual focus on images have
+inspired attention-based approaches. In these mechanisms, the
+model is directed to pay more attention to the most important
+characteristics of an image, similar to how humans do. The
+attention mechanism guides the model on ”where to look” dur-
+ing the training process [7]. It is recognized that images con-
+tain a vast amount of information, but not all features need to
+be explained in the captioning of images.
+Instead, the focus
+If attention is inte-
+should be on the most essential content.
+grated into the encoder-decoder picture captioning framework,
+sentence creation will be influenced by hidden states computed
+using the attention method. This framework incorporates an at-
+tention mechanism that allows the decoding process to concen-
+trate on specific features of the input image at each time step to
+generate a description of the image [1].

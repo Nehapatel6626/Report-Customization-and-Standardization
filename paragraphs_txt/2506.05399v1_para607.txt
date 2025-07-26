@@ -1,0 +1,16 @@
+Artificial Intelligence
+Convolutional Neural Network
+Recurrent Neural Network
+Long Short-Term Memory
+Gated Recurrent Unit
+Natural Language Processing
+Computer Vision
+Generative Adversarial Network
+Bilingual Evaluation Understudy (Metric)
+Metric for Evaluation of Translation with Explicit ORdering
+Consensus-based Image Description Evaluation
+Recall-Oriented Understudy for Gisting Evaluation
+Semantic Propositional Image Caption Evaluation
+Vision-Language Pre-training
+Microsoft Common Objects in Context (Dataset)
+Systematic Literature Review

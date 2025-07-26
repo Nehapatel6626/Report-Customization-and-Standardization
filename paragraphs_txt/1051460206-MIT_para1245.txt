@@ -1,0 +1,1 @@
+images  are  shown in grayscale  since the CNN  has  the best performance  with single color channel

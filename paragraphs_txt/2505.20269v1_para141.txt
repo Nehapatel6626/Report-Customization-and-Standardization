@@ -1,0 +1,21 @@
+In the following, we apply the same algorithm from Figure 1, but replacing
+the encoding of F as in [5] with the one in [17]. We encode an ANN with L + 1
+layers as in Equations (9), (4) and (5). The variables xl
+i and oi have the same
+meaning as in Equations (3)-(5). Furthermore, auxiliary variables sl
+i are not
+required, as observed in the encoding by Fischetti and Jo [5]. Constants lbl
+i and
+ubl
+i. Again,
+we find such bounds via a MILP solver. The behavior of ReLU is modeled using
+these bounds and binary variables zl
+i. If zl
+i is
+i,jxl−1
+0. Otherwise, xl
+i. The bounds lbli and ubli are
+j=1 wl
+necessary to maintain the integrity of the set of constraints for the entire feature
+space. Regardless of the value of zli, the bounds ensure that the constraints
+remain valid for the entire feature space.

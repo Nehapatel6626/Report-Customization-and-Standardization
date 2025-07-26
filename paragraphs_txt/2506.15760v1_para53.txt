@@ -1,0 +1,2 @@
+1.  Initialize two registers of qubits, first an argument register with t qubits and second 
+bits.  These  registers  start  in  the  initial  state:

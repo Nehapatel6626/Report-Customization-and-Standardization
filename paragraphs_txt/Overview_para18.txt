@@ -1,0 +1,4 @@
+Useful Texts 
+Pattern Classification, by Duda, Hart, and Stork, 2nd edition, John Wiley Inter-science, 2001.
+Probabilistic Machine Learning, An Introduction by K. Murphy, MIT Press, 2022.
+Deep Learning, by Ian Goodfellow and Yoshua Bengio and Aaron Courville, MIT Press, 2016. (available online at https://www.deeplearningbook.org/)

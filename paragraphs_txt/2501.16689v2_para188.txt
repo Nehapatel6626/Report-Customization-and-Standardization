@@ -1,0 +1,3 @@
+where ni represents a role and qi its required qualiﬁcations
+(e.g., a driver requires a license, a cook requires experi-
+ence).

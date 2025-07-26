@@ -1,0 +1,1 @@
+Lexical information can be coded by using the letters of an unknown word and forming a sentence whose words’ first letters match those letters.  The sentence would then include one or more clue words that hint at the meaning of the unknown word.  The following examples illustrate the two types of mnemonics produced by the system:

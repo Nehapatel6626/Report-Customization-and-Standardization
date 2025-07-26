@@ -1,0 +1,8 @@
+significant challenges for training models like Whisper, which require an input
+length of 30 seconds. This necessitates substantial zero-padding for each train-
+ing sample, leading to difficulties when the trained model is applied to longer
+audio sequences. Timmel et al. recently tackled this issue by combining several
+independent samples from the available datasets into 30-second samples using
+various strategies. Their resulting model surpassed the previous SOTA models
+across all datasets, yet it remained inferior to the original Whisper model when
+tested on more realistic, longer audio data [28].

@@ -1,0 +1,4 @@
+A data type is characterized by:
+A set of values
+A data representation, which is common to all these values, and 
+A set of operations, which can be applied uniformly to all these values

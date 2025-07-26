@@ -1,0 +1,1 @@
+a result, most spreadsheet programs don’t do much to prevent CSV injection attacks. At

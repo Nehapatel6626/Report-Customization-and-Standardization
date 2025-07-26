@@ -1,0 +1,1 @@
+relationshipType( R,T ) :- example(relationshipType( R, T )).

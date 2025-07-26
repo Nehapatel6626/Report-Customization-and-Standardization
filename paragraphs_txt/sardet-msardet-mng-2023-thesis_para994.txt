@@ -1,0 +1,1 @@
+Using rod profile data, we attempted to define a metric to characterized the homogeneity of

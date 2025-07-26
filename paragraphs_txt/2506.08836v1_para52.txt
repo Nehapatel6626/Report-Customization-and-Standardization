@@ -1,0 +1,3 @@
+– Successive speech segments were merged into whole utterances (usually a
+sentence) by merging their timestamps and transcripts. For example, the
+two pre-transcribed segments:

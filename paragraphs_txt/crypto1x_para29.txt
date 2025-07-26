@@ -1,0 +1,5 @@
+“The cipher method must not be required  to be secret, and it must be able to fall into the hands of the enemy without inconvenience.’’
+[In French: Il faut qu’il n’exige pas le secret, et qu’il puisse sans inconvénient tomber entre les mains de l’ennemi.]
+Todays understanding
+Security should not rely on the secrecy of the algorithms being used---indeed these algorithms should be public.
+Open crypto design vs “security by obscurity”.

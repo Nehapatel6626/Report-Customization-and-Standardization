@@ -1,0 +1,4 @@
+Figure 4.21: Dice’s coefficient matrix
+showing the overlap between clusters and
+their intersections from all processes con-
+catenated data set and IPQ data sets.

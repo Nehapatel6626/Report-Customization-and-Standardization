@@ -1,0 +1,2 @@
+Figure 3.2: Schema of SiCl4 flow before being injected into the deposition machine. The
+schema is the same for GeCl4 flow. [3]

@@ -1,0 +1,5 @@
+The code  is organized  into three  main directories:
+1.  AutoScope  Algos
+This folder contains  the algorithms  for the classification  and segmentation  AutoScope images.
+The  most important  scripts  are contained  in the core  algo  directory.  Within  this directory,  I  want
+to  highlight a few workhorse  scripts that  are starting points  for different processes.

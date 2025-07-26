@@ -1,0 +1,1 @@
+in figure 2.2, it works by connecting to the remote server and passing on the contents of the

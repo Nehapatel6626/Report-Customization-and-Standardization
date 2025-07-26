@@ -1,0 +1,2 @@
+Cryptanalysis based on 
+statistical pattern of the English language:    the frequency of letters, digrams etc.

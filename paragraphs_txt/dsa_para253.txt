@@ -1,0 +1,1 @@
+In this case, new node is inserted right after the current tail node.

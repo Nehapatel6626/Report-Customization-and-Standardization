@@ -1,0 +1,1 @@
+navigatesFromTo( O, X, Y ) :-

@@ -1,0 +1,1 @@
+training.  The  input image  (x-image) is convolved  with  each of these filters, producing  a set of

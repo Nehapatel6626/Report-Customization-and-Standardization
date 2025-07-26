@@ -1,0 +1,553 @@
+School of Computing and Information Sciences
+
+
+
+Course Title: Natural Language Processing
+
+Date: September 22, 2015 
+
+
+
+
+
+Course Number:  CAP-4641
+
+
+
+Number of Credits: 3
+
+
+
+Subject Area: Foundations
+
+
+
+Subject Area  Coordinator:  Xudong He
+
+
+
+email: hex@cis.fiu.edu 
+
+Catalog Description:
+
+Topics will include the concepts, principles, and approaches of the computer processing of natural languages, including the relevant linguistics phenomena, formal methods, and end applications.
+
+Textbook: “Speech and Language Processing, 2nd Edition” by Daniel Jurafsky and James H. Martin, Pearson Prentice Hall, 2009 (ISBN-13: 978-0-13-187321-6).
+
+References: None
+
+Prerequisites Courses: COP3530 (Data Structures) or equivalent
+
+Corequisites Courses: None
+
+
+
+
+
+Type:  Elective for the CS Major
+
+
+
+
+
+Prerequisites Topics:
+
+Familiarity with basic techniques of algorithm analysis
+
+Familiarity with recursive methods
+
+Understand linked data structures (linked lists, binary trees)
+
+Understand advanced data structures (priority queues, disjoint set union/find) 
+
+
+
+
+
+Course Outcomes:
+
+
+
+Explain key linguistic phenomena at the morphological, syntactic, semantic, and pragmatic levels of language.
+
+
+
+Apply the formal approaches to representing these linguistic phenomena, such as formal models of grammar, HMMs, and frame semantics.
+
+
+
+Explain the computational approaches to manipulating these formal representations, including rule-based and statistical classifier approaches.
+
+
+
+Outline how existing techniques may be assembled to create end-to-end natural language applications such as question answering or machine translation systems.
+
+
+
+
+School of Computing and Information Sciences
+
+CAP-4641
+
+Natural Language Processing
+
+
+
+
+
+																								Relationship between Course Outcomes and Program Outcomes	
+
+																								
+
+																								
+
+																								BS in CS: Program Outcomes
+
+																								Course Outcomes
+
+a)
+
+Demonstrate proficiency in the foundation areas of Computer Science including mathematics, discrete structures, logic and the theory of algorithms
+
+																								
+
+																								2,3
+
+b)
+
+Demonstrate proficiency in various areas of Computer Science including data structures and algorithms, concepts of programming languages and computer systems.
+
+																								
+
+																								2, 3, 4
+
+c)
+
+Demonstrate proficiency in problem solving and application of software engineering techniques
+
+																								
+
+																								1,4
+
+d)
+
+Demonstrate mastery of at least one modern programming language and proficiency in at least one other.
+
+																								
+
+																								
+
+e)
+
+Demonstrate understanding of the social and ethical concerns of the practicing computer scientist.
+
+																								
+
+																								
+
+f)
+
+Demonstrate the ability to work cooperatively in teams.
+
+																								
+
+																								
+
+g)
+
+Demonstrate effective communication skills.
+
+																								
+
+																								4
+
+																								
+
+																								
+
+																								
+
+																								
+
+																								
+
+																								
+
+																								
+
+																								
+
+																								Assessment Plan for the Course & how Data in the Course are used to assess Program Outcomes
+
+																								
+
+																								Student and Instructor Course Outcome Surveys are administered at the conclusion of each offering, and are evaluated as described in the School’s Assessment Plan:
+
+																								http://www.cis.fiu.edu/programs/undergrad/cs/assessment/
+
+																								
+
+																								
+
+
+School of Computing and Information Sciences
+
+CAP-4641
+
+Natural Language Processing
+
+
+
+Outline
+
+Topic
+
+Lecture Hours
+
+Outcome
+
+		Linguistic Phenomena
+
+Morphology
+
+Parts of Speech
+
+Syntax
+
+Model-Theoretic Semantics
+
+Lexical Semantics
+
+Pragmatics
+
+10
+
+
+
+1
+
+		Formal Representations
+
+		Finite State Automata
+
+Context-Free Grammars
+
+First Order Logic
+
+Frame Semantics
+
+Other Structures
+
+
+
+10
+
+
+
+2
+
+		Formal Methods
+
+Hidden Markov Models
+
+Sequence Classification
+
+Syntactic Parsing
+
+Forward Algorithm, Viterbi Algorithm 
+
+Rule-Based Systems
+
+Statistical Classifiers
+
+
+
+10
+
+
+
+3
+
+		End Applications
+
+Question Answering
+
+Machine Translation
+
+Information Extraction
+
+Conversational Agents
+
+
+
+6
+
+
+
+4
+
+		Total
+
+36
+
+
+
+
+School of Computing and Information Sciences
+
+CAP-4641
+
+Natural Language Processing
+
+
+
+Course Outcomes Emphasized in Laboratory Projects / Assignments
+
+Outcome
+
+Number of Weeks
+
+Homework problems addressing fundamental linguistic phenomena (Outcome 1)
+
+3
+
+Homework problems addressing formal representational issues (Outcome 2)
+
+3
+
+Homework problems addressing computational approaches to NLP (Outcome 3)
+
+4
+
+Homework problems addressing assembling end-to-end systems (Outcome 4)
+
+2
+
+
+
+
+
+Oral and Written Communication
+
+No significant coverage
+
+Written Reports
+
+Oral Presentations
+
+Number
+
+Required
+
+Approx. Number of pages
+
+Number
+
+Required
+
+Approx. Time for each
+
+0
+
+0
+
+0
+
+0
+
+
+
+
+
+Social and Ethical Implications of Computing Topics
+
+No significant coverage
+
+Topic
+
+Class time
+
+Student Performance Measures
+
+
+
+
+
+
+
+
+
+
+School of Computing and Information Sciences
+
+CAP-4641
+
+Natural Language Processing
+
+
+
+Approximate Number of Credit Hours Devoted to 
+
+Fundamental CS Topics 
+
+
+
+Fundamental CS Area
+
+Core Hours
+
+Advanced Hours
+
+Algorithms
+
+1
+
+1
+
+Software Design
+
+0.5
+
+-
+
+Computer Organization and Architecture
+
+-
+
+-
+
+Data Structures
+
+0.5
+
+-
+
+Concepts of Programming Languages
+
+-
+
+-
+
+
+
+Theoretical Contents
+
+Topic
+
+Class time
+
+Natural Language Processing
+
+12
+
+
+
+Problem Analysis Experiences
+
+None
+
+
+
+Solution Design Experiences
+
+None
+
+
+School of Computing and Information Sciences
+
+CAP-4641
+
+Natural Language Processing
+
+
+
+
+
+The Coverage of Knowledge Units within Computer Science
+Body of Knowledge
+
+Area
+
+Topic
+
+Type
+
+Lecture Hours
+
+AL
+
+Basic Automata Computability & Complexity
+
+Tier1
+
+1
+
+AL
+
+Basic Automata Computability & Complexity
+
+Tier2
+
+1
+
+AL
+
+Advanced Automata Computability & Complexity
+
+Elective
+
+1
+
+IS
+
+Basic Knowledge Representation & Reasoning
+
+Tier2
+
+1
+
+IS
+
+Basic Machine Learning
+
+Tier2
+
+2
+
+IS
+
+Advanced Representation & Reasoning
+
+Elective
+
+1
+
+IS
+
+Reasoning Under Uncertainty
+
+Elective
+
+3
+
+IS
+
+Natural Language Processing
+
+Elective
+
+26
+
+Total
+
+36
+
+
+
+
+
+
+
+
+
+6

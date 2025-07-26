@@ -1,0 +1,13 @@
+A common approach to enable self-adaptation in software systems is to design them as two-
+layered systems containing a managing and managed subsystem (Weyns, 2020), where the managing
+subsystem monitors and reconfigures the managed subsystem, and the managed subsystem is responsible
+for the domain logic. This design facilitates the development and maintenance of the system by
+creating a clear separation between the adaptation and the domain logic. While several solutions
+have been proposed for solving either architectural (Alberts et al., 2025) or task adaptation in robotic
+systems (Carreno et al., 2021; Hamilton et al., 2022), there are some works that partially address
+TACA (Park et al., 2012; Lotz et al., 2013; Gherardi and Hochgeschwender, 2015; Valner et al., 2022), and
+there are few works that fully address TACA (Braberman et al., 2017; C´amara et al., 2020). More critically,
+to the best of our knowledge, the existing solutions for TACA require a significant and complex re-
+programming of the adaptation logic for each different use case, including the creation of multiple models
+based on different DSLs (C´amara et al., 2020) or implementing the managing subsystem itself (Braberman
+et al., 2017), hindering the adoption of SAS methods in robotics.

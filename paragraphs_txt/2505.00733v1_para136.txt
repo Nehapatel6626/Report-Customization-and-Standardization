@@ -1,0 +1,7 @@
+The adaptation heuristic knowledge enables adaptation due to changes in the environment or the
+system’s QAs with the constraint relationship by capturing constraints on the selection of Actions,
+Components, function designs, or component configurations in terms of measured values of
+Measures. It enables adaptation due to component failures by capturing a Component’s status as an
+attribute and adaptation due to changes in the robot’s task execution by capturing what Actions need
+to be performed with the required action relationship. At runtime, adaptation is triggered when a
+measurement violates a constraint, when a component has a failure status, or when required actions change.

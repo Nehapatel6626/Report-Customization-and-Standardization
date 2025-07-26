@@ -1,0 +1,1 @@
+CSV files useful for backing up data. Additionally, the CSV format is useful for generating

@@ -1,0 +1,12 @@
+A new model for Bengali image captioning was proposed
+by [88]. The model utilized two-word embedding techniques
+and consisted of a two-part encoder and decoder. The encoder
+comprised a convolutional neural network, while the decoder
+included BiLSTM and BiGRU. The process involved extracting
+the image features and concatenating the output word vectors,
+which were then passed to the decoder after aligning the di-
+mension between the word vector and the image features. The
+decoder utilized the concatenated output to generate the next
+word in the sequence with the highest probability. The Flickr8k
+dataset was used for testing, with five captions for each image
+translated into Bengali using Google Translator.

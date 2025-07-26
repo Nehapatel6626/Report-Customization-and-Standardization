@@ -1,0 +1,1 @@
+- First, we produce a 4 list of possible threshold pairs for each pair of thresholds:

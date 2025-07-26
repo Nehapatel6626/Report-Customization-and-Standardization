@@ -1,0 +1,1 @@
+accuracy  does not diverge,  we can infer that the  CNN is  not overfitting  to the training  data, but

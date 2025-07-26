@@ -1,0 +1,21 @@
+ware collected from a commercial anti-malware vendor and the EMBER dataset[4].
+The samples were repacked using nine widely recognized packers: kkrunchy,
+MPRESS, Obsidium, PECompact, PELock, Petite, tElock, Themida, and UPX.
+The dataset includes different packer families. Following a SotA taxonomy [34], it
+covers Type-I (e.g., UPX), Type-III (e.g., PECompact), and VM-based packers
+(e.g., Themida). To replicate Experiment II from the original work, we apply the
+same undersampling strategy, resulting in 15,353 samples per packer. We ran-
+domly select 10% of the undersampled dataset while preserving the distribution
+of malware, benign programs, and packers. This subset, referred to as the lab-10
+dataset, excludes 10 outliers (CGs with more than 500 nodes). In Section 4.2,
+we test PackHero with the RGD dataset from PackGenome [16], which consists
+of three manually constructed programs, compiled from 2-5 lines of C code and
+packed with several versions and configurations of 20 off-the-shelf packers. To
+assess transferability, we select only the RGD packers also present in lab-10.
+Hyperparameter Tuning. We optimize the hyperparameters of the GMN by
+maximizing intra-packet similarity using a grid search approach.
+Evaluation Metrics. We evaluate PackHero using metrics [38] such as preci-
+sion, recall, F1-score, accuracy, False Positive Rate (FPR), and the unknown
+rate, which indicates how often PackHero fails to recognize a packer. We also
+measure the Average Number of Inference Calls, representing the average calls
+PackHero makes to the GMN during identification.

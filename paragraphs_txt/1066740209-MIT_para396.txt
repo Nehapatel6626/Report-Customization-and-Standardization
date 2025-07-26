@@ -1,0 +1,1 @@
+and automatically populate a CSV with various fields, e.g. journal title, paper title,

@@ -1,0 +1,15 @@
+Several efforts have been made to collect Swiss German speech corpora for train-
+ing and optimizing STT models [6,20,21,22]. These datasets were gathered in rel-
+atively controlled settings, such as partially read speech, indoor environments,
+single speakers, and minimal background noise. Using these datasets, various
+deep learning-based STT models for Swiss German have been trained, includ-
+ing Conformer [10] and the foundation model XLS-R [1]. These models have
+performed well on their respective test sets [20,22], as summarized in Section 3.
+Similarly, OpenAI’s Whisper models [24] have also been evaluated for Swiss
+German [7,26] using these datasets. The Whisper models showed surprisingly
+good zero-shot performance, although they were slightly less effective than mod-
+els specifically trained on the Swiss German datasets. Recently, Whisper models
+have been fine-tuned on these datasets, as described in Section 3, employing
+different sample concatenation strategies [28]. While the fine-tuned models out-
+performed the previously best models on the available datasets, they still face
+challenges with more realistic speech data.

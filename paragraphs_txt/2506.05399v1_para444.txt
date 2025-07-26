@@ -1,0 +1,5 @@
+The study by [86] utilized three key datasets to generate
+Bengali captions for images. Together, these three Bengali datasets
+provide a comprehensive and diverse collection of images and
+captions, enabling more accurate and contextually rich Bengali
+caption generation. The datasets are:

@@ -1,0 +1,8 @@
+Speech Recognition
+“word spotting” feasible today
+continuous speech – rapid progress
+turns out that “low level” signal not as ambiguous as we once thought
+Translation / Understanding
+very limited progress
+The spirit is willing but the flesh is weak. (English)
+The vodka is good but the meat is rotten. (Russian)

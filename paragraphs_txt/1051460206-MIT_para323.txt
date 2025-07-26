@@ -1,0 +1,1 @@
+features  from an  image,  which can then be  used by the  fully-connected  layer to  classify the

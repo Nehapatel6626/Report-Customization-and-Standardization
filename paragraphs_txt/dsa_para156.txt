@@ -1,0 +1,5 @@
+Searching is the process of looking for a specific element in an array
+For example, discovering whether a certain score is included in a list of scores. 
+Searching, like sorting, is a common task in computer programming. 
+There are many algorithms and data structures devoted to searching.
+The most common one is the linear search.

@@ -1,0 +1,11 @@
+bender2021dangers critiqued that language models only manipulated textual content
+statistically to generate responses that give the impression of language understanding, like a
+parrot that listens to a myriad of conversations and anticipates how to react accordingly.
+Current conversational models are published by commercial facilities, with a business
+model relying on the illusion of models capable of language understanding and human-like
+conversation skills [kanbach2024genai]. The epistemological debate surrounding LLMs
+centers on two extreme standpoints: a reductionist perspective that considers these models as
+next-word prediction machines based on matrix multiplication and an anthropomorphic view
+that attributes human-like qualities to those systems [bubeck2023sparks]. This dichotomy
+reveals the fundamental challenge in interpreting artificial intelligence: distinguishing
+between computational mimicry and genuine understanding.

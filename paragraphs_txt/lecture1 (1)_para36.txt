@@ -1,0 +1,8 @@
+Queue operations
+create
+destroy
+enqueue
+dequeue
+is_empty
+Queue property: if x is enQed before y is enQed, then x will be deQed before y is deQed
+	FIFO: First In First Out

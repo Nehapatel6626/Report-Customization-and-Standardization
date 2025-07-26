@@ -1,0 +1,1 @@
+One last tentative was to concatenate all stats from all processes together and compare those

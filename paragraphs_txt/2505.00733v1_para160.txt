@@ -1,0 +1,3 @@
+Represents a possible configuration
+of a Component as a set of
+Component Parameters

@@ -1,0 +1,1 @@
+Chen, Y., & Su, S. (1996). Implementation and Evaluation of Parallel Query Processing Algorithms and Data Partitioning Heuristics in Object Oriented Databases. Int’l Journal of Distributed and Parallel Databases, 4(2), Kluwer Academic Publishers, pp. 107-142.

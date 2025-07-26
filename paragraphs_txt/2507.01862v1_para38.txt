@@ -1,0 +1,1 @@
+<isCustomerConfirmed>yes</isCustomerConfirmed>

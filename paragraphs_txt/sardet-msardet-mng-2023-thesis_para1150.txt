@@ -1,0 +1,1 @@
+t-SNE might be less useful when wanting to perform dimensionality reduction

@@ -1,0 +1,6 @@
+8. Ferraz, T.P., Zanon Boito, M., Brun, C., Nikoulina, V.: Multilingual Distilwhis-
+per: Efficient Distillation of Multi-Task Speech Models Via Language-Specific
+Experts. In: ICASSP 2024 - 2024 IEEE International Conference on Acoustics,
+Speech and Signal Processing (ICASSP). pp. 10716–10720 (Apr 2024). https://doi.
+org/10.1109/ICASSP48485.2024.10447520, https://ieeexplore.ieee.org/document/
+10447520/?arnumber=10447520, iSSN: 2379-190X

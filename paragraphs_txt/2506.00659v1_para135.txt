@@ -1,0 +1,10 @@
+Configuration. PackHero requires a configuration phase starting with the step
+of collecting programs. If the packer is accessible, i.e., we can use it to craft
+new samples, the configuration becomes trivial and we can obtain as many pro-
+grams as we need. However, if the packer is not accessible, we need to collect
+packed programs in the wild. These programs can be malware or benign, and
+it is uncertain whether we can find them in large quantities. Therefore, we test
+PackHero in a scenario with a limited number of programs, defining the num-
+ber of programs needed for each packer to achieve a good average performance.
+From the lab-10, we select 100 programs for each packer to configure PackHero,
+maintaining the original distribution of malware and benign programs. We use

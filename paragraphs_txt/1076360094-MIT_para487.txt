@@ -1,0 +1,1 @@
+8 basic types, namely: Boolean, Numeric, String, Null, Names – representing

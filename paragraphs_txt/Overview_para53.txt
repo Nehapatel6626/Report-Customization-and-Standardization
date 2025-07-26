@@ -1,0 +1,9 @@
+How to choose a good project:
+You have a good understanding of the method used to solve the problem or you are willing to spend some time to understand it.
+There is code available, especially if the method is complicated to implement.
+There is data available for experimentation.
+How to find some good code:
+GitHub (code should be from a published paper)
+http://paperswithcode.com
+GoogleScholar
+Email the authors directly

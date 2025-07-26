@@ -1,0 +1,3 @@
+EVINCE: Optimizing Adversarial LLM Dia-
+logues via Conditional Statistics and Information Theory. In
+arXiv:2408.14575, August 2024b.

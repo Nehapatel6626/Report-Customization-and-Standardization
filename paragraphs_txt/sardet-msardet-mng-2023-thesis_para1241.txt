@@ -1,0 +1,1 @@
+where |X| and |Y| are the cardinalities of the two sets (i.e. the number of preforms in each

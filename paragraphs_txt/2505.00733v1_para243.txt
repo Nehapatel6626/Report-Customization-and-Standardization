@@ -1,0 +1,1 @@
+4. attributes for entities and relationships: both entities and relationships have attributes, e.g., the Action

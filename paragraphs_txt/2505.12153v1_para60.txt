@@ -1,0 +1,16 @@
+without centralising sensitive patient data. We present a novel
+framework where multiple hospitals participate in FDRL as
+shown in Fig. 1. One hospital may have extensive experience
+with spinal surgery, while another specializes in minimally
+invasive cardiac surgery. Using FL, each hospital can train an
+RL policy on its local data for its specific procedures. The
+global RL model, aggregated through FL, can then dynami-
+cally choose the most relevant policy when faced with a new
+patient, considering factors like the type of surgery, patient
+health metrics, and historical performance of certain policies.
+For example, if the robot is performing cardiac surgery, the RL
+model might select a policy trained specifically for minimal
+invasiveness and precise tool movements. If a more complex
+procedure like spinal surgery is required, the model could
+switch to a policy designed for more extensive interventions,
+accounting for the different surgical requirements.

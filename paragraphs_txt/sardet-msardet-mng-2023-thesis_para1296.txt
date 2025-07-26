@@ -1,0 +1,1 @@
+In figure 4.22, we studied the performance differences between k-mean algorithm and k-

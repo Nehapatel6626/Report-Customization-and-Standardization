@@ -1,0 +1,7 @@
+DeepSeek offers a clever alternative by routing Michael di-
+rectly to the Boston airport without stopping at home ﬁrst.
+This is a pleasant common-sense inference that the other
+two LLMs failed to include themselves.
+(This was sup-
+posed to be provided by MP’s common-sense spatial rea-
+soning, but it did not.)

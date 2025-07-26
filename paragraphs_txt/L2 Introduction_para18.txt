@@ -1,0 +1,2 @@
+Paul Werbos (1974) describes a more general training method, 
+back propagation, in his PhD thesis. No one takes notice

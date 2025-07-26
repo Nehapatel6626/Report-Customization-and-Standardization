@@ -1,0 +1,12 @@
+Section 2.1, PackGenome extracts YARA rules by tracing instructions during
+their execution. Consequently, it is likely to struggle with the evasive behaviors
+introduced by Themida into the binary during the packing process. Additionally,
+PackGenome appears to face challenges due to the inherent nature of this packer.
+Indeed, the result suggests that both the signature itself and its automatic extrac-
+tion encounter difficulties when dealing with this packer family. Finally, looking
+at FPR, PackGenome confirms its issues with Themida/Winlicense but shows
+in-line results for the other packers. PackHero demonstrates a low FPR on av-
+erage, while DIE generates the fewest FPR.
+Answer to RQ4. PackHero matches SotA signature-based tools in accuracy
+and significantly outperforms them on VM-based packers with advanced evasive
+behaviors like Themida/Winlicense, demonstrating our approach’s effectiveness.

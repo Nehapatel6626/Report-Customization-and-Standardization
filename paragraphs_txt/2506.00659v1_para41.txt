@@ -1,0 +1,6 @@
+PackGenome [16]
+Detect It Easy (DIE) [13]
+Randomness Profiles [33]
+Binary Diffing [15]
+2SPIFF [19]
+CEG [17]

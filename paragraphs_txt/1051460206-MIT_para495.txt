@@ -1,0 +1,1 @@
+the camera.  To ensure that  the camera  does  not  rotate or tilt during z-height  adjustments,  we

@@ -1,0 +1,14 @@
+Time and Synchronization
+Global States and Snapshots
+Failure Detectors 
+Multicast
+Mutual Exclusion 
+Leader Election 
+Consensus and Paxos
+Gossiping
+Peer to peer systems – Napster, Gnutella 
+	Chord, BitTorrent
+Cloud Computing and Hadoop
+Sensor Networks
+Structure of Networks
+Datacenter Disaster Case Studies

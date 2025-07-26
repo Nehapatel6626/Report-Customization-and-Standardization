@@ -1,0 +1,12 @@
+Learning = improving with experience at some task
+improve over task T
+with respect to performance measure P
+based on experience E
+Ex 1: Learn to play checkers
+T: play checkers
+P: % of games won
+E: opportunity to play self
+Ex 2: Sell more CDs
+T: sell CDs
+P: # of CDs sold
+E: different locations/prices of CD

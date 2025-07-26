@@ -1,0 +1,4 @@
+where CE represents explicit constraints from task speciﬁ-
+cations, CI denotes implicit constraints identiﬁed by com-
+mon sense agents, and CD represents derived constraints
+from agent interactions.

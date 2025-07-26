@@ -1,0 +1,6 @@
+In soft attention, areas of high focus retain their original
+values, while areas of low focus approach 0. This is achieved by
+assigning a weight, ai, to each xi input to the LSTM. The sum of
+all weights, ai, is 1, representing the likelihood of focusing on
+xi. On the other hand, hard attention uses a stochastic sampling
+model by selecting xi as input to the LSTM, with ai serving as

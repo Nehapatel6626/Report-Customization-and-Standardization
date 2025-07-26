@@ -1,0 +1,3 @@
+In reactive planning, MP integrates an alert agent to de-
+tect ﬂight delays at departure, enabling timely workﬂow
+updates and demonstrating adaptability.

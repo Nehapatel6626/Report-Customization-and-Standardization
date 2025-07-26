@@ -1,0 +1,2 @@
+end for
+if V (Wnew, M) > V (Wcurrent, M) then

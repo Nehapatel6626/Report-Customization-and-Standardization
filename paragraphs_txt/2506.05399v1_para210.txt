@@ -1,0 +1,5 @@
+Like in the seq2seq models, the decoder output is trans-
+formed by a fully connected linear layer to match the vocab-
+ulary size n, representing the expected result size. The vocabu-
+lary size of a language depends on the sentence length and the
+size of its vocabulary. After the transformation, a SoftMax layer

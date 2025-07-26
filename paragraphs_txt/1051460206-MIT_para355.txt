@@ -1,0 +1,1 @@
+pooling  layer, we reduce the  number of features by  75%.  The  pooling  layer incentivizes  the

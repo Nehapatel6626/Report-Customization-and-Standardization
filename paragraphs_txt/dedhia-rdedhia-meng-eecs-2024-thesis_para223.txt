@@ -1,0 +1,1 @@
+spreadsheet program will execute the malicious code. This type of attack is possible because

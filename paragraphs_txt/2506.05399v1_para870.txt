@@ -1,0 +1,4 @@
+[56] H. A. Al-Muzaini, T. N. Al-Yahya, H. Benhidour, Automatic arabic im-
+age captioning using rnn-lst m-based language model and cnn, Interna-
+tional Journal of Advanced Computer Science and Applications 9 (6)
+(2018).

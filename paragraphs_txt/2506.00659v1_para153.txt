@@ -1,0 +1,10 @@
+Different versions and configurations. The lab-10 dataset includes only
+one configuration and version per packer. To evaluate transferability, we test
+PackHero’s best configuration (lab-10 ) on the RGD dataset [16], which contains
+multiple versions and configurations for each packer—except for tElock, which is
+not included in the PackGenome evaluation. Table 4 presents the configurations
+identified by PackHero for each version in RGD. An “identified configuration”
+occurs when PackHero recognizes all samples, while non-identified configurations
+show a 0% identification rate, likely due to differences in the unpacking stub.
+Overall, PackHero generalizes across 16 out of 19 different versions, despite being
+configured with only a single version and configuration per packer.

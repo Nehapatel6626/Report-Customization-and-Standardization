@@ -1,0 +1,3 @@
+Figure 6-1: Bi-level decision function. Using an input score of pi, the bi-level decision
+returns a result if it is certain of the classiﬁcation. It classiﬁes an input as benign if
+pi < t1

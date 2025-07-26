@@ -1,0 +1,1 @@
+and remove CSV injection attacks from the CSV files before opening them in a spreadsheet

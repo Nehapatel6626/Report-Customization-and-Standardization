@@ -1,0 +1,26 @@
+Definition
+State space in MDP
+Action space in MDP
+Transition probability function
+Reward function
+Discount factor
+Optimal policy
+Expected cumulative reward
+Local model parameters at hospital i
+Global model parameters
+Number of training samples at hospital i
+Total number of training samples
+Local loss function
+Learning rate
+Regularization term
+Policy adaptation rate
+State variation at time t
+Threshold for state variation
+Variance of Gaussian noise (for DP)
+Encryption function
+Task-specific accuracy
+Surgical risk mitigation score
+Combined risk factor at time t
+Force applied at time t
+Tissue damage at time t
+Critical error indicator at time t

@@ -1,0 +1,11 @@
+Instructor: Christopher Manning
+manning@cs.stanford.edu
+Office hours: Thu 10–12
+Course time: Tu/Fr 8:00–9:45 [ugh!]
+7 classes
+Work required for credit:
+Writing a treebank parser
+Programming language: Java 1.5
+Or other agreed project
+See the webpage for other information:
+http://nlp.stanford.edu/courses/lsa354/

@@ -1,0 +1,2 @@
+Create a set of new states that correspond to each pair of states from the original machines (New states are called (x,y), where x is a state from M1, and y is a state from M2)
+Create a new FST transition table for the new machine according to the following intuition…

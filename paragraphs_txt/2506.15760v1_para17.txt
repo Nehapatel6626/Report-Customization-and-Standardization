@@ -1,0 +1,4 @@
+Figure 1 shows the diagram of the quantum execution pipeline. To the left, (a) shows 
+non-pipelined execution. To the right, (b) depicts the execution of a piplined quantum 
+algorithm; note that at a given time, only one QPU is used. The pipeline improves the 
+execution

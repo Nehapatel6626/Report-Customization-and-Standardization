@@ -1,0 +1,1 @@
+This thesis presents a browser extension that will sanitize all downloaded CSV files in

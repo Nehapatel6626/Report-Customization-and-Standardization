@@ -1,0 +1,1 @@
+In this chapter,  we will  characterize  the  image  acquisition  system of the AutoScope.  In

@@ -1,0 +1,1 @@
+Firstly, special characters are escaped by adding a single quote in front of them. For example,

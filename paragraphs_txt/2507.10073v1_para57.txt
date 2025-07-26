@@ -1,0 +1,4 @@
+To assess whether LLMs produce statistically distinct response distributions when prompted
+with different cultural personas, we conducted an ANOVA analysis on responses to individual
+MFQ-2 items (Tab. 2). This analysis reveals critical limitations in the models’ ability to
+differentiate between cultural contexts on a statistical significance level:

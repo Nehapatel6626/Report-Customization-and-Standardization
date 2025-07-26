@@ -1,0 +1,14 @@
+Speaker
+correspondent
+expert
+informant
+listener
+mixed
+moderator
+multiple moderators
+multiple news anchors
+news anchor
+other
+reporter/ journalist
+specialist journalist
+unknown

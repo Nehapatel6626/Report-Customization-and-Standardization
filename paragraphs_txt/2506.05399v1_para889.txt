@@ -1,0 +1,3 @@
+[73] A. Shrimal, T. Chakraborty, Attention beam: An image captioning ap-
+proach (student abstract), in: Proceedings of the AAAI Conference on
+Artificial Intelligence, Vol. 35, 2021, pp. 15887–15888.

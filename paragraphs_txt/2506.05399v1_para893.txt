@@ -1,0 +1,3 @@
+[77] Z. Fei, Attention-aligned transformer for image captioning, in: Proceed-
+ings of the AAAI Conference on Artificial Intelligence, Vol. 36, 2022,
+pp. 607–615.

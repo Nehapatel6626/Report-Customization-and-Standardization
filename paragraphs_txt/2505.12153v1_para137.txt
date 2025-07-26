@@ -1,0 +1,6 @@
+The inherent Non-Independent and Identically Distributed
+(non-IID) nature of medical data, especially across diverse
+hospitals, presents unique challenges in FL. Factors such as
+patient demographics, regional disease prevalence, surgical
+protocols, and equipment heterogeneity induce substantial
+variations in local data distributions.

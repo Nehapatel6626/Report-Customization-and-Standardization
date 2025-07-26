@@ -1,0 +1,1 @@
+functions; specifically, they are able to both add and remove functions from the list. Hav-

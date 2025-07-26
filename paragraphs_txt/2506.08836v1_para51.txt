@@ -1,0 +1,4 @@
+Pre-Transcription The approximately 300 hours of speech from the extrac-
+tion step were automatically pre-transcribed using OpenAI’s Whisper large-v34
+model. The pre-transcribed utterances were then joined into 28-second speech
+audio chunks using the following process:

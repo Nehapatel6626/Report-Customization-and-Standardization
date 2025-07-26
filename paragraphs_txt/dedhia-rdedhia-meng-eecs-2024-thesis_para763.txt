@@ -1,0 +1,1 @@
+all | , tab, newline, return, and null characters, as these may be ignored by spreadsheet

@@ -1,0 +1,1 @@
+malicious code. If the extension determines that a formula may be malicious, it will edit the

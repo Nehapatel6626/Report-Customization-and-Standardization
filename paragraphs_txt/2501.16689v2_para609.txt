@@ -1,0 +1,2 @@
+For each role, MP selects monitoring agents with the re-
+quired capabilities:

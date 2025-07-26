@@ -1,0 +1,19 @@
+“Measurement is defined as the act
+of evaluating the measures” (iee,
+2024)
+Represents Measure constraints
+for performing a Action or for
+selecting a function design,
+Component,
+or component
+configuration
+Represents the estimated impact
+function design,
+of
+a
+or component
+Component,
+configuration
+a
+on
+Measure

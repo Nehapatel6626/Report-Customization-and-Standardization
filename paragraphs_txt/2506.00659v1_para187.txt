@@ -1,0 +1,7 @@
+Answer to RQ3. PackHero achieves strong results in integrating a new “unseen”
+packer with as few as 10 samples. Among 9 tested packers, PackHero outperforms
+the three other selected ML-based tools for integration sample counts less than
+30. Furthermore, a simulation comparing retraining and fine-tuning shows that
+PackHero ’s integration cost function remains constant as new packers are added,
+unlike other ML-based approaches, whose integration costs grow linearly with
+the number of recognized packers.

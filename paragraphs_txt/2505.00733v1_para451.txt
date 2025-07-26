@@ -1,0 +1,4 @@
+Adaptation scenarios 1 and 2 can be solved with ROSA’s knowledge model by capturing the battery level
+as a Quality Attribute and using it as a constraint for actions A1 and A2. Adaptation scenario 3
+can be solved by capturing that the Function required by A2 requires a gripper component. Furthermore,
+the task decision layer is responsible for guaranteeing that A3 is only performed when A5 is finished.

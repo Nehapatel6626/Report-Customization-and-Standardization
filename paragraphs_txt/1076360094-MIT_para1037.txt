@@ -1,0 +1,1 @@
+set per sample, and γ is a weight associated with each of the factors.

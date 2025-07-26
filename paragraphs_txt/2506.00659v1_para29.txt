@@ -1,0 +1,11 @@
+Code packing is a widely used anti-analysis technique [24], where packers, acting
+as third-party software, transform a program’s structure and content, recover-
+ing the original software at runtime via a tail jump to the original entry point.
+Initially intended for file compression, most packers now aim to obfuscate and
+hinder program analysis in legitimate and malicious software. Packers are classi-
+fied by runtime complexity [34] into six types (I–VI), with most common packers
+falling within types I–III. Another taxonomy focuses on obfuscation methods,
+distinguishing compressors, crypters, and virtualization-based packers, such as
+Themida [32], which translate code into virtual instructions and implement ad-
+vanced anti-dynamic analysis techniques. In our experiments, we consider pack-
+ers from types I–III, with Themida representing the VM-based category.

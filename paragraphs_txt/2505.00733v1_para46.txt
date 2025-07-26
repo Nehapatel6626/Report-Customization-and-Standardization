@@ -1,0 +1,9 @@
+The LAAS architecture (Alami et al., 1998) is an example of a three-layered architecture consisting
+of a functional layer, an executive, and a decision layer. The functional layer contains the robot’s
+control and perception algorithms. The executive layer receives a task plan from the decision layer
+and selects functions from the functional layer to realize each action in the task plan. The decision
+layer includes a planner that generates task plans and a supervisor responsible for monitoring
+plan execution and triggering replanning when necessary. More recent examples of layered robot
+architectures include AEROSTACK (Sanchez-Lopez et al., 2016), designed for aerial drone swarms, and
+SERA (Garcia et al., 2018), which is tailored for decentralized and collaborative robots. These architectures
+build on the layered model but focus on providing domain-specific solutions.

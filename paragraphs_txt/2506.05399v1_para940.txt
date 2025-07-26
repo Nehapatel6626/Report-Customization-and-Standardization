@@ -1,0 +1,7 @@
+[119] P. Anderson, X. He, C. Buehler, D. Teney, M. Johnson, S. Gould,
+L. Zhang, Bottom-up and top-down attention for image captioning and
+visual question answering, in: Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 6077–6086.
+[120] T. Yao, Y. Pan, Y. Li, T. Mei, Exploring visual relationship for image
+captioning, in: Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 684–699.

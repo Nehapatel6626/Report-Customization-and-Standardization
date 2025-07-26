@@ -1,0 +1,3 @@
+Definition
+Represents the reconfiguration plan
+generated in the plan step

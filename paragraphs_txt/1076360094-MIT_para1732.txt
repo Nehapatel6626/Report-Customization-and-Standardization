@@ -1,0 +1,4 @@
+[22] Davide Maiorca, Igino Corona, and Giorgio Giacinto. Looking at the bag is not
+enough to ﬁnd the bomb: an evasion of structural methods for malicious pdf ﬁles
+detection. In Proceedings of the 8th ACM SIGSAC symposium on Information,
+computer and communications security, pages 119–130. ACM, 2013.

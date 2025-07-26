@@ -1,0 +1,697 @@
+HP 350: Health Behavior Research Methods
+
+Spring, 2010
+
+
+
+Tuesday & Thursday 9:30-10:50 am 
+
+THH208
+
+ 
+
+Professor:		Genevieve Dunton, Ph.D, MPH
+
+Phone:			626-457-4126
+
+E-mail:			dunton@usc.edu
+
+Office Hours:	By appointment – preferably immediately before or after class.  
+
+Other times may be arranged.
+
+
+
+Teaching Assistant: 	Rhona Slaughter
+
+		E-mail:	 		rhona.slaughter@usc.edu
+
+Office Hours: 		Thursdays after class (outside classroom)
+
+                                    
+
+
+
+
+
+Course Perquisites
+
+Prior to enrolling in HP 350, it is strongly recommended that students complete HP 340 – "Health Behavior Statistical Methods" – which teaches fundamental statistics that will applied in this course, such as t-tests, ANOVA, and Chi-Square.
+
+
+
+Course Description and Goals
+
+This course is designed to introduce students to research methods used in health behavior sciences and to enable students to apply course concepts to develop their own research project.  It will serve as an introduction to research methodology and will concentrate on basic concepts underlying research methods.  In particular, students will receive detailed instruction in each of the following six areas:
+
+
+
+	Research hypothesis
+
+	Develop a testable research question
+
+	Observation and Measurement
+
+	Questionnaire development, validity, reliability
+
+	Experimental Design
+
+	Design a particular type of experiment while controlling for the threats to the validity
+
+	Sampling
+
+	Random sampling, stratified sampling
+
+	Statistical Analyses
+
+	Conduct descriptive and inferential statistics
+
+	Reporting results
+
+	Creating poster presentations and final reports
+
+	
+
+
+
+Specifically, students will complete the following course goals by the end of the semester: 
+
+
+
+	Become familiar with research methodology topics in behavioral sciences, including research hypothesis development, qualitative analysis, measurement, experimental study design, sampling, statistical analyses, and reporting results.
+
+	
+
+	Run an independent, student-generated research study, which includes the following:
+
+	
+
+			Demonstrate ability to find and use scientific journal articles to guide research planning
+
+	
+
+			Develop a testable research question
+
+	
+
+				Demonstrate ability to find measures and create a survey with few reliability and validity limitations
+
+		
+
+				Choose the study design while controlling for threats to validity
+
+		
+
+			Identify and use an appropriate sampling plan (random sampling, stratified sampling, or convenience sampling)
+
+	
+
+			Identify and run appropriate descriptive and inferential statistics using SPSS
+
+	
+
+			Demonstrate ability to give well-developed written and oral research reports 
+
+	
+
+			Collaborate with a team of classmates to experience scientific collaboration
+
+	
+
+			Give and receive critical feedback on research projects from other students and researchers
+
+
+
+Textbooks
+
+Rosnow, R. L., & Rosenthal R. (2008). Beginning Behavioral Research: A Conceptual Primer. 6th Edition. New Jersey: Prentice Hall.
+
+
+
+
+
+NOTE: A copy will be available on reserve at Leavey library.  The earlier 2005 5th Edition can also be used for this course.  
+
+
+
+Readings
+
+Exemplary scientific journal articles may be introduced into the course throughout the semester.  These articles will be posted on Blackboard.
+
+
+
+
+
+
+
+
+
+Electronic Course Management
+
+Blackboard (TOTALe) is an online course management system that will be used to provide electronic copies of lecture notes and class handouts. Grades, announcements, and other related course materials will also be available on Blackboard. To access Blackboard, simply go to https://blackboard.usc.edu and use your USC username and password to access the “My USC” homepage. All courses you have enrolled in will appear on this page. Simply “click” the appropriate link for HP 350: Health Behavior Research Methods to access course materials.
+
+
+
+Grade Components
+
+		Midterm 1	150 points 	(15% of total grade)
+
+		Midterm 2	150 points 	(15% of total grade)
+
+		Final exam	300 points 	(30% of total grade)
+
+		Abstract of Class Project	  50 points 	(  5% of total grade)
+
+		Research Presentation	200 points 	(20% of total grade)
+
+		Homework Assignments	100 points 	(10% of total grade)
+
+		Class participation	  50 points 	(  5% of total grade)
+
+			
+
+Total possible point value: 				1000 points
+
+
+
+Grade Scale
+
+A+   97-100%		B+   87-89%		C+  77-79%		D   65-69%
+
+		A     93-96%		B     83-86%		C    73-76%		F    < 65
+
+A-    90-92%		B-    80-82%		C-   70-72%
+
+
+
+Note
+
+Tenths of a point, such as .5 - .9 will be rounded up, e.g., 83.5 = 84 whereas .0 - .4 will be rounded down, e.g., 83.4 = 83
+
+
+
+Exams (600 points)
+
+There will be three exams: two midterms and one final. All exams will be multiple-choice with some short answer questions. The final exam will be cumulative.  Exams will be based upon material from lectures and assigned readings.  Students need to read all assigned chapters as well as attend each lecture and lab to be fully prepared for exams.  Make-up exams (for USC athletes) must be arranged prior to the missed class. There are no exceptions. The final exam cannot be missed. 
+
+
+
+PowerPoint Presentation (200 points)
+
+In groups of 3 to 5 students, you will be conducting your own research.  In the group, you will create your own survey, collect data from other students in HP, analyze your findings, and present your report to the class.  You will present your study results using PowerPoint to ensure a professional looking presentation. Each team member must present part of your study.  The dates of the presentations will be determined later in the semester, but will fall between April 20 and April 27. See homework packet for instructions. 
+
+
+
+
+
+
+
+Abstract of Class Project (50 points)
+
+An abstract of your class project summarizing your research will be due on April 29.  See the homework pack for instructions.  
+
+
+
+Homework Assignments (100 points)
+
+There are weekly homework assignments, which are outlined in your homework packet. Each one will help you complete your research project.  You will discuss the homework in lab every week – typically on Thursday. In addition, you will have a small data set to analyze using a statistical analysis computer program (SPSS). You will be expected to calculate basic statistics using the program as an in-class assignment.  
+
+
+
+Homework is due at the beginning of class on Thursdays.  Homework assignments that are not turned in on time will be considered late and will be penalized 20%.  For instance, a late assignment worth 5 points will lose 1 point; a late assignment worth 20 points will lose 4 points.
+
+
+
+Class participation (50 points)
+
+You are expected to: (a) attend all classes; (b) read assigned chapters prior to class and be prepared to discuss the topic; (c) complete all in-class activities; and (d) be an effective research collaborator inside and outside of class.  
+
+
+
+An attendance sheet will be circulated during each class for students to sign in.  The only opportunity to sign the attendance sheet is the day of each class.  For instance, students should not ask to sign Tuesday’s attendance sheet on Thursday if they forgot to sign-in the previous class.
+
+
+
+Each student will be allowed one absence without penalty. All other absences will be penalized unless verified by a reliable source such as a doctor’s note. Certain classes may be worth more than other classes due to their importance, such as survey days and presentation days. Please notify the teaching assistant in case of serious illness or other emergencies. 
+
+
+
+Lecture Notes
+
+A summary of each lecture will be posted on Blackboard.   In most cases, the lecture notes will be posted by 10 pm prior to the following day’s class.  The lecture notes should not be used as a substitute for reading the chapters or attending lecture.   Though, the lecture notes should be helpful summary when preparing for exams since there will be no study guides distributed prior to exams.
+
+		
+
+Classroom Etiquette
+
+All students are expected to be seated at the start of class.  Arriving late to lectures, labs, or exams is strongly discouraged.  Students are encouraged to ask questions during lecture or lab, and other students are expected to be respectful of their classmates' questions. All cellphones or other wireless communication devises should be turned off before the start of class.  Sending/receiving phone calls, text messages or email during class is not permitted. 
+
+
+
+
+
+
+
+Office Hours/Communication
+
+I do not have an office on the University Park campus.  However, students may schedule an appointment at my Health Science Alhambra office, which is located at 1000 S. Fremont Ave. Unit 8, Bldg 5, Rm 5229, Alhambra, CA 91803.  I am also available to meet with students following class.  Students may communicate with me via email, and I will attempt to respond to email inquires in a timely manner.
+
+
+
+Similarly, the Teaching Assistant does not have an office on campus.  However, students may meet with her after class, or she may be reached via email.  Alternatively, students may schedule a meeting that is mutually convenient for both parties.
+
+
+
+Academic Dishonesty
+
+Academic dishonesty on exams, assignments, and other aspects of the course is grounds for failure on the assignment, failure in the course, or expulsion from the university. Students are expected to understand what constitutes plagiarism and other forms of cheating, as well as the consequences.  For information, see http://www.usc.edu/dept/publications/SCAMPUS/gov/. Click on University Governance and then Behavior Violating University Standards and Appropriate Sanctions to find definitions of cheating. Sanctions are listed under 11.80.  The minimum official consequence for cheating is course failure. 
+
+
+
+Students with Disabilities 
+
+Any student requesting academic accommodations based on a disability is required to register with Disability Services and Programs (DSP) each semester. A letter of verification for approved accommodations can be obtained from DSP. Please be certain the letter is delivered to the Instructor as early in the semester as possible. DSP is located on the University Park campus in STU 301 and is open 8:30 a.m. – 5:00 p.m., Monday through Friday. The phone number is (213) 740-0776.
+
+
+
+Student Athletes 
+
+Student athletes are expected to keep the Professor or Teaching Assistant informed of any necessary situations which might lead to a missed class.
+
+
+
+
+
+
+
+Course Schedule  
+
+
+
+	Week
+
+	Tuesday
+
+	Readings
+
+	Lecture Topics 
+
+
+
+Thursday
+
+	Lab Topics 
+
+Homework Due 
+
+1
+
+January 12
+
+Chap. 1,2
+
+Introduction
+
+	
+
+	January 14
+
+	Scientific Method &
+
+	Hypotheses (Lecture)
+
+	
+
+	
+
+	
+
+	   
+
+	   
+
+-
+
+January 19
+
+	Chap. 4
+
+Observation &
+
+Qualitative Methods 
+
+
+
+January 21
+
+	- Introduction to Project
+
+	- Research Topics, Questions, and Examples
+
+	
+
+3
+
+January 26
+
+Chap. 5,6
+
+Self-Report Methods
+
+Reliability & Validity 
+
+
+
+	
+
+	January 28
+
+	 - Planning Research Hypotheses
+
+	- Ethics
+
+	 #1. Research topic 
+
+	 #2. Research question 
+
+	   
+
+4
+
+February 2
+
+Chap. 3
+
+Ethics (guest lecturer: 
+
+Dr. Nathan Riggs)
+
+	
+
+	February 4
+
+	-Survey Design 
+
+	-Exam Review
+
+	#3. Ethics 
+
+	#4. Final hypotheses
+
+	
+
+	
+
+
+
+February 9
+
+	
+
+	No Class
+
+	Study for Exam
+
+	
+
+	February 11
+
+	Midterm #1: 
+
+	Chapters 1- 6
+
+  
+
+	   
+
+
+
+February 16
+
+	Chap. 7
+
+	Experimental design 
+
+	
+
+	February 18
+
+	-Introduction and Methods section
+
+
+
+6
+
+February 23
+
+	Chap. 8,9
+
+	Quasi-Experimental Design, 
+
+	Survey Research & Sampling 
+
+	
+
+	February 25
+
+	Computer Lab 
+
+	WPH B36
+
+	(In-class SPSS #1)
+
+	#5. Survey
+
+7
+
+March 2
+
+	Chap.  10,11
+
+	
+
+Summarizing Data   
+
+	Examining Relationships 
+
+	
+
+	
+
+	 March 4
+
+	Computer Lab 
+
+	WPH B36
+
+	 (In-class SPSS #2)
+
+	#6. Survey & Materials 
+
+	
+
+8
+
+March 9
+
+Chap. 12, 13
+
+Statistical Significance 
+
+The t Test  
+
+	
+
+	March 11	
+
+	Midterm #2:  Chapters 7-13
+
+	 #7 Introduction & Method section 
+
+		
+
+9
+
+March 16
+
+
+
+ Spring Break
+
+	
+
+	March 18
+
+	Spring Break
+
+		
+
+    10.
+
+March 23
+
+
+
+-Data Collection 
+
+
+
+	
+
+	March 25
+
+	Computer Lab 
+
+	WPH B36
+
+	 (In-class SPSS #3)
+
+	
+
+		
+
+
+
+March 30
+
+Chap. 14
+
+F test
+
+	
+
+	April 1
+
+	Computer Lab 
+
+	WPH B36
+
+	 (In-class SPSS #4)
+
+		
+
+    11.
+
+
+
+April 6
+
+Chap. 15
+
+Chi-Square
+
+	
+
+	April 8
+
+	Computer Lab 
+
+	WPH B36 
+
+	(In-class SPSS #5)
+
+		#8. Analyses
+
+    12.
+
+April 13
+
+
+
+Presentation 101
+
+	
+
+	April 15
+
+	Computer Lab 
+
+	WPH B36
+
+		#9. SPSS 
+
+		#10. Future Research
+
+    13.
+
+April 20
+
+
+
+	Group Presentations
+
+	
+
+	
+
+	April 22
+
+	Group Presentations
+
+	
+
+		
+
+    14.
+
+April 27 
+
+
+
+	Group Presentations
+
+
+
+	
+
+	April 29
+
+	Final Exam Review
+
+	Course Evaluations
+
+		Abstracts Due
+
+    15.
+
+May 4 
+
+
+
+Study Day
+
+	
+
+	May 6
+
+	Study Day
+
+		
+
+    17.
+
+May 11
+
+
+
+Final Exam
+
+8-10am
+
+	
+
+	
+
+
+
+		
+
+
+
+                                                                                                            
+
+
+
+
+
+7

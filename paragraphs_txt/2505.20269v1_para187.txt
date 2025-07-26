@@ -1,0 +1,4 @@
+Conversely, if an assignment A satisfies Equations (10)-(12), it satisfies some
+j, for j′ ̸= i by Equation (11). Moreover, A satisfies oi ≤ oj′ by Equation (10),
+q′
+for j = j′. Therefore, A also satisfies (cid:87)N

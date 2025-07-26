@@ -1,0 +1,5 @@
+Fitted  (r^2: 0.946)
+-
+* 
+rbc
+o  wbc

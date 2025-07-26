@@ -1,0 +1,6 @@
+–  Virtual circuit optimization 
+–  3+ qubit gate decomposition 
+–  Placement on physical qubits 
+–  Routing on restricted topology 
+–  Translate to basis gates 
+–  Physical circuit optimization

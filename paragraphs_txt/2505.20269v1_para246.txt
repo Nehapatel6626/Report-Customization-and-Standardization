@@ -1,0 +1,3 @@
+[3] Bonami, P., Lodi, A., Tramontani, A., Wiese, S.: On mathematical
+programming with indicator constraints. Mathematical Programming
+151(1), 191–223 (2015)

@@ -1,0 +1,1 @@
+w0 is not a “predictor”. It’s what we can say about the data in the absence of predicators. The average response is the best fit of a constant to data.

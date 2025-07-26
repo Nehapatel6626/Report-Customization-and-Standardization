@@ -1,0 +1,5 @@
+if |∆t| < buffer
+normal
+warning
+if buffer ≤ |∆t| < τ
+violation if |∆t| ≥ threshold τ

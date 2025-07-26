@@ -1,0 +1,21 @@
+Upon closer examination of the number of iterations re-
+quired to produce a feasible plan, DeepSeek and Claude
+each required one revision (two iterations), while GPT4o
+required two revisions (three iterations).
+In terms of
+scheduling quality, measured by slack time, total driving
+distance, and load balance, DeepSeek (Table 12) outper-
+formed both Claude (Table 14) and GPT4o (Table 13).
+DeepSeek optimized time and effort by scheduling James
+to wait at the airport for 30 minutes to pick up Emily. In
+contrast, Claude scheduled James to drive home and then
+return to the airport to pick up Emily, resulting in unnec-
+essary travel. GPT4o assigned James to return home and
+scheduled Michael to ﬁrst pick up Emily and then proceed
+to pick up Grandma, leading to a less balanced load. A
+better solution to reduce travel time would have been to
+schedule Michael to pick up Emily ﬁrst and then drive with
+her to Grandma’s home to pick up Grandma, allowing all
+three to return home together. This adjustment would save
+30 minutes of driving time and improve Grandma’s overall
+happiness to see both grandchildren.

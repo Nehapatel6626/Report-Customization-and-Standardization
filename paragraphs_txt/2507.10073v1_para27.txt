@@ -1,0 +1,13 @@
+While we disagree with a (naive) anthropomorphism and current research questions the
+language understanding capabilities [dziri2023faith], we argue that when utilizing LLMs
+as human simulacra [shanahan2024simulacra], we must assume human-like qualities
+to a certain degree. This methodological approach is not an endorsement of sentience,
+but a pragmatic necessity for meaningful simulation. Without this assumption, utilizing
+LLM agents to model interpersonal communication can only yield a shallow copy, a
+conversation between parroting entities devoid of meaningful interaction. The limitations
+of current language models become particularly evident when examining their inability to
+truly comprehend context beyond statistical patterns. Unlike human communication, which
+is deeply rooted in embodied experience, emotional intelligence, and contextual nuance,
+LLMs operate through probabilistic text generation. They lack the fundamental cognitive
+processes that enable humans to interpret subtext, understand implicit meaning, and engage
+in genuine empathetic communication.

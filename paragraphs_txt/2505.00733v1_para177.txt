@@ -1,0 +1,4 @@
+The reconfiguration plan knowledge represents which component parameters must be updated (i.e., how
+to execute parameter adaptation) and which components must be activated and deactivated (i.e., how to
+execute structural adaptation). The execute component exploits this knowledge at runtime to reconfigure
+the managed subsystem.

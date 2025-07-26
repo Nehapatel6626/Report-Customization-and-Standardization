@@ -1,0 +1,6 @@
+Definition:
+Is a set of operation
+Mathematical abstraction
+No implementation detail
+Example:
+Lists, sets, graphs, stacks are examples of ADT along with their operations

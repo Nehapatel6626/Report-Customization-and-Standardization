@@ -1,0 +1,5 @@
+Meta-Surgical Policy Selection
+Evaluate each πi using surgical performance metrics
+E[J(πi)|s]
+Select optimal policy: π∗(s) = arg maxπi
+Update π∗

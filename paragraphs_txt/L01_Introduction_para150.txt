@@ -1,0 +1,8 @@
+Depends on who you ask
+General idea: the analysis of large amounts of data (and therefore efficiency is an issue)
+Interfaces several areas, notably machine learning and database systems
+Lots of perspectives:
+ML: learning where efficiency matters
+DBMS: extended techniques for analysis of raw data, automatic production of knowledge
+What is all the hubbub?
+Companies make lots of money with it (e.g., WalMart)

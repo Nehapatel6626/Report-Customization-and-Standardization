@@ -1,0 +1,3 @@
+This section discusses various methods in image captioning
+models, including deep learning-based, transformer-based, and
+attention-based approaches.

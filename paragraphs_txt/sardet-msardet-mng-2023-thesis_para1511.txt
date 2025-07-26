@@ -1,0 +1,1 @@
+– Create consistent protocols for pulling request. Same for merging data sets.

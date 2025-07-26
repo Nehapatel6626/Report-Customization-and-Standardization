@@ -1,0 +1,13 @@
+Image captioning has emerged as a crucial task at the in-
+tersection of computer vision and natural language processing,
+enabling machines to understand and describe visual content.
+This survey has comprehensively reviewed attention-based trans-
+former models, covering their architectures, evaluation met-
+rics, datasets, and multilingual applications. We highlighted the
+transition from traditional template-based approaches to deep
+learning-driven transformer models, emphasizing the role of at-
+tention mechanisms in improving caption quality. Despite sig-
+nificant advancements, key challenges include handling com-
+plex scene compositions, improving caption fluency in low-
+resource languages, and ensuring factual accuracy in generated
+descriptions. Future research opportunities could focus on:

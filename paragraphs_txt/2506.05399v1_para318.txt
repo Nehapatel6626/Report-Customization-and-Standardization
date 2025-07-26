@@ -1,0 +1,11 @@
+Furthermore, [53] introduced an innovative approach that
+modeled the direct dependencies between caption words and
+image regions. This transformer-based approach could dynam-
+ically focus on various parts of the image. The proposed model
+included a CNN encoder to extract features from the image, and
+an RNN-based gated recurrent unit (GRU) was used as a de-
+coder to simplify the model. The model was further enhanced
+by incorporating an attention mechanism to generate captions
+word by word for different image regions. This allowed the
+words to represent specific image regions rather than global ar-
+eas, improving performance.

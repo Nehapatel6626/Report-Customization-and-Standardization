@@ -1,0 +1,4 @@
+In a doubly linked list, the nodes are linked in both directions. Each node of a doubly linked list contains three parts:
+Info: the data stored in the node
+Next: the pointer to the following node
+Back: the pointer to the preceding node

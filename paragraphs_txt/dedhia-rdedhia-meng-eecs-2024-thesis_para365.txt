@@ -1,0 +1,1 @@
+query string. The IMPORTXML command makes Excel connect to the generated URL, thus

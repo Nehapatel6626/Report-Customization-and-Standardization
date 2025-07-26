@@ -1,0 +1,1 @@
+Process parameters: zone-wise temperature, rod drawing time, vacuum.

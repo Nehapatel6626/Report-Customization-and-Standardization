@@ -1,0 +1,6 @@
+Critical battery level (U3), occurring only in the extended SUAVE use case, was solved with TACA by
+extending the knowledge model with a recharge action, and a battery level constraint to the search
+pipeline and inspect pipeline actions, representing the minimum battery level at which they can be selected.
+Runtime behavior: when the battery level drops below 0.25, the status of both the search pipeline and
+inspect pipeline actions is set to unfeasible, and the task decision layer cannot select them anymore.
+Therefore, the task decision layer selects the recharge action which also triggers structural adaptation.

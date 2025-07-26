@@ -1,0 +1,2 @@
+First, the ANN and the feature space {l1 ≤ x1 ≤ u1, l2 ≤ x2 ≤ u2, ..., ln ≤
+xn ≤ un} are encoded as a formula F , an instance {x1 = v1, x2 = v2, ..., xn =

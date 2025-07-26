@@ -1,0 +1,4 @@
+The results obtained are shown in Table 6. The different managed subsystems had similar performance
+despite the difference in their reaction time. Furthermore, since the performance with ROSA was better
+than without a managing subsystem and close to the other managing subsystems, it can be considered as
+additional evidence of the feasibility of applying it at runtime to enable self-adaptation in robotic systems.

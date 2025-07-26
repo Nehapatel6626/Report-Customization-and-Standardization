@@ -1,0 +1,7 @@
+Fig. 4 presents the impact of DP noise standard deviation on
+both Accuracy and Privacy Effectiveness in a FL environment.
+The x-axis represents increasing levels of noise added for DP,
+ranging from 0.01 to 1.00, effectively capturing the spectrum
+of privacy protection strength. The heatmap highlights the
+inverse relationship between these two metrics as the noise
+standard deviation increases, Privacy effectiveness improves,

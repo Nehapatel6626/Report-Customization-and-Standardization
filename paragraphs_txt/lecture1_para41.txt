@@ -1,0 +1,5 @@
+Cost
+Speed
+Convenience
+Open Architecture
+Backwards Compatibility

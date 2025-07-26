@@ -1,0 +1,1 @@
+In practice, attackers may use automated tools to inject code to attack known PDF

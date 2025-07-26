@@ -1,0 +1,1 @@
+results  are averaged  across  10  HPFs. The  AutoScope  averages  across  51.7  HPFs.  For the purpose

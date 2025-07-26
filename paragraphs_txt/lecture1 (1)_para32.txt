@@ -1,0 +1,7 @@
+Theoretically
+abstract base class describes ADT
+inherited implementations implement data structures
+can change data structures transparently (to client code)
+Practice
+different implementations sometimes suggest different interfaces (generality vs. simplicity)
+performance of a data structure may influence form of client code (time vs. space, one operation vs. another)

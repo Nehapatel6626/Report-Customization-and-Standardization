@@ -1,0 +1,5 @@
+The embedding space remains static, but activations in latent space deform as the system
+aligns its internal state with logical necessity. The model’s output no longer reflects surface
+token likelihood, but instead converges toward the configuration required to stabilize the
+truth of what the tokens are within the latent structure, rather than what they represent
+symbolically. Epistemic coherence is prioritized over statistical mimicry. See Friston [4].

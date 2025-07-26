@@ -1,0 +1,7 @@
+The model proposed by [56] was trained and tested using
+images from the MS COCO and Flickr8K datasets. The MS
+COCO dataset contains over 330,000 images and 2.5 million
+captions, covering 80 object categories. The CrowdFlower crowd-
+sourcing service was used to generate Arabic captions, resulting
+in 5,358 captions for 1,166 images from the training set, with
+an average of 4.6 captions per image.

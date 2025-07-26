@@ -1,0 +1,5 @@
+In this work, we use first-order logic (FOL) to give explanations with guarantees
+of correctness. We use quantifier-free first-order formulas over the theory of linear
+real arithmetic (LRA). Then, first-order variables are allowed to take values from
+the real numbers R. For details, see [11]. Therefore, we consider formulas as
+defined below:

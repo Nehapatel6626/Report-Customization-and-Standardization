@@ -1,0 +1,2 @@
+LLM Reliability: The method depends heavily on the LLM consistently outputting correct tags and coherent chain-
+of-thought. Prompt design and testing are crucial.

@@ -1,0 +1,2 @@
+–  Layout. Lay each qubit to a specific quantum instruction set architecture (ISA). 
+–  Translation.  For  a  specific  target  ISA,  translate  the  gates  in  a  circuit  to  the  native

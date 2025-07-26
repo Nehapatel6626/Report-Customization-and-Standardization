@@ -1,0 +1,5 @@
+Media type Total (h) Total (%) Training (h) Training(%) Test (h) Test(%)
+radio
+149
+tv
+81

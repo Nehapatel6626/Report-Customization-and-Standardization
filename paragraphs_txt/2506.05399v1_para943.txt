@@ -1,0 +1,4 @@
+[123] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan,
+P. Doll´ar, C. L. Zitnick, Microsoft coco: Common objects in context,
+in: European conference on computer vision, Springer, 2014, pp. 740–
+755.

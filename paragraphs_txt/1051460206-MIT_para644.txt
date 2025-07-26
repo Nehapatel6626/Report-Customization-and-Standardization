@@ -1,0 +1,1 @@
+focal  point (usually  the object) to  the front vertex of the  lens.  When the  camera is focused  on

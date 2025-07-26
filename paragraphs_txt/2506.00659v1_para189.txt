@@ -1,0 +1,27 @@
+In this experiment, we compare the performance of PackHero with State-of-the-
+art signature-based methods (Detect It Easy (DIE) and PackGenome). DIE [13]
+is currently the best-performing and most signature-rich packer identifier. Here,
+we use its latest available version (v3.10). PackGenome [16] is the best tool for au-
+tomating the extraction of signatures for packer detection, generating YARA [3]
+rules that can be later used to identify packers. The authors of PackGenome
+have already compared their framework against DIE, but we include the re-
+sults for both approaches for completeness. To compare the three frameworks,
+we use the False Positive Rate (FPR) and recall. We focus on recall because
+it is the most representative metric when comparing tools designed not just
+for identification but also for detection (as for DIE and PackGenome). We ex-
+tract all results from the lab-10 dataset, removing only the 100 samples for each
+packer used to configure PackHero. We test DIE using its command-line version,
+while we test PackGenome by loading the YARA rules provided in the orig-
+inal work. Since DIE does not include PELock signatures and PackGenome’s
+authors did not perform experiments on PELock and tElock, we discard these
+two packers for this comparison. In Table 6, we show the comparison results.
+Starting with the recall, the three tools perform very similarly, although the two
+signature-based tools generally exhibit the highest recall. Attention must partic-
+ularly be directed towards Themida, which poses significant challenges for both
+DIE and PackGenome, as depicted in the table. An interesting observation is
+that the matched signatures from DIE are related to the same version of Winli-
+cense/Themida, specifically Themida with Trial/Licensing options [25]. Despite
+PackGenome including signatures for the same version of this packer, it shows a
+recall of 0.31. This result motivates the entire work. Indeed, Themida/Winlicense
+employs advanced (dynamic) evasive behaviors in its packed programs. Further-
+more, it is the VM-based packer used during our evaluation. As explained in

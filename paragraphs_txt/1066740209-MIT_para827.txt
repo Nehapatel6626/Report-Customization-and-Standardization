@@ -1,0 +1,1 @@
+calculated using sklearn’s learning curve package using a 5-fold cross validation.

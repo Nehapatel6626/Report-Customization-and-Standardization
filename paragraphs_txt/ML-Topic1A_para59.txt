@@ -1,0 +1,4 @@
+UCI Repository: http://www.ics.uci.edu/~mlearn/MLRepository.html
+UCI KDD Archive: http://kdd.ics.uci.edu/summary.data.application.html
+Statlib: http://lib.stat.cmu.edu/
+Delve: http://www.cs.utoronto.ca/~delve/

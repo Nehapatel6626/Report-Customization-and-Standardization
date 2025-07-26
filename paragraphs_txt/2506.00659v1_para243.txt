@@ -1,0 +1,4 @@
+33. Sun, L., Versteeg, S., Boztaş, S., Yann, T.: Pattern recognition techniques for the
+classification of malware packers. In: Steinfeld, R., Hawkes, P. (eds.) Information
+Security and Privacy. pp. 370–390. Springer Berlin Heidelberg, Berlin, Heidelberg
+(2010)

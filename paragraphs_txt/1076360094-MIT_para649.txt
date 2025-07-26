@@ -1,0 +1,1 @@
+lated “sandboxed” environment. The isolated environment could be virtual machines

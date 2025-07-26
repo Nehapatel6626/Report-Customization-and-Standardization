@@ -1,0 +1,3 @@
+– Adaptation of the encoding proposed in [17] to provide explanations for
+ANNs; additional constraints were incorporated to address the problem of
+computing explanations.

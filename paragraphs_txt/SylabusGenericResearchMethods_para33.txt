@@ -1,0 +1,1 @@
+Sampling Frames and Sampling Designs. Issues associated with spatial sampling. Discussion of sampling with considerations of spatial auto-correlation.

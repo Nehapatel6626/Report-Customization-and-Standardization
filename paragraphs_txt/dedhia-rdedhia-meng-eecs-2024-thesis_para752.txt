@@ -1,0 +1,1 @@
+containing a malicious formula. The extension handles this by enclosing the cell in three

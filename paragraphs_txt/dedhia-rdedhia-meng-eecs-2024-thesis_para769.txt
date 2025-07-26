@@ -1,0 +1,1 @@
+formula triggering cell. As a result, a cell that starts with, for example, a null character and

@@ -1,0 +1,6 @@
+int myArray [5] = {19,68,12,45,72}; 
+/* To print all the elements of the array 
+for (int i=0;i<5;i++)
+{ 
+printf("%d", myArray[i]); 
+}

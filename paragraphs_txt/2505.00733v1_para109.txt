@@ -1,0 +1,2 @@
+3 Some architecture have distinct layers for handling task planning and execution, in the context of this work, they can be considered as sub-layers of the task
+decision layer.

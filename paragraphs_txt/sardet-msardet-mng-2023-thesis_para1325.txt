@@ -1,0 +1,1 @@
+– Rod number (measurements being always made in the same order) encoded in hot-ones

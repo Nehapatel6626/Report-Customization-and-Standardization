@@ -1,0 +1,1 @@
+removing all formula triggering characters, and prepending all cells with a specific character,

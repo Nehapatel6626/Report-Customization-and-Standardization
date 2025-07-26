@@ -1,0 +1,2 @@
+Meaning of bias nodes in classification: 
+Example: loan application

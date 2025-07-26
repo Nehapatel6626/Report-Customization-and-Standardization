@@ -1,0 +1,1 @@
+The F1 score was .774, which is lower than even the SVM model with basic text

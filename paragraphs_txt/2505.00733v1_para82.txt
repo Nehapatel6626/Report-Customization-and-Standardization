@@ -1,0 +1,7 @@
+Valner et al. (2022) proposed the TeMoto as a general solution for robotic systems’ dynamic task
+and resource management. TeMoto partially solves TACA, as it can adapt the robot’s architecture to
+realize the actions being performed by the robot. TeMoto does not completely fulfill TACA as it cannot
+adapt the task execution given the robot’s architectural state. TeMoto provides reusable mechanisms for
+resource management, but reusability is limited since the adaptation logic must be implemented for all
+managed resources, and the knowledge about the dependencies between actions and architecture are
+programmatically included in the actions’ code.

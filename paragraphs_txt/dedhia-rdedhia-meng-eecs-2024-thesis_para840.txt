@@ -1,0 +1,1 @@
+measuring the speed of my extension compared to the size and type of the CSV file it is

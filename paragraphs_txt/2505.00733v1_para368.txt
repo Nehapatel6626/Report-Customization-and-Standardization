@@ -1,0 +1,5 @@
+Thruster failure (U1) was solved with structural adaptation by including two possible function
+designs of the maintain motion function. Runtime behavior: when a thruster fails, the maintain function
+design status is set to unfeasible (see Figure 3d), and it cannot be selected anymore. Then, the recover
+function design is selected, and the recover thruster node component is activated. If all thrusters are
+recovered, the maintain function design status becomes feasible and is selected again.

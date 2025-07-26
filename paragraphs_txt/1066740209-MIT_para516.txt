@@ -1,0 +1,1 @@
+collaborators at MGH provided a list of 1918 example variants and variant patterns.

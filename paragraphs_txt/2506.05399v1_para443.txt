@@ -1,0 +1,13 @@
+The Myanmar image captions corpus, developed by [84],
+was built using a subset of the Flickr8K dataset, which ini-
+tially contains 8,092 images, each with five English captions.
+Due to time constraints, 3,000 images were selected, and five
+Myanmar-language captions were created for each image, to-
+taling 15,000 captions. The dataset was constructed using two
+approaches: First, English captions were translated into Myan-
+mar using an attention-based neural machine translation model,
+achieving a multi-BLEU score rate 13.93. Second, native speak-
+ers directly described the images in Myanmar, resulting in a
+vocabulary size of 3,138 words, with the longest caption con-
+taining 21 words. The dataset was divided into 2,500 images
+for training, 300 for validation, and 200 for testing.

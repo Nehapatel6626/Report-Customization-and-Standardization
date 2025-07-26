@@ -1,0 +1,5 @@
+Introductory course that covers a wide range of machine learning techniques—from basic to state-of-the-art.
+More theoretical/statistics oriented, compared to other courses I teach might need continuous work not “to get lost”. 
+ You will learn about the methods you heard about: Naïve Bayes’, belief networks, regression, nearest-neighbor (kNN), decision trees, support vector machines, learning ensembles, over-fitting, regularization, dimensionality reduction & PCA, error bounds, parameter estimation, mixture models, comparing models, density estimation, clustering centering on K-means, EM, and DBSCAN, active and reinforcement learning.
+Covers algorithms, theory and applications
+It’s going to be fun and hard work

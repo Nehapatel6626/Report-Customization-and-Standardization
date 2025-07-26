@@ -1,0 +1,6 @@
+Why use a linear model?
+	Easier to train
+	Less demanding of data
+	Generalizes better
+	Statistical analysis of results
+	Easier to interpret results

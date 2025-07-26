@@ -1,0 +1,3 @@
+Integrating a new packer requires collecting additional graphs. Without clus-
+tering, identifying a packer involves matching against all graphs in the DB,
+increasing inference time as new packers are added. To ensure scalability, we

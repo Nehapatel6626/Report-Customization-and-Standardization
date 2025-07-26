@@ -1,0 +1,13 @@
+Abstract. Providing explanations for the outputs of artificial neural
+networks (ANNs) is crucial in many contexts, such as critical systems,
+data protection laws and handling adversarial examples. Logic-based
+methods can offer explanations with correctness guarantees, but face
+scalability challenges. Due to these issues, it is necessary to compare
+different encodings of ANNs into logical constraints, which are used in
+logic-based explainability. This work compares two encodings of ANNs:
+one has been used in the literature to provide explanations, while the
+other will be adapted for our context of explainability. Additionally, the
+second encoding uses fewer variables and constraints, thus, potentially
+enhancing efficiency. Experiments showed similar running times for
+computing explanations, but the adapted encoding performed up to 18%
+better in building logical constraints and up to 16% better in overall time.

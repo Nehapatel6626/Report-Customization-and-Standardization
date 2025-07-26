@@ -1,0 +1,1 @@
+estimated classiﬁcation time per ﬁle. Column σT imeperF ile corresponds

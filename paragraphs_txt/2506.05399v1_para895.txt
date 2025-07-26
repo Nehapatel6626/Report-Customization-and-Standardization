@@ -1,0 +1,3 @@
+[79] X. Yang, Y. Liu, X. Wang, Reformer: The relational transformer for
+image captioning, in: Proceedings of the 30th ACM International Con-
+ference on Multimedia, 2022, pp. 5398–5406.

@@ -1,0 +1,1 @@
+where  W  is a matrix  of all  the CNNs  weights and  A  is a weighting  hyperparameter.  Specifically,

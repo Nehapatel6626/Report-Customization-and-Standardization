@@ -1,0 +1,1 @@
+Learning denotes changes in the system that are adaptive in the sense that they enable the system to do the same task or tasks drawn from the same population more effectively the next time.  -- Simon, 1983

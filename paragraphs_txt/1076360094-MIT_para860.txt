@@ -1,0 +1,1 @@
+Step 0 : Start with an empty set Sevade = {}

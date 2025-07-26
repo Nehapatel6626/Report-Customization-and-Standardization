@@ -1,0 +1,2 @@
+In this scenario, an AGV has to navigate from an initial to a goal position in a graph-like environment while
+facing uncertainties such as component failures, corridors with obstacles, and changing light conditions.

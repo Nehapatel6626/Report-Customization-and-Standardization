@@ -1,0 +1,1 @@
+xi represents  an  input value, that  can stem from  other neurons  or the data input.  wi  represents  a

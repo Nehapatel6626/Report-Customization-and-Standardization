@@ -1,0 +1,13 @@
+leveraging edge computing and hardware
+accelerators (e.g., Trusted Execution Environments (TEE),
+FPGA, or ASIC) could substantially reduce HE-induced la-
+tency, ensuring suitability for time-critical surgical applica-
+tions. The simulations were executed on a high-performance
+computing cluster equipped with multi-core Intel Xeon pro-
+cessors and NVIDIA GPUs for accelerated deep-learning
+computations. High-speed network connectivity was utilized
+to simulate federated communication between hospital sites.
+Each node was equipped with 32GB of RAM, ensuring
+efficient execution of the simulations and accurate evaluation
+of the framework’s performance. This robust hardware setup
+allowed us to conduct extensive experiments and analyze the

@@ -1,0 +1,5 @@
+Figure 4.2:
+t-sne applied to Head End-
+burner Hydrogen Flow measurements (dis-
+tance: cosine, perplexity:50) with opera-
+tion dates labeling.

@@ -1,0 +1,30 @@
+Table17. Claude’s Reactive Plan #1, Three Iterations
+Assigned
+Time Task
+Start turkey in oven
+Sarah
+13:00
+Start side dishes
+Sarah
+14:00
+Emily
+14:30
+Land at airport
+Michael
+15:00 Arrive home from NY
+Leave for airport
+Michael
+15:00
+Land at airport
+James
+16:00
+Michael
+16:00
+Pick up Emily
+Michael
+17:00 Arrive home with Emily
+17:00
+Michael
+18:00 Arrive home with Grandma Michael
+18:00 Arrive home
+18:00 Dinner starts

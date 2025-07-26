@@ -1,0 +1,1 @@
+moved onto simply separating the number of carriers with the number of noncarriers.

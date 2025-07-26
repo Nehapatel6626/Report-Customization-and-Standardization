@@ -1,0 +1,1 @@
+machine. This attack uses null characters to bypass dictionary filters. Since they are not

@@ -1,0 +1,2 @@
+Discriminant: IF income > θ1 AND savings > θ2 
+				THEN low-risk ELSE high-risk

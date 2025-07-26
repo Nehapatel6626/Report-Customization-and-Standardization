@@ -1,0 +1,5 @@
+As the number of agents and task complexity grows, MACI
+employs strategies to manage communication overhead and
+optimize agent interactions. This section details techniques
+for clustering agents and hierarchical coordination to main-
+tain scalability.

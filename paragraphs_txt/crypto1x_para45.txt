@@ -1,0 +1,5 @@
+Cryptanalysis based on Statistical pattern of the English language:                            the frequency of digrams, trigrams etc.
+10 most popular digrams: 
+   TH, HE, IN, ER, AN, RE, ED, ON, ES, ST
+10 most popular trigrams:
+   THE, ING, AND, HER, ERE, ENT, THA, NTH, WAS, ETH

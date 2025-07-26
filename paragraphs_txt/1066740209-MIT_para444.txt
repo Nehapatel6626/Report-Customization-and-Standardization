@@ -1,0 +1,1 @@
+incorporates stop words. TfidfVectorizer gave 6% higher F1/recall, and so this was

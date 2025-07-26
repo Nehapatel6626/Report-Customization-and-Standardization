@@ -1,0 +1,4 @@
+Run a stemmer on the documents to be indexed
+Run a stemmer on users’ queries
+Match
+This is basically a form of hashing, where you want collisions.

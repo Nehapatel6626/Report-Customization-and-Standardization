@@ -1,0 +1,1 @@
+filter and chromatic  distortions,  the  sampling  interval  is not directly  determined  by pixel  size.

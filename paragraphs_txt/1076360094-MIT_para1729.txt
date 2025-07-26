@@ -1,0 +1,4 @@
+[20] Wei-Jen Li, Salvatore Stolfo, Angelos Stavrou, Elli Androulaki, and Angelos D
+Keromytis. A study of malcode-bearing documents. In International Conference
+on Detection of Intrusions and Malware, and Vulnerability Assessment, pages
+231–250. Springer, 2007.

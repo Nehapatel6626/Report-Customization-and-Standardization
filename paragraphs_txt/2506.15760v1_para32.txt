@@ -1,0 +1,4 @@
+High-Order  Binary  Optimization  (HOBO)  can  be  solved using  Q-CTRL’s  Qiskit func- 
+tion FireOpal Optimization Solver. for a problem to find the ground-state energy of a 
+random-bond 156-qubit Ising model with Q-CTRL Solver compared to the classical ran- 
+dom sampling, the probability increased from 0.04 to 0.1 while the cost reduced more than

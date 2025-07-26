@@ -1,0 +1,11 @@
+its variability, its functionalities and their variability, the mapping between functions and architecture,
+the required interfaces (i.e., inputs, outputs, and data types) for the adaptation logic, and the adaptation
+logic itself. RRA models the dependencies between the tasks a robot can perform and the architectural
+configurations needed to accomplish them. This is achieved by decomposing each task into multiple
+functionalities and capturing the available architectural variants for realizing each function. At deployment
+time, the robot’s operator selects a task, and RRA manages only the functionalities required for that task.
+Although RRA considers the relationship between tasks and architecture to some extent, it cannot be
+classified as TACA, as this dependence is only accounted for at deployment time. Architectural adaptation
+occurs based on the selected task rather than dynamically at runtime in response to the individual actions the
+robot needs to perform. Moreover, RRA does not adapt the task execution based on the robot’s architectural
+state.

@@ -1,0 +1,6 @@
+Grammar transformations can fix both left-recursion and epsilon productions
+Then you parse the same language but with different trees
+Linguists tend to hate you
+But this is a misconception: they shouldn't
+You can fix the trees post hoc:
+The transform-parse-detransform paradigm

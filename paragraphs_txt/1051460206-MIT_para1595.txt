@@ -1,0 +1,1 @@
+image  without reducing  the  resolution  of the image.  We  accomplish  this by taking  480x480  pixel

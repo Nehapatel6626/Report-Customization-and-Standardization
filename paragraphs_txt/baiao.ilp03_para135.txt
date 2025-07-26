@@ -1,0 +1,1 @@
+By comparing the definitions of choosePrimaryHorizontalFragmentationMethod/2 and chooseVerticalFragmentationMethod/2 predicates in figures 6 and 8, it may be verified that the following revisions were made by FORTE:

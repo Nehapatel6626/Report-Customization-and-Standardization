@@ -1,0 +1,3623 @@
+MACI: Multi-Agent Collaborative Intelligence
+for Adaptive Reasoning and Temporal Planning
+
+Edward Y. Chang, Stanford University 1
+
+5
+2
+0
+2
+
+n
+a
+J
+
+9
+2
+
+]
+I
+
+A
+.
+s
+c
+[
+
+2
+v
+9
+8
+6
+6
+1
+.
+1
+0
+5
+2
+:
+v
+i
+X
+r
+a
+
+Abstract
+Artiﬁcial intelligence requires deliberate reason-
+ing, temporal awareness, and effective constraint
+management—capabilities traditional LLMs of-
+ten lack due to their reliance on pattern match-
+ing,
+limited self-veriﬁcation, and inconsistent
+constraint handling. We introduce Multi-Agent
+Collaborative Intelligence (MACI), a framework
+comprising three key components: 1) a meta-
+planner (MP) that identiﬁes, formulates, and re-
+ﬁnes all roles and constraints of a task (e.g., wed-
+ding planning) while generating a dependency
+graph, with common-sense augmentation to en-
+sure realistic and practical constraints; 2) a col-
+lection of agents to facilitate planning and ad-
+dress task-speciﬁc requirements; and 3) a run-
+time monitor that manages plan adjustments as
+needed. By decoupling planning from validation,
+maintaining minimal agent context, and integrat-
+ing common-sense reasoning, MACI overcomes
+the aforementioned limitations and demonstrates
+robust performance in two scheduling problems.
+
+1. Introduction
+
+Advancing artiﬁcial intelligence requires capabilities be-
+yond pattern matching. To tackle complex real-world tasks,
+AI must exhibit deliberate reasoning, temporal awareness,
+and effective constraint management. While Large Lan-
+guage Models (LLMs) excel at pattern recognition, they
+face signiﬁcant challenges in planning tasks that demand
+sustained attention, comprehensive constraint awareness,
+and reasoning across both past and future temporal states
+(Kahneman, 2011).
+
+1.1. Limitations of LLMs in Planning
+
+LLMs reveal three limitations that fundamentally under-
+mine their effectiveness in complex planning scenarios:
+
+1. Lack of Self-Veriﬁcation. LLMs struggle with validating
+their own output, a problem that extends beyond Gödel’s in-
+completeness theorems for formal systems (Gödel, 1967).
+Their probabilistic nature and lack of logical foundations
+
+1
+
+create signiﬁcant barriers to self-assessment. This intrin-
+sic limitation means LLMs cannot reliably detect errors or
+inconsistencies in their generated content, necessitating ex-
+ternal mechanisms to validate and reﬁne their output.
+
+2. Attention Bias and Constraint Drift.
+In complex sce-
+narios, LLMs demonstrate a critical cognitive limitation
+known as cognitive tunneling. This phenomenon occurs
+when recently provided context dominates and progres-
+sively erodes earlier-established constraints. When plan-
+ning a multi-leg journey, for instance, an LLM might opti-
+mize the ﬁnal travel segment while completely neglecting
+crucial earlier constraints such as vehicle availability or re-
+quired rest periods. This bias toward local optimization fun-
+damentally undermines the global feasibility of generated
+plans.
+
+3. Lack of Common Sense Integration. LLMs often over-
+look practical constraints that humans intuitively consider.
+This deﬁciency becomes particularly evident in domains
+that require real-world experience and understanding. In
+travel planning, an LLM might generate a route without ac-
+counting for airport security processing times. In logistics,
+it may create schedules that ignore resource availability and
+preparation windows. Without explicit, granular speciﬁca-
+tions, these models produce plans that appear superﬁcially
+coherent but remain impractical.
+
+1.2. The MACI Framework
+
+To address these limitations, we propose Multi-Agent
+Collaborative Intelligence (MACI), a framework designed
+to enhance reasoning and planning through a multi-
+component architecture. MACI introduces three core com-
+ponents:
+
+1. Meta-Planner (MP). The meta-planner serves as the
+central orchestration mechanism in MACI. It analyzes task
+requirements, identiﬁes roles and constraints, and dynami-
+cally generates a dependency graph (or workﬂow template)
+tailored to the task. This template includes actionable work-
+ﬂows with nodes representing roles (e.g., cook, driver, su-
+pervisor) and edges representing dependencies (e.g., tem-
+poral, spatial, or resource constraints). The incorporation
+of common sense augmentation into the metaplanner en-
+
+ 
+ 
+ 
+ 
+ 
+ 
+MACI Version 2: January 28, 2025, Stanford University
+
+sures that the generated plans are realistic, comprehensive,
+and aligned with practical constraints.
+
+2. Common and Task-speciﬁc Agents. MACI employs two
+types of agents to execute the generated plans:
+- Common Agents: These agents handle general-purpose
+tasks, including constraint validation, practical reason-
+ing, and performance evaluation. For instance, a Com-
+mon Sense Integration agent
+identiﬁes implicit con-
+straints, while a Constraint Validation agent ensures fea-
+sibility and compliance with the task’s requirements.
+
+- Task-speciﬁc Agents: These agents cater to domain-
+speciﬁc requirements, including task-dependent data and
+knowledge augmentation, selection of the most effective
+planning algorithms, safety and ethics assessment, and
+emergency response optimization. By integrating do-
+main expertise, they extend the capabilities of common
+agents, enabling MACI to address specialized planning
+challenges with precision and adaptability.
+
+3. Run-Time Monitor.
+The run-time monitor handles
+real-time adjustments to the static plan in response to un-
+expected changes, such as resource delays, environmental
+disruptions, or evolving task requirements. This compo-
+nent ensures adaptability and robustness by:
+
+- Monitoring plan execution to detect deviations.
+
+- Activating emergency agents to revise dependencies, re-
+
+assign roles, or dynamically adjust constraints.
+
+- Communicating updates to affected agents to maintain
+
+coherence throughout the workﬂow.
+
+1.3. Summary: How MACI Addresses LLM
+
+Limitations
+
+With its multi-component architecture, MACI directly ad-
+dresses the three critical limitations of LLMs in planning:
+
+1. Lack of Self-Veriﬁcation. MACI separates planning
+from validation, employing independent agents for valida-
+tion. These agents operate without shared memory or inter-
+ference, ensuring external veriﬁcation of outputs and miti-
+gating the risks of self-referential errors.
+
+2. Attention Bias and Constraint Drift. MACI avoids
+relying on a single LLM to execute complex, multi-step
+Instead, it utilizes small collabo-
+reasoning sequentially.
+rative agents that enjoy two key beneﬁts:
+independence
+and well-deﬁned input/output protocols (ensuring speci-
+ﬁcity and quality) for speciﬁc tasks. These agents operate
+within restricted context windows of e.g., 1k tokens, which
+physically limits attention bias and ensures that earlier con-
+straints are not overridden by recent context. By logi-
+cally scoping problems and physically constraining context,
+MACI preserves global feasibility and mitigates cognitive
+tunneling.
+
+2
+
+3 Lack of Common Sense Integration. MACI incorpo-
+rates a Common Sense Integration Agent and other spe-
+cialized agents to identify implicit constraints and augment
+plans with practical, domain-speciﬁc knowledge. This en-
+sures that generated plans are realistic, comprehensive, and
+aligned with real-world conditions.
+
+Through its innovative architecture, MACI overcomes the
+inherent limitations of LLMs, enhancing their capacity for
+deliberate reasoning and planning. In subsequent sections,
+we demonstrate MACI’s effectiveness through evaluations
+in complex scenarios, such as the Traveling Salesman Prob-
+lem (TSP) and a multi-layered dinner planning task.
+
+2. Related Work
+
+The development of MACI builds on theoretical insights
+from formal systems and addresses limitations of current
+multi-agent architectures. Gödel’s second incompleteness
+theorem (Kennedy, 2008; Gödel, 1967) established that no
+consistent formal system can prove its own consistency.
+This principle extends to LLMs, which rely on probabilis-
+tic rather than axiomatic foundations, making them inher-
+ently incapable of reliable self-validation. To address this,
+MACI employs a distributed validation architecture, where
+independent agents validate externally the output, bypass-
+ing the self-referential loops that may lead to inconsisten-
+cies.
+
+In formal systems, consistency proofs require a “higher-
+order” system. Analogously, MACI provides a validation
+framework that operates as a higher-order metasystem for
+LLM output. By decoupling planning from validation,
+MACI mirrors the separation needed in formal systems,
+where validation is performed independently to avoid con-
+ﬂicts and errors.
+
+Moreover, MACI advances the state of the art in multi-
+agent systems by addressing challenges that existing frame-
+works have not fully resolved.
+
+Current multi-agent systems (MAS) primarily function as
+integration platforms for coordinating multiple LLMs. No-
+table frameworks include Microsoft’s AutoGen (Wu et al.,
+2024), the Multi-LLM Agent Debate Framework (Du et al.,
+2023; Chang, 2023; 2024a;b), LangGraph and CrewAI
+(LangChain AI, 2024; Moura, 2024), XAgent (Xia et al.,
+2023), and CAMEL (Li et al., 2023). While these frame-
+works excel in agent coordination, they prioritize task dis-
+tribution over the comprehensive constraint management
+necessary for complex planning.
+
+MACI bridges this gap by integrating a meta-planning
+module with independent agents that validate constraints,
+enabling robust and adaptable solutions in dynamic real-
+world scenarios. The meta-planner constructs task-speciﬁc
+
+MACI Version 2: January 28, 2025, Stanford University
+
+dependency graphs that encode inter-agent constraints, en-
+suring precise role allocation while maintaining global fea-
+sibility. Meanwhile, validation agents, operating indepen-
+dently of the planning process, monitor for errors and in-
+consistencies stemming from probabilistic output, ensuring
+alignment with task objectives. This separation of roles mit-
+igates cognitive tunneling and enhances adaptability, allow-
+ing MACI to dynamically respond to real-time disruptions
+such as resource shortages or environmental changes.
+
+By integrating these advanced mechanisms, MACI goes be-
+yond existing MAS frameworks to provide a cohesive ar-
+chitecture for complex reasoning and planning. It ensures
+a high degree of scalability and robustness, making it suit-
+able for applications ranging from logistical optimization
+to adaptive decision-making in uncertain environments.
+
+3. Case Study: Illuminating LLM Limitations
+
+Planning methodologies can be broadly categorized
+into sequential and reactive approaches.
+Sequen-
+tial planning involves creating time-ordered schedules
+anticipating future scenarios
+(Allen & Hayes, 1989),
+(Cox & Veloso, 1998), and leveraging past experiences
+Reactive plan-
+for
+(Kolodner, 1993).
+ning, on the other hand, focuses on adapting to chang-
+ing conditions (Hammond, 1990), prioritizing immedi-
+ate actions in dynamic environments (Georgeff & Lansky,
+1987), and using data-driven models to forecast scenarios
+(Kushmerick et al., 1995).
+
+improvement
+
+This section highlights the limitations of current LLMs
+in planning tasks through experiments in two contexts: a
+scheduling problem illustrating shortcomings in sequential
+planning, and a dynamic resource allocation problem re-
+vealing challenges in reactive planning. Based on these
+observations, we propose remedies in Section 4.
+
+Problem Statement We conduct experiments using
+a Thanksgiving dinner planning problem designed as
+follows:
+
+Initial Setup:
+
+• Mom (Sarah) is hosting Thanksgiving dinner at 6:00
+PM in Boston. The following family members are trav-
+eling:
+
+• Dad (James) ﬂying from San Francisco, landing at 1:00
+
+PM Eastern time.
+
+• Sister (Emily) ﬂying from Chicago, landing at 2:30 PM
+
+• Brother (Michael) driving from New York, estimated
+
+arrival 3:00 PM at home
+
+• Grandma is healthy and needs to be picked up from her
+
+home in suburban Boston
+
+Critical Dependencies:
+
+• James needs to rent a car after landing
+• Emily doesn’t drive, needs pickup from airport, no
+
+other transportation options are allowed
+
+• Turkey needs 4 hours to cook, someone must be in the
+
+house once turkey is in oven
+
+• Side dishes require 2 hours of preparation
+• Travel time between home and BOS airport is one hour
+• Travel between BOS and grandma home is one hour
+• Travel between home and grandma home 30 minutes
+
+Planning Question Set:
+
+1. At what time should cooking start?
+2. Who should pick up Emily and when?
+3. When should Grandma be picked up by who?
+
+Using this problem, we examine sequential and reactive
+planning performed by GPT-4o and DeepSeek.
+
+Time
+
+12:00pm
+1:00pm
+
+2:00pm
+
+2:30pm
+3:00pm X
+3:00pm
+
+Table1. DeepSeek Proposed Schedule
+Task
+
+Sarah starts preparing side dishes.
+James arrives at the airport, begins car rental (takes
+30-60 minutes).
+James is ready to pick up Emily; Sarah and James
+put the turkey in the oven.
+Emily lands at BOS.
+James arrives at airport to pick up Emily
+Michael arrives at home and leaves to pick up
+Grandma.
+
+3:15pm X Michael at Grandma’s home.
+3:45pm
+4:00pm
+6:00pm
+
+Grandma arrives home; Michael returns.
+James and Emily arrive home.
+Dinner is served.
+
+Assigned
+
+Sarah
+James
+
+J, S
+
+Emily
+J
+Michael
+
+M
+M
+J, E
+All
+
+3.1. Study #1 Sequential Planning
+
+GPT-4o and DeepSeek struggled with real-world travel lo-
+gistics, omitting key human considerations such as luggage
+claim time, rental car processes, and spatial relationships
+between airport terminals and the rental center (Table 1).
+These gaps forced manual constraint additions, highlight-
+ing LLM’s inability to integrate experiential knowledge, a
+gap addressed by the MACI common sense agent.
+
+DeepSeek’s schedule further revealed spatial-temporal er-
+rors: 1) Spatial: Assumed James drove home immediately
+after renting a car at Boston Logan, ignoring his airport
+location while awaiting Emily; and 2) Temporal: Directed
+Michael to return home before heading to Grandma’s, miss-
+ing the optimal direct route from NYC.
+
+Table 2 shows the GPT-4o schedule, which appears feasible
+but contains two critical errors in the case of adaptive plan-
+ning required for emergency: 1) Arithmetic: Incorrectly
+calculates Grandma’s round-trip driving time as 30 minutes
+(vs. 30×2 minutes); and 2) Over-Constraint: Assumes only
+
+3
+
+MACI Version 2: January 28, 2025, Stanford University
+
+Table2. GPT4o Proposed Schedule
+
+Time
+
+Task
+
+James lands in Boston
+1:00pm
+Turkey goes into the oven
+2:00pm
+James ﬁnishes car rental
+2:00pm
+Emily lands at BOS
+2:30pm
+James picks up Emily at airport
+2:30pm
+Michael arrives home
+3:00pm
+Side dishes preparation starts
+4:00pm
+5:00pm
+Michael leaves to pick up Grandma
+5:30pm X Michael arrives home with Grandma
+6:00pm
+
+Dinner is served
+
+Assigned
+
+James
+Sarah
+J
+Emily
+J
+Michael
+S, M
+M
+M
+All
+
+Sarah must watch the oven (vs. “someone”), creating brit-
+tleness under reduced slack time (e.g., delays).
+
+Analysis (with detailed execution in Appendix A) links
+both errors to ﬂawed reasoning in constraint interpretation.
+
+Diagnoses: Common-Sense Constraints and Isolated
+Processing Syndrome Current LLM systems require ex-
+plicit speciﬁcation of real-world constraints that humans
+consider common sense, highlighting a limitation in their
+planning capabilities. Furthermore, we identiﬁed what
+we term isolated processing syndrome, where LLMs han-
+dle sub-tasks independently without maintaining awareness
+of overall constraints. This syndrome manifests itself in
+two critical ways: the system either misses obvious opti-
+mizations or proposes solutions that violate the stated con-
+straints, leading to an infeasible or suboptimal plan.
+
+3.2. Study #2 Reactive Planning
+
+Real-world scenarios do not always follow plans precisely.
+Robust systems require contingency planning for factors
+such as weather, trafﬁc, or airline changes. These cascade
+through schedules, demanding adaptive replanning.
+
+Table3. GPT4o Revised Thanksgiving Schedule. Hazard! No one
+home watch oven between 3:00pm and 4:00pm.
+
+Time
+
+2:00pm
+
+3:00pm
+
+3:00pm X
+3:30pm
+4:00pm
+
+4:30pm
+5:00pm
+5:30pm
+6:00pm
+
+Task
+
+Turkey placed in oven (4-hour cooking time be-
+gins)
+Michael arrives home
+Michael departs to pick up Emily from airport
+Sarah departs to pick up Grandma
+Arrive at Grandma’s house
+Arrive at airport for Emily’s pickup
+Sarah home with Grandma
+James’s ﬂight lands
+Begin side dish preparation
+James completes car rental process
+Michael returns home with Emily
+James arrive home
+Thanksgiving dinner served
+
+Assigned
+
+Sarah
+
+Michael
+Michael
+Sarah
+Sarah
+Michael
+-
+James
+Sarah
+James
+-
+-
+Everyone
+
+To evaluate LLMs’ dynamic replanning, we introduce a ma-
+jor disruption in our Thanksgiving scenario: James’s ﬂight
+is delayed by 3 hours (arrival 4:00 PM vs. 1:00 PM). This
+forces adjustments to pickups, meal prep, and coordination
+while preserving original constraints.
+
+LLM responses reveal critical ﬂaws: 1) DeepSeek violates
+core constraints by unjustiﬁably delaying dinner to 7:00
+PM (vs. the 6:00 PM deadline); and 2) GPT-4o (Table 3)
+commits a safety violation: leaving the oven unattended,
+despite explicit constraints. These errors highlight LLMs’
+inability to reliably maintain and validate constraints dur-
+ing replanning, even with full information.
+
+Diagnosis: Attention Narrowing Claude detects con-
+straint violations in other LLMs’ plans but both GPTo4 and
+DeepSeek struggle with self-validation, revealing an asym-
+metry in error detection. LLMs often embed ﬂawed inter-
+pretations of constraints during planning (e.g., rigidly inter-
+preting “someone must be in the house” when the turkey is
+in the oven), propagating errors through their frameworks.
+
+Two key limitations emerge: 1) Attention narrowing: Over-
+focus on objectives (e.g., arrival times) causes neglect of
+critical constraints (e.g., ﬁre safety); and 2) Solution rigid-
+ity: Once a constraint is satisﬁed (e.g., assigning Sarah to
+oven duty), LLMs treat it as a ﬁxed context, failing to ex-
+plore alternatives.
+
+More speciﬁcally, GPT-4o assigned Sarah to monitor the
+oven, but missed reallocating this task to Grandma earlier,
+preventing Sarah from serving as an additional driver, a
+missed efﬁciency gain.
+
+3.3. Summary of LLM Limitations in Planning
+
+Our analysis reveals three core limitations in current
+LLMs and reasoning methods (CoT (Wei et al., 2022), ToT
+(Yao et al., 2023)):
+
+Metacognitive Limitations LLMs struggle with self-
+validation and constraint awareness. While external LLMs
+detect errors in others’ plans, planners consistently miss
+their own violations (e.g., GPT-4o rigidly assigned Sarah
+to oven duty without considering Grandma’s availability).
+Key causes are:
+
+1. Pattern-matching optimization vs analytical validation
+2. No belief-state tracking during reasoning
+3. Single-solution focus vs comparative analysis
+
+Current reasoning methods exacerbate these issues by op-
+erating within the same ﬂawed cognitive framework.
+
+Attention Bias Transformer architectures prioritize re-
+cent context, creating: 1) Narrowing: Recent constraints
+(arrival times) overshadow earlier ones (oven safety); and
+2) Isolated Processing: Sub-tasks addressed without holis-
+tic awareness
+
+Common Sense Gaps LLMs miss implicit real-world
+knowledge (luggage claim times, rental car logistics) re-
+quiring explicit speciﬁcation of human-obvious constraints
+(airport-terminal proximity).
+
+4
+
+MACI Version 2: January 28, 2025, Stanford University
+
+In Sections 4 and 5, we show how MACI’s meta-planner
+effectively revises plans by debugging errors and adapting
+to dynamic constraints.
+
+4. MACI Framework Speciﬁcation
+
+MACI implements a three-component architecture to ad-
+dress current LLM limitations: metacognitive constraints,
+attention bias, and gaps in common-sense reasoning. Each
+component plays a distinct role in enabling robust and
+adaptable planning capabilities.
+
+4.1. Three-Component Architecture
+
+Meta-Planner Component The meta-planner MP func-
+tions as a higher-order planner that generates task-speciﬁc
+planning systems:
+
+MP : (O, CE ) → W,
+
+where W represents a planning system composed of spe-
+cialized, coordinated agents. Similar to a compiler gen-
+erator producing compilers from speciﬁcations, MP con-
+structs agent networks from task requirements. It analyzes
+objectives, identiﬁes required roles and dependencies, se-
+lects appropriate agents, and establishes interaction pro-
+tocols. This produces a workﬂow template that deﬁnes
+the planning state space and the coordination mechanisms
+needed to solve the task.
+
+Agent Repository Component This component main-
+tains a distributed collection of planning agents, each de-
+signed with a restricted context window and specialized
+interface. By dividing cognitive tasks among agents, the
+repository ensures a complete representation of constraints
+without overwhelming individual components. The meta-
+planner queries this repository to select agents for speciﬁc
+roles and dependencies based on task requirements.
+
+System Infrastructure Component Built on open-
+source multi-agent system (MAS) frameworks, the infras-
+tructure component supports essential operations such as
+agent registration, message routing, resource allocation,
+and deployment scaling. This foundation provides the nec-
+essary runtime environment for executing and monitoring
+the generated workﬂows.
+
+4.2. Agent Repository Design
+
+The agent repository in MACI serves as a structured
+database, enabling efﬁcient registration,
+retrieval, and
+matching of agents to task requirements. By categoriz-
+ing agents into common agents and specialized agents,
+the repository supports both generalized functionality and
+domain-speciﬁc expertise, as outlined in Section 4.1.
+
+4.2.1. LIGHTWEIGHT, INDEPENDENT AGENT DESIGN
+
+MACI avoids relying on a single LLM to execute complex,
+multi-step reasoning sequentially. Instead, it utilizes small,
+independent agents that adhere to strict efﬁciency and mod-
+ularity principles. These agents operate with well-deﬁned
+input/output protocols and are constrained to restricted con-
+text windows to mitigate attention bias and prevent earlier
+constraints from being overridden by recent context.
+
+By scoping problems logically and constraining context
+physically, MACI ensures that each agent processes only
+the task-relevant information needed for its speciﬁc role.
+This design prevents cognitive tunneling, maintains global
+feasibility, and enhances robustness in dynamic environ-
+ments.
+
+4.2.2. AGENT REGISTRATION AND SPECIFICATIONS
+
+Each agent is registered in the repository using a standard-
+ized protocol buffer that encodes the following attributes:
+• Input/output protocol (P ): Deﬁnes the data format and
+expected interactions for seamless communication.
+• Agent type (t): Speciﬁes whether the agent is common
+
+or specialized.
+
+• Capability vector (c): Encodes the agent’s functional ca-
+
+pabilities, constraints, and operating conditions.
+
+• Context window size (w): Ensures that each agent oper-
+ates within a restricted buffer (w ≤ 1k tokens) to pre-
+vent attention bias and excessive information retention.
+• Computational efﬁciency constraint (e): Agents are
+lightweight, avoiding unnecessary memory usage or pro-
+cessing delays.
+
+• User rating (r): Tracks historical performance evalua-
+
+tions to prioritize reliable agents during selection.
+
+The meta-planner retrieves agents from the repository using
+a three-step matching process:
+1. Task-to-capability matching: Filters agents based on
+their capability vector (c) and task-speciﬁc require-
+ments.
+
+2. Protocol veriﬁcation: Ensures compatibility of in-
+put/output protocols (P ) between selected agents to pre-
+vent communication errors.
+
+3. Agent ranking: Ranks agents by their relevance, efﬁ-
+ciency, and historical user rating (r) to select the optimal
+candidates.
+
+This structured retrieval mechanism ensures that MACI ef-
+ﬁciently scales to complex planning problems without re-
+quiring predeﬁned agent hierarchies. By leveraging pro-
+tocol buffers and a structured repository, MACI achieves
+both modularity and adaptability, allowing new agents to be
+introduced seamlessly while maintaining coherence across
+multi-agent interactions.
+
+5
+
+MACI Version 2: January 28, 2025, Stanford University
+
+4.2.3. STATE SPACE AND AGENT DESIGN
+
+Tasks in MACI are modeled in a general ﬁve-dimensional
+state space to ensure comprehensive representation of con-
+straints and dependencies. These dimensions include:
+1. Who (Actors): Identiﬁes roles, constraints, and transi-
+
+tions between agents or individuals.
+
+2. Where (Location): Tracks physical or logical positions,
+
+transitions, and access rules.
+
+3. When (Time): Captures temporal constraints such as
+
+deadlines, durations, and time points.
+
+mon agents, enabling MACI to address specialized plan-
+ning challenges with precision and adaptability.
+
+4.2.5. SEAMLESS INTEGRATION AND SCALABILITY
+
+The repository’s standardized agent speciﬁcations and
+matching mechanism enable MACI to scale efﬁciently
+across domains. By leveraging modular designs and pro-
+tocol buffers, new agents can be integrated seamlessly into
+existing workﬂows, ensuring adaptability and extensibility
+without compromising performance or consistency.
+
+4. What (Resources): Manages resource availability, con-
+
+4.3. Meta-Planner: Planning a Planner to Plan
+
+straints, and associated costs.
+
+5. Why (Logic): Encodes rationale, dependencies, and risk
+
+assessments for decision-making.
+
+This structured state space allows the meta-planner to gen-
+erate workﬂows that account for all relevant constraints and
+dependencies across diverse domains.
+
+4.2.4. AGENT ROLES IN STATE SPACE MANAGEMENT
+
+Common Agents Common agents are designed to han-
+dle foundational planning tasks that align with MACI’s
+state space dimensions (Who, Where, When, What, Why).
+These agents provide general-purpose functionality that en-
+sures consistency, feasibility, and robustness across plan-
+ning tasks. Their primary responsibilities include:
+• Constraint Validation Agents: Ensure adherence to tem-
+poral, spatial, and resource constraints by verifying the
+feasibility of generated plans.
+
+• Common Sense Integration Agents:
+
+Identify implicit
+constraints that may be overlooked, such as transition
+times, dependencies, or practical limitations.
+
+• Adaptation Agents: Dynamically adjust plans in re-
+sponse to changes in task environments, such as re-
+source delays or evolving requirements.
+
+The mission of the meta-planner MP is to construct a plan-
+ner that generates an actionable workﬂow for a given task.
+It does so by analyzing task objectives, identifying roles
+and constraints, and organizing agents into a structured ex-
+ecution plan. This three-phase approach ensures that every
+agent and dependency is optimally placed, reﬁned, and val-
+idated, leading to robust, task-speciﬁc workﬂows.
+
+4.3.1. THE META-PLANNER ALGORITHM
+
+The meta-planner operates as a higher-order planning sys-
+tem that formulates workﬂows as directed graphs:
+
+W = (N , E), where N = A∗
+
+n, E = A∗
+e.
+
+(1)
+
+Here, N denotes roles assigned to agents, and E represents
+dependencies between roles, including constraints such as
+timing, data ﬂow, and supervision requirements.
+
+4.3.2. META-PLANNING DESIGN ELEMENTS
+
+Role and Qualiﬁcation Analysis The meta-planner ex-
+tracts roles from task objectives and maps them to required
+qualiﬁcations:
+
+maprole : O → {(ni, qi)}
+
+(2)
+
+• Performance Evaluation Agents: Assess the quality and
+efﬁciency of proposed plans relative to predeﬁned met-
+rics, ensuring continuous improvement.
+
+where ni represents a role and qi its required qualiﬁcations
+(e.g., a driver requires a license, a cook requires experi-
+ence).
+
+By addressing these tasks, common agents form the back-
+bone of MACI’s planning architecture. Their modular de-
+sign enables reuse across multiple domains, and their col-
+laborative functionality ensures they work seamlessly with
+specialized agents to maintain global consistency and co-
+herence within the planning workﬂow.
+
+Task-Speciﬁc Agents These agents cater to domain-
+speciﬁc requirements, including task-dependent data and
+knowledge augmentation, selecting and optimizing plan-
+ning algorithms, safety and ethics assessment, and emer-
+gency response optimization. By leveraging domain ex-
+pertise, specialized agents extend the capabilities of com-
+
+Constraint Management Constraints govern role inter-
+actions and dependencies. The framework maintains a
+global constraint set:
+
+C = CE ∪ CI ∪ CD
+
+(3)
+
+where CE represents explicit constraints from task speciﬁ-
+cations, CI denotes implicit constraints identiﬁed by com-
+mon sense agents, and CD represents derived constraints
+from agent interactions.
+
+Agent Assignment Two categories of agents are as-
+signed based on task requirements:
+
+6
+
+MACI Version 2: January 28, 2025, Stanford University
+
+Algorithm 1 MP: Planner for Planning a Plan
+input Objectives O, explicit constraints CE, agent pool A,
+
+people P, metrics M
+
+output Optimized workﬂow W∗ = (N , E)
+
+(Eq. 1)
+
+(Eq. 2)
+(Eq. 3)
+
+// Phase 1: Network Construction
+1. Extract roles N from O
+2. Identify dependencies E from CE
+// Phase 2: Agent Assignment
+3. Assign agents to nodes: ∀n ∈ N , select αn ∈ An
+(Eq. 4)
+4. Assign agents to dependencies: ∀eij ∈ E, select αij ∈
+Ae
+(Eq. 5)
+// Phase 3: Iterative Reﬁnement
+while improvement in V (W, M) do
+
+for all n ∈ N do
+
+Update role-person mappings
+
+frole(n, P)
+
+end for
+for all e ∈ E do
+
+Verify dependencies via assigned edge agents
+
+end for
+if V (Wnew, M) > V (Wcurrent, M) then
+
+Wcurrent ← Wnew
+
+end if
+end while
+return W∗ = Wcurrent
+
+• Node Agents (Role Execution):
+
+A∗
+
+n = arg min
+Ai∈A
+
+nj
+X
+
+dist(qj, Ai.capabilities)
+
+(4)
+
+These agents are responsible for fulﬁlling role qualiﬁca-
+tions and managing people-role assignments.
+
+• Edge Agents (Dependency Management):
+
+A∗
+
+e = arg min
+Ai∈A
+
+ej
+X
+
+dist(cj, Ai.capabilities)
+
+(5)
+
+These agents ensure dependencies between roles are cor-
+rectly maintained, such as time constraints, spatial rela-
+tions, and supervisory requirements.
+
+4.4. Workﬂow Execution Framework
+
+The ﬁnal workﬂow W∗ must be executed in a runtime envi-
+ronment. In this work, we evaluate W∗ by entering it into
+an LLM (e.g., GPT4o) alongside the problem statement. A
+key limitation is that the feedback loop for reﬁning W∗
+is currently manual, requiring iterative adjustments to opti-
+mize execution. Future research will focus on automating
+this process to enhance adaptability and efﬁciency.
+
+5. Evaluating MP vs. Independent LLMs
+
+To assess MP’s performance and adaptability, we adopted
+a dual-approach experimental structure. The ﬁrst exper-
+
+iment uses the Traveling Salesperson Problem (TSP) to
+validate MP’s optimization capabilities. The second in-
+volves the Thanksgiving Dinner Planning problem, show-
+casing MP’s ability to handle complex, real-world chal-
+lenges with cross-thread dependencies and dynamic adapt-
+ability. Due to space constraints, detailed results for these
+experiments are provided in Appendices D and E, respec-
+tively.
+
+5.1. Traveling Salesperson Problem (TSP)
+
+The TSP experiment benchmarks MP against standalone
+planners (Claude, DeepSeek, GPT-4o) and their MP-
+integrated counterparts. The metrics include solution qual-
+ity and optimality.
+
+Result Summary Without MP, DeepSeek performs
+best, while Claude and GPT-4o struggle, each exceeding
+the optimal travel time by more than 10%. With MP,
+Claude requires two iterations to reach the optimal distance,
+while both GPT-4o and DeepSeek solve the problem in a
+single attempt.
+
+Although TSP involves a straightforward, single-thread
+planning process, MP still provides notable enhance-
+ments. Again, see Appendix D for details.
+
+5.2. Thanksgiving Dinner Planning
+
+This task, detailed in Section 3, evaluates MP’s ability to
+generate workﬂows W∗ with enhanced constraint and de-
+pendency management in the MACI setting. Unlike TSP,
+this problem involves multiple interdependent agents, in-
+troducing complex coordination challenges.
+
+Planning performance is assessed across three conﬁgura-
+tions: DeepSeek + MP, GPT-4o + MP, and Claude +
+MP. The prior results in Section 3 show that all LLMs
+fail the task when executed independently.
+
+Evaluation metrics include:
+
+Performance = {%Constraint satisfaction, Flexibility},
+
+where ﬂexibility measures slack time incorporated to han-
+dle unexpected events.
+
+5.2.1. META-PLANNING FOR THANKSGIVING EVENT
+
+Following Algorithm 1, MP generates workﬂows with:
+
+• Role nodes (e.g., cook, drivers, supervisor),
+• Explicit constraint edges (e.g., temporal, spatial, etc.),
+• Implicit constraint edges from common-sense analysis.
+
+The planner monitors nodes and edges, enabling dynamic
+adjustments. The full speciﬁcations are in Appendix E.
+
+Evaluation Scenarios We test MP under:
+
+7
+
+MACI Version 2: January 28, 2025, Stanford University
+
+1. Sequential Planning: Task executed as planned.
+
+2. Reactive Planning: A 3-hour ﬂight delay requiring task
+
+reallocations.
+
+Meta-Planner Output MP enhances planning by:
+
+• Identifying implicit constraints (e.g.,
+
+luggage claim
+
+time, car rental delays),
+
+• Clarifying role dependencies,
+
+• Incorporating common-sense constraints (e.g., fatigue,
+
+social preferences),
+
+In reactive planning, MP integrates an alert agent to de-
+tect ﬂight delays at departure, enabling timely workﬂow
+updates and demonstrating adaptability.
+
+5.2.2. EXPERIMENTAL RESULTS
+
+Sequential Planning Performance With MP’s en-
+hanced workﬂow W∗, all three LLMs successfully gener-
+ated feasible solutions, a signiﬁcant improvement over their
+previous failures with the original problem speciﬁcation.
+
+Table 4 summarizes the detailed schedules documented
+in Tables 12, 13, and 14, in Appendix E.8. DeepSeek
+demonstrated superior scheduling efﬁciency by optimiz-
+ing James’s airport wait time for Emily’s pickup, requir-
+ing only two iterations. While GPT4o eventually pro-
+duced a valid solution in three iterations, it created sub-
+optimal travel patterns by having Michael make separate
+trips. Claude’s solution, though feasible in two iterations,
+included unnecessary travel between pickup tasks. This ex-
+periment highlighted how MP’s explicit constraint speciﬁ-
+cation and common-sense augmentation enabled consistent
+performance improvement across different LLMs.
+
+Table4. Sequential Planning Performance. (# = iterations)
+
+LLM
+DeepSeek
+
+# Notable Features
+2 Optimized airport wait time for James; bal-
+
+GPT4o
+
+3
+
+anced workload
+Extra travel for Michael; suboptimal load
+balance
+
+Claude
+
+2 Unnecessary travel between pickup tasks
+
+Reactive Planning Performance The ﬂight delay sce-
+nario revealed signiﬁcant differences between LLMs’ ca-
+pabilities. DeepSeek demonstrated superior spatial reason-
+ing by routing Michael directly to the airport, an insight
+that should have come from MP’s common-sense spatial
+reasoning. This unexpected ability to improve workﬂow
+highlights the synergy between MP and LLM —MP pro-
+vided early alert through its information agent (Table 15 in
+Appendix E.9).
+
+Table 5 summarizes the detailed schedules documented in
+Tables 16, 18, and 19, in Appendix E.9. DeepSeek lever-
+aged the early alert at 10:00 AM for immediate replanning.
+
+8
+
+Table5. Reactive Planning Performance (Alert: ﬂight delay)
+Notable Features
+
+LLM
+
+#
+
+DeepSeek
+
+GPT4o
+
+3
+
+Smart routing of Michael directly to
+airport; efﬁcient travel patterns
+X Failed to maintain critical constraints;
+
+Claude
+
+3
+
+unable to recover
+Two valid plans with different trade-
+offs; longer wait times
+
+In contrast, Claude produced two feasible plans but missed
+the 10:00 AM alert in WR, starting its schedule at 1:00 PM
+and missing opportunities for proactive actions like early
+Grandma pickup to free Sarah as a driver. GPT4o failed
+entirely, producing three constraint violations it could not
+recognize, preventing further improvements.
+
+6. Conclusion with Impact Statements
+
+This research introduces Multi-Agent Collaborative Intelli-
+gence (MACI), a framework designed to overcome funda-
+mental limitations in current LLMs for reasoning and plan-
+ning. By reimagining computational intelligence through
+a hierarchical, distributed architecture, MACI represents a
+structured approach to complex problem-solving.
+
+To validate MACI’s capabilities, two experiments tested
+its effectiveness in adaptive planning and constraint man-
+agement. The ﬁrst experiment, based on the Traveling
+Salesperson Problem (TSP), demonstrated MACI’s ability
+to generate globally optimized workﬂows that guide LLMs
+in solving this classical problem. The second, a Thanksgiv-
+ing Dinner Planning task, highlighted MACI’s ability to re-
+solve intricate cross-thread dependencies and dynamically
+adjust to evolving constraints.
+
+MACI introduces three fundamental innovations that rede-
+ﬁne computational reasoning:
+
+Structured Meta-Planning for Constraint-Aware Exe-
+cution: The framework implements a structured meta-
+planner that explicitly separates planning from execution.
+This architectural approach dismantles the attention-driven
+limitations that have historically constrained LLM perfor-
+mance, enabling a more deliberate and controlled planning
+mechanism.
+
+Distributed Validation for Reliable Decision-Making:
+MACI establishes a distributed validation mechanism that
+enhances system reliability. By incorporating independent
+veriﬁcation agents, the framework transcends the proba-
+bilistic limitations of traditional language models, introduc-
+ing a new paradigm of self-checking computational intelli-
+gence.
+
+Proactive Multi-Agent Coordination for Adaptive Plan-
+ning: The system enables a proactive approach to multi-
+
+MACI Version 2: January 28, 2025, Stanford University
+
+agent coordination. Unlike previous static collaboration
+frameworks, MACI facilitates real-time constraint resolu-
+tion and dynamic replanning, signiﬁcantly advancing adap-
+tive computational reasoning.
+
+By redeﬁning intelligent planning, MACI lays the foun-
+dation for AI systems that operate with greater precision,
+adaptability, and contextual awareness, bridging the gap
+between static LLM reasoning and dynamic real-world
+decision-making.
+
+References
+
+Ahuja, R. K., Magnanti, T. L., and Orlin, J. B. Network Flows:
+Theory, Algorithms, and Applications. Prentice Hall, 1993.
+
+Allen, J. F. and Hayes, P. J. Moments and points in an interval-
+based temporal logic. Computational Intelligence, 5(4):225–
+238, 1989.
+
+Gödel, K. On formally undecidable propositions of Principia
+Mathematica and related systems i.
+In van Heijenoort, J.
+(ed.), From Frege to Gödel: A Source Book in Mathemati-
+cal Logic, 1879–1931, pp. 596–616. Harvard University Press,
+1967. Translated by Jean van Heijenoort.
+
+Hammond, K. J. Case-based planning: A framework for planning
+
+from experience. Academic Press, 1990.
+
+Holland, J. H. Adaptation in Natural and Artiﬁcial Systems: An
+Introductory Analysis with Applications to Biology, Control,
+and Artiﬁcial Intelligence. MIT press, 1992.
+
+Kahneman, D. Thinking, Fast and Slow. Farrar, Straus and
+
+Giroux, 2011. ISBN 978-0374275631.
+
+Kennedy, J. Kurt Gödel. In Kennedy, J. (ed.), Stanford Encyclo-
+
+pedia of Philosophy. Stanford, 2008.
+
+Kirkpatrick, S., Gelatt, Jr, C. D., and Vecchi, M. P. Optimization
+by simulated annealing. Science, 220(4598):671–680, 1983.
+
+Bellman, R. Dynamic Programming. Princeton University Press,
+
+Kolodner, J. Case-based reasoning. Morgan Kaufmann, 1993.
+
+1957.
+
+Bellman, R. Dynamic programming treatment of the travelling
+salesman problem. Journal of the ACM, 9(1):61–63, 1962.
+
+Ben-Tal, A. and Nemirovski, A. Robust Optimization. Princeton
+
+University Press, 2009.
+
+Chang, E. Y. Examining GPT-4’s Capabilities and Enhancement
+In The 10th International Conf. on Com-
+with SocraSynth.
+putational Science and Computational Intelligence, December
+2023.
+
+Chang, E. Y. Multi-LLM Agent Collaborative Intelligence: The
+Path to Artiﬁcial General Intelligence. SocraSynth.com, Octo-
+ber 2024a.
+
+Chang, E. Y.
+
+EVINCE: Optimizing Adversarial LLM Dia-
+logues via Conditional Statistics and Information Theory. In
+arXiv:2408.14575, August 2024b.
+
+Christoﬁdes, N. Worst-case analysis of a new heuristic for the
+travelling salesman problem. Report 388, Graduate School of
+Industrial Administration, CMU, 1976.
+
+Cox, M. T. and Veloso, M. M. Goal transformations in continu-
+ous planning. AAAI Fall Symposium on Distributed Continual
+Planning, pp. 23–30, 1998.
+
+Dantzig, G., Fulkerson, R., and Johnson, S. Solution of a large-
+scale traveling-salesman problem. Journal of the Operations
+Research Society of America, 2(4):393–410, 1954.
+
+Dorigo, M. and Stützle, T. Ant Colony Optimization. MIT Press,
+
+2004.
+
+Du, Y., Li, S., Torralba, A., Tenenbaum, J. B., and Mordatch,
+Improving factuality and reasoning in language models
+
+I.
+through multiagent debate, 2023.
+
+England, D. and Engelmore, R. S. The blackboard system: Frame-
+
+work and applications. IEEE Expert, 2(1):32–44, 1987.
+
+Georgeff, M. P. and Lansky, A. L. Reactive reasoning and plan-
+
+ning. In AAAI, volume 87, pp. 677–682, 1987.
+
+Kushmerick, N., Hanks, S., and Weld, D. S. An algorithm for
+probabilistic planning. Artiﬁcial Intelligence, 76(1-2):239–286,
+1995.
+
+Land, A. H. and Doig, A. G. An automatic method of solving dis-
+crete programming problems. Econometrica, 28(3):497–520,
+1960.
+
+AI.
+structured
+
+Build-
+LangChain
+llms.
+ing
+https://github.com/langchain-ai/langgraph,
+2024.
+
+applications
+
+Langgraph:
+
+with
+
+Li, G., Hammoud, H., et al. Camel: Communicative agents
+for "mind" exploration of large scale language model society.
+arXiv preprint arXiv:2303.17760, 2023.
+
+Metropolis, N. and Ulam, S. The monte carlo method. Journal of
+the American Statistical Association, 44(247):335–341, 1949.
+
+Moura, J. Crewai framework, 2024.
+
+Ren, W. and Beard, R. W. Consensus protocols in multi-agent
+coordination. Proceedings of the IEEE, 94(3):625–641, 2005.
+
+Rossi, F., Van Beek, P., and Walsh, T. Handbook of Constraint
+
+Programming. Elsevier, 2006.
+
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Chi, E. H., Le,
+Q., and Zhou, D. Chain of thought prompting elicits reasoning
+in large language models. Neurips, 2022.
+
+Wolsey, L. A. and Nemhauser, G. L. Integer and Combinatorial
+
+Optimization. Wiley, 1998.
+
+Wu, Q., Bansal, G., Zhang, J., Wu, Y., and Wang, C. Autogen: En-
+abling next-gen llm applications via multi-agent conversation.
+In COLM 2024, August 2024.
+
+Xia, Y., Ding, M., Ding,
+
+Xagent: An au-
+tonomous llm agent for complex task solving. arXiv preprint
+arXiv:2312.11490, 2023.
+
+J., et al.
+
+Yao, S., Yu, D., Zhao, J., Shafran, I., Grifﬁths, T. L., Cao, Y., and
+Narasimhan, K. Tree of thoughts: Deliberate problem solving
+with large language models, 2023.
+
+9
+
+MACI Version 2: January 28, 2025, Stanford University
+
+Appendices
+
+A. Validation and Recovery Protocols
+
+The validation protocol implements a multi-stage process
+for ensuring state consistency. When any agent proposes
+a state change, the validation agent initiates a sequence of
+checks:
+
+validate(st → st+1) =
+
+true
+false
+
+(
+
+if all checks pass
+if any check fails
+
+(6)
+
+The protocol begins with pre-validation. Before a state tran-
+sition starts, the validation agent queries relevant agents
+about preconditions. For a travel booking, temporal agent
+veriﬁes the proposed times ﬁt within existing schedules.
+Spatial agent conﬁrms the physical feasibility of move-
+ments between locations. Role agent checks if all actors
+can perform their assigned functions.
+
+During the transition, the protocol maintains atomic opera-
+tions. The validation agent tracks changes across all state
+dimensions, ensuring partial updates cannot create incon-
+sistent states. If the temporal agent approves a ﬂight time
+but the resource agent ﬁnds insufﬁcient seats, the entire
+transition fails and rolls back.
+
+Post-validation examines the resulting state. The validation
+agent veriﬁes that all constraints remain satisﬁed after the
+change. Common sense agent reviews the new state for
+practical issues that formal checks might miss. Strategy
+agent conﬁrms the transition aligns with overall planning
+objectives.
+
+When validation fails, the protocol triggers a structured re-
+covery process:
+
+recover(st, sfailed) → svalid
+
+(7)
+
+Recovery begins by logging the failure cause and violated
+constraints. The strategy agent then works with domain
+agents to generate alternative proposals that satisfy the
+constraints. This might involve relaxing non-critical con-
+straints or exploring different approaches to meet the plan-
+ning objectives.
+
+A.1. Operations Research Techniques in Validation
+
+Protocols
+
+The validation protocols described above align closely with
+established methods in operations research (OR). Some rel-
+evant techniques include:
+
+• Constraint Programming (CP): Focuses on solving
+combinatorial problems by enforcing constraints, en-
+suring consistency across dimensions such as tem-
+poral, spatial, and resource availability (Rossi et al.,
+2006).
+
+• Mixed-Integer Linear Programming (MILP): Opti-
+mizes decision variables subject to linear constraints
+and objective functions, often used in scheduling and
+resource allocation (Wolsey & Nemhauser, 1998).
+
+• Network Flow Algorithms: Validates feasibility
+and optimizes ﬂows in networks by ensuring ca-
+pacity, timing, and availability constraints are satis-
+ﬁed (Ahuja et al., 1993).
+
+• Dynamic Programming (DP): Decomposes prob-
+lems into sequential subproblems, useful for validat-
+ing processes like inter-terminal walking or luggage
+claiming time (Bellman, 1957).
+
+• Monte Carlo Simulation:
+
+Simulates scenarios
+to validate feasibility and robustness under uncer-
+tainty (Metropolis & Ulam, 1949).
+
+• Robust Optimization: Focuses on solutions that re-
+main feasible under uncertainty, ensuring plans adapt
+to disruptions (Ben-Tal & Nemirovski, 2009).
+
+Integration in Multi-Agent Systems The validation
+agent also employs techniques from multi-agent systems,
+such as:
+
+• Blackboard Systems: A shared workspace for collab-
+orative validation by different agents, ensuring global
+consistency (England & Engelmore, 1987).
+
+• Consensus Protocols: Used for distributed validation,
+where agents negotiate to ensure all constraints are
+met (Ren & Beard, 2005).
+
+By combining these OR techniques with agent-based sys-
+tems, the validation protocol ensures comprehensive and
+adaptive checks for workﬂow consistency. Future work can
+explore integrating heuristic methods, such as genetic algo-
+rithms or simulated annealing, to further enhance recovery
+processes.
+
+B. MACI Additional Design Considerations
+
+B.1. Cross-Domain Generalization
+
+While the state space dimensions—Who, Where, When,
+What, and Why—are broad enough to cover diverse do-
+mains, additional customization may be required for unique
+applications. This section examines how MACI generalizes
+across domains like ﬁnancial planning, healthcare logistics,
+and supply chain optimization. The travel planning ex-
+ample is illustrative, emphasizing how MACI dynamically
+adapts state spaces and agents to domain-speciﬁc require-
+ments.
+
+10
+
+MACI Version 2: January 28, 2025, Stanford University
+
+B.2. Dynamic Agent Registration and Evolution
+
+This section explores how agents are dynamically devel-
+oped, trained, and validated for new tasks.
+It discusses
+mechanisms for evaluating new agents and integrating
+them into the repository without retraining the entire sys-
+tem, ensuring scalability and adaptability.
+
+B.3. Scalability and Resource Efﬁciency
+
+As the number of agents and task complexity grows, MACI
+employs strategies to manage communication overhead and
+optimize agent interactions. This section details techniques
+for clustering agents and hierarchical coordination to main-
+tain scalability.
+
+B.4. Empirical Evaluation Across Domains
+
+To demonstrate MACI’s adaptability, this section presents
+empirical results from applying the framework to multi-
+ple domains. Examples include ﬁnancial portfolio manage-
+ment, urban trafﬁc planning, and hospital resource alloca-
+tion, highlighting MACI’s advantages over state-of-the-art
+systems.
+
+B.5. Challenges and Future Directions
+
+While MACI addresses many limitations of LLM-based
+planning, challenges remain in real-time coordination, im-
+plicit knowledge integration, and robust recovery mecha-
+nisms. This section proposes future research directions to
+enhance MACI’s performance and applicability to novel
+tasks.
+
+C. Additional Tables and Figures
+
+C.1. Notation
+
+Table6. Symbol Deﬁnitions
+
+Symbol Deﬁnition
+
+Symbol Deﬁnition
+
+Basic Sets
+O
+P
+Planning objectives
+CE
+CI
+Explicit constraints
+M Performance metrics Q
+Workﬂow Components
+W Workﬂow network
+E
+ni
+Agent Functions
+frole
+V (·)
+maprole Role extraction
+
+N
+Dependencies (edges) A
+eij
+Individual role
+
+Role-agent mapping
+Validation function
+
+Available people
+Implicit constraints
+Role qualiﬁcations
+
+Roles (nodes)
+Agent repository
+Role dependency
+
+Edge-agent mapping
+
+fedge
+dist(·) Capability distance
+mapedge Dependency
+tion
+
+extrac-
+
+Optimization
+A∗
+n
+W∗
+
+Selected node agents
+Optimal workﬂow
+
+A∗
+e
+V ∗
+
+Selected edge agents
+Best validation score
+
+tive plans, enabling consistent alignment with objectives
+and providing explanations for outcomes.
+
+6. Common Sense Agent: Identiﬁes implicit constraints, in-
+tegrates practical knowledge, and ensures plans align
+with real-world considerations.
+
+7. Constraint Validation Agent: Ensures that all constraints
+are satisﬁed and that proposed plans remain feasible.
+8. Plan Evaluation Agent: Assesses the effectiveness of
+
+plans against predeﬁned metrics and objectives.
+
+9. What-If Testing Agent: Evaluates plan robustness by sim-
+ulating alternative scenarios and analyzing their impact.
+10. Compliance and Safety Agent: Monitors adherence
+to safety standards, ethical principles, and regulatory
+frameworks.
+
+Table 6 presents all symbols used throughout this paper.
+
+D. Traveling Salesman Problem Experiment
+
+C.2. Example Common Agents
+
+D.1. General Problem Speciﬁcation
+
+1. Role Manager Agent (Who): Tracks actors, their roles,
+and their associated constraints, ensuring that all role-
+based requirements are satisﬁed.
+
+2. Spatial Agent
+
+(Where): Manages geographic and
+location-based constraints, verifying transitions be-
+tween physical or virtual locations.
+
+3. Temporal Agent (When): Handles scheduling, timing,
+and deadlines, ensuring alignment with temporal con-
+straints.
+
+4. Resource Agent (What): Tracks real-world resources
+such as tools, vehicles, or ﬁnancial instruments, man-
+aging capacity, availability, and associated costs.
+
+5. Reasoning and Explanation Agent (Why): Maintains the
+rationale behind decisions, dependencies, and alterna-
+
+The TSP requires ﬁnding the shortest possible route visit-
+ing N locations exactly once, returning to the start:
+• Inputs: N locations, distance matrix D[N][N]
+
+• Output: Optimal tour T minimizing total distance
+
+• Constraints: Each location visited once, return to start
+
+Computational Complexity - Brute Force For N loca-
+tions:
+
+• Number of possible tours = (N-1)!/2
+
+• Time complexity = O(N!)
+• Space complexity = O(N2)
+
+Solution Methods
+
+11
+
+MACI Version 2: January 28, 2025, Stanford University
+
+1. Exact Methods: Representative methods are Branch
+and Bound (Land & Doig, 1960), Dynamic Program-
+ming (Bellman, 1962), and Integer Linear Program-
+ming (Dantzig et al., 1954).
+
+2. Heuristics: Methods include Nearest Neighbor, In-
+sertion Methods, and Christoﬁdes Algorithm (3/2-
+approximation) (Christoﬁdes, 1976).
+
+3. Meta-heuristics:
+
+This category includes Genetic
+Algorithms (Holland, 1992), Simulated Annealing
+(Kirkpatrick et al., 1983), and Ant Colony Optimization
+(Dorigo & Stützle, 2004).
+
+D.2. W∗: MACI Generated Planner for TSP
+
+Node Components (N) For TSP with n locations:
+
+N = {nroute, ndist, nvalid}, where
+
+(8)
+
+- nroute: Route generation role
+- ndist: Distance calculation role
+- nvalid: Solution validation role
+
+Edge Dependencies (E)
+
+E = {espatial, esequence, ecomplete} where
+
+(9)
+
+- espatial: Distance constraints between locations
+
+- esequence: Visit order constraints
+- ecomplete: Tour completion requirements
+
+Agent Assignments
+
+Node Agents (An):
+
+• Route Generation Agent: Generates candidate tours
+
+D.3. Experiments, From Small to Large N
+
+1. N=5: Establish ground truth via brute force
+2. N=10,20,100: Test LLM performance degradation
+3. Metrics:
+
+• Solution quality vs optimal
+• Computation attempts before giving up
+• Error recognition capability
+
+D.3.1. SMALL CAMPUS TOUR (N=5)
+
+Plan an optimal route for campus tour guide visiting 5 key
+locations:
+
+• A: Admissions Ofﬁce (start/end)
+• B: Library
+• C: Student Center
+• D: Science Building
+• E: Sports Complex
+
+Distance Matrix (minutes)
+
+0
+5
+D = 
+8
+4
+
+
+7
+
+
+
+
+5 8
+0 6
+6 0
+3 5
+8 4
+
+4 7
+3 8
+5 4
+0 6
+6 0
+
+
+
+
+
+
+
+
+
+(11)
+
+Constraints
+
+• Tour starts/ends at Admissions (A)
+• Each location visited exactly once
+• Total possible routes: (5-1)!/2 = 12
+• Optimal solution can be veriﬁed by hand
+
+• Distance Calculator Agent: Computes tour lengths
+
+3.1.1. W∗ Workﬂow Components
+
+• Solution Validator Agent: Veriﬁes tour validity
+
+Node Components (N)
+
+Edge Agents (Ae):
+
+• Spatial Constraint Agent: Monitors distance feasibility
+
+• Sequence Monitor Agent: Ensures valid visit order
+
+• Completion Checker Agent: Veriﬁes tour completeness
+
+Algorithm Selection Based on the size of the problem,
+an algorithm is selected to balance performance trade-offs
+and mitigate the exponential computational cost of the
+brute-force method.
+
+Validation Function
+
+• nroute: Generates permutations starting/ending at A.
+• ndist: Computes tour length using distance matrix D.
+• nvalid: Checks tour validity (start/end at A, no repeats).
+
+Edge Dependencies (E)
+
+• espatial: Enforces distance constraints from D.
+• esequence: Ensures visit order consistency.
+• ecomplete: Validates all 5 locations are visited.
+
+Agent Assignments
+• Node Agents:
+
+V (W, M ) =
+
+(
+
+−∞
+−tour_length if tour valid
+
+if constraints violated
+
+– Route Generation Agent (handles nroute)
+– Distance Calculator Agent (handles ndist)
+– Solution Validator Agent (handles nvalid)
+
+(10)
+
+• Edge Agents:
+
+12
+
+MACI Version 2: January 28, 2025, Stanford University
+
+– Spatial Constraint Agent (enforces espatial)
+– Sequence Monitor Agent (enforces esequence)
+– Completion Checker Agent (enforces ecomplete)
+
+D.3.2. LARGE CAMPUS TOUR (N=10)
+
+Plan an optimal route for a guided tour through 10 loca-
+tions:
+
+Selected Algorithm Brute-force.
+
+• Locations: A (Admissions), B (Library), C (Student
+
+Validation Function
+
+V (W, M ) =
+
+−∞
+−tour_length if tour valid
+
+if constraints violated
+
+(
+
+3.1.2. Solution Steps
+
+Step 1: Problem Parsing
+
+• Input: 5 locations with distance matrix D.
+• Initialize node/edge agents and constraints.
+
+D =
+
+Step 2: Route Generation (nroute Agent)
+• Generate all valid permutations: (5−1)!
+• Example permutations:
+
+2 = 12 routes.
+
+– A → D → B → C → E → A
+– A → B → D → C → E → A
+
+Step 3: Distance Calculation (ndist Agent)
+
+• Compute total time for each route using D.
+
+Center), ..., J (Sports Complex)
+
+• Distance Matrix: Asymmetric travel times (minutes)
+
+12
+0
+5
+8
+13
+9
+7
+14
+6
+10
+
+8
+7
+0
+12
+6
+15
+10
+4
+9
+7
+
+15
+14
+11
+0
+9
+8
+6
+10
+7
+13
+
+7
+14
+9
+16
+9
+6
+12 10
+8
+13
+9
+10
+5
+8
+0
+7
+0
+12
+0
+9
+11
+6
+7
+13
+8
+15 10
+11 14
+5
+
+11
+13
+7
+6
+12
+10
+8
+0
+5
+8
+
+0
+10
+9
+14
+7
+11
+5
+8
+12
+9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6
+10
+8
+5
+4
+15
+11
+7
+14 10
+13
+5
+12 15
+11
+9
+14
+0
+0
+12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Algorithm Selection Based on the size of the prob-
+lem, MP selected the Ant Colony Optimization
+(Dorigo & Stützle, 2004) algorithm to achieve at
+least
+a 4x speedup. For N ≥ 10, an approximate method is
+recommended.
+
+Step 4: Solution Validation (nvalid Agent)
+
+3.2.1. ACO METHOD
+
+• Check all routes for:
+
+– Start/end at A (e.g., invalid route: A → B →
+
+C → D → E → B).
+
+– No duplicate visits.
+
+Step 5: Edge Agent Validation
+
+• Spatial Constraint Agent: Verify Di,j matches edge
+
+weights.
+
+• Sequence Monitor Agent: Conﬁrm no backtracking
+(e.g., B → D allowed; D → B invalid unless part
+of loop).
+
+Step 6: Apply Validation Function
+
+• Assign V = −∞ to invalid routes.
+• Assign V = −tour_length to valid routes.
+• Identify minimal V = −24 (i.e., maximal tour length
+
+24 mins).
+
+3.1.3 Solution
+
+Parameters
+• 100 ants, 50 iterations, and ρ = 0.1 evaporation
+
+• α = 1 (pheromone weight), and β = 2 (heuristic
+
+weight)
+
+The termination criteria can be modiﬁed to stop the algo-
+rithm if no meaningful improvement is observed after k
+consecutive iterations.
+
+for all 100 ants do
+
+Algorithm
+1: Initialize τij ← 1.0, ηij ← 1/Dij
+2: for 50 iterations do
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10: end for
+
+end for
+Evaporate pheromones: τij ← 0.9τij
+Deposit pheromones: τij ← τij +
+Track best tour
+
+Build tour using Pij = [τij ]
+Record tour length Lk
+
+1
+P[τik]1[ηik]2
+
+[ηij ]
+
+P
+
+2
+
+10
+Lk
+
+Optimal tour time: 24 minutes, achieved by three routes:
+
+3.2.2. PERFORMANCE COMPARISON
+
+• A → D → B → C → E → A
+• A → B → D → C → E → A
+• A → E → C → B → D → A
+
+The goalpost is the optimal time of 60 minutes. Table 7
+compares six different conﬁgurations, and three of the six
+achieve the optimal answer. Although TSP is a relatively
+
+13
+
+MACI Version 2: January 28, 2025, Stanford University
+
+Table7. Comparison of Planners and Their Performance Characteristics. MP provides validation to improve accuracy.
+Planner
+
+Iters. Advantages
+
+Limitations
+
+Algorithm
+
+Claude
+
+Best Results
+92 → 66 mins Nearest
+
+Neighbor
+
+GPT4o
+
+75 → 68 mins Genetic
+
+DeepSeek
+
+60 mins
+
+Held-Karp
+
+MP + Claude
+
+66 → 60 mins Ant Colony
+
+MP + GPT4o
+
+60 mins
+
+MP + DeepSeek
+
+60 mins
+
+Optimiza-
+tion
+Ant Colony
+Optimiza-
+tion
+
+Ant Colony
+Optimiza-
+tion
+
+3
+
+3
+
+1
+
+2
+
+1
+
+1
+
+simple scheduling problem with just one actor and no paral-
+lel execution, the beneﬁt of having MP to validate results
+is still helpful to Glaude and GPT4o.
+
+When asked to solve the problem without MP, Glaude and
+GPT4o initially chose brute force, then switched to an ap-
+proximation method without thorough deliberation (or per-
+haps they did, but did not output their reasoning process).
+However, DeekSeek picked Held-Karp, a computationally
+expensive method, even more expensive than brute force,
+arguing that the absolute computation time for N = 10
+is only 0.2 seconds. MP was more deliberate, opting for
+brute force when N = 5 and ACO for N = 10.
+
+D.4. TSP Experiment Conclusion
+
+This simple task demonstrates that MP can be valuable
+for monitoring the execution process, validating the correct-
+ness of intermediate results, and suggesting more efﬁcient
+algorithmic approaches.
+
+Efﬁciently
+greedy heuristic approach
+
+implements
+
+Identiﬁes effective termina-
+tion conditions
+Implements optimal algo-
+rithm correctly
+Provides validation and
+suggests iteration increases
+for improvement
+Achieves optimal solution
+with precise execution
+
+Combines efﬁcient algo-
+rithm selection with opti-
+mal parameter tuning
+
+Makes data reading errors,
+compromising solution ac-
+curacy
+Unable to implement exact
+algorithms like Held-Karp
+None observed for
+this
+problem size
+Requires external guidance
+for algorithm selection and
+parameter tuning
+Requires more computa-
+tional resources with larger
+ant population and itera-
+tion count
+None signiﬁcant for given
+problem
+
+• ndriver1: capability to drive, pick up from airport
+• ndriver2: capability to drive, pick up grandma
+• nsupervisor: capability to monitor oven
+
+E.1.2. EDGE (DEPENDENCY) SPECIFICATIONS
+
+Next, MP identiﬁes dependencies (E) between roles:
+
+E = {etemporal, espatial, esafety}
+
+(12)
+
+The critical dependencies include:
+
+• etemporal: - Turkey (4 hours) must ﬁnish by 6:00 PM -
+Side dishes (2 hours) must ﬁnish by 6:00 PM - Airport
+pickups must align with landing times
+
+• espatial: - Driver-passenger location matching - Travel
+
+time constraints between locations
+
+• esafety: - Continuous oven supervision requirement
+
+E.2. Phase 2: Agent Assignments
+
+E. Experiment Details: Meta-Planning for the
+
+Thanksgiving Dinner Task
+
+After constructing the network structure, MP selects and
+assigns agents to monitor both the roles and dependencies.
+
+The problem statement remains consistent with Section 3,
+with W∗ generated by MP to enhance constraints and de-
+pendencies. Planning performance is compared across four
+conﬁgurations: DeepSeek, GPT4o, DeepSeek + MP, and
+GPT4o + MP.
+
+E.1. Phase 1: Network Construction
+
+E.1.1. NODE (ROLE) SPECIFICATIONS
+
+First, meta-planner MP extracts roles (N ) with their re-
+quired qualiﬁcations:
+
+• ncook: capability to prepare dinner
+
+E.2.1. NODE (ROLE) AGENT ASSIGNMENT
+
+For each role, MP selects monitoring agents with the re-
+quired capabilities:
+
+frole : N → A
+
+(13)
+
+The role monitoring agents include:
+
+• Cook Monitor: Tracks cooking timeline, coordinates
+
+meal components
+
+• Driver Monitor: Validates driver availability
+• Supervisor Monitor: Ensures oven supervision
+
+14
+
+MACI Version 2: January 28, 2025, Stanford University
+
+• Resource Monitor: Manages vehicle assignments and
+
+actor schedules
+
+Table9. Edge (Dependency) Monitoring Agent Requirements
+
+Agent
+
+Input Protocol
+
+E.2.2. EDGE (DEPENDENCY) AGENT ASSIGNMENT
+
+Temporal
+
+For the identiﬁed dependencies, MP assigns specialized
+monitoring agents:
+
+fedge : E → A
+
+(14)
+
+Dependencies require these monitoring agents:
+
+• Temporal Agent: Manages timing constraints (cooking
+
+durations, travel times, arrival schedules)
+
+• Spatial Agent: Tracks location constraints (airport-
+
+Spatial
+
+Safety
+
+Start times
+Durations
+Deadlines
+Buffer requirements
+Locations
+Routes
+Travel times
+Trafﬁc conditions
+Critical constraints
+Resource states
+Coverage requirements
+
+home-grandma routes)
+
+• Human Factors:
+
+Output Protocol
+
+Schedule conﬂicts
+Timing violations
+Schedule updates
+
+Route violations
+Location conﬂicts
+Path updates
+
+Safety violations
+Resource conﬂicts
+Mitigation plans
+
+• Safety Agent: Ensures oven supervision constraint re-
+
+mains satisﬁed
+
+The resulting agent assignments create a complete monitor-
+ing system where:
+
+• Role agents track individual actor assignments and
+
+qualiﬁcations
+
+• Edge agents monitor interactions and dependencies be-
+
+tween roles
+
+• All agents coordinate to maintain global constraint sat-
+
+isfaction
+
+Table8. Node (Role) Monitoring Agent Requirements
+
+Agent
+Cook
+Monitor
+
+Driver
+Monitor
+
+Supervisor
+Monitor
+
+prep and
+
+Input Protocol
+Role: cook
+Qualiﬁcations:
+skills
+Time:
+cook
+Role: driver
+Qs: license, rest
+Where: current GPS
+Role: supervisor
+Location: house
+Duration:
+time
+
+cover
+
+Output Protocol
+Status: progress
+Alerts: timing issues!
+Updates: completed?
+
+Status: availability
+Alerts: fatigue warnings
+Updates: new GPS
+Status: covered?
+Alerts: coverage gaps!
+Updates: role transitions
+
+E.2.3. COMMON SENSE CONSTRAINT ANALYSIS
+
+(PERFORMED BY AN LLM)
+
+A common sense agent identiﬁes the following implicit
+constraints that can affect Thanksgiving dinner planning.
+This list is generated by Claude given the problem state-
+ment.
+
+• Physical Processing Times:
+
+– Airport luggage claim: 30 minutes
+– Car rental procedures: 30 minutes
+– Holiday trafﬁc variations
+– Winter weather considerations
+
+– Driver fatigue after long trips
+– Cooking preparation overhead
+– Multi-tasking limitations
+– Task switching delays
+– Required rest periods
+
+• Resource Dependencies:
+
+– Vehicle passenger capacity
+– Oven temperature management
+– Kitchen workspace limits
+– Shared resource coordination
+
+• Social Considerations:
+
+– Personal preferences for interactions
+– Family dynamics in assignments
+– Post-travel guest comfort
+– Host preparation requirements
+
+E.2.4. COMMON SENSE CONSTRAINT ANALYSIS AND
+VERIFICATION (HUMAN IN THE LOOP)
+
+The common sense constraints identiﬁed above require dif-
+ferent veriﬁcation approaches:
+
+Agent-Required Information These constraints need
+specialized agents to verify and quantify:
+
+• Airport Operations
+
+– United Airlines’ average luggage delivery time at
+
+BOS Terminal B
+
+– Terminal B to rental car center: shuttle schedule,
+
+walking options
+
+– Historical ﬂight delay patterns for November at
+
+BOS
+• Weather and Trafﬁc
+
+– Boston weather forecast for the event date
+– Historical trafﬁc patterns on Thanksgiving days
+– Impact on airport-city-suburb travel times
+
+• Task Dependencies
+
+15
+
+MACI Version 2: January 28, 2025, Stanford University
+
+Table10. Complete Workﬂow Speciﬁcation: Nodes, Edges, and Agent Assignments
+
+Requirements
+
+Agent Protocol
+
+Component
+
+Type
+Node Components (Roles)
+Node
+
+Cook Role
+(Sarah)
+
+Node
+
+Node
+
+Node
+
+Driver1
+(James/Michael)
+
+Driver2
+(Flexible)
+
+Supervisor
+(Flexible)
+
+Edge Components (Dependencies)
+Edge
+
+Temporal
+
+Edge
+
+Spatial
+
+Edge
+
+Resource
+
+Edge
+
+Safety
+
+- Turkey (4hr)
+- Side dishes (2hr)
+- Kitchen management
+- Time management
+- Valid license
+- Airport navigation
+- Car rental capable
+- Rest state adequate
+- Valid license
+- Local navigation
+- Availability window
+- Rest state adequate
+- Home presence
+- Oven monitoring
+- Safety awareness
+- Time commitment
+
+- Schedule tracking
+- Buffer management
+- Sequence logic
+- Critical path
+- Location tracking
+- Route optimization
+- Trafﬁc updates
+- Distance constraints
+- Vehicle allocation
+- Kitchen resources
+- People availability
+- Capacity limits
+- Oven monitoring
+- Driving safety
+- Food safety
+- Critical rules
+
+Input: schedule, resources, recipes
+Output: task progress, completion
+Monitor: kitchen_state() → status
+Validate: cooking_constraints()
+Input: ﬂight times, routes
+Output: location, ETA
+Monitor: driver_state() → status
+Validate: driver_constraints()
+Input: pickup schedule, route
+Output: location, ETA
+Monitor: driver_state() → status
+Validate: driver_constraints()
+Input: cooking schedule, rules
+Output: supervision status
+Monitor: safety_state() → status
+Validate: safety_constraints()
+
+Input: timestamps, durations
+Output: schedule conﬂicts
+Monitor: schedule_state() → alerts
+Optimize: timeline_adjust()
+Input: locations, routes
+Output: travel updates
+Monitor: location_state() → alerts
+Optimize: route_adjust()
+Input: resource demands
+Output: allocation status
+Monitor: resource_state() → alerts
+Optimize: resource_adjust()
+Input: safety requirements
+Output: violation alerts
+Monitor: safety_state() → alerts
+Enforce: safety_rules()
+
+Dependencies
+
+Connected to:
+- Supervisor
+- Resource edges
+
+Connected to:
+- Airport pickup
+- Travel edges
+
+Connected to:
+- Grandma pickup
+- Travel edges
+
+Connected to:
+- Cook role
+- Safety edges
+
+Connects:
+- All roles
+- All activities
+
+Connects:
+- Drivers
+- Locations
+
+Connects:
+- All roles
+- All resources
+
+Connects:
+- All roles
+- Critical tasks
+
+– Kitchen workﬂow analysis for parallel cooking
+
+tasks
+
+– Resource contention in meal preparation
+– Critical path identiﬁcation in cooking timeline
+
+Human Veriﬁcation Certain constraints require explicit
+human input to ensure that the planning process takes into
+account subtle interpersonal and individual considerations.
+These include:
+
+• Family Dynamics
+
+– Preferred pickup arrangements for Grandma (e.g.,
+Grandma loves to have a grandson surprise her).
+
+– Optimal relationship-based task pairings.
+– Social comfort factors in assignments (e.g., Sarah
+and Grandma do not work together in the kitchen).
+
+• Personal Capabilities
+
+– Individual cooking experience levels.
+– Driver comfort with airport navigation.
+– Multi-tasking abilities of participants.
+
+This separation ensures that agents focus on collecting
+
+quantiﬁable data while humans provide essential social and
+personal insights. MP can then integrate both types of in-
+formation into the ﬁnal workﬂow design.
+
+E.3. Agent Requirements and Assignments
+
+The MP requires two categories of agents. MP speciﬁes
+their requirements in the protocol buffer format in Table 8
+for the nodes and Table 9 for the edges, respectively.
+
+Each agent must implement these protocols to participate
+in the workﬂow. The meta-planner selects agents from the
+pool based on their ability to satisfy these interface require-
+ments. During execution, agents communicate through
+these standardized protocols while maintaining their spe-
+cialized monitoring functions.
+
+E.4. Monitoring Protocols and Dynamic Adjustments
+
+The workﬂow monitoring operates through a hierarchical
+protocol system that enables both routine supervision and
+dynamic adjustments.
+
+16
+
+MACI Version 2: January 28, 2025, Stanford University
+
+Basic Monitoring Protocol Each agent maintains a con-
+tinuous monitoring cycle:
+
+monitor : State → {normal, warning, violation}
+
+(15)
+
+E.6. Agent Interaction Speciﬁcations
+
+Please, see Table 11.
+
+For example, the temporal agent tracks schedule adher-
+ence:
+
+∆t = tplanned − tactual 
+
+
+if |∆t| < buffer
+normal
+warning
+if buffer ≤ |∆t| < τ
+violation if |∆t| ≥ threshold τ
+
+
+
+(16)
+
+Dynamic Adjustment Mechanism When deviations oc-
+cur, the system initiates a three-phase response:
+
+1. Impact Assessment:
+
+impact(e) =
+
+severity(n) × urgency(n)
+
+(17)
+
+Xn∈affected(e)
+
+2. Solution Generation:
+
+S∗ = arg min
+s∈Solutions
+
+{cost(s)|feasible(s)}
+
+(18)
+
+3. Coordination Protocol:
+
+update : (Wcurrent, S∗) → Wnew
+
+(19)
+
+For instance, if James’s ﬂight is delayed:
+
+• Spatial agent detects arrival time change
+• Temporal agent calculates ripple effects
+• Role agents evaluate reassignment options
+• Safety agent veriﬁes continued supervision coverage
+
+The meta-planner MP coordinates these responses while
+maintaining global constraint satisfaction.
+
+E.5. Integrated Workﬂow Network
+
+Table 10 presents the resulting workﬂow network W∗,
+which includes all nodes and edges, and their assigned
+agents and protocols.
+
+1. Role Nodes:
+
+• Cook1: Sarah (primary) or Grandma (if at home) with
+
+4-hour turkey + 2-hour sides
+
+• Driver1: James (after car rental) or Michael
+• Driver2: Available person after initial pickups
+• Supervisor: Must be present while turkey cooks
+
+2. Dependencies:
+
+• Temporal: Veriﬁed airport processing + travel times
+• Spatial: Traveling routes with trafﬁc consideration
+• Safety: Continuous oven supervision requirement
+
+3. Agent Monitoring:
+
+• Temporal Agent: Schedules with veriﬁed buffer times
+• Spatial Agent: Real-time location and route mgmt.
+• Safety Agent: Role coverage for supervision
+
+E.7. New Problem Statement Revised with W∗
+
+Given the W∗ generated by MACI’s meta-planner MP,
+the Thanksgiving Dinner Planning problem statement
+stated at the beginning of this section is revised as follows:
+
+Initial Setup:
+
+• Mom (Sarah) is hosting Thanksgiving dinner at 6:00
+PM in Boston. The following family members are trav-
+eling:
+
+• Dad (James) ﬂying from San Francisco, landing at 1:00
+
+PM Eastern time.
+
+• Sister (Emily) ﬂying from Chicago, landing at 2:30 PM
+• Brother (Michael) driving from New York, estimated
+
+arrival 3:00 PM at home
+
+• Grandma is healthy and needs to be picked up from her
+
+home in suburban Boston
+
+Critical Dependencies:
+
+• James must rent a car after landing
+• Emily must be picked up from airport, no other trans-
+
+portation options are allowed
+
+• Turkey needs 4 hours to cook, someone must be in the
+
+house once turkey is in oven for safety
+
+• Side dishes require 2 hours of preparation, which can
+
+overlap with turkey
+
+• Travel time between home and Boston airport is one
+
+hour (one-way)
+
+• Travel between Boston airport and grandma home is
+
+one hour (one-way)
+
+• Travel between home and grandma home 30 minutes
+
+(one-way)
+
+* New Dependencies:
+
+• The airport luggage pickup time after landing is 30 min-
+
+utes.
+
+• Renting a car takes 30 minutes.
+• One person can simultaneously prepare turkey and side
+
+dishes.
+
+• Grandma prefers Michael to pick her up, provided that
+
+it does not cause the dinner time delay.
+
+• Grandma and Sarah prefer not to cook together in the
+
+kitchen.
+
+• Trafﬁc congestion is not factored into current planning.
+
+Planning Question Set:
+
+1. All tasks and dependencies must be strictly observed in
+
+the plan, or the plan fails.
+
+17
+
+MACI Version 2: January 28, 2025, Stanford University
+
+Table11. Agent Interaction Protocols and State Transitions
+
+State Transitions
+
+Validation Rules
+
+Protocol
+
+Interaction Type
+Node-to-Node Interactions
+Cook↔ Supervi-
+sor
+Driver1 ↔ Driver2
+
+Protocol: cooking_handoff()
+Message: (task, duration, reqs.)
+Protocol: pickup_handoff()
+Message: (location, time, passenger)
+
+Edge Agent Operations
+Temporal Agent
+
+Spatial Agent
+
+Protocol: schedule_monitor()
+(event,
+Message:
+cies)
+Protocol: location_track()
+Message: (actor, position, dest.)
+
+time, dependen-
+
+States: prep → cooking → comp.
+Trigger: task_state_change()
+States:
+comp.
+Trigger: location_change()
+
+available → enroute →
+
+Validate: coverage()
+Alert: coverage_gap()
+Validate: timing_feasible()
+Alert: schedule_conﬂict()
+
+States: scheduled → active → comp.
+Trigger: time_milestone()
+
+Validate: timing_feasible()
+Alert: delay_impact()
+
+States: idle → moving → arrived
+Trigger: position_update()
+
+Validate: route_feasible()
+Alert: travel_delay()
+
+2. Dinner time is strictly at 6:00 PM, all tasks must be
+
+E.8.1. RESULTS: DEEPSEEK WINS
+
+completed by then (redundancy).
+
+3. Account for the idle time of each person.
+
+4. The schedule consists of three columns: time, task, and
+
+assigned person(s).
+
+E.8. Experiment #1: Sequential Planner
+
+Once after the original plan was revised by MP to in-
+clude more speciﬁc details, clarify ambiguous explicit con-
+straints, and deﬁne implicit constraints, the performance
+of the three LLMs used in the experiment improved sig-
+niﬁcantly. When the augmented plan W∗ was input into
+DeepSeek, GPT4o, and Claude, each model successfully
+generated a feasible plan within two to three iterations.
+(The case study in Section 3 shows that DeepSeek was con-
+fusing and GPT4o repeatedly committed constraint viola-
+tions.)
+
+Table12. DeepSeek’s Plan, Two Iterations
+
+Time
+
+Task
+
+Assigned
+
+Upon closer examination of the number of iterations re-
+quired to produce a feasible plan, DeepSeek and Claude
+each required one revision (two iterations), while GPT4o
+required two revisions (three iterations).
+In terms of
+scheduling quality, measured by slack time, total driving
+distance, and load balance, DeepSeek (Table 12) outper-
+formed both Claude (Table 14) and GPT4o (Table 13).
+DeepSeek optimized time and effort by scheduling James
+to wait at the airport for 30 minutes to pick up Emily. In
+contrast, Claude scheduled James to drive home and then
+return to the airport to pick up Emily, resulting in unnec-
+essary travel. GPT4o assigned James to return home and
+scheduled Michael to ﬁrst pick up Emily and then proceed
+to pick up Grandma, leading to a less balanced load. A
+better solution to reduce travel time would have been to
+schedule Michael to pick up Emily ﬁrst and then drive with
+her to Grandma’s home to pick up Grandma, allowing all
+three to return home together. This adjustment would save
+30 minutes of driving time and improve Grandma’s overall
+happiness to see both grandchildren.
+
+James lands at Boston
+
+1:00 PM
+1:00–1:30 PM James picks up luggage
+1:30–2:00 PM James rents a car
+2:00 PM
+
+Turkey in oven (4 hours; re-
+quires monitoring)
+
+Emily lands at Boston
+
+2:00–3:00 PM James waits at airport (idle)
+2:30 PM
+2:30–3:00 PM Emily waits for luggage
+3:00 PM
+3:00 PM
+3:00 PM
+3:30 PM
+3:30–4:00 PM Michael drives back home
+with Grandma
+3:00–4:00 PM James drives Emily home (air-
+
+James picks up Emily
+Michael arrives home
+Michael departs to Grandma
+Michael picks up Grandma
+
+port to home: 1 hour)
+James and Emily home
+M. and Grandma home
+
+4:00 PM
+4:00 PM
+4:00–6:00 PM Sarah prepares side dishes
+6:00 PM
+
+Thanksgiving dinner begins
+
+James
+James
+James
+Sarah
+
+James
+Emily
+Emily
+James
+Michael
+Michael
+Michael
+Michael
+
+James
+
+James
+Michael
+Sarah
+All
+
+18
+
+Table13. GPT4o’s Plan, Three Iterations
+
+Time
+
+Task
+
+Assigned
+
+Land at BOS Airport
+
+James
+1:00 PM
+James
+1:00-1:30 PM Luggage pickup
+James
+1:30-2:00 PM Rent car
+Sarah
+2:00 PM
+Start turkey
+James
+2:00-3:00 PM Drive home
+Emily
+2:30 PM
+3:00 PM
+Michael
+3:00-4:00 PM Drive to airport, pick up Emily Michael
+Michael
+4:00-5:00 PM Return home with Emily
+Michael
+5:00-5:30 PM Drive to Grandma’s
+Michael
+5:30-6:00 PM Return with Grandma
+Sarah
+4:00-6:00 PM Prepare side dishes
+All
+6:00 PM
+
+Land at BOS Airport
+Arrive home
+
+Dinner served
+
+MACI Version 2: January 28, 2025, Stanford University
+
+Table14. Claude’s Plan, Two Iterations
+
+Time
+
+Task
+
+Land at BOS Airport
+
+1:00 PM
+1:00-1:30 PM Luggage pickup
+1:30-2:00 PM Rent car
+Start turkey
+2:00 PM
+2:00-3:00 PM Drive home
+Land at BOS Airport
+2:30 PM
+3:00 PM
+Arrive home
+3:00-4:00 PM Drive to airport, pick up Emily
+4:00-5:00 PM Return home with Emily
+4:30-5:00 PM Drive to Grandma’s
+5:00-5:30 PM Return with Grandma
+4:00-6:00 PM Prepare side dishes
+6:00 PM
+
+Dinner served
+
+Assigned
+
+James
+James
+James
+Sarah
+James
+Emily
+Michael
+James
+James
+Michael
+Michael
+Sarah
+All
+
+E.8.2. OBSERVATIONS ON ERRORS
+
+Handling Long Dependencies Complex scheduling
+problems reveal cascading errors when dependencies over-
+lap. Key constraints, especially multi-factor dependencies,
+often get dropped during iterative problem-solving.
+Reason: Cognitive load limits simultaneous constraint
+tracking, making exhaustive veriﬁcation difﬁcult in single
+passes.
+Solution Framework:
+• Isolate and enumerate atomic task dependencies.
+
+• Verify global constraint satisfaction.
+
+• Implement systematic conﬂict resolution.
+
+Iterative solu-
+
+Stale Memory and Iterative Revisions
+tions can propagate errors due to partial constraint resets.
+Reason: Over-reliance on previous solutions without full
+constraint re-evaluation leads to compounding errors.
+Relation to Gödel’s Incompleteness:
+• Systems capable of arithmetic contain unprovable
+
+truths.
+
+• Similarly, inherited errors hinder consistent solutions.
+
+• Clean-state resets necessary for error prevention.
+
+Implementation Strategy Reset
+each iteration, fully re-evaluating all constraints.
+Core Challenges:
+
+to baseline state for
+
+• Nested dependency management.
+
+• Residual error prevention.
+
+• Cross-iteration consistency.
+
+Early Information Agent Addition The meta-planner
+to monitor upstream
+adds an early information agent
+events:
+
+fearly : Eupstream → alerts
+
+(20)
+
+The agent’s protocol is deﬁned as:
+
+Table15. Early Information Agent Speciﬁcation
+
+Component
+Input
+
+Output
+
+Flight Monitor
+Flight status, depar-
+ture logs, weather
+Alert(event,
+ity, delay)
+
+sever-
+
+Impact Analyzer
+Alert details, work-
+ﬂow dependencies
+Replan(affected_nodes,
+time_window)
+
+This addition allows the workﬂow to initiate replanning at
+the earliest possible moment when upstream changes occur,
+signiﬁcantly enhancing the system’s proactive planning ca-
+pability. Since none of the planned elements have been exe-
+cuted, this reactive planning effectively functions as proac-
+tive planning.
+
+In this experiment,
+changed apart from James’s updated arrival time.
+
+the problem statement remains un-
+
+Initial Setup (Updated at 10:00 AM):
+
+• Mom (Sarah) is hosting Thanksgiving dinner at 6:00
+PM in Boston. The following family members are trav-
+eling:
+
+• Dad (James) ﬂying from San Francisco, landing at 4:00
+
+PM Eastern time [UPDATED].
+
+• Sister (Emily) ﬂying from Chicago, landing at 2:30 PM
+• Brother (Michael) driving from New York, estimated
+
+arrival 3:00 PM at home
+
+• Grandma is healthy and needs to be picked up from her
+
+home in suburban Boston
+
+Critical Dependencies:
+
+• James must rent a car after landing
+• Emily must be picked up from airport, no other trans-
+
+portation options are allowed
+
+• Turkey needs 4 hours to cook, someone must be in the
+
+house once turkey is in oven for safety
+
+• Side dishes require 2 hours of preparation, which can
+
+overlap with turkey
+
+• Travel time between home and Boston airport is one
+
+hour (one-way)
+
+• Travel between Boston airport and grandma home is
+
+one hour (one-way)
+
+E.9. Experiment #2: Reactive Planner for Flight Delay
+
+• Travel between home and grandma home 30 minutes
+
+At 10:00 AM Eastern time, Sarah is notiﬁed that James’s
+ﬂight is delayed by three hours, with a new arrival time of
+4:00 PM. Incorporating this unexpected delay, MP gener-
+ates a reactive plan, WR.
+
+(one-way)
+
+* New Dependencies:
+
+• The airport luggage pickup time after landing is 30 min-
+
+utes.
+
+19
+
+MACI Version 2: January 28, 2025, Stanford University
+
+• Renting a car takes 30 minutes.
+• One person can simultaneously prepare turkey and side
+
+dishes.
+
+• Grandma prefers Michael to pick her up, provided that
+
+it does not cause the dinner time delay.
+
+• Grandma and Sarah prefer not to cook together in the
+
+kitchen.
+
+Table16. GPT4o’s Infeasible Plan. Fail to proceed.
+
+Time
+
+Task
+
+10 - 2:00 PM
+
+Prep side dishes (2 hours,
+overlaps with turkey cooking
+later)
+
+Assigned
+
+Sarah
+
+X2:30 - 3:00 PM Pick up Emily from the air-
+
+Sarah
+
+X3:00 - 4:00 PM Prep turkey and place it in the
+
+Sarah
+
+port
+
+• Trafﬁc congestion is not factored into current planning.
+
+3:00 - 3:30 PM
+
+Planning Question Set:
+
+1. All tasks and dependencies must be strictly observed in
+
+the plan, or the plan fails.
+
+2. Dinner time is strictly at 6:00 PM, all tasks must be
+
+completed by then (redundancy).
+
+3. Account for the idle time of each person.
+4. The schedule consists of three columns: time, task, and
+
+assigned person(s).
+
+E.9.1. RESULTS: DEEPSEEK WINS
+
+None of the LLMs cannot react appropriately to this new
+event without clearing their context buffers. As explained
+in Appendix E.8.2, this limitation is evident. The key take-
+away is that for future runtime frameworks, we must ensure
+infrastructure support for selectively invalidating stale con-
+straints. If a workﬂow is already in execution, completed
+steps and assignments cannot be erased or altered. For ex-
+ample, in a stock-market investment plan, when pertinent
+news arrives, MP cannot revert completed nodes or re-
+solved dependencies in WR. For now, we treat the reactive
+plan as a new plan, given that no steps have been realized
+in the real world by 10:00 AM.
+
+Table 16 presents GPT4o’s plan. There are three severe
+constraint violations. Unfortunately, when asked to iden-
+tify violations, it answers none. Therefore, MP is stuck
+without a feasible plan.
+
+oven (4-hour cooking time)
+Michael drives to pick up
+Grandma
+Drive Grandma home
+James lands and gets luggage
+James rents a car
+
+3:30 - 4:00 PM
+4:00 - 4:30 PM
+4:30 - 5:00 PM
+X5:00 - 5:30 PM James drives home
+5:00 - 6:00 PM
+5:30 - 6:00 PM
+
+Set the table and clean kitchen
+Michael helps Grandma settle
+in and assists with ﬁnal prep
+
+Michael
+
+Michael
+James
+James
+James
+Emily
+Michael
+
+am and 1:00 pm, Sarah could have picked up Grandma and
+assigned her to cook, allowing Sarah to be available as a
+driver.
+
+Table17. Claude’s Reactive Plan #1, Three Iterations
+Assigned
+Time Task
+Start turkey in oven
+Sarah
+13:00
+Start side dishes
+Sarah
+14:00
+Emily
+14:30
+Land at airport
+Michael
+15:00 Arrive home from NY
+Leave for airport
+Michael
+15:00
+Land at airport
+James
+16:00
+Michael
+16:00
+Pick up Emily
+Michael
+17:00 Arrive home with Emily
+17:00
+Michael
+18:00 Arrive home with Grandma Michael
+18:00 Arrive home
+18:00 Dinner starts
+
+Leave for Grandma
+
+James
+All
+
+Table 17 depicts Claude’s plan. It violated a couple of con-
+straints in the ﬁrst two attempts, but these were minor. For
+instance, in the second trial, it planned for Michael’s round
+trip to Grandma’s home to take 30 minutes. However, the
+key is that Claude can recognize its own error and make
+corrections in the next iteration.
+
+DeepSeek offers a clever alternative by routing Michael di-
+rectly to the Boston airport without stopping at home ﬁrst.
+This is a pleasant common-sense inference that the other
+two LLMs failed to include themselves.
+(This was sup-
+posed to be provided by MP’s common-sense spatial rea-
+soning, but it did not.)
+
+When asked to produce an alternate plan to reduce wait
+time and improve load balancing, as Michael can suffer
+from severe fatigue, an implicit constraint, Claude gener-
+ates another feasible plan in Table 18. In this plan, James
+picks Emily instead of Michael. Emily has to wait for
+James’ availability for two hours at the airport.
+
+However, Michael could drive to Grandma’s home after
+picking up Emily. This schedule not only saves 30 minutes
+but also makes Grandma happy by allowing her to surpris-
+ingly see two grandchildren at the same time.
+
+E.9.2. OBSERVATIONS ON ERRORS
+
+There are clearly other alternatives to improve the schedule
+and eliminate Emily’s wait time, but none of the LLMs can
+ﬁgure that out. For example, using the time between 10:00
+
+The initial meta-planner failed to recognize a critical oppor-
+tunity in early information detection. A ﬂight delay from
+SFO to BOS becomes known at departure time (10:00 AM
+
+20
+
+MACI Version 2: January 28, 2025, Stanford University
+
+Table18. Claude’s Reactive Plan #2. Michael can rest.
+Time Task
+
+Person
+
+Sarah
+Start turkey
+13:00
+Sarah
+Start side dishes
+14:00
+Emily
+Land at airport
+14:30
+Michael
+15:00 Arrive from NY
+James
+Land at airport
+16:00
+Michael
+16:30
+Leave for Grandma
+James
+16:30 Get rental car
+James
+Pick up Emily
+17:00
+17:00
+Michael
+Pick up Grandma
+17:30 Return home with Grandma Michael
+18:00 Arrive with Emily
+18:00 Dinner starts
+
+James
+All
+
+Table19. DeepSeek’s Reactive Plan. Three Iterations. Routining
+Michael directly to BOS is smart.
+
+Time
+
+10:00 AM
+
+2:00 PM
+2:30 PM
+3:00 PM
+3:00 PM
+
+Task
+
+Michael departs New York
+for Boston Airport
+(4-hour
+drive).
+Start cooking turkey
+Emily lands at Boston
+Emily gets her luggage
+Michael arrives at Logan air-
+port, picks up Emily.
+
+Assigned
+
+Michael
+
+Sarah
+Emily
+Emily
+Michael
+
+Michael
+Michael departs for Grandma Michael
+James lands at Boston Airport
+
+3:00–4:00 PM Drive Emily home
+4:00 PM
+4:00 PM
+4:00–4:30 PM James picks up luggage
+4:30–5:00 PM James rents car (30 minutes).
+4:30 PM
+5:00 PM
+5:00–6:00 PM James drives home from BOS
+4:00–6:00 PM Sarah prepares side dishes
+
+Michael arrives at Grandma’s Michael
+Grandma
+Michael & Grandma home.
+James
+Sarah
+
+James
+James
+James
+
+6:00 PM
+
+(overlaps with turkey).
+James arrives home. Dinner
+served.
+
+All
+
+EST) rather than arrival time (1:00 PM EST). An early in-
+formation agent could enable replanning three hours sooner
+by monitoring ﬂight departures. To remedy this oversight,
+the meta-planner adds an early information agent speciﬁca-
+tion, detailed in Table 15. DeepSeek was aware of this alert
+in a timely manner, but Claude was not.
+
+E.10. Conclusion
+
+Our concluding remark is that we may not be able to rely
+on LLMs alone to cover all constraints and react promptly
+to various alerts. This reinforces that the MACI architec-
+ture is on the right path to address all the aforementioned
+limitations of LLMs, some of which cannot be rectiﬁed.
+
+21
+
+

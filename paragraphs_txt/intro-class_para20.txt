@@ -1,0 +1,4 @@
+Essays and Papers 
+What is AI, John McCarthy
+Computing Machinery and Intelligence, A.M. Turing
+Rethinking Artificial Intelligence, Patrick H.Winston

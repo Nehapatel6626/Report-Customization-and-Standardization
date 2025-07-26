@@ -1,0 +1,20 @@
+In this work, an explanation for a prediction made by an ANN is a subset
+of features and their values that alone suffice for the prediction. If an instance
+has the features in this subset, the ANN makes the same prediction, regardless
+of the values of other features. For example, given an instance {sneeze = T rue,
+weight = 70 kg, headache = T rue, age = 40 years} and its ANN output flu,
+a possible explanation could be {sneeze = T rue, headache = T rue}. That is, if
+an instance has the features sneeze = T rue and headache = T rue, the ANN
+prediction is flu, regardless of weight and age values. A minimal explanation
+avoids redundancy by including only essential information. An explanation is
+considered minimal when removing any feature results in the loss of assurance
+that every instance satisfying the explanation maintains the same output. Then,
+a minimal explanation avoids redundancy, providing only essential information.
+Heuristic methods, such as ANCHOR [15] and LIME [14], have been used to
+provide explanations for machine learning models. However, these approaches
+explore the instance space locally, not resulting in explanations that have
+minimal sizes and formal guarantees of correctness. Correctness guarantees
+are provided when there are no instances with the values specified in the
+explanation such that the ANN makes a different prediction. Moreover, minimal
+explanations are desired since they do not contain redundancy, making them
+easier to understand and interpret.

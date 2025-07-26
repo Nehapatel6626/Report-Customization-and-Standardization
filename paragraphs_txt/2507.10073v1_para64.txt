@@ -1,0 +1,4 @@
+Our findings reveal significant limitations in the ability of current LLMs to represent
+culturally diverse moral frameworks despite their performance on many language tasks.
+These limitations have relevant implications for AI alignment, synthetic populations in
+research, and the ethical deployment of LLMs across different cultural contexts.

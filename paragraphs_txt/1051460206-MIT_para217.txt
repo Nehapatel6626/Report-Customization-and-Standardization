@@ -1,0 +1,3 @@
+preprocessing  of the  images,  and 3)  a probabilistic  determination  of the type of particle  based on
+the  features 0 . Techniques  recently  used to probabilistically  classify  urine particles
+include:  support  vector machines",  and  fuzzy neural  networks'2 . In 2010,  a paper  used a

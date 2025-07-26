@@ -1,0 +1,1 @@
+mirrors.  We performed  zero-mean  subtraction based on the mean  of each image,  and rescaled  the

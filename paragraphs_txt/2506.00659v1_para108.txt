@@ -1,0 +1,5 @@
+we are the first to exploit this similarity directly. The adoption of CGs offers
+several advantages. Their structure is straightforward to obtain [6]. Moreover,
+unlike other binary graph representations, a CG represents the program at a
+higher level of abstraction. This makes it a compact yet information-rich program
+representation, which is particularly well-suited for a GMN [18].

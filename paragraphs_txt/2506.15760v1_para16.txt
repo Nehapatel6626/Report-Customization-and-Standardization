@@ -1,0 +1,4 @@
+Parallelism and pipeline are emerging in quantum computing. Though it is not a pure 
+classical Reduced Instruction Set Computer (RSIC) architecture with unified Cycles Per 
+Instruction (CPI) concept, quantum pipelines are able to bring better speedups with the 
+pipe stages increase [12–15].

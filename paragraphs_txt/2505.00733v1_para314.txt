@@ -1,0 +1,7 @@
+In ROS-based systems, software components are realized either as ROS nodes or as a particular type
+of ROS nodes called lifecycle nodes. The difference between both is that the latter can be set to different
+states at runtime, such as active and inactive, and the former cannot. To enable ROSA to leverage ROS 2
+mechanisms to adapt the system, the knowledge model was extended to capture knowledge about ROS 2
+components as depicted in Figure 4. The execute component performs structural adaptation by starting or
+killing ROS nodes or switching the state of lifecycle nodes to active or inactive, and it performs parameter
+adaptation by calling the ROS’s parameter API to change the ROS nodes’ parameters at runtime.

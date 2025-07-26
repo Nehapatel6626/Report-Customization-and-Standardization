@@ -1,0 +1,1 @@
+URL pointing to the attacker’s server and appends data from the CSV file to it

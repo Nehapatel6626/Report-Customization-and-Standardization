@@ -1,0 +1,3 @@
+Definition := “KDD is the non-trivial process of 
+identifying valid, novel, potentially useful, and 
+ultimately understandable patterns in data” (Fayyad)

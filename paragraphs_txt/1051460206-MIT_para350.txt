@@ -1,0 +1,1 @@
+linear  downsampling of the feature  maps.  Pooling can  be represented  by a (m * m)  window that

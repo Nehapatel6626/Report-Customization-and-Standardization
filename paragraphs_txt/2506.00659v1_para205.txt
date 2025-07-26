@@ -1,0 +1,23 @@
+ing a clustering approach to enhance performance and reduce the search space,
+PackHero evaluates the similarity between the extracted CG and labeled CGs
+stored in a DB, employing a Graph Matching Network (GMN) to compute these
+similarities and identify the packer. Evaluated on a public dataset of packed be-
+nign and malicious programs re-packed multiple times, PackHero meets all key
+requirements for a novel packer identifier: high accuracy, efficient packer integra-
+tion, evasive behavior management, and scalability. Relying exclusively on static
+analysis, PackHero integrates new packers effectively, achieving strong perfor-
+mance with as few as 10 samples, while eliminating the limitations of dynamic
+analysis, particularly against dynamic evasive behaviors. For some packers, it
+avoids fine-tuning the GMN, and when fine-tuning is needed, it converges faster
+than other ML-based tools. Its integration cost remains constant throughout
+its lifecycle, unlike other methods, where costs grow linearly with the number of
+packers recognized. PackHero performs comparably to signature-based tools, the
+current best-performing solutions for packer identification, and significantly out-
+performs SotA approaches on Themida, a VM-based packer employing advanced
+dynamic evasive behaviors.
+Acknowledgements. This work was partially supported by Project FARE (PNRR
+M4.C2.1.1 PRIN 2022, Cod. 202225BZJC, CUP D53D23008380006, Avviso D.D 104
+02.02.2022) and Project SETA (PNRR M4.C2.1.1 PRIN 2022, Cod. P202233M9Z, CUP
+F53D23009120001, Avviso D.D 1409 14.09.2022) under the Italian NRRP MUR pro-
+gram, and by Project SERICS (PE00000014) under the MUR National Recovery and
+Resilience Plan, all funded by the European Union - NextGenerationEU.

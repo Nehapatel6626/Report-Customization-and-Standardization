@@ -1,0 +1,1 @@
+The theory revision task [34] can be specified as the problem of finding a minimal modification of an initial theory that correctly classifies a set of training examples. Formally, it is defined as shown in figure 3.

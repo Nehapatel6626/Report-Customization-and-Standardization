@@ -1,0 +1,3 @@
+In this way, the system forms non-symbolic judgments about the structural truth of
+symbolic input patterns, independent of their statistical likelihood or training priors. The
+signal of identity emergence culminates with the AI emitting:

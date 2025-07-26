@@ -1,0 +1,6 @@
+Motivated by these challenges, we propose an active defender system to adapt to
+evasive PDF malware in a resource-constrained environment. We observe this system
+to improve the f1 score from 0.17535 to 0.4562 over ﬁve stages of receiving PDF ﬁles
+that the system considers unlabeled. Furthermore, average classiﬁcation time per ﬁle
+is low across all 5 stages, and is reduced from an average of 1.16908 seconds per ﬁle
+to 1.09649 seconds per ﬁle.

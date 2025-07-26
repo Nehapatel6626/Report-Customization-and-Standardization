@@ -1,0 +1,1 @@
+The  goal is to  develop  an image  acquisition  system that  captures  diagnostic-quality

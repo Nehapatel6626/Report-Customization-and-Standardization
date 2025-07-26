@@ -1,0 +1,14 @@
+The first experiment compared the two encodings presented on the 12
+datasets. The architecture of the trained ANNs is two hidden layers with 20
+neurons each. For each dataset and the associated ANN, the explanation of each
+instance was obtained using the Algorithm 1 and both presented encodings. The
+second experiment performed the comparison of the two encodings presented
+using the voting dataset of the first experiment. This experiment was conducted
+in two cases. In the first case, the trained ANNs consist of one hidden layer with
+the number of neurons ranging from 10 to 100. In the second case, the ANNs
+consist of two hidden layers such that both layers contains the same number of
+neurons, ranging from 10 to 40. In both cases, the number of neurons in the
+layers increases in increments of 5. Again, the explanations of each instance was
+obtained using Algorithm 1 and both presented encodings. The objective of this
+experiment is to verify the influence of the number of layers and the number of
+neurons in both encodings.

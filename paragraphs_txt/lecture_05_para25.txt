@@ -1,0 +1,5 @@
+No lexicon needed
+Basically a set of staged sets of rewrite rules that strip suffixes
+Handles both inflectional and derivational suffixes
+Doesn’t guarantee that the resulting stem is really a stem (see first bullet)
+Lack of guarantee doesn’t matter for IR

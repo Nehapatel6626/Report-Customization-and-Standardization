@@ -1,0 +1,1 @@
+In looking through the PDF source in Figure 2-1 we see the header in line 1, the

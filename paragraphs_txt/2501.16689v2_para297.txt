@@ -1,0 +1,6 @@
+Gödel, K. On formally undecidable propositions of Principia
+Mathematica and related systems i.
+In van Heijenoort, J.
+(ed.), From Frege to Gödel: A Source Book in Mathemati-
+cal Logic, 1879–1931, pp. 596–616. Harvard University Press,
+1967. Translated by Jean van Heijenoort.

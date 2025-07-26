@@ -1,0 +1,1 @@
+with encoded machines sequence and dates but also raw data were tried for Kernel training

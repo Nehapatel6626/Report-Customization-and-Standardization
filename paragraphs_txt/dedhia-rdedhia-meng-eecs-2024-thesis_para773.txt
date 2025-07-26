@@ -1,0 +1,1 @@
+text values except hyperlinks will be allowed in them. This is because the only danger that

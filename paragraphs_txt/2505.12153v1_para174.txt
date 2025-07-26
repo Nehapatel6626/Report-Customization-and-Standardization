@@ -1,0 +1,14 @@
+Secure aggregation in the FDRL framework relies on HE
+and SMPC to protect model updates. The computational
+complexity of each stage is analyzed as follows. In the local
+training stage, each hospital updates its RL policy using DP-
+SGD, which requires O(E|Di|) operations per round. Addi-
+tionally, noise injection and encryption introduce an overhead
+of O(|Di|). In the secure aggregation stage,HE for weighted
+averaging incurs a complexity of O(N log N ), while decryp-
+tion at the global server is performed in O(log N ). Secure
+multi-party summation operations contribute an additional
+complexity of O(N ) per aggregation round. Finally, in the
+dynamic policy selection stage, evaluating all policies incurs
+a complexity of O(N ), whereas selecting the optimal meta-
+learning policy requires O(N log N ) operations.

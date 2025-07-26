@@ -1,0 +1,5 @@
+The overhead for both approaches can be seen in Table 7. Although it is not possible to make a
+straightforward comparison between the development efforts of both approaches using the observed
+overheads since the difficulty of modeling an element using the different modeling techniques is subjective,
+analyzing the reason for the observed overheads provides insights for comparing the development efforts
+of both approaches.

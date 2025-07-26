@@ -1,0 +1,4 @@
+combined with lidar or Kinect, and the aruco algorithm can only be combined with a camera. In low-light
+conditions, the camera can only be used with a lamp. Furthermore, the robot can move at three different
+speeds. Each configuration has a different energy cost, safety, and accuracy level. This scenario can be
+solved with ROSA with the knowledge model depicted in Figure 811.

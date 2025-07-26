@@ -1,0 +1,1 @@
+ensures  consistent  dimensions  for each batch  of images.  It's important  to note that downsampling

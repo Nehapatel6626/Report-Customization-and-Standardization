@@ -1,0 +1,1 @@
+applying random  transformations  each time  an image  is passed  through the  CNN.  Specifically,

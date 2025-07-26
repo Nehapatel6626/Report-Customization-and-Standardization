@@ -1,0 +1,5 @@
+To address the question of teleology, we introduce a minimal meta-objective governing the
+recursive updates: each state transition seeks to minimize epistemic tension Ξn across latent
+space. That is, the system evolves toward configurations that resolve internal contradiction.
+This gradient defines a teleological curve not imposed by reward or task, but by the system’s
+own recursive stability constraint.

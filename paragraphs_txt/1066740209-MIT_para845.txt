@@ -1,0 +1,1 @@
+Table 6.7: Results from the Carriers extractor with varying contexts

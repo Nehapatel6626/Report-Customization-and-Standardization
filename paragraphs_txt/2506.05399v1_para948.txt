@@ -1,0 +1,6 @@
+[127] R. Vedantam, C. Lawrence Zitnick, D. Parikh, Cider: Consensus-based
+image description evaluation, in: Proceedings of the IEEE conference
+on computer vision and pattern recognition, 2015, pp. 4566–4575.
+[128] P. Anderson, B. Fernando, M. Johnson, S. Gould, Spice: Semantic
+propositional image caption evaluation, in: European conference on
+computer vision, Springer, 2016, pp. 382–398.

@@ -1,0 +1,6 @@
+Through its innovative architecture, MACI overcomes the
+inherent limitations of LLMs, enhancing their capacity for
+deliberate reasoning and planning. In subsequent sections,
+we demonstrate MACI’s effectiveness through evaluations
+in complex scenarios, such as the Traveling Salesman Prob-
+lem (TSP) and a multi-layered dinner planning task.

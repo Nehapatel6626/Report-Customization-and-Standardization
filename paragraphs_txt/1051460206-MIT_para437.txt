@@ -1,0 +1,1 @@
+where y  is the  SGD  learning rate  hyperparameter  and VwjLj  is the  gradient of the  loss function

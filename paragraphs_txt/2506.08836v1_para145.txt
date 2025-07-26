@@ -1,0 +1,5 @@
+Although the performance of the ZHAW large-v3 STT model is very promising,
+the remaining fallacies often relate to uncommon named entities. These entities
+are crucial in professional applications, particularly in legal and medical fields.
+Therefore, our future research will focus on fine-tuning our models to improve
+their handling of these named entities.

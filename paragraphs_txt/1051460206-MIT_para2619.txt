@@ -1,0 +1,1 @@
+values  for the AutoScope  are  comparable (mostly better)  than the  validation  metrics  for the  iQ-

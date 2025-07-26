@@ -1,0 +1,1 @@
+fragmentation( C, F ) :- example( fragmentation( C, F ) ).

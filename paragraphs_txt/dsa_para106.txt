@@ -1,0 +1,4 @@
+Array is a static data structure that represents a collection of fixed number of homogeneous data items or
+A fixed-size indexed sequence of elements, all of the same type.
+The individual elements are typically stored in consecutive memory locations.
+The length of the array is determined when the array is created, and cannot be changed.

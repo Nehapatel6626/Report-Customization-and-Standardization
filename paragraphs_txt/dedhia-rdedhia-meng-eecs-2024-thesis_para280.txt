@@ -1,0 +1,1 @@
+Each formula must be prepended with a formula triggering character in order to be rec-

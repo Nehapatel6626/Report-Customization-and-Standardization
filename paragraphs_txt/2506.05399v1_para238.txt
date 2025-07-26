@@ -1,0 +1,14 @@
+People can focus on certain details while disregarding oth-
+ers when receiving information. This self-selection process is
+known as attention. The attention mechanism is an important
+development in generation-based models within the encoder-
+decoder architecture. It aims to improve the encoder-decoder
+model by imitating the human eye’s focus on different areas in
+an image when generating descriptive words. The concept of
+attention originated from studying human vision in cognitive
+neurology, which led to the discovery of this higher brain func-
+tion. The attention mechanism has diverse applications, includ-
+ing image categorization in visual images and various experi-
+ments in natural language processing, such as machine trans-
+lation, abstract creation, text understanding, text classification,
+and visual captioning [52].

@@ -1,0 +1,2 @@
+Figure 12: Examples of soft and hard attention mechanisms. (a) Soft attention assigns varying importance to different parts of the image, influencing the entire
+caption. In contrast, (b) hard attention focuses on specific regions, selectively considering parts of the image while ignoring others.

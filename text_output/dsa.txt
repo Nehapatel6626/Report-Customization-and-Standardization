@@ -1,0 +1,608 @@
+EE 2204 - Data Structures and Algorithms
+N  Radhakrishnan
+Assistant Professor
+Anna University, Chennai
+23 July 2025
+Anna University, Chennai - 600 025
+2
+Topics
+Introduction 
+Definitions
+Classification of Data Structures
+Arrays and Linked Lists 
+Abstract Data Types [ADT]
+The List ADT
+Array-based Implementation
+Linked List Implementation
+Cursor-based Implementation
+Doubly Linked Lists
+23 July 2025
+Anna University, Chennai - 600 025
+3
+Data Structure [Wikipedia]
+Data Structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.  
+Different kinds of data structures are suited to different kinds of applications.  
+Storing and retrieving can be carried out on data stored in both main memory and in secondary memory.
+23 July 2025
+Anna University, Chennai - 600 025
+4
+Merriam-Webster's Definition
+Way in which data are stored for efficient search and retrieval. 
+The simplest data structure is the one-dimensional (linear) array. 
+Data items stored non-consecutively in memory may be linked by pointers.
+Many algorithms have been developed for storing data efficiently
+23 July 2025
+Anna University, Chennai - 600 025
+5
+Algorithms [Wikipedia]
+An algorithm is a step-by-step procedure for calculations. 
+An algorithm is an effective method expressed as a finite list of well-defined instructions for calculating a function. 
+The transition from one state to the next is not necessarily deterministic; some algorithms incorporate random input. 
+23 July 2025
+Anna University, Chennai - 600 025
+6
+Merriam-Webster's Definition
+Procedure that produces the answer to a question or the solution to a problem in a finite number of steps. 
+An algorithm that produces a yes or no answer is called a decision procedure; one that leads to a solution is a computation procedure. 
+Example: A mathematical formula and the instructions in a computer program
+23 July 2025
+Anna University, Chennai - 600 025
+7
+Data Structure Classification
+Primitive / Non-primitive 
+Basic Data Structures available / Derived from Primitive Data Structures
+Homogeneous / Heterogeneous 
+Elements are of the same type / Different types
+Static / Dynamic 
+memory is allocated at the time of compilation / run-time
+Linear / Non-linear 
+Maintain a Linear relationship between element
+23 July 2025
+Anna University, Chennai - 600 025
+8
+ADT - General Concept
+Problem solving with a computer means processing data
+To process data, we need to define the data type and the operation to be performed on the data
+The definition of the data type and the definition of the operation to be applied to the data is part of the idea behind an Abstract Data Type (ADT) 
+23 July 2025
+Anna University, Chennai - 600 025
+9
+ADT - General Concept
+The user of an ADT needs only to know that a set of operations are available for the data type, but does not need to know how they are applied 
+Several simple ADTs, such as integer, real, character, pointer and so on, have been implemented and are available for use in most languages 
+23 July 2025
+Anna University, Chennai - 600 025
+10
+Data Types
+A data type is characterized by:
+A set of values
+A data representation, which is common to all these values, and 
+A set of operations, which can be applied uniformly to all these values 
+23 July 2025
+Anna University, Chennai - 600 025
+11
+Primitive Data Types
+Languages like ‘C’ provides the following primitive data types:
+boolean
+char, byte, int
+float, double
+Each primitive type has:
+A set of values
+A data representation
+A set of operations
+These are “set in stone”.
+23 July 2025
+Anna University, Chennai - 600 025
+12
+ADT Definition [Wikipedia]
+In computer science, an abstract data type (ADT) is a mathematical model for a certain class of data structures that have similar behavior.
+An abstract data type is defined indirectly, only by the operations that may be performed on it and by mathematical constraints on the effects (and possibly cost) of those operations. 
+23 July 2025
+Anna University, Chennai - 600 025
+13
+ADT Definition [Wikipedia]
+An ADT may be implemented by specific data types or data structures, in many ways and in many programming languages; or described in a formal specification language.
+example, an abstract stack could be defined by three operations: 
+push, that inserts some data item onto the structure, 
+pop, that extracts an item from it, and 
+peek, that allows data on top of the structure to be examined without removal.
+23 July 2025
+Anna University, Chennai - 600 025
+14
+Definition from techforum4you
+Abstract data types or ADTs are a mathematical specification of a set of data and the set of operations that can be performed on the data.  
+They are abstract in the sense that the focus is on the definitions and the various operations with their arguments.  
+The actual implementation is not defined, and does not affect the use of the ADT.
+23 July 2025
+Anna University, Chennai - 600 025
+15
+ADT in Simple Words
+Definition:
+Is a set of operation
+Mathematical abstraction
+No implementation detail
+Example:
+Lists, sets, graphs, stacks are examples of ADT along with their operations
+23 July 2025
+Anna University, Chennai - 600 025
+16
+Why ADT?
+Modularity
+divide program into small functions
+easy to debug and maintain
+easy to modify
+group work
+Reuse
+do some operations only once
+Easy to change the implementation
+transparent to the program
+23 July 2025
+Anna University, Chennai - 600 025
+17
+Implementing an ADT
+To implement an ADT, you need to choose:
+A data representation
+must be able to represent all necessary values of the ADT
+should be private
+An algorithm for each of the necessary operation: 
+must be consistent with the chosen representation
+all auxiliary (helper) operations that are not in the contract should be private 
+Remember: Once other people are using it
+It’s easy to add functionality  
+23 July 2025
+Anna University, Chennai - 600 025
+18
+The List ADT
+The List is an
+Ordered sequence of data items called elements
+A1, A2, A3, …,AN 	is a list of size N
+size of an empty list is 0
+Ai+1 succeeds Ai
+Ai-1  preceeds Ai
+Position of Ai is i
+First element is A1 called “head”
+Last element is AN  called “tail” 
+23 July 2025
+Anna University, Chennai - 600 025
+19
+Operations on Lists
+MakeEmpty
+PrintList
+Find
+FindKth
+Insert
+Delete
+Next
+Previous
+23 July 2025
+Anna University, Chennai - 600 025
+20
+List – An Example 
+The elements of a list are 34, 12, 52, 16, 12
+Find (52) -> 3
+Insert (20, 4) -> 34, 12, 52, 20, 16, 12
+Delete (52) -> 34, 12, 20, 16, 12
+FindKth (3) -> 20
+23 July 2025
+Anna University, Chennai - 600 025
+21
+List - Implementation
+Lists can be implemented using:
+Arrays
+Linked List
+Cursor [Linked List using Arrays]
+23 July 2025
+Anna University, Chennai - 600 025
+22
+Arrays
+Array is a static data structure that represents a collection of fixed number of homogeneous data items or
+A fixed-size indexed sequence of elements, all of the same type.
+The individual elements are typically stored in consecutive memory locations.
+The length of the array is determined when the array is created, and cannot be changed.
+23 July 2025
+Anna University, Chennai - 600 025
+23
+Arrays
+Any component of the array can be inspected or updated by using its index. 
+This is an efficient operation 
+O(1) = constant time
+The array indices may be integers (C, Java) or other discrete data types (Pascal, Ada).
+The lower bound may be zero (C, Java), one (Fortran), or chosen by the programmer (Pascal, Ada) 
+23 July 2025
+Anna University, Chennai - 600 025
+24
+Different Types of Arrays
+One-dimensional array: only one index is used
+Multi-dimensional array: array involving more than one index 
+Static array: the compiler determines how memory will be allocated for the array
+Dynamic array: memory allocation takes place during execution
+23 July 2025
+Anna University, Chennai - 600 025
+25
+One Dimensional Static Array
+Syntax:
+ElementType arrayName [CAPACITY];
+ElementType arrayName [CAPACITY] = { initializer_list };
+Example in C++:
+int  b [5];	
+int  b [5] = {19, 68, 12, 45, 72};
+23 July 2025
+Anna University, Chennai - 600 025
+26
+Array Output Function
+void display(int array[],int num_values)
+{
+	for (int I = 0; i<num_values; i++)
+		cout<< array[i] << “  ”;
+}
+23 July 2025
+Anna University, Chennai - 600 025
+27
+List Implemented Using Array
+23 July 2025
+Anna University, Chennai - 600 025
+28
+Operations On Lists
+We’ll consider only few operations and not all operations on Lists
+Let us consider Insert
+There are two possibilities:
+Ordered List 
+Unordered List
+23 July 2025
+Anna University, Chennai - 600 025
+29
+Insertion into an Ordered List
+23 July 2025
+Anna University, Chennai - 600 025
+30
+Insertion in Detail
+23 July 2025
+Anna University, Chennai - 600 025
+31
+Insertion
+23 July 2025
+Anna University, Chennai - 600 025
+32
+Deletion
+23 July 2025
+Anna University, Chennai - 600 025
+33
+Find / Search
+Searching is the process of looking for a specific element in an array
+For example, discovering whether a certain score is included in a list of scores. 
+Searching, like sorting, is a common task in computer programming. 
+There are many algorithms and data structures devoted to searching.
+The most common one is the linear search.
+23 July 2025
+Anna University, Chennai - 600 025
+34
+Linear Search
+The linear search approach compares the given value with each element in the array. 
+The method continues to do so until the given value  matches an element in the list or the list is exhausted without a match being found. 
+If a match is made, the linear search returns the index of the element in the array that matches the key. 
+If no match is found, the search returns -1.
+23 July 2025
+Anna University, Chennai - 600 025
+35
+Linear Search
+23 July 2025
+Anna University, Chennai - 600 025
+36
+Linear Search Function
+int LinearSearch (int a[], int n, int key)
+{
+   int i;
+   for(i=0; i<n; i++)
+   {
+     if (a[i] == key)
+        return i;
+   }
+   return -1;
+}
+23 July 2025
+Anna University, Chennai - 600 025
+37
+Using the Function
+LinearSearch (a,n,item,loc)
+Here "a" is an array of the size n. 
+This algorithm finds the location of the element "item" in the array "a". 
+If search item is found, it sets loc to the index of the element; otherwise, it sets loc to -1
+index=linearsearch(array, num, key)
+23 July 2025
+Anna University, Chennai - 600 025
+38
+PrintList Operation
+int myArray [5] = {19,68,12,45,72}; 
+/* To print all the elements of the array 
+for (int i=0;i<5;i++)
+{ 
+printf("%d", myArray[i]); 
+} 
+23 July 2025
+Anna University, Chennai - 600 025
+39
+
+23 July 2025
+Anna University, Chennai - 600 025
+40
+Implementing Deletion
+23 July 2025
+Anna University, Chennai - 600 025
+41
+Deletion - Another Method
+23 July 2025
+Anna University, Chennai - 600 025
+42
+	PrintList	     	O(N)
+	Find
+
+	Insert	     	O(N)  (on avarage half 
+	Delete		       	  needs to be moved)
+
+	FindKth
+	Next	     	O(1)	
+	Previous
+Operations Running Times
+
+
+
+23 July 2025
+Anna University, Chennai - 600 025
+43
+Disadvantages of Using Arrays
+Need to define a size for array
+High overestimate (waste of space)
+insertion and deletion is very slow
+need to move elements of the list
+redundant memory space
+it is difficult to estimate the size of array
+23 July 2025
+Anna University, Chennai - 600 025
+44
+Linked List
+Series of nodes
+not adjacent in memory
+contain the element and a pointer to a node containing its succesor
+Avoids the linear cost of insertion and deletion!
+23 July 2025
+Anna University, Chennai - 600 025
+45
+Singly Linked List
+23 July 2025
+Anna University, Chennai - 600 025
+46
+Doubly Linked List
+23 July 2025
+Anna University, Chennai - 600 025
+47
+Singly Linked List
+23 July 2025
+Anna University, Chennai - 600 025
+48
+Singly-linked List - Addition 
+Insertion into a singly-linked list has two special cases. 
+It's insertion a new node before the head (to the very beginning of the list) and after the tail (to the very end of the list). 
+In any other case, new node is inserted in the middle of the list and so, has a predecessor and successor in the list.
+23 July 2025
+Anna University, Chennai - 600 025
+49
+Empty list case
+When list is empty, which is indicated by (head == NULL) condition, the insertion is quite simple. 
+Algorithm sets both head and tail to point to the new node.
+23 July 2025
+Anna University, Chennai - 600 025
+50
+Add first
+In this case, new node is inserted right before the current head node.
+23 July 2025
+Anna University, Chennai - 600 025
+51
+Add First - Step 1
+It can be done in two steps: 
+Update the next link of the new node, to point to the current head node. 
+23 July 2025
+Anna University, Chennai - 600 025
+52
+Add First - Step 2
+Update head link to point to the new node. 
+23 July 2025
+Anna University, Chennai - 600 025
+53
+23 July 2025
+Anna University, Chennai - 600 025
+54
+Add last
+In this case, new node is inserted right after the current tail node.
+
+It can be done in two steps: 
+
+Update the next link of the current tail node, to point to the new node. 
+Update tail link to point to the new node. 
+23 July 2025
+Anna University, Chennai - 600 025
+55
+23 July 2025
+Anna University, Chennai - 600 025
+56
+Insert - General Case 
+In general case, new node is always inserted between two nodes, which are already in the list. Head and tail links are not updated in this case. 
+We need to know two nodes "Previous" and "Next", between which we want to insert the new node.
+This also can be done in two steps: 
+Update link of the "previous" node, to point to the new node. 
+Update link of the new node, to point to the "next" node. 
+23 July 2025
+Anna University, Chennai - 600 025
+57
+23 July 2025
+Anna University, Chennai - 600 025
+58
+Singly-linked List - Deletion
+There are four cases, which can occur while removing the node. 
+We have the same four situations, but the order of algorithm actions is opposite.
+Notice, that removal algorithm includes the disposal of the deleted node - unnecessary in languages with automatic garbage collection (Java).
+23 July 2025
+Anna University, Chennai - 600 025
+59
+List has only one node
+When list has only one node, that the head points to the same node as the tail, the removal is quite simple. 
+Algorithm disposes the node, pointed by head (or tail) and sets both head and tail to NULL.
+23 July 2025
+Anna University, Chennai - 600 025
+60
+Remove First
+In this case, first node (current head node) is removed from the list.
+It can be done in two steps: 
+Update head link to point to the node, next to the head. 
+Dispose removed node. 
+23 July 2025
+Anna University, Chennai - 600 025
+61
+23 July 2025
+Anna University, Chennai - 600 025
+62
+Remove Last
+In this case, last node (current tail node) is removed from the list. This operation is a bit more tricky, than removing the first node, because algorithm should find a node, which is previous to the tail first.
+It can be done in three steps: 
+Update tail link to point to the node, before the tail. In order to find it, list should be traversed first, beginning from the head. 
+Set next link of the new tail to NULL. 
+Dispose removed node. 
+23 July 2025
+Anna University, Chennai - 600 025
+63
+23 July 2025
+Anna University, Chennai - 600 025
+64
+Remove - General Case 
+In general case, node to be removed is always located between two list nodes. Head and tail links are not updated in this case.
+We need to know two nodes "Previous" and "Next", of the node which we want to delete.
+Such a removal can be done in two steps: 
+Update next link of the previous node, to point to the next node, relative to the removed node. 
+Dispose removed node. 
+23 July 2025
+Anna University, Chennai - 600 025
+65
+23 July 2025
+Anna University, Chennai - 600 025
+66
+Advantages of Using Linked Lists 
+Need to know where the first node is
+the rest of the nodes can be accessed
+No need to move the elements in the list for insertion and deletion operations
+No memory waste
+23 July 2025
+Anna University, Chennai - 600 025
+67
+Cursor Implementation
+Problems with linked list implementation:
+Same language do not support pointers!
+Then how can you use linked lists ?
+new and free operations are slow
+Actually not constant time
+SOLUTION: Implement linked list on an array - called CURSOR
+
+23 July 2025
+Anna University, Chennai - 600 025
+68
+Cursor Implementation - Diagram
+23 July 2025
+Anna University, Chennai - 600 025
+69
+Cursor Implementation
+If L  = 5, then L  represents list (A, B, E)
+If M = 3, then M represents list (C, D, F)
+23 July 2025
+Anna University, Chennai - 600 025
+70
+Arrays - Pros and Cons
+Pros
+Directly supported by C
+Provides random access
+Cons
+Size determined at compile time
+Inserting and deleting elements is time consuming
+23 July 2025
+Anna University, Chennai - 600 025
+71
+Linked Lists - Pros and Cons
+Pros
+Size determined during runtime
+Inserting and deleting elements is quick
+Cons
+No random access
+User must provide programming support
+23 July 2025
+Anna University, Chennai - 600 025
+72
+Application of Lists
+Lists can be used 
+To store the records sequentially
+For creation of stacks and queues
+For polynomial handling
+To maintain the sequence of operations for do / undo in software
+To keep track of the history of web sites visited
+23 July 2025
+Anna University, Chennai - 600 025
+73
+Why Doubly Linked List ?
+given only the pointer location, we cannot access its predecessor in the list.
+Another task that is difficult to perform on a linear linked list is traversing the list in reverse.
+Doubly linked list A linked list in which each node is linked to both its successor and its predecessor
+In such a case, where we need to access the node that precedes a given node, a doubly linked list is useful. 
+23 July 2025
+Anna University, Chennai - 600 025
+74
+Doubly Linked List
+In a doubly linked list, the nodes are linked in both directions. Each node of a doubly linked list contains three parts:
+Info: the data stored in the node
+Next: the pointer to the following node
+Back: the pointer to the preceding node
+23 July 2025
+Anna University, Chennai - 600 025
+75
+Operations on Doubly Linked Lists
+The algorithms for the insertion and deletion operations on a doubly linked list are somewhat more complicated than the corresponding operations on a singly linked list. 
+The reason is clear: There are more pointers to keep track of in a doubly linked list.
+23 July 2025
+Anna University, Chennai - 600 025
+76
+Inserting Item
+As an example, consider the Inserting an item. 
+To link the new node, after a given node, in a singly linked list, we need to change two pointers: 
+newNode->next and 
+location->next. 
+The same operation on a doubly linked list requires four pointer changes.
+23 July 2025
+Anna University, Chennai - 600 025
+77
+Singly Linked List Insertion
+23 July 2025
+Anna University, Chennai - 600 025
+78
+Doubly Linked List Insertion
+23 July 2025
+Anna University, Chennai - 600 025
+79
+The Order is Important
+23 July 2025
+Anna University, Chennai - 600 025
+80
+Doubly Linked List - Deletion
+One useful feature of a doubly linked list is its elimination of the need for a pointer to a node's predecessor to delete the node.
+Through the back member, we can alter the next member of the preceding node to make it jump over the unwanted node. 
+Then we make the back pointer of the succeeding node point to the preceding node.
+23 July 2025
+Anna University, Chennai - 600 025
+81
+Doubly Linked List - Deletion
+23 July 2025
+Anna University, Chennai - 600 025
+82
+Special Cases of Deletion
+We do, however, have to be careful about the end cases:
+If location->back is NULL, we are deleting the first node
+if location->next is NULL, we are deleting the last node. 
+If both location->back and location->next are NULL, we are deleting the only node. 
+23 July 2025
+Anna University, Chennai - 600 025
+83
+Interaction

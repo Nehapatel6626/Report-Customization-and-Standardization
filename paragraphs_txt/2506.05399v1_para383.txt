@@ -1,0 +1,8 @@
+Existing image captioning methods focus primarily on the
+visual attention mechanism, often resulting in incomplete and
+inaccurate model-generated sentences. In addition, errors in ex-
+tracting visual features can lead to incorrectly generated cap-
+tions. The work of [117] addressed this gap by proposing a
+combination attention module consisting of two modules: vi-
+sual attention and keyword attention. The evaluations demon-
+strated that this strategy yielded better results.

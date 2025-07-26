@@ -1,0 +1,1 @@
+If a word looked like a variant based on the regex pattern, or was part of the

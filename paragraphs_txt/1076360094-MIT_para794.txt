@@ -1,0 +1,15 @@
+Description
+Desired number of ﬁles to generate
+desired label to generate data
+set of malicious samples
+set of benign samples
+oracle function that indicates if malicious functionality in tact
+set of mutant ﬁles
+set of malicious mutant ﬁles
+set of malicious samples
+output of C1
+output of C3
+set of p1 scores
+set of p3 scores
+cutoﬀ specifying the minimum ﬁtness function score for “evasive” ﬁles
+function that creates mutations using a set malicious and benign ﬁles

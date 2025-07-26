@@ -1,0 +1,7 @@
+The study by [112] introduced a new approach to address
+the computational limitations of traditional attention mecha-
+nisms in image captioning. The authors presented X-Linear
+Attention Networks (X-LAN), which combine a linear atten-
+tion module for improved computational efficiency and reduced
+complexity with a non-linear module capturing more detailed
+interactions and dependencies within the image. The study

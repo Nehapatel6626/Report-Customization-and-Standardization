@@ -1,0 +1,1 @@
+the  core tension in designing  the AutoScope,  and will drive  most of the major  design  decisions.

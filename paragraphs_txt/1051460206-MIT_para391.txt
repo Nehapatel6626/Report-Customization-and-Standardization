@@ -1,0 +1,1 @@
+zero  and  one,  and need  to  sum up to  1.  p  is simply  a vector of Os with a  1  at the position of the

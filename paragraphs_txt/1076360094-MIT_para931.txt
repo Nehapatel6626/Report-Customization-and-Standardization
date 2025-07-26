@@ -1,0 +1,1 @@
+Cuckoo model is used, it sends ﬁles to a running Cuckoo server that accepts ﬁles and

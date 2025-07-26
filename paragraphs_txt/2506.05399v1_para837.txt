@@ -1,0 +1,4 @@
+[34] H. Sharma, D. Padha, A. Selwal, A survey on attention-based image
+captioning: Taxonomy, challenges, and future perspectives, in: Inter-
+national Conference on Machine Intelligence and Signal Processing,
+Springer, 2022, pp. 681–694.

@@ -1,0 +1,1 @@
+figure 3.5, we can see all pressure measurements are linearly independent one from each other.

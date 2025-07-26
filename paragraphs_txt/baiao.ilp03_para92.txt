@@ -1,0 +1,1 @@
+operationAccess( O, L ) :- example( operationAccess( O, L ) ).

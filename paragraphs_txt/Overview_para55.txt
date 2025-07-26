@@ -1,0 +1,6 @@
+Two targeted goals behind your experiments:
+First, verify that the method works. 
+Test the method using various data sets. 
+Second, identify potential weaknesses of the method chosen and maybe think of possible improvements.
+Identify cases where the method might fail to produce good results. 
+Demonstrate this using data that actually make the method fail or perform poorly.

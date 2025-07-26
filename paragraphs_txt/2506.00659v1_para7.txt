@@ -1,0 +1,4 @@
+Dipartimento di Elettronica, Informazione e Bioingegneria,
+Politecnico di Milano, Milan, Italy
+{marco.digennaro,mario.donghia,mario.polino,
+stefano.zanero,michele.carminati}@polimi.it

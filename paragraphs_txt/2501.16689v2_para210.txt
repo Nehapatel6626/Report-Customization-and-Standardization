@@ -1,0 +1,1 @@
+Wcurrent ← Wnew

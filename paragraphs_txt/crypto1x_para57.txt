@@ -1,0 +1,3 @@
+Ciphertext-only attack (passive):                        the adversary observes one or more ciphertext(s) and attempts to deduce information about the corresponding plaintext(s).
+Known-plaintext attacks (passive):                       the adversary is additionally able to learn one or more ciphertext/plaintext pairs using some key, and must deduce information about the plaintext of some other ciphertext produced using the same key
+Chosen-plaintext attack (active-adaptive):          the adversary is additionally able to obtain plaintext/ ciphertexts pairs of its choice.

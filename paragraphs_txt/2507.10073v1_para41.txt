@@ -1,0 +1,6 @@
+Cultural Persona Prompting We intend to assess synthetic surveys and evaluate the
+alignment between participants and language models. Thus, we opt for a simple prompt
+containing only the task and an optional persona stating the distinct cultural contexts. With
+the reduction to the keywords of the geographical origin, we force the system to tap into its
+built-in concepts [wei2021finetuned] without modifying them heavily in-context and thus,
+introducing our observation biases [bostrom2013anthropic].

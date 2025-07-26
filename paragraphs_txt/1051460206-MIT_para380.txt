@@ -1,0 +1,1 @@
+For  supervised  CNNs,  a  loss  function  quantifies the  quality  of the network  by  comparing

@@ -1,0 +1,1 @@
+Richards, B., & Mooney, R. (1995). Refinement of First-Order Horn-Clause Domain Theories. Machine Learning, 19(2), pp. 95-131.

@@ -1,0 +1,2 @@
+Parameters
+• 100 ants, 50 iterations, and ρ = 0.1 evaporation

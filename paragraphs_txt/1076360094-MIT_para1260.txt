@@ -1,0 +1,6 @@
+Figure 8-3: Active Defender Accuracy over Adaptation. In this ﬁgure, we observe the
+f1 score vs. the experimental stage over time. We plot the mean f1 score as points
+and show the standard deviation in the surrounding band. In this experiment, we
+observe the experiment achieving poor results in Stage 1 when evasive samples are
+introduced. Over time, we observe that the f1 score increase over time as the system
+adapts to evasive samples.

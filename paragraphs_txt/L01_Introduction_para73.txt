@@ -1,0 +1,2 @@
+T: play checkers, sell CDs
+P: % games won, # CDs sold

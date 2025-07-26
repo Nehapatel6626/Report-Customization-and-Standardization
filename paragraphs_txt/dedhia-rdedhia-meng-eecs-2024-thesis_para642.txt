@@ -1,0 +1,1 @@
+which means they work by analyzing the source code of an application in order to identify

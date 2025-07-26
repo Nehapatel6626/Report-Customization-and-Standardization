@@ -1,0 +1,15 @@
+Definition
+“Action is defined as an operation
+applied by an agent or team to
+affect a change in or maintain
+the
+either an agent’s state(s),
+environment, or both.”(iee, 2024).
+Where in the context of this paper
+the agent is the robot
+“A function is defined by the
+transformation of input flows to
+output flows” (Board, 2023), i.e.,
+a function represents what
+the
+system can do

@@ -1,0 +1,1 @@
+ASSUMPTION 1. Every action requires one function that has only one configuration available consisting

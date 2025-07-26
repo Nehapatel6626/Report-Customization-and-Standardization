@@ -1,0 +1,7 @@
+We trained the Whisper models using 2 NVIDIA A100 40 GB GPUs for 4
+to 12 epochs. We set a batch size of 4, expanded through gradient accumulation
+over 32 steps. We utilized an AdamW-optimizer [14]. Furthermore, we applied a
+weight decay of 1%. The initial learning rate was set to 5 × e−6 for small and
+medium model sizes. However, for the large model sizes, we reduced the initial
+learning rate to 1×e−6. To balance the training speed and memory requirements,
+we employed gradient checkpointing [3].

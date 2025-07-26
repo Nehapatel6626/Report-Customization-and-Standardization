@@ -1,0 +1,3 @@
+[114] L. Ke, W. Pei, R. Li, X. Shen, Y.-W. Tai, Reflective decoding network
+for image captioning, in: Proceedings of the IEEE/CVF international
+conference on computer vision, 2019, pp. 8888–8897.

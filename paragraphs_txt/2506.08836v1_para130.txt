@@ -1,0 +1,9 @@
+The final experiment evaluated the latest Whisper model, large-v3-turbo,12
+using the SRB-300 dataset. After fine-tuning with SRB-300, the model performed
+similarly to the large-v2 model, but its results were lower than those of the large-
+v3 model (see Table 4). One of the key advantages of the large-v3-turbo model
+is its inference speed. It operates even faster than the small model size measured
+on the SRB-300 test set (see Table 5). It is important to note that the reported
+inference times do not account for any preprocessing steps. The experiments
+were conducted using two NVIDIA A100 40 GB GPUs, with a batch size of 64
+and a beam width of 2.

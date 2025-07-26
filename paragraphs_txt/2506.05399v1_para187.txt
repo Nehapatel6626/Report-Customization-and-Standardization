@@ -1,0 +1,18 @@
+The multi-head attention module in the transformer model
+utilizes the attention mechanism in parallel multiple times. This
+involves concatenating and linearly transforming the outputs of
+the attention mechanism. Multi-head attention allows for si-
+multaneous self-attention across different sections of the input
+sequence [50], helping to capture both long-term and short-term
+dependencies. There are two types of attention mechanisms:
+soft attention and hard attention.
+In soft attention, weighted
+image features are used as input to the model instead of the
+raw image, enabling the model to focus on important areas
+and ignore less relevant ones. Soft attention uses conventional
+back-propagation for gradient computation and assumes that
+the weighted average accurately represents the focus region.
+On the other hand, hard attention involves sampling using the
+Monte Carlo approach and then averaging the results to obtain
+the final output. The precision of hard attention is determined
+by the number and quality of the samples taken [7].

@@ -1,0 +1,1 @@
+Thus, the Hybrid classifier comes across as a very flexible and powerful classifier, which gives us the best of both the worlds – Naïve Bayes and decision trees – of course, depending on the choice of χ. We envision the Hybrid classifier to run cross-validation over different values of  χ and choose the best value for a given dataset

@@ -1,0 +1,9 @@
+1 functional−requirement sub relation,
+2
+3
+4
+5 Action sub entity,
+6 owns action−name @key,
+7 owns action−status,
+8 plays functional−requirement:action,
+9 plays constraint:constrained;

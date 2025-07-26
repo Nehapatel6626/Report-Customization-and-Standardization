@@ -1,0 +1,9 @@
+The List is an
+Ordered sequence of data items called elements
+A1, A2, A3, …,AN 	is a list of size N
+size of an empty list is 0
+Ai+1 succeeds Ai
+Ai-1  preceeds Ai
+Position of Ai is i
+First element is A1 called “head”
+Last element is AN  called “tail”

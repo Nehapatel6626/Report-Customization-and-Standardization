@@ -1,0 +1,3 @@
+Role and Qualiﬁcation Analysis The meta-planner ex-
+tracts roles from task objectives and maps them to required
+qualiﬁcations:

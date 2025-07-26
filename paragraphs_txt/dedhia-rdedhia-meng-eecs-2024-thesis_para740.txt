@@ -1,0 +1,1 @@
+Figure 4.1: Diagram of the code flow performed by the extension when checking each cell in

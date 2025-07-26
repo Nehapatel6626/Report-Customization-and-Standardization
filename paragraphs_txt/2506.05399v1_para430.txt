@@ -1,0 +1,10 @@
+The Microsoft COCO (MS COCO) dataset [123] is a large-
+scale benchmark widely used in image recognition, object de-
+tection, semantic segmentation, and image captioning. Each
+image is manually annotated via Amazon Mechanical Turk and
+includes objects from over 100 categories, representing real-
+world scenes with natural backgrounds. The dataset contains
+82,783 training images, 40,504 validation images, and 40,775
+test images with undisclosed labels. Each image is paired with
+five descriptive captions, making MS COCO a key resource for
+evaluating image captioning models.

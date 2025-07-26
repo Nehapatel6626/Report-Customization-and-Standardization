@@ -1,0 +1,11 @@
+Present an ADT
+Motivate with some applications
+Repeat until browned entirely through
+develop a data structure for the ADT
+analyze its properties 
+efficiency
+correctness
+limitations
+ease of programming
+Contrast data structure’s strengths and weaknesses
+understand when to use each one

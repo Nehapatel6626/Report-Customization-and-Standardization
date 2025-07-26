@@ -1,0 +1,2 @@
+Kephart, J. O. and Chess, D. M. (2003). The vision of autonomic computing. Computer 36, 41–50
+Kortenkamp, D., Simmons, R., and Brugali, D. (2016). Robotic Systems Architectures and Programming

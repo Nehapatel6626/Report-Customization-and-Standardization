@@ -1,0 +1,7 @@
+Finite State Automata
+Deterministic Recognition of FSAs
+Non-Determinism (NFSAs)
+Recognition of NFSAs
+FSAs, FSTs and Morphology
+Very brief sketch: Tokenization
+Minimum Edit Distance

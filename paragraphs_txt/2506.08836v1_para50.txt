@@ -1,0 +1,9 @@
+Extraction Each available MP4 recording from 29 radio and 10 TV stations
+contained approximately 8-hour excerpts of a day’s radio and TV broadcast,
+including non-speech sections, resulting in a total of about 1790 hours of audio.
+In the first step, irrelevant parts, such as music, jingles, commercials, and re-
+peated programs, were identified and removed from the recordings. Professionals
+then manually labeled the remaining speech data with contextual metadata, in-
+cluding details like speaker gender and type of broadcast. One-third of the data
+comes from TV broadcasts, while two-thirds comes from radio (ref. Appendix A,
+Table 6).

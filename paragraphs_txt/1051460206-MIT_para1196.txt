@@ -1,0 +1,1 @@
+Table 5.  Summary of the characteristics of the target particles that the AutoScope is trained on.

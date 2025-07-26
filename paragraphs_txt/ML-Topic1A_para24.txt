@@ -1,0 +1,1 @@
+Example: P ( chips | beer ) = 0.7

@@ -1,0 +1,16 @@
+Scientists have focused on top-down and bottom-up atten-
+tion theories, and recent research has shown that top-down at-
+tention mechanisms are still preferable. The top-down model
+starts with an image as input and converts it to words [36]. All
+methods that utilize bottom-up attention perform better because
+bottom-up attention focuses on visual attention at the object
+level. However, an important question arises: In some natural
+settings, is it necessary for the model to pay attention to areas in
+the image that do not contain recognizable objects but instead
+include natural elements such as mountains, trees, skies, etc.?
+On the other hand, using object detectors for bottom-up feature
+extraction has drawbacks, as they may not be able to focus on
+important areas for captions in unfamiliar domains. As a result,
+additional knowledge from various domains may be necessary
+for natural settings, and object detectors trained in more spe-
+cialized tasks can provide this kind of knowledge [31].

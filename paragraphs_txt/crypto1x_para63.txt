@@ -1,0 +1,7 @@
+Principal 2 – Precise Assumptions
+Validation of the assumption
+By there very nature assumptions/statements are not proven but conjectured . . . 
+Comparison of schemes
+If one scheme makes a weaker assumption than another then the first is to be preferred . . .  
+Facilitation of proofs of security
+If the security of a scheme cannot be proven unconditionally and must rely on an assumption then a mathematical proof that the construction is secure requires a precise definition of the statement.

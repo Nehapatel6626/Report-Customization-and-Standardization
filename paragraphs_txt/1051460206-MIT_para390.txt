@@ -1,0 +1,1 @@
+theory.  Since  both p  and q are  probability  distributions, the values  pj and  qj need  to be between

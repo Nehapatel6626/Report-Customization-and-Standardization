@@ -1,0 +1,2 @@
+With its multi-component architecture, MACI directly ad-
+dresses the three critical limitations of LLMs in planning:

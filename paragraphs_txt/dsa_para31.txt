@@ -1,0 +1,8 @@
+Primitive / Non-primitive 
+Basic Data Structures available / Derived from Primitive Data Structures
+Homogeneous / Heterogeneous 
+Elements are of the same type / Different types
+Static / Dynamic 
+memory is allocated at the time of compilation / run-time
+Linear / Non-linear 
+Maintain a Linear relationship between element

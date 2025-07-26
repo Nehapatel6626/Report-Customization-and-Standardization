@@ -1,0 +1,1 @@
+There are various approaches to pruning [5-9].  This paper uses the one suggested in [9].  It uses a statistical significance test based on chi value cutoffs to determine whether branching on an attribute would provide benefits beyond a threshold.  Excessive pruning would result in the loss of data.  Such pruning would be required to fit a really large decision tree into memory.

@@ -1,0 +1,1 @@
+Other evaluation functions could maximize accuracy as long as average classifying

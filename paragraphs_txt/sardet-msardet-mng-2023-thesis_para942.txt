@@ -1,0 +1,1 @@
+Traverse Position and Weight Acquisition Some work on traverse control and weight

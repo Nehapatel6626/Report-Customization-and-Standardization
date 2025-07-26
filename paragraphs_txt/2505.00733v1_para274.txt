@@ -1,0 +1,4 @@
+1 rule component−status−configuration−error:
+2 when {
+3 $c isa Component, has is−required true;
+4 not {

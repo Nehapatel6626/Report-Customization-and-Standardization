@@ -1,0 +1,6 @@
+Very constrained grammars attempt to limit unlikely/weird parses for sentences
+But the attempt make the grammars not robust: many sentences have no parse
+A less constrained grammar can parse more sentences
+But simple sentences end up with ever more parses
+Solution: We need mechanisms that allow us to find the most likely parse(s)
+Statistical parsing lets us work with very loose grammars that admit millions of parses for sentences but to still quickly find the best parse(s)

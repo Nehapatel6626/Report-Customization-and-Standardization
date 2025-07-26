@@ -1,0 +1,6 @@
+and outlining potential future possibilities. In addition, a sys-
+tematic review of the literature (SLR) summarized advances in
+image captioning [36]. The primary objective of this research
+was to summarize the findings from recent papers and to de-
+scribe the most popular methods and challenging problems in
+image captioning.

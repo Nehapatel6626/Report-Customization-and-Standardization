@@ -1,0 +1,3 @@
+A significant part of the morphological analysis we’ve been doing involves segmentation
+Sometimes getting the segments is all we want
+Morpheme boundaries, words, sentences, paragraphs

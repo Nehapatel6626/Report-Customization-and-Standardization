@@ -1,0 +1,1 @@
+I decided to tackle a simpler problem of first determining whether a number in

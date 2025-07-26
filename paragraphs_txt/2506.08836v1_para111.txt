@@ -1,0 +1,1 @@
+Since Swiss German is unavailable as a configurable language in Whisper, we

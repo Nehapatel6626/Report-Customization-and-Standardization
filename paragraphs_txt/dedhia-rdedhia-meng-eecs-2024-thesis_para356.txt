@@ -1,0 +1,1 @@
+cell value in a spreadsheet program and clicks on the link, all the data in the file will be sent

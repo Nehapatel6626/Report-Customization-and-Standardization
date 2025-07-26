@@ -1,0 +1,5 @@
+Any component of the array can be inspected or updated by using its index. 
+This is an efficient operation 
+O(1) = constant time
+The array indices may be integers (C, Java) or other discrete data types (Pascal, Ada).
+The lower bound may be zero (C, Java), one (Fortran), or chosen by the programmer (Pascal, Ada)

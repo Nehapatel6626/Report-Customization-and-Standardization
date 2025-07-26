@@ -1,0 +1,3 @@
+Abstract data types or ADTs are a mathematical specification of a set of data and the set of operations that can be performed on the data.  
+They are abstract in the sense that the focus is on the definitions and the various operations with their arguments.  
+The actual implementation is not defined, and does not affect the use of the ADT.

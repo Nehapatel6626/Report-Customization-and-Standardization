@@ -1,0 +1,7 @@
+LLM responses reveal critical ﬂaws: 1) DeepSeek violates
+core constraints by unjustiﬁably delaying dinner to 7:00
+PM (vs. the 6:00 PM deadline); and 2) GPT-4o (Table 3)
+commits a safety violation: leaving the oven unattended,
+despite explicit constraints. These errors highlight LLMs’
+inability to reliably maintain and validate constraints dur-
+ing replanning, even with full information.

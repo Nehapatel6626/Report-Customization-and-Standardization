@@ -1,0 +1,4 @@
+Attributes
+start-time:Datetime
+end-time:Datetime
+result:String

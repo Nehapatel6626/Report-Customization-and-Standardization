@@ -1,0 +1,4 @@
+One-dimensional array: only one index is used
+Multi-dimensional array: array involving more than one index 
+Static array: the compiler determines how memory will be allocated for the array
+Dynamic array: memory allocation takes place during execution

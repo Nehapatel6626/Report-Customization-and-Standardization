@@ -1,0 +1,17 @@
+ing, while unsupervised learning methods include generative
+adversarial networks (GANs). GAN-based image captioning
+systems are capable of producing a variety of image descrip-
+tions. However, text processing relies on discrete numbers,
+making the processes non-differentiable and challenging to ap-
+ply back-propagation directly. The architecture of the method
+presented by [44] is shown in Fig.3. It uses a GAN-based model
+to generate artificial images from text, employing attention to
+focus on relevant word vectors to create various parts of the im-
+age. Subsequently, captions are produced for the image using
+an attention-based image captioning model. [45] introduced a
+Gated Recurrent Unit (GRU) based on the generative adversar-
+ial structure network (GASN), which consists of three parts: a
+consensus reasoning module, a sentence decoder with two lay-
+ers of LSTM, and a grounding module to locate regions. This
+method provided accurate and detailed information on objects
+to predict words.

@@ -1,0 +1,9 @@
+Advancing artiﬁcial intelligence requires capabilities be-
+yond pattern matching. To tackle complex real-world tasks,
+AI must exhibit deliberate reasoning, temporal awareness,
+and effective constraint management. While Large Lan-
+guage Models (LLMs) excel at pattern recognition, they
+face signiﬁcant challenges in planning tasks that demand
+sustained attention, comprehensive constraint awareness,
+and reasoning across both past and future temporal states
+(Kahneman, 2011).

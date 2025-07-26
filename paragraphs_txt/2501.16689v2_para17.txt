@@ -1,0 +1,10 @@
+3. Lack of Common Sense Integration. LLMs often over-
+look practical constraints that humans intuitively consider.
+This deﬁciency becomes particularly evident in domains
+that require real-world experience and understanding. In
+travel planning, an LLM might generate a route without ac-
+counting for airport security processing times. In logistics,
+it may create schedules that ignore resource availability and
+preparation windows. Without explicit, granular speciﬁca-
+tions, these models produce plans that appear superﬁcially
+coherent but remain impractical.

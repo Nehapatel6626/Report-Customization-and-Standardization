@@ -1,0 +1,1 @@
+The  CNN  can  be seen  as a scoring  function,  translating the  raw image  pixels of an image

@@ -1,0 +1,1 @@
+This abstract skeleton for a PredictionPipeline contains the following methods:

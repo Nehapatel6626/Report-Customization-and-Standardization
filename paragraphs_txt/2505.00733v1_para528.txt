@@ -1,0 +1,3 @@
+Bozhinoski, D. and Wijkhuizen, J. (2021). Context-based navigation for ground mobile robot in semi-
+structured indoor environment. In 2021 Fifth IEEE International Conference on Robotic Computing
+(IRC). 82–86. doi:10.1109/IRC52146.2021.00019

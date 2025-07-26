@@ -1,0 +1,4 @@
+sentence and a set of reference sentences to measure their simi-
+larity at the sentence level. ROUGE-1, ROUGE-2, ROUGE-W,
+and ROUGE-SU4 are different types of ROUGE used for vari-
+ous tasks, and the metric score ranges from 0 to 1.

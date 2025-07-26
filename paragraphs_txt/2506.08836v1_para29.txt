@@ -1,0 +1,5 @@
+STT4SG-350 The STT4SG-350 [20] consists of 343 hours of speech recorded
+by 316 different speakers, with the test set containing 34 hours. This dataset was
+collected in the same manner as the SDS-200 dataset. The written sentences are
+derived from news articles and recordings of the Swiss parliament. The sample
+durations range from 2.0 s to 15.4 s, with an average duration of 5.0 s.

@@ -1,0 +1,4 @@
+Conclusion
+In near future we can have computers with as many processing elements as our brain, but:
+   far fewer interconnections (wires or synapses)
+   much faster updates.

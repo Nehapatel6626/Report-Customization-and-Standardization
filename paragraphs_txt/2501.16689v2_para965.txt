@@ -1,0 +1,6 @@
+When asked to produce an alternate plan to reduce wait
+time and improve load balancing, as Michael can suffer
+from severe fatigue, an implicit constraint, Claude gener-
+ates another feasible plan in Table 18. In this plan, James
+picks Emily instead of Michael. Emily has to wait for
+James’ availability for two hours at the airport.

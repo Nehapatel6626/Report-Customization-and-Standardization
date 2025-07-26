@@ -1,0 +1,3 @@
+[22] Calder, M. & Sevegnani, M. Stochastic Model Checking for Predicting
+Component Failures and Service Availability. IEEE Transactions On
+Dependable And Secure Computing. 16, 174-187 (2019).

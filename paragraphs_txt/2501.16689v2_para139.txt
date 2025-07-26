@@ -1,0 +1,7 @@
+MACI avoids relying on a single LLM to execute complex,
+multi-step reasoning sequentially. Instead, it utilizes small,
+independent agents that adhere to strict efﬁciency and mod-
+ularity principles. These agents operate with well-deﬁned
+input/output protocols and are constrained to restricted con-
+text windows to mitigate attention bias and prevent earlier
+constraints from being overridden by recent context.

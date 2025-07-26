@@ -1,0 +1,10 @@
+Fig. 3. Performance Comparison of Federated versus Centralised RL. (a)
+PLR over 50 global rounds, where lower PLR for FDRL indicates better
+privacy preservation compared to the Centralised approach. (b) Average
+Kullback–Leibler (KL) divergence between local and aggregated (global)
+policy distributions in FDRL, demonstrating the extent of divergence among
+local models during training. (c) OPE over global rounds, computed as a
+weighted combination of (1 – PLR), KL divergence, and an effective DP
+decay term, highlighting the superior privacy–performance trade-off achieved
+by Federated RL relative to Centralised RL
+.

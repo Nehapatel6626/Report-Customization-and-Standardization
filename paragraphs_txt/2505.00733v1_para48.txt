@@ -1,0 +1,4 @@
+focus on generating intelligent and flexible behavior by integrating cognitive capabilities such as planning,
+perception, or reasoning. However, being integral solutions, these works provide a blueprint for the
+complete robot control system and are not intended for reuse and integration with other methods, thus
+making it difficult to adapt and customize for specific applications.

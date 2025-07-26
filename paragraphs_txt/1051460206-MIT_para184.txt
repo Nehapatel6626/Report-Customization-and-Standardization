@@ -1,0 +1,1 @@
+CCD/CMOS  sensor.  Image-processing  techniques  can be used  to increase  digital  resolution.

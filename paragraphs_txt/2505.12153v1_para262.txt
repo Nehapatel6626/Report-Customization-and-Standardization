@@ -1,0 +1,27 @@
+results with high precision. The simulations were designed
+to reflect realistic surgical scenarios and evaluate the frame-
+work’s performance under diverse conditions. Three hospitals
+participated, each with a dataset of 100 samples. The state
+and action dimensions were set to five and three, respectively.
+FL ran for 50 rounds, each with five local epochs, while
+Centralized Learning (CL) lasted 15 epochs.DP noise standard
+deviation varied from 0.01 to 1 for FL and was fixed at 0.1
+for CL. The heterogeneity factor, controlling dataset variation
+across hospitals, ranged from 0 to 1. The OPE metric’s
+weighting coefficients were set to λ1 = 0.3, λ2 = 0.4, and
+λ3 = 0.3, ensuring a comprehensive analysis of the frame-
+work’s behaviour. For Fig. 3, 2(a) compares PLR in Federated
+and Centralized RL, showing that FL significantly reduces
+PLR, indicating stronger privacy preservation by decentral-
+izing model training and avoiding direct data sharing. The
+higher PLR in CL highlights the risk of information leakage
+due to data aggregation. Fig. 2(b) presents the Kullback-
+Leibler Divergence (KL) divergence between locally trained
+and global policies. The higher divergence in Federated RL
+suggests greater policy variation across hospitals, enhancing
+privacy by reducing the risk of dataset reconstruction from
+the global model. Fig. 2(c) shows the OPE score, confirming
+Federated RL’s superior privacy-preserving capabilities by
+integrating PLR, policy divergence, and DP constraints. The
+results across 50 global rounds demonstrate the stability and
+effectiveness of FL in balancing privacy and utility.

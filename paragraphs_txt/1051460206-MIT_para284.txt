@@ -1,0 +1,1 @@
+layer  is represented  by a  set of neurons  where each neuron  is fully connected  to the previous

@@ -1,0 +1,3 @@
+Today’s successful AI systems 
+operate in well-defined domains
+employ narrow, specialize knowledge

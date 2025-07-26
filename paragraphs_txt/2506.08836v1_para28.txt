@@ -1,0 +1,9 @@
+SDS-200 The SDS-200 dataset [21] comprises 200 hours of spoken audio recorded
+by approximately 4000 speakers. However, the number of recordings varies signif-
+icantly among speakers, following a long-tail distribution. The test set contains
+5 hours of audio. An online service was utilized in which speakers were presented
+with a Standard German sentence to be spoken in their respective Swiss German
+dialects. To ensure quality, the recordings were validated by other participants.
+The sentences were selected from Swiss newspapers and the Standard German
+dataset of the Common Voice corpus.3 The sample durations range from 2.0 s to
+11.2 s, with an average duration of 4.8 s.

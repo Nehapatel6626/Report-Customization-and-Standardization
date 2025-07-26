@@ -1,0 +1,17 @@
+In the proposed FDRL framework, HE is explicitly em-
+ployed to safeguard privacy during the aggregation of local
+model parameters. Each participating hospital encrypts its
+local model parameters (weights or gradients) using HE before
+sending them to the federated aggregation server. This process
+ensures strict privacy of all model updates throughout the
+entire aggregation procedure. Specifically, HE enables the
+federated aggregator to perform arithmetic operations (e.g.,
+addition and averaging) directly on encrypted data, thereby
+preserving privacy by preventing the exposure of sensitive
+intermediate gradient or weight information. The secure ag-
+gregation process using HE operates as follows. Each hospi-
+tal encrypts its local model parameters using a public key,
+yielding encrypted parameters Enc(θi) = HE.Encpk(θi),
+where HE.Enc denotes the HE function. These encrypted
+parameters are then securely transmitted to the federated
+aggregation server, i.e., Hospital I → Server : Enc(θi).

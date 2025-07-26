@@ -1,0 +1,1 @@
+to each  function.  CNNs  can be represented  as many  separate  functions  (f,, fn+1 , fn+2 ) chained

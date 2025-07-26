@@ -1,0 +1,1 @@
+having  8 filters  of size  5  weights by  5 weights,  where each of these weights is learned  during

@@ -1,0 +1,9 @@
+Meta’s11 XLS-R 1B model [1], which was specifically fine-tuned on Swiss
+German using the STT4SG-350 dataset, demonstrated a significant performance
+drop from the reported 14.0% WER and 74.7 BLEU [20] down to 44.4% WER
+and 37.5 BLEU score on the SRB-300 test set. This represents a 50% worse
+performance in BLEU score compared to the best fine-tuned Whisper model
+ZHAW large-v3. Surprisingly, its performance was considerably lower than the
+zero-shot performance of Whisper’s medium model, which achieved a WER of
+27.2% and a BLEU score of 58.1 on the SRB-300 test set. This underscores the
+necessity of utilizing realistic datasets for STT model training.

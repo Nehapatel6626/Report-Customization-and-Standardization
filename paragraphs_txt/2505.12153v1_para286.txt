@@ -1,0 +1,4 @@
+[2] J. Xu, J. Wang, L. Yu, D. Stoyanov, Y. Jin, and E. Mazomenos,
+”Personalizing federated instrument segmentation with visual trait priors
+in robotic surgery,” IEEE Transactions on Biomedical Engineering,
+2025.

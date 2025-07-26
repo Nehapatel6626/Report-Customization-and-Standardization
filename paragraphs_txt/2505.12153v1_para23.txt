@@ -1,0 +1,6 @@
+While FL has demonstrated its efficacy in various health-
+care applications, including medical imaging analysis, patient
+outcome prediction, and clinical analytics, its robust integra-
+tion with RL for real-time dynamic decision-making in RAS
+remains a relatively nascent and underexplored area. There-
+fore, this research addresses this critical gap by presenting a

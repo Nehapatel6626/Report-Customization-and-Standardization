@@ -1,0 +1,12 @@
+Feature
+pdfrate 0
+pdfrate 1
+pdfrate 2
+pdfrate 3
+pdfrate 4
+pdfrate 5
+pdfrate 6
+pdfrate 7
+pdfrate 8
+pdfrate 9
+pdfrate 10

@@ -1,0 +1,10 @@
+Moreover, Overall OPE is 25.8% higher in FL, reinforcing
+its superior ability to balance data protection with learning
+efficiency. Although Task-Specific Accuracy is nearly identical
+between FL and CL, the added benefits of FL in risk mitigation
+and privacy protection make it a more robust approach for
+privacy-sensitive applications in RAS. The radar plot visually
+confirms that FL maintains a strong competitive edge in
+privacy-conscious AI-driven healthcare systems, making it a
+preferable choice for real-world surgical environments where
+both data security and procedural accuracy are critical.

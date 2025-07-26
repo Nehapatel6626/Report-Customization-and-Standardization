@@ -1,0 +1,5 @@
+Hochgeschwender et al. (2016) argue that robots should have access to and exploit software-related
+knowledge about how they were engineered to support runtime adaptation. They demonstrate how labeled
+property graphs (LPGs) can be used to persistently store and compose different domain models specified
+with domain-specific languages (DSL) to enable runtime architectural adaptation. Although their approach
+is interesting, its reusability is limited as it does not define a knowledge model that can be reused for other

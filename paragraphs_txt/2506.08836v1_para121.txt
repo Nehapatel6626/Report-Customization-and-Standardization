@@ -1,0 +1,2 @@
+Table 4. Results of different models on the SRB-300 test set using the Hugging Face
+implementation of Whisper with a beam width of 2.

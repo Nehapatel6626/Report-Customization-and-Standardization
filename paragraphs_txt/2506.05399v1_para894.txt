@@ -1,0 +1,3 @@
+[78] Y. Wang, J. Xu, Y. Sun, End-to-end transformer based model for im-
+age captioning, in: Proceedings of the AAAI Conference on Artificial
+Intelligence, Vol. 36, 2022, pp. 2585–2594.

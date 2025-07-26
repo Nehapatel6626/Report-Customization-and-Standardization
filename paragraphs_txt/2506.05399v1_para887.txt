@@ -1,0 +1,4 @@
+[71] M. Kalimuthu, A. Mogadala, M. Mosbach, D. Klakow, Fusion models
+for improved image captioning, in: Pattern Recognition. ICPR Interna-
+tional Workshops and Challenges: Virtual Event, January 10–15, 2021,
+Proceedings, Part VI, Springer, 2021, pp. 381–395.

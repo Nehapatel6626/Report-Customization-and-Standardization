@@ -1,0 +1,1 @@
+first  filtering  the image with  an antialiasing  filter,  and then downsampling  the image  based on the

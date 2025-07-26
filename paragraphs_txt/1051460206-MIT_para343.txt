@@ -1,0 +1,1 @@
+called  W1 filters  =  {wl,  ... , wnj. In Figure 2-2, the 3D  filter matrix  Wfilters  can be  interpreted  as

@@ -1,0 +1,3 @@
+22. Mantovani, A., Aonzo, S., Ugarte-Pedrero, X., Merlo, A., Balzarotti, D.: Prevalence
+and impact of low-entropy packing schemes in the malware ecosystem. Proceedings
+2020 Network and Distributed System Security Symposium (2020)

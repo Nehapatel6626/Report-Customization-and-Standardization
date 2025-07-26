@@ -1,0 +1,3 @@
+Garcia, S., Menghi, C., Pelliccione, P., Berger, T., and Wohlrab, R. (2018). An architecture for decentralized,
+collaborative, and autonomous robots. In 2018 IEEE International Conference on Software Architecture
+(ICSA). 75–7509. doi:10.1109/ICSA.2018.00017

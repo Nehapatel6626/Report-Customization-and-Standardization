@@ -1,0 +1,1 @@
+encoded_data = download_data . encode ( 'utf -8 ')

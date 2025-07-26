@@ -1,0 +1,1 @@
+Of course, this type of analysis should be applied to all the other core operations.

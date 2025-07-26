@@ -1,0 +1,1 @@
+Outline how existing techniques may be assembled to create end-to-end natural language applications such as question answering or machine translation systems.

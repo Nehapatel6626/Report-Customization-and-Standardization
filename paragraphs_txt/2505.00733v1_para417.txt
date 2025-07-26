@@ -1,0 +1,2 @@
+Distance inspected (s) Mean reaction time (s)
+Mean

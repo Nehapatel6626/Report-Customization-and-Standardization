@@ -1,0 +1,6 @@
+Two key limitations emerge: 1) Attention narrowing: Over-
+focus on objectives (e.g., arrival times) causes neglect of
+critical constraints (e.g., ﬁre safety); and 2) Solution rigid-
+ity: Once a constraint is satisﬁed (e.g., assigning Sarah to
+oven duty), LLMs treat it as a ﬁxed context, failing to ex-
+plore alternatives.

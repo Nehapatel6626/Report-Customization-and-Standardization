@@ -1,0 +1,1 @@
+machine. It also chains several commands together using the pipeline character [15].

@@ -1,0 +1,7 @@
+Building on this foundation, our research systematically evaluates how LLMs represent
+diverse cultural moral frameworks by applying the Moral Foundations Questionnaire
+(MFQ-2) [atari2023morality] across 19 cultural contexts. By comparing multiple state-
+of-the-art LLMs against human baseline data, we investigate whether these models can
+faithfully represent the nuanced, culturally-specific moral intuitions that characterize human
+moral reasoning. Our findings challenge assumptions about LLMs’ capabilities for cultural
+representation and highlight fundamental limitations in current AI alignment approaches.

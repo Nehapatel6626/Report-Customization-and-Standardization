@@ -1,0 +1,6 @@
+Cultural representation patterns The LLMs show varying degrees of alignment across
+different cultural contexts. European perspectives — such as Belgium with multiple models
+showing 𝑚𝑑 < 1.0 – are generally well-represented. However, we observe inconsistent
+patterns in model alignment with non-Western perspectives. Some models represent South
+African (𝑚𝑑 = 0.379 for Qwen2.5 7B) and Nigerian (𝑚𝑑 = 0.537 for Qwen2.5 72B)
+perspectives with small distance while showing a significant deviation for others.

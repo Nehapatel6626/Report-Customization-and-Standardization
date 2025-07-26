@@ -1,0 +1,1 @@
+The agent’s protocol is deﬁned as:

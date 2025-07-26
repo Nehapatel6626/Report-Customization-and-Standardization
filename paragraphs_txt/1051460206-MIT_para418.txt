@@ -1,0 +1,1 @@
+regularization  loss  sums the  squares  of the  weights  in the CNN,  essentially  incentivizing  smaller

@@ -1,0 +1,13 @@
+capabilities. RL empowers autonomous agents, in this case,
+surgical robots, to learn optimal sequences of actions through
+iterative interaction with a dynamic environment, guided by
+reward signals [5]. RL algorithms, when utilizing real-time
+intraoperative information alongside historical procedural data,
+can empower surgical robots to enhance their control strate-
+gies, customize interventions to suit each patient’s unique
+in
+anatomical and physiological characteristics, and adjust
+real-time to the unpredictable and variable nature of surgical
+procedures [6], [7]. This capability is crucial for navigating
+the nuanced and often complex landscape of surgical inter-
+ventions.

@@ -1,0 +1,1 @@
+Several strategies have been implemented in order to analyse existing data:

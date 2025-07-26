@@ -1,0 +1,1 @@
+the injected code is the same, attackers can mutate other aspects of the ﬁle, such as

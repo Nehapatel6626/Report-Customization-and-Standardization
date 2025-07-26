@@ -1,0 +1,1 @@
+fense mechanisms adapt as new variants are produced. Known as active learning, this

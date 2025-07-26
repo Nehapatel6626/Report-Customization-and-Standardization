@@ -1,0 +1,1 @@
+During the resizing  step, we  performed  additional  transformations on the  image to reduce

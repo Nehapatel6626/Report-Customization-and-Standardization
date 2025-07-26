@@ -1,0 +1,4 @@
+Pixel-shifting  is a technique where  the  image  sensor is shifted  by  sub-pixel  distances,  leading  to
+an oversampling  of the  spatial  distribution.  The  oversampling  is then used  to obtain  sub-pixel
+resolution.  These techniques  in combinations  with high-quality  image  sensors are  used  to
+achieve  sufficient  spatial  resolution  for microscopy.

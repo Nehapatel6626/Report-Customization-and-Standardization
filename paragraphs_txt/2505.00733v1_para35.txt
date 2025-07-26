@@ -1,0 +1,9 @@
+To demonstrate TACA, this work extends SUAVE with an (A3) recharge battery action and a (U3) battery
+level uncertainty. With these extensions, the AUV’s battery level can suddenly drop to a critical level,
+requiring the AUV to abort the action it is performing (A1 or A2) and perform A3. In this situation, the
+AUV needs to perform TACA by adapting its task execution and architecture to perform A3. To better
+evaluate ROSA by serving as a baseline for comparison, this work extends the SUAVE exemplar with a
+managing subsystem where the adaptation logic is implemented with BTs, and the AUV’s architectural
+variants as well as the architectural adaptation execution are realized with System Modes (Nordmann et al.,
+2021)1. Furthermore, this work introduces a new reaction time metric that represents the time a managing
+system takes to react to uncertainties and adapt the managed subsystem.

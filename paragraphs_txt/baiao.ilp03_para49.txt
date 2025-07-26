@@ -1,0 +1,1 @@
+The correctness of a theory is defined as follows: given a set P of positive instances and a set N of negative instances, a theory T is correct on these instances if and only if (2) holds.

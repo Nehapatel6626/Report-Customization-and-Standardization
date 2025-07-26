@@ -1,0 +1,4 @@
+During the mission execution, the AUV was able to overcome all uncertainties: adapting to thruster
+failures (U1) with structural adaptation, to changing water visibility (U2) with parameter adaptation, and to
+an unexpected drop in the battery level (U3) with TACA, demonstrating the feasibility of using ROSA to
+enable runtime TACA in ROS 2-based robotic systems.

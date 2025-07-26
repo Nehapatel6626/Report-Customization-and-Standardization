@@ -1,0 +1,3 @@
+The validation protocols described above align closely with
+established methods in operations research (OR). Some rel-
+evant techniques include:

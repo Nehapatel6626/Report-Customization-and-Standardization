@@ -1,0 +1,11 @@
+RPCs & Distributed Objects 
+Concurrency Control
+2PC and Paxos
+Replication Control
+Key-value and NoSQL stores
+Stream Processing
+Graph processing
+Scheduling
+Distributed File Systems 
+Distributed Shared Memory 
+Security

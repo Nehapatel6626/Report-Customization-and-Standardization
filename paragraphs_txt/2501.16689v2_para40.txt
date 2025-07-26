@@ -1,0 +1,12 @@
+The development of MACI builds on theoretical insights
+from formal systems and addresses limitations of current
+multi-agent architectures. Gödel’s second incompleteness
+theorem (Kennedy, 2008; Gödel, 1967) established that no
+consistent formal system can prove its own consistency.
+This principle extends to LLMs, which rely on probabilis-
+tic rather than axiomatic foundations, making them inher-
+ently incapable of reliable self-validation. To address this,
+MACI employs a distributed validation architecture, where
+independent agents validate externally the output, bypass-
+ing the self-referential loops that may lead to inconsisten-
+cies.

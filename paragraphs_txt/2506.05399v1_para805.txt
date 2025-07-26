@@ -1,0 +1,3 @@
+[2] M. Z. Hossain, F. Sohel, M. F. Shiratuddin, H. Laga, A comprehensive
+survey of deep learning for image captioning, ACM Computing Surveys
+(CsUR) 51 (6) (2019) 1–36.

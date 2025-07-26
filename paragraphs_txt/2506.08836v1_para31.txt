@@ -1,0 +1,5 @@
+The aforementioned corpora are particularly valuable for researching STT mod-
+els and benchmarking purposes. However, models trained on these datasets face
+challenges when transcribing realistic, spontaneously spoken Swiss German, par-
+ticularly in everyday conversational situations. These datasets have one or more
+of the following limitations:

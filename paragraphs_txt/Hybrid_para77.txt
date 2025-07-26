@@ -1,0 +1,1 @@
+On the large dataset, we observed that Naïve Bayes performs better than Decision Trees, irrespective of the χ-value we choose. The curve for Hybrid classifier, however, performs exactly as the Naïve Bayes classifier for χ ~ 9000.

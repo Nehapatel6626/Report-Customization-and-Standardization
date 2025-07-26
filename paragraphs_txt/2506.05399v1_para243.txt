@@ -1,0 +1,2 @@
+This section categorizes image captioning models into Hand-
+Crafted Approaches for Image Captioning, Deep Learning for

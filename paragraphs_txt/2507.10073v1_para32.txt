@@ -1,0 +1,5 @@
+Embodiment Deficit Most critically, these approaches [argyle2023out] ignore that
+LLMs lack embodiment in the physical world. This disembodied nature means they
+lack the grounding in physical reality – expressed through cultural contexts, physical
+environments, and interpersonal relationships – that shapes human cognition, perception,
+and decision-making [hussein2012sapir].

@@ -1,0 +1,1 @@
+crops  from the full-scale  image at random  locations.  Through this process,  we generate  a batch

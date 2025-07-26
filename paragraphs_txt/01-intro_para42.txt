@@ -1,0 +1,2 @@
+Provide a standard problem where a wide range of technologies can be integrated and examined
+By 2050, develop a team of fully autonomous humanoid robots that can win against the human world champion team in soccer.

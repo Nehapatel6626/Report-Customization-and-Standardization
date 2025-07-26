@@ -1,0 +1,7 @@
+In a separate study, [4] developed the ArabicFlickr1K dataset
+using an active learning-based framework to translate an exist-
+ing dataset. The final ArabicFlickr1K dataset contains 1,095
+images, with three to five Arabic captions per image. This
+dataset was designed to support Arabic image captioning mod-
+els, offering a diverse and linguistically rich dataset for im-
+proved training and evaluation.

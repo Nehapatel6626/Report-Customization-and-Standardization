@@ -1,0 +1,1 @@
+(with  3x3  filters)  followed  by an activation  and  max pool  layer  [VGG  reference].  The  back-to-

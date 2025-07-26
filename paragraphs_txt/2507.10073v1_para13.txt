@@ -1,0 +1,4 @@
+Fig. 1: Comparison of moral foundation dimensions across three groups: human responses, Llama
+3.1 8B, and Mistral 7B. Each subplot represents a different model type, with the moral dimensions
+displayed on the horizontal axis. The vertical axis represents the average response for each moral
+foundation. Different hues in the data points represent responses from various country perspectives.

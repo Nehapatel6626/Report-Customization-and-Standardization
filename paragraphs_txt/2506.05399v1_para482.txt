@@ -1,0 +1,4 @@
+[125] is a set of metrics used to assess text summaries. It com-
+pares word sequences and word pairs with a reference database
+of human-written summaries in a given summary. The met-
+ric uses the longest common subsequence between a candidate

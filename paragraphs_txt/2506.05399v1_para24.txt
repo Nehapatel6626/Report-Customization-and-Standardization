@@ -1,0 +1,19 @@
+Given the challenges of using template-based and retrieval-
+based approaches, a third approach based on deep learning has
+been introduced. This approach follows recent developments in
+deep neural networks, widely used in computer vision and natu-
+ral language processing. Deep neural networks can provide ef-
+fective solutions for visual and language modeling [6]. As a re-
+sult, they have been used to improve existing systems and create
+many innovative approaches [1]. Before significant advances
+in deep learning methods, image captioning was done mainly
+using traditional machine learning-based techniques, which in-
+cluded feature extraction methods like Scale-Invariant Feature
+Transform (SIFT), Local Binary Patterns (LBP), and Histogram
+of Oriented Gradients (HOG) [8, 9]. A classifier was then used
+to classify the items after feature extraction. However, tradi-
+tional approaches are less preferred than deep learning-based
+methods, which automatically learn features due to the com-
+plexity of feature extraction from massive amounts of data [7].
+Numerous recent publications have focused on applying deep
+machine learning to caption images [2].

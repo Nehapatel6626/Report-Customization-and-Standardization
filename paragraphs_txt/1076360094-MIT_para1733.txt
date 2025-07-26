@@ -1,0 +1,4 @@
+[23] Nir Nissim, Aviad Cohen, and Yuval Elovici. Aldocx: Detection of unknown
+malicious microsoft oﬃce documents using designated active learning methods
+based on new structural feature extraction methodology. IEEE Transactions on
+Information Forensics and Security, 2016.

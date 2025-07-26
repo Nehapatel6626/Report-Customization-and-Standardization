@@ -1,0 +1,2 @@
+After constructing the network structure, MP selects and
+assigns agents to monitor both the roles and dependencies.

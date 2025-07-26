@@ -1,0 +1,1 @@
+are modeled by nearby points and dissimilar objects are modeled by distant points with high

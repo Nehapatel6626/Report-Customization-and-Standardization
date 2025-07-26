@@ -1,0 +1,2 @@
+This reflects stochastic approximation processes essential for high-dimensional convergence
+under uncertainty. See [8, 6].

@@ -1,0 +1,13 @@
+The FDRL Algorithm Algo.1 ensures privacy-preserving
+model training in a FL setting for RAS. The algorithm is
+structured into three primary stages. In the first stage, each
+hospital independently trains its RL policy using its private
+dataset while ensuring privacy through DP noise injection
+before transmitting model updates. The second stage involves
+secure federated aggregation, where the Federated Aggregator
+(FA) collects encrypted policy updates from multiple hospitals
+and processes them using SMPC and HE to maintain strict
+privacy compliance. Finally, in the third stage, dynamic policy
+selection takes place, where the surgical robot evaluates fed-
+erated policies using predefined surgical performance metrics
+and selects the optimal policy for RAS.

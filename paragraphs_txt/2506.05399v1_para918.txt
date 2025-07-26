@@ -1,0 +1,3 @@
+[99] D. Kumar, V. Srivastava, D. E. Popescu, J. D. Hemanth, Dual-modal
+transformer with enhanced inter-and intra-modality interactions for im-
+age captioning, Applied Sciences 12 (13) (2022) 6733.

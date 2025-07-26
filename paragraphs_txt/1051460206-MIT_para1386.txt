@@ -1,0 +1,1 @@
+Figure 4-12.  (a) The accuracy for the different particles classes for the AutoScope classification

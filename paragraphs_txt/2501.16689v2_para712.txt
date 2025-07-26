@@ -1,0 +1,3 @@
+Connects:
+- All roles
+- All activities

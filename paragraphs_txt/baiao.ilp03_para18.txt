@@ -1,0 +1,1 @@
+The distribution design of a database makes decisions on the fragmentation and placement of data across the sites of a computer network. The first phase of the distribution design is the fragmentation phase, which is the process of isolating into fragments specific data accessed by the most relevant applications that run over the database.

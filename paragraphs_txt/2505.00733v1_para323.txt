@@ -1,0 +1,3 @@
+ROSA’s implementation provides an integration for the task decision layer for both PDDL-based planners
+and BTs, which are implemented leveraging the PlanSys2 (Mart´ın et al., 2021) and the BehaviorTree.CPP8
+packages, respectively.

@@ -1,0 +1,12 @@
+Additionally, a technique called the full memory transform
+was described in the work by [49]. This technique aims to en-
+hance the efficiency of language decoding and image encod-
+ing. The Full-Layer Normalization Symmetric Structure for
+Image Encoding was suggested, embedding Layer Normaliza-
+tion symmetrically on both sides of the self-attention network
+(SAN) and feedforward network for robust training and higher
+model generalization performance. Furthermore, the Memory
+Attention Network was introduced to extend the conventional
+attention mechanism, directing the model to concentrate on words
+that require attention, thus improving the language decoding
+step.

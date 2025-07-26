@@ -1,0 +1,3 @@
+(Where): Manages geographic and
+location-based constraints, verifying transitions be-
+tween physical or virtual locations.

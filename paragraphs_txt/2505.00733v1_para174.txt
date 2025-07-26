@@ -1,0 +1,33 @@
+search
+The
+path node component can be
+configured with different search
+altitudes. Each search altitude
+is
+distinct
+Component Parameter
+The search pipeline action requires
+control motion, maintain
+the
+motion,
+detect
+localization,
+pipeline, generate search path, and
+coordinate mission functions
+The generate search path function
+can have multiple function
+designs, e.g., one using the
+generate spiral search path node
+component, and another one using
+the generate lawnmower search
+path node component
+The generate spiral search path
+node component can be configured
+in different ways by combining
+different values of
+search
+altitude
+and speed parameters.
+Each combination is represented
+as an instance of a component
+configuration

@@ -1,0 +1,1 @@
+7 The /diagnostics topic is a standard topic for publishing system diagnosis information within the ROS ecosystem. See ROS REP 107 for more information.

@@ -1,0 +1,1 @@
+the hierarchical structure enables easy mutation by inserting, swapping or deleting

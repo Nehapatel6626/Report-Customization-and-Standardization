@@ -1,0 +1,25 @@
+Despite the transformative potential of RL in RAS, several
+formidable challenges impede its widespread adoption and
+clinical translation. A primary obstacle is the inherent het-
+erogeneity of surgical environments. These environments are
+characterized by significant inter-patient anatomical variability,
+diverse patient comorbidities, and surgeon-specific procedural
+preferences, all of which contribute to a high degree of com-
+plexity and pose a substantial challenge to the generalizability
+of RL models [8]–[10]. Furthermore,
+the development of
+robust RL models necessitates access to large, diverse datasets
+of surgical procedures. However, individual healthcare institu-
+tions often suffer from data scarcity, which limits the ability
+of RL models trained in isolation to generalize effectively
+to real-world clinical settings, particularly when encountering
+rare pathologies or unanticipated procedural complexities [11].
+Moreover, RL-based surgical systems rely heavily on sen-
+sitive patient data, including intraoperative sensor readings,
+medical imaging modalities (e.g., MRI, CT scans), and com-
+prehensive electronic health records (EHRs). The use of such
+sensitive information necessitates strict adherence to stringent
+data privacy regulations and ethical guidelines, such as those
+mandated by the Health Insurance Portability and Accountabil-
+ity Act (HIPAA) and the General Data Protection Regulation
+(GDPR) [12], [13].

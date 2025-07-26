@@ -1,0 +1,1 @@
+value.  In this work,  the  max pooling  is applied  across a 2x2  area with  a stride  of 2.  Thus,  for each

@@ -1,0 +1,1 @@
+outputs as  adaptive  thresholding.  However,  the  quality of the results  is superior with the  FCN

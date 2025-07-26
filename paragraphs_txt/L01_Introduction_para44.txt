@@ -1,0 +1,14 @@
+Data:
+PatientId=103: EmergencyC-Section=yes
+	Age=23, Time=53, FirstPreg?=no, Anemia=no, Diabetes=no, PrevPremBirth=no, UltraSound=?, ElectiveC-Section=?
+	Age=23, Time=105, FirstPreg?=no, Anemia=no, Diabetes=yes, PrevPremBirth=no, UltraSound=abnormal, ElectiveC-Section=no
+	Age=23, Time=125, FirstPreg?=no, Anemia=no, Diabetes=yes, PrevPremBirth=no, UltraSound=?, ElectiveC-Section=no
+PatientId=231: EmergencyC-Section=no
+	Age=31, Time=30, FirstPreg?=yes, Anemia=no, Diabetes=no, PrevPremBirth=no, UltraSound=?, ElectiveC-Section=?
+	Age=31, Time=91, FirstPreg?=yes, Anemia=no, Diabetes=no, PrevPremBirth=no, UltraSound=normal, ElectiveC-Section=no
+…
+Given
+9714 patient records, each describing a pregnancy and a birth
+Each patient record contains 215 features (some are unknown)
+Learn to predict:
+Characteristics of patients at high risk for Emergency C-Section

@@ -1,0 +1,1 @@
+proportion  of the  original resolution to  the target resolution.  The  resulting  image  was upsampled

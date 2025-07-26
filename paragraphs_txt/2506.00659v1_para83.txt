@@ -1,0 +1,2 @@
+the average cosine distance between pairs of graphs belonging to the cluster mi-
+nus the standard deviation. Such a threshold will then be used at inference time.

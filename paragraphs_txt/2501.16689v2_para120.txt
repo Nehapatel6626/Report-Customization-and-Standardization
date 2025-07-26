@@ -1,0 +1,6 @@
+Metacognitive Limitations LLMs struggle with self-
+validation and constraint awareness. While external LLMs
+detect errors in others’ plans, planners consistently miss
+their own violations (e.g., GPT-4o rigidly assigned Sarah
+to oven duty without considering Grandma’s availability).
+Key causes are:

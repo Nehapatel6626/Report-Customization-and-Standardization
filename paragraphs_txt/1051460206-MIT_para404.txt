@@ -1,0 +1,1 @@
+the  likelihood  is given by the  softmax of the raw scores  of the correct  class as  indicated by  the

@@ -1,0 +1,11 @@
+A technology that satisfies all representation requirements is TypeDB (Dorn and Pribadi, 2023, 2024).
+TypeDB is a polymorphic database based on type theory that implements the polymorphic entity-relation-
+attribute (PERA) Dorn and Pribadi (2024) data model. The PERA model subsumes the CDM used as
+the meta-model for the proposed ROSA model, allowing it to be implemented without modifications.
+Furthermore, TypeDB has a reasoning system that is able to reason over rules of the form antecedent ⇒
+consequent to infer new facts at query time. Where antecedent represents a precondition for inferring
+the consequent and is expressed as a first-order logic expression combining elements from the model
+(i.e., entities, relationships, and individuals), and the consequent is a single new fact inferred when the
+antecedent holds true. The ROSA model rules presented in Figure 3 can be implemented with TypeDB
+without modifications. For these reasons, this work uses TypeDB to implement the proposed knowledge
+model and rules.

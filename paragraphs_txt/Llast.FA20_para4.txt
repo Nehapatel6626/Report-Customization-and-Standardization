@@ -1,0 +1,3 @@
+Congratulations to everyone who’s made it so far in the course!
+It has been a challenging year (to say the least) for everyone. 
+Our goal for today: see how far we’ve learnt on the topic of Distributed Systems.

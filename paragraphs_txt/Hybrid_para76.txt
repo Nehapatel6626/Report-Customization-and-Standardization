@@ -1,0 +1,1 @@
+Figure 5 shows how the number of incorrect predictions made by the Hybrid classifier  varies with χ for the two datasets. It also plots a corresponding curve for decision trees and a horizontal line representing the Naïve Bayes numbers.

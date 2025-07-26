@@ -1,0 +1,29 @@
+Table 4. The elements of the reconfiguration plan knowledge. Instances of the elements with purple font
+are created at runtime. Instances of the other elements are defined at design time. R stands for relationship.
+Example
+When the AUV completes the
+search pipeline action and starts
+the inspect pipeline action,
+the
+reconfiguration plan
+consists of deactivating the generate
+search path node
+spiral
+and
+activating the follow pipeline node
+When the AUV starts the inspect
+the component
+pipeline action,
+activation relates to the follow
+pipeline node
+When the AUV completes the
+search
+the
+component deactivation
+relates to the generate spiral search
+path node
+When the water visibility changes,
+the parameter adaptation
+consists of a parameter adaptation
+of the component configuration of
+the generate spiral search path node

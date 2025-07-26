@@ -1,0 +1,1 @@
+if last_char . isalpha () and len ( strings ) > 0:

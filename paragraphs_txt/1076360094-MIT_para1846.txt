@@ -1,0 +1,1 @@
+plements the threshold decision making necessary for a system with multiple classiﬁers

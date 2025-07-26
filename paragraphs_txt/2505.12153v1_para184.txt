@@ -1,0 +1,2 @@
+base, it is essential to specify the base explicitly. We define
+entropy as

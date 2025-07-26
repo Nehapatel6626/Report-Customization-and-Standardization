@@ -1,0 +1,13 @@
+This paper presents PackHero, a packer identifier that leverages statically
+extracted Call Graphs from packed programs. PackHero extracts the CG of a
+given binary and identifies the packer by comparing it with previously labeled
+graphs in a stored collection. The graph representation is inspired by the work of
+X. Li et al. [17]. CGs enable a high level of abstraction and reveal that portions
+of these graphs remain identical or similar for binaries packed with the same
+packer. To leverage this, we introduce a heuristic to isolate the graph segment
+corresponding to the unpacking stub, identifying unique patterns shared by bi-
+naries processed by the same packer. To solve the graph similarity problem, we
+use a specific Graph Neural Network (GNN) [11], known as a Graph Matching
+Network (GMN) [18]. Additionally, PackHero incorporates a hierarchical clus-
+tering approach to group similar graphs, enhancing identification accuracy while
+ensuring constant inference time when integrating new packers.

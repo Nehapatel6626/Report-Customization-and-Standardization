@@ -1,0 +1,3 @@
+• Consensus Protocols: Used for distributed validation,
+where agents negotiate to ensure all constraints are
+met (Ren & Beard, 2005).

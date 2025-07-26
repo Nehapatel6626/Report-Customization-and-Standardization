@@ -1,0 +1,3 @@
+[115] C. Yan, Y. Hao, L. Li, J. Yin, A. Liu, Z. Mao, Z. Chen, X. Gao, Task-
+adaptive attention for image captioning, IEEE Transactions on Circuits
+and Systems for Video Technology 32 (1) (2022) 43–51.

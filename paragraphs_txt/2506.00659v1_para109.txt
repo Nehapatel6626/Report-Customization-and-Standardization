@@ -1,0 +1,23 @@
+To better represent the logic behind a packer, it is necessary to filter the graph
+to get the unpacking stub. To systematically obtain this filtered CG, we design
+a heuristic shown in Algorithm 1. The intuitions behind it are: (i) the unpacking
+stub, or part of it (case of a multilayer packer), must be the first part of the
+code to be executed, and (ii) except for further obfuscation of the unpacking
+stub, a part of this routine is always statically visible. Therefore, the heuristic
+extracts the unpacking stub by exploiting the concept of connected components
+in undirected graphs, i.e., a subgraph where each pair of nodes is connected
+via a path [7]. Notice that CGs are directed graphs, but the algorithm requires
+undirected ones, thereby we convert the CGs into undirected graphs. Given the
+packer could disrupt links between functions, it should create multiple connected
+components in the CG. Thus, the idea is to extract the connected component
+containing the program entry point. At the same time, some packers affect the
+program entry point to make the analysis harder. For instance, analyzing Call
+Graphs extracted from binaries packed with ASPack [5], we noticed the common
+part among all the graphs was a second connected component in addition to the
+single entry function node, which appears to be isolated. Thus, when the entry
+function is not connected to any other node, a second connected component is
+maintained in the graph along with the entry function. Otherwise, if the graphs
+have no edges (UPX [36]), we keep only the program entry functions and any
+functions from external libraries. As the heuristic suggests, we do not consider
+a fixed number of functions for each graph. In our experimental evaluation, the
+average number of functions in the unpacking stubs is ≈ 3.

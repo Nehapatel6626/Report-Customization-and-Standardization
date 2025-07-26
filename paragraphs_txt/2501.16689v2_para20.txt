@@ -1,0 +1,9 @@
+1. Meta-Planner (MP). The meta-planner serves as the
+central orchestration mechanism in MACI. It analyzes task
+requirements, identiﬁes roles and constraints, and dynami-
+cally generates a dependency graph (or workﬂow template)
+tailored to the task. This template includes actionable work-
+ﬂows with nodes representing roles (e.g., cook, driver, su-
+pervisor) and edges representing dependencies (e.g., tem-
+poral, spatial, or resource constraints). The incorporation
+of common sense augmentation into the metaplanner en-

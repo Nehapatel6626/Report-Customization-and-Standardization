@@ -1,0 +1,6 @@
+Syntax:
+ElementType arrayName [CAPACITY];
+ElementType arrayName [CAPACITY] = { initializer_list };
+Example in C++:
+int  b [5];	
+int  b [5] = {19, 68, 12, 45, 72};

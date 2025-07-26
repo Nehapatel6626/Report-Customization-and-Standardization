@@ -1,0 +1,1 @@
+Fig. 1. The OO7 benchmark database schema

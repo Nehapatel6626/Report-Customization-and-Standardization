@@ -1,0 +1,5 @@
+5. ASPack Software: ASPack Software - Application for compression, packing and
+protection of software. http://www.aspack.com/ (2024), accessed: 2024-04-15
+6. Callahan, D., Carle, A., Hall, M., Kennedy, K.: Constructing the procedure call
+multigraph. IEEE Transactions on Software Engineering 16(4), 483–487 (1990).
+https://doi.org/10.1109/32.54302

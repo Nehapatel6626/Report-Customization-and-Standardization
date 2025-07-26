@@ -1,0 +1,5 @@
+9. What-If Testing Agent: Evaluates plan robustness by sim-
+ulating alternative scenarios and analyzing their impact.
+10. Compliance and Safety Agent: Monitors adherence
+to safety standards, ethical principles, and regulatory
+frameworks.

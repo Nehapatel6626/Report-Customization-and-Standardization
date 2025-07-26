@@ -1,0 +1,4 @@
+Model-level performance Qwen2.5 7B demonstrates the highest overall alignment with
+human responses (mean 𝑚𝑑 = 0.817), with several country representations achieving
+high alignment scores (𝑚𝑑 ≤ 0.5). Mistral:123B shows the second-best performance
+(𝑚𝑑 = 1.036), while Mistral 7B exhibits the poorest alignment overall (𝑚𝑑 = 3.487).

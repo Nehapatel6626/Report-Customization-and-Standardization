@@ -1,0 +1,1 @@
+of 7 indicates 3 words on either side of the candidate word. The results are reported

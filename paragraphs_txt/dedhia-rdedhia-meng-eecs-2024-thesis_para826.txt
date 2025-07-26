@@ -1,0 +1,1 @@
+faster, allowing users to sanitize larger CSV files and larger numbers of CSV files faster. I

@@ -1,0 +1,3 @@
+The goalpost is the optimal time of 60 minutes. Table 7
+compares six different conﬁgurations, and three of the six
+achieve the optimal answer. Although TSP is a relatively

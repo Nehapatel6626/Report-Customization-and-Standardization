@@ -1,0 +1,8 @@
+The ANNs training was accomplished using a batch size of 4 and a maximum
+of 100 epochs, applying early stopping regularization with 10 epochs based on
+validation loss. The optimization algorithm used was Adam and the learning
+rate was 0.001. The datasets split was 80% for training and 20% for validation.
+The ANN architectures were limited to 2 layers to reduce the total running
+time, because many solver calls were performed in the experiments due to the
+large number of instances. Each solver call deals with an NP-complete problem,
+therefore, impacting the experiments running time.

@@ -1,0 +1,1 @@
+1.4 Time that takes at each stage of the core process. [3]

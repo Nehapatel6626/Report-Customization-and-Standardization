@@ -1,0 +1,1 @@
+Listing 3. TypeDB query to fetch selectable actions’ names

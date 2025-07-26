@@ -1,0 +1,9 @@
+Fig. 6 shows the interplay between data heterogeneity,
+privacy-preserving noise, and model accuracy in a FL setting.
+The 3D surface trend reveals a clear inverse correlation:
+model accuracy declines as either data heterogeneity or noise
+standard deviation increases. This aligns with existing FL
+literature, where data divergence across clients impairs global
+model convergence and generalization. Simultaneously, higher
+noise levels while improving privacy further reduce accuracy,
+reflecting the classic privacy-utility trade-off.

@@ -1,0 +1,3 @@
+Figure 4.16: Dice’s coefficient matrix
+showing the overlap between clusters from
+rod draw and IPQ data sets.

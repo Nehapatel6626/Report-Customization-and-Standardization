@@ -1,0 +1,4 @@
+[25] M. Stefanini, M. Cornia, L. Baraldi, S. Cascianelli, G. Fiameni, R. Cuc-
+chiara, From show to tell: a survey on deep learning-based image cap-
+tioning, IEEE transactions on pattern analysis and machine intelligence
+45 (1) (2022) 539–559.

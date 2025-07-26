@@ -1,0 +1,14 @@
+2. Attention Bias and Constraint Drift. MACI avoids
+relying on a single LLM to execute complex, multi-step
+Instead, it utilizes small collabo-
+reasoning sequentially.
+rative agents that enjoy two key beneﬁts:
+independence
+and well-deﬁned input/output protocols (ensuring speci-
+ﬁcity and quality) for speciﬁc tasks. These agents operate
+within restricted context windows of e.g., 1k tokens, which
+physically limits attention bias and ensures that earlier con-
+straints are not overridden by recent context. By logi-
+cally scoping problems and physically constraining context,
+MACI preserves global feasibility and mitigates cognitive
+tunneling.

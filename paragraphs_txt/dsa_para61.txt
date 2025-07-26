@@ -1,0 +1,5 @@
+An ADT may be implemented by specific data types or data structures, in many ways and in many programming languages; or described in a formal specification language.
+example, an abstract stack could be defined by three operations: 
+push, that inserts some data item onto the structure, 
+pop, that extracts an item from it, and 
+peek, that allows data on top of the structure to be examined without removal.

@@ -1,0 +1,1 @@
+the Nf  function  on it's input data (with the hidden layer using a nonlinear  activation and the

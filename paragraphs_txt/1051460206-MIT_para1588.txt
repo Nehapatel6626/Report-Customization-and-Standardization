@@ -1,0 +1,1 @@
+As  in previous  CNN-based  algorithms,  we pre-process  the images  prior to  feeding them

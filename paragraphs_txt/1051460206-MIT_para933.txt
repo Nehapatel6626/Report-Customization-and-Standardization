@@ -1,0 +1,1 @@
+maps  an input  image into  a set  of output scores,  producing  a single  score  for each of C classes.

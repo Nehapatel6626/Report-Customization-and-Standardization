@@ -1,0 +1,3 @@
+9.  Jinjing Shi, Wenxuan Wang, Xiaoping Lou, Shichao Zhang, and Xuelong Li. Parameterized hamilto- 
+nian learning with quantum circuit.  IEEE  Transactions  on  Pattern  Analysis  and  Machine  Intelligence, 
+45(5):6086–6095, 2023.

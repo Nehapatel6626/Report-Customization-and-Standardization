@@ -1,0 +1,6 @@
+Lists can be used 
+To store the records sequentially
+For creation of stacks and queues
+For polynomial handling
+To maintain the sequence of operations for do / undo in software
+To keep track of the history of web sites visited

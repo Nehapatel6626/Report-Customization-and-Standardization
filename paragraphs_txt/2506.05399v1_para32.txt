@@ -1,0 +1,18 @@
+Research in image captioning has gained significant impor-
+tance across various fields. With its broad applicability and
+growing technological advancements, image captioning drives
+innovation across numerous domains in multiple real-world ap-
+plications, offering significant benefits to industry and society.
+In the field of medical imaging, for instance, surgeons can
+apply image captioning to monitor therapy progress preoper-
+atively, intraoperatively, and postoperatively [10].
+In educa-
+tion, researchers are exploring e-learning systems that integrate
+image captioning to enhance web-based learning experiences
+[11][12]. For visually impaired individuals, transformer-based
+photo captioning frameworks are being developed to translate
+visual content into written and spoken descriptions, improving
+accessibility and promoting self-reliance [13]. Similarly, spe-
+cialized image captioning models in smart local tourism are ex-
+pected to power AI-driven platforms, providing enriched expe-
+riences for travelers and local businesses alike [14].

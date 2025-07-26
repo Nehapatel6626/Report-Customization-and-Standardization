@@ -1,0 +1,3 @@
+[94] J. Zakraoui, S. Elloumi, J. M. Alja’am, S. B. Yahia, Improving arabic
+text to image mapping using a robust machine learning technique, IEEE
+Access 7 (2019) 18772–18782.

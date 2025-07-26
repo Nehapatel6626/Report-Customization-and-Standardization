@@ -1,0 +1,4 @@
+[37] H. Sharma, D. Padha, From templates to transformers: a survey of mul-
+timodal image captioning decoders, in: 2023 International Conference
+on Computer, Electronics & Electrical Engineering & their Applications
+(IC2E3), IEEE, 2023, pp. 1–6.

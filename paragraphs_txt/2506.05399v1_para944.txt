@@ -1,0 +1,4 @@
+[124] K. Papineni, S. Roukos, T. Ward, W.-J. Zhu, Bleu: a method for au-
+tomatic evaluation of machine translation, in: Proceedings of the 40th
+annual meeting of the Association for Computational Linguistics, 2002,
+pp. 311–318.

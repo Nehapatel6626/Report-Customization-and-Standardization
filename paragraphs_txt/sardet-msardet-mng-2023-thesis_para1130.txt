@@ -1,0 +1,1 @@
+probability. t-SNE is iterative so, unlike PCA, it cannot apply on another dataset.

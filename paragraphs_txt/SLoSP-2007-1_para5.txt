@@ -1,0 +1,6 @@
+Assumes you come with some background…
+Some probability, and statistics; knowledge of algorithms and their complexity, decent programming skills (if doing the course for credit)
+Assumes you’ve seen some (Statistical) NLP before
+Teaches key theory and methods for parsing and statistical parsing
+The centroid of the course is generative models for treebank parsing
+We extend out to related syntactic tasks and parsing methods, including discriminative parsing, nonlocal dependencies, treebank structure.

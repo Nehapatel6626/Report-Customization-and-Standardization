@@ -1,0 +1,1 @@
+Both predictions are correct, but the important words used by algorithm 1 make more sense to humans as a basis for the decision; hence the explainer algorithm gives us more trust in algorithm 1.

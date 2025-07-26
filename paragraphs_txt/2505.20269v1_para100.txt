@@ -1,0 +1,9 @@
+j=1
+i = 1 → xl
+zl
+i = 0 → sl
+zl
+zl
+i ∈ {0, 1}
+0 ≤ xl
+0 ≤ sl

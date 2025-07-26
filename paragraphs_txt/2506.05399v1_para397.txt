@@ -1,0 +1,15 @@
+Employing saliency is based on how our brain processes
+visual information.
+It combines a bottom-up flow of visual
+inputs with a top-down reasoning process. The top-down ap-
+proach involves predicting incoming information from the en-
+vironment using our prior knowledge and logical bias. In con-
+trast, the bottom-up approach involves visual signals that cor-
+rect the prior predictions. Additive attention can be approached
+as a top-down system, where the language model observes a
+feature grid independent of the image content and predicts the
+subsequent word. The bottom-up path is defined by an object
+detector responsible for identifying image regions. Then, a top-
+down process learns to weigh each region for each word predic-
+tion. This approach is connected with the concept of additive
+attention [25].

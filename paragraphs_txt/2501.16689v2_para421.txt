@@ -1,0 +1,3 @@
+3. Temporal Agent (When): Handles scheduling, timing,
+and deadlines, ensuring alignment with temporal con-
+straints.

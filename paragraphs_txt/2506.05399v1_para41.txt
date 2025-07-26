@@ -1,0 +1,13 @@
+This paper is organized as follows: Section 2 provides an
+overview of related surveys in image captioning, summarizes
+them, and discusses their foundations. Section 3 discusses the
+methods employed in image captioning models. Section 4 de-
+scribes relevant research in image captioning, classifying them
+into five categories: handcrafted approaches, deep learning for
+image captioning, transformer-based approaches, attention-based
+approaches, and graph-based representation. Section 5 discusses
+the datasets. Section 6 introduces the evaluation metrics used to
+assess the quality and performance of generated captions. Limi-
+tations and challenges are summarized in Section 7, and finally,
+conclusions and future directions are presented in Section 8.
+Fig. 15 illustrates the structure of this survey.

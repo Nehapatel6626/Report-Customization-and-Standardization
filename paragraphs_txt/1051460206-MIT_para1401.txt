@@ -1,0 +1,1 @@
+combination  of thresholding,  morphological  algorithms,  and  component  analysis.  Next, we

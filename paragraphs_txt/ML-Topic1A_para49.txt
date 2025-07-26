@@ -1,0 +1,4 @@
+Prediction of future cases: Use the rule to predict the output for future inputs
+Knowledge extraction: The rule is easy to understand
+Compression: The rule is simpler than the data it explains
+Outlier detection: Exceptions that are not covered by the rule, e.g., fraud

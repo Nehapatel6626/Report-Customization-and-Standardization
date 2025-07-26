@@ -1,0 +1,3 @@
+Figure 4-6.  (a) The classification accuracy across each class ofparticles at a resolution of
+1.36um.  (b)  The confusion matrix, showing the average results across classes for the final few
+validation batches.

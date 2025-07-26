@@ -1,0 +1,1 @@
+Step 2 : Check which among the mutants are malicious using the oracle function o().

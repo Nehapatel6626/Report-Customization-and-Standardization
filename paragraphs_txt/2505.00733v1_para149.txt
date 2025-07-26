@@ -1,0 +1,2 @@
+Hardware and software parts that
+compose the system

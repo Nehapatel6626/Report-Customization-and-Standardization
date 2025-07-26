@@ -1,0 +1,7 @@
+Explanations for the outputs of ANNs are fundamental in many scenarios,
+due to critical systems, data protection laws, adversarial examples, among
+others. Therefore, several heuristic methods have been developed to provide
+explanations for the decisions made by ANNs. However, these approaches
+lack guarantees of correctness and may also produce redundant explanations.
+Logic-based approaches address these issues but often suffer from scalability
+problems.

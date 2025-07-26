@@ -1,0 +1,6 @@
+The graphical representation of the MFQ-2 responses reveals distinct patterns across the
+six moral dimensions. Human responses (Fig. 1, left panel) demonstrate substantial cross-
+cultural variability, particularly in the authority, loyalty, and purity constructs. This variation
+aligns with established findings in moral psychology research [atari2023morality]. In
+contrast, both select LLMs exhibit compressed variance across cultural perspectives. Llama
+3.1 8B (Fig. 1, center panel) demonstrates a tendency toward mean-regressing responses,

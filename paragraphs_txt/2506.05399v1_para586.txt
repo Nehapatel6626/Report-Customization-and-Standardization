@@ -1,0 +1,7 @@
+graphs [128]. It is considered to be more accurate than human
+judgments. The process involves extracting information about
+various items, properties, and their relationships from image
+descriptions [2]. The captions are converted into scene graphs
+via semantic parsing. The similarity score between the gener-
+ated and ground-truth caption scene graphs is calculated using
+precision and recall F1 scores.

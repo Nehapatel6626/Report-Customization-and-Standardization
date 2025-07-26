@@ -1,0 +1,6 @@
+where Pn is the penalty, Ch is the number of chunks, Um
+is the number of unigrams that correspond between the candi-
+date and the reference, M(c) is the number of unigrams in the
+candidate sentence that are mapped, U(r) is the total number of
+unigrams in the reference sentence, and U(c) is the total number
+of unigrams in the candidate sentence.

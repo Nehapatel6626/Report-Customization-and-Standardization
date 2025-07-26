@@ -1,0 +1,7 @@
+Object pop() {
+	assert(!is_empty())
+	return_data = back->data
+	temp = back
+	back = back->next
+	return return_data
+}

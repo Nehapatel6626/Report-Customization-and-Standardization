@@ -1,0 +1,1 @@
+For each of the four classes of algorithms we have corresponding abstract class.

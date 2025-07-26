@@ -1,0 +1,23 @@
+Abstract
+Artiﬁcial intelligence requires deliberate reason-
+ing, temporal awareness, and effective constraint
+management—capabilities traditional LLMs of-
+ten lack due to their reliance on pattern match-
+ing,
+limited self-veriﬁcation, and inconsistent
+constraint handling. We introduce Multi-Agent
+Collaborative Intelligence (MACI), a framework
+comprising three key components: 1) a meta-
+planner (MP) that identiﬁes, formulates, and re-
+ﬁnes all roles and constraints of a task (e.g., wed-
+ding planning) while generating a dependency
+graph, with common-sense augmentation to en-
+sure realistic and practical constraints; 2) a col-
+lection of agents to facilitate planning and ad-
+dress task-speciﬁc requirements; and 3) a run-
+time monitor that manages plan adjustments as
+needed. By decoupling planning from validation,
+maintaining minimal agent context, and integrat-
+ing common-sense reasoning, MACI overcomes
+the aforementioned limitations and demonstrates
+robust performance in two scheduling problems.

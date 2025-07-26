@@ -1,0 +1,1 @@
+\+ isDerivedFragmented( X ).

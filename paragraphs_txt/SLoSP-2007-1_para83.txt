@@ -1,0 +1,8 @@
+S  NP  VP		N  cats
+VP  V  NP		N  claws
+VP  V  NP  PP		N  people
+NP  NP  PP		N  scratch
+NP  N			V  scratch
+NP  e			P  with
+NP  N  N
+PP  P  NP

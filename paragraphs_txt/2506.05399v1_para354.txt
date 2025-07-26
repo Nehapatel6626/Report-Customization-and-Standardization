@@ -1,0 +1,16 @@
+In their work, [47] introduced a new transformer-based model
+that considers the relationships between different features within
+an image. This model considers three types of spatial relation-
+ships in the image regions: a query region can be a parent,
+neighbor, or child. The model uses spatially adjacent matrices
+to combine the output of parallel subtransformer layers. The
+decoder includes an LSTM layer and an implicit transformer
+layer, which work in parallel to decode different image regions.
+Two new geometry-aware architectures were separately cre-
+ated for the encoder and decoder to represent geometry better
+[101]. This captioning model helps us understand the locations
+of target objects and the objects the model is currently looking
+at. The proposed model includes an improved encoder and may
+provide information on an object’s relative geometry. Further-
+more, it fully leverages geometry relations to enhance object
+representations.

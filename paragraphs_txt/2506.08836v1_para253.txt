@@ -1,0 +1,5 @@
+19. Piñeiro-Martín, A., García-Mateo, C., Docio-Fernandez, L., López-Pérez, M.D.C.,
+Rehm, G.: Weighted Cross-entropy for Low-Resource Languages in Multilingual
+Speech Recognition. In: Interspeech 2024. pp. 1235–1239. ISCA, Kos, Greece (Sep
+2024). https://doi.org/10.21437/Interspeech.2024-734, https://www.isca-archive.
+org/interspeech_2024/pineiromartin24_interspeech.html

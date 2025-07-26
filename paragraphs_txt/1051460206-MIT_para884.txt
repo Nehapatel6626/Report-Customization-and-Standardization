@@ -1,0 +1,1 @@
+Common  approaches to  data normalization  include  mean-subtraction,  rescaling,  feature

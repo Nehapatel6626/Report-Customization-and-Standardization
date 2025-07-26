@@ -1,0 +1,3 @@
+4. Resource Agent (What): Tracks real-world resources
+such as tools, vehicles, or ﬁnancial instruments, man-
+aging capacity, availability, and associated costs.

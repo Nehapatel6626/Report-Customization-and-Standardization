@@ -1,0 +1,4 @@
+other classification  problems,  it  turns out that the  feature-extracting  filters are  highly  robust
+across different  applications.  In this work,  we use the  the  pre-trained  weights  from the  VGG16
+network submitted  to the  ImageNet  classification  competition4 0 . Since  we use a  network  that has
+been pretrained  on RGB  images, we  will  use RGB  AutoScoe  images.

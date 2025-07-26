@@ -1,0 +1,6 @@
+METEOR
+The METEOR metric [126] is designed to evaluate machine
+translation and is considered more valuable than the Blue met-
+ric.
+Its correlation with human evaluations is stronger. Me-
+teor calculates a score by comparing a candidate sentence with

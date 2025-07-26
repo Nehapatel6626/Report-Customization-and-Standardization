@@ -1,0 +1,1 @@
+Process parameters: scrubber suction pressure, H2 pressure, O2 pressure, N2 pressure, SiCl4

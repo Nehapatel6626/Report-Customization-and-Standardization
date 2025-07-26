@@ -1,0 +1,92 @@
+mon, sept 14, 2015
+finding & analyzing scholarly research publications
+reminders
+On Wednesday we will focus on the Data to Story Project – GSS dataset, access to SPSS software, and talk about forming groups
+SPSS workshop next Monday – Odum Institute, Davis Library 219
+
+recap from last class:
+Neuman, W.L. (2009). Understanding research. Boston, MA: Pearson/Allyn and Bacon
+rationale for today’s discussion
+Intent is to expand/strengthen your tools for analyzing information
+rationale for today’s discussion
+Intent is to expand/strengthen your tools for analyzing information
+
+evaluating scholarly journal articles
+The classical ideal of science
+Wallace, W.L. (1969).  Sociological Theory: An Introduction. New York: Aldine de Gruyter. 
+The scholarly journal
+vs
+The popular publication
+[handout: types of periodicals]
+Royal Society of London for Improving Natural Knowledge
+3 types of peer review
+3 types of peer review
+3 types of peer review
+Let’s look at the instructions for authors from three scholarly / peer-reviewed journals…
+article submission & review process
+ Nature publication guidelines:
+http://www.nature.com/nature/authors/get_published/
+Science publication guidelines:
+http://www.sciencemag.org/site/feature/contribinfo/prep/gen_info.xhtml
+Health Affairs publication guidelines:
+http://www.healthaffairs.org/1410i_for_authors_prep_and_review.php 
+Type of review
+Rigor / acceptance rate
+Process & criteria 
+Is the subject appropriate to the editorial aims and scope of the journal?
+
+Originality: does the article say something original, does it add to the body of knowledge, etc.? If a case study, is this its first use?
+
+Research methodology: most journals are concerned about this, as would be expected for an academic publisher. Is the research design, methodology, theoretical approach, critical review, etc. sound? Are the results well presented, do they correlate to the theory, and have they been correctly interpreted? Is the analysis sufficiently rigorous?
+
+Is the paper set in the context of the wider literature, are there sufficient relevant citings, are these well referenced and are other people's views credited?
+
+Is the paper accurate, is any information missing or wrong?
+
+Is the structure logical, is the sequence of the material appropriate, is there a good introduction and are the summary and conclusions adequate?
+
+Does the title of the article accurately reflect its content?
+
+How useful would the article be to a practitioner, is it a useful example of "good practice"? 
+
+Could the study be replicated with similar results?
+
+Is the material clearly presented, readable? Are graphs and tables used to good effect? Is the level of detail appropriate? Is the use of terminology appropriate to the readership?
+
+Is the perspective appropriate for an international audience?
+
+Questions of format: are the abstract, keywords etc. appropriate?
+
+Is it an appropriate length (note: many journals will stipulate length requirements in their author guidelines)? 
+
+Submissions judged on criteria such as…
+[Handout: analyzing research articles]
+Let’s look at a few articles from scholarly (peer-reviewed) publications…and get a jump on an upcoming assignment…
+Identify a research study on a topic of interest to you…
+http://library.unc.edu/
+E-research by discipline
+Academic Search Premier
+Limit to Scholarly (Peer Reviewed) Journals
+Look at the article and work through the evaluation criteria from the handout…
+The author mentioned several types of material we could use to finish a literature review. I tend to classify them by the length, so there are articles and books. It is obvious that reading books is time-consuming. 
+
+Yet, there also exists a certain type of scholarly journal article---book reviews. So I am wondering is reading book reviews a better way than reading the whole book? 
+-Yunhan
+Journals are being published in an accelerating rate. Some authors of these peer-reviewed journals crave influence in academia, and hence the major goal of doing research becomes getting published in a journal with high impact factor. 
+
+What do you think of this tendency? How can we deal with academic fraud involved such as plagiarism and falsification of data?
+-Yunhan
+Add to another class lecture
+Does knuckle cracking lead to arthritis  of the fingers?
+
+During the author’s childhood, various renowned authorities (his mother, several aunts, and, later, his mother-in law [personal communication]) informed him that cracking his knuckles would lead to arthritis of the fingers. To test the accuracy of this hypothesis, the following study was undertaken.
+
+For 50 years, the author cracked the knuckles of his left hand at least twice a day, leaving those on the right as a control. Thus, the knuckles on the left were cracked at least 36,500 times, while those on the right cracked rarely and spontaneously. At the end of the 50 years, the hands were compared for the presence of arthritis.  There was no arthritis in either hand, and no apparent differences between the two hands.
+
+Knuckle cracking did not lead to arthritis after a 50-year controlled study by the one participant. While a larger group would be necessary to confirm this result, this preliminary investigation suggests a lack of correlation between knuckle cracking and the development of arthritis of the fingers. A search of the literature revealed only one previous paper on this subject, and the authors came to the same conclusion (Swezey RL. Swezey SE. The consequences of habitual knuckle cracking. West J Med 1973;122:377-9.).
+
+This result calls into question whether other parental beliefs, e.g., the importance of eating spinach, are also flawed. Further investigation is likely warranted.
+
+In conclusion, there is no apparent relationship between knuckle cracking and the subsequent development of arthritis of the fingers. This study was done entirely at the author’s expense, with no grants from any governmental or pharmaceutical source.
+
+Donald L. Unger, MD, Thousand Oaks, CA

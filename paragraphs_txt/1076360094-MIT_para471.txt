@@ -1,0 +1,1 @@
+Many applications also support PDF uploads, which are used for everything from

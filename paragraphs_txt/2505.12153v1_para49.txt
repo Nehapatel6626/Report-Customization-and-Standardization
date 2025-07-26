@@ -1,0 +1,4 @@
+FL ensures decentralized training while preserving privacy.
+We use the Federated Averaging (FedAvg) algorithm, where
+each hospital i updates its local model θi and transmits
+gradients to the global model θ

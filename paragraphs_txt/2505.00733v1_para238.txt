@@ -1,0 +1,1 @@
+2. many-to-many relationships: the knowledge model contains relationships with different cardinalities5,

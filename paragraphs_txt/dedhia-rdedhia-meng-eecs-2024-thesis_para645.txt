@@ -1,0 +1,1 @@
+create patches for vulnerabilities in spreadsheet programs that allow for CSV injection. As a

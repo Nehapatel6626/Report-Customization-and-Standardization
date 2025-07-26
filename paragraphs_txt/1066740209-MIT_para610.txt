@@ -1,0 +1,1 @@
+I implemented a simple SVM version of this model that works for positive and

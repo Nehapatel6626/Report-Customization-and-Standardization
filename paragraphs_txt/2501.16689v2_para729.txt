@@ -1,0 +1,6 @@
+Each agent must implement these protocols to participate
+in the workﬂow. The meta-planner selects agents from the
+pool based on their ability to satisfy these interface require-
+ments. During execution, agents communicate through
+these standardized protocols while maintaining their spe-
+cialized monitoring functions.

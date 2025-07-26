@@ -1,0 +1,9 @@
+void push(Object x) {
+	temp = back
+	back = new Node(x)
+	back->next = temp
+}
+Object top() {
+	assert(!is_empty())
+	return back->data
+}

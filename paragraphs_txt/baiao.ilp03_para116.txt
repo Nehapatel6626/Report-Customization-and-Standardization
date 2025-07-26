@@ -1,0 +1,28 @@
+chooseDerivedHorizontalFragmentationMethod( Oi, X, Y ) :-
+  fdt:classification(Oi,navigation),
+  fdt:navigatesFromTo(Oi,Y,X),
+  fdt:relationshipAccess(Name,X,Y),fdt:relationship( Name ),
+  fdt:relationshipType(Name, 'N:1'),
+  fdt:isNotVerticallyFragmented( X ),
+  fdt:isNotDerivedFragmented( X ).
+chooseDerivedHorizontalFragmentationMethod( Oi, Y, X ) :-
+  fdt:classification(Oi,navigation),
+  fdt:navigatesFromTo(Oi,X,Y),
+  fdt:relationshipAccess(Name,X,Y),fdt:relationship( Name ),
+  fdt:relationshipType(Name, '1:N'),
+  fdt:isNotVerticallyFragmented( Y ),
+  fdt:isNotDerivedFragmented( Y ).
+chooseDerivedHorizontalFragmentationMethod( Oi, Y, X ) :-
+  fdt:classification(Oi,navigation),
+  fdt:navigatesFromTo(Oi,X,Y),
+  fdt:relationshipAccess(Name,X,Y),fdt:relationship( Name ),
+  fdt:relationshipType(Name,'1:1'),
+  fdt:isNotVerticallyFragmented(Y),
+  fdt:isNotDerivedFragmented( Y ).
+choosePrimaryHorizontalFragment ationMethod( Oi, X ) :-
+  fdt:classification(Oi, selection), 
+  fdt:operationAccess(Oi, [X]), fdt:cardinality( X, large ).
+chooseVerticalFragmentationMethod( Oi, X ) :-
+  fdt:classification(Oi, projection), 
+  fdt:operationAccess(Oi, [X|_]), fdt:cardinality( X, large ), 
+  fdt:isNotDerivedFragmented( X ).

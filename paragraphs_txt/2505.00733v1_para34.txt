@@ -1,0 +1,7 @@
+SUAVE consists of an Autonomous Underwater Vehicle (AUV) used for underwater pipeline inspection.
+The AUV’s mission consists of performing the following actions in sequence: (A1) searching for the
+pipeline and (A2) simultaneously following and inspecting the pipeline. When performing its mission, the
+AUV is subject to two uncertainties: (U1) thruster failures, and (U2) changes in water visibility. These
+uncertainties are triggers for parameter and structural adaptation. When U1 occurs while performing A1 or
+A2, the AUV activates a functionality to recover its thrusters. When U2 happens while performing A1, the
+AUV adapts its search altitude.

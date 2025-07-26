@@ -1,0 +1,1 @@
+upsample  these decoded  features  to per-pixel  class predictions.  Specifically,  there  are  four

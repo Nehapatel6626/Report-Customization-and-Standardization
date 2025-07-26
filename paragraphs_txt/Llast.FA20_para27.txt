@@ -1,0 +1,6 @@
+A distributed system is a collection of entities, each of which is autonomous, programmable, asynchronous and failure-prone, and which communicate through an unreliable communication medium.
+Entity=a process on a device (PC, PDA)
+Communication Medium=Wired or wireless network
+Our interest in distributed systems involves 
+design and implementation, maintenance, algorithmics
+What Evidence/Examples have we seen?

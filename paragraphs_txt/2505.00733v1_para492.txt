@@ -1,0 +1,2 @@
+every function design and component configuration must be related to a constraint and
+contain a priority attribute; and a single Quality Attribute is defined for the whole system.

@@ -1,0 +1,3 @@
+Minimize internal
+contradiction:
+lim Ξn → ε

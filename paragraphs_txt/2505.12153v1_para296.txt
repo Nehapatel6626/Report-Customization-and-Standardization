@@ -1,0 +1,4 @@
+[13] S. Hafeez, R. Cheng, L. Mohjazi, M. A. Imran, and Y. Sun, ”A
+blockchain-enabled framework of UAV coordination for post-disaster
+networks,” in Proc. IEEE 99th Veh. Technol. Conf. (VTC2024-Spring),
+2024, pp. 1-5.

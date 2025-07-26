@@ -1,0 +1,9 @@
+For AI Alignment Research Our findings highlight the need for culturally-informed
+alignment objectives. Current processes produce models that regress toward a mean
+moral framework rather than representing diverse value systems. Alignment should not
+be conceptualized as conformity to a single set of values but as the ability to represent
+diverse moral frameworks. Cross-cultural evaluation metrics are essential, as models may
+appear aligned when tested within dominant contexts while failing with alternative moral
+frameworks. Targeted interventions in the alignment process, including diversifying training
+data and developing culturally-informed metrics, may better preserve distinctive features of
+different moral frameworks.

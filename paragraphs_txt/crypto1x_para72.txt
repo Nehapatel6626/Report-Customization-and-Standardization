@@ -1,0 +1,3 @@
+Rigorous Proofs of security
+Reductionist approach: 
+“Given assumption X is true, construction Y is secure according to the given definitions.”

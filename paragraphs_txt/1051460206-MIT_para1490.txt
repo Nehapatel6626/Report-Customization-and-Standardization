@@ -1,0 +1,3 @@
+and/or clumps  of particles  (this includes  RBCs,  WBCs,  microbeads  and  other particles).  Using
+these  coordinates,  the  microscope  image is  cropped into  many  smaller images, which  are  then
+fed into  the  CNN  classification  algorithm discussed  in  Chapter  4.

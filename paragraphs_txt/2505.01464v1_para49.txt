@@ -1,0 +1,1 @@
+Axiom 3: State Embedding Internal state exists in latent space:

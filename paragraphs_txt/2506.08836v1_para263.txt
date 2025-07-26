@@ -1,0 +1,8 @@
+30. Wolf, T., Debut, L., Sanh, V., Chaumond, J., Delangue, C., Moi, A., Cistac, P.,
+Rault, T., Louf, R., Funtowicz, M., Davison, J., Shleifer, S., von Platen, P., Ma,
+C., Jernite, Y., Plu, J., Xu, C., Le Scao, T., Gugger, S., Drame, M., Lhoest, Q.,
+Rush, A.: Transformers: State-of-the-Art Natural Language Processing. In: Liu, Q.,
+Schlangen, D. (eds.) Proceedings of the 2020 Conference on Empirical Methods in
+Natural Language Processing: System Demonstrations. pp. 38–45. Association for
+Computational Linguistics, Online (Oct 2020). https://doi.org/10.18653/v1/2020.
+emnlp-demos.6, https://aclanthology.org/2020.emnlp-demos.6

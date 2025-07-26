@@ -1,0 +1,1 @@
+# remove spaces at start ( and end ) of cell

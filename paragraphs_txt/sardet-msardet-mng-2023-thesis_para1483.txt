@@ -1,0 +1,1 @@
+sequence dependencies. We also defined some methods to track trends throughout the process

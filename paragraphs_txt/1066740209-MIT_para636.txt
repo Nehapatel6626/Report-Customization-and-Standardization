@@ -1,0 +1,2 @@
+Table 4.2: Comparing accuracies (percentage correct) of the majority baseline and
+human performance with the highest recall classifier

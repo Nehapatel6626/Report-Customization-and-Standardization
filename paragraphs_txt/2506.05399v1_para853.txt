@@ -1,0 +1,4 @@
+[41] E. Kotei, R. Thirunavukarasu, Medical image analysis with vision trans-
+formers for downstream tasks and clinical report generation, in: Intelli-
+gent Systems and Sustainable Computational Models, Auerbach Publi-
+cations, pp. 288–307.

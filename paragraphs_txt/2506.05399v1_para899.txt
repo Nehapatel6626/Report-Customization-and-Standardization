@@ -1,0 +1,4 @@
+[83] A. A. Nugraha, A. Arifianto, Suyanto, Generating image description
+on indonesian language using convolutional neural network and gated
+recurrent unit, 2019 7th International Conference on Information and
+Communication Technology (ICoICT) (2019) 1–6.

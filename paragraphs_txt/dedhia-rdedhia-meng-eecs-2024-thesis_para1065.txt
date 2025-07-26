@@ -1,0 +1,1 @@
+download_row_list . append ( sanitize_cell ( cell ) )

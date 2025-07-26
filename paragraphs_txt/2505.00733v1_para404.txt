@@ -1,0 +1,4 @@
+To evaluate ROSA’s performance, the SUAVE exemplar was configured with the same parameters as
+described in the SUAVE paper (Silva et al., 2023). In addition, for the extended use case, the battery was
+set to discharge within 200 seconds, and the search pipeline and inspect pipeline actions were set to require
+at least 25% of battery to be performed.

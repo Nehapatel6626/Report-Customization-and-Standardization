@@ -1,0 +1,1 @@
+[8] Herbert Robbins and Sutton Monro. A stochastic approximation method. The Annals

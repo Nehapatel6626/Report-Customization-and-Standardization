@@ -1,0 +1,7 @@
+Graphical Models/Belief Networks (just ran out of time)
+More on Adaptive Systems
+Learning Theory
+More on Clustering and Association Analysiscovered by Data Mining Course
+More on Feature Selection, Feature Creation 
+More on Prediction 
+Possibly: More depth coverage of optimization techniques, neural networks, hidden Markov models, how to conduct a machine learning experiment, comparing machine learning algorithms,…

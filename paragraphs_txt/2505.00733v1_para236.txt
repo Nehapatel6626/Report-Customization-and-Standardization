@@ -1,0 +1,1 @@
+1. n-ary relationships: the knowledge model contains relationships with different arity4, e.g., the

@@ -1,0 +1,1 @@
+microscope  image.  Specifically,  segmentation  needs  to provide  the coordinates  of all  particles

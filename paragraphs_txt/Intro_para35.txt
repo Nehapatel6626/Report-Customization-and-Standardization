@@ -1,0 +1,3 @@
+Introductory Security Text for reference
+Like Pfleeger and Pfleeger's Security In Computing, or Bishop's Computer Security: Art and Science, or Stalling's text
+Supplemented with many papers and manuals

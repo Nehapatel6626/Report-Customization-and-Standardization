@@ -1,0 +1,1 @@
+vector coefficients associated to each initial variable. On figure 4.1, you can see for example

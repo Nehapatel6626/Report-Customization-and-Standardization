@@ -1,0 +1,1 @@
+during backpropagation,  the  gradients  of the loss  function with  respect each intermediate

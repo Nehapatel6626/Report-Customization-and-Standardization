@@ -1,0 +1,1 @@
+Microsoft Excel, Excel would run the DDE function WmiC , which would open a remote URL

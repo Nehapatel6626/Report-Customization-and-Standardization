@@ -1,0 +1,7 @@
+the most relevant regions at each time step. The researchers ex-
+plored a sequential transformer framework based on the origi-
+nal transformer structure, combining the decoder with outside-
+in attention and RNN. The study revealed that the transformer’s
+self-attention allows for the simultaneous direct calculation of
+relationships between internal areas, thus avoiding recurring at-
+tention issues.

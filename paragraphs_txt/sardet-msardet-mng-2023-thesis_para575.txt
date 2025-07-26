@@ -1,0 +1,1 @@
+new generation of sensors (specifically for sintering and soaking).

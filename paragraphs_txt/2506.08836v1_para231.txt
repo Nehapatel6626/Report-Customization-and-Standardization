@@ -1,0 +1,1 @@
+2. Bird, S., Klein, E., Loper, E.: Natural Language Processing with Python. O’Reilly

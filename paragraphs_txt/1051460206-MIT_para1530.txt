@@ -1,0 +1,1 @@
+component  analysis to  identify each  particle or  clump of particles in the  thresholded  image.

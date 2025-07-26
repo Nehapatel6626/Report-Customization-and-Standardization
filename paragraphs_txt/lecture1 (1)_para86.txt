@@ -1,0 +1,4 @@
+Object pop() {
+	back--
+	return S[back]
+}

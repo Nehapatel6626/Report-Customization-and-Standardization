@@ -1,0 +1,5 @@
+To add structural adaptation to the base scenario (given Assumption 2), it is necessary to add the elements
+depicted in Figure 10b to the model. This results in a minimum overhead of 6 elements for each structural
+adaptation. To add parameter adaptation to the base scenario (given Assumption 2), it is necessary to add
+the elements depicted in Figure 10c to the model. This results in a minimum overhead of 3 elements for
+each parameter adaptation.

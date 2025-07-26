@@ -1,0 +1,3 @@
+– Spatial Constraint Agent (enforces espatial)
+– Sequence Monitor Agent (enforces esequence)
+– Completion Checker Agent (enforces ecomplete)

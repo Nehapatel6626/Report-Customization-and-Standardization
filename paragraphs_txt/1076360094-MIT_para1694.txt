@@ -1,0 +1,1 @@
+[3] Multiple vulnerabilities in adobe acrobat and adobe reader could allow for remote

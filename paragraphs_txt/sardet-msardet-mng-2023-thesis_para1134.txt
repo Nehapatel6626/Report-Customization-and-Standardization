@@ -1,0 +1,1 @@
+lower probability. Second, t-SNE defines a similar probability distribution over the points in

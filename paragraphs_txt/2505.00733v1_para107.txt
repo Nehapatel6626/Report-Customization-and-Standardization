@@ -1,0 +1,4 @@
+ROSA’s architecture adheres to the MAPE-K loop (Kephart and Chess, 2003). It monitors the managed
+subsystem, analyzes whether adaptation is required, when needed, plans how the managed subsystem
+should be reconfigured, and executes the selected reconfigurations. All these steps interact with a central
+KB.

@@ -1,0 +1,15 @@
+Samples
+Malicious samples
+Benign samples
+Classiﬁer
+Individual probabilistic score
+PDFRate (primary) classiﬁer
+Output of C1
+Cuckoo (primary) classiﬁer
+Output of C2
+Virus Total (primary) classiﬁer
+Output of C3
+Secondary classiﬁer using p1 and p2 as inputs
+Output of C4
+Secondary classiﬁer using p1, p2, and p3 as inputs
+Output of C5

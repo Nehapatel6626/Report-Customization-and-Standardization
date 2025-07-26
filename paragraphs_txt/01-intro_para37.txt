@@ -1,0 +1,2 @@
+Examines 5 billion positions / second
+Intelligent behavior emerges from brute-force search

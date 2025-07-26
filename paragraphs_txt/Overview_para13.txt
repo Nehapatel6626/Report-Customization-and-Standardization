@@ -1,0 +1,1 @@
+Knowledge or desire to quickly learn Jupyter Notebook and Python is required.

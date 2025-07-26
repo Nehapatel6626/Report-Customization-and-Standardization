@@ -1,0 +1,4 @@
+Series of nodes
+not adjacent in memory
+contain the element and a pointer to a node containing its succesor
+Avoids the linear cost of insertion and deletion!

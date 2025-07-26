@@ -1,0 +1,1 @@
+6-10  shows  the results across both  days.  We achieved  an  R-squared  value  of 0.974  for Day  1  and

@@ -1,0 +1,14 @@
+Image captioning was initially performed using traditional
+machine learning techniques before advancement in deep learn-
+ing methods [89]. Pattern recognition systems have played an
+important role in solving computer vision tasks related to im-
+ages [90]. Unsupervised and semantic segmentation approaches,
+which typically require less time and data than recent deep learn-
+ing techniques, were commonly used [91]. In a study by [54], a
+three-stage root word-based method was proposed to generate
+Arabic captions for images. This involved creating image frag-
+ments using a pre-trained deep neural network on ImageNet and
+mapping them to a set of root words in Arabic. Furthermore, a
+deep belief network pre-trained by restricted Boltzmann ma-
+chines was utilized to extract the most suitable words for the
+image [92].

@@ -1,0 +1,1 @@
+values that are not supposed to have special characters, such as username fields, all formula

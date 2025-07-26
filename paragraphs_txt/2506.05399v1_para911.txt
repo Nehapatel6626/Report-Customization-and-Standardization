@@ -1,0 +1,3 @@
+[92] W. Almanaseer, M. Alshraideh, O. Al-Kadi, A deep belief network clas-
+sification approach for automatic diacritization of arabic text, Applied
+Sciences 11 (11) (2021) 5228.

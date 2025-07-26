@@ -1,0 +1,3 @@
+• Sequence Monitor Agent: Conﬁrm no backtracking
+(e.g., B → D allowed; D → B invalid unless part
+of loop).

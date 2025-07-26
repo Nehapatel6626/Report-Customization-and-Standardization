@@ -1,0 +1,2 @@
+The transformer model addresses the limitations of RNN
+and LSTM by enabling more parallelization and improving trans-

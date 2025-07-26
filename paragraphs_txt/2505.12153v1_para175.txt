@@ -1,0 +1,12 @@
+Despite the higher computational overhead introduced by
+HE compared to standard averaging techniques, the privacy-
+security tradeoff ensures that patient data confidentiality is
+preserved without direct exposure. The optimization of policy
+selection Minimises computational costs, enabling real-time
+decision-making in RAS. The proposed FDRL framework
+remains computationally feasible for real-world deployment,
+striking a balance between privacy preservation and model
+efficiency. Future research will explore hardware acceleration
+techniques, such as quantized FL and edge computing integra-
+tion, to further reduce computational overhead and improve
+scalability.

@@ -1,0 +1,1 @@
+Ezeife, C., Barker, K. (1998). Distributed Object Based Design: Vertical Fragmentation of Classes. Int’l Journal of Distributed and Parallel Databases, 6(4), Kluwer Academic Publishers, pp. 317-350.

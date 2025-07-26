@@ -1,0 +1,2 @@
+is a formula by this definition. Observe that we allow standard abbreviations as
+¬(2.5x1 + 3.1x2 < 6) for 2.5x1 + 3.1x2 ≥ 6.

@@ -1,0 +1,1 @@
+In this  section,  we  present the  end-to-end  accuracy  of the AutoScope.  The  accuracy  of the

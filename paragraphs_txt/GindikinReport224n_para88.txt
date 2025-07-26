@@ -1,0 +1,1 @@
+The system outputs a set of possible mnemonics that match the specifications of the item to be remembered and the user’s preference in sentence lexicon.  This allows the user to subjectively decide which generated sentence will be easier to remember and recall (and decipher) later.  A larger number of sentences also precludes the possibility of all sentences being invalid.

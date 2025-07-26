@@ -1,0 +1,2 @@
+the recursion when k reaches log2n. The cutoff reduces the complexity of transforms from 
+n(n + 1)/2 to roughly n

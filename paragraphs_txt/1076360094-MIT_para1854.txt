@@ -1,0 +1,1 @@
+• training data : initial training daata for primary classiﬁers

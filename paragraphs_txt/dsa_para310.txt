@@ -1,0 +1,6 @@
+Problems with linked list implementation:
+Same language do not support pointers!
+Then how can you use linked lists ?
+new and free operations are slow
+Actually not constant time
+SOLUTION: Implement linked list on an array - called CURSOR

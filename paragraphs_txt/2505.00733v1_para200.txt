@@ -1,0 +1,4 @@
+environment
+An
+can have water visibility as an
+Environmental Attribute

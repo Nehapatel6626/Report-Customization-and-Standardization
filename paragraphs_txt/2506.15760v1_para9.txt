@@ -1,0 +1,4 @@
+The execution of a quantum algorithm is to 1) map problem instances to quantum circuits 
+and operators, 2) optimize for target hardware execution, 3) execute via Runtime, a ser- 
+vice and programming model for building, optimizing and executing quantum workloads, 
+and 4) result processing or post-processing [6].

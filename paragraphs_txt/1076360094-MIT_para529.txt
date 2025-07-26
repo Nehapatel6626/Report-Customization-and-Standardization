@@ -1,0 +1,1 @@
+Due to the expressive nature of the PDF format, there are many places to hide

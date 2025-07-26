@@ -1,0 +1,6 @@
+Algorithm Selection Based on the size of the prob-
+lem, MP selected the Ant Colony Optimization
+(Dorigo & Stützle, 2004) algorithm to achieve at
+least
+a 4x speedup. For N ≥ 10, an approximate method is
+recommended.

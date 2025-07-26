@@ -1,0 +1,7 @@
+The status of the required Components, Functions, and Actions indicate when and what type of
+adaptation is needed. When a Component is “unsolved” or in “configuration error” (see Figure 3c),
+parameter adaptation is required, i.e., a new component configuration needs to be selected. When
+a required Function is “unsolved” or in “configuration error” (see Figure 3e), structural adaptation is
+required, i.e., a new function design needs to be selected. When a required Action is “unfeasible” (see
+Figure 3f), TACA is needed, i.e., the task decision layer must choose a new action to perform, consequently
+triggering architectural adaptation.

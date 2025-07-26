@@ -1,0 +1,8 @@
+Wrote symbolic grammar and lexicon
+S  NP VP			NN  interest
+NP  (DT) NN			NNS  rates
+NP  NN NNS			NNS  raises
+NP  NNP			VBP  interest
+VP   V NP			VBZ  rates
+…
+Used proof systems to prove parses from words

@@ -1,0 +1,2 @@
+Need rules that relate changes in weights to the difference 
+between output and target.

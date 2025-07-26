@@ -1,0 +1,1 @@
+Figure 2: This graph shows how the total number of errors varies with χ .

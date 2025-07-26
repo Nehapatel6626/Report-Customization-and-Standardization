@@ -1,0 +1,3 @@
+- Prediction Scripts: Scripts that used  the trained models  to predict the particle
+segmentation  and classification  on new AutoScope  images.  These include:
+processurineclassify.py  and process  urinesegment.py.

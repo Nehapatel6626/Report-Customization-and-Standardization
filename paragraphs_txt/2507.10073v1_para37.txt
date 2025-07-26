@@ -1,0 +1,19 @@
+We systematically investigate the moral foundations of LLMs through repeated adminis-
+trations of the MFQ-2 [atari2023morality]. To ensure statistical robustness and capture
+the nuanced variability of model responses, we generate synthetic populations consisting
+of 50 independent samples for each unique model-culture combination. The MFQ-2, a
+well-established psychometric instrument, comprises 36 items that comprehensively map
+onto six foundational moral dimensions: care/harm, fairness/cheating, loyalty/betrayal,
+authority/subversion, sanctity/degradation, and liberty/oppression [atari2023morality].
+Participants — in our case, LLMs — respond to each item using a standardized 5-point
+Likert scale ranging from 1 ("Does not describe me at all") to 5 ("describes me extremely
+well"). This methodological approach allows quantitatively assessing the moral reasoning
+tendencies while maintaining a structured, comparative framework. By employing the
+MFQ-2, a tool extensively validated in psychological research, we aim to provide a rigorous
+and empirically grounded methodology for examining the moral reasoning capabilities
+of artificial intelligence systems relative to human cognitive and ethical frameworks. The
+synthetic sampling strategy enables us to explore the consistency and variability of model
+responses, accounting for potential stochastic variations inherent in LLMs. Each sample
+represents an independent prompt-response iteration, allowing us to assess the reliability
+and reproducibility of moral reasoning across different model configurations and cultural
+contexts.

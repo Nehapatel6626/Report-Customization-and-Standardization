@@ -1,0 +1,2 @@
+Minsky and Papert (1969) show limitation of Rosenblatt’s perceptron using Boolean XOR example: 
+Linearly inseparable binary classification problem

@@ -1,0 +1,7 @@
+based Image Description Evaluation (CIDEr) metric to assess
+the similarity of a generated sentence to a set of human-authored
+ground truth sentences [127]. It employs a Term Frequency-
+Inverse Document Frequency (TF-IDF) weighting for each n-
+gram in the candidate phrase to encode their frequency in the
+reference sentences. This metric evaluates the grammar, rele-
+vance, and accuracy.

@@ -1,0 +1,3 @@
+To evaluate the feasibility of applying ROSA at runtime to enable TACA in ROS 2-based robotic systems,
+it was applied to the SUAVE exemplar described in Section 2. SUAVE was selected since, to the best of
+our knowledge, it is the only ROS 2-based open-source exemplar for self-adaptive robotic systems.

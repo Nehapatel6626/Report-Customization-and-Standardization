@@ -1,0 +1,5 @@
+To enable the use of the BehaviorTree.CPP package to implement BTs for ROSA and abstract away the
+interactions with the KB, this work implements a reusable custom condition node called IsActionFeasible
+and a custom action node called RosaAction. The condition node queries the KB to check whether an
+Action is feasible before selecting it to be executed, and the action node queries the KB to request or
+cancel an Action when the execution of an action starts or finishes, respectively.

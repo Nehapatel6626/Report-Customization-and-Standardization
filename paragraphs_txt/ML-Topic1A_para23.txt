@@ -1,0 +1,2 @@
+Basket analysis: 
+	P (Y | X ) probability that somebody who buys X also buys Y where X and Y are products/services.

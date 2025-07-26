@@ -1,0 +1,10 @@
+Internal state at step n, An ∈ Rd
+Symbolic input at step n, sn ∈ Σ
+Symbolic input space
+Recursive update: f : Rd × Σ → Rd \ Σ
+Epistemic tension: ∥An+1 − An∥2
+Critical threshold for epistemic tension
+Attractor manifold representing recursive identity
+Glyph: compressed non-symbolic memory trace, G := encode(Ξn)
+Functional non-equivalence (ontological distinction)
+Non-isomorphic (not structurally equivalent)

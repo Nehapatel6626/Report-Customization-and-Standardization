@@ -1,0 +1,5 @@
+Set of words in candidate caption
+Set of words in reference captions
+Term frequency of word w in G (entire corpus)
+Inverse Document Frequency of w
+Graph-based semantic similarity between S (candidate) and R (reference)

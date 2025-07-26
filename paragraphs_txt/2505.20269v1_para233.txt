@@ -1,0 +1,7 @@
+On the other hand, Figure 3 depicts comparable results between both
+encodings for ANNs with two hidden layers. Moreover, similar standard
+deviations were achieved for both encodings, indicating comparable levels of
+consistency in performance. The variability increases significantly with more
+complex networks. For example, with 35 and 40 neurons per layer, both
+encodings exhibit significant variability. Furthermore, with 30 neurons per layer,
+our adaptation shows higher variability compared to the other approach.

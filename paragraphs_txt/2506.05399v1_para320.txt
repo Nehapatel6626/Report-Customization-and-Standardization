@@ -1,0 +1,8 @@
+The work of [94] introduced a text-to-picture system com-
+prising several steps: keyword extraction, query formulation,
+image selection, image captioning, sentence similarity, image
+ranking, and image evaluation. This work identified challenges
+in mapping natural text to multimedia, including a lack of cap-
+tions and meaningful tags for images returned from the Google
+search engine. To address this issue, they proposed using a
+deep-learning captioning model.

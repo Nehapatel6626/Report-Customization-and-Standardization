@@ -1,0 +1,1 @@
+files are a type of plain-text file, they don’t require any complex software to open and edit.

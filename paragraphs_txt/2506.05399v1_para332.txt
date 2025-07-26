@@ -1,0 +1,8 @@
+The work of [3] introduced a new Vietnamese image cap-
+tioning method. This method comprises an image captioning
+model, an English-Vietnamese translation model, and an un-
+known word processing model. The image feature extractor
+utilizes CNN, and the translation model comprises an encoder-
+decoder, RNN. Additionally, the model provides an unknown
+word processing module to address the problem of unknown
+words in Vietnamese translation.

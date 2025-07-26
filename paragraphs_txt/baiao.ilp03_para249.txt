@@ -1,0 +1,1 @@
+Baião, F., Mattoso, M., Zaverucha, G., (2002), A Framework for the Design of Distributed Databases, Workshop on Distributed Data & Structures (WDAS 2002), In: Proceedings in Informatics series, Carleton Scientific.

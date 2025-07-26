@@ -1,0 +1,5 @@
+If you are going to do parsing-as-search with a grammar as is:
+Left recursive structures must be found, not predicted
+Empty categories must be predicted, not found
+Doing these things doesn't fix the repeated work problem:
+Both TD (LL) and BU (LR) parsers can (and frequently do) do work exponential in the sentence length on NLP problems.

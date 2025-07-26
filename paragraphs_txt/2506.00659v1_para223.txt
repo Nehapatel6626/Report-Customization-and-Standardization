@@ -1,0 +1,4 @@
+15. Kim, Y., Paik, J.Y., Choi, S., Cho, E.S.: Efficient svm based packer identification
+with binary diffing measures. In: 2019 IEEE 43rd Annual Computer Software and
+Applications Conference (COMPSAC). vol. 1, pp. 795–800 (2019). https://doi.
+org/10.1109/COMPSAC.2019.00117

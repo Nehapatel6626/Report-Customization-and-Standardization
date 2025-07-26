@@ -1,0 +1,5 @@
+15. Ma, R., Qian, M., Gales, M., Knill, K.M.: Adapting an ASR Foundation Model for
+Spoken Language Assessment. In: 9th Workshop on Speech and Language Tech-
+nology in Education (SLaTE). pp. 104–108. ISCA (Aug 2023). https://doi.org/
+10.21437/SLaTE.2023-20, https://www.isca-archive.org/slate_2023/ma23_slate.
+html

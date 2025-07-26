@@ -1,0 +1,6 @@
+Task-Speciﬁc Agents These agents cater to domain-
+speciﬁc requirements, including task-dependent data and
+knowledge augmentation, selecting and optimizing plan-
+ning algorithms, safety and ethics assessment, and emer-
+gency response optimization. By leveraging domain ex-
+pertise, specialized agents extend the capabilities of com-

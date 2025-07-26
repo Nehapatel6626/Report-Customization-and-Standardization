@@ -1,0 +1,16 @@
+The Transformer design has been utilized for image cap-
+tioning, which can be considered a sequence-to-sequence task.
+In the conventional transformer decoder, words undergo a masked
+self-attention operation, followed by a cross-attention operation
+where words act as queries, and the output of the final encoder
+layer acts as keys and values, along with a final feedforward net-
+work. During training, a masking strategy is used to limit the
+influence of the preceding words [25]. Both the encoder and
+decoder of the Transformer utilize layered self-attention and
+point-wise interconnected layers, as shown in the left and right
+halves of Fig.4. Self-attention, or intra-attention, focuses on the
+relationships between different positions in a single sequence
+to represent the sequence. Self-attention has been successfully
+applied in reading comprehension, abstractive summarization,
+textual entailment, and sentence representations independent of
+the learning task [46].

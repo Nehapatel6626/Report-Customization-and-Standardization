@@ -1,0 +1,1 @@
+Fig. 9: Comparing the costs of the fragmentation schemas obtained from the initial and the revised analysis algorithm

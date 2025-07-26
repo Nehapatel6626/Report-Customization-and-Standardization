@@ -1,0 +1,3 @@
+c) Real-time and interactive captioning: Optimizing models
+for assistive AI, augmented reality, and robotics applica-
+tions.

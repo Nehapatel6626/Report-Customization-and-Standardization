@@ -1,0 +1,3 @@
+3.  Shuangbao Paul Wang and Eric Sakk.  Quantum algorithms: Overviews, foundations, and speedups. 
+In IEEE 5th International Conference on Cryptography, Security and Privacy (CSP), pages 17–21, 
+2021.

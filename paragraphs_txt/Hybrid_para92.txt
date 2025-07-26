@@ -1,0 +1,1 @@
+[3]  I. Androutsopoulos, G. Paliouras, V. Karkaletsis, G. Sakkis, C. D. Spyropoulos and P. Stamatopoulos,  “Learning To Filter Spam E-Mail: A Comparison of a Naïve Bayesian and a Memory-Based Approach,” Technical Report, University of Athens.

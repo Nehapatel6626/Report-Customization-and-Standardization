@@ -1,0 +1,7 @@
+For each available policy, surgical performance metrics are
+computed based on task-specific benchmarks. When multiple
+hospitals contribute policies for the same surgical task, the
+policy with the highest performance score, evaluated through
+cumulative reward, is dynamically selected. This ensures that
+the most suitable policy is deployed in real-time within RAS
+systems.

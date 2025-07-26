@@ -1,0 +1,13 @@
+A set of key-value pairs, a query, and an output, all rep-
+resented as vectors, can be linked using an attention function.
+The output is determined by calculating the weighted sum of
+the values, with each value’s weight based on the compatibility
+of the query with its corresponding key. The attention mecha-
+nism described in [46] is called Scaled Dot Product Attention.
+The input consists of queries, keys of dimension dk, and val-
+ues of dimension dv. First, the dot product of the query with
+dk. Subsequently, a
+all keys is computed and then divided by
+SoftMax function is applied to obtain the weights of the values.
+The attention function is continuously computed on a group of
+queries gathered into a matrix Q. The keys and values are or-

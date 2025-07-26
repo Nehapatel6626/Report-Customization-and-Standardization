@@ -1,0 +1,1 @@
+XML format, and also supports commands to extract some common fields (example

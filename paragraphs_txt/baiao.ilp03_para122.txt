@@ -1,0 +1,1 @@
+The representation of an example in FORTE is an atomic formula as in (3),

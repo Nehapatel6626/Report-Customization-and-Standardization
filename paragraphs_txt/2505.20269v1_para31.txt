@@ -1,0 +1,5 @@
+In the next section, we review some concepts and terminologies about Logic,
+MILP and ANNs. Sections 3 and 4 show how to compute explanations with
+and without implications, respectively. Section 4 describes our adaptation of the
+encoding proposed in [17]. Experiments and results are presented in Section 5.
+Finally, conclusions and future work are described in Section 6.

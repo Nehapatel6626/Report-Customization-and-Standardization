@@ -1,0 +1,2 @@
+studying moral reasoning. Comprehensive validation against human baseline data should be
+required before accepting synthetic populations as valid proxies for human participants.

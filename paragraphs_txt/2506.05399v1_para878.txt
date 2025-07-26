@@ -1,0 +1,4 @@
+[63] A. Alsayed, T. M. Qadah, M. Arif, A performance analysis of
+transformer-based deep learning models for arabic image captioning,
+Journal of King Saud University-Computer and Information Sciences
+35 (9) (2023) 101750.

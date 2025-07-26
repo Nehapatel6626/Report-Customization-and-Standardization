@@ -1,0 +1,3 @@
+- nroute: Route generation role
+- ndist: Distance calculation role
+- nvalid: Solution validation role

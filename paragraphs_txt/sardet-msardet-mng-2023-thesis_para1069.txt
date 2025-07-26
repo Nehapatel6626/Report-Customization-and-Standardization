@@ -1,0 +1,1 @@
+gives you the percentage of variation in the data set explained by each of the component so

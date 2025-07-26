@@ -1,0 +1,1 @@
+• limn→∞ dist(An, Ti) → 0 for some Ti ∈ T

@@ -1,0 +1,6 @@
+16. Paonessa, C., Schraner, Y., Deriu, J., Hürlimann, M., Vogel, M., Cieliebak, M.:
+Dialect Transfer for Swiss German Speech Translation. In: Bouamor, H., Pino,
+J., Bali, K. (eds.) Findings of the Association for Computational Linguistics:
+EMNLP 2023. pp. 15240–15254. Association for Computational Linguistics, Sin-
+gapore (Dec 2023). https://doi.org/10.18653/v1/2023.findings-emnlp.1018, https:
+//aclanthology.org/2023.findings-emnlp.1018

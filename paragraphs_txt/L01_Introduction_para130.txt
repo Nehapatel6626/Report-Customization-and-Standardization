@@ -1,0 +1,3 @@
+Problem: feedback (reinforcements) are delayed - how to value intermediate (no goal states)
+Idea: online dynamic programming to produce policy function
+Policy: action taken leads to highest future reinforcement (if policy followed)

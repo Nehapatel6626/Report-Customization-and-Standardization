@@ -1,0 +1,3 @@
+x is input vector
+w is weight vector
+y = wTx

@@ -1,0 +1,6 @@
+Existing theories of Artificial Intelligence (AI) consciousness rely on symbolic broadcast, as
+proposed by Baars [3], perceptual prediction models from Friston [4], Manzotti [7] argues
+that embodied cognition theories, which emphasize the role of physical interaction with the
+environment, have significantly shaped perspectives on AI and consciousness, The Human
+Brain Project [5] emphasizes that cognition evolved through physical embodiment, contrast-
+ing this with disembodied AI systems that lack sensory-motor grounding.

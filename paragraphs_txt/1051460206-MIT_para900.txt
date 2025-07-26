@@ -1,0 +1,1 @@
+In this section,  we will  introduce  the base CNN  architecture  on which the  more complex

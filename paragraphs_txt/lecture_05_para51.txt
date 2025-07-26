@@ -1,0 +1,6 @@
+Non-word error detection: 
+detecting “graffe”
+Non-word error correction: 
+figuring out that “graffe” should be “giraffe”
+Context-dependent error detection and correction:
+Figuring out that “war and piece” should be peace

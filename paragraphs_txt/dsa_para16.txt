@@ -1,0 +1,4 @@
+Way in which data are stored for efficient search and retrieval. 
+The simplest data structure is the one-dimensional (linear) array. 
+Data items stored non-consecutively in memory may be linked by pointers.
+Many algorithms have been developed for storing data efficiently

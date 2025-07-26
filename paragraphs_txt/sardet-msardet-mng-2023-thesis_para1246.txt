@@ -1,0 +1,1 @@
+than Jaccard’s. For the same reason, we chose to present results in the form of a Dice’s

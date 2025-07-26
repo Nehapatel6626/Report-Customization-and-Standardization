@@ -1,0 +1,3 @@
+[46] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez,
+Ł. Kaiser, I. Polosukhin, Attention is all you need, in: Advances in neu-
+ral information processing systems, 2017, pp. 5998–6008.

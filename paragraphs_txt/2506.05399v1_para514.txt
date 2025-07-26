@@ -1,0 +1,5 @@
+where LCS is the longest common subsequence, Plcs: LCS-
+based precision, Rlcs: LCS-based recall, β: Plcs/Rlcs, lLCS : length
+of the longest common subsequence of X and Y, LCS U (r j,
+c): LCS score of the union’s longest common subsequence be-
+tween a reference sentence and the candidate sentence.

@@ -1,0 +1,9 @@
+Transformers do not rely on recurrence or convolution and
+thus need to learn the relative or absolute positions of the words
+in a sequence. This is achieved by employing learned weights
+that represent the position of a token within a sentence. The
+fully attentive paradigm proposed by [46] has significantly trans-
+formed the way language production is viewed, leading the
+Transformer model to become the cornerstone of many NLP in-
+novations and the de facto standard architecture for numerous
+language processing tasks.

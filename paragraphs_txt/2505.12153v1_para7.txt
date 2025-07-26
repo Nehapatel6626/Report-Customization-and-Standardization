@@ -1,0 +1,25 @@
+Abstract—The integration of Reinforcement Learning (RL)
+into robotic-assisted surgery (RAS) holds significant promise
+for advancing surgical precision, adaptability, and autonomous
+decision-making. However, the development of robust RL models
+in clinical settings is hindered by key challenges, including strin-
+gent patient data privacy regulations, limited access to diverse
+surgical datasets, and high procedural variability. To address
+these limitations, this paper presents a Federated Deep Reinforce-
+ment Learning (FDRL) framework that enables decentralized
+training of RL models across multiple healthcare institutions
+without exposing sensitive patient information. A central innova-
+tion of the proposed framework is its dynamic policy adaptation
+mechanism, which allows surgical robots to select and tailor
+patient-specific policies in real-time, thereby ensuring personal-
+ized and Optimised interventions. To uphold rigorous privacy
+standards while facilitating collaborative learning, the FDRL
+framework incorporates secure aggregation, differential privacy,
+and homomorphic encryption techniques. Experimental results
+demonstrate a 60% reduction in privacy leakage compared to
+conventional methods, with surgical precision maintained within
+a 1.5% margin of a centralized baseline. This work establishes a
+foundational approach for adaptive, secure, and patient-centric
+AI-driven surgical robotics, offering a pathway toward clinical
+translation and scalable deployment across diverse healthcare
+environments.

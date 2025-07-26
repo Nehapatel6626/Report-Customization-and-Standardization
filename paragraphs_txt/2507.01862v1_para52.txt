@@ -1,0 +1,2 @@
+<chainOfThought>User  asks  about 
+ABCCompany.</chainOfThought>

@@ -1,0 +1,4 @@
+end for
+Evaporate pheromones: τij ← 0.9τij
+Deposit pheromones: τij ← τij +
+Track best tour

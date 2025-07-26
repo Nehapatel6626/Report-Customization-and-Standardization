@@ -1,0 +1,5 @@
+This task, detailed in Section 3, evaluates MP’s ability to
+generate workﬂows W∗ with enhanced constraint and de-
+pendency management in the MACI setting. Unlike TSP,
+this problem involves multiple interdependent agents, in-
+troducing complex coordination challenges.

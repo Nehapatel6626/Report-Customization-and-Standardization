@@ -1,0 +1,3 @@
+Stability under
+recursive deformation:
+An+1 = f (An, sn)

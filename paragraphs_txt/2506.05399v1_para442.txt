@@ -1,0 +1,9 @@
+The Indonesian dataset used in the study by [81] is FEEH-
+ID, which contains 8,099 images, each paired with five captions
+in Indonesian. The images were sourced from Flickr. The first
+6,000 images from the training set were selected for their ex-
+periments. The captions were generated using a combination
+of Google Translate and manual translation by a professional
+English-Indonesian translator. The total vocabulary size of the
+dataset varied depending on the frequency of objects appearing
+in the images.

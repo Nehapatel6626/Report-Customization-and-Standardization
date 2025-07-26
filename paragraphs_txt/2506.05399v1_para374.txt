@@ -1,0 +1,7 @@
+Fig. 11 shows a general architecture of the transformer
+model for image captioning.
+It includes a feature extraction
+model, typically a CNN, and a transformer for text genera-
+tion. The transformer comprises an image encoder to learn self-
+attended visual features and a caption decoder to generate the
+caption from the attended visual features.

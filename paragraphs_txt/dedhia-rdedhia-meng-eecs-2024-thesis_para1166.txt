@@ -1,0 +1,1 @@
+47 = cmd | ' / C powershell

@@ -1,0 +1,7 @@
+Park et al. (2012) introduced the SHAGE framework for task-based and resource-aware architecture
+adaptation in robotic systems. SHAGE partially solves TACA, as it can adapt the robot’s architecture at
+runtime to specifically realize each action in its task plan when it needs to be performed. However, SHAGE
+does not support task execution adaptation based on the robot’s architectural state. SHAGE promotes
+reusability by leveraging architectural models and knowledge captured with an ontology to reason about
+adaptation at runtime. However, to the best of our knowledge, there is no implementation of the SHAGE
+framework that works with common robotic frameworks. Thus, it is not possible to directly reuse SHAGE.

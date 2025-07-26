@@ -1,0 +1,4 @@
+[22] Q. Huang, L. Yang, H. Huang, T. Wu, D. Lin, Caption-supervised face
+recognition: Training a state-of-the-art face model without manual an-
+notation, in: European Conference on Computer Vision, Springer, 2020,
+pp. 139–155.

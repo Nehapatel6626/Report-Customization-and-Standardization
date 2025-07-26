@@ -1,0 +1,8 @@
+Hern´andez et al. (2018); Bozhinoski et al. (2022) proposed Metacontrol as a knowledge-based solution
+for parameter and structural adaptation. Metacontrol leverages the TOMASys (Hern´andez et al., 2018)
+ontology to capture the knowledge required for the adaptation logic and to reason at runtime to decide when
+and how the system should adapt. Similar to RRA, Metacontrol decomposes the system into functionalities,
+using TOMASys to represent the robot’s functionalities, the architectural variants that implement each
+functionality, and the non-functional requirements associated with these variants. However, Metacontrol
+cannot perform TACA as TOMASys does not capture the relationship between the system functionalities
+and the robot’s actions.

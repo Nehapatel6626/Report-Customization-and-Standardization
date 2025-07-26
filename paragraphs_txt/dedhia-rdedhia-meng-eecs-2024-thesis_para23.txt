@@ -1,0 +1,6 @@
+In this study, I present a browser extension designed to sanitize all downloaded CSV
+files by eliminating any harmful code while preserving the integrity of benign code. The
+extension does this by first finding all formulas within a CSV file, and determining whether
+or not each one has the potential to contain malicious code. If the extension determines that
+a formula may be malicious, it will edit the cell containing that formula so that spreadsheet
+programs will interpret the cell as text, and will not execute it.

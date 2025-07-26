@@ -1,0 +1,1 @@
+compares  the  scores  to the  ground  truth label  for each  image  (yi,),  and  returns  a loss  (Li). During

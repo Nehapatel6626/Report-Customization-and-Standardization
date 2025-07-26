@@ -1,0 +1,1 @@
+is the  input vector and f is  the  activation function applied  to  each element.  In the fully-connected

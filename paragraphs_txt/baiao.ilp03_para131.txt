@@ -1,0 +1,1 @@
+This section presents experimental results of TREND3 on top of the OO7 benchmark, showing the effectiveness of our approach in obtaining an analysis algorithm that produces a better fragmentation schema for the OO7 benchmark application.

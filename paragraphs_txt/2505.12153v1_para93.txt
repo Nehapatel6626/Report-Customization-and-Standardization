@@ -1,0 +1,16 @@
+where πi represents individual policies trained for distinct
+surgical procedures across federated nodes. One of the main
+challenges in Federated Reinforcement Learning (F-RL) for
+surgical robotics is how to select the best-performing model
+from multiple locally trained policies. Since each hospital
+trains its policy independently, the decision of which pol-
+icy (or combination of policies) to deploy in real surgical
+environments needs to be based on well-defined evaluation
+metrics. Below, we define three key metrics for F-RL model
+selection. Fig. 2 depicts the FDRL workflow, where hospitals
+train local RL policies on private data with DP noise and
+HE encryption. Encrypted updates are securely aggregated
+by the FL aggregator and distributed as a global model. A
+surgical robot evaluates policies using MSS, enabling adaptive
+selection of the optimal RL policy for precision and privacy
+in RAS.

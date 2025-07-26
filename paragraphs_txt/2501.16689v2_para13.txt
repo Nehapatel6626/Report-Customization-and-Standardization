@@ -1,0 +1,4 @@
+1. Lack of Self-Veriﬁcation. LLMs struggle with validating
+their own output, a problem that extends beyond Gödel’s in-
+completeness theorems for formal systems (Gödel, 1967).
+Their probabilistic nature and lack of logical foundations

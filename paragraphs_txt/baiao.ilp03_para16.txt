@@ -1,0 +1,1 @@
+This section defines the problem of designing a distributed database, focusing on the object-oriented model, and presents a framework we propose for the class fragmentation phase of the distribution design.

@@ -1,0 +1,5 @@
+LLMs  can  be  prompted  to  produce  structured  data  (e.g.,  XML  or  JSON)  representing  these  actions.  Our  prompt 
+engineering also incorporates chain-of-thought instructions, allowing the LLM to articulate intermediate reasoning 
+steps  (primarily  for  internal  use).  By  parsing  the  model’s  output,  we  feed  the  resulting  values  (e.g., 
+isCustomerConfirmed) and the CoT textual segments into the back-end. This ensures the system can reliably commit 
+or reset user context with full transparency into the LLM’s rationale.

@@ -1,0 +1,7 @@
+The results of the first experiment are shown in Table 1. For each dataset, its
+number of features is indicated in parentheses. The column Exp (s) refers to the
+average running time for computing explanations in seconds, and the standard
+deviation is also presented. The column Build (s) refers to the average running
+time, in seconds, for building the logical constraints of the trained ANN. The
+running time for finding the bounds of variables is included in the time for
+building the encodings.

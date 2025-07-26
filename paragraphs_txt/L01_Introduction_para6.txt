@@ -1,0 +1,12 @@
+Class web page: http://www.d.umn.edu/~rmaclin/cs8751/
+Syllabus
+Lecture notes
+Useful links
+Programming assignments
+Methods for contact:
+Email: rmaclin@d.umn.edu (best option)
+Office: 315 HH
+Phone: 726-8256
+Textbooks: 
+Machine Learning, Mitchell
+Notes based on Mitchell’s Lecture Notes

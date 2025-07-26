@@ -1,0 +1,6 @@
+The tip of the iceberg:
+First-generation algorithms: neural nets, decision trees, regression, support vector machines, kernel methods, Bayesian networks,…
+Composite algorithms - ensembles
+Significant work on assessing effectiveness, limits
+Applied to simple data bases
+Budding industry (especially in data mining)

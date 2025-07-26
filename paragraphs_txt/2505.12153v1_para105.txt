@@ -1,0 +1,14 @@
+where N represents the number of test cases, such as surgeries
+performed in either a simulated or real environment, while T
+denotes the total number of decision steps within each surgery.
+The action taken by the RL policy at time step t for a given
+case i is represented as ai
+t corresponds to the
+expert-defined correct action for the same state. The indicator
+function I(·) evaluates whether the action taken matches the
+expert benchmark, returning 1 if they align and 0 otherwise.
+A higher task performance metric, denoted as Atask, suggests
+that
+the FL-trained policy is making decisions that more
+closely align with expert strategies, thereby indicating greater
+reliability for deployment in surgical tasks.

@@ -1,0 +1,4 @@
+Local visual modeling with grid features is crucial to gen-
+erating comprehensive and detailed image captions.
+In their
+work, [67] proposed a locality-sensitive transformer network

@@ -1,0 +1,3 @@
+Figure 3.4: O2 gaz flow (Lpm), GeCl4 Vapouriser Head Pressure (Torr), GeCl4 Vaporiser
+Finger Temperature (°C) and SiCl4 Head Pressure (Torr) plotted against Elapsed Time (min)
+showing the different stages of the deposition process.

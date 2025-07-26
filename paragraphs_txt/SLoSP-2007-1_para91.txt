@@ -1,0 +1,3 @@
+A parser is sound if every parse it returns is valid/correct
+A parser terminates if it is guaranteed to not go off into an infinite loop
+A parser is complete if for any given grammar and sentence, it is sound, produces every valid parse for that sentence, and terminates

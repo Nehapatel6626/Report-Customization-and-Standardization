@@ -1,0 +1,1 @@
+we slide  across the  feature  map with a specific  step size.  The window takes the  (m * m) inputs

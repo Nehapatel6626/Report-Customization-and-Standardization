@@ -1,0 +1,185 @@
+CHAPTER 1: Introduction
+2
+Why “Learn”?
+Machine learning is programming computers to optimize a performance criterion using example data or past experience.
+There is no need to “learn” to calculate payroll
+Learning is used when:
+Human expertise does not exist (navigating on Mars),
+Humans are unable to explain their expertise (speech recognition)
+Solution changes in time (routing on a computer network)
+Solution needs to be adapted to particular cases (user biometrics)
+3
+What We Talk About When We  Talk About“Learning”
+Learning general models from a data of particular examples 
+Data is cheap and abundant (data warehouses, data marts); knowledge is expensive and scarce. 
+Example in retail: Customer transactions to consumer behavior: 
+	People who bought “Da Vinci Code” also bought “The Five People You Meet in Heaven”  (www.amazon.com)
+Build a model that is a good and useful approximation to the data.  
+4
+Data Mining/KDD
+Retail: Market basket analysis, Customer relationship management (CRM)
+Finance: Credit scoring, fraud detection
+Manufacturing: Optimization, troubleshooting
+Medicine: Medical diagnosis
+Telecommunications: Quality of service optimization
+Bioinformatics: Motifs, alignment
+Web mining: Search engines
+...
+Definition := “KDD is the non-trivial process of 
+identifying valid, novel, potentially useful, and 
+ultimately understandable patterns in data” (Fayyad)
+Applications: 
+5
+What is Machine Learning?
+
+Machine Learning
+Study of algorithms that
+improve their performance
+at some task
+with experience
+Optimize a performance criterion using example data or past experience.
+Role of Statistics: Inference from a sample
+Role of Computer science: Efficient algorithms to
+Solve the optimization problem
+Representing and evaluating the model for inference
+Growth of Machine Learning
+Machine learning is preferred approach to
+Speech recognition, Natural language processing
+Computer vision
+Medical outcomes analysis
+Robot control
+Computational biology
+This trend is accelerating
+Improved machine learning algorithms
+Improved data capture, networking, faster computers
+Software too complex to write by hand
+New sensors / IO devices
+Demand for self-customization to user, environment
+It turns out to be difficult to extract knowledge from human expertsfailure of expert systems in the 1980’s.
+Alpydin & Ch. Eick: ML Topic1
+6
+7
+Applications
+Association Analysis
+Supervised Learning
+Classification
+Regression/Prediction 
+Unsupervised Learning
+Reinforcement Learning
+
+Learning Associations
+Basket analysis: 
+	P (Y | X ) probability that somebody who buys X also buys Y where X and Y are products/services.
+	
+	Example: P ( chips | beer ) = 0.7
+Market-Basket transactions
+9
+Classification
+Example: Credit scoring
+Differentiating between low-risk and high-risk customers from their income and savings
+Discriminant: IF income > θ1 AND savings > θ2 
+				THEN low-risk ELSE high-risk
+Model
+10
+Classification: Applications
+Aka Pattern recognition
+Face recognition: Pose, lighting, occlusion (glasses, beard), make-up, hair style 
+Character recognition: Different handwriting styles.
+Speech recognition: Temporal dependency. 
+Use of a dictionary or the syntax of the language. 
+Sensor fusion: Combine multiple modalities; eg, visual (lip image) and acoustic for speech
+Medical diagnosis: From symptoms to illnesses
+Web Advertizing: Predict if a user clicks on an ad on the Internet.
+11
+Face Recognition
+Training examples of a person
+Test images
+AT&T Laboratories, Cambridge UK
+http://www.uk.research.att.com/facedatabase.html
+12
+Prediction: Regression
+Example: Price of a used car
+x : car attributes
+	y : price
+		y = g (x | θ )
+	g ( ) model,
+	θ parameters
+y = wx+w0
+13
+Regression Applications
+Navigating a car: Angle of the steering wheel (CMU NavLab)
+Kinematics of a robot arm
+α1= g1(x,y)
+α2= g2(x,y)
+14
+Supervised Learning: Uses
+Prediction of future cases: Use the rule to predict the output for future inputs
+Knowledge extraction: The rule is easy to understand
+Compression: The rule is simpler than the data it explains
+Outlier detection: Exceptions that are not covered by the rule, e.g., fraud
+Example: decision trees tools that create rules
+15
+Unsupervised Learning
+Learning “what normally happens”
+No output
+Clustering: Grouping similar instances
+Other applications: Summarization, Association Analysis
+Example applications
+Customer segmentation in CRM
+Image compression: Color quantization
+Bioinformatics: Learning motifs
+16
+Reinforcement Learning
+Topics:
+Policies: what actions should an agent take in a particular situation
+Utility estimation: how good is a state (used by policy)
+No supervised output but delayed reward
+Credit assignment problem (what was responsible for the outcome) 
+Applications: 
+Game playing
+Robot in a maze
+Multiple agents, partial observability, ...
+17
+Resources: Datasets
+UCI Repository: http://www.ics.uci.edu/~mlearn/MLRepository.html
+UCI KDD Archive: http://kdd.ics.uci.edu/summary.data.application.html
+Statlib: http://lib.stat.cmu.edu/
+Delve: http://www.cs.utoronto.ca/~delve/
+18
+Resources: Journals
+Journal of Machine Learning Research www.jmlr.org
+Machine Learning 
+IEEE Transactions on Neural Networks
+IEEE Transactions on Pattern Analysis and Machine Intelligence
+Annals of Statistics
+Journal of the American Statistical Association
+...
+19
+Resources: Conferences
+International Conference on Machine Learning (ICML) 
+European Conference on Machine Learning (ECML)
+Neural Information Processing Systems (NIPS)
+Computational Learning 
+International Joint Conference on Artificial Intelligence (IJCAI)
+ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
+IEEE Int. Conf. on Data Mining (ICDM)
+Summary COSC 6342 
+Introductory course that covers a wide range of machine learning techniques—from basic to state-of-the-art.
+More theoretical/statistics oriented, compared to other courses I teach might need continuous work not “to get lost”. 
+ You will learn about the methods you heard about: Naïve Bayes’, belief networks, regression, nearest-neighbor (kNN), decision trees, support vector machines, learning ensembles, over-fitting, regularization, dimensionality reduction & PCA, error bounds, parameter estimation, mixture models, comparing models, density estimation, clustering centering on K-means, EM, and DBSCAN, active and reinforcement learning.
+Covers algorithms, theory and applications
+It’s going to be fun and hard work 
+
+Alpydin & Ch. Eick: ML Topic1
+20
+Which Topics Deserve More Coverage—if we had more time?
+Graphical Models/Belief Networks (just ran out of time)
+More on Adaptive Systems
+Learning Theory
+More on Clustering and Association Analysiscovered by Data Mining Course
+More on Feature Selection, Feature Creation 
+More on Prediction 
+Possibly: More depth coverage of optimization techniques, neural networks, hidden Markov models, how to conduct a machine learning experiment, comparing machine learning algorithms,…
+
+Alpydin & Ch. Eick: ML Topic1
+21

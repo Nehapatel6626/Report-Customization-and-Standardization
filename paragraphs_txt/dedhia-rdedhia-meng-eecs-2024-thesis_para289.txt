@@ -1,0 +1,1 @@
+As soon as a CSV file is opened in a spreadsheet program, any formulas in the file are

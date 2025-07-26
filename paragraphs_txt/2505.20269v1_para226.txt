@@ -1,0 +1,19 @@
+With respect to the average running time for building the logical constraints,
+our adaptation generally outperformed the encoding by Fischetti and Jo [5].
+However, there were exceptions noted, such as in the spect dataset. Overall, our
+adaptation achieved an improvement of up to 18% compared to the the other one,
+as seen in the heart-statlog dataset. In summary, the results indicate that our
+adaptation is consistently more efficient than the other approach for building
+logical constraints. The variability in the results, as shown by the standard
+deviations, further supports this conclusion. For instance, the average running
+time of our proposal is less than the average minus the standard deviation of the
+other approach in 9 out of 12 datasets. These cases are highlighted in bold in
+Table 1. It is important to note that, in the spect dataset, the average running
+time of the encoding proposed by Fischetti and Jo [5] is less than the average
+minus the standard deviation of our adaptation. This indicates that, while our
+proposal appears generally more efficient, specific dataset characteristics can
+influence which encoding is more advantageous. Our adaptation yielded notably
+superior results not only in the average time for building logical constraints
+but also in the overall time, which includes both computing explanations and
+constructing logical constraints. For instance, it achieved an improvement of up
+to 16% compared to the other approach, as seen in the heart-statlog dataset.

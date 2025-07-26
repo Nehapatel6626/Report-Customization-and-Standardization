@@ -1,0 +1,2 @@
+i be the output of the ith neuron of the lth layer, with
+i or simply xi.

@@ -1,0 +1,28 @@
+example( [ chooseVerticalFragmentationMethod(o1,atomicPart)],
+         [ ],
+         [ class([ [designObject,  none,   none],
+                   [baseAssembly,  small,  none],
+                   [compositePart, small,  none],
+                   [atomicPart,    medium, none],
+                   [connection,    large,  none]
+                 ]), 
+           relationship([ [componentsShared,  'N:N'],
+                          [componentsPrivate, '1:N'],
+                          [rootPart,          '1:1'],
+                          [parts,             '1:N'],
+                          [from,              '1:N'],
+                          [to,                '1:N']
+                        ]), 
+           operation([ [o1, projection] ])
+         ],
+         facts(
+ [ relationshipAccess(compShared, baseAssembly,compositePart),
+   relationshipAccess(compPrivate,baseAssembly,compositePart),
+   relationshipAccess(rootPart, compositePart, atomicPart),
+   relationshipAccess(parts, compositePart, atomicPart),
+   relationshipAccess(from, atomicPart, connection),
+   relationshipAccess(to, atomicPart, connection),
+   query( q1, 100, [o1] ),
+   operationAccess( o1, [atomicPart] ),
+ ])
+).

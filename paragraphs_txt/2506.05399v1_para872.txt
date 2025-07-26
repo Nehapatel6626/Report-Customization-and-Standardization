@@ -1,0 +1,3 @@
+[58] O. ElJundi, M. Dhaybi, K. Mokadam, H. M. Hajj, D. C. Asmar, Re-
+sources and end-to-end neural network models for arabic image cap-
+tioning., in: VISIGRAPP (5: VISAPP), 2020, pp. 233–241.

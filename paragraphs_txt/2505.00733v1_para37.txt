@@ -1,0 +1,5 @@
+This work combines principles from self-adaptive systems and knowledge representation and reasoning to
+design a reusable framework for developing adaptive robotics architectures. Section 3.1 analyzes existing
+robotics architectures and describes the architectural patterns from robotics architectures adopted in this
+work. Section 3.2 reviews related research on self-adaptive robotic systems that leverage knowledge
+representation techniques to promote reusability, as well as studies that consider the relationship between

@@ -1,0 +1,1 @@
+Comments: If the process doesn’t present any stages (rod draw for example), we average on

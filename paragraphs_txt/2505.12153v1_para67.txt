@@ -1,0 +1,39 @@
+Symbol
+S
+A
+P (s′|s, a)
+R(s, a)
+γ
+π∗(a|s)
+J(π)
+θi
+θ
+ni
+n
+L(θi; Di)
+η
+λ
+αadapt
+∆st
+θth
+σ2
+Enc()
+Atask
+Rmit
+Dt
+Ft
+Td,t
+Ct
+w1, w2, w3 Weighting coefficients
+d(st, st−1)
+Change in patient state
+λ1, λ2, λ3
+Weighting coefficients for metrics
+I(W ; D)
+MI between weights and data
+H(D)
+Entropy of dataset
+DKL
+KL divergence
+ϵ
+Privacy budget in DP

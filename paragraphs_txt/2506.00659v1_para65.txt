@@ -1,0 +1,12 @@
+PackHero is a packer identifier that determines the specific packer used for a
+given packed program. Its approach mirrors the workflow of signature-based de-
+tection mechanisms but uses graph “signature” to represent packed programs,
+with matches determined by similarity rather than exact matching. PackHero
+leverages a specialized Graph Neural Network (GNN) called Graph Matching
+Network (GMN) [18]. It operates on Call Graphs (CGs) extracted using heuris-
+tics. CGs, which represent the invocation relationships between functions in an
+executable program [6], are chosen for their compact structure and high level of
+abstraction. Compared to other binary graph representations (e.g., Control-Flow
+Graph (CFG) and Data Dependence Graph (DDG)), CGs enable an efficient res-
+olution of the similarity problem with GMNs. We divide our approach into two
+main phases: configuration and inference.

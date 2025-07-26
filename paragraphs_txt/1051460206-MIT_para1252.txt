@@ -1,0 +1,1 @@
+pixel values  by  128  (the maximum magnitude  after a  zero-mean  is applied  to  each pixel).  We

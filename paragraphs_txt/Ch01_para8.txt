@@ -1,0 +1,11 @@
+What’s easy and what’s hard?
+It’s been easier to mechanize many of the high level cognitive tasks we usually associate with “intelligence” in people
+ e. g., symbolic integration, proving theorems, playing chess, some aspect of medical diagnosis, etc.
+It’s been very hard to mechanize tasks that animals can do easily
+walking around without running into things
+catching prey and avoiding predators
+interpreting complex sensory information (visual, aural, …)
+modeling the internal states of other animals from their behavior
+working as a team (ants, bees)
+Is there a fundamental difference between the two categories?
+Why some complex problems (e.g., solving differential equations, database operations) are not subjects of AI

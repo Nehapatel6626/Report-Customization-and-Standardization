@@ -1,0 +1,1 @@
+Both classifiers perform much higher than the majority baseline, particularly the

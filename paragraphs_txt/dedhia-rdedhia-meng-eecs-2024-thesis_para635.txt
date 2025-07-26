@@ -1,0 +1,1 @@
+identifies a vulnerability KeePass version 2.4.1 which allows for "CSV injection in the title

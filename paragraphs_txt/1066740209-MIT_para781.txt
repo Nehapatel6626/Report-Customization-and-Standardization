@@ -1,0 +1,1 @@
+After realizing that a small context is sufficient to detect cohorts, I simply used

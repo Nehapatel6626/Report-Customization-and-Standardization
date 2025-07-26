@@ -1,0 +1,4 @@
+Examining the mean absolute difference between human and LLM responses across the
+19 cultural contexts reveals systematic patterns in model performance (Tab. 1). The data
+shows substantial variation in how accurately different models represent diverse cultural
+perspectives:

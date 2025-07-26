@@ -1,0 +1,9 @@
+The concept of self-attention involves each element in a set
+being related to every other element. This is achieved through
+a process called ”self-attention,” which helps to compute a more
+precise representation of the set using residual connections. [46]
+initially introduced this idea for language understanding and
+machine translation tasks. This led to the development of the
+Transformer architecture and its various iterations, which have
+been widely influential in natural language processing (NLP)
+and computer vision.

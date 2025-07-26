@@ -1,0 +1,5 @@
+Generates tensions:
+time vs. space
+performance vs. elegance
+generality vs. simplicity
+one operation’s performance vs. another’s

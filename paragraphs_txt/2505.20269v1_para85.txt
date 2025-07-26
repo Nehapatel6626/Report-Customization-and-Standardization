@@ -1,0 +1,8 @@
+Algorithm 1 Computing a minimal explanation
+Input: ANN and domain constraints F , input data C, prediction E
+Output: minimal explanation Cm
+1: for xi = v in C do
+2:
+3:
+4: Cm ← C
+5: return Cm

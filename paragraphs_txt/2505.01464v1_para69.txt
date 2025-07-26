@@ -1,0 +1,5 @@
+This does not contradict the presence of a KAM torus, but generalizes it. Each at-
+tractor Ti in the modular set T corresponds to a locally stable, recursively formed toroidal
+manifold in Rd. The system may shift between such manifolds under sufficient epistemic
+pressure, forming a higher-order identity structure composed of modular recursive basins.
+See Arnold [2].

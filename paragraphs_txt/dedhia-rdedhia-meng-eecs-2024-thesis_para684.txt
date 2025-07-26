@@ -1,0 +1,1 @@
+formulas, and instead aim to block the execution of all formulas in the targeted CSV files.

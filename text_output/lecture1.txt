@@ -1,0 +1,438 @@
+U.S. National Cybersecurity
+U.S. National Cybersecurity
+William J. Perry
+Martin Casado • Keith Coleman • Dan Wendlandt
+
+
+MS&E 91SI
+Fall 2004
+Stanford University
+
+
+Why are we talking about cybersecurity?
+U.S. National Cybersecurity
+Case 1: Internet Under Siege
+February 7 - 9, 2000Yahoo!, Amazon, Buy.com, CNN.com, eBay, E*Trade, ZDNet websites hit with massive DOS
+
+Attacks received the attention of president Clinton and Attorney General Janet Reno.
+ 
+“A 15-year-old kid could launch these attacks, it doesn’t take a great deal of sophistication to do” – Ron Dick, Director NIPC, February 9
+
+U.S. Federal Bureau of Investigation (FBI) officials have estimated the attacks caused $1.7 billion in damage
+
+* The Yankee Group, 2000
+U.S. National Cybersecurity
+Case 2: Slammer Worm
+January 2003Infects 90% of vulnerable computers within 10 minutes
+Effect of the Worm- Interference with elections- Cancelled airline flights- 911 emergency systems affected in Seattle- 13,000 Bank of America ATMs failed
+No malicious payload!
+Estimated ~$1 Billion in productivity loss
+
+U.S. National Cybersecurity
+Case 3: WorldCom
+July 2002WorldCom declares bankruptcy
+ProblemWorldCom carries 13% - 50% of global internet traffic.  About 40% of Internet traffic uses WorldCom’s network at some point
+October 2002Outage affecting only 20% of WorldCom users snarls traffic around the globe
+Congressional HearingsCongress considers, but rejects, extension of FCC regulatory powers to prevent WorldCom shutdown
+
+Vulnerabilities are not just technical
+U.S. National Cybersecurity
+Case 4: September 11
+Wireless Tower on Top of Trade Center Destroyed
+AT&T has record call volumes
+“Flash” usage severely limits availability
+Rescue efforts hampered
+	
+Physical Vulnerability!
+Legitimate Usage!
+U.S. National Cybersecurity
+Case 5: It’s a Jungle Out There
+The Internet is highly, globally connected
+
+Viruses/worms are legion on the Internet and continue to scan for vulnerable hosts
+
+Hackers scan looking for easy targets to attack
+
+
+With Live Demo!
+U.S. National Cybersecurity
+
+What’s really going on here
+U.S. National Cybersecurity
+Increasing Dependence
+We are increasingly dependent on the Internet:
+
+Directly
+Communication (Email, IM, VoIP)
+Commerce (business, banking, e-commerce, etc)
+Control systems (public utilities, etc)
+Information and entertainment
+Sensitive data stored on the Internet
+
+Indirectly
+Biz, Edu, Gov have permanently replaced physical/manual processes with Internet-based processes
+
+* Based on slides by David Alderson, CalTech
+U.S. National Cybersecurity
+Security Not A Priority
+Other design priorities often trump security:
+
+Cost
+Speed
+Convenience
+Open Architecture
+Backwards Compatibility
+U.S. National Cybersecurity
+Cybersecurity Roadblocks
+No metrics to measure (in)security
+
+Internet is inherently international
+
+Private sector owns most of the infrastructure
+
+“Cybersecurity Gap”: a cost/incentive disconnect?
+Businesses will pay to meet business imperatives
+Who’s going to pay to meet national security imperatives?
+U.S. National Cybersecurity
+An Achilles Heel?
+This level of dependence makes the Internet a target for asymmetric attack
+
+Cyberwarfare
+Cyberterrorism
+Cyberhooliganism*
+
+
+and a weak spot for accidents and failures
+* Coined by Bruce Schneier, Counterpane
+U.S. National Cybersecurity
+The Challenge
+A solution to this problem will require both the right technology and the right public policy.
+
+
+This is the cybersecurity challenge.
+U.S. National Cybersecurity
+
+What is “cybersecurity?”
+U.S. National Cybersecurity
+According to the U.S. Dept of Commerce:
+
+n. cybersecurity:
+
+Some Definitions
+n. information security: The protection of information against unauthorized disclosure, transfer, modification, or destruction, whether accidental or intentional. 
+
+
+
+See “information security”
+U.S. National Cybersecurity
+Some Definitions
+According to H.R. 4246 “Cyber Security Information Act”:
+
+cybersecurity: “The vulnerability of any computing system, software program, or critical infrastructure to, or their ability to resist, intentional interference, compromise, or incapacitation through the misuse of, or by unauthorized means of, the Internet, public or private telecommunications systems or other similar conduct that violates Federal, State, or international law, that harms interstate commerce of the United States, or that threatens public health or safety.”
+U.S. National Cybersecurity
+Some Definitions
+According to S. 1901 “Cybersecurity Research and Education Act of 2002”:
+
+cybersecurity: “information assurance, including scientific, technical, management, or any other relevant disciplines required to ensure computer and network security, including, but not limited to, a discipline related to the following functions:
+
+(A) Secure System and network administration and operations.
+(B) Systems security engineering.
+(C) Information assurance systems and product acquisition.
+(D) Cryptography.
+(E) Threat and vulnerability assessment, including risk management.
+(F) Web security.
+(G) Operations of computer emergency response teams.
+(H) Cybersecurity training, education, and management.
+(I) Computer forensics.
+(J) Defensive information operations.
+U.S. National Cybersecurity
+Some Definitions
+According to S. 1900 “Cyberterrorism Preparedness Act of 2002 ”:
+
+cybersecurity: “information assurance, including information security, information technology disaster recovery, and information privacy.”
+U.S. National Cybersecurity
+One way to think about it
+cybersecurity = security of cyberspace
+
+U.S. National Cybersecurity
+One way to think about it
+cybersecurity = security of cyberspace
+
+
+information systems and networks
+U.S. National Cybersecurity
+One way to think about it
+cybersecurity = security of information systems and networks 
+U.S. National Cybersecurity
+One way to think about it
+cybersecurity = security of information systems and networks 
+
+
++ with the goal of protecting operations and assets
+U.S. National Cybersecurity
+One way to think about it
+cybersecurity = security of information systems and networks with the goal of protecting operations and assets 
+
+
+U.S. National Cybersecurity
+One way to think about it
+cybersecurity = security of information systems and networks with the goal of protecting operations and assets 
+
+
+
+security in the face of attacks, accidents and failures
+U.S. National Cybersecurity
+One way to think about it
+cybersecurity = security of information systems and networks in the face of attacks, accidents and failures with the goal of protecting operations and assets 
+
+
+U.S. National Cybersecurity
+One way to think about it
+cybersecurity = security of information systems and networks in the face of attacks, accidents and failures with the goal of protecting operations and assets 
+
+
+
+availability, integrity and secrecy
+U.S. National Cybersecurity
+One way to think about it
+cybersecurity = availability, integrity and secrecy of information systems and networks in the face of attacks, accidents and failures with the goal of protecting operations and assets 
+
+
+(Still a work in progress.)
+U.S. National Cybersecurity
+In Context
+corporate cybersecurity = availability, integrity and secrecy of information systems and networks in the face of attacks, accidents and failures with the goal of protecting a corporation’s operations and assets 
+
+national cybersecurity = availability, integrity and secrecy of the information systems and networks in the face of attacks, accidents and failures with the goal of protecting a nation’s operations and assets 
+U.S. National Cybersecurity
+Cybersecurity as a Discipline
+How to achieve cybersecurity “success”?
+How to overcome the cybersecurity problem?
+
+Must understand four factors that play into the cybersecurity equation:
+
+Technology
+Economics (of stakeholders and incentives)
+Social Influences (e.g. Big Brother fears) 
+Public Policy
+
+U.S. National Cybersecurity
+
+What This Class is All About
+U.S. National Cybersecurity
+Goal of the Class
+
+ Build a foundation of knowledge
+
+ Explore salient advanced topics
+
+ Prepare students to critically analyze interdisciplinary questions relating to the cybersecurity challenge   
+
+
+U.S. National Cybersecurity
+Cybersecurity Questions
+How vulnerable is the United States to a cyberattack? Are we heading for an “electronic pearl harbor”?
+
+What areas of vulnerability require the greatest attention in order to improve our national cybersecurity? 
+
+With what parties must the government work in order to make significant cybersecurity improvements?
+
+Are market forces sufficient to provide for US national cybersecurity? Should the government get involved to change these forces, and if so, how?
+U.S. National Cybersecurity
+Cybersecurity Questions
+
+Is the Internet an appropriate platform upon which to operate infrastructure systems critical to US economic or government operation?  
+
+What characteristics would we want in an “Ideal Internet”?  
+
+Can the current Internet evolve into a network with significantly improved security guarantees or will another system need to created?
+
+Does greater Internet security necessarily entail decreased online privacy?
+
+U.S. National Cybersecurity
+How We Will Get There
+Use intro lectures provide a technical and policy foundation.  
+
+Develop a framework within which to think about and discussion cybersecurity. 
+
+Learn from expert guest lecturers and weekly readings that provide in-depth perspectives on advanced topics.
+
+Challenge classmates, student leaders, and expert guests during in-class discussions and activities.
+U.S. National Cybersecurity
+Our Evaluation
+
+
+
+The Cybersecurity Legislative Debate
+
+Write a well-reasoned analysis a piece of cybersecurity legislation and provide a voting recommendation.
+
+2) 	In groups, create an in-class presentation backing a single position on one of the bills.  You will debate an opposing group and your will defend your stance against questioning from the rival group and the class at large.
+
+3)  Both the class and a panel of celebrity judges will vote on the winner of each debate. 
+U.S. National Cybersecurity
+Schedule & Syllabus
+Sept. 30		Introduction: The Cybersecurity Challenge
+     
+Oct. 5 (Tues.) 	Tech Breakout I: Internet Basics     
+
+Oct. 7		How To Think About Cybersecurity    
+
+Oct. 12 (Tues.)	Tech Breakout II: Viruses, Worms, Firewalls and Crypto		Guest Speaker: Tal Garfinkel, Computer Science     
+
+Oct. 14		An Industry Perspective		Guest Speaker: TBA     
+
+Oct. 21		Cybersecurity Policy    
+
+Oct. 28		Cybersecurity and Law		Guest Speaker: Jennifer Granick, Stanford Law School  
+   
+Nov. 4 		Security Metrics and Risk Management		Guest Speaker: Kevin Soo Hoo, Sygate    
+
+Nov. 11 		Assessing the Threat 		Guest Speaker: Peter Neumann, SRI     
+
+Nov. 18 		What Do We Want in a Future Information Infrastructure?		Guest Speaker: David Alderson, CalTech     
+
+Nov. 22		Liability, Negligence and Cyber-Insurance		Guest Speaker: Erin Kenneally, San Diego Supercomputing Center 
+    
+Dec. 2 		Legislative Debate
+U.S. National Cybersecurity
+What You Will Come Away With
+Working knowledge of how the Internet infrastructure operates and who the major cybersecurity policy actors are.
+
+Frameworks within which to understand and analyze cybersecurity issues. 
+
+Knowledge about current salient and interdisciplinary topics in cybersecurity.
+
+Connections and resources to help you in continue to explore cybersecurity.
+U.S. National Cybersecurity
+What This Class is Not
+This class is not…
+
+“How the Internet works” 
+Take CS244A Networks, or CS193i Internet Systems
+“How to hack” 
+Take CS155 Computer Security
+“Cryptography and privacy”
+Take CS255 Intro to Cryptography
+“File sharing and music piracy”
+
+
+U.S. National Cybersecurity
+What This Class Is
+This class is…
+A look at the bigger picture
+A chance to consider all the factors that play into cybersecurity
+Technology
+Public Policy
+Economics
+Social Issues
+
+U.S. National Cybersecurity
+
+Course Logistics
+U.S. National Cybersecurity
+Basics
+Course website will have latest readings & updates: 
+	http://msande91si.stanford.edu
+2 units, S/NC
+No prerequisites
+Location: TBD
+
+U.S. National Cybersecurity
+Course Format
+Class Format:
+
+Pre-class readings and discussion questions posted to class forum.
+
+Lecture and Q&A with expert guest speaker
+
+Discussion or other in-class activity for more in depth exploration of the week’s topic.
+
+
+U.S. National Cybersecurity
+Course Reading Materials
+Two Main Texts:
+
+Critical Information Infrastructure Protection and the Law
+and
+Cybersecurity: Today and Tomorrow
+
+(both are available free online or can be ordered in paperback)
+
+
+Other readings posted on course website
+
+U.S. National Cybersecurity
+Grading & Expectations
+
+Our expectations are simple:
+Do all readings and pre-class discussion questions.
+Significant in-class participation
+Completion of final legislative debate project.
+
+This should be fun!
+
+U.S. National Cybersecurity
+Enrollment
+Limited to 20 students
+
+Student Info Questionnaire 
+
+Looking to audit?  Talk to us after class.
+U.S. National Cybersecurity
+Further Cybersecurity Opportunities
+Discussion Forum:
+	Meets weekly during quarters when this class is not offered. 
+
+Library & Resources: 
+	http://cybersecurity.stanford.edu
+
+Security in the News:
+	http://news.ists.dartmouth.edu/
+
+	
+
+U.S. National Cybersecurity
+Contact
+Website & Email
+Website: http://msande91si.stanford.edu 
+Instructors: cybersecurity@stanford.edu 
+
+Office Hours
+By request (send email)
+Individual questions after class
+U.S. National Cybersecurity
+
+Thank You
+U.S. National Cybersecurity
+
+Unused Slides
+U.S. National Cybersecurity
+
+What is “infrastructure?”
+U.S. National Cybersecurity
+The Internet is Hard to Secure
+Extreme complexity, minimal understanding
+
+High global connectivity
+
+Weak attribution (who’s doing what?)
+
+Hard to tell malicious uses from legitimate ones
+U.S. National Cybersecurity
+Some Definitions
+According to S.I. 1901 “Cybersecurity Research and Education Act of 2002”:
+
+“The term cybersecurity infrastructure includes--
+(A) equipment that is integral to research and education capabilities in cybersecurity, including, but not limited to--
+(i) encryption devices;
+(ii) network switches;
+(iii) routers;
+(iv) firewalls;
+(v) wireless networking gear;
+(vi) protocol analyzers;
+(vii) file servers;
+(viii) workstations;
+(ix) biometric tools; and
+(x) computers; and
+(B) technology support staff (including graduate students) that is integral to research and education capabilities in cybersecurity.”

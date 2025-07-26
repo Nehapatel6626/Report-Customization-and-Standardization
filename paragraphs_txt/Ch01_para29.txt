@@ -1,0 +1,5 @@
+Knowledge-based systems (1969 – 1979)
+DENDRAL: the first knowledge intensive system (determining 3D structures of complex chemical compounds)
+MYCIN: first rule-based expert system (containing 450 rules for diagnosing blood infectious diseases)
+	EMYCIN: an ES shell
+PROSPECTOR: first knowledge-based system that made significant profit (geological ES for mineral deposits)

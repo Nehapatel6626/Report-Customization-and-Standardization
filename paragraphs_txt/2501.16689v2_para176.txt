@@ -1,0 +1,7 @@
+The mission of the meta-planner MP is to construct a plan-
+ner that generates an actionable workﬂow for a given task.
+It does so by analyzing task objectives, identifying roles
+and constraints, and organizing agents into a structured ex-
+ecution plan. This three-phase approach ensures that every
+agent and dependency is optimally placed, reﬁned, and val-
+idated, leading to robust, task-speciﬁc workﬂows.

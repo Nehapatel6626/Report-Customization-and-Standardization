@@ -1,0 +1,7 @@
+The architectural knowledge enables parameter adaptation by capturing each parameter configuration
+of a component with a distinct component configuration relationship, relating one Component to a
+set of Component Parameters. It enables structural adaptation by capturing the different possibilities
+for solving a system functionality as distinct function design relationships which relate a Function
+to a set of Components. It enables TACA by indirectly capturing the dependencies between the robot’s
+actions and architecture with the functional requirement relationship which relates an Action to
+the Functions it requires.

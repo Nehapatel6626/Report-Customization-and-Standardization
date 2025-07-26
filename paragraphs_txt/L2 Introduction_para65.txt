@@ -1,0 +1,3 @@
+Rosenblatt recognized that without modification of the output 
+node, the perceptron was just another representation of 
+multivariate linear regression

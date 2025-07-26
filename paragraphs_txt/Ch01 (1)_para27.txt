@@ -1,0 +1,9 @@
+Early enthusiasm (1952 – 1969)
+1956 Dartmouth conference
+	John McCarthy (Lisp);
+	Marvin Minsky (first neural network machine);
+	Alan Newell and Herbert Simon (GPS);
+Emphasize on intelligent general problem solving
+	Heuristics of human problem solving (means-ends analysis in GPS );
+	Resolution by John Robinson (basis for automatic theorem proving);
+	heuristic search (A*, AO*, game tree search)

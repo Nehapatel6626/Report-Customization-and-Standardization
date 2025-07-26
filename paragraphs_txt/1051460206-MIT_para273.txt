@@ -1,0 +1,2 @@
+can be  collapsed  into  a simple  linear  regression,  only representing  a multivariate  linear  function.
+With the a non-linear f, the  neural  network becomes  a  universal  function  approximator,  having

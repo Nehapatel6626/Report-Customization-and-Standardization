@@ -1,0 +1,1 @@
+light,  usually  either red,  green  or blue regions.  The  spectral response  of the  RGB  filters  in

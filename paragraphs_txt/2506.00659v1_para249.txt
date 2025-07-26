@@ -1,0 +1,4 @@
+37. Yadegari, B., Debray, S.: Symbolic execution of obfuscated code. In: Proceedings of
+the 22nd ACM SIGSAC Conference on Computer and Communications Security.
+p. 732–744. CCS ’15, Association for Computing Machinery, New York, NY, USA
+(2015). https://doi.org/10.1145/2810103.2813663

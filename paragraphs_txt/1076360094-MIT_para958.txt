@@ -1,0 +1,1 @@
+multiple classiﬁers. In this system, we use three primary classiﬁers. Classiﬁer C1,

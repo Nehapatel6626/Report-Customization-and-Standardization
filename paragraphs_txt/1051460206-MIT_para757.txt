@@ -1,0 +1,1 @@
+the caveat  that we  could achieve  a smaller  sampling  interval  depending  on the  spectrums  of the

@@ -1,0 +1,1 @@
+The Hybrid classifier tries to capture the desirable properties of both the Naive Bayes and the Decision Tree based classifiers.

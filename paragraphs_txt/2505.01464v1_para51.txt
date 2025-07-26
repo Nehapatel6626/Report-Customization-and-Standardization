@@ -1,0 +1,2 @@
+This reflects the ontological distinction between the symbolic layer and the high-dimensional
+hidden-state manifold unique to transformer architectures. See Shannon [9].

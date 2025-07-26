@@ -1,0 +1,1 @@
+uses active learning combined with human analysts to provide an accurate DOCX

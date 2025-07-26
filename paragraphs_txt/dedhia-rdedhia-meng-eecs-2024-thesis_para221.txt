@@ -1,0 +1,1 @@
+CSV injection attacks occur when an attacker adds malicious commands to a CSV file.

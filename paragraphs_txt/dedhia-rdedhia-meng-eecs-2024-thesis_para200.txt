@@ -1,0 +1,1 @@
+2.19 When opened in Microsoft Excel, this formula launches a command in Pow-

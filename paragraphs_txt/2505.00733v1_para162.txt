@@ -1,0 +1,8 @@
+name:String @key
+always-improve:Bool
+status:String
+is-required:Bool
+is-active:Bool
+pid:Integer
+key:String
+value:String

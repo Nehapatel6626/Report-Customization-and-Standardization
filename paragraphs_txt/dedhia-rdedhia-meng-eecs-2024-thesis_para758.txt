@@ -1,0 +1,1 @@
+Lastly, in addition to the sanitized CSV file, the extension gives the user access to the

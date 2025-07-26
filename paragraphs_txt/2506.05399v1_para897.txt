@@ -1,0 +1,5 @@
+[81] E. Mulyanto, E. I. Setiawan, E. M. Yuniarno, M. H. Purnomo, Auto-
+matic indonesian image caption generation using cnn-lstm model and
+feeh-id dataset, in: 2019 IEEE International Conference on Computa-
+tional Intelligence and Virtual Environments for Measurement Systems
+and Applications (CIVEMSA), IEEE, 2019, pp. 1–5.

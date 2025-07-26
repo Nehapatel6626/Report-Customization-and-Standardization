@@ -1,0 +1,1 @@
+Additionally, CSV injection attacks must be handled either before the CSV file is opened

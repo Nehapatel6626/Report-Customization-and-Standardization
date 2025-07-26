@@ -1,0 +1,4 @@
+[11] Battista Biggio, Igino Corona, Davide Maiorca, Blaine Nelson, Nedim ˇSrndi´c,
+Pavel Laskov, Giorgio Giacinto, and Fabio Roli. Evasion attacks against machine
+learning at test time. In Joint European Conference on Machine Learning and
+Knowledge Discovery in Databases, pages 387–402. Springer, 2013.

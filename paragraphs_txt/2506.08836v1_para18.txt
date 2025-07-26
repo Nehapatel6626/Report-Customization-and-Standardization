@@ -1,0 +1,10 @@
+Section 2 provides an overview of the most common speech corpora for Swiss
+German and the SOTA STT models trained with these datasets. In Section 3,
+we discuss the details of these datasets and highlight their limitations, as well as
+the limitations of the SOTA models in real-world transcription tasks. Section 4
+presents the specifics of the new SRB-300 speech corpus and the methodology
+used for its collection. In Section 5, we explain how we fine-tuned various Ope-
+nAI Whisper models using SRB-300 for practical applications in low-resource
+languages, specifically Swiss German. Finally, Section 6 compares the perfor-
+mance of the different fine-tuned Whisper models against other SOTA models
+on the new SRB-300 corpus.

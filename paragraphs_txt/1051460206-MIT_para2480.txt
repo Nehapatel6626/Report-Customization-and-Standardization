@@ -1,0 +1,6 @@
+-
+Across the  8  synthetic  urine  solutions  shown  in Figure  6-9,  we  obtained an  R-squared
+value  of 0.98,  with a best-fit  line  of y=0.906x+3.14  and  a standard  error  of 0.027.  Using  the
+Wald  Test,  we rejected the  null-hypothesis  that the  slope  is zero  (the  two-sided p-value  was
+significantly  less than  0.01).  Thus,  we can conclude  that there is  a clear  correlation  between  the
+the AutoScope  and reference  results.

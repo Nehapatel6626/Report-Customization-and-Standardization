@@ -1,0 +1,1 @@
+Bellatreche, L., Karlapalem, K., & Simonet, A. (2000).  Algorithms and Support for Horizontal Class Partitioning in Object-Oriented Databases. Int’l Journal of Distributed and Parallel Databases, 8(2), Kluwer Academic Publishers, pp. 155-179.

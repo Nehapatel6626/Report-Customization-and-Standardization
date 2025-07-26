@@ -1,0 +1,10 @@
+function that computes the f1 score
+precision recall weight – weight of precision vs recall
+Function describing accuracy of a system
+Speciﬁc evaluation function maximizing f1 score.
+Speciﬁc evaluation function maximizing recall given precision above 0.9
+Cost function
+Enumeration function that generates initial threshold sets to evaluate
+Small value specifying distance in successive g() scores after which
+to stop optimizing thresholds
+maximum number of iterations to run in each tuning step

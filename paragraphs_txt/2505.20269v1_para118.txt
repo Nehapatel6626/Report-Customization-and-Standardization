@@ -1,0 +1,10 @@
+x,i are
+defined by isolating variable xl
+i from other constraints in subsequent layers. Then,
+xl
+i is maximized to find its upper bound. A similar process is applied to find the
+bounds ubl
+i. This optimization is possible due to the bounds of
+the features. Furthermore, these bounds can assist the solver in accelerating the
+computation of explanations. Therefore, the time required for this process must
+be considered when building F .

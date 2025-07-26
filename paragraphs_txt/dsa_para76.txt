@@ -1,0 +1,9 @@
+Modularity
+divide program into small functions
+easy to debug and maintain
+easy to modify
+group work
+Reuse
+do some operations only once
+Easy to change the implementation
+transparent to the program

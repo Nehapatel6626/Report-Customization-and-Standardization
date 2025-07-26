@@ -1,0 +1,8 @@
+iment uses the Traveling Salesperson Problem (TSP) to
+validate MP’s optimization capabilities. The second in-
+volves the Thanksgiving Dinner Planning problem, show-
+casing MP’s ability to handle complex, real-world chal-
+lenges with cross-thread dependencies and dynamic adapt-
+ability. Due to space constraints, detailed results for these
+experiments are provided in Appendices D and E, respec-
+tively.

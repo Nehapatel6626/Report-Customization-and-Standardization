@@ -1,0 +1,5 @@
+There are several established approaches for fine-tuning Whisper models
+[4,9,13,15,27]. Some specifically focus on low-resource languages [5,8,11,12,18,19,23].
+Our fine-tuning process was based on the method described by Sanchit Gandhi [9]
+utilizing the Hugging Face implementation of Whisper as part of their transformers-
+library [30] at version 4.46 with PyTorch 2.4, along with several Hugging Face

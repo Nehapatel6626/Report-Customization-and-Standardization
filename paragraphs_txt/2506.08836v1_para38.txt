@@ -1,0 +1,4 @@
+Table 1. Reported results of the fine-tuned SOTA models on the test sets of the
+most common scientific corpora for Swiss German. For reference, we include the zero-
+shot results of the pre-trained XLS-R 1B model on the new SRB-300 corpus, which is
+introduced in this paper.

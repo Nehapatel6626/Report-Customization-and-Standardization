@@ -1,0 +1,1 @@
+Meyer, L., & Mattoso, M. (1998). Parallel query processing in a shared-nothing object database server. Proc 3rd Int’l Meeting on Vector and Parallel Processing (VECPAR'98), Porto, Portugal, pp.1007-1020.

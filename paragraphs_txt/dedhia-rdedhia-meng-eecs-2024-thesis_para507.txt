@@ -1,0 +1,1 @@
+SUM(...) as functions. I’ll refer to strings of numbers, cell values, and operations, such

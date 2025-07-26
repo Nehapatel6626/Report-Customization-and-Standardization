@@ -1,0 +1,1 @@
+AutoScope  algorithm to label  209 samples of digital as having normal or abnormal particle

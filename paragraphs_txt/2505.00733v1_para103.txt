@@ -1,0 +1,1 @@
+Figure 1. The upper layer depicts ROSA’s architecture and the bottom layer depicts the robotic system.

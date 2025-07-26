@@ -1,0 +1,3 @@
+Antoniou, G. and van Harmelen, F. (2004). Web Ontology Language: OWL. In Handbook on Ontologies,
+eds. S. Staab and R. Studer (Springer), International Handbooks on Information Systems. 67–92.
+doi:10.1007/978-3-540-24750-0 4

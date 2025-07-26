@@ -1,0 +1,1 @@
+commands can be executed on the victim’s device, such as in figure 2.16. These commands

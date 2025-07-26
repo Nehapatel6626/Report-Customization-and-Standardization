@@ -1,0 +1,11 @@
+Precision is determined by the matching tuples between the
+logical tuples for generated and reference captions divided by
+the total number of logical tuples in the generated caption set.
+For recall, the matching tuples are divided by the total num-
+ber of logical tuples in the reference caption set. The F1 score
+(SPICE) is calculated using precision and recall [27]. Scene
+graphs (G(c) and G(S r) are created from candidate and refer-
+ence captions, respectively), and the F score is calculated using
+the conjunction of logical tuples representing semantic propo-
+sitions in the scene graph. SPICE can be calculated using the
+scene graphs of all reference sentences as

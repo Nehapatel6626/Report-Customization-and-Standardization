@@ -1,0 +1,1 @@
+OutPutfeature maps  =  {pool(act(w1  * xjimage)), ... , pool(act(w" * x.image)))

@@ -1,0 +1,1 @@
+Figure 2.12: When opened in Excel, this formula opens the calculator program on the victim’s

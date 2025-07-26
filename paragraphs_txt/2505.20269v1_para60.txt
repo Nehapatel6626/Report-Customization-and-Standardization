@@ -1,0 +1,9 @@
+In the MILP in (2), we want to find values for variables x1, y1, s1, z1
+minimizing the value of the objective function y1 among all values that satisfy
+the constraints. Variable z1 is binary since z1 ∈ {0, 1} is a constraint in the
+MILP, while variables x1, y1, s1 have the real numbers R as their domain. The
+constraints in a MILP may appear as linear equations, linear inequalities, and
+indicator constraints. Indicator constraints can be seen as logical implications of
+the form z = v → (cid:80)n
+i=1 wixi ≤ b such that z is a binary variable, v is a constant
+0 or 1 [3].

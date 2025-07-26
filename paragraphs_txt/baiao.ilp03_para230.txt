@@ -1,0 +1,1 @@
+Figure 9 shows the cost of executing each query from the OO7 benchmark application. The total cost of the OO7 benchmark application, according to the frequencies of each operation, can be calculated as:

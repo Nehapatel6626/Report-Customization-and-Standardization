@@ -1,0 +1,5 @@
+Weyns, D., Schmerl, B., Grassi, V., Malek, S., Mirandola, R., Prehofer, C., et al. (2013). On Patterns for
+Decentralized Control in Self-Adaptive Systems. In Software Engineering for Self-Adaptive Systems II:
+International Seminar, Dagstuhl Castle, Germany, October 24-29, 2010 Revised Selected and Invited
+Papers, eds. R. de Lemos, H. Giese, H. A. M¨uller, and M. Shaw (Berlin, Heidelberg: Springer). 76–107.
+doi:10.1007/978-3-642-35813-5 4

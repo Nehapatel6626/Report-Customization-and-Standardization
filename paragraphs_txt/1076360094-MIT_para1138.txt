@@ -1,0 +1,44 @@
+Name
+S
+|S|
+s
+C
+Y
+ˆY
+P
+p
+C1
+p1
+C2
+p2
+C3
+p4
+C4
+p4
+C5
+p5
+plast
+Di
+t1
+i
+t2
+i
+Pf inal
+tlast
+Npc used
+Npc total
+γ
+(cid:80)
+1
+i ri
+|S|
+recall()
+precision() Precision
+f1
+β
+g(.)
+g1
+g2
+c
+e()
+(cid:15)

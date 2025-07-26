@@ -1,0 +1,4 @@
+Human Veriﬁcation Certain constraints require explicit
+human input to ensure that the planning process takes into
+account subtle interpersonal and individual considerations.
+These include:

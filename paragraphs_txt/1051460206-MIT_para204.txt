@@ -1,0 +1,1 @@
+and field ofview is shown to the right. Note the blurring of the field of view when using the ball

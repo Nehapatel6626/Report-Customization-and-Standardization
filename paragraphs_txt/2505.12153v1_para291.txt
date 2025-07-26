@@ -1,0 +1,4 @@
+[7] S. Hafeez, M. A. Shawky, M. Al-Quraan, L. Mohjazi, M. A. Imran, and
+Y. Sun, ”BETA-UAV: Blockchain-based efficient and trusted authentica-
+tion for UAV communication,” in Proc. IEEE 22nd Int. Conf. Commun.
+Technol. (ICCT), 2022, pp. 613-617.

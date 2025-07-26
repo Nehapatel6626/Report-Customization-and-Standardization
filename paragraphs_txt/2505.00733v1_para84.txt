@@ -1,0 +1,15 @@
+In the context of TACA, C´amara et al. (2020) developed a method for finding optimal task and
+reconfiguration plans for an autonomous ground vehicle (AGV) navigating in a graph-like environment.
+To enable optimal planning within reasonable time limits, their method first reduces the search space by
+finding all possible reconfiguration plans and then computing the shortest N paths the robot can take to
+reach its goal. Then, it uses this information along with task-specific models that capture mission quality
+attributes (e.g., energy consumption, collision probabilities) and a preferred utility to apply model checking
+and determine an optimal reconfiguration plan for each path. Finally, an optimization function selects the
+best plan based on a predefined utility function (e.g., minimizing energy consumption, time, or collision
+probability). Although their approach reduces the planning search space to improve planning time, their
+experiments show that solving the navigation use case still takes an average of 15.1 seconds, an impractical
+duration for robots that frequently need to replan at runtime to handle uncertainties. Additionally, while
+the approach is model-based, it relies on task-specific model transformations (e.g., converting the map or
+battery model into PRISM model snippets), which require dedicated implementations for different tasks.
+This limits the reusability of their approach for different types of tasks, as it requires a considerable amount
+of development effort.

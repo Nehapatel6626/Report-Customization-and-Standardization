@@ -1,0 +1,6 @@
+Q2: What challenges arise in domain-specific chatbot interactions? 
+A2: Domain-specific applications—like hotel booking systems, customer management tools, or inventory systems—
+frequently require multi-step user interactions. The chatbot must keep track of user selections (e.g., searching for a 
+hotel, confirming a customer, refining filters). Without a clear “submit” or “reset” action, confusion can arise when 
+the user’s language changes the context. For instance, a user might suddenly switch from discussing Customer A to 
+Customer B without a clear prompt, leaving the system uncertain about which data to commit or discard [2].

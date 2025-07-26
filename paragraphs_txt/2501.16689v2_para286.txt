@@ -1,0 +1,9 @@
+To validate MACI’s capabilities, two experiments tested
+its effectiveness in adaptive planning and constraint man-
+agement. The ﬁrst experiment, based on the Traveling
+Salesperson Problem (TSP), demonstrated MACI’s ability
+to generate globally optimized workﬂows that guide LLMs
+in solving this classical problem. The second, a Thanksgiv-
+ing Dinner Planning task, highlighted MACI’s ability to re-
+solve intricate cross-thread dependencies and dynamically
+adjust to evolving constraints.

@@ -1,0 +1,1 @@
+(1) wrap the cell in double quotes; (2) prepend the cell with a single quote; and (3) escape

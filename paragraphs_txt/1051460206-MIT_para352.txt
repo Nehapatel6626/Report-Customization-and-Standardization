@@ -1,0 +1,1 @@
+and outputs  a single  value, thus reducing the dimensionality  of the dataset.  The  most common

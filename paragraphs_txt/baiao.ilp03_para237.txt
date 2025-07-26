@@ -1,0 +1,1 @@
+Heuristic algorithms are used to address the intractability of the class fragmentation problem in the design of a distributed database, which is known to be an NP-hard problem. However, once defined, it is very difficult to improve them by manually defining and incorporating new heuristics from experimental results, while maintaining previous ones consistent.

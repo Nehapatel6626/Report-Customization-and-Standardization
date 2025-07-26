@@ -1,0 +1,25 @@
+PackHero relies on heuristics to extract filtered CGs. Unpacking stubs play a
+crucial role in the analysis but other code segments might also contribute to the
+CG’s structure. Even if this work demonstrates that a few statically visible func-
+tions are often sufficient to determine the packer’s identity, the exact number of
+functions considered for each CG remains an open aspect. PackHero directly ex-
+ploits disassembly and function identification, which are inherently challenging
+problems, especially in the context of malware due to obfuscation techniques,
+indirect branch resolution, and evasive behaviors. Furthermore, PackHero is po-
+tentially vulnerable to adversarial attacks that manipulate the CG to evade
+identification. An adversary could, for instance, obfuscate the CG by inserting
+bogus functions, modifying calls, or hiding call targets, significantly complicat-
+ing packer identification. Additionally, different dynamic evasive behaviors im-
+plemented by malware could further impact the accuracy of the extracted CG.
+Hence, future work may study heuristics to resist adversarial attacks by eval-
+uating CG obfuscation to identify which aspects of our heuristics and features
+are most susceptible to evasion. In our study, we selected radare2 as the dis-
+assembler due to its ease of use and integration. However, recent research has
+demonstrated that several other open-source disassemblers outperform radare2
+performance [26]. This reliance, while currently effective, necessitates further in-
+vestigation, particularly in scenarios involving adversarial manipulation of the
+unpacking stub or CG structure. Finally, PackHero currently focuses on packer
+identification but does not determine whether a sample is packed (detection).
+Preliminary analyses revealed a notable number of False Positives when analyz-
+ing non-packed samples, indicating the need for further improvements in this
+area. Therefore, future work will also address the packer detection problem.

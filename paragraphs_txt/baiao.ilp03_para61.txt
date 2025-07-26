@@ -1,0 +1,1 @@
+In our TREND3 approach, we use our analysis algorithm as the initial domain theory. The overall structure of our set of rules is presented in figure 4. The complete Prolog implementation of the analysis algorithm is shown in [1].

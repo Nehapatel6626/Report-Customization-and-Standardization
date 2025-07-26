@@ -1,0 +1,1 @@
+The experiments were executed with k = 12 and t = 4. Each run was executed with a training set of 33 instances, a tuning set of 11 instances and a test set of 4 instances, and obtained a revised theory as its final result. In all k runs, the best-tuning-set-accuracy was 100%.

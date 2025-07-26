@@ -1,0 +1,5 @@
+Colledanchise, M. and ¨Ogren, P. (2018). Behavior trees in robotics and AI: An introduction (CRC Press)
+Dorn, C. and Pribadi, H. (2023). Type theory as a unifying paradigm for modern databases. In Proc. 32nd
+Intl. Conf. on Information and Knowledge Management (CIKM 2023), eds. I. Frommholz, F. Hopfgartner,
+M. Lee, M. Oakes, M. Lalmas, M. Zhang, and R. L. T. Santos (ACM), 5238–5239. doi:10.1145/3583780.
+3615999

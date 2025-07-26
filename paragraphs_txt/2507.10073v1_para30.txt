@@ -1,0 +1,5 @@
+Representational Bias Existing studies have demonstrated persistent biases in training
+data leading to misrepresentation of certain groups or viewpoints [abid2021persistent;
+hutchinson2020social]. These biases are not merely superficial but deeply embedded in
+the model’s generative processes, potentially perpetuating and amplifying existing social
+inequities.

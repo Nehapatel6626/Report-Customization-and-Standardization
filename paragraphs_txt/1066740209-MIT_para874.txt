@@ -1,0 +1,1 @@
+3. Implement a baseline approach that utilizes rationales for the text classification

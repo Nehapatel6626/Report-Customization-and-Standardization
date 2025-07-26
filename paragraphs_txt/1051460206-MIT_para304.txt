@@ -1,0 +1,1 @@
+Since  the dot product of matrices  are highly  computationally  efficient,  networks  are  setup

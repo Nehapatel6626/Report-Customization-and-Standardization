@@ -1,0 +1,3 @@
+In many applications it’s convenient to decompose the problem into a set of cascaded transducers where
+The output of one feeds into the input of the next.
+We’ll see this scheme again for deeper semantic processing.

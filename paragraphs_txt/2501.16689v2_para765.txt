@@ -1,0 +1,3 @@
+• Driver1: James (after car rental) or Michael
+• Driver2: Available person after initial pickups
+• Supervisor: Must be present while turkey cooks

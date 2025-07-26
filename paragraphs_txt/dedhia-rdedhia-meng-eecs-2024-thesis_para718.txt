@@ -1,0 +1,1 @@
+CSV files. Considering the requirements for this program, I have chosen to code a browser

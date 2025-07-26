@@ -1,0 +1,1 @@
+[9]  S.J. Russell and P. Norvig, Artificial Intelligence: A Modern Approach. Prentice-Hall International, Inc, 1995.

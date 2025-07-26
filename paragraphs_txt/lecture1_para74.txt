@@ -1,0 +1,10 @@
+(A) Secure System and network administration and operations.
+(B) Systems security engineering.
+(C) Information assurance systems and product acquisition.
+(D) Cryptography.
+(E) Threat and vulnerability assessment, including risk management.
+(F) Web security.
+(G) Operations of computer emergency response teams.
+(H) Cybersecurity training, education, and management.
+(I) Computer forensics.
+(J) Defensive information operations.

@@ -1,0 +1,2 @@
+States: idle → moving → arrived
+Trigger: position_update()

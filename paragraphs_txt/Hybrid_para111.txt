@@ -1,0 +1,1 @@
+We would like to thank Dan Weld for his help in guiding the project in the right direction.  We would also like to thank Sumit, for his advice on how to approach the spam classifier project.

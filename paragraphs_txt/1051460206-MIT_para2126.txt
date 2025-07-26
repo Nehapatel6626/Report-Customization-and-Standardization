@@ -1,0 +1,6 @@
+We determined  the particle  concentrations  of each reference  solution  by manually
+counting  the particles under  a high-powered  microscope.  To  do this, we  prepared  a slide (using a
+22x22mm  cover slip)  with  20uL  of the  reference  solution.  Then,  we  used a Zeiss microscope  to
+count the  number of particles visible  in the  microscope's  field  of view,  averaging the  result
+across  6-13  different  field-of-views.  Using  this information,  we calculated  the concentration  of
+the reference  solution  with:

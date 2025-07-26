@@ -1,0 +1,16 @@
+The general architecture of image captioning models that
+use the encoder-decoder framework is depicted in Fig. 9. The
+encoder comprises a CNN for extracting image representations,
+while the decoder incorporates an LSTM for generating image
+captions. CNNs are a type of feedforward artificial neural net-
+work that is adept at processing visual data. A typical CNN
+consists of an input, an output, and multiple hidden layers. The
+hidden layers of a CNN typically include convolutional, pool-
+ing, fully connected, and normalization layers. On the other
+hand, text generation is handled by an essential deep learning
+model capable of learning long-term dependencies, the LSTM.
+An LSTM consists of a cell, an input gate, an output gate, and
+a forget gate as its internal components. Using simple learned
+gating functions, the internal units of an LSTM utilize nonlinear
+mechanisms to enhance hidden states, allowing them to propa-
+gate unchanged, be updated, or be reset.

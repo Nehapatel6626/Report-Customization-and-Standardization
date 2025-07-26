@@ -1,0 +1,11 @@
+In a study by [116], a novel image captioning technique
+called Dynamic Attention Prior (DY-APR) was introduced. This
+approach combines attention distribution before the local lin-
+guistic context for dynamic attention aggregation. The researchers
+proposed a method for dynamically aggregating the Attention
+Distribution Prior (ADP) and the current layer’s attention score
+to provide more precise attention guidance. They also presented
+a learning technique to gradually transition input tokens from a
+fully static representation based on word embedding to a mixed
+scheme incorporating both the input tokens and the linguistic
+context.

@@ -1,0 +1,1 @@
+spatial features  into a single  score  for each  class.  In contrast,  for  semantic  segmentation,  CNNs

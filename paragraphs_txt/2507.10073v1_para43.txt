@@ -1,0 +1,8 @@
+We analyze the intra-group variance across moral dimensions, individual questions,
+and model/persona combinations to evaluate how consistently the LLMs perform
+[munker2024towards]. Further, we employ Analysis of variance (ANOVA). We utilize
+ANOVA to assess the significance of persona-specific adaptations. By decomposing response
+variance into within-group and between-group components, we quantify the statistical
+significance of modifications induced by prompting. The technique allows for a multilayered
+exploration of response heterogeneity, enabling us to distinguish between mere statistical
+artifacts and genuine, prompting-induced behavioral differentiations.

@@ -1,0 +1,10 @@
+We evaluate PackHero through the following four research questions:
+RQ1. What is the minimum number of programs required for PackHero’s config-
+uration to recognize packers effectively? In addition, once configured, is PackHero
+able to recognize different packers?
+RQ2. How does the clustering-based approach impact PackHero’s performance
+and scalability compared to its non-clustering version?
+RQ3. Given an already configured PackHero, how many samples does it require
+to successfully integrate a new, unseen packer, and how does this integration
+compare to other ML-based tools?
+RQ4. Does PackHero perform better than signature-based tools?

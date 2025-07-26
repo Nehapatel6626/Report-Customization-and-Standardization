@@ -1,0 +1,4 @@
+This category includes Genetic
+Algorithms (Holland, 1992), Simulated Annealing
+(Kirkpatrick et al., 1983), and Ant Colony Optimization
+(Dorigo & Stützle, 2004).

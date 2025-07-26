@@ -1,0 +1,3 @@
+hidden layers. Let xl
+i ∈ {1, ..., nl}. The inputs to the ANN can be represented as x0
+Moreover, we represent the outputs as xL

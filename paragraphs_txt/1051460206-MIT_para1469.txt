@@ -1,0 +1,1 @@
+prediction  image.  Where the  encoding  layers downsampled  the image  with a max-pool  layer,  the

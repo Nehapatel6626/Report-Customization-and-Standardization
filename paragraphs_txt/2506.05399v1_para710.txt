@@ -1,0 +1,1 @@
+Modeled the direct dependencies between words and image

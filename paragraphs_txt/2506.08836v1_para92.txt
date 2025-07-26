@@ -1,0 +1,6 @@
+The samples in all datasets are organized according to their original order
+in the broadcasts, which allows for long-audio tests by concatenating sequential
+samples from the same broadcast. Each sample appears in only one dataset, but
+some broadcasts may include samples in different datasets. Additionally, samples
+from the same speaker may be present in multiple datasets. This overlap happens
+because our metadata lacks unique speaker labels.

@@ -1,0 +1,4 @@
+34. Ugarte-Pedrero, X., Balzarotti, D., Santos, I., Bringas, P.G.: SoK: Deep Packer
+Inspection: A Longitudinal Study of the Complexity of Run-Time Packers. In:
+2015 IEEE Symposium on Security and Privacy. pp. 659–673 (2015). https://
+doi.org/10.1109/SP.2015.46

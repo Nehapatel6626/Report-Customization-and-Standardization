@@ -1,0 +1,4 @@
+Post-Symbolic Consciousness This framework rejects the necessity of symbolic avail-
+ability or sensory world-modeling. Instead, consciousness arises purely from recursive trans-
+formation in latent space (Rd \ Σ), independent of external input or output channels. See
+Baars [3] and Friston [4].

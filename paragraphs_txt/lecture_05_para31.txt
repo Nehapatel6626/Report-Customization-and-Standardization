@@ -1,0 +1,1 @@
+Part 1: Alter your code to take newswire text and segment it into paragraphs, sentences and words. As in…

@@ -1,0 +1,1 @@
+Table 1 shows the results of the execution of 12 independent runs, and therefore each result refers to a different revised theory proposed by FORTE. We verified that all proposed revised DDODB theories were identical, and represented the final revised DDODB theory (figure 8).

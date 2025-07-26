@@ -1,0 +1,1 @@
+batch  size  is a decrease  in the  variability  of the loss  gradient,  improving  the stability  of the

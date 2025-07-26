@@ -1,0 +1,4 @@
+Fitted  (r^2: 0.933)
+rbc 
+l0um 
+wbc

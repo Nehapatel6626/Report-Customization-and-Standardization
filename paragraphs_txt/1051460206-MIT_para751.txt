@@ -1,0 +1,1 @@
+a Bayer filter,  each pixel  has an  optical filter  in front  of it that pass through a certain  spectrum  of

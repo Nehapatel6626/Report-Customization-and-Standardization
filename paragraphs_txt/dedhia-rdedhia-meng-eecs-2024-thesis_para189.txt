@@ -1,0 +1,1 @@
+ware.exe”. It then uses the command IEX to execute the file “malware.exe”

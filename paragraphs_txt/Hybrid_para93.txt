@@ -1,0 +1,1 @@
+[4]  U. Fayyad and K.B. Irani, “The Attribute Selection Problem in Decision Tree Generation,” In the Proceedings of AAAI-92, 1992.

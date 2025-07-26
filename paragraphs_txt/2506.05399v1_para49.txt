@@ -1,0 +1,3 @@
+Several recent papers have used deep learning techniques to
+create captions for images. This section presents a summary
+and analysis of relevant surveys in image captioning.

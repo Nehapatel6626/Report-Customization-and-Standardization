@@ -1,0 +1,4 @@
+The chunks comprise adjacent unigrams in the reference
+and hypothesis to calculate the penalty Pn. The longer the adja-
+cent mappings are between the candidate and the reference, the
+fewer chunks there are. The penalty is obtained by

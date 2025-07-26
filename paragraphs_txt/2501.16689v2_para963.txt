@@ -1,0 +1,6 @@
+Table 17 depicts Claude’s plan. It violated a couple of con-
+straints in the ﬁrst two attempts, but these were minor. For
+instance, in the second trial, it planned for Michael’s round
+trip to Grandma’s home to take 30 minutes. However, the
+key is that Claude can recognize its own error and make
+corrections in the next iteration.

@@ -1,0 +1,5 @@
+[14] D. H. Fudholi, Y. Windiatmoko, N. Afrianto, P. E. Susanto, M. Suyuti,
+A. F. Hidayatullah, R. Rahmadi, Image captioning with attention for
+smart local tourism using efficientnet, in: IOP Conference Series: Ma-
+terials Science and Engineering, Vol. 1077, IOP Publishing, 2021, p.
+012038.

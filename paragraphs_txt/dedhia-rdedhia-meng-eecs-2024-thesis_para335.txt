@@ -1,0 +1,1 @@
+by overdriving certain hardware components until the computer overheats or fails. Rootkits

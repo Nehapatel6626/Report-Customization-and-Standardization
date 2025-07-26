@@ -1,0 +1,1 @@
+[49] T. Lu, J. Wang, F. Min, Full-memory transformer for image captioning,

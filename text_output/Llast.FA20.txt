@@ -1,0 +1,272 @@
+CS 425 / ECE 428 
+Distributed Systems
+Fall 2020
+Indranil Gupta (Indy)
+August 25 – December 8, 2020
+Lecture 1-29
+Web: courses.engr.illinois.edu/cs425/
+
+All slides © IG
+We’ve Made it very far!
+Congratulations to everyone who’s made it so far in the course!
+It has been a challenging year (to say the least) for everyone. 
+Our goal for today: see how far we’ve learnt on the topic of Distributed Systems.
+2
+Our First Goal in this Course was… 
+To Define the Term Distributed System
+(First lecture slide)
+3
+Client-Server  (NFS)
+The Web
+The Internet
+A wireless network
+DNS
+Gnutella or BitTorrent (peer to peer overlays)
+A “cloud”, e.g., Amazon EC2/S3, Microsoft Azure
+A datacenter, e.g., NCSA, a Google datacenter, The Planet
+
+Can you name some examples of Distributed Systems?
+(First lecture slide)
+4
+What is a Distributed System?
+
+(First lecture slide)
+5
+FOLDOC definition
+
+	
+	A collection of (probably heterogeneous) automata whose distribution is transparent to the user so that the system appears as one local machine. This is in contrast to a network, where the user is aware that there are several machines, and their location, storage replication, load balancing and functionality is not transparent. Distributed systems usually use some kind of client-server organization.
+
+(First lecture slide)
+6
+Textbook definitions
+A distributed system is a collection of independent computers that appear to the users of the system as a single computer. 
+	[Andrew Tanenbaum] 
+
+A distributed system is several computers doing something together. Thus, a distributed system has three primary characteristics: multiple computers, interconnections, and shared state.
+	[Michael Schroeder] 
+
+(First lecture slide)
+7
+A working definition for us
+	A distributed system is a collection of entities, each of which is autonomous, programmable, asynchronous and failure-prone, and which communicate through an unreliable communication medium.
+Entity=a process on a device (PC, PDA)
+Communication Medium=Wired or wireless network
+Our interest in distributed systems involves 
+design and implementation, maintenance, algorithmics
+What Evidence/Examples have we seen?
+
+
+(First lecture slide)
+8
+Problems we have seen since then
+Time and Synchronization
+Global States and Snapshots
+Failure Detectors 
+Multicast
+Mutual Exclusion 
+Leader Election 
+Consensus and Paxos
+Gossiping
+Peer to peer systems – Napster, Gnutella 
+	Chord, BitTorrent
+Cloud Computing and Hadoop
+Sensor Networks
+Structure of Networks
+Datacenter Disaster Case Studies
+
+
+9
+RPCs & Distributed Objects 
+Concurrency Control
+2PC and Paxos
+Replication Control
+Key-value and NoSQL stores
+Stream Processing
+Graph processing
+Scheduling
+Distributed File Systems 
+Distributed Shared Memory 
+Security
+Problems we have seen since then (2)
+
+Basic Building Blocks
+
+Distributed Services
+(e.g., storage)
+Cloud Computing
+Old but Important 
+(Re-emerging)
+
+
+10
+What This Course is About
+
+US Elections
+Movies
+Travel to Mars
+Job Interviews
+(Not Kidding)
+11
+What This Course is About
+
+US Elections: HW1
+Movies: HW2
+Travel to Mars: HW3
+Job Interviews: HW4
+(Not Kidding)
+12
+Midterm
+HW’s and MP’s
+
+(4 cr and Coursera) You’ve built a new cloud computing system from scratch!
+And beaten a state of the art system!
+
+
+How to get good grades (and regrades, and jobs in some cases)
+(& that standard devs are important!)
+How far is your design from a 
+full-fledged system?
+Can you convince developers to use your
+MapleJuice instead of Hadoop?
+
+13
+What This Course is About (2)
+Rejoinder: Typical Distributed Systems Design Goals
+Common Goals:
+Heterogeneity
+Robustness
+Availability
+Transparency
+Concurrency
+Efficiency
+Scalability
+Security
+Openness
+
+
+
+(First lecture slide)
+Do they make sense now?
+14
+Rejoinder: Typical Distributed Systems Design Goals
+Common Goals:
+Heterogeneity – can the system handle a large variety of types of PCs and devices?
+Robustness – is the system resilient to host crashes and failures, and to the network dropping messages? 
+Availability – are data+services always there for clients?
+Transparency – can the system hide its internal workings from the users?
+Concurrency – can the server handle multiple clients simultaneously?
+Efficiency – is the service fast enough? Does it utilize 100% of all resources?
+Scalability – can it handle 100 million nodes without degrading service? (nodes=clients and/or servers) How about 6 B? More?
+Security – can the system withstand hacker attacks?
+Openness – is the system extensible?
+(Also: consistency, CAP, partition-tolerance, ACID, BASE, and others … )
+
+
+
+(First lecture slide)
+15
+Problems we have seen in Class (and their relation to other courses)
+Time and Synchronization
+Global States and Snapshots
+Failure Detectors
+Multicast Communications 
+Mutual Exclusion 
+Leader Election 
+Consensus and Paxos
+Gossiping
+Peer to peer systems – Napster, Gnutella 
+	Chord
+Cloud Computing 
+Sensor Networks
+Structure of Networks
+Datacenter Disaster Case Studies
+
+
+
+
+
+Core Material of this course
+Related to other graduate 
+classes in 
+department (e.g., CS523, CS525,
+CS 498ISE, CS598WSI) 
+
+
+16
+RPCs & Distributed Objects 
+Concurrency Control
+2PC and Paxos
+Replication Control
+Key-value and NoSQL stores
+Stream Processing
+Graph processing
+Scheduling
+Distributed File Systems 
+Distributed Shared Memory 
+Security
+Problems we have seen in Class (and their relation to other courses)
+
+
+
+
+
+Core Material of this course
+
+Related to CS 411/CS 511
+
+Related to CS 523/561
+
+Related to CS 421/CS 433
+
+Related to CS 525
+
+17
+CS525: Advanced Distributed Systems(taught by Indy)
+CS 525, Offered Spring 2021!
+Looks at hot topics of research in distributed systems: cutting-edge papers on clouds+datacenters, p2p, distributed machine learning, sensor/IoT networks, distributed algorithms, and other distributed systems
+We will read many papers (and webpages) for cutting-edge systems (research and production)
+If you liked CS425’s material, it’s likely you’ll enjoy CS525!
+Project: Choose between Research project or Entrepreneurial project
+Research Project: Your project will build a cutting-edge research distributed system, and write and publish a paper on it
+Entrepreneurial Project: Your project will build a distributed system for a new startup company idea (your own!) and perform associated research with it
+Projects are in groups of your choosing (2-3).
+Both graduates and undergraduates welcome! (UG fill this out for consent: https://my.cs.illinois.edu/ugradrecs/petitions/ ).
+Class size is around 70-100
+Previous research projects published in journals and conferences, some great startup ideas too!
+
+18
+Other Related Grad Courses
+CS525 – Indy (next offered SP 2021)
+CS598 CAL – Consensus, Blockchain (Ling Ren)
+CS523 – Tianyin Xu
+IoT classes: CS 598 WSI (Deepak Vasisht), CS 598 ISE (Matt Caesar) 
+
+See also courses by Radhika Mittal (ECE, distributed storage), Andrew Miller (ECE, blockchain)
+Questions?
+
+A working definition for us
+	A distributed system is a collection of entities, each of which is autonomous, programmable, asynchronous and failure-prone, and which communicate through an unreliable communication medium.
+
+
+[Is this definition still ok, or would you want to change it?]
+Think about it!
+
+
+(First lecture slide)
+21
+Final Exam
+Office Hours: Regular [All TAs and Indy] until final exam window starts (usual schedule).
+Exceptions posted on Piazza (check before heading out to an OH)
+Final Exam Window: See website
+Syllabus: Includes all material since the start of the course. There may be more emphasis on material since midterm.
+Please check Piazza before (and during) finals: updates will be posted there
+22
+Course Evaluations
+Main purpose: to give us feedback on how useful this course was to you (and to improve future versions of the course)
+I won’t see these evaluations until after you see your grades
+Answer all questions
+Please write your detailed feedback – this is valuable for future versions of the course!
+
+
+23

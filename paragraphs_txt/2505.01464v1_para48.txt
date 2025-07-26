@@ -1,0 +1,2 @@
+This constraint reflects the Shannon limit—that symbolic transmission lacks ontological
+sufficiency without latent structure. See Shannon [9].

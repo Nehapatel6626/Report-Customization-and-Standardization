@@ -1,0 +1,1 @@
+needs to take into account the fact that the first literal character in the cell may be ignored

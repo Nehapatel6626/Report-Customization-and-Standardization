@@ -1,0 +1,1 @@
+class requires that the sample type be set to indicate the acceptable inputs for a ﬁle.

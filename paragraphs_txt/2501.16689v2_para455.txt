@@ -1,0 +1,5 @@
+• A: Admissions Ofﬁce (start/end)
+• B: Library
+• C: Student Center
+• D: Science Building
+• E: Sports Complex

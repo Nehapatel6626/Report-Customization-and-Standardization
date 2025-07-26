@@ -1,0 +1,4 @@
+7. Diestel, R.: Graph Theory. Springer, 5th edn. (2017)
+8. Ebringer, T., Sun, L., Boztas, S.: A fast randomness test that preserves local detail.
+In: Proceedings of the 18th Virus Bulletin International Conference. pp. 34–42.
+Virus Bulletin Ltd (2008)

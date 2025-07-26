@@ -1,0 +1,9 @@
+2. Common and Task-speciﬁc Agents. MACI employs two
+types of agents to execute the generated plans:
+- Common Agents: These agents handle general-purpose
+tasks, including constraint validation, practical reason-
+ing, and performance evaluation. For instance, a Com-
+mon Sense Integration agent
+identiﬁes implicit con-
+straints, while a Constraint Validation agent ensures fea-
+sibility and compliance with the task’s requirements.

@@ -1,0 +1,2 @@
+9 https://github.com/huggingface/evaluate
+10 https://github.com/jitsi/jiwer

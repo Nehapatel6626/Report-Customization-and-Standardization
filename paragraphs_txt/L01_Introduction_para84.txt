@@ -1,0 +1,3 @@
+Who controls?
+Learner - what is best move at each point? (Exploitation/Exploration)
+Teacher - is teacher’s move the best?  (Do we want to just emulate the teachers moves??)

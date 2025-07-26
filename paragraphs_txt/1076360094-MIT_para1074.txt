@@ -1,0 +1,1 @@
+In g1(.) the f1 score is optimized to improve precision and recall equally.

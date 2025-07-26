@@ -1,0 +1,2 @@
+[4] Jason Eisner Omar F. Zaidan and Christine Piatko. Using âĂĲannotator ratio-
+nalesâĂİ to improve machine learning for text categorization. NAACL, 2007.

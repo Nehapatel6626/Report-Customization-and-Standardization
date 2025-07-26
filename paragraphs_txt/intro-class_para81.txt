@@ -1,0 +1,2 @@
+Robotic agent: cameras and infrared range finders for sensors;
+various motors for actuators

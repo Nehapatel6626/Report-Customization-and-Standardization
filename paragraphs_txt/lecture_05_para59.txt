@@ -1,0 +1,4 @@
+If each operation has cost of 1
+Distance between these is 5
+If substitutions cost 2 (Levenshtein)
+Distance between these is 8

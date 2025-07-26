@@ -1,0 +1,1 @@
+segmenting the  background of the AutoScope  images from the particles (the foreground).

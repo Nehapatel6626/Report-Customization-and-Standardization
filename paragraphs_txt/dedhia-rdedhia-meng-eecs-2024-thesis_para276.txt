@@ -1,0 +1,1 @@
+For example, some functions in Microsoft Excel are SUM , which returns the sum of a set

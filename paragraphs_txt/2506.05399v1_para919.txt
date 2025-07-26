@@ -1,0 +1,7 @@
+[100] V.-Q. Nguyen, M. Suganuma, T. Okatani, Grit: Faster and better image
+captioning transformer using dual visual features, in: Computer Vision–
+ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–
+27, 2022, Proceedings, Part XXXVI, Springer, 2022, pp. 167–184.
+[101] C. Wang, Y. Shen, L. Ji, Geometry attention transformer with position-
+aware lstms for image captioning, Expert Systems with Applications 201
+(2022) 117174.

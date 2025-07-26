@@ -1,0 +1,1 @@
+score(x)  =  FCq(FC,.1(...  FC1(x)))

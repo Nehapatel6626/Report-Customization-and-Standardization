@@ -1,0 +1,9 @@
+Other possible AI definitions
+Collection of hard problems which can be solved by humans and other living things, but for which we don’t have good algorithms for solving. 
+e. g., understanding spoken natural language, medical diagnosis, circuit design, learning, self-adaptation, reasoning, chess playing, proving math theories, etc.
+•   Definition from R & N book: a program that
+Acts like human (Turing test)
+Thinks like human (human-like patterns of thinking steps)
+Acts or thinks rationally (logically, correctly)
+•   Some problems used to be thought of as AI but are now considered not
+e. g., symbolic mathematics in 1965, pattern recognition in 1970

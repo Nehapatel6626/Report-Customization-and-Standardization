@@ -1,0 +1,1 @@
+• Capability vector (c): Encodes the agent’s functional ca-

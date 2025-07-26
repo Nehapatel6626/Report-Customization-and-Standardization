@@ -1,0 +1,1 @@
+Each convolutional  block has  a set of filters,  represented  by a 3-dimensional  matrix

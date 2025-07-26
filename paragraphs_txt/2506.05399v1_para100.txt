@@ -1,0 +1,15 @@
+Limited
+(MS,
+COCO,
+Flicker8k)
+Large-
+scale
+datasets
+MS
+COCO,
+Flickr30k
+Extensive
+dataset
+coverage
+MS-
+COCO

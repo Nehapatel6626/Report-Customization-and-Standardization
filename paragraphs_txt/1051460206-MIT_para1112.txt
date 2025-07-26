@@ -1,0 +1,8 @@
+In  Figure  4-6, the accuracy  of each class  is shown during  the training of the  CNN.
+Specifically,  as the  CNN  is trained, the validation  dataset  is intermittently  used  to determine the
+predictive  power of the  CNN.  As can be  seen, the  CNN  achieves  the highest accuracy  when
+classifying  the bacteria,  probably  due to  the unique  shape of the  E. Coli.  The  CNN  achieves the
+lowest  accuracy  for the classes that have  significant  intra-class  variability, including  "Other",
+"Cast"  and "Squamous  Epithelial"  classes.  The  confusion matrix provides  a visual representation
+of the  CNN's misclassifications.  For the confusion matrix,  we  use the average  results  for the
+final  few validation  batches.

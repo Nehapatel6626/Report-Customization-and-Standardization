@@ -1,0 +1,5 @@
+image
+box
+standard
+horizontally
+between

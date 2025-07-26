@@ -1,0 +1,1 @@
+– Delete a randomly selected element in the malicious tree representation.

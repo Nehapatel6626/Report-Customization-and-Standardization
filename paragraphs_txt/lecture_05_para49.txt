@@ -1,0 +1,4 @@
+Works astonishingly well in Chinese
+Far better than this English example suggests
+Modern algorithms better still: 
+Probabilistic segmentation

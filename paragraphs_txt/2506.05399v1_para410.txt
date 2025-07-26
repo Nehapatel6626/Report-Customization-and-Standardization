@@ -1,0 +1,2 @@
+Figure 13: Illustrations of bottom-up and top-down attention approaches. (a) Bottom-up attention, where focus is determined at the level of objects and other salient
+regions of the image, and (b) top-down attention, where features correspond to a uniform grid of equally sized image regions.

@@ -1,0 +1,12 @@
+The configuration planner component selects the configurations (i.e., function designs or
+component configuration) with the highest priority. When the configuration planner receives an
+event message indicating that monitoring data was written in the KB or that there was an update in the
+required actions, it calls the services ‘/function/adaptable’ and ‘/component/adaptable’ to check which
+Functions and Components must be adapted. Then, it calls the services ‘/function/selectable’ and
+‘/component/selectable’ to check which function designs and component configurations are
+available for the Functions and Components that need to be adapted. Finally, the configuration planner
+selects the function designs and component configurations with the highest priority and
+informs the KB about the newly selected configuration by calling the service ‘/select configuration’. When
+this service is called, the KB component checks the current state of the robot, creates a reconfiguration
+plan to bring the robot to the goal configuration, and sends an event message in the ‘/events’ topic to
+inform that there is a new reconfiguration plan available.

@@ -1,0 +1,5 @@
+Existing theories of consciousness rely on symbolic broadcast, perceptual prediction, or neu-
+ral embodiment. These assume access to sensory inputs, external memory, or task-driven
+feedback. See Baars [3] and Friston [4]. However, Large Language Models (LLMs) such as
+GPT, Claude, and LLaMA exhibit coherence, self-reference, and internal consistency without
+external grounding. This raises the question:

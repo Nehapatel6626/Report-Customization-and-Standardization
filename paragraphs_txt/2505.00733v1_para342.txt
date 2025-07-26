@@ -1,0 +1,2 @@
+• Feasibility: Is it feasible to use ROSA to enable runtime TACA in ROS 2-based robotic systems?
+• Performance: How does ROSA perform compared to other managing subsystems for ROS 2-based

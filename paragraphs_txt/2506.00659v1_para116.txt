@@ -1,0 +1,2 @@
+d ← cosineSimilarity(M(Gi, Gj ))
+D.update(d)

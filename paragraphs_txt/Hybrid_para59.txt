@@ -1,0 +1,1 @@
+In its basic form, the Naïve Bayes classifier got 60 misclassifications (32 false positives and 28 false negatives) on the LARGE dataset, and 23 misclassifications (all false negatives) on the SMALL database.

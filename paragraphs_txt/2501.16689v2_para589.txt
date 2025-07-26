@@ -1,0 +1,3 @@
+• ndriver1: capability to drive, pick up from airport
+• ndriver2: capability to drive, pick up grandma
+• nsupervisor: capability to monitor oven

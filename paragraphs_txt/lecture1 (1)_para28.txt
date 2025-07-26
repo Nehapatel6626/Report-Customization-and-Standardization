@@ -1,0 +1,2 @@
+Ideal data structure:
+	fast, elegant, memory efficient

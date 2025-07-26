@@ -1,0 +1,1 @@
+Nv  and red/blue pixels  have a  sampling interval  of  pixel size * 2.  The  spatial  resolution

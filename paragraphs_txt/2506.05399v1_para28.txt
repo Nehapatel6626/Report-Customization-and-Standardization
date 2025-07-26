@@ -1,0 +1,3 @@
+b) RQ2: How have transformer-based models advanced image
+captioning across different languages, and what challenges
+and limitations do these models face?

@@ -1,0 +1,4 @@
+To make  synthetic  urine  solutions,  we followed  four  steps  (shown  in Figure  6-4).
+Briefly, we  1)  generated  reference  solutions  for each particle,  2) determined  the  concentrations
+of these  reference  solutions,  3) mixed  together predetermined  amounts  of the reference  solution,
+and 4)  diluted the  mixture with  buffer.

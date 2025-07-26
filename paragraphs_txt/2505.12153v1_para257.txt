@@ -1,0 +1,5 @@
+latency of 0.7 seconds per communication round in our simu-
+lations. To mitigate this, lightweight encryption schemes (e.g.,
+partially homomorphic schemes or hybrid models combining
+symmetric cryptography for non-sensitive data) are proposed
+for future deployment.

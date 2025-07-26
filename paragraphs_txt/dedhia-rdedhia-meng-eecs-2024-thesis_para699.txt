@@ -1,0 +1,1 @@
+must locate all cell fields that are not supposed to have special characters in order to remove

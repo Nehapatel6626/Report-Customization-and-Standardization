@@ -1,0 +1,1 @@
+PDFRate classiﬁcation scores in range -1 (benign) to 1 (malicious) for all 500 mali-

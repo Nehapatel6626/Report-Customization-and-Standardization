@@ -1,0 +1,5 @@
+Similar to compilers that convert high-level instructions to hardware-dependent machine 
+language, transpilation is a process of converting a given quantum circuit to match the 
+topology of a specific quantum chip and optimize the circuits for executions. Transpilers 
+can run locally with Qiskits or remotely as a cloud service. The runtime service is critical 
+for current resource-constraint quantum devices.

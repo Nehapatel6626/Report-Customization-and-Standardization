@@ -1,0 +1,1 @@
+Figure 1: A general architecture for image captioning models.

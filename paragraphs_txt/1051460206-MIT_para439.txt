@@ -1,0 +1,1 @@
+direction that further  minimizes the loss  function,  with a magnitude  defined  by the  step  size and

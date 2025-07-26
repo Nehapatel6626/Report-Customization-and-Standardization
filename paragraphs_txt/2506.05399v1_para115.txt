@@ -1,0 +1,4 @@
+The survey by [28] examines the role of graph neural net-
+works (GNNs) in 2D image understanding, a challenging prob-
+lem in computer vision that aims to achieve human-level scene
+comprehension. Graphs are widely used in 2D image under-

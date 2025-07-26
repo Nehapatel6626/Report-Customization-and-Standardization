@@ -1,0 +1,4 @@
+The Add and Norm layers perform two operations. The
+‘add’ step controls the flow through residual connections. The
+second step is ‘Norm,’ which performs layer normalization. As
+a result, the output of this layer will follow (5).

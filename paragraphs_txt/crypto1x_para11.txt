@@ -1,0 +1,3 @@
+Education problem: the gap between state-of the-art research in cryptography and standard applications.
+Two aspects of cryptanalysis: breaking systems vs proving robustness.
+The evolutionary aspect of cryptography.

@@ -1,0 +1,4 @@
+values 
+negatives,
+necessary
+percentages

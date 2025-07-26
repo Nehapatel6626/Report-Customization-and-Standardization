@@ -1,0 +1,1 @@
+Which produces the following costs for the two versions of the analysis algorithm that are being compared:

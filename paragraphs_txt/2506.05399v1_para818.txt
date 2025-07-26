@@ -1,0 +1,4 @@
+[15] M. Nivedita, P. Chandrashekar, S. Mahapatra, Y. A. V. Phamila, S. K.
+Selvaperumal, Image captioning for video surveillance system using
+neural networks, International Journal of Image and Graphics (2021)
+2150044.

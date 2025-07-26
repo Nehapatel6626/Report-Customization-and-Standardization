@@ -1,0 +1,4 @@
+[69] T. do Carmo Nogueira, C. D. N. Vinhal, G. da Cruz J´unior, M. R. D. Ull-
+mann, Reference-based model using multimodal gated recurrent units
+for image captioning, Multimedia Tools and Applications 79 (41) (2020)
+30615–30635.

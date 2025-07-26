@@ -1,0 +1,2 @@
+Table 4.2: Regression testing results when training a 6 layers Neural Network (FullyConnect-
+edLayer - 500 - 300 - 150 - 100 hidden units - FullyConnectedLayer).

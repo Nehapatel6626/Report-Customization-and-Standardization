@@ -1,0 +1,1 @@
+FeatureExtraction corresponds to the package of static functions used to extract fea-

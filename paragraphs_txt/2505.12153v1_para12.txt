@@ -1,0 +1,13 @@
+medicine, offering a paradigm shift from traditional
+open surgery to minimally invasive procedures. This transi-
+tion has led to significant advancements, including enhanced
+surgical precision, diminished patient trauma, reduced post-
+operative complications, and accelerated recovery times [1]–
+[3]. Augmenting Robotic-Assisted Surgery (RAS) platforms
+with Artificial Intelligence (AI) is the next frontier, promis-
+ing to further enhance surgical capabilities and autonomy.
+Specifically, the integration of AI can enable surgical robots
+to perform complex tasks with greater dexterity, adapt
+to
+unforeseen intraoperative events, and provide surgeons with
+real-time decision support [4]–[7].

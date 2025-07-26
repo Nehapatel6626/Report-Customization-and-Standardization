@@ -1,0 +1,3 @@
+The dataset was not artificially gender-balanced, but based on the available
+metadata, we estimate a male-to-female speaker ratio of approximately 2:1 (ref.
+Table 7 in Appendix A).

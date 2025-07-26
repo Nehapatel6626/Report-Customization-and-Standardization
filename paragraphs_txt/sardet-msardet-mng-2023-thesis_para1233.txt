@@ -1,0 +1,1 @@
+Now that we have k for each data set, we can directly apply the k-means algorithm which

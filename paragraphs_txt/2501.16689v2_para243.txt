@@ -1,0 +1,3 @@
+• Role nodes (e.g., cook, drivers, supervisor),
+• Explicit constraint edges (e.g., temporal, spatial, etc.),
+• Implicit constraint edges from common-sense analysis.

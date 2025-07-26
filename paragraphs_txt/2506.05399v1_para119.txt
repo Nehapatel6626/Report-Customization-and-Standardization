@@ -1,0 +1,12 @@
+The question of the interpretability of deep neural networks,
+especially in image captioning methods based on classification
+or classification, was discussed in a survey by [38]. Due to
+the highly nonlinear functions and ambiguous working mech-
+anisms, many works have aimed to explain the characteristics
+of ‘black box’ models. As deep learning models are often con-
+sidered black boxes, the survey conducted by [39] aims to as-
+sess the impact of each module to enhance our understanding
+of the model. This research conducted quantitative and qualita-
+tive analyses to study the effects of five modules: the sequential
+module, the word embedding module, the initial seed module,
+the attention module, and the search module.

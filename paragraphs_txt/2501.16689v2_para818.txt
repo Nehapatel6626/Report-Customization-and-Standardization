@@ -1,0 +1,5 @@
+States: prep → cooking → comp.
+Trigger: task_state_change()
+States:
+comp.
+Trigger: location_change()

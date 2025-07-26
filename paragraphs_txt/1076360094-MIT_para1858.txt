@@ -1,0 +1,1 @@
+E.g. (1-pct of maximum time taken) + precision when recall is ≥ 90

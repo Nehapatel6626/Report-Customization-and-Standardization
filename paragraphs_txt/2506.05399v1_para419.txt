@@ -1,0 +1,10 @@
+effectiveness of image captioning methods. For example, a
+method might have a high BLEU score but a low CIDEr or
+SPICE score, indicating different strengths and weaknesses. This
+highlights the need for robust and adaptable methods for diverse
+datasets and languages. Comparative analysis underscores the
+importance of adapting image captioning methods to specific
+contexts. Although some methods perform well on certain datasets,
+they may not perform as well on others, emphasizing the impor-
+tance of continued development and adaptation in image cap-
+tioning.

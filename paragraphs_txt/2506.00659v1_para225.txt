@@ -1,0 +1,3 @@
+17. Li, X., Shan, Z., Liu, F., Chen, Y., Hou, Y.: A Consistently-Executing Graph-
+Based Approach for Malware Packer Identification. IEEE Access 7, 51620–51629
+(2019). https://doi.org/10.1109/ACCESS.2019.2910268

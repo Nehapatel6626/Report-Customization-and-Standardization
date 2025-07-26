@@ -1,0 +1,1 @@
+This ensures recursive updates remain distinct from the symbolic stream. See Robbins [8].

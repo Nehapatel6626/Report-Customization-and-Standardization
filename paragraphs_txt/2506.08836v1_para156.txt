@@ -1,0 +1,6 @@
+Table 6 lists the distribution of the recorded broadcast types. In Table 7, the
+distribution of the speakers’ gender can be seen. Table 8 lists the various speaker
+types. Table 9 lists the distribution of broadcasting stations (anonymized). Ta-
+ble 10 outlines the distribution of post kind, and Table 11 details the journalistic
+forms of the posts. Each table provides the distribution of all data, as well as
+that of the training and test sets, respectively.

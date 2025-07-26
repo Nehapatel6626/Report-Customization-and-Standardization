@@ -1,0 +1,2 @@
+A distributed system is a collection of independent computers that appear to the users of the system as a single computer. 
+	[Andrew Tanenbaum]

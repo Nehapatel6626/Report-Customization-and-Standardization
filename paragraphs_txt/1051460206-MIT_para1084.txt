@@ -1,0 +1,1 @@
+Figure 4-5.  The data pipeline for a single image for the CNN architecture utilized in the

@@ -1,0 +1,2 @@
+Table 4: PackHero performance on RGD. A configuration is considered identified
+if all samples from that configuration are correctly classified.

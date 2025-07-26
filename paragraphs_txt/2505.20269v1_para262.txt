@@ -1,0 +1,2 @@
+[11] Kroening, D., Strichman, O.: Decision procedures. Springer (2016)
+[12] Lahav, O., Katz, G.: Pruning and slicing neural networks using formal

@@ -1,0 +1,24 @@
+The review by [32] examines the advancements in image
+captioning, tracing its evolution from traditional ML techniques
+to modern deep learning-based approaches. The study intro-
+duces a structured taxonomy for classifying image captioning
+methodologies and highlights key developments, including tem-
+plate-based, retrieval-based, and encoder-decoder models. De-
+spite significant progress, the authors emphasize that further re-
+search is needed to develop more reliable and adaptable models.
+Similarly, [33] explores the evolution and persistent challenges
+of image captioning across various application domains, such as
+multimodal search engines, security, remote sensing, medical
+imaging, and assistive technologies. The study underscores the
+ongoing difficulties in achieving real-time captioning in critical
+fields like healthcare and security and the limited availability of
+large, domain-specific datasets. Additionally, issues related to
+training and evaluation continue to pose obstacles. While sig-
+nificant advancements have been made, the authors stress the
+need for continued research to enhance the robustness and prac-
+ticality of image captioning models. In another survey by [34],
+the authors focus specifically on attention-based image caption-
+ing, reviewing the major breakthroughs in this area. The paper
+presents a new taxonomy for classifying attention-based tech-
+niques and discusses the challenges that hinder further develop-
+ment.

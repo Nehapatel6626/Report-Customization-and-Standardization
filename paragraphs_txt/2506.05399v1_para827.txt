@@ -1,0 +1,3 @@
+[24] F. Chen, X. Li, J. Tang, S. Li, T. Wang, A survey on recent advances in
+image captioning, in: Journal of Physics: Conference Series, Vol. 1914,
+IOP Publishing, 2021, p. 012053.

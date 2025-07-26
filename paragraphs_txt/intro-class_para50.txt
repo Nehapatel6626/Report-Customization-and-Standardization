@@ -1,0 +1,15 @@
+Common sense reasoning
+Tweety
+Yale Shooting problem
+Update vs revise knowledge
+The OR gate example: A or B - C
+Observe  C=0, vs Do C=0
+Chaining theories of actions
+Looks-like(P)  is(P)
+Make-looks-like(P)  Looks-like(P)
+----------------------------------------
+Makes-looks-like(P) ---is(P) ???
+Garage-door example: garage door not included.
+Planning benchmarks
+8-puzzle, 8-queen, block world, grid-space world 
+Abduction: cambridge parking example

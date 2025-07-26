@@ -1,0 +1,2 @@
+to English-based datasets like Flickr8k and Flickr30k generally
+yield better scores across most criteria.

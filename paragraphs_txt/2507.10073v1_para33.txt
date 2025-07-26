@@ -1,0 +1,9 @@
+The concept of embodied cognition becomes paramount in understanding these limitations.
+Human understanding is not merely a computational process but a deeply integrated experi-
+ence that involves sensory perception, emotional processing, and contextual interpretation.
+LLMs, by contrast, operate through abstract mathematical representations that fundamentally
+disconnect language from lived experience. As researchers, we must approach LLM-based
+synthetic characters with a critical lens, recognizing them as sophisticated simulation tools
+rather than genuine human proxies. The promise of these technologies lies not in their ability
+to replace human subjects, but in their potential to augment and expand our understanding
+of complex social phenomena.

@@ -1,0 +1,6 @@
+Association Analysis
+Supervised Learning
+Classification
+Regression/Prediction 
+Unsupervised Learning
+Reinforcement Learning

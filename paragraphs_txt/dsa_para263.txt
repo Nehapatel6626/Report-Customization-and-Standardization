@@ -1,0 +1,5 @@
+In general case, new node is always inserted between two nodes, which are already in the list. Head and tail links are not updated in this case. 
+We need to know two nodes "Previous" and "Next", between which we want to insert the new node.
+This also can be done in two steps: 
+Update link of the "previous" node, to point to the new node. 
+Update link of the new node, to point to the "next" node.

@@ -1,0 +1,4 @@
+Emphasis on knowledge (1966 – 1974)
+domain specific knowledge is the key to overcome existing difficulties
+knowledge representation (KR) paradigms
+declarative vs. procedural representation

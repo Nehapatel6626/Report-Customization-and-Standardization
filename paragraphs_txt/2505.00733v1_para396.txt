@@ -1,0 +1,3 @@
+(over all (robot started ?r))
+(over all (search pipeline action ?a))
+(over all (action feasible ?a))

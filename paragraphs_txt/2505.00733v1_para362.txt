@@ -1,0 +1,3 @@
+To analyze how ROSA’s development effort scales for more complex use cases, we showcase how
+many elements must be modeled in ROSA’s model to include structural and parameter adaptation in a
+hypothetical adaptation scenario.

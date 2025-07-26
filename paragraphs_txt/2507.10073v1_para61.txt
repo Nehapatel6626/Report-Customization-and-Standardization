@@ -1,0 +1,3 @@
+Data quality issues The presence of Nan values for Llama3.3 70B on multiple items sug-
+gests insufficient response variance to calculate ANOVA statistics, suggesting homogeneous
+responses across different cultural prompts for this model.

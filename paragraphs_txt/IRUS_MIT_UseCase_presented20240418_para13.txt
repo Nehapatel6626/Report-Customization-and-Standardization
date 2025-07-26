@@ -1,0 +1,6 @@
+A more centralized, transparent place to show 
+how much our repository is used and add to the 
+story of how much repositories are used across 
+the board
+- Breakdowns by country of user
+- Breakdowns by content type

@@ -1,0 +1,12 @@
+The scope of our findings is constrained by the following methodological factors. First, our
+experiment includes only a subset of available open-source LLMs, and results may differ
+with other architectures or proprietary models. Second, our assessment of political alignment
+relies exclusively on the MFQ-2, which, while validated in psychological research, represents
+only one framework for measuring political orientation. Alternative instruments might yield
+different insights or patterns of alignment. Third, our persona prompting technique employs
+minimal ideological descriptors, and more elaborate prompting strategies might produce
+different results. Fourth, our cross-cultural comparison was limited to Western and South
+Korean populations, potentially overlooking important cultural nuances in moral reasoning
+across other regions. Finally, the inherent limitations of LLMs — their lack of embodiment,
+experiential learning, and authentic human socialization — fundamentally restrict their
+ability to represent human moral and political reasoning processes.

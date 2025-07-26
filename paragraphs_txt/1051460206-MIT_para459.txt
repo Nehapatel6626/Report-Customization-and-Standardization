@@ -1,0 +1,1 @@
+iteratively evaluates  the partial  derivative  of each  function  with respect to  it's input  (  fl1). Then,

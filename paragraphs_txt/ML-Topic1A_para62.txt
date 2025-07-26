@@ -1,0 +1,7 @@
+Journal of Machine Learning Research www.jmlr.org
+Machine Learning 
+IEEE Transactions on Neural Networks
+IEEE Transactions on Pattern Analysis and Machine Intelligence
+Annals of Statistics
+Journal of the American Statistical Association
+...

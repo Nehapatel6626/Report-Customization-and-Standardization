@@ -1,0 +1,1 @@
+improve the AutoScope's  results  by reducing  the variance  in the AutoScope's  measurements.

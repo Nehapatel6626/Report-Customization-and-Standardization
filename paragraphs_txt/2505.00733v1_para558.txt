@@ -1,0 +1,3 @@
+Mart´ın, F., Clavero, J. G., Matell´an, V., and Rodr´ıguez, F. J. (2021). Plansys2: A planning system
+framework for ros2. In 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+(IROS). 9742–9749. doi:10.1109/IROS51168.2021.9636544

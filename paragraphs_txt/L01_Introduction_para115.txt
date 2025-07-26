@@ -1,0 +1,5 @@
+Inductive Learning: inferring new knowledge from observations (not guaranteed correct)
+Concept/Classification Learning - identify characteristics of class members (e.g., what makes a CS class fun, what makes a customer buy, etc.)
+Unsupervised Learning - examine data to infer new characteristics (e.g., break chemicals into similar groups, infer new mathematical rule, etc.)
+Reinforcement Learning - learn appropriate moves to achieve delayed goal (e.g., win a game of Checkers, perform a robot task, etc.)
+Deductive Learning: recombine existing knowledge to more effectively solve problems

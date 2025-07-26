@@ -1,0 +1,22 @@
+The encoder [46] consists of a stack of identical layers N =
+6, each containing two sub-layers. The first sub-layer is a multi-
+head self-attention mechanism, and the second is a simple, po-
+sitionwise, fully connected feedforward network. A residual
+connection around the two sublayers is used, followed by layer
+normalization. This allows an attention vector to capture the
+contextual links between words in a sentence for each word.
+Self-attention, a specific attention mechanism used by multi-
+headed attention in the encoder, enables models to connect each
+word in the input to other words. Similarly, the decoder com-
+prises a stack of N = 6 identical layers, adding a third sublayer
+to each encoder layer. This additional sub-layer performs multi-
+head attention over the output of the encoder stack. As with
+the encoder, residual connections are utilized around each sub-
+layer, followed by layer normalization. Furthermore, the self-
+attention sub-layer in the decoder stack is modified to prevent
+positions from attending to preceding positions. This means
+that predictions for location i can only involve known outputs
+at positions less than i due to this masking and the offset of
+the output embeddings by one position. Finally, the decoder is
+completed by a linear layer serving as a classifier and a SoftMax
+to determine word probabilities.

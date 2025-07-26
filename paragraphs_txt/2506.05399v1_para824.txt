@@ -1,0 +1,4 @@
+[21] D. Guinness, E. Cutrell, M. R. Morris, Caption crawler: Enabling
+reusable alternative text descriptions using reverse image search, in: Pro-
+ceedings of the 2018 CHI Conference on Human Factors in Computing
+Systems, 2018, pp. 1–11.

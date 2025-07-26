@@ -1,0 +1,3 @@
+[9] Katz, G., Barrett, C., Dill, D.L., Julian, K., Kochenderfer, M.J.: Reluplex:
+An efficient SMT solver for verifying deep neural networks. In: 29th CAV
+(2017)

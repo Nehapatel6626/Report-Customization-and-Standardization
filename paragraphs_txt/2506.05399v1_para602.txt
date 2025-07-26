@@ -1,0 +1,12 @@
+The development of image captioning models faces several
+challenges, including exploding gradients and the generation
+of incorrect sentences. Most modern algorithms rely on Re-
+current Neural Networks and Long-Short-Term Memory Net-
+works, which can suffer from vanished gradients and require
+significant resources, making them less hardware-friendly [84].
+Although Generative Adversarial Networks [97] offer a promis-
+ing alternative, they come with their own set of issues, such
+as the difficulty of training due to the discrete nature of GAN
+[129, 130]. Another approach involves using semantic feature
+vectors or focusing on object-region relationships [131] or fo-
+cusing on object-region relationships [6] [53] [5].

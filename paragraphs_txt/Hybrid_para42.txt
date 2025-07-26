@@ -1,0 +1,1 @@
+The ensemble method takes advantage of the property that the probability of a majority of learners being wrong is lower than that of a single learner being wrong.  This property of course requires the errors to be independent in each learner, which is clearly not true. Theoretically, as the number of learners grows, the number of erroneous predictions decreases.

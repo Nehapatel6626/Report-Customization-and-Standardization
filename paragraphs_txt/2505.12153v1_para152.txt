@@ -1,0 +1,7 @@
+end for
+Secure Aggregation and Global Model Update
+Aggregate: Enc(πG) ← (cid:80)
+Enc(πi)
+Decrypt and update πG ← HE.Dec(Enc(πG))
+budget:
+Update

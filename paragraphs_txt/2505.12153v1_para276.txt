@@ -1,0 +1,21 @@
+In traditional machine learning, the IID assumption is key
+for model convergence and generalization. Nonetheless, this
+assumption often fails in real-world medical FL, particularly
+in RAS, due to substantial variability in hospital data stemming
+from differences in patient demographics, disease prevalence,
+genetic profiles, clinical protocols, and data annotation meth-
+ods. These inherent non-IID traits typically lead to delayed
+global model convergence, client drift, reduced generalizabil-
+ity, and increased communication overhead. To address these
+difficulties, our proposed FDRL framework incorporates: (i)
+weighted aggregation to handle data imbalance, (ii) proximal
+regularization, drawing on FedProx, to reduce client drift, (iii)
+a MSS for dynamic policy adaptation tailored to personalized
+surgical decisions, and (iv) simulated non-IID settings for
+robustness testing. Experimental findings reveal
+that even
+with a high degree of data heterogeneity (H = 0.8), our
+FDRL framework maintains stable surgical accuracy ( 91%),
+Minimises policy divergence, and achieves an optimal privacy-
+utility balance, confirming its efficacy in highly varied medical
+environments.

@@ -1,0 +1,6 @@
+Mycin (1980) 
+Expert level performance in diagnosis of blood infections
+Today: 1,000’s of systems 
+Everything from diagnosing cancer to designing dentures
+Often outperform doctors in clinical trials
+Major hurdle today – non-expert part – doctor/machine interaction

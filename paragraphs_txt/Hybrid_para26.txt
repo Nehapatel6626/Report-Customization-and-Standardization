@@ -1,0 +1,1 @@
+Naïve Bayes classification is used widely because of its simplicity, efficiency and excellent performance in a large variety of applications, including text-classification and spam detection. Naïve Bayes estimates the probability that an instance x belongs to class y as

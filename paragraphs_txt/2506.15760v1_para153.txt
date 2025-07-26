@@ -1,0 +1,1 @@
+7.  Sergiy Zhuk, Niall Robertson, and Sergey Bravyi.  Trotter error bounds and dynamic multi-product

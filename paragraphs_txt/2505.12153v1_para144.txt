@@ -1,0 +1,2 @@
+Receive πG
+for e = 1 to E do

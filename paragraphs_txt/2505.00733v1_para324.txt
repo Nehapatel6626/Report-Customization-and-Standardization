@@ -1,0 +1,9 @@
+Planning: To enable task decision-making and execution with PDDL-based planners in combination with
+ROSA, the planner and plan executor must consider the runtime feasibility of performing the robot’s actions
+as inferred by the KB component. This work maps the action status from ROSA’s knowledge model to
+PDDL by capturing whether the action’s status is feasible as a PDDL predicate of the form “action feasible
+?action” and using it as a precondition to select the respective action. An example can be seen in Listing 4
+where the action my action can only be selected when it does not have an ‘unfeasible’ status in the KB.
+At runtime, if an action becomes unfeasible during execution, the plan executor triggers re-planning to
+generate a new action plan. This results in task execution adaptation and, if the newly selected actions
+require a different architectural configuration, also in architectural adaptation, i.e., TACA.

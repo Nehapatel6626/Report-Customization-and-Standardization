@@ -1,0 +1,4 @@
+SwissDial The SwissDial parallel corpus [6] consists of 26 hours of single-
+sentence samples. Each sentence is spoken by 8 different speakers, each from
+a different region of Switzerland, resulting in approximately 3 hours of record-
+ings for each dialect. The origin of the utterances is written texts in Standard

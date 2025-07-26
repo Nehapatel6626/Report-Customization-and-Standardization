@@ -1,0 +1,1 @@
+channel,  using  the same  values  used by  the  original  pre-trained  VGG 16  network. Next,  we need

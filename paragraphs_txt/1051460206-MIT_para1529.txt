@@ -1,0 +1,1 @@
+approach  as  compared  to  standard  thresholding. Once  we  have  an  accurate  binary image,  we  use

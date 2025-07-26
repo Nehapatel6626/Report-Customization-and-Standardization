@@ -1,0 +1,5 @@
+Definition:  A study design is a specific plan
+ or  protocol for conducting the study, which 
+allows the investigator to translate the 
+conceptual hypothesis into an operational 
+one.

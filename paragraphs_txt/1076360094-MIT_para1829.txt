@@ -1,0 +1,1 @@
+PredicitonPipleine is the class used to facilitate deploying a detection model. Pre-

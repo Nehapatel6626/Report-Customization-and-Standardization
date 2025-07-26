@@ -1,0 +1,1 @@
+2.1 When opened in a spreadsheet program, this cell value will show up as a link

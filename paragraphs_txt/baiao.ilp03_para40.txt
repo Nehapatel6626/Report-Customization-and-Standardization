@@ -1,0 +1,1 @@
+A theory is a set of (function-free) definite program clauses, where a definite program clause is a clause of the form of (1).

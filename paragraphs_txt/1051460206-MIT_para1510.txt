@@ -1,0 +1,3 @@
+Turn  pixels 
+to 
+background

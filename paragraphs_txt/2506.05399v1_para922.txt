@@ -1,0 +1,3 @@
+[104] Y. Wei, C. Wu, G. Li, H. Shi, Sequential transformer via an outside-in
+attention for image captioning, Engineering Applications of Artificial
+Intelligence 108 (2022) 104574.

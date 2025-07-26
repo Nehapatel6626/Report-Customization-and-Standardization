@@ -1,0 +1,2 @@
+.
+wide variety  of non-linear  functions, but the most popular  is the  Rectified  Linear Unit  (ReLU).

@@ -1,0 +1,1 @@
+and for each point to compute the standard deviation between the rods. It gives the kind

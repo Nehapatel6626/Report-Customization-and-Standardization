@@ -1,0 +1,3 @@
+[23] P. P. Khaing, et al., Attention-based deep learning model for image cap-
+tioning: a comparative study, International Journal of Image, Graphics
+and Signal Processing 11 (6) (2019) 1.

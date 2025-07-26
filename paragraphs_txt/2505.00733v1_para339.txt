@@ -1,0 +1,3 @@
+Figure 5. BT pattern for TACA with ROSA. The IsActionFeasible condition node takes the action name
+as a parameter. The MyAction node derives from the proposed RosaAction node and implements the action
+execution. The action names in the BT must match the names defined in the KB.

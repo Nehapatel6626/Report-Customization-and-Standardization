@@ -1,0 +1,4 @@
+To handle the interaction between PlanSys2 and ROSA’s KB, this work provides a custom ROS 2 node
+called RosaPlanner and a custom PlanSys2 action called RosaAction. The RosaPlanner is responsible for
+querying the KB and updating the PDDL problem formulation with information on whether the ROSA
+actions are feasible or not using the aforementioned “action feasible ?action” PDDL predicate. The

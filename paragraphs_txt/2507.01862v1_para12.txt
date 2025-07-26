@@ -1,0 +1,6 @@
+A5: By making “acknowledgment” and “reset” steps explicit (and incorporating step-by-step reasoning via CoT), the 
+approach: 
+•  Preserves clarity of context across many turns. 
+•  Reduces user confusion and the potential for erroneous actions. 
+•  Aligns domain-specific chatbot interactions with back-end logic. 
+•  Improves coherence, user satisfaction, and efficiency in tasks like hotel booking or customer management.

@@ -1,0 +1,11 @@
+Figure 14 illustrates the general architecture of the attention
+model. This innovation has greatly enhanced image captioning,
+allowing the algorithm to focus on important image aspects and
+ignore redundant content. This model implements attention as
+a weighted sum of encoder outputs. A CNN first processes the
+image within the encoder-decoder framework, resulting in fea-
+ture maps. Subsequently, the attention module assigns a weight
+to each image pixel based on the feature maps and a hidden
+state. These weights enable the decoder to generate words for
+the output text while concentrating on the most pertinent parts
+of the image.

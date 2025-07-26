@@ -1,0 +1,1 @@
+applies  geometric  transformations  on  images that the  CNN  should be  invariant  to.  The  result  is a

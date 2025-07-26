@@ -1,0 +1,13 @@
+“The term cybersecurity infrastructure includes--
+(A) equipment that is integral to research and education capabilities in cybersecurity, including, but not limited to--
+(i) encryption devices;
+(ii) network switches;
+(iii) routers;
+(iv) firewalls;
+(v) wireless networking gear;
+(vi) protocol analyzers;
+(vii) file servers;
+(viii) workstations;
+(ix) biometric tools; and
+(x) computers; and
+(B) technology support staff (including graduate students) that is integral to research and education capabilities in cybersecurity.”

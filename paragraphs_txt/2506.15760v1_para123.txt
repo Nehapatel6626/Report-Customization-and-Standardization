@@ -1,0 +1,5 @@
+The phases spread to all directions, so most of them cancel each other out. For some cases 
+where z is related to r through a0, the phases are a multiple of 2π. Figure 1 shows a QFT 
+output with a series of “spikes” that occur when z is equal to d time T over r. This can be 
+used to calculate the period r. Figure 5 shows the results of the quantum phase operation 
+in the frequency domain.

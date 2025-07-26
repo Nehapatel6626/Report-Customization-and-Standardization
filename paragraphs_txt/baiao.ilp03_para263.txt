@@ -1,0 +1,1 @@
+Getoor, L., Taskar, B., & Koller, D. (2001). Selectivity Estimation using Probabilistic Models, Proc 2001 ACM SIGMOD, Santa Barbara, CA.

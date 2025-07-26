@@ -1,0 +1,4 @@
+Attributes
+name:String @key
+status:String
+is-required:Bool

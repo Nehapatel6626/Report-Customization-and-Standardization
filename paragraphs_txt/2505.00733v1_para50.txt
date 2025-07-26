@@ -1,0 +1,7 @@
+Despite advances in self-adaptive robotic systems, fully addressing task and architectural co-adaptation
+(TACA) with reusable and scalable solutions remains an open challenge. While some studies explore the
+relationship between task execution and architectural adaptation, only a few explicitly address TACA—and
+those that do face limitations in reusability and practical applicability in robotics. This work aims to
+bridge this gap by introducing a knowledge-based framework that can capture the necessary knowledge to
+solve TACA across different use cases, can be directly applied to robotic systems, and supports modular
+modifications for incorporating different adaptation strategies.

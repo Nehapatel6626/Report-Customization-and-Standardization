@@ -1,0 +1,1 @@
+FORTE is responsible for decomposing the set of examples and create extensional definitions for these attributes, relations and objects that are accessed through the FORTE predicate example/1 illustrated in figure 5. The FDT file contains predicates from the initial domain theory that FORTE is not allowed to revise, and is illustrated in figure 5.

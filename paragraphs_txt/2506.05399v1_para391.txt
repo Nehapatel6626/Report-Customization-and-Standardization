@@ -1,0 +1,7 @@
+The Monte Carlo approach is used in hard attention to ac-
+curately calculate the gradient descent during backpropagation,
+while soft attention uses the standard backpropagation method
+[118]. This allows the model to concentrate its computation
+on specific salient regions while generating captions, using soft
+and hard attention to understand the concept of attention in im-
+age annotation.

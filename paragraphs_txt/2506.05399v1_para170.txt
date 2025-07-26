@@ -1,0 +1,15 @@
+The transformer is a neural network architecture introduced
+in [46]. It excels at handling sequential text data and comprises
+a stack of encoder and decoder layers. Each encoder and de-
+coder stack contains the corresponding embedding layers for
+their inputs and an output layer to generate the final output.
+The encoder includes a self-attention layer for calculating rela-
+tionships between words in the sequence, a feedforward layer,
+and a second encoder-decoder attention layer. Residual skip
+connections and two LayerNorm layers surround the encoder
+and decoder layers. Data inputs for the encoder and decoder
+include the embedding and position encoding layers. The en-
+coder stack consists of multiple encoders, each with a feedfor-
+ward and multi-head attention layers. In contrast, the decoder
+stack includes multiple decoders, each with two feedforward
+layers and multi-head attention [46].

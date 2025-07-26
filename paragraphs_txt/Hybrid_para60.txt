@@ -1,0 +1,1 @@
+Figure 1: This graph shows the variation of total misclassifications and false positives with λ. False negatives is the difference between the two curves.

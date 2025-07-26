@@ -1,0 +1,1 @@
+2.6 When opened in Excel, this formula launches the calculator program on the

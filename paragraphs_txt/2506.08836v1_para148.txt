@@ -1,0 +1,4 @@
+Apart from gender, we do not have detailed demographic information about
+the speakers of SRB-300. We only know the location of the broadcasting station
+and not the origins of the speakers. Local broadcasting stations tend to promote
+themselves by employing presenters who speak the local dialect. Thus, we assume

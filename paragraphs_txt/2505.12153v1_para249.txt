@@ -1,0 +1,15 @@
+The federated aggregator performs a weighted aggregation
+directly on the encrypted data using the additive homomor-
+phic property, computing the global encrypted parameters as
+Enc(θglobal) = (cid:80)N
+ni
+n Enc(θi). Here, N represents the total
+number of hospitals, ni is the number of training samples
+at hospital i, and n is the total number of training samples
+across all hospitals. After aggregation, decryption occurs only
+at the trusted global server using the private key sk, such that
+θglobal = HE.Decsk (Enc(θglobal)), where HE.Dec denotes
+the homomorphic decryption function. Finally, the decrypted
+global model parameters θglobal are securely distributed back
+to all local hospitals, completing the federated training round,
+i.e., Server → Hospitals : θglobal.

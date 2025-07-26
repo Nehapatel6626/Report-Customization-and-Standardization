@@ -1,0 +1,12 @@
+Table 4 summarizes the detailed schedules documented
+in Tables 12, 13, and 14, in Appendix E.8. DeepSeek
+demonstrated superior scheduling efﬁciency by optimiz-
+ing James’s airport wait time for Emily’s pickup, requir-
+ing only two iterations. While GPT4o eventually pro-
+duced a valid solution in three iterations, it created sub-
+optimal travel patterns by having Michael make separate
+trips. Claude’s solution, though feasible in two iterations,
+included unnecessary travel between pickup tasks. This ex-
+periment highlighted how MP’s explicit constraint speciﬁ-
+cation and common-sense augmentation enabled consistent
+performance improvement across different LLMs.

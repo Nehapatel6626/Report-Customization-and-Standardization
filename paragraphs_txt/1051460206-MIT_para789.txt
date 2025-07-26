@@ -1,0 +1,1 @@
+less than 20%.  To determine  the contrast of an element,  we averaged  the values  of all the pixels

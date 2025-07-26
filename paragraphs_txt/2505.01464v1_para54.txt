@@ -1,0 +1,2 @@
+f (An, sn) = arg min
+a∈Rd

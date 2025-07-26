@@ -1,0 +1,6 @@
+1: Initialise πG and πi for all Hi
+2: for each round k = 1 to T do
+3:
+4:
+5:
+6:

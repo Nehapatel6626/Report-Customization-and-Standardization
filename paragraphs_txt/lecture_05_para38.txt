@@ -1,0 +1,7 @@
+Segmenting words in running text
+Segmenting sentences in running text
+Why not just periods and white-space?
+Mr. Sherwood said reaction to Sea Containers’ proposal has been "very positive." In New York Stock Exchange composite trading yesterday, Sea Containers closed at $62.625, up 62.5 cents.
+“I said, ‘what’re you? Crazy?’ “ said Sadowsky. “I can’t afford to do that.’’
+Words like:
+cents.	said,		positive.”	Crazy?

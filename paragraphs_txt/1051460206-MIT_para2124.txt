@@ -1,0 +1,3 @@
+WBCs  and  10um  microbeads.  Since all synthetic  solutions stem  from different mixtures  and
+dilutions  of these  reference  solutions,  by knowing  the particle  concentration  of the reference
+solutions,  we  can calculate  the  concentrations  of the synthetic  urine  solutions.

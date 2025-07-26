@@ -1,0 +1,1 @@
+data.  Without a  normalized  data distribution,  the  CNN  would focus  on absolute  feature  values,

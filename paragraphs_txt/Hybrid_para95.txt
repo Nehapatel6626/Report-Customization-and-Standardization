@@ -1,0 +1,1 @@
+[6]  S.B. Gelfand, C.S. Ravishankar,  and E.J. Depl, “An Iterartive Growing and Pruning Algorithm for Classification Tree Design,” IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 13, No. 2, 1991.

@@ -1,0 +1,2 @@
+⌉ 
+2.  Apply a Hadamard gate to form an equal weighted superposition of all integers:

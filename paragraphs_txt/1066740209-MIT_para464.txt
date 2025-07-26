@@ -1,0 +1,1 @@
+example, risk objects, such as relative risk are presented as "relative risk (number)".

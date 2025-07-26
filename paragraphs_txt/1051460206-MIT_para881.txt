@@ -1,0 +1,1 @@
+and implicitly emphasize  higher  intensity pixels.  With  a normalized  data distribution,  the CNN

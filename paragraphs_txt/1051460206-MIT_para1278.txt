@@ -1,0 +1,1 @@
+the CNN  architecture  used  in the  resolution  experiment.  In fact,  the parameters  in Table 4

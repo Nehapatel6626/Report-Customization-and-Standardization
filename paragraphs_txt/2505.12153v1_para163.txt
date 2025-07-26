@@ -1,0 +1,4 @@
+Future work will investigate advanced techniques such as
+Federated Proximal (FedProx), clustered FL, and personalised
+layers to enable hospital-specific fine-tuning while preserving
+the benefits of collaborative global learning.

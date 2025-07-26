@@ -1,0 +1,7 @@
+challenge optimization [2]. These automated measures mainly
+focus on lexical or semantic data and do not fully capture the
+complex relationships between words and objects [46]. To en-
+hance captioning models, it is essential to improve automatic
+evaluation methods to more accurately reflect human judgments
+and address gaps in understanding object and word relation-
+ships [103].

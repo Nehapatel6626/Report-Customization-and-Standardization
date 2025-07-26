@@ -1,0 +1,10 @@
+Machine Learning
+Study of algorithms that
+improve their performance
+at some task
+with experience
+Optimize a performance criterion using example data or past experience.
+Role of Statistics: Inference from a sample
+Role of Computer science: Efficient algorithms to
+Solve the optimization problem
+Representing and evaluating the model for inference

@@ -1,0 +1,1 @@
+There exist tools that can be used to detect vulnerabilities that allow for CSV injection

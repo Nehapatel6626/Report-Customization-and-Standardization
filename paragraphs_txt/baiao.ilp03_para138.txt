@@ -1,0 +1,1 @@
+Antecedent deletion: The antecedent fdt:cardinality(B,large) was removed from the rule:

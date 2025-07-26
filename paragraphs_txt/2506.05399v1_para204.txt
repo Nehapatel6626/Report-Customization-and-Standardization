@@ -1,0 +1,8 @@
+The transformers incorporate positional encoding to intro-
+duce the relative or absolute positions of the tokens into the
+model. This helps maintain the parallel execution format of the
+token sequence. The positional encoding values are calculated
+using sine and cosine functions to represent the position and
+training parameters. These positional encodings are combined
+with language features to create embeddings that are aware of
+the position within the sequence.

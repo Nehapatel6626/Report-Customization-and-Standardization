@@ -1,0 +1,4 @@
+[59] H. Hejazi, K. Shaalan, Deep learning for arabic image captioning: A
+comparative study of main factors and preprocessing recommendations,
+International Journal of Advanced Computer Science and Applications
+12 (11) (2021).

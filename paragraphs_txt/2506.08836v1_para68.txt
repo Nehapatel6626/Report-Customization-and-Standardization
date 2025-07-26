@@ -1,0 +1,5 @@
+Manual Correction The pre-transcriptions from the previous phase were man-
+ually reviewed and adjusted according to predefined rules (see Appendix D).
+Along with the transcription text, the start and end timestamps of the segments
+were revised to ensure that the entire audio content of the transcription was
+included as accurately as possible.

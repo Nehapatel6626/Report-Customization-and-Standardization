@@ -1,0 +1,8 @@
+In Mixed Integer Linear Programming (MILP), the objective is to optimize a
+linear function subject to linear constraints, where some or all of the variables
+are required to be integers [2]. MILP is a crucial technique in our work for
+determining the lower and upper bounds of each neuron in the ANNs. For
+example, we utilize a minimization problem to determine the lower bound of
+neurons within ANNs. This process involves formulating an objective function
+that seeks to minimize the lower bound, subject to constraints that reflect the
+behaviour of ANNs. To illustrate the structure of a MILP, we provide an example

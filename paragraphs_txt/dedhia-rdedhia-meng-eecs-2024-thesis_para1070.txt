@@ -1,0 +1,1 @@
+fn = f . name [: -4] + " _sanitized . csv "

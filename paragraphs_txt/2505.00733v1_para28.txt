@@ -1,0 +1,1 @@
+3. a reference open-source implementation of the framework that can be reused for self-adaptive systems

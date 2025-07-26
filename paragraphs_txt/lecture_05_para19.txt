@@ -1,0 +1,4 @@
+δ3((xa,ya), i:o) = (xb,yb) iff
+There exists c such that
+δ1(xa, i:c) = xb AND
+δ2(ya, c:o) = yb

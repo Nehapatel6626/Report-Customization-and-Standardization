@@ -1,0 +1,2 @@
+Fig. 5: Recall trend increasing the number of
+Hero (Fine-Tuned and Not) vs ML-based Tools.

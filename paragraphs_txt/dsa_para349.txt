@@ -1,0 +1,2 @@
+The algorithms for the insertion and deletion operations on a doubly linked list are somewhat more complicated than the corresponding operations on a singly linked list. 
+The reason is clear: There are more pointers to keep track of in a doubly linked list.

@@ -1,0 +1,1 @@
+Entrez Direct (EDirect) is a Unix command line package that allows one to search

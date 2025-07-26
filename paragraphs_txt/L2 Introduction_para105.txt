@@ -1,0 +1,2 @@
+Comparison of natural language processing algorithms used to predict if 
+text is about Christianity or Atheism. Explainer extracts important words used in predictions.

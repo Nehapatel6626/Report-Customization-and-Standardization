@@ -1,0 +1,1 @@
+between 2-4.  All  fully-connected  layers  use the  ReLU function  as the  activation  function,  except

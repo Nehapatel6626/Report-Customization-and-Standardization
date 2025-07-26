@@ -1,0 +1,5 @@
+Model-specific patterns Mistral 7B shows the least differentiation between personas, with
+non-significant results (34 of 36 items). Conversely, Llama3.1 8B demonstrates somewhat
+greater persona sensitivity, with significant differences (21 of 36 items), though still failing
+to differentiate in most cases. In contrast, Qwen 2.5 7B has only a few non-significant results
+(2 of 36 items).

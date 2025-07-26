@@ -1,0 +1,10 @@
+Developing non-visual words such as ”to” and ”itself” does
+not require much visual information. Therefore, using image
+features as key-value pairs for cross-attention to create cap-
+tions for images is unsuitable. In the Task-Adaptive Attention
+model proposed in [115], task-adaptive vectors were included
+to learn nonvisual signals that can help address this issue in im-
+age captioning. The comprehensive Transformer model with
+Task-Adaptive Attention integrates the suggested task-adaptive
+attention module into a standard transformer-based encoder-
+decoder architecture.

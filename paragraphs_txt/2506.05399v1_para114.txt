@@ -1,0 +1,11 @@
+The purpose of the [26] study is to present a thorough re-
+view of image captioning techniques. The researcher created
+a taxonomy of visual encoding and language modeling tech-
+niques, emphasizing their essential features and restrictions. A
+comprehensive survey was presented in [2]. This survey report
+provided an analysis of current deep learning-based image cap-
+tioning methods, and a taxonomy of image captioning meth-
+ods was provided. This study concluded that although deep
+learning-based image captioning techniques have made signifi-
+cant strides in recent years, a reliable technique still needs to be
+developed.

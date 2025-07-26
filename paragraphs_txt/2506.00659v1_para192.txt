@@ -1,0 +1,7 @@
+kkrunchy
+MPRESS
+Obsidium
+PECompact
+Petite
+Themida
+UPX

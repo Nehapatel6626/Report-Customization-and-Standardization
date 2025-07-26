@@ -1,0 +1,7 @@
+We want to run a grammar backwards to find possible structures for a sentence
+Parsing can be viewed as a search problem
+Parsing is a hidden data problem
+For the moment, we want to examine all structures for a string of words
+We can do this bottom-up or top-down
+This distinction is independent of depth-first or breadth-first search – we can do either both ways
+We search by building a search tree which his distinct from the parse tree

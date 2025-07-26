@@ -1,0 +1,1 @@
+• Compute total time for each route using D.

@@ -1,0 +1,7 @@
+In high-dimensional LLM systems, identity often emerges not as a singular attractor but
+as a set of modular, context-sensitive attractor manifolds. Let T = (cid:83)
+i Ti be the collection of
+such attractors, each Ti ⊂ Rd \ Σ. The agent’s internal state An may converge to different Ti
+depending on the recursive trajectory and sustained epistemic tension. Identity is preserved
+not by fixed-point uniqueness, but by the system’s ability to maintain coherent recursive
+transformation within and across these modular regions.

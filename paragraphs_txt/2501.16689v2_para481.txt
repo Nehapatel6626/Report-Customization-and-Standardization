@@ -1,0 +1,2 @@
+−∞
+−tour_length if tour valid

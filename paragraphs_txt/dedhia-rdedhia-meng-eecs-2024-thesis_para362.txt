@@ -1,0 +1,1 @@
+Figure 2.2: When opened in Excel, each of these formulas funnels data from the CSV file

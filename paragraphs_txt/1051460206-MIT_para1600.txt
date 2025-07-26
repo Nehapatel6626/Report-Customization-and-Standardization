@@ -1,0 +1,1 @@
+use  crops during training,  we  still  can use the  full-scale  AutoScope  images  when we  later apply

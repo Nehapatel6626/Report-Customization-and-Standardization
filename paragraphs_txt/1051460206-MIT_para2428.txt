@@ -1,0 +1,3 @@
+Table 17.  The results reported by  the medical laboratory for the solutions sent for clinical
+urinalysis. The medical laboratory did not report microbeads since they are not clinically
+relevant particles, but we indicate 0  microbeads for each solutionfor completeness.

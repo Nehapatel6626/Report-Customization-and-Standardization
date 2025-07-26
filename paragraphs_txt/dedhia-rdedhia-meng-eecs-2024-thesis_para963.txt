@@ -1,0 +1,1 @@
+cell_copy = re . sub ( p_a1_ref , " 0 " , cell_copy )

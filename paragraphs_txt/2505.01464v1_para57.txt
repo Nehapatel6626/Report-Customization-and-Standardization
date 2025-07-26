@@ -1,0 +1,2 @@
+This corresponds to Friston’s free energy minimization and Aquinas’s account of natural
+teleology. See Friston and Aquinas [4, 1].

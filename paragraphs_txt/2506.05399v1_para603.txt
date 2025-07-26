@@ -1,0 +1,5 @@
+Current methods for evaluating caption quality use logarith-
+mic likelihood scores and automated metrics such as BLEU,
+METEOR, ROUGE, CIDEr, and SPICE. However, these met-
+rics often do not correlate well with human evaluations. Despite
+SPICE and CIDEr being closer to human judgment, they still

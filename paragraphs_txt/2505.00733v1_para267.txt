@@ -1,0 +1,6 @@
+The KB component consists of the TypeDB implementation of the proposed knowledge model and
+inference rules, the ROS interfaces for communicating with the MAPE components, and the logic to
+manage ROSA’s knowledge which is stored in a TypeDB database. In this reference ROSA implementation,
+TypeDB’s reasoner fulfills the role of the analyze component, executing ROSA’s inference rules (Figure 3
+to infer new data when the KB is queried. Thus, since TypeDB’s reasoner is part of TypeDB, there is no
+separate analyze component.

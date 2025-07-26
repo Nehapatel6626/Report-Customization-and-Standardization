@@ -1,0 +1,7 @@
+GPT-4o and DeepSeek struggled with real-world travel lo-
+gistics, omitting key human considerations such as luggage
+claim time, rental car processes, and spatial relationships
+between airport terminals and the rental center (Table 1).
+These gaps forced manual constraint additions, highlight-
+ing LLM’s inability to integrate experiential knowledge, a
+gap addressed by the MACI common sense agent.

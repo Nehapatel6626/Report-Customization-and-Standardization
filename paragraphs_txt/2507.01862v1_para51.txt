@@ -1,0 +1,2 @@
+LLM Output 
+<isCustomerConfirmed>yes</isCustomerConfirmed>

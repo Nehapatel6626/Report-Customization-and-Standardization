@@ -1,0 +1,1 @@
+particles at the interface between clad and core could create a defect. Using Sterlite’s rule of

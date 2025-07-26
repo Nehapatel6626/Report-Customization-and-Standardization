@@ -1,0 +1,9 @@
+Stack operations
+create
+destroy
+push
+pop
+top
+is_empty
+Stack property: if x is on the stack before y is pushed, then x will be popped after y is popped
+	LIFO: Last In First Out

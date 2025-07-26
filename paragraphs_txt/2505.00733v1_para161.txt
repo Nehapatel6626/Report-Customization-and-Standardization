@@ -1,0 +1,4 @@
+name:String @key
+always-improve:Bool
+status:String
+is-required:Bool

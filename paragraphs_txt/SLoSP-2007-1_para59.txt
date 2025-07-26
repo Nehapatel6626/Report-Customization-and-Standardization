@@ -1,0 +1,7 @@
+Proposed simple structural factors
+Right association (Kimball 1973) = ‘low’ or ‘near’ attachment = ‘early closure’ (of NP)
+Minimal attachment (Frazier 1978). Effects depend on grammar, but gave ‘high’ or ‘distant’ attachment = ‘late closure’ (of NP) under the assumed model
+Which is right?
+Such simple structural factors dominated in early psycholinguistics (and are still widely invoked).
+In the V NP PP context, right attachment usually gets right 55–67% of cases.
+But that means it gets wrong 33–45% of cases.

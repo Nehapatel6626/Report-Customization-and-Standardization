@@ -1,0 +1,1 @@
+image acquisition  properties  to  perform  automated  cell  detection  and classification.

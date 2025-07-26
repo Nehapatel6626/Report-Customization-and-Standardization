@@ -1,0 +1,1 @@
+A grammar G generates a language model L.

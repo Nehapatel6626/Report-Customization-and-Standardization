@@ -1,0 +1,4 @@
+Fig. 4. Improvement of mean BLEU score on the SRB-300 test set for all samples
+of each broadcasting station for the ZHAW large-v3 model, which was fine-tuned on
+SRB-300. The broadcast stations not in the training set are marked with a star. The
+y-axis begins at 40 for better readability.

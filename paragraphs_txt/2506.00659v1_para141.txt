@@ -1,0 +1,10 @@
+Packer
+kkrunchy
+MPRESS
+Obsidium
+PECompact
+PELock
+Petite
+tElock
+Themida
+UPX

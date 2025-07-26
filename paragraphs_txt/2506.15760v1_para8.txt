@@ -1,0 +1,7 @@
+Quantum algorithms are moving from classical pre-utility to error mitigation, while error 
+correction is  in  sight.  The  new  IBM  133 qubit Heron  quantum  chip  is  able  to  achieve 
+30% improvement in qubit coherence through active two-level system mitigation. Circuit 
+depth can be significantly reduced by using the transpiled service with the help of AI [3]. 
+With HPC workload manager, Qiskit has extended its capacity to support both quan- 
+tum computers powered by Quantum Process Units (QPU) and high-performance classical 
+computers powered with CPU, GPU, and Artificial Intelligence Unit (AIU) [4, 5].

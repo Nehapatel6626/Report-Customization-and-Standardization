@@ -1,0 +1,3 @@
+[68] T. Jiang, Z. Zhang, Y. Yang, Modeling coverage with semantic embed-
+ding for image caption generation, The Visual Computer 35 (11) (2019)
+1655–1665.

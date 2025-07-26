@@ -1,0 +1,1 @@
+An “explainer” is an algorithm that extracts the basis for a prediction that can be judged by a knowledgeable person.

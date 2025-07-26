@@ -1,0 +1,2 @@
+LLMs reveal three limitations that fundamentally under-
+mine their effectiveness in complex planning scenarios:

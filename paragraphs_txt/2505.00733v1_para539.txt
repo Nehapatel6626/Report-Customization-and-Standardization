@@ -1,0 +1,1 @@
+Dorn, C. and Pribadi, H. (2024). TypeQL: A type-theoretic & polymorphic query language. In 2024 ACM

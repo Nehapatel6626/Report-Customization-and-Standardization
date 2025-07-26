@@ -1,0 +1,4 @@
+[66] J. Bineeshia, Image caption generation using cnn-lstm based approach,
+in: Proceedings of the First International Conference on Combinatorial
+and Optimization, ICCAP 2021, December 7-8 2021, Chennai, India,
+2021, pp. 1–9.

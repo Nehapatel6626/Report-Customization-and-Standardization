@@ -1,0 +1,2 @@
+dimensionality  of the  data is reduced through  the pooling  layer.  And,  the  dimensionality  of the
+weights  is reduced by  sharing  weights across  neurons  (represented  through learned  filters per

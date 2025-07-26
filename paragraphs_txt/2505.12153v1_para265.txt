@@ -1,0 +1,10 @@
+indicated by a shift towards warmer colours, while accuracy
+declines, reflected by a transition towards cooler colours. This
+visualization effectively demonstrates the privacy-utility trade-
+off inherent in differentially private FL higher noise ensures
+stronger privacy guarantees but comes at the cost of reduced
+model accuracy, and vice versa. Fig. 5 demonstrates the perfor-
+mance differences between FL and CL across four key evalu-
+ation metrics in privacy-preserving RAS. The selected metrics
+Task-Specific Accuracy, Surgical Risk Mitigation, PLR, and
+OPE offer a comprehensive assessment of both approaches.

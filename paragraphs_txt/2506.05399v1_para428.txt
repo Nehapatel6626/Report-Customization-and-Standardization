@@ -1,0 +1,7 @@
+The Flickr30K dataset [122] is an expanded version of Flick-
+r8K, containing 31,783 captioned images. Each image is ac-
+companied by five descriptive sentences, providing a diverse
+linguistic representation. The dataset primarily consists of pho-
+tographs depicting people engaged in everyday activities and
+events, making it a valuable resource for training and evaluat-
+ing image captioning models.

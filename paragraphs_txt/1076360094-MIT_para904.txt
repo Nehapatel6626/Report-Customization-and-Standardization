@@ -1,0 +1,8 @@
+Figure 4-1: KDE approximation of Probability Density for the PDFRate scores. This
+plot shows the classiﬁcation scores for diﬀerent types of ﬁles. The Benign ﬁles are
+shown as pink, the Contagio malware samples are shown in purple, the EvadeML
+variants are shown in blue and the Max-Diﬀ variants are shown in green. The KDE
+plot was generated with Gaussian kernel of width 0.15, and 0.15 , 0.17,.17, for the
+Benign, Contagio, EvadeML, and Max-Diﬀ ﬁles respectively. In this case the Evade-
+ML, Max-Diﬀ, and Benign ﬁles had very similar probability densities. In order to
+diﬀerentiate them, diﬀering width kernels were used.

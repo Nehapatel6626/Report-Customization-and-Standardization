@@ -1,0 +1,8 @@
+Where J(π) is the objective function, representing the ex-
+pected cumulative reward under policy π. E[·] denotes the
+expectation operator, which computes the expected value of
+the sum. T is the time horizon, representing the total number of
+time steps in the RL process. γ ∈ [0, 1] is the discount factor,
+determining the importance of future rewards. R(st, at) is the
+immediate reward received at time step t for taking action at
+in state st.

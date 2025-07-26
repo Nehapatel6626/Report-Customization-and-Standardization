@@ -1,0 +1,1 @@
+the data point i, it can be expressed in function of a(i) the average distance between i and all

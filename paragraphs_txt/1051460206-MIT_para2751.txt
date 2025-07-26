@@ -1,0 +1,3 @@
+Badrinarayanan,  V.,  Kendall,  A.  & Cipolla,  R.  SegNet:  A  Deep Convolutional  Encoder-
+Decoder Architecture  for Image  Segmentation.  IEEE Trans. Pattern Anal.  Mach. Intell.
+39, 2481-2495  (2017).

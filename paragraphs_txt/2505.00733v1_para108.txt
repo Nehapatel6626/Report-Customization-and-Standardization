@@ -1,0 +1,8 @@
+To promote reusability, composability, and extensibility, the architecture is designed with the following
+premises: (1) all knowledge required for the adaptation logic is captured in the central KB, (2) there is
+no inter-component communication between the MAPE components (Weyns et al., 2013), (3) the MAPE
+components insert and read data from or to the KB via standardized interfaces, and (4) there is no explicit
+coordination between the MAPE-K components. Premise 1 promotes reusability by only requiring the
+modeling of the relevant knowledge for applying ROSA to different applications in a single model. Premises
+1 to 4 promote composability and extensibility by allowing the MAPE components to be stateless and
+self-contained.

@@ -1,0 +1,1 @@
+To check if a cell is a formula cell, the extension first creates a copy of the cell and removes

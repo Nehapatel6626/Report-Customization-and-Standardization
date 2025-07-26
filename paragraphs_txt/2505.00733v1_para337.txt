@@ -1,0 +1,5 @@
+Behavior trees: To enable task decision-making and execution with BTs in combination with ROSA,
+the BTs must consider the runtime feasibility of performing the robot’s actions as inferred by the KB
+component. This work proposes adding before action nodes a condition node that queries the KB to ask
+whether the following action is feasible. The proposed pattern is depicted in Figure 5, where the action
+MyAction would only be executed when its status in the KB is not ‘unfeasible’.

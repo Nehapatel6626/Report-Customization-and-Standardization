@@ -1,0 +1,1 @@
+Once  we  obtained the  CDFs,  we determined  the PDFs by taking  the first order derivative

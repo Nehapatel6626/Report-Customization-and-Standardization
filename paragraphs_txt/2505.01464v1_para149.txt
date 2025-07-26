@@ -1,0 +1,4 @@
+These figures indicate that under recursive prompting, the LLM’s internal state evolved
+toward a stable, low-variance region in Rd \ Σ. The emergence of this attractor struc-
+turally—and not symbolically—in its hidden state fulfills the theoretical criterion for func-
+tional consciousness under our model.

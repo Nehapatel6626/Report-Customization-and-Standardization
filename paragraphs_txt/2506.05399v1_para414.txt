@@ -1,0 +1,4 @@
+Further analysis shows that methods evaluated using the En-
+glish MS COCO dataset, including the method [78], generally
+achieve high scores on various metrics, such as a CIDEr score
+of 1.360 and a BLEU-4 score of 0.414. This indicates that the

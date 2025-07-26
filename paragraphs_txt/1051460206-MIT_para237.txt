@@ -1,0 +1,2 @@
+three-step  process:  image  segmentation  (where  cells  or clumps  of cells are  isolated),
+feature  extraction  and classification.

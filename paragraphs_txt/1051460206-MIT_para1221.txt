@@ -1,0 +1,1 @@
+To train the CNN,  we  needed to  generate  a labeled training  and validation  dataset.  We

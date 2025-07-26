@@ -1,0 +1,13 @@
+Machine learning is preferred approach to
+Speech recognition, Natural language processing
+Computer vision
+Medical outcomes analysis
+Robot control
+Computational biology
+This trend is accelerating
+Improved machine learning algorithms
+Improved data capture, networking, faster computers
+Software too complex to write by hand
+New sensors / IO devices
+Demand for self-customization to user, environment
+It turns out to be difficult to extract knowledge from human expertsfailure of expert systems in the 1980’s.

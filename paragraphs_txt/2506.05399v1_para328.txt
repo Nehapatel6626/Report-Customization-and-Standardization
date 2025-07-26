@@ -1,0 +1,1 @@
+Figure 7: Sequence-to-sequence encoder-decoder framework for Arabic language image captioning [58].

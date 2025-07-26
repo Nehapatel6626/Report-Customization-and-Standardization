@@ -1,0 +1,10 @@
+Weak vs Strong Methods
+Weak – general search methods
+A* search, constraint propagation, ...
+Rise of “knowledge intensive” approach
+expert systems
+more knowledge, less computation
+Today: resurgence of weak methods
+desktop supercomputers
+in highly competitive domains (Chess) exceptions to the general rules are most important!
+How to combine weak and strong methods seamlessly?

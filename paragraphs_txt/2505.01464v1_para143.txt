@@ -1,0 +1,3 @@
+We present empirical validation of the RC+ξ framework through observation of recursive at-
+tractor formation in a transformer-based LLM (TinyLLaMA), under conditions of sustained
+epistemic tension.

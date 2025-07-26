@@ -1,0 +1,1 @@
+The agent function maps from percept histories to actions:

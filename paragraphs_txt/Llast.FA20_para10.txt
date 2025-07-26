@@ -1,0 +1,8 @@
+Client-Server  (NFS)
+The Web
+The Internet
+A wireless network
+DNS
+Gnutella or BitTorrent (peer to peer overlays)
+A “cloud”, e.g., Amazon EC2/S3, Microsoft Azure
+A datacenter, e.g., NCSA, a Google datacenter, The Planet

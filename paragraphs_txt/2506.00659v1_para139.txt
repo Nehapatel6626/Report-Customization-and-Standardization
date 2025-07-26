@@ -1,0 +1,13 @@
+Effectiveness on different packers. Here, we zoom in on the results obtained
+from the best configuration in the previous experiment, namely the one with 100
+samples for packers. The test set is the remaining part of the dataset. Table 3
+shows that PackHero performs very well on each packer in the dataset. We
+have a near-maximum accuracy in general and equally good results in all other
+metrics for other packers. The only exception is tElock, which is found to have
+a higher FPR than the others. This result has chain effects on precision and
+F1-score. An answer can be found by looking at the clusters’ composition. In
+particular, tElock produces two clusters of 1 and 99 samples. In its current
+version, PackHero merges single-sample clusters with the nearest one. As a result,
+for tElock, we obtain a single cluster consisting mostly of similar samples, along
+with one slightly different sample, which lowers intra-cluster similarity. This
+leads to a reduced threshold (≈ 0.10 lower than others) and lower confidence

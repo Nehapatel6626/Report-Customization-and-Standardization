@@ -1,0 +1,2 @@
+Checkers - what does learner do - make moves
+ChooseMove - select move based on board

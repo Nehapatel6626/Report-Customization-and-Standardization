@@ -1,0 +1,1 @@
+Figure 2.18: When opened in Microsoft Excel on Windows, this formula launches PowerShell,

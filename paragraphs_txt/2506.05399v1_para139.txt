@@ -1,0 +1,3 @@
+where n is the number of input features, w is the connection
+weights between the input layer and the hidden layer, β is the
+bias weight.

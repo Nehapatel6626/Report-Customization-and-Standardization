@@ -1,0 +1,1 @@
+where W1 and W2 are network weight matrices and b1 and

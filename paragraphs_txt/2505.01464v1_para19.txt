@@ -1,0 +1,2 @@
+• R (Recursion): The system evolves its internal state An over time through recursive
+updates that depend on both the current state and symbolic input: An+1 = f (An, sn).

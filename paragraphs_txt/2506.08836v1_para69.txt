@@ -1,0 +1,3 @@
+By providing automated pre-transcriptions, the transcription time required
+for lay transcribers was reduced by a factor of 2 to 3. On average, the time to
+check and correct the transcription was 3 to 4 times the audio duration.

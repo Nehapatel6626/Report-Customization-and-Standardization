@@ -1,0 +1,2 @@
+Bellman, R. Dynamic programming treatment of the travelling
+salesman problem. Journal of the ACM, 9(1):61–63, 1962.

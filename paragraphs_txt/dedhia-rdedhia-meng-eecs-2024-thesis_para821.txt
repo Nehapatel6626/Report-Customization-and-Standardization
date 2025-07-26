@@ -1,0 +1,1 @@
+does not automatically sanitize CSV files when they are downloaded, and requires users to

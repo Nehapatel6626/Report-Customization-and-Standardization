@@ -1,0 +1,6 @@
+During the transition, the protocol maintains atomic opera-
+tions. The validation agent tracks changes across all state
+dimensions, ensuring partial updates cannot create incon-
+sistent states. If the temporal agent approves a ﬂight time
+but the resource agent ﬁnds insufﬁcient seats, the entire
+transition fails and rolls back.

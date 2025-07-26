@@ -1,0 +1,7 @@
+“How the Internet works” 
+Take CS244A Networks, or CS193i Internet Systems
+“How to hack” 
+Take CS155 Computer Security
+“Cryptography and privacy”
+Take CS255 Intro to Cryptography
+“File sharing and music piracy”

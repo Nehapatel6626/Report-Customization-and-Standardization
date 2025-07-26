@@ -1,0 +1,6 @@
+• Context window size (w): Ensures that each agent oper-
+ates within a restricted buffer (w ≤ 1k tokens) to pre-
+vent attention bias and excessive information retention.
+• Computational efﬁciency constraint (e): Agents are
+lightweight, avoiding unnecessary memory usage or pro-
+cessing delays.

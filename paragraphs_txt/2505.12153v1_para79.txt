@@ -1,0 +1,2 @@
+where N (0, σ2) is Gaussian noise ensuring privacy-preserving
+gradient updates.

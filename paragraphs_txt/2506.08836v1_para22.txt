@@ -1,0 +1,2 @@
+Several publicly available speech corpora for Swiss German have been collected
+in recent years.

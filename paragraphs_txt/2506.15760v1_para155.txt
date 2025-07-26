@@ -1,0 +1,3 @@
+8.  Niall F. Robertson, Bibek Pokharel, Bryce Fuller, Eric Switzer, Oles Shtanko, Mirko Amico, Adam 
+Byrne, Andrea D’Urbano, Salome Hayes-Shuptar, Albert Akhriev, Nathan Keenan, Sergey Bravyi, 
+and Sergiy Zhuk. Tensor network enhanced dynamic multiproduct formulas, 2024.

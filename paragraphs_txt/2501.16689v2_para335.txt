@@ -1,0 +1,2 @@
+Metropolis, N. and Ulam, S. The monte carlo method. Journal of
+the American Statistical Association, 44(247):335–341, 1949.

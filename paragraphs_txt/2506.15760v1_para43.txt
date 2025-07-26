@@ -1,0 +1,5 @@
+Zero-noise extrapolation (ZNE) aims to mitigate error by estimating expectation values. 
+It starts with amplification of the noise and then is followed by extrapolation [19]. Using 
+the mirror circuit technique [20], which concatenates the circuit with its inverse circuit, 
+the crosstalk error and infidelity of the quantum circuits can be revealed. Figure 3 shows 
+a quantum circuit with random parameter and its mirror circuit.

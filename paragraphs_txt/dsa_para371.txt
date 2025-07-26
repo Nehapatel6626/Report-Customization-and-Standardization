@@ -1,0 +1,3 @@
+One useful feature of a doubly linked list is its elimination of the need for a pointer to a node's predecessor to delete the node.
+Through the back member, we can alter the next member of the preceding node to make it jump over the unwanted node. 
+Then we make the back pointer of the succeeding node point to the preceding node.

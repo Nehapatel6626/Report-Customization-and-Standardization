@@ -1,0 +1,1 @@
+If this criterion  is not met,  then  spatial aliasing  will  occur.  Since  our  system has  a PMAG  of 1,

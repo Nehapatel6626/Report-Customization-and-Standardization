@@ -1,0 +1,13 @@
+A current challenge in robotics is designing software architectures and task decision-making algorithms
+that enable robots to autonomously perform multiple tasks in diverse environments while handling internal
+and environmental uncertainties. This challenge arises because different contexts may demand distinct task
+logic and architectural configurations. At runtime, certain actions may become unfeasible, requiring the
+robot to adapt its task execution to ensure mission completion. For example, a robot navigating through an
+environment might run out of battery during its operation, requiring it to adapt its task execution to include
+a recharge action. Additionally, actions may require different architectural configurations depending on the
+context. For example, a navigation action that relies on vision-based localization cannot be executed in
+environments without lights but could potentially be executed with an alternative architectural configuration
+that employs a localization strategy based on lidar. This becomes even more challenging when both the
+robot’s task execution and its architectural configuration need to be adapted. For instance, when a robot
+runs out of battery while navigating, it must simultaneously adapt its architecture to a configuration that
+consumes less energy and its task execution to include a recharge action and to navigate along paths that

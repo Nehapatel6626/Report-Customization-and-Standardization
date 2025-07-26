@@ -1,0 +1,9 @@
+Introduction [Mitchell Chapter 1]
+Basics/Version Spaces [M2]
+ML Terminology and Statistics [M5]
+Concept/Classification Learning
+Decision Trees [M3]
+Neural Networks [M4]
+Instance Based Learning [M8]
+Genetic Algorithms [M9]
+Rule Learning [M10]

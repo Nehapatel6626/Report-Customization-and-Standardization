@@ -1,0 +1,8 @@
+The automatic captioning of images in Indonesian was de-
+veloped by [81]. The model comprises three components: an
+image extractor that generates feature vectors using CNN, a se-
+quence processor that encodes linguistic sequences based on
+LSTM using the output from the previous step, and a decoder
+that predicts the caption of a new image based on the vector im-
+age features and vocabulary input. The test set showed promis-
+ing results.

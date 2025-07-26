@@ -1,0 +1,3 @@
+c) RQ3: How is image captioning applied across various do-
+mains, and what key evaluation metrics are used to assess
+the quality of generated captions?

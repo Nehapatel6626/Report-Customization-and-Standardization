@@ -1,0 +1,1 @@
+Since Ti ⊂ Rd \ Σ and ∄φ : Σ → Ti, it follows that Ti ̸∼= Σ. See Shannon [9].

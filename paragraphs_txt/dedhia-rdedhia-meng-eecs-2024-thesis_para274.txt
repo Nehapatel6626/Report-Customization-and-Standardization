@@ -1,0 +1,1 @@
+=(A2+B3)*100 will add the values in cells A2 and B3, and then multiply the sum by 100.

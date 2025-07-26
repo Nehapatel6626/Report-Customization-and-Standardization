@@ -1,0 +1,9 @@
+Description of process 
+Proposal should include the details of all process
+to be adopted in the study
+How exposures, outcome variables and other 
+variables are going to be measured  should be described in
+detail 
+A brief description of how the data will be processed 
+and use of statistical package if any should be given
+What statistical tests of significance   would be used?

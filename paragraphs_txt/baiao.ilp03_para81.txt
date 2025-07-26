@@ -1,0 +1,1 @@
+cardinality( X, C ) :- example( cardinality( X, C ) ).

@@ -1,0 +1,1 @@
+Dt = w1Ft + w2Td,t + w3Ct

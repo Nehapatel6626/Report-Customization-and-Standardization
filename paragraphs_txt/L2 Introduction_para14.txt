@@ -1,0 +1,1 @@
+Rosenblatt proposes the “perceptron” and a learning method, the perceptron training algorithm (PLA). Publishes Principles of Neurodynamics (Spartan press 1961)

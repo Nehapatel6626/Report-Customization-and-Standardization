@@ -1,0 +1,2 @@
+Fig. 3. Comparison of average running time for computing explanations, using ANNs
+with two hidden layers and the voting dataset.

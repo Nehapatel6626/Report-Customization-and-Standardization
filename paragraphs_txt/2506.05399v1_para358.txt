@@ -1,0 +1,11 @@
+In [77], a transformer-based model was introduced for im-
+age captioning. The approach involved using a mask operation
+to automatically evaluate the impact of the features of the image
+region and using the results as supervised information to guide
+attention alignment. The basic version of the transformer was
+utilized in this study. The researchers investigated the relation-
+ship between attention weights and feature importance metrics
+in image captioning to comprehensively analyze whether cur-
+rent attention mechanisms can focus on crucial and effective
+image regions. This work serves as a valuable reference for
+self-supervised learning.

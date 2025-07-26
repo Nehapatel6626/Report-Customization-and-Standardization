@@ -1,0 +1,2 @@
+• Input: 5 locations with distance matrix D.
+• Initialize node/edge agents and constraints.

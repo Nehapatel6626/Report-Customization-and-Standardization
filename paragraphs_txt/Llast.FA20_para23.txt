@@ -1,0 +1,2 @@
+A distributed system is several computers doing something together. Thus, a distributed system has three primary characteristics: multiple computers, interconnections, and shared state.
+	[Michael Schroeder]

@@ -1,0 +1,1 @@
+One mitigation used by spreadsheet programs to try and prevent the execution of mali-

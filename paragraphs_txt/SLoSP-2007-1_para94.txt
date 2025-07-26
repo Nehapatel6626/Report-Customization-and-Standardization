@@ -1,0 +1,4 @@
+Top-down parsing is goal directed
+A top-down parser starts with a list of constituents to be built. The top-down parser rewrites the goals in the goal list by matching one against the LHS of the grammar rules, and expanding it with the RHS, attempting to match the sentence to be derived.
+If a goal can be rewritten in several ways, then there is a choice of which rule to apply (search problem)
+Can use depth-first or breadth-first search, and goal ordering.

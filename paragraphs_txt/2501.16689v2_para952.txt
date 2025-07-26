@@ -1,0 +1,12 @@
+None of the LLMs cannot react appropriately to this new
+event without clearing their context buffers. As explained
+in Appendix E.8.2, this limitation is evident. The key take-
+away is that for future runtime frameworks, we must ensure
+infrastructure support for selectively invalidating stale con-
+straints. If a workﬂow is already in execution, completed
+steps and assignments cannot be erased or altered. For ex-
+ample, in a stock-market investment plan, when pertinent
+news arrives, MP cannot revert completed nodes or re-
+solved dependencies in WR. For now, we treat the reactive
+plan as a new plan, given that no steps have been realized
+in the real world by 10:00 AM.

@@ -1,0 +1,3 @@
+To ensure privacy-preserving training, we apply Differen-
+tially Private Stochastic Gradient Descent (DP-SGD) with
+Gaussian noise. The noise mechanism is defined as

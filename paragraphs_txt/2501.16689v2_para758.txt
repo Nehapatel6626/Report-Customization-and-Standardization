@@ -1,0 +1,4 @@
+• Spatial agent detects arrival time change
+• Temporal agent calculates ripple effects
+• Role agents evaluate reassignment options
+• Safety agent veriﬁes continued supervision coverage

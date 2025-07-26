@@ -1,0 +1,1 @@
+p_alpha = re . compile ( " [a - zA - Z ] " )

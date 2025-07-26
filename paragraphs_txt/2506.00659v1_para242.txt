@@ -1,0 +1,3 @@
+32. Rolles, R.: Unpacking virtualization obfuscators. In: Proceedings of the 3rd
+USENIX Conference on Offensive Technologies. p. 1. WOOT’09, USENIX Associ-
+ation, USA (2009)

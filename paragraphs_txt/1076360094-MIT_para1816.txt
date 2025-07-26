@@ -1,0 +1,1 @@
+uation, or adaptation. The abstract class requires the generate(n samples) method

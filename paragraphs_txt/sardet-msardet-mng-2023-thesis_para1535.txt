@@ -1,0 +1,1 @@
+get temperature profile during sintering (it is more important than better temperature

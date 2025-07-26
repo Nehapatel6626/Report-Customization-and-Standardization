@@ -1,0 +1,1 @@
+breviation, an integer, and then another amino acid abbreviation. The list of regexes

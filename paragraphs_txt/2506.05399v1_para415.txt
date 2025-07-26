@@ -1,0 +1,3 @@
+MS COCO dataset, a widely used and comprehensive dataset,
+provides a reliable standard for evaluating image captioning
+methods.

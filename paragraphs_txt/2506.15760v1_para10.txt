@@ -1,0 +1,7 @@
+For mapping quantum computing problems to quantum circuits, Multi-Product Formulas 
+(MPF) is able to reduce algorithmic errors by dividing the circuits into segmented and 
+weighted circuits for executions [7]. Approximate Quantum Compiling (AQC)-tensor com- 
+presses the initial layers, allowing more circuit depth to be spent on further time evolution 
+[8]. Sample-based Quantum Diagonalization (SQD) uses classical distributed computing 
+to produce more accurate eigenvalue estimations from noisy quantum samples. It refines 
+noisy samples with classical distributed computing to address large Hamiltonians [9].

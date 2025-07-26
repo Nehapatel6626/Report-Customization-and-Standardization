@@ -1,0 +1,9 @@
+The transformer model for neural machine translation high-
+lighted multi-head attention effectiveness based on multiple scaled-
+dot attention heads. Both the encoder and decoder were con-
+structed using multi-head attention. Currently, models priori-
+tizing scaled-dot and multi-head attention over bottom-up char-
+acteristics and semantic information yield the best results for
+image captioning. Multi-head attention techniques outperform
+existing methods, making them the best practices when utiliz-
+ing attention mechanisms for image captioning [31]. In Fig. 5,

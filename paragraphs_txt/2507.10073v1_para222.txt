@@ -1,0 +1,4 @@
+Tab. 2: ANOVA p-values by model across country-based personas for each question item, showing
+statistical significance of prompting response variations. Lower values ( 𝑝 < 0.05) indicate significant
+evidence of the textual description influence on model outputs. Not significant values are marked red.
+"Nan"values represent tests where the number of valid responses is too low to calculate ANOVA.

@@ -1,0 +1,2 @@
+When validation fails, the protocol triggers a structured re-
+covery process:

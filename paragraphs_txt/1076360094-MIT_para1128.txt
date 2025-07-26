@@ -1,0 +1,1 @@
+We propose a simple enumeration function e1(). The enumeration function e1()

@@ -1,0 +1,5 @@
+Attention Bias Transformer architectures prioritize re-
+cent context, creating: 1) Narrowing: Recent constraints
+(arrival times) overshadow earlier ones (oven safety); and
+2) Isolated Processing: Sub-tasks addressed without holis-
+tic awareness

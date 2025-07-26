@@ -1,0 +1,6 @@
+DeepSeek’s schedule further revealed spatial-temporal er-
+rors: 1) Spatial: Assumed James drove home immediately
+after renting a car at Boston Logan, ignoring his airport
+location while awaiting Emily; and 2) Temporal: Directed
+Michael to return home before heading to Grandma’s, miss-
+ing the optimal direct route from NYC.

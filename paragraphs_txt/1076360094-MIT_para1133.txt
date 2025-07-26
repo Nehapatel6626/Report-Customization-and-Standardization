@@ -1,0 +1,1 @@
+the 0% , 20%, 40%, 60%, 80%, and 100% percentiles for respective score p5.

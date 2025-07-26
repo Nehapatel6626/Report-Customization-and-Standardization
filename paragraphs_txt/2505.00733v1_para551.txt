@@ -1,0 +1,4 @@
+Kotseruba, Iuliia, Tsotsos, and K., J. (2018). 40 years of cognitive architectures: core cognitive abilities
+and practical applications. Artificial Intelligence Review 53, 17–94. doi:10.1007/s10462-018-9646-y
+Lotz, A., Ingl´es-Romero, J. F., Vicente-Chicote, C., and Schlegel, C. (2013). Managing run-time variability
+in robotics software by modeling functional and non-functional behavior. In Enterprise, Business-Process

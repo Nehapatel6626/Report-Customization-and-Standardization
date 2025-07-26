@@ -1,0 +1,1 @@
+produce  an  image  with each  pixel segmented  into either the  foreground  or background.  The

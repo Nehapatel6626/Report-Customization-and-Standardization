@@ -1,0 +1,1 @@
+all formula triggering characters from those cells only. This is especially cumbersome when

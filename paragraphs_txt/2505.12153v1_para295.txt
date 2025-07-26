@@ -1,0 +1,7 @@
+[11] S. Hafeez, R. Cheng, L. Mohjazi, Y. Sun, and M. A. Imran, ”Blockchain-
+enhanced UAV networks for post-disaster communication: A decentral-
+ized flocking approach,” arXiv Preprint arXiv:2403.04796, 2024.
+[12] S. Hafeez, L. Mohjazi, M. A. Imran, and Y. Sun, ”Blockchain-enabled
+clustered and scalable federated learning (BCS-FL) framework in UAV
+networks,” in Proc. IEEE 28th Int. Workshop Comput.-Aided Modeling
+Design Commun. Links Netw. (CAMAD), 2023, pp. 68-73.

@@ -1,0 +1,215 @@
+Course Overview
+CS791 Topics: Mass Detection in Mammograms
+Drs. George Bebis & Alireza Tavakkoli
+1
+General
+Meets: MW 2:30pm – 3:45pm (WPEB 200) 
+
+Course Webpage:      https://www.cse.unr.edu/~bebis/CS791/Fall20223
+
+Instructors: Drs. George Bebis and Alireza Tavakkoli
+Ofﬁce: WPEB 411 (Dr. Bebis), WPEB 417 (Dr. Tavakkoli)
+E-mail: bebis@unr.edu 	    tavakkol@unr.edu
+Office Hours (Non-programming related questions): 
+MW 3:45pm-5:00pm (Dr. Bebis)
+
+
+General (cont’d)
+Assistants: TBD 
+
+Ofﬁce: 
+E-mail:
+
+Office Hours (Programming related questions): TBD
+Prerequisites
+Background in the following areas would be very useful: image processing, computer vision, pattern recognition, machine learning, and deep learning. 
+
+Knowledge or desire to quickly learn Jupyter Notebook and Python is required. 
+
+Familiarity with Keras/Tensorflow or Pytorch would be a plus.
+
+Familiarity with OpenCV would also be very useful.
+
+
+
+Textbook
+We will not use any text in this course; most of the material will be drawn from research papers.
+
+Useful Texts 
+Pattern Classification, by Duda, Hart, and Stork, 2nd edition, John Wiley Inter-science, 2001.
+Probabilistic Machine Learning, An Introduction by K. Murphy, MIT Press, 2022.
+Deep Learning, by Ian Goodfellow and Yoshua Bengio and Aaron Courville, MIT Press, 2016. (available online at https://www.deeplearningbook.org/)
+Textbook (cont’d)
+Additional texts available on Canvas, under “Pages” (for your personal use only, do not distribute)
+Introduction to Deep Learning: From Logical Calculus to Artificial Intelligence, by Sandro Skansi, Springer, 2018.
+Neural Networks and Deep Learning: A Textbook, by Charu Aggarwal, Springer, 2018.
+Deep Learning With Python (2nd edition), by Francois Chollet, Manning, 2021.
+Computer Vision: Algorithms and Applications, by Richard Szeliski, Springer, 2011.
+Objectives
+The course will mainly focus on the problem of abnormality detection and classification in Mammograms (i.e., X-ray breast images).
+
+Other modalities (i.e., Ultrasound, MRI, CT, PET) might be considered depending on students’ interests. 
+
+Students will be exposed to the main problems and challenges in this research area; we will discuss recent methods to address these challenges. 
+
+Audience
+
+Primarily intended for highly motivated students who are interested in applying pattern recognition, machine learning and deep learning techniques to a practical problem of tremendous importance. 
+
+The course will provide opportunities for students to choose a topic for a MS thesis or PhD dissertation and can lead to a conference and/or a journal publication.
+
+Schedule 
+We will first cover background knowledge in the following areas:
+Breast Cancer (basics)
+Mammography (fundamentals, main problems)
+Deep Learning (fundamentals, architectures, platforms)
+Mass/Abnormality Detection and Classification (review)
+Student paper presentations for in-depth understanding of representative methods in the field.
+A tentative schedule can be found on the CS791 webpage.
+
+Requirements
+There will be no exams in this course. 
+
+Grading will be based on (1) paper presentations, (2) a group project, and (3) class participation. 
+
+You would be required to work in teams (i.e., two students per team) to complete both your paper presentations and project.
+
+Paper Presentations
+Each team would be required to present three papers to the rest of the class. 
+
+A list of papers for possible presentation has been posted on the course’s webpage. 
+
+Students who might be interested in presenting a different paper (i.e., not in the list provided) are encouraged to discuss this with the instructors. 
+
+Paper Presentations (cont’d)
+Presentations should be 30 minutes long (~15 minutes per group member). 
+There will be two presentations per class period with 15 minutes left for questions and discussion.
+Presentations should be professional as if it were presented at a conference.
+Email your slides (in pptx) to Dr. Bebis bebis@unr.edu by 11am on the day of your presentation (to be posted on the website).
+Class Participation
+The students who are responsible for presenting a paper are expected to have a thorough understanding of the ideas discussed in the paper.
+
+Everyone else should read the paper before class and contribute to the class discussion.
+
+Class participation will be part of your grade – take it very seriously! 
+
+Group Project
+We will provide a list of potential project topics.
+
+Students who might be interested in working on a different project topic are encouraged to discuss this with the instructors.
+
+Ideally, the project topic chosen by a team should be related to the team’s paper presentations. 
+
+Course Project (cont’d)
+
+Different teams can work on the same problem, but the methods used to solve the problem must be different.
+
+Each team would be required to experiment with the  method chosen using some real data.
+
+Links to several popular datasets can be found on the CS791 webpage. 
+
+Course Project (cont’d)
+How to choose a good project:
+You have a good understanding of the method used to solve the problem or you are willing to spend some time to understand it.
+There is code available, especially if the method is complicated to implement.
+There is data available for experimentation.
+How to find some good code:
+GitHub (code should be from a published paper)
+http://paperswithcode.com
+GoogleScholar
+Email the authors directly
+
+
+Course Project (cont’d)
+Two targeted goals behind your experiments:
+First, verify that the method works. 
+Test the method using various data sets. 
+Second, identify potential weaknesses of the method chosen and maybe think of possible improvements.
+Identify cases where the method might fail to produce good results. 
+Demonstrate this using data that actually make the method fail or perform poorly. 
+Course Project (cont’d)
+Identify ways to improve/extend a given method or even propose a new method!
+
+Innovative ideas might form the basis for a MS thesis or PhD dissertation and can also lead to a conference and/or journal publication.
+
+Therefore, you are encouraged to explore new ideas and to discuss them with us if you like!
+Project Deliverables
+Four deliverables 
+Project topic report. Project idea, a list of 4-5 closely related papers, a list of available code and datasets.
+Project proposal report and a presentation (15 min). More detailed discussion of any available code and datasets, plans for implementation, testing, validation, and a timeline of work. 
+Interim report and presentation (20 min). Progress, preliminary results, potential issues, and next steps.
+Final report and presentation (30 min). Report and discuss final results, new ideas, and directions for future work.
+
+      Specific details have been posted on the webpage!
+
+
+Important Deadlines
+Finalize teams by September 11, 2023 
+Choose your first paper for presentation by September 18, 2023 
+Subsequent papers should be selected within two weeks from your previous presentation.
+Enter information about teams and paper presentations on the shared Google Doc 
+
+Project topic (1st deliverable): October 2, 2023
+Project proposal (2nd deliverable): October 16, 2023 
+Interim report (3rd deliverable): November 8, 2023 
+Final report (4th deliverable): December 22, 2023
+Reports must be uploaded on Canvas by 11:59pm on the due date.                      
+Programming Environment
+You can you C/C++/Python/Matlab, Windows/Linux
+Google Colab https://research.google.com/colaboratory/
+An online, Jupyter notebook environment that allows you to write and execute python code through a browser; comes with many Machine and Deep Learning libraries. 
+No setup required, notebooks can be easily shared and simultaneously edited by team members.
+Free to use and you can access all of its features to a certain degree including access to GPUs.
+We will get a subscription plan for each team, called Google Colab Pro, that offers access to upgraded features (e.g., more memory and GPU/TPU time).
+21
+Course Policies 
+Discussion of your work with others is allowed and encouraged. However, each team should do their own work.
+
+No late work will be accepted unless there is an extreme emergency. If you are unable to hand in your work by the deadline, you must discuss it with us before the deadline.
+
+No incomplete grades (INC) will be given in this course.
+
+Course Policies (cont’d)
+Students are expected to attend all lectures and be on time. If you miss a lecture, you are responsible for all material covered or assigned.
+
+The instructors reserve the right to add to, and/or modify any of the above policies as needed to maintain an appropriate and effective educational atmosphere. 
+
+If this happens, all students will be notified in advance of implementation of the new and/or modified policy.
+
+Course Policies (cont’d)
+See syllabus for additional policies regarding: 
+Academic Dishonesty 
+Disability Services 
+Academic Success Services 
+Audio and Video Recording
+Safe Learning Environment
+COVID’19 related info
+Grading Scheme
+Paper Presentations: 45% (15% per presentation)
+Project Reports: 50% (Topic Report: 5%, Proposal Report: 10%, Interim Report: 15%, Final Report: 20%)
+Class participation: 5%
+
+A 	90% and above 
+B 	80%-89% 
+C 	70%-79% 
+D 	60%-69% 
+F	<59%
+
+Important Dates
+9/4/2023 – Labor Day (no class)
+
+10/16 & 10/18 – ISVC’23 (no classes)
+	http://www.isvc.net (Harrah’s at South Lake Tahoe)
+Let me know if you are interested in attending.
+Registration fee will be waived for UNR students (not presenting a paper).
+
+11/1/2023 – Final day to drop classes and receive a "W"
+12/13/2023 – Prep Day 
+12/18/2023 – Reserved for final project presentations (3:00pm – 5:00pm) 
+
+Questions?
+
+
+
+			 Thank you!
+27

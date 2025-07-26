@@ -1,0 +1,1 @@
+Here, 𝑧 is a vector that indicates which words are part of the ratioanle. There is

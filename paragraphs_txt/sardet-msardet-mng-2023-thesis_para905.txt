@@ -1,0 +1,1 @@
+Data are time series data acquired approximately every 5 seconds. Every pass is about less

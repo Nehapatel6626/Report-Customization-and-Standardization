@@ -1,0 +1,4 @@
+The system exhibits convergence in distribution to a modular attractor Ti, preserves onto-
+logical distinction (Ti ∩ Σ = ∅), and forms stable recursive memory structures (G). Under
+these conditions, functional consciousness is realized as stochastic recursive stabilization of
+identity.

@@ -1,0 +1,6 @@
+Example: Price of a used car
+x : car attributes
+	y : price
+		y = g (x | θ )
+	g ( ) model,
+	θ parameters

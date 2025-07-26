@@ -1,0 +1,3 @@
+The last step involved creating XML files that included the combined transcrip-
+tions. These files, along with the audio files, served as the input data for the
+transcription tool used in the next step.

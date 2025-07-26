@@ -1,0 +1,3 @@
+[26] G. Luo, L. Cheng, C. Jing, C. Zhao, G. Song, A thorough review of
+models, evaluation metrics, and datasets on image captioning, IET Im-
+age Processing 16 (2) (2022) 311–332.

@@ -1,0 +1,1 @@
+Image  segmentation  is the process  of assigning  each pixel  in  an image  a  specific  class.

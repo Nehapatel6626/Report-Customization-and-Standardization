@@ -1,0 +1,1 @@
+interpolates the  data  from the  Bayer  pattern  so that each pixel  has a  RGB  value.  Due  to the Bayer

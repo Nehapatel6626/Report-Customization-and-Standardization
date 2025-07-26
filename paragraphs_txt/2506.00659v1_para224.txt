@@ -1,0 +1,5 @@
+16. Li, S., Ming, J., Qiu, P., Chen, Q., Liu, L., Bao, H., Wang, Q., Jia, C.: PackGenome:
+Automatically Generating Robust YARA Rules for Accurate Malware Packer De-
+tection. In: Proceedings of the 2023 ACM SIGSAC Conference on Computer and
+Communications Security. pp. 3078–3092. CCS ’23, Association for Computing
+Machinery (2023). https://doi.org/10.1145/3576915.3616625

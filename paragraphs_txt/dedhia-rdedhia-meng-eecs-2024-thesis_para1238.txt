@@ -1,0 +1,1 @@
+[8] H. Security. “Formula injection | exploiting csv functionality.” (May 11, 2021),

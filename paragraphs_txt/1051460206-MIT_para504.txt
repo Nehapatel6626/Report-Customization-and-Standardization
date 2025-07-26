@@ -1,0 +1,3 @@
+analysis to  count  the urine  particles  locally  or to  transfer the image  to an Amazon  Web  Server
+(AWS)  for analysis 6 . We  used a Raspberry  Pi 3  Model  B, which  costs $35  for a  single unit.  We
+use the 8 megapixel  IMX219  CMOS  imaging  sensor  from Sony' 7. The imaging  sensor is

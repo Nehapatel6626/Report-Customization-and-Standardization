@@ -1,0 +1,16 @@
+Basic Sets
+O
+P
+Planning objectives
+CE
+CI
+Explicit constraints
+M Performance metrics Q
+Workﬂow Components
+W Workﬂow network
+E
+ni
+Agent Functions
+frole
+V (·)
+maprole Role extraction

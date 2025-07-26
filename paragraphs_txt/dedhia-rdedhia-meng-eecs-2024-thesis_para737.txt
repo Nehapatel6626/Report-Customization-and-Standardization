@@ -1,0 +1,1 @@
+For each cell in a CSV file, the extension goes through a series of steps. First, the

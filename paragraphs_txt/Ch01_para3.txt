@@ -1,0 +1,4 @@
+Some material adopted from notes by
+    Charles R. Dyer, University of Wisconsin-Madison and
+    Tim Finin and Marie desJargins, University of Maryland 
+         Baltimore County

@@ -1,0 +1,1 @@
+one could feed the words in each document to an LSTM or bidirectional LSTM

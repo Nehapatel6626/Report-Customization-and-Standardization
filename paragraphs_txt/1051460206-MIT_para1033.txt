@@ -1,0 +1,1 @@
+again,  using  bilinear resampling, to a final dimension of 64x64px.  This final upsampling  step

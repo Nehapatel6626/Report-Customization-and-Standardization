@@ -1,0 +1,1 @@
+since the functions used by spreadsheet programs aren’t case sensitive, the extension also

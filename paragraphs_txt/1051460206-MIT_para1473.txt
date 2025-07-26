@@ -1,0 +1,1 @@
+convolution  in terms  of a single matrix  multiplication,  and  then taking the transpose  of this

@@ -1,0 +1,1 @@
+3.3 Weight, GeCl4 gaz flow (gpm), SiCl4 gaz flow (gpm) and H2 gaz flow (Lpm)

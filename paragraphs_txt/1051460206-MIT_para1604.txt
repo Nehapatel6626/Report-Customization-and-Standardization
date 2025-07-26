@@ -1,0 +1,1 @@
+calculated  the accuracy  through  the following  equation.

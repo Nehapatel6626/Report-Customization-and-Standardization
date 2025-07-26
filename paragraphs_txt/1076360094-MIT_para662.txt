@@ -1,0 +1,1 @@
+• Cuckoo Decision: This is a Boolean variable describing if any signatures were

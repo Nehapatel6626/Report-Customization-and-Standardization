@@ -1,0 +1,1 @@
+characters, (2) blacklisting certain characters, (3) and whitelisting only allowed domains.

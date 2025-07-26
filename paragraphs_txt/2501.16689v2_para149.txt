@@ -1,0 +1,5 @@
+The meta-planner retrieves agents from the repository using
+a three-step matching process:
+1. Task-to-capability matching: Filters agents based on
+their capability vector (c) and task-speciﬁc require-
+ments.

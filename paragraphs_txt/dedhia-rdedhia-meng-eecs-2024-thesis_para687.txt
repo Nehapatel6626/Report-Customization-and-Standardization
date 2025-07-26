@@ -1,0 +1,1 @@
+CSV file may use mathematical formulas in order to summarize or analyze financial data.

@@ -1,0 +1,4 @@
+Real-world scenarios do not always follow plans precisely.
+Robust systems require contingency planning for factors
+such as weather, trafﬁc, or airline changes. These cascade
+through schedules, demanding adaptive replanning.

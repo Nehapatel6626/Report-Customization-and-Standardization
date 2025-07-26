@@ -1,0 +1,7 @@
+Figure 8-4: Active Defender Average Classiﬁcation Time over Adaptation. In this
+ﬁgure we observe the estimated average classiﬁcation time per ﬁle at each stage. We
+plot the mean time score as points and show the standard deviation in the surrounding
+band. Here we see that the average classiﬁcation time is pretty low – around 1 second
+– throughout the course of the experiment, and decreases over time. In addition, the
+deviation in time is small across successive stages, and is not observable due to the
+estimation function.

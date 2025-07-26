@@ -1,0 +1,1 @@
+is, which makes it more diﬃcult to scan a ﬁle for known malicious Javascript code.

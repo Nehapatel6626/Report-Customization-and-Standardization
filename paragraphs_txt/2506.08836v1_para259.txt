@@ -1,0 +1,4 @@
+23. Qian, M., Tang, S., Ma, R., Knill, K.M., Gales, M.J.: Learn and Don’t For-
+get: Adding a New Language to ASR Foundation Models. In: Interspeech 2024.
+pp. 2544–2548. ISCA (Sep 2024). https://doi.org/10.21437/Interspeech.2024-1045,
+https://www.isca-archive.org/interspeech_2024/qian24_interspeech.html

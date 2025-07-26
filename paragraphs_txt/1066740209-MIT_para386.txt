@@ -1,0 +1,1 @@
+through the PubMed database. EDirect can accept a query and output the results in

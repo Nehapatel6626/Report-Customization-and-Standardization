@@ -1,0 +1,1 @@
+Different teams can work on the same problem, but the methods used to solve the problem must be different.

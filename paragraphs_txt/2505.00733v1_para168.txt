@@ -1,0 +1,13 @@
+An AUV can
+several
+Functions,
+generate
+search path and generate path to
+follow pipeline. The generate search
+path function can be considered a
+transformation of the AUV’s current
+position (input) to a goal waypoint
+(output)
+A thruster is a hardware component,
+and a generate spiral search path
+node is a software component

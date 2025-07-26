@@ -1,0 +1,1 @@
+(cohesion) compared to other clusters (separation). S(i) being the silhouette coefficient pf

@@ -1,0 +1,6 @@
+Left recursive rules
+A top-down parser will do badly if there are many different rules for the same LHS.  Consider if there are 600 rules for S, 599 of which start with NP, but one of which starts with V, and the sentence starts with V.
+Useless work: expands things that are possible top-down but not there
+Top-down parsers do well if there is useful grammar-driven control: search is directed by the grammar
+Top-down is hopeless for rewriting parts of speech (preterminals) with words (terminals).  In practice that is always done bottom-up as lexical lookup.
+Repeated work: anywhere there is common substructure

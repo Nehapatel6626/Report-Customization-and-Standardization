@@ -1,0 +1,5 @@
+Hold jobs for a printer
+Store packets on network routers
+Hold memory “freelists”
+Make waitlists fair
+Breadth first search

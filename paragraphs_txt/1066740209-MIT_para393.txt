@@ -1,0 +1,1 @@
+element Abstract / AbstractText | iconv -c -f utf -8 -t ascii ) "

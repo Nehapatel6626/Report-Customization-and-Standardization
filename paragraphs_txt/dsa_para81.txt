@@ -1,0 +1,9 @@
+To implement an ADT, you need to choose:
+A data representation
+must be able to represent all necessary values of the ADT
+should be private
+An algorithm for each of the necessary operation: 
+must be consistent with the chosen representation
+all auxiliary (helper) operations that are not in the contract should be private 
+Remember: Once other people are using it
+It’s easy to add functionality

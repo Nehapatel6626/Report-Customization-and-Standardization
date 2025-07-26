@@ -1,0 +1,13 @@
+Several studies have explored the use of deep machine learn-
+ing in image captioning, with a focus on transformer-based at-
+tention algorithms. However, there is a lack of thorough in-
+vestigation into using transformer-based methodologies in im-
+age captioning. This gap in existing image captioning surveys
+has inspired this work to provide a comprehensive review of
+transformer-based approaches in image captioning, particularly
+focusing on attention-based methods. The attention mechanism
+for generating image captions is an area of increasing research
+interest due to its consistent relevance. Initial attempts to ad-
+dress this issue using transformer-based approaches have shown
+exceptional performance. Therefore, employing transformers
+to improve image captioning holds great promise [26].

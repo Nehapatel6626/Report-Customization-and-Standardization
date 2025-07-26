@@ -1,0 +1,339 @@
+Seven Lectures on Statistical Parsing
+Christopher Manning
+LSA Linguistic Institute 2007 
+LSA 354
+Lecture 1
+Course logistics in brief
+Instructor: Christopher Manning
+manning@cs.stanford.edu
+Office hours: Thu 10–12
+Course time: Tu/Fr 8:00–9:45 [ugh!]
+7 classes
+Work required for credit:
+Writing a treebank parser
+Programming language: Java 1.5
+Or other agreed project
+See the webpage for other information:
+http://nlp.stanford.edu/courses/lsa354/
+This class
+Assumes you come with some background…
+Some probability, and statistics; knowledge of algorithms and their complexity, decent programming skills (if doing the course for credit)
+Assumes you’ve seen some (Statistical) NLP before
+Teaches key theory and methods for parsing and statistical parsing
+The centroid of the course is generative models for treebank parsing
+We extend out to related syntactic tasks and parsing methods, including discriminative parsing, nonlocal dependencies, treebank structure.
+Course goals
+To learn the main theoretical approaches behind modern statistical parsers 
+To learn techniques and tools which can be used to develop practical, robust parsers 
+To gain insight into many of the open research problems in natural language processing
+Parsing in the early 1990s
+The parsers produced detailed, linguistically rich representations
+Parsers had uneven and usually rather poor coverage
+E.g., 30% of sentences received no analysis
+Even quite simple sentences had many possible analyses
+Parsers either had no method to choose between them or a very ad hoc treatment of parse preferences
+Parsers could not be learned from data
+Parser performance usually wasn’t or couldn’t be assessed quantitatively and the performance of different parsers was often incommensurable
+Statistical parsing
+Over the last 12 years statistical parsing has succeeded wonderfully!
+NLP researchers have produced a range of (often free, open source) statistical parsers, which can parse any sentence and often get most of it correct
+These parsers are now a commodity component
+The parsers are still improving year-on-year.
+Statistical parsing applications
+High precision question answering systems (Pasca and Harabagiu SIGIR 2001)
+Improving biological named entity extraction (Finkel et al. JNLPBA 2004):
+Syntactically based sentence compression (Lin and Wilbur Inf. Retr. 2007)
+Extracting people’s opinions about products (Bloom et al. NAACL 2007)
+Improved interaction in computer games (Gorniak and Roy, AAAI 2005)
+Helping linguists find data (Resnik et al. BLS 2005)
+Why NLP is difficult:Newspaper headlines
+Ban on Nude Dancing on Governor's Desk
+Iraqi Head Seeks Arms
+Juvenile Court to Try Shooting Defendant
+Teacher Strikes Idle Kids
+Stolen Painting Found by Tree
+Local High School Dropouts Cut in Half
+Red Tape Holds Up New Bridges
+Clinton Wins on Budget, but More Lies Ahead
+Hospitals Are Sued by 7 Foot Doctors
+Kids Make Nutritious Snacks
+May 2007 example…
+Why is NLU difficult? The hidden structure of language is hugely ambiguous 
+Tree for: Fed raises interest rates 0.5% in effort to control inflation  (NYT  headline 5/17/00)
+
+Where are the ambiguities?
+The bad effects of V/N ambiguities
+Ambiguity: natural languages vs. programming languages
+Programming languages have only local ambiguities, which a parser can resolve with lookahead (and conventions)
+
+Natural languages have global ambiguities
+I saw that gasoline can explode
+
+“Construe an else statement with which if makes most sense.”
+Classical NLP Parsing
+Wrote symbolic grammar and lexicon
+S  NP VP			NN  interest
+NP  (DT) NN			NNS  rates
+NP  NN NNS			NNS  raises
+NP  NNP			VBP  interest
+VP   V NP			VBZ  rates
+…
+Used proof systems to prove parses from words
+
+This scaled very badly and didn’t give coverage
+Minimal grammar on “Fed raises” sentence: 36 parses
+Simple 10 rule grammar: 592 parses
+Real-size broad-coverage grammar: millions of parses
+Classical NLP Parsing:The problem and its solution
+Very constrained grammars attempt to limit unlikely/weird parses for sentences
+But the attempt make the grammars not robust: many sentences have no parse
+A less constrained grammar can parse more sentences
+But simple sentences end up with ever more parses
+Solution: We need mechanisms that allow us to find the most likely parse(s)
+Statistical parsing lets us work with very loose grammars that admit millions of parses for sentences but to still quickly find the best parse(s)
+The rise of annotated data:The Penn Treebank
+( (S
+    (NP-SBJ (DT The) (NN move))
+    (VP (VBD followed)
+      (NP
+        (NP (DT a) (NN round))
+        (PP (IN of)
+          (NP
+            (NP (JJ similar) (NNS increases))
+            (PP (IN by)
+              (NP (JJ other) (NNS lenders)))
+            (PP (IN against)
+              (NP (NNP Arizona) (JJ real) (NN estate) (NNS loans))))))
+      (, ,)
+      (S-ADV
+        (NP-SBJ (-NONE- *))
+        (VP (VBG reflecting)
+          (NP
+            (NP (DT a) (VBG continuing) (NN decline))
+            (PP-LOC (IN in)
+              (NP (DT that) (NN market)))))))
+    (. .)))
+The rise of annotated data
+Going into it, building a treebank seems a lot slower and less useful than building a grammar
+
+But a treebank gives us many things
+Reusability of the labor
+Broad coverage
+Frequencies and distributional information
+A way to evaluate systems
+Two views of linguistic structure: 1. Constituency (phrase structure)
+Phrase structure organizes words into nested constituents.
+How do we know what is a constituent?  (Not that linguists don't argue about some cases.)
+Distribution: a constituent behaves as a unit that can appear in different places:
+John talked [to the children] [about drugs].
+John talked [about drugs] [to the children].
+*John talked drugs to the children about
+Substitution/expansion/pro-forms:
+I sat [on the box/right on top of the box/there].
+Coordination, regular internal structure, no intrusion, fragments, semantics, …
+
+Two views of linguistic structure: 2. Dependency structure
+Dependency structure shows which words depend on (modify or are arguments of) which other words.
+
+
+
+
+
+
+
+
+The
+boy
+put
+the
+tortoise
+on
+the
+rug
+rug
+the
+the
+on
+
+
+tortoise
+put
+boy
+The
+
+
+
+
+
+Attachment ambiguities: Two possible PP attachments
+Attachment ambiguities
+The key parsing decision: How do we ‘attach’ various kinds of constituents – PPs, adverbial or participial phrases, coordinations, etc.
+Prepositional phrase attachment:
+I saw the man with a telescope
+What does with a telescope modify?  
+The verb saw?
+The noun man?
+Is the problem ‘AI complete’? Yes, but …
+
+Attachment ambiguities
+Proposed simple structural factors
+Right association (Kimball 1973) = ‘low’ or ‘near’ attachment = ‘early closure’ (of NP)
+Minimal attachment (Frazier 1978). Effects depend on grammar, but gave ‘high’ or ‘distant’ attachment = ‘late closure’ (of NP) under the assumed model
+Which is right?
+Such simple structural factors dominated in early psycholinguistics (and are still widely invoked).
+In the V NP PP context, right attachment usually gets right 55–67% of cases.
+But that means it gets wrong 33–45% of cases.
+Attachment ambiguities	
+Words are good predictors of attachment (even absent understanding)
+The children ate the cake with a spoon
+The children ate the cake with frosting
+
+Moscow sent more than 100,000 soldiers into Afghanistan …
+Sydney Water breached an agreement with NSW Health …
+The importance of lexical factors
+Ford, Bresnan, and Kaplan (1982) [promoting ‘lexicalist’ linguistic theories] argued:
+Order of grammatical rule processing [by a person] determines closure effects
+Ordering is jointly determined by strengths of alternative lexical forms, strengths of alternative syntactic rewrite rules, and the sequences of hypotheses in the parsing process.
+“It is quite evident, then, that the closure effects in these sentences are induced in some way by the choice of the lexical items.” (Psycholinguistic studies show that this is true independent of discourse context.)
+A simple prediction
+Use a likelihood ratio:
+E.g.,
+
+
+
+P(with|agreement) = 0.15
+P(with|breach) = 0.02
+
+LR(breach, agreement, with) = 0.13
+ Choose noun attachment 
+A problematic example
+Chrysler confirmed that it would end its troubled venture with Maserati.
+Should be a noun attachment but get wrong answer:
+w		C(w)		C(w, with)
+end	5156		607
+venture	1442		155
+A problematic example	
+What might be wrong here?
+If you see a V NP PP sequence, then for the PP to attach to the V, then it must also be the case that the NP doesn’t have a PP (or other postmodifier)
+Since, except in extraposition cases, such dependencies can’t cross
+
+Parsing allows us to factor in and integrate such constraints.
+A better predictor would use n2 as well as v, n1, p
+Attachment ambiguities in a real sentence
+
+
+
+
+
+
+
+
+
+Catalan numbers
+Cn = (2n)!/[(n+1)!n!]
+An exponentially growing series, which arises in many tree-like contexts:
+E.g., the number of possible triangulations of a polygon with n+2 sides
+What is parsing?
+We want to run a grammar backwards to find possible structures for a sentence
+Parsing can be viewed as a search problem
+Parsing is a hidden data problem
+For the moment, we want to examine all structures for a string of words
+We can do this bottom-up or top-down
+This distinction is independent of depth-first or breadth-first search – we can do either both ways
+We search by building a search tree which his distinct from the parse tree
+Human parsing
+Humans often do ambiguity maintenance
+Have the police … eaten their supper?
+                             come in and look around.
+                             taken out and shot.
+
+But humans also commit early and are “garden pathed”:
+The man who hunts ducks out on weekends.
+The cotton shirts are made from grows in Mississippi.
+The horse raced past the barn fell.
+A phrase structure grammar
+S  NP  VP		N  cats
+VP  V  NP		N  claws
+VP  V  NP  PP		N  people
+NP  NP  PP		N  scratch
+NP  N			V  scratch
+NP  e			P  with
+NP  N  N
+PP  P  NP
+
+By convention, S is the start symbol, but in the PTB, we have an extra node at the top (ROOT, TOP)
+Phrase structure grammars = context-free grammars
+G = (T, N, S, R)
+T is set of terminals
+N is set of nonterminals
+For NLP, we usually distinguish out a set P  N of preterminals, which always rewrite as terminals
+S is the start symbol (one of the nonterminals)
+R is rules/productions of the form X  , where X is a nonterminal and  is a sequence of terminals and nonterminals (possibly an empty sequence)
+A grammar G generates a language L.
+Probabilistic or stochastic context-free grammars (PCFGs)
+G = (T, N, S, R, P)
+T is set of terminals
+N is set of nonterminals
+For NLP, we usually distinguish out a set P  N of preterminals, which always rewrite as terminals
+S is the start symbol (one of the nonterminals)
+R is rules/productions of the form X  , where X is a nonterminal and  is a sequence of terminals and nonterminals (possibly an empty sequence)
+P(R) gives the probability of each rule.
+
+
+A grammar G generates a language model L.
+Soundness and completeness
+A parser is sound if every parse it returns is valid/correct
+A parser terminates if it is guaranteed to not go off into an infinite loop
+A parser is complete if for any given grammar and sentence, it is sound, produces every valid parse for that sentence, and terminates
+
+(For many purposes, we settle for sound but incomplete parsers: e.g., probabilistic parsers that return a k-best list.)
+Top-down parsing
+Top-down parsing is goal directed
+A top-down parser starts with a list of constituents to be built. The top-down parser rewrites the goals in the goal list by matching one against the LHS of the grammar rules, and expanding it with the RHS, attempting to match the sentence to be derived.
+If a goal can be rewritten in several ways, then there is a choice of which rule to apply (search problem)
+Can use depth-first or breadth-first search, and goal ordering.
+Bottom-up parsing
+Bottom-up parsing is data directed
+The initial goal list of a bottom-up parser is the string to be parsed. If a sequence in the goal list matches the RHS of a rule, then this sequence may be replaced by the LHS of the rule.
+Parsing is finished when the goal list contains just the start category.
+If the RHS of several rules match the goal list, then there is a choice of which rule to apply (search problem)
+Can use depth-first or breadth-first search, and goal ordering.
+The standard presentation is as shift-reduce parsing.
+
+Problems with top-down parsing
+Left recursive rules
+A top-down parser will do badly if there are many different rules for the same LHS.  Consider if there are 600 rules for S, 599 of which start with NP, but one of which starts with V, and the sentence starts with V.
+Useless work: expands things that are possible top-down but not there
+Top-down parsers do well if there is useful grammar-driven control: search is directed by the grammar
+Top-down is hopeless for rewriting parts of speech (preterminals) with words (terminals).  In practice that is always done bottom-up as lexical lookup.
+Repeated work: anywhere there is common substructure
+
+Problems with bottom-up parsing
+Unable to deal with empty categories: termination problem, unless rewriting empties as constituents is somehow restricted (but then it's generally incomplete)
+Useless work: locally possible, but globally impossible.
+Inefficient when there is great lexical ambiguity (grammar-driven control might help here)
+Conversely, it is data-directed: it attempts to parse the words that are there.
+Repeated work: anywhere there is common substructure
+
+Principles for success: take 1
+If you are going to do parsing-as-search with a grammar as is:
+Left recursive structures must be found, not predicted
+Empty categories must be predicted, not found
+Doing these things doesn't fix the repeated work problem:
+Both TD (LL) and BU (LR) parsers can (and frequently do) do work exponential in the sentence length on NLP problems.
+Principles for success: take 2
+Grammar transformations can fix both left-recursion and epsilon productions
+Then you parse the same language but with different trees
+Linguists tend to hate you
+But this is a misconception: they shouldn't
+You can fix the trees post hoc:
+The transform-parse-detransform paradigm
+Principles for success: take 3
+Rather than doing parsing-as-search, we do parsing as dynamic programming
+This is the most standard way to do things
+Q.v. CKY parsing, next time
+It solves the problem of doing repeated work
+But there are also other ways of solving the problem of doing repeated work
+Memoization (remembering solved subproblems)
+Also, next time
+Doing graph-search rather than tree-search.

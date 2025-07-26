@@ -1,0 +1,1 @@
+input as benign if pi < t1

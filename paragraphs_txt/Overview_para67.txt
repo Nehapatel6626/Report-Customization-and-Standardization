@@ -1,0 +1,6 @@
+You can you C/C++/Python/Matlab, Windows/Linux
+Google Colab https://research.google.com/colaboratory/
+An online, Jupyter notebook environment that allows you to write and execute python code through a browser; comes with many Machine and Deep Learning libraries. 
+No setup required, notebooks can be easily shared and simultaneously edited by team members.
+Free to use and you can access all of its features to a certain degree including access to GPUs.
+We will get a subscription plan for each team, called Google Colab Pro, that offers access to upgraded features (e.g., more memory and GPU/TPU time).

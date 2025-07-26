@@ -1,0 +1,8 @@
+calling conventions
+number of basic blocks
+number of instructions The total number of instructions in the function.
+number of local variables The number of local variables declared within the function.
+number of arguments
+edges
+indegree
+outdegree

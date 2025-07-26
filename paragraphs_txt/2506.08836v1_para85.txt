@@ -1,0 +1,12 @@
+position of the given sample in the original media file
+name of the broadcast station
+date on which the sample was recorded from broadcasting
+gender(s) of the speaker(s)
+kind of speaker (presenter, news reader, reporter, ...)
+live, story, report, talk
+information, moderation, service, entertainment, ...
+information, moderation, traffic, weather, ...
+statement, interview, still image, ...
+language spoken in the sample
+type of broadcasting (usually radio, TV, or social media)
+Standard German text (transcript)

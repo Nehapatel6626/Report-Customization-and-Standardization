@@ -1,0 +1,5 @@
+Table 2 shows the GPT-4o schedule, which appears feasible
+but contains two critical errors in the case of adaptive plan-
+ning required for emergency: 1) Arithmetic: Incorrectly
+calculates Grandma’s round-trip driving time as 30 minutes
+(vs. 30×2 minutes); and 2) Over-Constraint: Assumes only

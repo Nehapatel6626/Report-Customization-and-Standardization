@@ -1,0 +1,1 @@
+spreadsheet program. If the only mitigation is a single tab or quote at the start of a formula

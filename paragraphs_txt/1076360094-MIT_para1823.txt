@@ -1,0 +1,1 @@
+Model allows for ﬁtting the labeled data to a known distribution. The abstract model

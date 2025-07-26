@@ -1,0 +1,3 @@
+CYC Project (Doug Lenat, Cycorp)
+Encoding 1,000,000 commonsense facts about the world by hand
+Coverage still too spotty for use!

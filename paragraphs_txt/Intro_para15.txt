@@ -1,0 +1,8 @@
+Complements introductory security courses like Computer Security I
+Teach computer and network security mechanisms used in the field
+Teach design techniques
+A sampling of security technologies
+Class meetings
+Lectures on background material
+In class exercises in lab
+Guest lectures

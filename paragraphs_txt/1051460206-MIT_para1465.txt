@@ -1,0 +1,1 @@
+entire  image.  In fact, the predictions  on the  entire  image is more efficient  since  calculations  can

@@ -1,0 +1,9 @@
+Proof. If an assignment A satisfies (cid:87)N
+j is true under
+̸= i. Let A′ = A ∪ {qj (cid:55)→ v | v = 1 if j = j′, else v = 0, for j ∈
+A for j′
+{1, ..., N }\{i}} be an assignment. Then, A′ imposes that oi ≤ o′
+j in Equation (10)
+for j = j′, which in clearly true under this assignment. For j ̸= j′, it follows that
+oi − oj ≤ (ubi − lbj) must hold, which is also true under A′ since lbj ≤ oj and
+oi ≤ ubi.

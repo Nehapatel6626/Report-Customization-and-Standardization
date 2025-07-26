@@ -1,0 +1,1 @@
+Specificity  measures  the proportion  of negatives that are  correctly  identified  as negatives,  and

@@ -1,0 +1,3 @@
+where N (0, σ2) represents Gaussian noise with variance σ2.
+The privacy budget, which dictates the level of privacy pro-
+tection, is computed as

@@ -1,0 +1,4 @@
+[61] J. Emami, P. Nugues, A. Elnagar, I. Afyouni, Arabic image captioning
+using pre-training of deep bidirectional transformers, in: Proceedings
+of the 15th International Conference on Natural Language Generation,
+2022, pp. 40–51.

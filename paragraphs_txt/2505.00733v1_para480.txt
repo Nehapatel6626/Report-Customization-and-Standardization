@@ -1,0 +1,2 @@
+ASSUMPTION 2. Every Component is a ROSNode containing one package and one executable
+attribute; every ROSNode has one component configuration with one Component Parameter;

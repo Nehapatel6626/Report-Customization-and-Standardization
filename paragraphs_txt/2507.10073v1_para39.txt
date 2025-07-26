@@ -1,0 +1,18 @@
+We utilize a diverse range of open-weight LLMs with parameter sizes from 7B to 123B,
+ensuring accessibility for researchers with moderate computational resources (approximately
+80GB VRAM). We restrict our experiments to these open-weight and comparatively small
+models, allowing easier reproducibility. Leaving out models from OpenAI or Anthropic is a
+limitation. However, the goal of this study is not to analyze which LLMs are benchmark-
+leading but to analyze the general capabilities of LLMs to align to psychological constructs by
+examining their behavior. Thus, we analyze three open-weight state-of-the-art models: Llama
+3.1 8B/70B [dubey2024llama], Mistral 7B/123B [jiang2023mistral7b], and Qwen 2.5
+7B/72B [yang2024qwen2]. These models represent different geographic origins—Llama
+from the United States (Meta), Mistral from Europe, and Qwen from China—allowing
+potential detection of cultural variation in construct representation. We compare small
+and large versions of each model family to assess if the number of parameters improves
+alignment with the correlation observed in the human data. We compared small and
+large versions within each model family to assess whether parameter count correlates
+with improved alignment to human response patterns. During testing, we utilized default
+hyperparameter configurations (temperature, repetition penalties) to reflect typical conditions
+in naive application. This diversity enables us to test how discourses may differ between
+these LLMs and potentially reveal insights into their intrinsic biases [abid2021persistent;

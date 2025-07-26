@@ -1,0 +1,2 @@
+Pauli twirling is an error mitigation technique to compile random single-qubit gates into 
+a logical circuit, achieving fault-tolerant quantum commutation [18].

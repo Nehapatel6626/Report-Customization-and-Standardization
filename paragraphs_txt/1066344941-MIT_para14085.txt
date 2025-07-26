@@ -1,0 +1,12 @@
+sparse
+and
+on
+algorithm
+an
+input
+the
+text
+elements
+difficult
+regions
+edge-detection

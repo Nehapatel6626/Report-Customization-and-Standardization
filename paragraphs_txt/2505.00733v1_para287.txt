@@ -1,0 +1,12 @@
+Interfaces: The KB component abstracts the details of interacting with TypeDB with the ROS interfaces
+it implements, enabling the MAPE components to read and write knowledge via the interfaces described
+in Table 5. When the MAPE components request or send data to the KB component via these interfaces,
+the KB component queries the TypeDB database to retrieve or write knowledge. For example, when the
+task decision layer calls the service /action/selectable to retrieve the name of the selectable Actions (i.e.,
+actions that do not have an ‘unfeasible’ status), the KB component performs the TypeQL query depicted
+in Listing 3 to retrieve the name (unique identifiers) of the selectable Actions. When data is written in
+the KB, the KB component publishes a message in the /events topic specifying which type of data was
+written, i.e., ‘monitoring data’, ‘action update’, ‘reconfiguration plan’. Additionally, the KB component
+provides the /query service, which can be used to perform any TypeDB query to the database. It is not used
+in ROSA’s runtime workflow, but it enables users to perform custom queries, for example, to retrieve all
+reconfiguration plans that were executed.

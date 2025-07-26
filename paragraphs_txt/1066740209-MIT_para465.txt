@@ -1,0 +1,1 @@
+Bag of words would recognize "relative risk (1.6)" as a different trigram than "relative

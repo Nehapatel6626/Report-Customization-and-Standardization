@@ -1,0 +1,4 @@
+QML is integrated with PyTorch to allow easy integration into other packages [21, 22]. 
+Figure 4 shows the classification results. It can be seen that class *0* is separated from 
+other two classes, while overlaps exist in classes *1” and *2*. Data used for this plot were 
+from the NASA Iris plants dataset.

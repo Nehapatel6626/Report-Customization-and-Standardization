@@ -1,0 +1,9 @@
+Artificial neural networks (ANNs) are widely applied in tasks like computer
+vision, speech recognition, and pattern recognition [13]. Despite their success,
+ANNs are often considered black-box algorithms. Such a lack of interpretability
+poses risks in critical domains such as medical and financial applications,
+where understanding model decisions is crucial. Additionally, the presence of
+adversarial examples highlights the need for explainability in machine learning
+algorithms, including neural networks. An adversarial example is an instance
+misclassified by a machine learning model and also slightly different from another
+correctly classified instance [6].

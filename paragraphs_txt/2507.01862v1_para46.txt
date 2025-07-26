@@ -1,0 +1,1 @@
+Scenario: A user is searching for a specific customer

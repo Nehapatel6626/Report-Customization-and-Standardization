@@ -1,0 +1,4 @@
+1. Extraction: extract speech segments from the original audio
+2. Pre-transcription: automatically pre-transcribe the extracted speech audio
+3. Correction: manually correct the pre-transcription according to given rules
+4. Sample generation: chunk utterances into up to 30 s long samples

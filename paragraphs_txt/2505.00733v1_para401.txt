@@ -1,0 +1,2 @@
+Listing 6. Snippet of the PDDL domain formulation for SUAVE containing the search pipeline action
+definition.

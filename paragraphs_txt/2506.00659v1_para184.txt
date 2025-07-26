@@ -1,0 +1,11 @@
+Additionally, all ML-based approaches require complete retraining to inte-
+grate new packers, a scalability issue PackHero avoids. To demonstrate this, we
+simulate packer integration during the tool lifecycle. Assuming integration cost
+depends on the number of samples used, we define the cost function f (n, m, l),
+where n is the number of known packers, m the new packers, and l the samples
+per packer. For other tools, f (n, m, l) = (n + m) · l, while PackHero ’s cost is
+f (n, m, l) = m · l, as it only depends on new packers. Fig. 6 simulates m = 10
+and l = 40, showing PackHero ’s constant integration cost, unlike other tools,
+where cost grows linearly with the number of recognized packers. This result
+demonstrates that PackHero scales effectively in realistic scenarios where new
+packers must be integrated over time.

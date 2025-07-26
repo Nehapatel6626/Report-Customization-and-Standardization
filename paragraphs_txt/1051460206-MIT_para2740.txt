@@ -1,0 +1,2 @@
+Ranzato,  M.  et al.  Automatic  recognition  of biological  particles  in microscopic  images.
+Pattern Recognit. Lett.  28, 31-39  (2007).

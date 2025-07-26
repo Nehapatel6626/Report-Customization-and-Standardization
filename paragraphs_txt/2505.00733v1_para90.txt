@@ -1,0 +1,2 @@
+applications: for each different use case and DSL the roboticist is responsible for creating a translation
+from the DSL to the corresponding LPG.

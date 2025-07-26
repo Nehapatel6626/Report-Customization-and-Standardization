@@ -1,0 +1,7 @@
+ROSA’s implementation does not provide generic monitor nodes. They should be implemented as needed
+for each application with the requirement that they publish the monitored information in the /diagnostics
+topic7 with the standard ROS DiagnosticArray message format. When a monitor node sends measurement
+updates to the KB, the message field in the DiagnosticStatus message needs to be set to ‘QA measurement’
+or ‘EA measurement’, and when sending component status updates (e.g., that the component is in failure),
+the message field must be set to ‘Component status’. When the KB receives monitoring data, it sends an
+event message in the ‘/events’ topic to inform that monitoring data was written in the KB.

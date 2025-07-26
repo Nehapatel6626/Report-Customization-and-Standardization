@@ -1,0 +1,3 @@
+The TSP requires ﬁnding the shortest possible route visit-
+ing N locations exactly once, returning to the start:
+• Inputs: N locations, distance matrix D[N][N]

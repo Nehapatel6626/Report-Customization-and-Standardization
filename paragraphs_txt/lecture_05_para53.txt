@@ -1,0 +1,4 @@
+Any word not in a dictionary is a spelling error
+Need a big dictionary!
+What to use?
+FST dictionary!!

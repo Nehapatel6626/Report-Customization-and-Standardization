@@ -1,0 +1,8 @@
+All programs manipulate data
+programs process, store, display, gather
+data can be information, numbers, images, sound
+Each program must decide how to store data
+Choice influences program at every level
+execution speed
+memory requirements
+maintenance (debugging, extending, etc.)

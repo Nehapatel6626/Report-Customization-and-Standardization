@@ -1,0 +1,1 @@
+Pruning serves two purposes while constructing Decision Trees:  (i) it ensures that the final tree has not learnt unwanted patterns and (ii) it restricts the amount of resources consumed.  Pruning can be done during the learning process or after the learning process (post-pruning).

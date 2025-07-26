@@ -1,0 +1,2 @@
+Latent space
+recursion (Rd \ Σ)

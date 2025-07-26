@@ -1,0 +1,2 @@
+SPICE (Semantic Propositional Image Caption Evaluation)
+was developed to evaluate image captioning using semantic scene

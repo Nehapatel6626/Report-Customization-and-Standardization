@@ -1,0 +1,1 @@
+Bayesian optimization allows for the optimization of a black-box cost function

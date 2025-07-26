@@ -1,0 +1,16 @@
+In our comparisons, we calculated WER and BLEU score [17], commonly used
+for machine translation tasks, which we consider more relevant for Swiss German
+to Standard German transcription (ref. Section 1). For the WER computation,
+we utilized the evaluate-library9 of Hugging Face in version 0.4, which internally
+uses the jiwer10 implementation. For the BLEU score calculation, we used the
+NLTK [2] implementation, version 3.9. Before calculating any metrics, we applied
+Whisper’s basic text normalizer to both the output text and the ground truth to
+ensure uniformity. The normalizer converts the text to lowercase, for example.
+Table 4 summarizes the key findings from our experiments. It indicates that fine-
+tuning with the SRB-300 training set led to a reduction in the Whisper zero-shot
+WER for all models, with improvements ranging from 19% for Whisper large-
+v3 to 33% for Whisper small. Additionally, the BLEU scores increased by 8%
+for Whisper large-v3 and up to 40% for Whisper small. The best performance
+was achieved with the fine-tuned Whisper large-v3 model (referred to as ZHAW
+large-v3), which achieved a WER of 17.1% and a BLEU score of 74.8 on the
+SRB-300 test set.

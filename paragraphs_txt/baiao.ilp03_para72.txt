@@ -1,0 +1,1 @@
+relationship( R ) :- example( relationship( R ) ).

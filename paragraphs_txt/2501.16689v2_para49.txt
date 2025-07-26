@@ -1,0 +1,15 @@
+Planning methodologies can be broadly categorized
+into sequential and reactive approaches.
+Sequen-
+tial planning involves creating time-ordered schedules
+anticipating future scenarios
+(Allen & Hayes, 1989),
+(Cox & Veloso, 1998), and leveraging past experiences
+Reactive plan-
+for
+(Kolodner, 1993).
+ning, on the other hand, focuses on adapting to chang-
+ing conditions (Hammond, 1990), prioritizing immedi-
+ate actions in dynamic environments (Georgeff & Lansky,
+1987), and using data-driven models to forecast scenarios
+(Kushmerick et al., 1995).

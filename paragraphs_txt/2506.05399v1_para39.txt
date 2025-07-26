@@ -1,0 +1,9 @@
+The survey included papers published between 2018 and
+2024. A keyword search was conducted on Google Scholar us-
+ing the following terms: image captioning, image description,
+image text generation, transformer-based image captioning, and
+attention-based image captioning. Google Scholar was chosen
+to avoid bias towards any specific publisher [30]. The survey
+covers articles on image captioning in multiple languages, in-
+cluding, but not limited to, English, Arabic, Vietnamese, Myan-
+mar, and Indonesian.

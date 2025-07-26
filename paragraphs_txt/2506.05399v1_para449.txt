@@ -1,0 +1,5 @@
+Measuring the accuracy of a generated text in describing
+an image is done more effectively through direct human judg-
+ments. However, expanding human evaluation is difficult due
+to the high amount of nonreusable human effort required. The
+following subsections introduce the commonly used evaluation

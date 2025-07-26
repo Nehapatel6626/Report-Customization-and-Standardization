@@ -1,0 +1,1 @@
+purpose Internet Mail Extensions (MIME) type for CSV files called “text/csv”. MIME is an

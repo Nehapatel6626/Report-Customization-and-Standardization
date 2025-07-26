@@ -1,0 +1,1 @@
+the option of preventing the formula from running. Additionally, even if the spreadsheet

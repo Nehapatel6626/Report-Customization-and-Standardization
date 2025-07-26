@@ -1,0 +1,3 @@
+Hopfield (1982) proposes multi-layer perceptron (MLP) trained by back propagation
+Hinton (1986) publishes a practical back propagation method.
+Stanford group publishes Parallel Distributed Processing (1986). Restarts ANN research.

@@ -1,0 +1,1 @@
+The ﬂexible structure of PDFs means it is easy to manipulate them by changing the

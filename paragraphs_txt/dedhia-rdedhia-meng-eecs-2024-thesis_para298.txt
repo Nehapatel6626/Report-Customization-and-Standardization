@@ -1,0 +1,1 @@
+be dangerous if the CSV file in question contains a malicious formula. If the spreadsheet

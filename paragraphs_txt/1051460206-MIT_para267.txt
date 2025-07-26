@@ -1,0 +1,1 @@
+learned weight  applied  to the  neurons input.  b  is the  learned  bias,  providing an  offset to  the

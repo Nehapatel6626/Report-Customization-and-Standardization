@@ -1,0 +1,1 @@
+ImageNet has 60 million parameter that are weights connecting 500K neurons. Trained by 1.3 million high-resolution images from 1000 classes. Introduces Softmax to report the confidence of classification and Dropout layers to reduce overfitting.

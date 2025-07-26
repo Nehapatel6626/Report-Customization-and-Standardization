@@ -1,0 +1,3 @@
+different fields of views  (Fo Vs).  Note  that the y-axis scales differ for each scatter plot.  Within
+each scatter plot,  it can bee seen that the absolute counts vary significantly even though they are
+taken from the same slide.

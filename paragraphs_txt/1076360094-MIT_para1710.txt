@@ -1,0 +1,5 @@
+[8] George Argyros, Ioannis Stais, Suman Jana, Angelos D Keromytis, and Aggelos
+Kiayias. Sfadiﬀ: Automated evasion attacks and ﬁngerprinting using black-
+box diﬀerential automata learning. In Proceedings of the 2016 ACM SIGSAC
+Conference on Computer and Communications Security, pages 1690–1701. ACM,
+2016.

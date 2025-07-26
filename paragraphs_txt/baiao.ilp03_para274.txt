@@ -1,0 +1,1 @@
+Ruberg, G., Baião, F., & Mattoso, M. (2002). “Estimating Costs of Path Expression Evaluation in Distributed Object Databases”, In: Proceedings of the 13th International Conference on Database and Expert Systems Applications (DEXA 2002), LNCS v.2453, Springer Verlag, pp. 351-360.

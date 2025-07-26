@@ -1,0 +1,1 @@
+Listing 4. PDDL formulation example for ROSA

@@ -1,0 +1,3 @@
+• Assign V = −∞ to invalid routes.
+• Assign V = −tour_length to valid routes.
+• Identify minimal V = −24 (i.e., maximal tour length

@@ -1,0 +1,1 @@
+computations  that a single neuron  performs  can be  mathematically  represented  as:

@@ -1,0 +1,3 @@
+Procedure that produces the answer to a question or the solution to a problem in a finite number of steps. 
+An algorithm that produces a yes or no answer is called a decision procedure; one that leads to a solution is a computation procedure. 
+Example: A mathematical formula and the instructions in a computer program

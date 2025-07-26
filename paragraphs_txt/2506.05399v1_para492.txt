@@ -1,0 +1,7 @@
+1 + β2(cid:17)
+(cid:16)
+Rlcs + β2 · Plcs
+The LCS-based precision Plcs and the LCS-based recall Rlcs
+can be calculated using the upper part of (13) and (14) for the
+sentence level, or can be calculated using the lower part of the
+same equations for the summary level.

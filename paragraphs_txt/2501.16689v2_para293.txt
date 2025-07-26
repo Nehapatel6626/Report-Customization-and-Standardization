@@ -1,0 +1,5 @@
+By redeﬁning intelligent planning, MACI lays the foun-
+dation for AI systems that operate with greater precision,
+adaptability, and contextual awareness, bridging the gap
+between static LLM reasoning and dynamic real-world
+decision-making.

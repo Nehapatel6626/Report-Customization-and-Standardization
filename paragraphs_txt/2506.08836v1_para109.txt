@@ -1,0 +1,2 @@
+libraries to facilitate multi-GPU training. This approach has proven effective for
+low-resource languages [12].

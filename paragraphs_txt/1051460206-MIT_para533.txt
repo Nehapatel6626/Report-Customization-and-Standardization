@@ -1,0 +1,1 @@
+the attenuation of light as it passes through a sample.  This leads  to an attenuated  luminance  for

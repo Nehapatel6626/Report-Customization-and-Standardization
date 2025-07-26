@@ -1,0 +1,1 @@
+[11] M. Sahami, S. Dumais, D.  Heckerman and E. Horvitz, “A Bayesian Approach to Filtering Junk E-Mail,” Proceedings of AAAI-98 Workshop on Learning for Text Categorization.

@@ -1,0 +1,1 @@
+the string =cmd|'/C calc.exe'!A0 would become '=cmd|'/C calc.exe'!A0 . Escaping

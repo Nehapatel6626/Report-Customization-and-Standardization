@@ -1,0 +1,4 @@
+19.  IBM Quantum.  Combine error mitigation options with the estimator primitive., 2024. 
+20.  Karl Mayer, Alex Hall, Thomas Gatterman, Si Khadir Halit, Kenny Lee, Justin Bohnet, Dan Gresh, 
+Aaron Hankin, Kevin Gilmore, Justin Gerber, and John Gaebler. Theory of mirror benchmarking and 
+demonstration on a quantum computer, 2023.

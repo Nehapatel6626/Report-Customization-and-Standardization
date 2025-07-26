@@ -1,0 +1,7 @@
+19. Liu, H., Guo, C., Cui, Y., Shen, G., Ping, Y.: 2-SPIFF: a 2-stage packer identifica-
+tion method based on function call graph and file attributes. Applied Intelligence
+51(12), 9038–9053 (2021). https://doi.org/10.1007/s10489-021-02347-w
+20. Liu, Z., Wang, R., Japkowicz, N., Gomes, H.M., Peng, B., Zhang, W.: Segdroid: An
+android malware detection method based on sensitive function call graph learning.
+Expert Syst. Appl. 235(C) (Jan 2024), https://doi.org/10.1016/j.eswa.2023.
+121125

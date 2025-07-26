@@ -1,0 +1,5 @@
+We  generated  9  synthetic  urine  solutions by mixing  and diluting  different proportions  of
+the reference  solutions.  We accomplished  this by first pipetting  a predetermined  volume  of each
+of the reference  solutions into  a microtube  (Step  3)  and then diluting  the resulting mixture  with
+PBS  (Step  4).  Before pipetting  any reference,  we  mixed the  reference  solution for >60  seconds
+with  a vortex mixer.

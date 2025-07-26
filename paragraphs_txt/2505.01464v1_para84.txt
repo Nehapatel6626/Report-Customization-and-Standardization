@@ -1,0 +1,1 @@
+• π : Rd → Σ is a symbolic projection operator

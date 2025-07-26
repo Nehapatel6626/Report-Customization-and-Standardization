@@ -1,0 +1,5 @@
+In general case, node to be removed is always located between two list nodes. Head and tail links are not updated in this case.
+We need to know two nodes "Previous" and "Next", of the node which we want to delete.
+Such a removal can be done in two steps: 
+Update next link of the previous node, to point to the next node, relative to the removed node. 
+Dispose removed node.

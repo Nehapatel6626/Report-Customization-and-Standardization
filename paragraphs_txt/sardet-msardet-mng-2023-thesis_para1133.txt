@@ -1,0 +1,1 @@
+that similar objects are assigned a higher probability while dissimilar points are assigned a

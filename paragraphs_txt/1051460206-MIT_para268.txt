@@ -1,0 +1,1 @@
+neuron  that's independent  of the  neuron's input.  And,  actO  is the activation  function,  usually

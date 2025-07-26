@@ -1,0 +1,6 @@
+Further analysis of the results (see Figure 4) revealed that all dialects in the
+training data benefited from the fine-tuning, despite a significant variance in
+the quantity of training data available for the different broadcasting stations,
+which ranged from less than 2 hours to over 11 hours (ref. Table 9). Also, the
+broadcasting stations with no training data improved significantly (marked with
+a star in Figure 4).

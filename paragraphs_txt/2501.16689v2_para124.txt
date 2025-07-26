@@ -1,0 +1,4 @@
+Common Sense Gaps LLMs miss implicit real-world
+knowledge (luggage claim times, rental car logistics) re-
+quiring explicit speciﬁcation of human-obvious constraints
+(airport-terminal proximity).

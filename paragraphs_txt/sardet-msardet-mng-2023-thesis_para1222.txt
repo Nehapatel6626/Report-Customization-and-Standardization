@@ -1,0 +1,1 @@
+coefficient is between [-1,1]. A score of 1 denotes the best meaning that the data point i is

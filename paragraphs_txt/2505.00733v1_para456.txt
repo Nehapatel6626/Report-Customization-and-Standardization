@@ -1,0 +1,6 @@
+To measure ROSA’s development effort for each use case, we count the number of entities and
+relationships contained in the models created for the use cases presented. To measure the BT managing
+system development effort for SUAVE, we count the number of nodes contained in the BTs created to
+solve it, and the number of modes and parameters included in the System Modes’ configuration file already
+packaged in SUAVE. In the remainder of this paper, we denote the elements modeled in both approaches
+as overhead.

@@ -1,0 +1,11 @@
+Algorithm
+1: Initialize τij ← 1.0, ηij ← 1/Dij
+2: for 50 iterations do
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10: end for

@@ -1,0 +1,5 @@
+MACI implements a three-component architecture to ad-
+dress current LLM limitations: metacognitive constraints,
+attention bias, and gaps in common-sense reasoning. Each
+component plays a distinct role in enabling robust and
+adaptable planning capabilities.

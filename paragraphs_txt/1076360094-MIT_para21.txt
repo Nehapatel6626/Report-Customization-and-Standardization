@@ -1,0 +1,3 @@
+Beyond classifying malware, we provide a general active defender framework that
+can be used to deploy decision systems for a variety of resource-constrained adversarial
+problems.

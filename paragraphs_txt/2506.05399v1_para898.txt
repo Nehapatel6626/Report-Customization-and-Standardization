@@ -1,0 +1,4 @@
+[82] J. J. Wijadi, B. Ghiffar, N. N. Qomariyah, Indonesian language im-
+age captioning using encoder-decoder with attention approach, in: 2024
+2nd International Conference on Software Engineering and Information
+Technology (ICoSEIT), 2024, pp. 342–347.

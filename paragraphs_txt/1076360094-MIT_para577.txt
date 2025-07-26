@@ -1,0 +1,1 @@
+• can parse: Boolean ﬂag indicating if this is parseable by a PDFRW PDF reader

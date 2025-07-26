@@ -1,0 +1,9 @@
+When asked to solve the problem without MP, Glaude and
+GPT4o initially chose brute force, then switched to an ap-
+proximation method without thorough deliberation (or per-
+haps they did, but did not output their reasoning process).
+However, DeekSeek picked Held-Karp, a computationally
+expensive method, even more expensive than brute force,
+arguing that the absolute computation time for N = 10
+is only 0.2 seconds. MP was more deliberate, opting for
+brute force when N = 5 and ACO for N = 10.

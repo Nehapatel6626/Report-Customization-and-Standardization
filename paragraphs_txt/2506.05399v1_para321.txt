@@ -1,0 +1,10 @@
+In the attention mechanism, determining the optimal num-
+ber of regions to capture all the details in an image can be chal-
+lenging. To address this issue, [6] proposed an approach that
+combines low- and high-level images. They used a combina-
+tion of a Convolutional Neural Network (CNN) and an LSTM-
+based decoder to generate image captions. The visual attention
+mechanism is based on the history of image feature generation,
+and re-ranking methods were employed to measure the similar-
+ity between the generated captions and the corresponding object
+classes.

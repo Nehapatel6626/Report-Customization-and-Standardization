@@ -1,0 +1,16 @@
+Input: schedule, resources, recipes
+Output: task progress, completion
+Monitor: kitchen_state() → status
+Validate: cooking_constraints()
+Input: ﬂight times, routes
+Output: location, ETA
+Monitor: driver_state() → status
+Validate: driver_constraints()
+Input: pickup schedule, route
+Output: location, ETA
+Monitor: driver_state() → status
+Validate: driver_constraints()
+Input: cooking schedule, rules
+Output: supervision status
+Monitor: safety_state() → status
+Validate: safety_constraints()

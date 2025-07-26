@@ -1,0 +1,3 @@
+Bozhinoski, D., Oviedo, M. G., Garcia, N. H., Deshpande, H., van der Hoorn, G., Tjerngren, J., et al.
+(2022). MROS: runtime adaptation for robot control architectures. Advanced Robotics 36, 502–518.
+doi:10.1080/01691864.2022.2039761

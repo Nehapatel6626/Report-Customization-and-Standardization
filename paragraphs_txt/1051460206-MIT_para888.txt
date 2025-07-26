@@ -1,0 +1,1 @@
+standard  deviation of pixel  values,  a maximum  or a fixed value.

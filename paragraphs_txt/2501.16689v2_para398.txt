@@ -1,0 +1,4 @@
+N
+Dependencies (edges) A
+eij
+Individual role

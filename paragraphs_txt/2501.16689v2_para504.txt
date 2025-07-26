@@ -1,0 +1,2 @@
+– A → D → B → C → E → A
+– A → B → D → C → E → A

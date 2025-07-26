@@ -1,0 +1,1 @@
+ﬁcation score is a ﬂoating point value where scores close to -1 indicate benign

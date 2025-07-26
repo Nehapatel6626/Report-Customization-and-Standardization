@@ -1,0 +1,1 @@
+Model.ﬁt() operates on extracted features from samples and the corresponding labels

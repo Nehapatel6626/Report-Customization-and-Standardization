@@ -1,0 +1,1 @@
+window function  is termed max pooling,  which only passes  forward the the maximum  input

@@ -1,0 +1,1 @@
+In this subsection, we evaluate the performance of the Hybrid Classifier. To best illustrate the effect of going in for the hybrid, we turn off cross-validation and ensemble.

@@ -1,0 +1,3 @@
+Simulates scenarios
+to validate feasibility and robustness under uncer-
+tainty (Metropolis & Ulam, 1949).

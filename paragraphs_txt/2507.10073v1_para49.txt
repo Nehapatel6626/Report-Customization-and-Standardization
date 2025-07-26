@@ -1,0 +1,7 @@
+particularly under-representing the extremes observed in human data. The model shows
+limited differentiation between cultural contexts on the authority and loyalty dimensions,
+where human responses exhibit the most significant cross-cultural variance. Mistral 7B
+(Fig. 1, right panel) shows a different pattern of limitations. While it displays broader
+cross-cultural variation across all dimensions compared to Llama 3.1 8B, the overall
+distribution is systematically offset from human responses, suggesting a consistent bias
+across all cultural prompts regardless of origin.

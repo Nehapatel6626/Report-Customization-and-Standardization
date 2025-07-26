@@ -1,0 +1,6 @@
+Braberman et al. (2017) proposed MORPH as a reference architecture to enable TACA. They showcased
+on a conceptual level how MORPH can be applied to enable TACA in an unmanned aerial vehicle (UAV)
+use case. However, since MORPH is only demonstrated at a conceptual level, it is hard to evaluate the
+feasibility of applying MORPH to robotic systems at runtime. To the best of our knowledge, there is no
+framework implementing the complete MORPH architecture. Therefore, it is not possible to directly reuse
+MORPH.

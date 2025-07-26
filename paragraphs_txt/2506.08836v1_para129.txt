@@ -1,0 +1,11 @@
+In two additional experiments, we aimed to determine how Whisper mod-
+els might benefit from fine-tuning using the sentence-level STT4SG-350 dataset
+for our specific task. We fine-tuned the medium-sized Whisper model on the
+STT4SG-350 dataset and evaluated its performance on the SRB-300 test set
+(experiment ZHAW medium 2). However, we observed a 4.2% increase in the
+WER and a drop of 7.6 BLEU score compared to the Whisper medium model’s
+zero-shot performance. After conducting further fine-tuning with the SRB-300
+training set (referred to as ZHAW medium 3), the model’s performance only
+slightly improved compared to the Whisper model that had been fine-tuned
+solely on the SRB-300 dataset. This suggests that additional fine-tuning data
+only helps if recorded in a setting similar to the target application.

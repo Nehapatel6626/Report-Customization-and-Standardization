@@ -1,0 +1,2 @@
+Ontological Distinction The agent’s hidden-state manifold A is functionally distinct from
+its symbolic input stream s, formally:

@@ -1,0 +1,1 @@
+– Log more information about where the measurement has been made (especially for

@@ -1,0 +1,31 @@
+Description
+Samples
+Number of samples
+Individual sample
+Classiﬁer
+True Labels
+Predicted Labels
+Set of probabilities
+Individual probabilistic score
+PDFRate (primary) classiﬁer
+Output of C1
+Cuckoo (primary) classiﬁer
+Output of C2
+Virus Total (primary) classiﬁer
+Output of C3
+Secondary classiﬁer using p1 and p2 as inputs
+Output of C4
+Secondary classiﬁer using p1, p2, and p3 as inputs
+Output of C5
+Output of the last classiﬁer used in making a decision
+Decision function
+Lower threshold for probability score i
+Upper threshold for probability score i
+Output probability score of active defender system
+Last threshold used in making a decision
+Number of primary classiﬁers used in classifying a ﬁle
+Number of total classiﬁers used
+value of accuracy score vs. time
+Total time taken to make decision per ﬁle
+Average time taken to make decision per ﬁle
+Recall

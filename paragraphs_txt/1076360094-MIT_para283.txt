@@ -1,0 +1,1 @@
+is split into subsets qi, representing the ﬁles received in each successive

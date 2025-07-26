@@ -1,0 +1,1 @@
+Given two sets of data X and Y, the Dice’s coefficient equals twice the number of elements

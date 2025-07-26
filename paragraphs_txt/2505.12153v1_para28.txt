@@ -1,0 +1,5 @@
+• We design a novel FDRL framework that seamlessly
+integrates FL with Deep Reinforcement Learning (DRL)
+to enable collaborative yet privacy-preserving surgical
+policy optimisation across multiple healthcare institu-
+tions.

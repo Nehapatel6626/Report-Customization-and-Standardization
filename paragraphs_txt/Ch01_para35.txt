@@ -1,0 +1,8 @@
+Understand natural language robustly (e.g., read and understand articles in a newspaper)
+Surf the web
+Interpret an arbitrary visual scene
+Learn a natural language
+Play Go well
+Construct plans in dynamic real-time domains
+Refocus attention in complex environments
+Perform life-long learning

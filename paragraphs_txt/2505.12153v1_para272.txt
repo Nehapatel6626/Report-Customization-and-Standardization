@@ -1,0 +1,8 @@
+The most significant accuracy degradation is observed under
+high heterogeneity and noise, indicating a compounding effect.
+Surface irregularities also suggest the influence of additional
+factors, such as training stochasticity, model architecture, and
+hyperparameters. Within the FDRL framework for RAS, these
+findings highlight
+the need to mitigate data heterogeneity
+across hospitals and carefully calibrate privacy mechanisms to

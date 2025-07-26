@@ -1,0 +1,9 @@
+the scaled attention of the dot product is shown in the left block,
+where self-attention calculates the dot product of the query with
+all keys, which is then normalized using the SoftMax operator
+to obtain attention scores. These scores determine the weights,
+and each element becomes the weighted sum of all elements
+in the sequence. On the other hand, the right block repre-
+sents multi-head attention, consisting of multiple self-attention
+blocks (h = 8 in the original Transformer model) to capture
+complex interactions between various items in the sequence.

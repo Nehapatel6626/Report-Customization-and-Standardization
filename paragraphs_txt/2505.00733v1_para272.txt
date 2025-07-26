@@ -1,0 +1,1 @@
+Listing 2 exemplifies how the inference rules are implemented with TypeQL. The component-status-configuration-error

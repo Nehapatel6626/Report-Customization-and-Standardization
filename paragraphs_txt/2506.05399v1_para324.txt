@@ -1,0 +1,9 @@
+In addition, [57] developed the Arabic Description Model
+(ADM) to generate full image descriptions in Arabic, compared
+to an earlier model based on English. The image features were
+obtained from CNN, and a JSON file containing image descrip-
+tions in English was translated into Arabic and fed to an LSTM
+network along with the CNN feature vector. The authors re-
+ported that translating recognized English captions into Arabic
+resulted in poor sentence structure, indicating that it is not a
+viable approach.

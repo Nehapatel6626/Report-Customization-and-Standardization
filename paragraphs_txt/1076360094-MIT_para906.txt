@@ -1,0 +1,7 @@
+Figure 4-2: KDE approximation of Probability Density for percent of Virus Total-
+Engines classiﬁers that classify a ﬁle as malicious. This plot shows the classiﬁcation
+scores for diﬀerent types of ﬁles. The Benign ﬁles are shown as pink, the Contagio
+malware samples are shown in purple, the EvadeML variants are shown in blue and
+the Max-Diﬀ variants are shown in green. The KDE plot was generated with Gaus-
+sian kernel of width 0.15, and 0.15 , 0.17,.17, for the Benign, Contagio, EvadeML,
+and Max-Diﬀ ﬁles respectively.

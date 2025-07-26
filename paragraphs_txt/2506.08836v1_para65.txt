@@ -1,0 +1,4 @@
+4 https://huggingface.co/openai/whisper-large-v3
+5 Finally, we aimed for a maximum sample length of 30 s. Therefore, we left some
+margins so that the segment boundaries could be adjusted during the later manual
+correction step.

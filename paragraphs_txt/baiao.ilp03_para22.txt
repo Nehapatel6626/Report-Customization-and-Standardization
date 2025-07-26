@@ -1,0 +1,1 @@
+The operations are captured by decomposing the application running over the database, and are classified into selection, projection or navigation operations according to the definitions from [2]. Quantitative information needed includes the cardinality of each class (i.e., its estimated size: small, medium or large) and the execution frequency of each operation.

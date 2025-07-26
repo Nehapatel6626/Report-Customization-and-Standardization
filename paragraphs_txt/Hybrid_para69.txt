@@ -1,0 +1,1 @@
+Figure 3: This graph depicts how the number of errors varies as the ensemble number increases.

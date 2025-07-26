@@ -1,0 +1,9 @@
+This work assumes that the robotics architecture is layered, containing a bottom functional layer,
+an upper task decision layer, and an arbitrary number of layers in between, as common in robotics
+architectures (Barnett et al., 2022). The functional layer is responsible for interacting with the robots’
+sensors and actuators, and the task decision layer is responsible for task planning and execution3. To enable
+TACA with ROSA, the task decision layer shall use the knowledge contained in ROSA’s KB to decide
+which actions to perform, and it must update the KB with the actions selected to be performed to enable
+ROSA to configure the robot’s architecture accordingly. To enable architectural adaptation, the robotic
+architecture must be component-based, its components must be able to be activated and deactivated at
+runtime, and its components’ parameters must be able to be adapted at runtime.

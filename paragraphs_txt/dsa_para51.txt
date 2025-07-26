@@ -1,0 +1,9 @@
+Languages like ‘C’ provides the following primitive data types:
+boolean
+char, byte, int
+float, double
+Each primitive type has:
+A set of values
+A data representation
+A set of operations
+These are “set in stone”.

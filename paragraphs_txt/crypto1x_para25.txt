@@ -1,0 +1,8 @@
+A cipher (Gen,Enc,Dec) is defined by:                 a plaintext source (with a distribution), a secret key distribution, a ciphertext space, with
+Gen: a key generation algorithm
+that is probabilistic an outputs a key k according to some distribution.
+Enc: an encryption algorithm
+That takes as input key k and a plaintext m and outputs a ciphertext c:  c = Enck(m).
+Dec: a decryption algorithm
+That takes as input a key k and a ciphertext c and outputs a plaintext m’: m’ = Deck(c).
+Must have m’ = m.

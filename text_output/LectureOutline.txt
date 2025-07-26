@@ -1,0 +1,97 @@
+Spatial Analysis and Spatial Statistics for Research in GIS, Geography and Land Management
+
+Special Lecture Series at Henan University, May  and September 2012
+
+Dr. Ron Briggs
+
+Professor Emeritus
+
+The University of Texas at Dallas
+
+
+
+Goals for Students
+
+Improve your research by explaining standard research practices and procedures in western countries
+
+Expand your understanding of English by talking in English about some GIS concepts you already know, and some that you don’t
+
+Enhance your understanding of Spatial Analysis in general, and Spatial Statistics in particular
+
+Provide exposure to U.S. data and associated geographical concepts (State Plane Coordinate System, Metropolitan Statistical Areas, census tracts, etc.)
+
+
+
+Week 1 (May 7)
+
+1. Research Methodology: The Central Role of Goals and Objectives.  (1Intro.ppt: 37 slides)  
+
+2. Spatial Analysis: Concepts and Issues    (2spatanal.ppt: 42 slides) 
+
+3. Spatial Data:  What is special about spatial data?   (3spatdata.ppt: 33 slides)  
+
+Week 2 (May 14)
+
+	4. Standard Statistics and Spatial Statistics: Differences and Similarities (5CentroStat.ppt: 61 slides) 
+
+	5. Descriptive Spatial Statistics for Points and Polygons
+
+	6. Inferential Spatial Statistics: Standard and spatial (6InfStat.ppt: 34 slides)	
+
+Week 3 (May 21)
+
+	7. Point Pattern Analysis: Concepts and Tests for Clustering and Dispersion   (7.1PointPat.ppt:  44 slides)
+
+	8. Point Pattern Analysis: Applied Point Pattern  Analysis  (7.2PointPat.ppt:  53 slides)
+
+	9. Conclusion and preview of September classes: Analyzing polygons and surfaces
+
+
+
+
+
+Week 4 (Fall- 1st week)
+
+	10. Review of May sessions (Point Pattern Analysis) and Intro to fall (Polygons and Surfaces)
+
+	11. Spatial Autocorrelation: concept and implementation  (9SAconcepts.ppt 42 slides)
+
+	12.  Global Measures of Spatial Autocorrelation: Moran’s I  and Geary’s C (10SAglobal.ppt 36 slides)
+
+Week 5(Fall-2nd week)
+
+	13. Local measures of Spatial Association: Anselin’s LISA and others (11SALocal.ppt: 28 slides)
+
+	14.  Using GeoDA for measuring spatial autocorrelation (12SADemo.ppt: 30 slides)
+
+	15. Regression and Correlation: standard approach (13SpatReg.ppt 64 slides)
+
+Week 6 (Fall-3rd week)
+
+	16.  Spatial Regression 
+
+	17.  Using  GeoDA for standard and spatial regression (15Regdemo.ppt 30 slides)
+
+	18.  Analyzing surfaces: Concepts and Trend Surface Analysis (18Surfaces.ppt: 54 slides)
+
+Week 7 (Fall-4th week)
+
+	19. Analyzing surfaces: IDW and Kriging
+
+18.  Research at UT-Dallas: spatial statistics in practice. (16UTDRes.ppt 49 slides)
+
+19. A taste of other topics: cluster creation, network analysis, interaction data
+
+
+
+Software to be Used (training will be incorporated into the lecture series)
+
+ArcGIS  from ESRI, Inc.  (licensed)
+
+GeoDA  by Luc Anselin, Arizona State University (freely available)
+
+Crime Stat III  by Ned Levine, National Institute for Criminal Justice  (freely available)
+
+
+
+Revised 04/2012

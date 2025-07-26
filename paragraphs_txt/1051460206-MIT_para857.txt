@@ -1,0 +1,1 @@
+generalizes  to  new inputs,  but instead  starts  learning  features  that are unique  to the  training set.

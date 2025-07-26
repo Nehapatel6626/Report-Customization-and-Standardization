@@ -1,0 +1,4 @@
+Hochgeschwender, N., Schneider, S., Voos, H., Bruyninckx, H., and Kraetzschmar, G. K. (2016). Graph-
+based software knowledge: Storage and semantic querying of domain models for run-time adaptation. In
+Proc. Intl. Conf. on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR 2016)
+(IEEE), 83–90. doi:10.1109/SIMPAR.2016.7862379

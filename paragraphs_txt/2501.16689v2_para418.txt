@@ -1,0 +1,3 @@
+1. Role Manager Agent (Who): Tracks actors, their roles,
+and their associated constraints, ensuring that all role-
+based requirements are satisﬁed.

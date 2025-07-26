@@ -1,0 +1,13 @@
+Experimental results validate the effectiveness of the FDRL
+framework in achieving an optimal balance between privacy
+and performance. The privacy-utility tradeoff analysis con-
+the framework successfully Minimises the PLR
+firms that
+while preserving high surgical precision. Compared to central-
+ized RL approaches, FDRL reduces the risk of data exposure,
+maintains model performance across diverse surgical tasks,
+and enhances policy generalization by leveraging institution-
+specific procedural knowledge. Additionally, policy divergence
+emerges as an implicit privacy-preserving measure, reducing
+the risk of reconstructing sensitive patient data from the shared
+global model.

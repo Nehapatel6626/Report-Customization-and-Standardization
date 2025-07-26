@@ -1,0 +1,2 @@
+When list is empty, which is indicated by (head == NULL) condition, the insertion is quite simple. 
+Algorithm sets both head and tail to point to the new node.

@@ -1,0 +1,3 @@
+Represents which Functions a
+certain Action requires to be
+performed

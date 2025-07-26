@@ -1,0 +1,9 @@
+dependency graphs that encode inter-agent constraints, en-
+suring precise role allocation while maintaining global fea-
+sibility. Meanwhile, validation agents, operating indepen-
+dently of the planning process, monitor for errors and in-
+consistencies stemming from probabilistic output, ensuring
+alignment with task objectives. This separation of roles mit-
+igates cognitive tunneling and enhances adaptability, allow-
+ing MACI to dynamically respond to real-time disruptions
+such as resource shortages or environmental changes.

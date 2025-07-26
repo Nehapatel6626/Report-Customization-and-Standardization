@@ -1,0 +1,2 @@
+Figure 14: General architecture of an attention-based model for image captioning, illustrating the integration of image features with sequential attention mechanisms
+to generate descriptive captions.

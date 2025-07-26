@@ -1,0 +1,3 @@
+end for
+Cp ← hierarchicalClustering(D)
+for Cj ∈ Cp do

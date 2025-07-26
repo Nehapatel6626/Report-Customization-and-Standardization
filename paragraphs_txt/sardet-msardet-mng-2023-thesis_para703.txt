@@ -1,0 +1,1 @@
+Machine parameters: mandrel rotation, number of burner (here only one).

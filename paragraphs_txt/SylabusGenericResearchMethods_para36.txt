@@ -1,0 +1,1 @@
+Stochastic vs. Deterministic processes and models. Statistical description as an efficient means of summarizing large quantities of information. The logic of statistical inference and hypothesis testing.

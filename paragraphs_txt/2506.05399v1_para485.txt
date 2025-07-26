@@ -1,0 +1,22 @@
+Used In
+Definition
+Sequence of n consecutive words in a sentence
+BLEU, ROUGE
+Precision of n-gram matches between generated and reference captions
+BLEU
+BLEU
+Brevity penalty (penalizes overly short captions)
+Recall – fraction of reference words covered by the candidate caption
+METEOR, ROUGE
+Precision – fraction of candidate words appearing in the reference caption METEOR, ROUGE
+Harmonic mean of precision and recall: F1 = 2PR
+METEOR, ROUGE
+P+R
+Weight assigned to n-gram matches
+BLEU
+BLEU
+CIDEr
+CIDEr
+CIDEr
+CIDEr
+SPICE

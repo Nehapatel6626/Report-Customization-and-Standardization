@@ -1,0 +1,1 @@
+generalized the numbers by replacing them with tags: "percent", "decimal", "ratio",

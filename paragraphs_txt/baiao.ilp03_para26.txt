@@ -1,0 +1,1 @@
+The framework we propose for the class fragmentation problem in the design of distributed databases integrates three modules: the DDODB heuristic module, the theory revision module (TREND3) and the DDODB branch-and-bound module (figure 2).

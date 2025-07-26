@@ -1,0 +1,1 @@
+input layer,  and the output layer that's fully connected  to the hidden layer.  Each  neuron performs

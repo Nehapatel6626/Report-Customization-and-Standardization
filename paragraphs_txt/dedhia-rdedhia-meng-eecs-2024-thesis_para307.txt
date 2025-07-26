@@ -1,0 +1,1 @@
+Exchange (DDE). Attackers can exploit these features in order to execute arbitrary code

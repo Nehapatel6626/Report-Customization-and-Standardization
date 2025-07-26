@@ -1,0 +1,12 @@
+1 # Action search pipeline
+2 $a search pipeline isa Action, has action−name
+3
+4
+5 $f generate search path isa Function, has function−name
+6
+7
+8 # functional−requirement relationship
+9 (action: $a search pipeline,
+10 required−function: $f generate search path,
+11 required−function: $f maintain motion)
+12 isa functional−requirement;

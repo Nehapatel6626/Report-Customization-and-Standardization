@@ -1,0 +1,1 @@
+• εn ∼ D, E[εn] = 0, Var(εn) < ∞. See Robbins and Kushner [8, 6].

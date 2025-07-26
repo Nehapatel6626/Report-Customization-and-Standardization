@@ -1,0 +1,5 @@
+other hand, utilizes the task-specific context to determine an at-
+tention distribution over the visual regions. The weighted aver-
+age of the image features in all regions is then utilized to com-
+pute the attended feature vector. The study by [119] proposed a
+method that presented bottom-up and top-down approaches.

@@ -1,0 +1,3 @@
+Step 2: Route Generation (nroute Agent)
+• Generate all valid permutations: (5−1)!
+• Example permutations:

@@ -1,0 +1,10 @@
+A literature survey by [31] demonstrated that bottom-up
+attention models, which combine multi-head attention, yield
+the most significant results. [23] proposed an attention-based
+deep learning model for image captioning as part of a com-
+parative study. This research focused on attention mechanisms
+and identified key image areas based on the image’s context,
+noting that attention can be beneficial in generating image cap-
+tions. [24] reviewed advanced captioning techniques and classi-
+fied them into attentive, semantically enhanced, transformation-
+based, post-editing, and vision-language pre-training (VLP).

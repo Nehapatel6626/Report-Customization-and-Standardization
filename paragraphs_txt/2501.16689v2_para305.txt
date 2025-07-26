@@ -1,0 +1,2 @@
+Kirkpatrick, S., Gelatt, Jr, C. D., and Vecchi, M. P. Optimization
+by simulated annealing. Science, 220(4598):671–680, 1983.

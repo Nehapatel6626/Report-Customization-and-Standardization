@@ -1,0 +1,6 @@
+By scoping problems logically and constraining context
+physically, MACI ensures that each agent processes only
+the task-relevant information needed for its speciﬁc role.
+This design prevents cognitive tunneling, maintains global
+feasibility, and enhances robustness in dynamic environ-
+ments.

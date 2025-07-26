@@ -1,0 +1,1 @@
+second  most common  approach  is rescaling,  where the value  of each pixel  is  rescaled by  either a

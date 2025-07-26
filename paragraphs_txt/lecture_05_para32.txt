@@ -1,0 +1,4 @@
+<p>
+<s> The quick brown fox. </s>
+<s> This is sentence two. </s>
+</p>

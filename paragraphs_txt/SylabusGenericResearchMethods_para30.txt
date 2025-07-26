@@ -1,0 +1,1 @@
+The idea of experimental control and how we often do not have it in geographic research. Overview of basic research designs and a discussion of computational modeling.

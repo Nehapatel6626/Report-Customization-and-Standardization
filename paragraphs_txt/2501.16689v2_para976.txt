@@ -1,0 +1,2 @@
+Table19. DeepSeek’s Reactive Plan. Three Iterations. Routining
+Michael directly to BOS is smart.

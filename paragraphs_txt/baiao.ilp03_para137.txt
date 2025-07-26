@@ -1,0 +1,2 @@
+chooseVerticalFragmentationMethod(A,B):-
+   cardinality(B,medium),classification(A,projection).

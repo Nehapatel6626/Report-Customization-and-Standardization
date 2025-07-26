@@ -1,0 +1,5 @@
+[52] H. Wang, Y. Zhang, X. Yu, An overview of image caption generation
+methods, Computational intelligence and neuroscience 2020 (2020).
+[53] M. Pedersoli, T. Lucas, C. Schmid, J. Verbeek, Areas of attention for
+image captioning, in: Proceedings of the IEEE international conference
+on computer vision, 2017, pp. 1242–1250.

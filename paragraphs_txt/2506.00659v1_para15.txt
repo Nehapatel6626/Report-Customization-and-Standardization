@@ -1,0 +1,4 @@
+(goodware) are also packed to protect intellectual property. For instance, Rah-
+barinia et al. [31] found that 54% of benign programs and 58% of malware sam-
+ples in their study were processed with known packers, demonstrating a similar
+distribution.

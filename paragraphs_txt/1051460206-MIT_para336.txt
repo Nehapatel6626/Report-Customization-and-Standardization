@@ -1,0 +1,1 @@
+convolving a single input image with 8 filters followed by  a pixel-wise activation function.

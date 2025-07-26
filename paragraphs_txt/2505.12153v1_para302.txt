@@ -1,0 +1,3 @@
+[21] Xin, X., Keoh, S., Sevegnani, M., Saerbeck, M. & Khoo, T. Adaptive
+Model Verification for Modularized Industry 4.0 Applications. IEEE
+Access.

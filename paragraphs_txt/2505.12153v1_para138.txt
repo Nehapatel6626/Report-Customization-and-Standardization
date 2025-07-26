@@ -1,0 +1,8 @@
+To address this, we incorporated weighted local updates
+(Eq. 3), with a regularisation term λ that penalises divergence
+between local models and the global model. Furthermore, we
+simulated varying levels of non-IID environments by adjusting
+the heterogeneity factor from 0 (Independent and Identically
+Distributed (IID)) to 1 (highly non-IID), demonstrating that the
+proposed FDRL framework consistently maintains a stable ac-
+curacy of > 92%, even under severe heterogeneity conditions.

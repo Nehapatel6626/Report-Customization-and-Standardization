@@ -1,0 +1,4 @@
+• Tour starts/ends at Admissions (A)
+• Each location visited exactly once
+• Total possible routes: (5-1)!/2 = 12
+• Optimal solution can be veriﬁed by hand

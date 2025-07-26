@@ -1,0 +1,8 @@
+Rather than doing parsing-as-search, we do parsing as dynamic programming
+This is the most standard way to do things
+Q.v. CKY parsing, next time
+It solves the problem of doing repeated work
+But there are also other ways of solving the problem of doing repeated work
+Memoization (remembering solved subproblems)
+Also, next time
+Doing graph-search rather than tree-search.

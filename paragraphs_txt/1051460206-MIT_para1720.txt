@@ -1,0 +1,3 @@
+includes  only  a single target particle  and the  artifacts that can be  found  in any  solution  (the
+'other'  category).  As a reminder,  'other'  particles are  still predicted  and counted  during
+segmentation  since  the  segmentation  algorithm  is completely particle  agnostic.  The classification

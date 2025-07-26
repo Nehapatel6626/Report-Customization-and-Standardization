@@ -1,0 +1,3 @@
+Dantzig, G., Fulkerson, R., and Johnson, S. Solution of a large-
+scale traveling-salesman problem. Journal of the Operations
+Research Society of America, 2(4):393–410, 1954.

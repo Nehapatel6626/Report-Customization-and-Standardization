@@ -1,0 +1,7 @@
+To capture the decision criteria on how to select an adaptation, the priority attribute can be used to
+express the order of priority for selecting each function design or component configuration.
+For more complex criteria, the estimation relationship can be used to capture the estimated impact of
+selecting a function design, Component, or component configuration on the measured values
+of Measures. Furthermore, a required action can relate to a Measure to indicate the preferred
+estimation when selecting a configuration for that action. At runtime, the configuration planner
+component exploits this knowledge to decide which configuration to select.

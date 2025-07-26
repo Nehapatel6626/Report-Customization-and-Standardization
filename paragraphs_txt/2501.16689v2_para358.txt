@@ -1,0 +1,7 @@
+The protocol begins with pre-validation. Before a state tran-
+sition starts, the validation agent queries relevant agents
+about preconditions. For a travel booking, temporal agent
+veriﬁes the proposed times ﬁt within existing schedules.
+Spatial agent conﬁrms the physical feasibility of move-
+ments between locations. Role agent checks if all actors
+can perform their assigned functions.

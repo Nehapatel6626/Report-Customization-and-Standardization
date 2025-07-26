@@ -1,0 +1,1 @@
+For  the  semantic  segmentation  algorithm,  we  use  a FCN  to threshold the  image  followed

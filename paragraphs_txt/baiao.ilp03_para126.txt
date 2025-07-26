@@ -1,0 +1,1 @@
+Figure 7 shows an example of choosing vertical fragmentation for class atomicPart, from the OO7 benchmark application, during the analysis of a projection operation.

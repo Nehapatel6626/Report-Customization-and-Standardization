@@ -1,0 +1,9 @@
+ROSA: A Knowledge-based Solution for Robot
+Self-Adaptation
+Gustavo Rezende Silva 1,∗, Juliane P ¨aßler 2, S. Lizeth Tapia Tarifa 2, Einar
+Broch Johnsen 2, and Carlos Hern ´andez Corbato 1
+1Delft University of Technology, Delft, Netherlands
+2University of Oslo, Oslo, Norway
+Correspondence*:
+Gustavo Rezende Silva
+g.rezendesilva@tudelft.nl

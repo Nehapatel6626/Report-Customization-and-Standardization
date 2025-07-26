@@ -1,0 +1,26 @@
+fair evaluation, we train them using a stratified 80-20 split of the lab-10 dataset.
+Therefore, for each ML-based tool, we train each model by excluding one packer,
+using 80% of the dataset. This subset includes the 100 samples per packer used
+to train PackHero. However, none of these approaches utilize a NN. Therefore,
+we are required to entirely re-train their models each time we want to integrate
+a new packer. Ultimately, both our method and the other approaches are tested
+using the test set from the 80-20 split, which corresponds to the stratified 20%
+of lab-10, equal to 307 samples for each packer. Results specific to each packer
+are obtained by testing the samples from that particular packer on the updated
+tools. By evaluating separately for each packer, the metric we use is recall, which
+is equivalent to accuracy in this experimental setup. In Fig. 5, we show the aver-
+age recall trends for PackHero with and without fine-tuning and compare them
+against all other ML-based packer identifiers. As the figure shows, 2SPIFF and
+Randomness Profiles (RP) perform very badly, even in the best configuration. In
+contrast, both the fine-tuned PackHero and Binary Diffing (BD) with LCS-SVM
+achieve very good performance and consistency using a small number of sam-
+ples. Starting from the 40 samples, their performance is aligned, except for small
+fluctuations due to the single run. However, as the plot shows, PackHero reaches
+a high recall before BD. Indeed, using 5, 10, 20, and 30 samples to integrate
+the new packer, PackHero performs better. Similarly, PackHero without fine-
+tuning also exhibits good performance, although not as good as the other two
+methods. However, the average performance hides the results for single-packers.
+Indeed, removing two packers out of nine (Obsidium and Petite) the non-fine-
+tuned PackHero achieves performance very close to the fine-tuned version and
+BD starting from 50 integration samples. This result shows that fine-tuning the
+GMN is unnecessary for low-heterogeneity graphs, saving computation.

@@ -1,0 +1,2 @@
+made about the robotics architecture and the requirements to use it alongside ROSA, and then it details
+ROSA’s architecture.

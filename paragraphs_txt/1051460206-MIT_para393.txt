@@ -1,0 +1,1 @@
+CNN  into a probability  distribution of predicted classes.  The  softmax  function is  defined  as:

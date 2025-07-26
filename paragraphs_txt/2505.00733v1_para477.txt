@@ -1,0 +1,4 @@
+To evaluate how ROSA’s development effort scales for more complex use cases, we analyze how the
+development effort of a base scenario grows with the addition of new actions and adaptations. The growth
+for adding actions and adaptations depends on the specific application. Thus, we make the following
+assumptions to generalize and simplify the analysis of adding adaptation.

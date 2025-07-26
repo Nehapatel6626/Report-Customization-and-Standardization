@@ -1,0 +1,2 @@
+that generalize from existing data, enabling the detection of new variations by
+integrating them using limited samples with minimal manual intervention.

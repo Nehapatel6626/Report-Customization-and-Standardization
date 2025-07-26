@@ -1,0 +1,4 @@
+[16] G. Hoxha, F. Melgani, B. Demir, Toward remote sensing image retrieval
+under a deep image captioning perspective, IEEE Journal of Selected
+Topics in Applied Earth Observations and Remote Sensing 13 (2020)
+4462–4475.

@@ -1,0 +1,3 @@
+• A → D → B → C → E → A
+• A → B → D → C → E → A
+• A → E → C → B → D → A

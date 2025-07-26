@@ -1,0 +1,1 @@
+Manually saving and reading articles take a lot of valuable time. Not only that,

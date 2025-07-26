@@ -1,0 +1,1 @@
+rationale is, while doing the main task. The first component of the cost function is

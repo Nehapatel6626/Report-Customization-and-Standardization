@@ -1,0 +1,2 @@
+Insert	     	O(N)  (on avarage half 
+	Delete		       	  needs to be moved)

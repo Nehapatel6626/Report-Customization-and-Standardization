@@ -1,0 +1,4 @@
+There are three adaptation scenarios in this use case: (1) if the battery level is insufficient to perform
+A1, the UAV must perform A4; (2) if the battery level is insufficient to perform A2 but it is still sufficient
+to perform A3, the UAV must perform A3; (3) if the gripper fails while performing A2, the UAV must
+perform A3. Before transitioning from A2 to A3, the UAV must first perform A5.

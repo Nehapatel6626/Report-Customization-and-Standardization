@@ -1,0 +1,4 @@
+Inference (With): 
+Because <isCustomerConfirmed> evaluates to no on immediate follow up (“Dental”), the system realizes the user 
+might be switching from “Delta Airlines” to “Delta Dental.” It asks a clarifying question to confirm intent before 
+pivoting the context. This ensures fewer misinterpretations and a smoother conversation flow.

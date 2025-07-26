@@ -1,0 +1,12 @@
+In their work, [114] proposed a new method called Re-
+flective Decoding Network (RDN) to enhance image caption-
+ing systems. Unlike traditional models, which often employ
+a single-stage decoding process that may not fully utilize the
+context and finer details of the visual input, RDN involves a
+two-step decoding process. In the first stage, a reflective mech-
+anism generates an initial caption, followed by a second stage
+to refine it. This reflective decoding process employs a self-
+attention-based approach to review and modify the original cap-
+tion, considering the visual elements and previously generated
+words. This iterative refinement results in improved captioning
+output from the model.

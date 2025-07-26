@@ -1,0 +1,8 @@
+We compared  the relative  counts from  the  medical laboratory  to the  relative  counts from
+the reference  results for RBCs and WBCs for the  3  solutions  (see  Figure  6-8).  If there  is a  1-to- 1
+relationship  between the  reference results  and the medical  laboratory  results, then we  expect  all
+the data points to fall  on the linear  identity line.  Since the medical  laboratory  results are given in
+ranges,  we  expect the  linear identity  line to transect these linear ranges.  This is the case for  all
+medical  laboratory  results, including  the RBCs  (red markers)  and WBCs  (white markers).  Thus,
+we conclude  that the  reference  results  are  accurate within the ranges  provided  by the medical
+test,  and can be  used to validate  the  AutoScope results.

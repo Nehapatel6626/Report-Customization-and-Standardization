@@ -1,0 +1,2 @@
+where  s is the raw class  score  vector and j is the  index  of each class.  The  softmax function  uses
+exponents  in  order to  augment differences  in the  class  scores  and appropriately  account for

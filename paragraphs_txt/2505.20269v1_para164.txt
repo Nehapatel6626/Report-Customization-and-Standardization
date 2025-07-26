@@ -1,0 +1,12 @@
+In our proposal for computing explanations, constraints in Equations (9), (4)
+and (5) represent the formula F . As in Section 3, an instance is a conjunction
+C, and the associated prediction by the ANN is a formula E. Given an input
+C predicted as class ci by the ANN, again formula ¬E must ensure that
+(cid:87)N
+j=1,j̸=i oi ≤ oj. Therefore, we must add new constraints to represent ¬E.
+Maintaining the concept of the original encoding in [17] without implications,
+we define these additional constraints accordingly. We employ binary variables
+qj and the upper and lower bounds ubj and lbj of variables oj. As for lbl
+i and ubl
+i,
+we find the bounds ubj and lbj through a MILP solver. We recall such elements

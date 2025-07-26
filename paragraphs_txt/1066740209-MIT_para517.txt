@@ -1,0 +1,1 @@
+I used this list to come up with regex expressions that should be able to detect most

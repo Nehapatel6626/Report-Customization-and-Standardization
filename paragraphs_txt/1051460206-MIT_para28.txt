@@ -1,0 +1,5 @@
+The  system  we built - the  AutoScope  - has three parts:  the  image  acquisition system,  the
+segmentation  system  and  the  classification  system.  The  image  acquisition  system  used a reversed
+lens  approach to  achieve an  end-to-end  resolution of 5.86-8.29um  for  a total  bill of materials  cost
+of $57-$92.  The  automated  particle  segmentation  and particle  classification  were  each performed
+with  different neural  networks.

@@ -1,0 +1,3 @@
+What might be wrong here?
+If you see a V NP PP sequence, then for the PP to attach to the V, then it must also be the case that the NP doesn’t have a PP (or other postmodifier)
+Since, except in extraposition cases, such dependencies can’t cross

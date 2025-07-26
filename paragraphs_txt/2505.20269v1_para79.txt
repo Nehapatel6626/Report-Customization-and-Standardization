@@ -1,0 +1,5 @@
+Ignatiev et al. [8] proposed an algorithm that computes minimal explanations for
+ANNs, yielding a subset of the input features sufficient for the prediction. This
+approach is based on logic with guarantees on the correctness and minimality of
+explanations. A flowchart for computing explanations using such an algorithm
+is shown in Figure 1.

@@ -1,0 +1,3 @@
+[44] M. Z. Hossain, F. Sohel, M. F. Shiratuddin, H. Laga, M. Bennamoun,
+Text to image synthesis for improved image captioning, IEEE Access 9
+(2021) 64918–64928.

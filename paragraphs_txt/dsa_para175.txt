@@ -1,0 +1,5 @@
+LinearSearch (a,n,item,loc)
+Here "a" is an array of the size n. 
+This algorithm finds the location of the element "item" in the array "a". 
+If search item is found, it sets loc to the index of the element; otherwise, it sets loc to -1
+index=linearsearch(array, num, key)

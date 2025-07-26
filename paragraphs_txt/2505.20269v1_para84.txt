@@ -1,0 +1,14 @@
+vn} of the feature space is encoded as a conjunction in a formula C, and the
+associated prediction by the ANN is encoded as a formula E. Then, it holds
+that C ∧ F |= E. The minimal explanation Cm of C is calculated removing
+feature by feature from C. For example, given a feature xi with value v in C,
+if C \ {xi = v} ∧ F |= E, feature xi may be considered as irrelevant in the
+explanation and is removed from C. Otherwise, if C \ {xi = v} ∧ F ̸|= E, then xi
+is kept in C since the same class cannot be guaranteed. This C\{xi = v} notation
+represents the removal of xi = v from formula C. This process is described in
+Algorithm 1 and is performed for all features. Then, Cm is the result at the
+end of this procedure. This means that for the values of the features in Cm,
+the ANN makes the same classification, whatever the values of the remaining
+features. Since to check entailments C ∧ F |= E is equivalent to test whether
+C ∧ F ∧ ¬E is unsatisfiable and F , C and ¬E are enconded as linear constraints
+and indicator constraints, such a entailment can be addressed by a MILP solver.

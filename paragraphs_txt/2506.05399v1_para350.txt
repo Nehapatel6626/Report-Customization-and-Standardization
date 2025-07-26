@@ -1,0 +1,7 @@
+The work in [99] employed a dual-modal transformer to
+capture intra- and inter-model interactions within an attention
+block. They concatenated two embeddings, one based on the
+image’s objects and the other using an Inception-V3 model, to
+create the final image-based embedding. The study showed that
+this model outperformed established models such as encoder-
+decoder and attention models.

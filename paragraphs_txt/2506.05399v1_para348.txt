@@ -1,0 +1,2 @@
+In traditional practices, normalization has been applied out-
+side of self-attention. However, a study by [98] introduced

@@ -1,0 +1,1 @@
+In g2(.) the function requires a minimal threshold of precision and then optimizes

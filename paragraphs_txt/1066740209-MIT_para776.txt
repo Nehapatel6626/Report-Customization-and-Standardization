@@ -1,0 +1,1 @@
+the annotated file and removed all rows that contained snippets not about cohort

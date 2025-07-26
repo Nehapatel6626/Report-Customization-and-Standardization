@@ -1,0 +1,8 @@
+Figure 9 depicts the pattern used to model SUAVE’s search pipeline action and its related adaptations12.
+As can be seen, there is no separation between the task and adaptation logic, which is the main limitation
+of using BTs in comparison to using ROSA to model the adaptation logic. The coupling of both logics
+hinders the reusability of the approach as another system with the same task logic but different adaptation
+logic, or vice-versa, cannot reuse the existing BTs. In addition, when any changes are made to the task or
+adaptation problems, it will most likely require changes to parts of the BT that are not necessarily related to
+the changes introduced. Furthermore, it makes the modeling process more difficult as the roboticist needs
+to consider both problems simultaneously when modeling the BTs.

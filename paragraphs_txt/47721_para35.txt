@@ -1,0 +1,5 @@
+It can be presented in tabular or graphic form (Gantt chart)
+Flow charts and other diagrams are often
+ useful for highlighting the sequencing and
+ interrelationship of different activities in the 
+study

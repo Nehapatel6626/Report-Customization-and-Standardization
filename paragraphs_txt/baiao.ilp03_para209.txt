@@ -1,0 +1,2 @@
+fdt:operationAccess(A,[B|C]), 
+   fdt:cardinality(B,large), fdt:isNotDerivedFragmented(B).

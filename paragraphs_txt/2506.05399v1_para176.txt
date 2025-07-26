@@ -1,0 +1,12 @@
+lation quality. Unlike RNN or LSTM, which process sentences
+one word at a time, transformer models can handle complete
+sentences through attention-based mechanisms [48]. Although
+RNN has challenges in scaling to larger levels, attention-guided
+image captioning can outperform later transformer-based tech-
+niques when used with strong visual encoders. Although these
+methods are often smaller than transformer-based approaches,
+they require longer training times. The transformer-based ap-
+proach resolves the issue of long-distance dependency present
+in RNN. Furthermore, its structure makes it easier to scale the
+transformer model to deeper levels following the actual design
+requirements [26].

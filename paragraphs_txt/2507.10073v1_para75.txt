@@ -1,0 +1,13 @@
+Our study investigated the ability of current LLMs to represent diverse cultural moral
+frameworks through the lens of MFQ-2. Our findings reveal notable limitations in how
+these models represent cross-cultural moral diversity, with systematic tendencies toward
+homogenization and better representation of Western compared to non-Western perspectives.
+These limitations have significant implications for AI alignment research, highlighting
+the challenges of creating systems that represent diverse human values rather than merely
+averaging across them. They also raise important questions about the validity of using
+LLM-generated synthetic populations in social science research, particularly for cross-
+cultural investigations. At a theoretical level, our findings provide empirical support for
+concerns about the embodiment deficit in LLMs. The difficulty these models demonstrate
+in representing culturally-specific moral intuitions suggests that disembodied language
+processing may be fundamentally limited in capturing the full richness of human moral
+cognition.

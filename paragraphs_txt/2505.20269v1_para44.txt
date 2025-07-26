@@ -1,0 +1,5 @@
+such that F and G are quantifier-free first-order formulas over the theory of linear
+real arithmetic. Moreover, p represents the atomic formulas such that n ≥ 1, each
+wi and b are fixed real numbers, and each xi is a first-order variable. Observe
+that we allow the use of other letters for variables instead of xi, such as si, zi,
+qi. For example, (2.5x1 + 3.1x2 ≥ 6) ∧ (x1 = 1 ∨ x1 = 2) ∧ (x1 = 2 → x2 ≤ 1.1)

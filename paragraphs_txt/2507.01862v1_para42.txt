@@ -1,0 +1,2 @@
+Key takeaway: The explicit yes/no tag from the LLM is interpreted much like a user clicking Submit or Reset in a 
+graphical UI. The <chainOfThought> content provides a transparent, step-by-step rationale for each decision.

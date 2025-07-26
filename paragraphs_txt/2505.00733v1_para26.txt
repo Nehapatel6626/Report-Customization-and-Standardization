@@ -1,0 +1,1 @@
+2. a reusable knowledge model to capture all application-specific aspects of the adaptation logic required

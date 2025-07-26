@@ -1,0 +1,5 @@
+The datasets may include personal information, such as the names of speakers
+or individuals related to the topic. Since the audio data is sourced from public
+broadcasts, we assume that the content is not offensive. Additionally, we have
+not received any complaints from the students who listened to the samples while
+reviewing the transcriptions.

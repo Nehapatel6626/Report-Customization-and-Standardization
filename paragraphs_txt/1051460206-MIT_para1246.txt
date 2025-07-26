@@ -1,0 +1,1 @@
+images.  The  AutoScope  generates  color images  that  we then converted  to  grayscale.  In future

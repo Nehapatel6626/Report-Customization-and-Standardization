@@ -1,0 +1,4 @@
+This  folder  contains scripts  to perform  other types of analyses needed  for my  Master's  thesis that
+are not related  to classification  or segmentation  of particles.  For example,  modeling the
+illumination  pattern of the Autoscope,  calculating  the end-to-end resolution  of the Autoscope
+system,  etc.

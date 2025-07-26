@@ -1,0 +1,3 @@
+[9] George Argyros, Ioannis Stais, Aggelos Kiayias, and Angelos D Keromytis. Back
+in black: towards formal, black box analysis of sanitizers and ﬁlters. In Security
+and Privacy (SP), 2016 IEEE Symposium on, pages 91–109. IEEE, 2016.

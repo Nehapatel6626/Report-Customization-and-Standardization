@@ -1,0 +1,1 @@
+2 weight vectors connect input to hidden layer that define linearly separable features.

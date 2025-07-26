@@ -1,0 +1,2 @@
+Local Model Training at Hospitals (Parallel)
+for each Hi ∈ Hk do

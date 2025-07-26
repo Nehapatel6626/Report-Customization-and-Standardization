@@ -1,0 +1,25 @@
+We considered ϵ = 1 as the default privacy budget in DP,
+aligning with healthcare privacy standards, while varying σ2
+from 0.01 to 1. The choice of ϵ balances privacy preservation
+with acceptable model performance, as recommended in prior
+healthcare FL studies. Furthermore, we conducted an ablation
+study to isolate the privacy-preserving components in our
+proposed FDRL framework. The PLR and accuracy trade-offs
+across these settings, confirming that integrating DP and HE
+significantly reduces privacy leakage by approximately 60%,
+albeit with marginal computational overhead and negligible
+accuracy loss of approximately 1.5%. Synthetic datasets were
+generated to emulate diverse surgical scenarios, ensuring a
+broad range of patient conditions and surgical complexities.
+Each hospital’s dataset was created with varying degrees
+of heterogeneity, simulating real-world differences in patient
+demographics and surgical practices. The data included simu-
+lated medical images, vital signs, and surgical history, allowing
+for a comprehensive evaluation of the FDRL framework’s
+performance and privacy characteristics. The generation of
+synthetic data enabled us to control and manipulate variables
+such as data distribution and heterogeneity, providing a robust
+testbed for our experiments. While HE and Secure Aggre-
+gation ensure strong privacy guarantees, their computational
+overhead is non-trivial, particularly in real-time RAS. Specif-
+ically, encryption and decryption operations add an average

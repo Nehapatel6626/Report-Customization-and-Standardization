@@ -1,0 +1,4 @@
+Validate: coverage()
+Alert: coverage_gap()
+Validate: timing_feasible()
+Alert: schedule_conﬂict()

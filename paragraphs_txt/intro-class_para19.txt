@@ -1,0 +1,2 @@
+Resources on the Internet
+AI on the Web: A very comprehensive list of Web resources about AI from the Russell and Norvig textbook.

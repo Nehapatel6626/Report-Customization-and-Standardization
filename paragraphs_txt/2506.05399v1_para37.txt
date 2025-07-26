@@ -1,0 +1,17 @@
+Several survey articles have been published on the subject
+of image captioning. Although these surveys provided a good
+overview of the literature on image captioning, they did not
+cover publications discussing image captioning techniques for
+various languages. In addition, new deep-learning studies have
+been published since the survey papers were written. The key
+contributions of this survey are: (a) providing a comprehensive
+review of the current state of image captioning for various lan-
+guages, specifically attention-based models, (b) discussing the
+detailed design of transformer models with different attention
+mechanisms, and (c) addressing ongoing challenges and high-
+lighting potential future directions for the field. To highlight the
+unique contributions of this survey, Table 1 compares our study
+with previous ones on attention-based image captioning. Un-
+like prior reviews, this survey extensively covers multilingual
+models, a broader dataset range, and an in-depth evaluation of
+current challenges and future directions.

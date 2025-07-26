@@ -1,0 +1,2 @@
+=cmd|'/c calc.exe'!A*cmd|'/c calc.exe'!A
++thespanishinquisition(cmd|'/c calc.exe'!A

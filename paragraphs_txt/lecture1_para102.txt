@@ -1,0 +1,1 @@
+cybersecurity = security of information systems and networks in the face of attacks, accidents and failures with the goal of protecting operations and assets

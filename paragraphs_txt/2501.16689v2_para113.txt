@@ -1,0 +1,5 @@
+To evaluate LLMs’ dynamic replanning, we introduce a ma-
+jor disruption in our Thanksgiving scenario: James’s ﬂight
+is delayed by 3 hours (arrival 4:00 PM vs. 1:00 PM). This
+forces adjustments to pickups, meal prep, and coordination
+while preserving original constraints.

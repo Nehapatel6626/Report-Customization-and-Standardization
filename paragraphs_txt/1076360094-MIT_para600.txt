@@ -1,0 +1,1 @@
+string of known malicious ﬁles. Other methods attempt to utilize higher level features

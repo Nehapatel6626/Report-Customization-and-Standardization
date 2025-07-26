@@ -1,0 +1,1 @@
+often an image  with the width  and height of the  input image,  and  a depth equal  to  the number of

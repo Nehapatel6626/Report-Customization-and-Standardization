@@ -1,0 +1,1 @@
+the low-dimensional map, and it minimizes the Kullback–Leibler divergence (KL divergence)

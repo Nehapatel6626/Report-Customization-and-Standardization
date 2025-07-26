@@ -1,0 +1,1 @@
+into the sinter machine, traverse motors and rotational motors.

@@ -1,0 +1,8 @@
+The study by [5] introduced a multi-transformer (MT) for
+image captioning. This MT model can understand three types
+of relations: word-to-word, object-to-object, and word-to-object.
+The transformer mechanism consists of an image encoder and a
+text decoder. The image encoder has two parts: an aligned mul-
+tiview encoder and an aligned multi-view decoder. The caption
+decoder takes the output from the encoder and generates a cap-
+tion using word embedding and one layer of LSTM.

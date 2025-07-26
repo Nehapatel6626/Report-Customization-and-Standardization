@@ -1,0 +1,3 @@
+Problem Statement We conduct experiments using
+a Thanksgiving dinner planning problem designed as
+follows:

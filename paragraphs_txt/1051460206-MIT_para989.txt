@@ -1,0 +1,6 @@
+For the resolution  experiment,  the dataset was  split into six  classes:  red blood cells, white
+blood cells,  squamous  epithelial  cells,  casts,  bacteria  and other.  These classes  were  selected due
+to their  clinical  relevance  and popularity  in urine testing.  As  can be  seen  in Figure  4-3,  90% of
+the  images in each  class were  used for the training dataset,  and  10% of the images  were  used for
+validation.  During the preprocessing  phase of data preparation,  we performed  the normal  steps,
+including image  resizing,  augmentation,  and normalization.  For the normalization,  we  performed

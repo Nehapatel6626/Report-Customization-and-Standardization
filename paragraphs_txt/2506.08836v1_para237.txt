@@ -1,0 +1,3 @@
+6. Dogan-Schönberger, P., Mäder, J., Hofmann, T.: SwissDial: Parallel Multidialectal
+Corpus of Spoken Swiss German (Mar 2021), http://arxiv.org/abs/2103.11401,
+arXiv:2103.11401 [cs]

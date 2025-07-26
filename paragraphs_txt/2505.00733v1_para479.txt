@@ -1,0 +1,1 @@
+of a single component with no parameters.

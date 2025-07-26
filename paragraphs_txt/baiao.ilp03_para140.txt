@@ -1,0 +1,1 @@
+Intuitively, these modifications show that medium-sized classes are also subject to vertical fragmentation in the case of a projection operation, and that classes may have primary horizontal fragmentation independent of its size.

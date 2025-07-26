@@ -1,0 +1,1 @@
+Making modules independent as possible and automating testing allows for compo-

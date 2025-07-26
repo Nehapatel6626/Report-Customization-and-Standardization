@@ -1,0 +1,5 @@
+• Constraint Programming (CP): Focuses on solving
+combinatorial problems by enforcing constraints, en-
+suring consistency across dimensions such as tem-
+poral, spatial, and resource availability (Rossi et al.,
+2006).

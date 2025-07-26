@@ -1,0 +1,4 @@
+C´amara, J., Schmerl, B., and Garlan, D. (2020). Software Architecture and Task Plan Co-Adaptation
+for Mobile Service Robots. In Proc. 15th Intl. Symposium on Software Engineering for Adaptive and
+Self-Managing Systems (New York, NY, USA: ACM), SEAMS’20, 125–136. doi:10.1145/3387939.
+3391591

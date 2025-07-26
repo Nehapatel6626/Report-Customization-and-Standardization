@@ -1,0 +1,1 @@
+CNNs can be  split  into two separate  steps: the  convolutional  layers  and the fully-connected

@@ -1,0 +1,11 @@
+In their work, [103] proposed a novel transformer-based ap-
+proach to address the limitations of recurrent neural networks
+(RNN). They introduced an attention mechanism that combines
+visual and semantic attention to handle complex relationships.
+Since not every word has a corresponding visual signal, tak-
+ing into account semantic information is crucial. The proposed
+method includes a control mechanism for the forward propaga-
+tion of multi-model information. The model utilizes a dual-way
+transformer encoder to investigate inter- and intra-relationships
+between visual and semantic attributes. The decoder’s output is
+passed to a classifier to predict the next word.

@@ -1,0 +1,5 @@
+1. Lack of Self-Veriﬁcation. MACI separates planning
+from validation, employing independent agents for valida-
+tion. These agents operate without shared memory or inter-
+ference, ensuring external veriﬁcation of outputs and miti-
+gating the risks of self-referential errors.

@@ -1,0 +1,6 @@
+High precision question answering systems (Pasca and Harabagiu SIGIR 2001)
+Improving biological named entity extraction (Finkel et al. JNLPBA 2004):
+Syntactically based sentence compression (Lin and Wilbur Inf. Retr. 2007)
+Extracting people’s opinions about products (Bloom et al. NAACL 2007)
+Improved interaction in computer games (Gorniak and Roy, AAAI 2005)
+Helping linguists find data (Resnik et al. BLS 2005)

@@ -1,0 +1,3 @@
+German, including news articles, weather reports, and Wikipedia entries. The
+duration of the samples varies from 0.5 s to 13.5 s, with an average duration of
+3.3 s.

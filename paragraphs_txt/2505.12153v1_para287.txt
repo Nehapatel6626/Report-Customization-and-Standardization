@@ -1,0 +1,4 @@
+[3] S. Zargarzadeh, M. Mirzaei, Y. Ou, and M. Tavakoli, ”From decision
+to action in surgical autonomy: Multi-modal large language models for
+robot-assisted blood suction,” IEEE Robotics and Automation Letters,
+2025.

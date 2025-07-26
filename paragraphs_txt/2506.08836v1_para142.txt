@@ -1,0 +1,6 @@
+Second, the paper presents a robust STT model for conversational Swiss
+German, named ZHAW large-v3. This model performs 50% better on the realistic
+SRB-300 test set compared to the best models that have been fine-tuned on the
+STT4SG-350 dataset. With a BLEU score of nearly 75, it performs similarly on
+the challenging SRB-300 test set as the best-reported model trained and tested
+on the scientific STT4SG-350 dataset.

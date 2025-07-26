@@ -1,0 +1,3 @@
+What characteristic(s) predict a smile?
+Variation on Sesame Street game: why are these things a lot like the others (or not)?
+ML Approach: infer model (characteristics that indicate) of why a face is/is not smiling

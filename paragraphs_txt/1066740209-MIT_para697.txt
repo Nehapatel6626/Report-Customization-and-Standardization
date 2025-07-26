@@ -1,0 +1,1 @@
+It appears that adding protein and chromosome tags decreased the F1 score. How-

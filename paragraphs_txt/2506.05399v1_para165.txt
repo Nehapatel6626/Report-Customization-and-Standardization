@@ -1,0 +1,6 @@
+image. E stands for the embedding matrix of dimension m × k.
+The dimension of the embedding vector is indicated by the let-
+ter m, and the letter n indicates the dimension of the hidden
+state LSTM. Furthermore, σ and ⊙ represent logistic sigmoid
+and element-wise multiplication, respectively. A typical LSTM
+unit is shown in Fig.2.

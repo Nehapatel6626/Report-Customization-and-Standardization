@@ -1,0 +1,7 @@
+System Infrastructure Component Built on open-
+source multi-agent system (MAS) frameworks, the infras-
+tructure component supports essential operations such as
+agent registration, message routing, resource allocation,
+and deployment scaling. This foundation provides the nec-
+essary runtime environment for executing and monitoring
+the generated workﬂows.

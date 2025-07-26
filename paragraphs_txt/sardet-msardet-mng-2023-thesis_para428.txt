@@ -1,0 +1,1 @@
+draw. Geometrical control involves conserving the ratio between core and clad layers while

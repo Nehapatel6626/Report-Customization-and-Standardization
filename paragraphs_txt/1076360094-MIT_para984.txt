@@ -1,0 +1,1 @@
+to make a decision, Di based on two decision thresholds, t1

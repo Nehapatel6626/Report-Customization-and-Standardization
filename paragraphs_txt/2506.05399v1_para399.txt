@@ -1,0 +1,18 @@
+Attention-based encoder-decoder models are known for their
+sequential information processing but are criticized for lacking
+global modeling skills. To overcome this limitation, a reviewer
+module has been developed to conduct review stages on the en-
+coder’s hidden states and generate a thought vector at each step.
+The attention mechanism achieves this by assigning weights to
+the hidden states. The thought vectors capture global aspects of
+the input and effectively review and learn the information en-
+coded by the encoder. The decoder uses these thought vectors to
+predict the next word [1]. Additionally, incorporating visual at-
+tention allows for a multimodel coverage mechanism [93]. This
+visual attention mechanism uses features derived from a con-
+volutional neural network layer, where each feature represents
+an abstraction of a region in the image and provides a weight-
+ing for each geographical region. A higher weight indicates a
+more important image region [6]. It is worth mentioning that
+the described attention method falls between the encoder and
+the decoder.

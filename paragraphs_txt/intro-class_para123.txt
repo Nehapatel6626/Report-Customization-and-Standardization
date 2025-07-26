@@ -1,0 +1,10 @@
+What is Artificial Intelligence? 
+modeling humans thinking, acting, should think, should act.
+History of AI
+Intelligent agents 
+We want to build agents  that act rationally
+Real-World Applications of AI
+AI is alive and well in various “every day” applications
+many products, systems, have AI components
+Assigned Reading
+Chapters 1  and 2 in the text R&N

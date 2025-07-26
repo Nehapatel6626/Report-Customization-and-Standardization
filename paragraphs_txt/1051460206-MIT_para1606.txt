@@ -1,0 +1,1 @@
+Per Pixel Accuracy =  100  *  Accurately Labeled Pixels

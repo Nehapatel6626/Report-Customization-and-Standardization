@@ -1,0 +1,1 @@
+- For the last threshold t5 we produce a single list of possible thresholds (cid:96)t5.

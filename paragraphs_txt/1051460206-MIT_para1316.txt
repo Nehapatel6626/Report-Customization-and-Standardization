@@ -1,0 +1,1 @@
+As with all  CNNs in this work,  we  trained the CNN  on GPUs  in the AWS  cloud.  Figure

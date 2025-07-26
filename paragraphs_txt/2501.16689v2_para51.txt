@@ -1,0 +1,6 @@
+This section highlights the limitations of current LLMs
+in planning tasks through experiments in two contexts: a
+scheduling problem illustrating shortcomings in sequential
+planning, and a dynamic resource allocation problem re-
+vealing challenges in reactive planning. Based on these
+observations, we propose remedies in Section 4.

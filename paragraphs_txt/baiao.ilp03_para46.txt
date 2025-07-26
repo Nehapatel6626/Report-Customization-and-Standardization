@@ -1,0 +1,1 @@
+Each instance i has an associated set of facts Fi, which gathers all the instances of a concept in the training set. A positive instance should be derivable from the theory augmented with its associated facts, while the negative instances should not.

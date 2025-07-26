@@ -1,0 +1,1 @@
+connected  layer  is mathematically  equivalent  to a  convolutional  layer with  receptive  fields  of the

@@ -1,0 +1,4 @@
+[13] A. K. Muhammed Kunju, S. Baskar, S. Zafar, B. AR, A transformer
+based real-time photo captioning framework for visually impaired peo-
+ple with visual attention, Multimedia Tools and Applications (2024) 1–
+20.

@@ -1,0 +1,2 @@
+Sensors = LS, Google, etc.
+Effectors = RM, ftp, Amazon.com

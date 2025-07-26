@@ -1,0 +1,4 @@
+Catalan numbers
+Cn = (2n)!/[(n+1)!n!]
+An exponentially growing series, which arises in many tree-like contexts:
+E.g., the number of possible triangulations of a polygon with n+2 sides

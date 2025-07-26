@@ -1,0 +1,7 @@
+Ignacio Arnaldo, Vamsi Korrapati, Constantinos
+Bassias, and Ke Li. Aiˆ 2: training a big data machine to defend.
+In Big
+Data Security on Cloud (BigDataSecurity), IEEE International Conference on
+High Performance and Smart Computing (HPSC), and IEEE International Con-
+ference on Intelligent Data and Security (IDS), 2016 IEEE 2nd International
+Conference on, pages 49–54. IEEE, 2016.

@@ -1,0 +1,3 @@
+[45] W. Zhang, H. Shi, S. Tang, J. Xiao, Q. Yu, Y. Zhuang, Consensus graph
+representation learning for better grounded image captioning, in: Proc
+35 AAAI Conf on Artificial Intelligence, 2021, pp. 3394–3402.

@@ -1,0 +1,10 @@
+Abstract. Domain-specific chatbot applications often involve multi-step interactions, such as refining search filters, 
+selecting  multiple  items,  or  performing  comparisons.  Traditional  graphical  user  interfaces  (GUIs)  handle  these 
+workflows by providing explicit “Submit” (commit data) and “Reset” (discard data) actions, allowing back-end 
+systems to track user intent unambiguously. In contrast, conversational agents rely on subtle language cues, which 
+can  lead  to  confusion  and  incomplete  context  management.  This  paper  proposes  modeling  these  GUI-inspired 
+metaphors—acknowledgment  (submit-like)  and  context  switching  (reset-like)—as  explicit  tasks  within  large 
+language model (LLM) prompts. By capturing user acknowledgment, reset actions, and chain-of-thought (CoT) 
+reasoning as structured session data, we preserve clarity, reduce user confusion, and align domain-specific chatbot 
+interactions  with  back-end  logic.  We  demonstrate  our  approach  in  hotel  booking  and  customer  management 
+scenarios, highlighting improvements in multi-turn task coherence, user satisfaction, and efficiency.

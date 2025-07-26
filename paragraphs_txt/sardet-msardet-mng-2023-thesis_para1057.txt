@@ -1,0 +1,1 @@
+How does PCA work? In short, the PCA algorithm first compute the covariance matrix

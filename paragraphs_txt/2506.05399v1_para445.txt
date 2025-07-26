@@ -1,0 +1,5 @@
+a) Flickr8K-BN dataset: Contains 8,091 images, each with five
+Bengali captions. It covers a wide range of topics, includ-
+ing people, landscapes, animals, and everyday objects. The
+captions were originally in English and later translated into
+Bengali.

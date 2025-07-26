@@ -1,0 +1,3 @@
+Allen, J. F. and Hayes, P. J. Moments and points in an interval-
+based temporal logic. Computational Intelligence, 5(4):225–
+238, 1989.

@@ -1,0 +1,2 @@
+Table 2.1: Subset of features used by the PDFRate classiﬁer. The full set of PDFRAte
+features is available in Apprendix A

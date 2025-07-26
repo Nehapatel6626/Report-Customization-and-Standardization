@@ -1,0 +1,10 @@
+sp :=
+, where Ginput is the graph extracted from
+the input program, Cp the set of selected clusters for a packer p, Gc indicates a
+graph in cluster C, and tc the threshold for cluster C. 1(cos(Ginput, Gc) > tc) is
+a membership function that outputs 1 if the cosine similarity cos(Ginput, Gc) is
+greater or equal to the threshold tc, and 0 otherwise. Moreover, P is the set of
+all included packers in the selected clusters. Lastly, (cid:80)
+|C| is the cardinality
+of samples in the selected clusters from a packer p. If no cluster is sufficiently
+“close” to the input CG, PackHero labels the packer as “unknown”.

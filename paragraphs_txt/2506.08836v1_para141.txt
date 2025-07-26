@@ -1,0 +1,5 @@
+The primary contributions of this paper are twofold. First, it introduces a new
+realistic speech corpus for Swiss German STT. Unlike many existing datasets
+for Swiss German, this new corpus includes long samples of spontaneous speech
+recorded in real-world scenarios, such as conversations with various background
+noises.

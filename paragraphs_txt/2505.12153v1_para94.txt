@@ -1,0 +1,3 @@
+1) Task-Specific Accuracy: The accuracy of a policy is
+measured based on how well it performs predefined surgical
+tasks compared to an expert benchmark.

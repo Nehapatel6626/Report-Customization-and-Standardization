@@ -1,0 +1,12 @@
+To address the issues of exploding and vanishing gradients
+in RNN, a proposed method was introduced by [69]. The model
+was built upon an encoder-decoder architecture, utilizing CNN
+for image description and GRU (gated recurrent units) for text
+generation. The GRU decoder utilized an image feature vector
+extracted by CNN and information from the scores of phrase
+weights. Two methods were applied to generate the scores. The
+first method used the part-of-speech (PoS) technique to produce
+scores based on word classes, while the second method uti-
+lized a likelihood function measured by the Euclidean distance.
+The results indicated that the PoS approach outperformed the
+model.

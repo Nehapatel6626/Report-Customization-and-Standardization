@@ -1,0 +1,3 @@
+When is the Q empty?
+Are there error situations this code will not catch?
+What are some limitations of this structure?

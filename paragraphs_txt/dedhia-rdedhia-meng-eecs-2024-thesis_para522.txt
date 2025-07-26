@@ -1,0 +1,1 @@
+Though the CSV format was very common, formal documentation for it didn’t exist until

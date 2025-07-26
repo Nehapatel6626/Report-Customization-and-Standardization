@@ -1,0 +1,1 @@
+with fixed-dimension  inputs,  the  CNN  can now  be convolved  across images  of any  size.  For

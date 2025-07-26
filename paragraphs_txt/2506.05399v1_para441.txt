@@ -1,0 +1,5 @@
+words per caption. Second, captions should describe only vis-
+ible objects and activities, excluding personal opinions, proper
+names, and numbers. Last, sentences should be written in con-
+tinuous tense, with familiar English terms (e.g., ”tennis”) al-
+lowed for clarity.

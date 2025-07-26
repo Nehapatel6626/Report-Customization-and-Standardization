@@ -1,0 +1,3 @@
+• Adaptation Agents: Dynamically adjust plans in re-
+sponse to changes in task environments, such as re-
+source delays or evolving requirements.

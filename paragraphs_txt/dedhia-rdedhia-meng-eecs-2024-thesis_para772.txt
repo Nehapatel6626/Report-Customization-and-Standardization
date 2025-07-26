@@ -1,0 +1,1 @@
+Since all non-formula cells are static and won’t be executed by spreadsheet programs, all

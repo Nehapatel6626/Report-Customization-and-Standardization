@@ -1,0 +1,9 @@
+Image captioning approaches have three main categories:
+template-based, retrieval-based, and deep learning-based. Temp-
+late-based techniques use predefined templates with a set num-
+ber of blank slots to generate captions. These approaches first
+recognize different objects, characteristics, and actions and then
+fill in the blank spaces in the templates. Although this approach
+can provide grammatically correct captions and relevant de-
+scriptions, the coverage, inventiveness, and complexity of the
+generated sentences coverage, inventiveness, and complexity

@@ -1,0 +1,5 @@
+The  motivation  of this  experiment  is to validate  the end-to-end  performance  of the
+AutoScope  system  in detecting  RBCs  and WBCs in urine.  We  will accomplish  this by producing
+synthetic  urine with different  concentrations  of urine particles.  Then,  we will use  our automated
+urinalysis  system  to measure the  concentration  of urine particles  in these  solutions.  We will
+compare  our system's results  with the reference  results,  and  quantify how well they correlate.

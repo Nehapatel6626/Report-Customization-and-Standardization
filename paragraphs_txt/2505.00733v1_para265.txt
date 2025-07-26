@@ -1,0 +1,8 @@
+ROSA is implemented as a ROS 2-based system, where the MAPE-K components (depicted in Figure 1)
+are realized as ROS nodes, and interfaces are implemented using ROS services or topics. The proposed
+ROSA implementation uses ROS (Robot Operating System) as its robotics framework since ROS is the
+current de facto standard robotics framework, and it has been designed, among other things, to promote
+software reusability in the robotics ecosystem Macenski et al. (2022). In this implementation, ROS
+handles the communication between system components, schedules callbacks for incoming messages
+and events, and manages the lifecycle of ROS nodes. The full ROSA implementation is available at
+https://github.com/kas-lab/rosa6.

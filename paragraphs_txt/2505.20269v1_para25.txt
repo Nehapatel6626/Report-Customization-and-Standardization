@@ -1,0 +1,3 @@
+– Comparative analysis of the running time for building the logical constraints
+between the two approaches. Additionally, we analyze the time for generating
+explanations using both encodings.

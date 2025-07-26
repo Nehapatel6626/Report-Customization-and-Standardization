@@ -1,0 +1,1 @@
+l=1 nl binary variables. Moreover, the formula has n0 + 2nL + 4 (cid:80)nL−1

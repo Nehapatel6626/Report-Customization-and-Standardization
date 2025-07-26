@@ -1,0 +1,1 @@
+[13] I. Androutsopoulos, J. Koutsias, K. V. Chandrinos, G. Paliouras, and C. D. Spyropoulos, “An Evaluation of Naive Bayesian Anti-Spam Filtering,” Proc. of the workshop on Machine Learning in the New Information Age, 2000.

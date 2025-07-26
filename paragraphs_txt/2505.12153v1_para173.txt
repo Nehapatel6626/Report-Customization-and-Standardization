@@ -1,0 +1,4 @@
+Where α is the moment-accounting parameter that controls
+privacy bounds. A smaller ϵ ensures greater privacy preser-
+vation but may impact model accuracy by introducing higher
+noise variance.

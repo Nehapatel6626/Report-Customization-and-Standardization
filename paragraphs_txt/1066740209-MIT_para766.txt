@@ -1,0 +1,1 @@
+Knowing this, I wrote a Python script that prints out snippets of text from the

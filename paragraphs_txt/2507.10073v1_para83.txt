@@ -1,0 +1,10 @@
+This research was conducted in accordance with the ACM Code of Ethics. The raw results,
+implementation details, and code-base are available upon request from the corresponding
+author (muenker@uni-trier.de). We acknowledge the ethical complexities of using AI to
+simulate human political perspectives and have made efforts to interpret our findings with
+appropriate caution, avoiding overstatement of LLMs’ capabilities to represent human
+belief systems. We emphasize that our work should not be used to justify the replacement
+of diverse human participants in social science research with AI-generated responses, as
+our findings specifically highlight the limitations of such approaches. Furthermore, we
+recognize the potential for misuse of persona-based LLM applications in political contexts
+and advocate for continued critical examination of these technologies as they evolve.

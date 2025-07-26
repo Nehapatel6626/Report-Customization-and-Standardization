@@ -1,0 +1,5 @@
+where λ1, λ2, λ3 are weights based on importance.
+If
+OP EF L > OP ECentral, then FL provides stronger privacy.
+If OP EF L < OP ECentral, then centralized training is more
+private.

@@ -1,0 +1,3 @@
+Constraint Management Constraints govern role inter-
+actions and dependencies. The framework maintains a
+global constraint set:

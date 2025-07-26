@@ -1,0 +1,1 @@
+As a result, cells containing values such as <name of file>.exe and /c <command>

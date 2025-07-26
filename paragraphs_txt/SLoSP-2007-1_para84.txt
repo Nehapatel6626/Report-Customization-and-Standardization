@@ -1,0 +1,1 @@
+By convention, S is the start symbol, but in the PTB, we have an extra node at the top (ROOT, TOP)

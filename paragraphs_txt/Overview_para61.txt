@@ -1,0 +1,5 @@
+Four deliverables 
+Project topic report. Project idea, a list of 4-5 closely related papers, a list of available code and datasets.
+Project proposal report and a presentation (15 min). More detailed discussion of any available code and datasets, plans for implementation, testing, validation, and a timeline of work. 
+Interim report and presentation (20 min). Progress, preliminary results, potential issues, and next steps.
+Final report and presentation (30 min). Report and discuss final results, new ideas, and directions for future work.

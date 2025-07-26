@@ -1,0 +1,5 @@
+Have you taken an introductory security class?
+Are you familiar with Windows and/or Linux?
+Are you comfortable with C, C++, and/or Java?
+Are you familiar with IP networking?
+What do you hope to get out of this class?

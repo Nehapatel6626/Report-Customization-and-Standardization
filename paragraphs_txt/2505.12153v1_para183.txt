@@ -1,0 +1,4 @@
+where I(W ; D) represents theMIbetween the policy weights
+W and the private dataset D, and H(D) is the Shannon
+entropy of the dataset, which quantifies the uncertainty or
+randomness in D. Since entropy depends on the logarithmic

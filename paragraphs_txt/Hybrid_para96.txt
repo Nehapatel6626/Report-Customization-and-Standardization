@@ -1,0 +1,1 @@
+[7]  M. Bohanec and I. Bratko, “Trading Accuracy for Simplicity in Decision Trees,” Machine Learning, Vol. 15, No. 3, 1994.

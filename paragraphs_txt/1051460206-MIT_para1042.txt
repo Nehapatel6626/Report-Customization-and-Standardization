@@ -1,0 +1,1 @@
+4.56um (the best-case  resolution of the AutoScope),  IOum  (the worst case  resolution of the

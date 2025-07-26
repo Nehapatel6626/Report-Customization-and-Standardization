@@ -1,0 +1,8 @@
+An example of circuit optimization is shown in Figure 2. To the left, a q0 and q2 swap 
+followed by a cx q2 to q3 is equivalent to a cx q0 to q3 as shown on the right. For the same 
+reason, a swap of q1 and q3 followed by a cx q3 to q1 (left) is equivalent to a cx q1 to 
+q3 (right). The fact that a swap gate is not a native gate. It is an expensive operation to 
+perform on noisy quantum devices that requires three CNOT gates. A Toffoli (ccx) gate is 
+a three-qubit gate. The decomposition is quite costly that requires up to six CNOT gates 
+and a number of single-qubit gates. Eliminating swap and Toffoli gates is a main goal in 
+the transpilition process.

@@ -1,0 +1,1 @@
+Static detection uses static features of the PDF data to process ﬁles quickly before

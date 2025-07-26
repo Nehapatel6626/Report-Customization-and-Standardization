@@ -1,0 +1,1 @@
+CSV files can even be edited in simple text editors such as Notepad. To create a CSV file,

@@ -1,0 +1,1 @@
+102030405060708090100# Configuration Samples per Packer0.920.940.960.981.00MetricMetricsPrecisionF1-scoreRecallAccuracy102030405060708090100# Configuration Samples per Packer0.000.020.040.06FPR102030405060708090100# Configuration Samples per PackerUnknown Rate12

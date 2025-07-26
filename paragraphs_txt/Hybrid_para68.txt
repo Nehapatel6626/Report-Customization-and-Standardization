@@ -1,0 +1,1 @@
+Figure 3 shows the effect of using ensembles.  The SMALL dataset was used. Chi square values were set at 0.5 for all experiments in this section. The general

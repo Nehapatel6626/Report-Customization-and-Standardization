@@ -1,0 +1,1 @@
+To find the optimal number of clusters, we first select a range of values of k and then

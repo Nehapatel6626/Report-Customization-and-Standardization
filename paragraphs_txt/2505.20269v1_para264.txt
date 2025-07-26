@@ -1,0 +1,3 @@
+[13] Liu, W., Wang, Z., Liu, X., Zeng, N., Liu, Y., Alsaadi, F.E.: A survey of
+deep neural network architectures and their applications. Neurocomputing
+234, 11–26 (2017)

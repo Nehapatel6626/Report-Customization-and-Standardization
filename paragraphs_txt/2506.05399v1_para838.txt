@@ -1,0 +1,4 @@
+[35] A. Oluwasammi, M. U. Aftab, Z. Qin, S. T. Ngo, T. V. Doan, S. B.
+Nguyen, S. H. Nguyen, G. H. Nguyen, Features to text: a comprehensive
+survey of deep learning on semantic segmentation and image captioning,
+Complexity 2021 (2021).

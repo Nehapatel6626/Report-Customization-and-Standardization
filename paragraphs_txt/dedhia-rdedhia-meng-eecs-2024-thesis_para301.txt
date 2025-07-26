@@ -1,0 +1,1 @@
+program does catch a malicious formula, the user may simply ignore the warning message

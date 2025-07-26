@@ -1,0 +1,7 @@
+The performance of the FDRL framework is evaluated
+based on Surgical Precision, which is measured via incision
+accuracy, tool placement, and minimal tissue damage, as well
+as Training Efficiency, which assesses convergence time and
+computational resource utilization. Adaptability is evaluated
+through the policy switching rate in response to dynamic
+patient conditions, expressed as

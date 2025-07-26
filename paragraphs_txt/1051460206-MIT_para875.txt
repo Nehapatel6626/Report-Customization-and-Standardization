@@ -1,0 +1,1 @@
+In order to  feedforward/feedbackward  an entire batch of images  simultaneously,  each

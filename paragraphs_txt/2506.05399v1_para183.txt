@@ -1,0 +1,18 @@
+The attention mechanism focuses on a subset of the details
+relevant to our objective instead of assessing the entire picture
+simultaneously. The core of the attention mechanism lies in
+selecting the portion of detail to concentrate on based on our
+goals and continually analyzing it. By calculating the similarity
+of word vectors, self-attention determines the degree of corre-
+lation between the current word and other words for the image
+captioning task. Typically, two-word vectors have smaller dis-
+tance angles and greater products the closer their meanings are
+to each other. By normalizing the similarity, weights are gener-
+ated. The attention score also referred to as the level of attention
+of the current word to other words, is obtained by multiplying
+the weights by the word vectors and summing them. The feed-
+forward network, a one-way propagation neural network, can
+be classified based on the sequence in which information is re-
+ceived. The neurons in each layer receive the output of the neu-
+rons in the layer below and send it to the neurons in the layer
+above [49].

@@ -1,0 +1,1 @@
+• Spatial Constraint Agent: Verify Di,j matches edge

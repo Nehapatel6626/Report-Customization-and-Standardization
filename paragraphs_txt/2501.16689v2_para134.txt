@@ -1,0 +1,8 @@
+Agent Repository Component This component main-
+tains a distributed collection of planning agents, each de-
+signed with a restricted context window and specialized
+interface. By dividing cognitive tasks among agents, the
+repository ensures a complete representation of constraints
+without overwhelming individual components. The meta-
+planner queries this repository to select agents for speciﬁc
+roles and dependencies based on task requirements.

@@ -1,0 +1,3 @@
+Similarly, for gk(c), the candidate sentence is replaced by
+r j with c. CIDEr is computed by combining the scores from
+n-grams of varying lengths as

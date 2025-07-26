@@ -1,0 +1,1 @@
+11. Spatial Autocorrelation: concept and implementation  (9SAconcepts.ppt 42 slides)

@@ -1,0 +1,10 @@
+To effectively capture complex interactions within and be-
+tween input features in images, a Modular Co-Attention Trans-
+former Layer (M-CATL) was proposed by [109]. This layer
+aims to extract specific image characteristics. Furthermore, a
+Deep Modular Co-Attention Transformer Block (DM-CATB)
+was developed and integrated into the encoder part of the model
+based on M-CATL. To fully capture spatial and positional in-
+formation of image features and improve feature characteriza-
+tion, a Deep Modular Co-Attention Transformer Network (DM-
+CATN) was introduced.

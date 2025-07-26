@@ -1,0 +1,4 @@
+The shortness penalty (BP) allows us to choose the can-
+didate translation most similar to the reference translation in
+terms of length, word choice, and word order. It is calculated
+using an exponential decay given as

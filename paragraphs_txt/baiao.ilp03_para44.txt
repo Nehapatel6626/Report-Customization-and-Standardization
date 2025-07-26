@@ -1,0 +1,1 @@
+A concept is a predicate in a theory for which examples appear in the training set. An instance, or example, is an instantiation (not necessarily ground) of a concept. An instance of the concept “cardinality” is

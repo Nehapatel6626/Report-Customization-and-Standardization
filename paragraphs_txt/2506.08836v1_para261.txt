@@ -1,0 +1,13 @@
+26. Sicard, C., Gillioz, V., Pyszkowski, K.: Spaiche: Extending State-of-the-Art ASR
+Models to Swiss German Dialects. In: Ghorbel, H., Sokhn, M., Cieliebak, M., Hür-
+limann, M., de Salis, E., Guerne, J. (eds.) Proceedings of the 8th edition of the
+Swiss Text Analytics Conference. vol. Proceedings of the 8th edition of the Swiss
+Text Analytics Conference, pp. 76–83. Association for Computational Linguistics,
+Neuchatel, Switzerland (Jun 2023), https://aclanthology.org/2023.swisstext-1.8
+27. Srivastav, V.: Faster Whisper Finetuning with LoRA powered by Hugging Face
+PEFT (Apr 2023), https://github.com/Vaibhavs10/fast-whisper-finetuning
+28. Timmel, V., Paonessa, C., Kakooee, R., Vogel, M., Perruchoud, D.: Fine-
+tuning Whisper on Low-Resource Languages
+for Real-World Applications
+(Dec 2024). https://doi.org/10.48550/arXiv.2412.15726, http://arxiv.org/abs/
+2412.15726, arXiv:2412.15726 [cs]

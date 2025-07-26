@@ -1,0 +1,8 @@
+Some languages don’t have spaces
+Chinese, Japanese, Thai, Khmer
+Chinese:
+Words composed of characters
+Characters are generally 1 syllable and 1 morpheme.
+Average word is 2.4 characters long.
+Standard segmentation algorithm: 
+Maximum Matching (also called Greedy)

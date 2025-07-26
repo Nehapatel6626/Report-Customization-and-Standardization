@@ -1,0 +1,15 @@
+McCulloch and Pitts (1943)
+Neural networks that learn
+Minsky (1951)
+Built a neural net computer
+Darmouth conference (1956):
+McCarthy, Minsky, Newell, Simon met,
+Logic theorist (LT)- proves a theorem in Principia Mathematica-Russel.
+The name “Artficial Intelligence” was coined.
+1952-1969
+GPS- Newell and Simon
+Geometry theorem prover - Gelernter (1959)
+Samuel Checkers that learns (1952)
+McCarthy - Lisp (1958),  Advice Taker, Robinson’s resolution
+Microworlds: Integration, block-worlds.
+1962- the perceptron convergence (Rosenblatt)

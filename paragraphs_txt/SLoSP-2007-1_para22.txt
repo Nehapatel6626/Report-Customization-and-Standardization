@@ -1,0 +1,1 @@
+Programming languages have only local ambiguities, which a parser can resolve with lookahead (and conventions)

@@ -1,0 +1,2 @@
+common to both sets divided by the sum of the number of elements in each set: DSC = 2|X∩Y |
+|X|+|Y |

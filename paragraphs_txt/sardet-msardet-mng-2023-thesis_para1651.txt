@@ -1,0 +1,1 @@
+(b) Note down the initial and final Dep time and S1/S2 weight.

@@ -1,0 +1,8 @@
+Instructor: Bart Niswonger
+226D Sieg Hall
+bart@cs.washington.edu
+Office hours: M 11:50-12:50, W 1:50-2:50 & whenever door is open
+TA: 
+Ashish Sabharwal	ashish@cs
+Office hours: Tues 10:50-11:50 in 226A/B
+Text: Data Structures & Algorithm Analysis in C++, 2nd edition, by Mark Allen Weiss

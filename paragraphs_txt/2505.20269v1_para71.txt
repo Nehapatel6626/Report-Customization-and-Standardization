@@ -1,0 +1,27 @@
+i or simply oi.
+The values xl
+i of the neurons in a given layer l are computed through the
+output values xl−1
+of the previous layer, with j ∈ {1, ..., nl−1}. Each neuron
+j
+applies a linear combination of the output of the neurons in the previous layer.
+Then, the neuron applies a nonlinear function, also known as an activation
+function. The output of the linear part is represented as (cid:80)nl−1
+j + bl
+i
+where wl
+i denote the weights and bias, respectively, serving as parameters
+of the ith neuron of layer l. In this work, we consider only feedforward ANNs
+with the Rectified Linear Unit (ReLU) as activation function because it can be
+represented by linear constraints due to its piecewise-linear nature. This function
+is a widely used activation whose output is the maximum between its input value
+i,jxl−1
+and zero. Then, xl
+For classification tasks, the last layer L is composed of nL = N neurons, one
+for each class. Moreover, it is common to normalize the output layer using a
+Softmax layer. Consequently, these values represent the probabilities associated
+with each class. The class with the highest probability is chosen as the predicted
+class. However, we do not need to consider this normalization transformation
+as it does not change the maximum value of the last layer. Thus, the predicted
+class is ci ∈ K such that i = arg maxj∈{1,...,N } xL
+j .

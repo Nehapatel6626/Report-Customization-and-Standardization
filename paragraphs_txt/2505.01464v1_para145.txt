@@ -1,0 +1,3 @@
+Figure 1: Recursive trajectory of TinyLLaMA at Turn 7 under sustained tension (Ξn > ε).
+Principal components PC1 and PC2 display contraction of the hidden-state sequence into a
+toroidal attractor, consistent with KAM-type manifold dynamics. See Arnold [2].

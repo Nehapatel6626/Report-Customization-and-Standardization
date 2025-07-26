@@ -1,0 +1,11 @@
+The Vietnamese image captioning model proposed by [3]
+was evaluated using the UIT-ViIC dataset, which was carefully
+curated to ensure consistent and accurate captions. The annota-
+tion process was conducted by five native Vietnamese speakers
+(aged 22–25) trained in sports-related vocabulary before start-
+ing. The dataset consists of 3,850 sports-related images sourced
+from the 2017 Microsoft COCO edition, with each image ac-
+companied by five Vietnamese captions, totaling 19,250 cap-
+tions. To minimize inconsistencies in interpretation, strict anno-
+tation guidelines were established, inspired by the MS COCO
+dataset. These included: First, a minimum of ten Vietnamese

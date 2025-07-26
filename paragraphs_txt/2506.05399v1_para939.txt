@@ -1,0 +1,4 @@
+[118] H. Li, P. Wang, C. Shen, G. Zhang, Show, attend and read: A simple
+and strong baseline for irregular text recognition, in: Proceedings of
+the AAAI conference on artificial intelligence, Vol. 33, 2019, pp. 8610–
+8617.

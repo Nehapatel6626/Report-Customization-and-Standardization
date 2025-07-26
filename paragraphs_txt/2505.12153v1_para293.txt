@@ -1,0 +1,3 @@
+[9] Y. Liu, X. Wu, Y. Sang, C. Zhao, Y. Wang, B. Shi, and Y. Fan, ”Evolution
+of surgical robot systems enhanced by artificial intelligence: A review,”
+Adv. Intell. Syst., vol. 6, p. 2300268, 2024.

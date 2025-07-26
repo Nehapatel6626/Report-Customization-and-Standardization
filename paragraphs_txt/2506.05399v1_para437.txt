@@ -1,0 +1,10 @@
+The work by [58] introduced the Arabic Flickr8K dataset.
+To create this dataset, the original English Flickr8K dataset
+was translated into Arabic using a two-phase process: First,
+the Google Translate API produced an initial Arabic transla-
+tion. Next, qualified Arabic translators carefully reviewed and
+refined the translations. After verification, the top three transla-
+tions per image were selected from an initial pool of five. The
+final Arabic Flickr8K dataset consisted of 6,000 training im-
+ages, 1,000 validation images, and 1,000 test images, each with
+three unique captions.

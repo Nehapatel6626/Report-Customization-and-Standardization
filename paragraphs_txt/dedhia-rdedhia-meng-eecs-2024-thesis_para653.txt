@@ -1,0 +1,1 @@
+that suggest editing all formula cells so that spreadsheet programs no longer recognize them

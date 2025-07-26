@@ -1,0 +1,7 @@
+The transforms on a single qubit [16] are done by recursively applying a Hadamard trans- 
+n 
+n 
+form followed by rotations on condition ai, here e(0.ak ak−1 ...a ) = eak/2
+. Note that eak/2
+is a series of phase operations (ration along the z axis). Each time, the rotation angle re- 
+duces by half with an incremental increase of k.

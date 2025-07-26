@@ -1,0 +1,1 @@
+2.16 When opened in Google Sheets, this formula executes a server-side attack

@@ -1,0 +1,11 @@
+In transformer-based image captioning, three-parameter re-
+duction techniques were utilized [108]. Firstly, the size of the
+embedding matrices was significantly reduced by using radix
+encoding, allowing for a larger vocabulary without increasing
+the model size. Secondly, cross-layer parameter sharing was
+employed to break the tight correlation between model depth
+and size, allowing additional layers to be added without in-
+creasing the parameter count and vice versa. Finally, attention
+parameter sharing was used to reduce the parameter count of
+the multi-head attention module and improve overall parameter
+efficiency.

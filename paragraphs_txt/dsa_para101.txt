@@ -1,0 +1,4 @@
+Lists can be implemented using:
+Arrays
+Linked List
+Cursor [Linked List using Arrays]

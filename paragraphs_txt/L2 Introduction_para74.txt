@@ -1,0 +1,2 @@
+PLA cannot find an exact solution. No line in attribute space that can completely separate members from non-members.
+Delays development of ANN methods for many years.

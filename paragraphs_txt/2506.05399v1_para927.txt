@@ -1,0 +1,2 @@
+and multilabel classification for remote sensing image captioning, IEEE
+Geoscience and Remote Sensing Letters 19 (2022) 1–5.

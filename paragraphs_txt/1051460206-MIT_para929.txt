@@ -1,0 +1,1 @@
+number of convolutional blocks),  q  (the number offully connected layers), n  (the number of

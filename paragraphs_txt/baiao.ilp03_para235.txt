@@ -1,0 +1,1 @@
+Our results show the effectiveness of the TREND3 approach in revising the analysis algorithm and obtaining a new version that produced a fragmentation schema that reduced the cost (i.e., increased the performance) of the OO7 application in 38%.

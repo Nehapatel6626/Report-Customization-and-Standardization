@@ -1,0 +1,1 @@
+We trained  the FCN  on an AWS  EC2  instance  with a single  GPU.  During  training,  we

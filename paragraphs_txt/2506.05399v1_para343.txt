@@ -1,0 +1,1 @@
+Figure 8: A typical architecture of the CNN model.

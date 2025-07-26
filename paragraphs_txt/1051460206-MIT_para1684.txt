@@ -1,0 +1,1 @@
+Figure 5-5.  Comparison of the ground truth with representative images predicted by  the network

@@ -1,0 +1,6 @@
+Status: availability
+Alerts: fatigue warnings
+Updates: new GPS
+Status: covered?
+Alerts: coverage gaps!
+Updates: role transitions

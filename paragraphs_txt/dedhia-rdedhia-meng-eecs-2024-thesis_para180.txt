@@ -1,0 +1,1 @@
+that opens a terminal window. This terminal can be used to remotely execute

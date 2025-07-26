@@ -1,0 +1,22 @@
+The study by [42] explores the emerging field of remote
+sensing image captioning, which focuses on automatically gen-
+erating textual descriptions for images captured by satellites,
+aircraft, and drones. As an interdisciplinary task integrating
+computer vision and natural language processing, remote sens-
+ing image captioning has garnered significant research interest
+in recent years. The paper analyzes relevant articles, summa-
+rizing key technical approaches, datasets, evaluation metrics,
+and experimental findings from state-of-the-art methods. Ad-
+ditionally, it examines the field’s strengths, limitations, and on-
+going challenges while proposing valuable directions for future
+research. Similarly, [43] investigates the challenge of generat-
+ing precise and adaptable textual descriptions for remote sens-
+ing images. While significant progress has been made in re-
+lated tasks such as object detection and scene classification, ac-
+curately and concisely describing remote sensing imagery re-
+mains a complex problem. To address this issue, the paper in-
+troduces a set of annotation guidelines tailored to the unique
+characteristics of remote-sensing images, aiming to improve
+captioning quality. Additionally, the authors present a large-
+scale aerial image dataset specifically designed for remote sens-
+ing image captioning. Extensive experiments on this dataset

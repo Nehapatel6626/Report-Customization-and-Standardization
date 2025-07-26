@@ -1,0 +1,3 @@
+Looking at the earlier equation, when k is becoming large, the rotation is becoming very 
+tiny. In some cases, an approximate QFT (AQFT) may be more accurate than a full QFT 
+[23]. It is the same as overfitting data to a machine learning model. It is suggested to stop

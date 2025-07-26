@@ -1,0 +1,1 @@
+example, load cells measurement takes are disturbed by the extreme temperature inside the

@@ -1,0 +1,1 @@
+of ﬁle paths and labels as array of 1 for malicious and 0 for benign.

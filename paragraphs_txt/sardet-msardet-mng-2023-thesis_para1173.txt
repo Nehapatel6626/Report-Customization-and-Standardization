@@ -1,0 +1,1 @@
+Extending the method to each process Since the ultimate goal is to compare clusters

@@ -1,0 +1,6 @@
+Figure 3.5: Kendall’s correlation coeffi-
+cients matrix between the time series vari-
+ables SiCl4 Head Pressure, GeCl4 Head
+Pressure, Fume Pressure, Hood Pressure,
+SiCl4 Supply Pressure, GeCl4 Supply Pres-
+sure.

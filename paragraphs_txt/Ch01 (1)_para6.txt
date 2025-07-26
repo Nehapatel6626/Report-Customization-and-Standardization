@@ -1,0 +1,7 @@
+What is artificial intelligence? 
+There are no clear consensus on the definition of AI
+Here’s one from John McCarthy, (He coined the phrase AI in 1956) - see http:// www. formal. Stanford. EDU/ jmc/ whatisai/)
+Q. What is artificial intelligence?
+A. It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.
+Q. Yes, but what is intelligence?
+A. Intelligence is the computational part of the ability to achieve goals in the world. Varying kinds and degrees of intelligence occur in people, many animals and some machines.

@@ -1,0 +1,1 @@
+Figure  5-6  shows the  true  positives,  false negatives  and false positives  for an AutoScope

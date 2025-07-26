@@ -1,0 +1,1 @@
+put the ﬁle in an isolated environment and look for malicious behaviour. API-based

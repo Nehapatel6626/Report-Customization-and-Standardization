@@ -1,0 +1,1 @@
+erShell. The command first downloads the file “shell.exe” from port 1337 of the attacker’s

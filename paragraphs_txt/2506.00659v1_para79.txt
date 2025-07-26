@@ -1,0 +1,4 @@
+The number of arguments of the function.
+The number of edges between basic blocks.
+The in-degree of the function in the call graph.
+The in-degree of the function in the call graph.

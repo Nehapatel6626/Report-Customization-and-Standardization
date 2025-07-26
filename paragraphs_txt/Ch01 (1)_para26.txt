@@ -1,0 +1,6 @@
+History of AI
+The birth of AI (1943 – 1956)
+Pitts and McCulloch (1943): simplified mathematical model of neurons (resting/firing states) can realize all propositional logic primitives (can compute all Turing computable functions)
+Allen Turing: Turing machine and Turing test (1950)
+Claude Shannon: information theory; early game theory, possibility of chess playing computers
+Tracing back to Boole, Aristotle, Euclid (logics, syllogisms, algebra of symbols)

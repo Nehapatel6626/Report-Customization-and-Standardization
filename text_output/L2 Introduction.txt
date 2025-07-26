@@ -1,0 +1,205 @@
+Introduction:
+	Brief history of neural network research
+	Brain analogy
+	Applications of the perceptron
+	Deep-learning Neural Networks
+	Image classification by Convolutional Neural Networks
+Brain has processing units (neurons) with connections (synapses) between them
+Large number of neurons: 1010
+High connectitivity: 105
+Capable of parallel processing
+Distributed reasoning and memory
+Robust to noise and failures
+2
+Lecture Notes for E Alpaydın 2010 Introduction to Machine Learning 2e © The MIT Press (V1.0)
+1960’s rudimentary knowledge of the brain suggests artificial neural networks  for machine learning.
+3
+Lecture Notes for E Alpaydın 2010 Introduction to Machine Learning 2e © The MIT Press (V1.0)
+Humans are very good at 
+recognizing faces
+but can’t say exactly 
+how it works.
+
+An algorithm modeled after 
+the brain that can be trained 
+might give good results even 
+if we don’t know why.
+Research on biologically motivated machine learning is  popular in 1960s.
+No transformation
+
+
+
+Brain analogy: Input from multiple neurons are combined to produce a signal s.  Neuron receiving the signal can transform it before passing it on to another neuron.
+Hard limit: output shift between two 
+values. 
+(0,1) or (-1,1),
+Soft limit: smooth transition between (0,1)
+Rosenblatt proposes the “perceptron” and a learning method, the perceptron training algorithm (PLA). Publishes Principles of Neurodynamics (Spartan press 1961)
+5
+Lecture Notes for E Alpaydın 2010 Introduction to Machine Learning 2e © The MIT Press (V1.0)
+Brief history of research on ANNs
+Paul Werbos (1974) describes a more general training method, 
+back propagation, in his PhD thesis. No one takes notice
+Need rules that relate changes in weights to the difference 
+between output and target.
+h(x)=wTx
+In perceptron applications, signal is a linear combination of the inputs, which includes a bias node x0=1 in addition to attribute values. This signal can be written s = wTx, where w is a weight vector to be optimized and x is the input attribute vector.
+h(x)=sign(wTx)=+1
+h(x)=sigmoid(wTx)
+Class membership
+=1/(1+exp(-wTx))
+Probability of class 
+membership
+binary
+Perceptron: Neural networks for linear approximations
+
+Why use a linear model?
+	Easier to train
+	Less demanding of data
+	Generalizes better
+	Statistical analysis of results
+	Easier to interpret results
+9
+Lecture Notes for E Alpaydın 2010 Introduction to Machine Learning 2e © The MIT Press (V1.0)
+Perceptron for multivariate linear regression
+First component of attribute vector is 1.
+First component of weight vector called “bias”.
+…
+x is input vector
+w is weight vector
+y = wTx
+Regression with 1 and 2 attributes predicting a response
+Fit a line to data: yfit = w0+w1x
+Fit a plane to data: yfit = w0+w1x1+w2x2
+Similarly for any number of attributes used to predict the response
+Attributes also called “predictors” of response
+Fit a line to data: yfit = w0+w1x
+Fit a plane to data: yfit = w0+w1x1+w2x2
+w0 is not a “predictor”. It’s what we can say about the data in the absence of predicators. The average response is the best fit of a constant to data.
+12
+Lecture Notes for E Alpaydın 2010 Introduction to Machine Learning 2e © The MIT Press (V1.0)
+x is input vector
+w is weight vector
+y = sign(wTx)
++1 for class members
+-1 for nonmembers
+Called “hard limit”
+Perceptron for multivariate binary linear classification
+…
+sign(wTx)
+Should loan be approved?
+Compare a linear combination of applicant's attributes to a threshold.
+Both weights and threshold determined from historical data.
+Meaning of bias nodes in classification: 
+Example: loan application
+Bias node: Threshold for approval
+Include “threshold” in the attribute vector
+Structure of a perceptron for multi-class multivariate linear classification. Each class has its own weight-vector connection to the input that is a column of a weight matrix W with K columns and d+1 rows. Output is probability of membership. Sig stands for that sigmoid function.
+…
+…
+Output yi  =  Sigmoid(wiTx). Assign example to class with largest output (most probable class)
+Alternative notation (Hagan, Demuth, and Beale)
+Bias is separate from attribute vector p. Weights are row vectors in matrix W; hence not transpose is required. In this case W is 1xR. Input is transformed by W and b into n for “net”.  Net is transformed into a in the output node.
+Abbreviated form
+Multi-class multivariate linear classification, Hagan et al. notation, abbreviated form, S classes.
+Weights are row vectors
+Input and bias are column vectors
+Abbreviated form
+20
+Lecture Notes for E Alpaydın 2010 Introduction to Machine Learning 2e © The MIT Press (V1.0)
+Rosenblatt recognized that without modification of the output 
+node, the perceptron was just another representation of 
+multivariate linear regression
+…
+x is input vector
+w is weight vector
+y = wTx
+21
+Lecture Notes for E Alpaydın 2010 Introduction to Machine Learning 2e © The MIT Press (V1.0)
+…
+Rosenblatt developed the perceptron learning algorithm, 
+which uses y = sign(wTx) in the output node to perform 
+multivariate binary linear classification. If the classes 
+are linearly separable, as in Boolean AND below, PLA finds a boundary in attribute space that separates members from non-members.
+data table
+graphical representation
+PLA cannot find an exact solution. No line in attribute space that can completely separate members from non-members.
+Delays development of ANN methods for many years.
+Minsky and Papert (1969) show limitation of Rosenblatt’s perceptron using Boolean XOR example: 
+Linearly inseparable binary classification problem
+Hopfield (1982) proposes multi-layer perceptron (MLP) trained by back propagation
+Hinton (1986) publishes a practical back propagation method.
+Stanford group publishes Parallel Distributed Processing (1986). Restarts ANN research.
+23
+Lecture Notes for E Alpaydın 2010 Introduction to Machine Learning 2e © The MIT Press (V1.0)
+24
+
+
+-0.78
+2 weight vectors connect input to hidden layer that define linearly separable features.
+
+
+
+Volume 1 of Parallel Distributed Processing (1986) shows that limitations of Rosenblatt’s perceptron pointed out by Minsky and Papert (1969) can be overcome by multilayer perceptron (MLP)
+1 weight vector connecting hidden layer to output defines a linear discriminant separating the hidden-layer features 
+MLP to solve XOR binary 
+classification problem
+We will discuss this 
+solution in detail later.
+In 1990s, ANNs are de-mystified
+ANN joins ranks of non-parametric statistical methods
+Training methods are recognized as non-biological
+In 2000s
+Genome sequencing stimulates vast data-mining
+New methods of data mining start replacing ANN
+Rise and fall of supervised machine learning techniques, Jensen and Bateman, Bioinformatics 2011
+ANN still exceeds the 
+sum of other methods
+In 2010s
+Neural Networks make a comeback with Deep Learning.
+Perfect marriage between big data and machine learning
+For tabular data, no evidence that deep learning is more accurate than traditional machine leaning based on human feature engineering.
+Training the network by back propagation lets the data determine the features of the machine-learning model
+For deep-leaning neural networks (DNNs) features, defined by the value of millions of weights, are uninterpretable by humans.
+2012 Alex Krizhevsky (student of Hinton) publishes ImageNet, a deep convolutional neural network for image classification.
+Age of images as data for machine learning is launched. Paper currently has 139747 citations. Citations/year peaked in 2021.
+ImageNet has 60 million parameter that are weights connecting 500K neurons. Trained by 1.3 million high-resolution images from 1000 classes. Introduces Softmax to report the confidence of classification and Dropout layers to reduce overfitting.
+Analysis of deep-learning image classifiers can show the 
+most important part of the image for different predictions with different levels of confidence; however, image fragments (which humans understand) are not the features the algorithm uses to make the predictions. 
+31
+Lecture Notes for E Alpaydın 2010 Introduction to Machine Learning 2e © The MIT Press (V1.0)
+Humans are very good at 
+recognizing faces
+but can’t say exactly 
+how it works.
+
+An algorithm modeled after 
+the brain that can be trained 
+might give good results even 
+if we don’t know why.
+In 2020s
+“Can we trust a method if we don’t how it works?” becomes a 
+serious topic of neural network research.
+Explainable Machine Learning: What is it? Who needs it?
+
+An “explainer” is an algorithm that extracts the basis for a prediction that can be judged by a knowledgeable person.
+
+Most important when prediction has the potential for personal 
+harm, e.g., medical, loan application, job application, etc.
+Comparison of natural language processing algorithms used to predict if 
+text is about Christianity or Atheism. Explainer extracts important words used in predictions.
+Both predictions are correct, but the important words used by algorithm 1 make more sense to humans as a basis for the decision; hence the explainer algorithm gives us more trust in algorithm 1.
+Increasing trust in DNN classification by reporting more than class assignment.
+Both A and B are members of class 1 and correctly classified.
+Explainer algorithm reports distance to decision boundary.
+More trust in result for A than B because further from decision boundary
+Noise is less likely to be factor in assignment of A to class 1
+Where we are and what we expect to accomplish with 
+interpretable machine learning.
+In 2020s Generative AI: Robotics combined with Large Language Model to create ChatGTP.
+
+2023, Hinton leaves Google at 75. Sounds the alarm about generative AI.
+“…generative intelligence could spread misinformation and, eventually, threaten humanity” (New York Times interview)
+
+August 2023, The Principles of Data-Centric AI. Communications of the ACM vol. 66 no. 8 DOI: 10.1145/3571724
+“…focus on the human-centered nature of data that feeds AI systems…”

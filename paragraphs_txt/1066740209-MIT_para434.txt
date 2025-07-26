@@ -1,0 +1,1 @@
+There were several iterations of this classifier. The main features are based on bag

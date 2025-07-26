@@ -1,0 +1,3 @@
+[113] L. Huang, W. Wang, J. Chen, X.-Y. Wei, Attention on attention for image
+captioning, in: Proceedings of the IEEE/CVF international conference
+on computer vision, 2019, pp. 4634–4643.

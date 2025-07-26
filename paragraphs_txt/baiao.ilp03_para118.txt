@@ -1,0 +1,1 @@
+Intuitively, the clauses in figure 6 choose the fragmentation technique (derived horizontal, primary horizontal, vertical) to be applied to a class of the database schema according to the heuristics proposed in [2]. Hybrid fragmentation arises when both primary horizontal and vertical fragmentations are chosen, since their clauses are not exclusive.

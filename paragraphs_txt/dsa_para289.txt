@@ -1,0 +1,5 @@
+In this case, last node (current tail node) is removed from the list. This operation is a bit more tricky, than removing the first node, because algorithm should find a node, which is previous to the tail first.
+It can be done in three steps: 
+Update tail link to point to the node, before the tail. In order to find it, list should be traversed first, beginning from the head. 
+Set next link of the new tail to NULL. 
+Dispose removed node.

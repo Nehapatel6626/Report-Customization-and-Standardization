@@ -1,0 +1,5 @@
+In addition to a conceptual framework, this work provides a reference implementation of ROSA as
+an open-source framework that can be reused for research on self-adaptive robotic systems. ROSA is
+implemented as a ROS 2-based system Macenski et al. (2022), leveraging TypeDB (Dorn and Pribadi, 2023,
+2024) for knowledge representation and reasoning, and behavior trees (BT) (Colledanchise and ¨Ogren,
+2018) as well as PDDL-based planners (Ghallab et al., 1998) for task decision-making.

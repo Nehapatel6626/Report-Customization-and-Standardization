@@ -1,0 +1,2 @@
+To enable TACA, this paper proposes to extend traditional robotics architectures with ROSA, using it as a
+managing subsystem for the robotic subsystem (see Figure 1). This section first describes the assumptions

@@ -1,0 +1,6 @@
+3 Lack of Common Sense Integration. MACI incorpo-
+rates a Common Sense Integration Agent and other spe-
+cialized agents to identify implicit constraints and augment
+plans with practical, domain-speciﬁc knowledge. This en-
+sures that generated plans are realistic, comprehensive, and
+aligned with real-world conditions.

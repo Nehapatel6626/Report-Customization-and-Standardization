@@ -1,0 +1,7 @@
+leased in 2013.
+Flickr image-sharing platform. Compared to MS COCO, Flickr8K
+is relatively tiny and primarily contains photographs of humans
+and animals. The image descriptions were manually annotated
+using Amazon Mechanical Turk, with each image paired with
+five descriptive sentences, ensuring linguistic diversity in the
+captions.

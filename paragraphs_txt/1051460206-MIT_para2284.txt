@@ -1,0 +1,1 @@
+Figure 6-5.  Example images from different solutions. Each particle is classified as a microbead,

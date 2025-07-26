@@ -1,0 +1,7 @@
+as 1 minus the average risk per surgery, making Rmit an
+increasing metric, where higher values indicate safer policy
+performance. This method integrates numerous risk factors,
+allowing for an objective and data-driven assessment of RL-
+based surgical protocols, thereby facilitating the choice of
+optimal, risk-conscious strategies for both autonomous and
+semi-autonomous robotic operations.

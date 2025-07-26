@@ -1,0 +1,1 @@
+e.g., function design is a 1 Function-to-many Components relationship;

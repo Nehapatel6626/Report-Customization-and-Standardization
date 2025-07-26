@@ -1,0 +1,1 @@
+immediately executed. Some spreadsheet programs have safeguards against specific injection

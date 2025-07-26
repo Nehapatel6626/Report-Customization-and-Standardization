@@ -1,0 +1,1 @@
+Kohavi, R (1995). A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection. In Proceedings of the IJCAI 1995, pp. 1137-1145.

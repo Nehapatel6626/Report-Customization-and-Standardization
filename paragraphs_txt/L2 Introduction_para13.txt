@@ -1,0 +1,1 @@
+Soft limit: smooth transition between (0,1)

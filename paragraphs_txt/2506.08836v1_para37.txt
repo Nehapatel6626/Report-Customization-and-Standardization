@@ -1,0 +1,4 @@
+The SOTA STT models trained with these datasets perform exceptionally
+well on the corresponding test sets (see Table 1). However, their performance
+dramatically drops on more realistic, out-of-distribution datasets, such as the
+new SRB-300 corpus (see Table 4). The short samples in these datasets pose

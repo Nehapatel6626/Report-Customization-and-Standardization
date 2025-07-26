@@ -1,0 +1,3 @@
+Carreno, Y., Scharff Willners, J., Petillot, Y. R., and Petrick, R. (2021). Situation-Aware Task Planning for
+Robust AUV Exploration in Extreme Environments. In Proc. IJCAI Workshop on Robust and Reliable
+Autonomy in the Wild

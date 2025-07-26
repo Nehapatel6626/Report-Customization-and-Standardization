@@ -1,0 +1,1 @@
+old set T , and ﬁnd the thresholds that minimize the cost function c.

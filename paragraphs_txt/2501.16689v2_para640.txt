@@ -1,0 +1,3 @@
+Safety violations
+Resource conﬂicts
+Mitigation plans

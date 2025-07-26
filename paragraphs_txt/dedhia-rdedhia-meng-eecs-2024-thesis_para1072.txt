@@ -1,0 +1,1 @@
+my_stream = io . BytesIO ( encoded_data )

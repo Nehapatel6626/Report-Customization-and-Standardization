@@ -1,0 +1,44 @@
+Name
+nv
+y
+Sm
+Sb
+o()
+Smutants
+Sm
+mutant
+Sevade
+cutof f
+fmutate(Sm, Sb)
+C
+p
+C1
+p1
+C2
+p2
+C3
+p3
+C4
+p4
+C5
+p5
+P1
+P3
+S
+|S|
+s
+C
+Y
+ˆY
+P
+p
+plast
+Di
+t1
+i
+t2
+i
+tlast
+Npc used
+Npc total
+γ

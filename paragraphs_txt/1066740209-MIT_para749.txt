@@ -1,0 +1,1 @@
+each gene/cancer pair: total, total with disease, total healthy, mutation carriers with

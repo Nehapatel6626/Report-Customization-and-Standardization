@@ -1,0 +1,1 @@
+variables), then only the first principal component (using PCA) and finally each variable

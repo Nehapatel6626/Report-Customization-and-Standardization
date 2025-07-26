@@ -1,0 +1,2 @@
+States: scheduled → active → comp.
+Trigger: time_milestone()

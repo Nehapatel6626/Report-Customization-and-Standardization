@@ -1,0 +1,2 @@
+Figure 3.3: Weight, GeCl4 gaz flow (gpm), SiCl4 gaz flow (gpm) and H2 gaz flow (Lpm)
+plotted against Elapsed Time (min) showing the different stages of the deposition process.

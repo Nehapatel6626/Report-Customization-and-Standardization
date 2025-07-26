@@ -1,0 +1,1 @@
+convolutional  network  to label  each pixel  of an AutoScope  image  as  either foreground or

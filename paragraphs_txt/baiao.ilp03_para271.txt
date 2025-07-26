@@ -1,0 +1,1 @@
+Muggleton, S., & De Raedt, L. (1994). Inductive logic programming: Theory and methods, Journal of Logic Programming, 19(20), pp. 629-679.

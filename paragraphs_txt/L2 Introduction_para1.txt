@@ -1,0 +1,6 @@
+Brain has processing units (neurons) with connections (synapses) between them
+Large number of neurons: 1010
+High connectitivity: 105
+Capable of parallel processing
+Distributed reasoning and memory
+Robust to noise and failures

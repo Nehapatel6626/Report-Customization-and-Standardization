@@ -1,0 +1,7 @@
+[17] Sheller, M., Reina, G. & Edwards, B. Multi-Institutional Deep Learning
+Without Sharing Patient Data. Scientific Reports. 10 pp. 12598 (2020)
+[18] Rieke, N., Hancox, J. & Li, W. Federated Learning for Medical Imaging:
+A Review. Nature Biomedical Engineering. 4 pp. 133-142 (2020)
+[19] Nguyen, D., Quon, H. & G., L. Machine Learning-Based Personalized
+Surgery Optimization. IEEE Transactions On Medical Robotics And
+Bionics. 3 pp. 1-13 (2021)

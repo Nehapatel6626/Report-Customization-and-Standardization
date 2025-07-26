@@ -1,0 +1,1 @@
+Baião, F. & Mattoso, M. (1998). A Mixed Fragmentation Algorithm for Distributed Object Oriented Databases. Proc Int’l Conf Computing and Information (ICCI'98), Winnipeg, pp. 141-148. Also In: Special Issue of Journal of Computing and Information (JCI), 3(1), ISSN 1201-8511, pp. 141-148.

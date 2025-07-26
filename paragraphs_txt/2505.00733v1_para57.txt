@@ -1,0 +1,2 @@
+Table 1. Related frameworks for robot self-adaptation. Where A-t-T means “Architectural state triggers
+task adaptation”, and T-t-A means “Task triggers architectural adaptation”.

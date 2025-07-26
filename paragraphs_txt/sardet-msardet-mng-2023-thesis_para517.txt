@@ -1,0 +1,1 @@
+to model the process dynamics and obtain the correlation between inputs (furnace power,

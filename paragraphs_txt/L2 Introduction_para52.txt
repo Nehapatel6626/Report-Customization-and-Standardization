@@ -1,0 +1,1 @@
+Structure of a perceptron for multi-class multivariate linear classification. Each class has its own weight-vector connection to the input that is a column of a weight matrix W with K columns and d+1 rows. Output is probability of membership. Sig stands for that sigmoid function.

@@ -1,0 +1,1 @@
+Action: The system fetches the news for ABCCompany

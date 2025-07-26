@@ -1,0 +1,1 @@
+Shell and uses it to run the command wget , which downloads the file “mal-

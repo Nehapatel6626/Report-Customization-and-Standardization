@@ -1,0 +1,1 @@
+This work proposes the use of Theory REvisioN on the Design of Distributed Databases (TREND3), showing how it automatically improves our analysis algorithm through the use of the FORTE system [29]. TREND3 is a module of a framework that handles the class fragmentation problem of the design of distributed databases, defined in [5].

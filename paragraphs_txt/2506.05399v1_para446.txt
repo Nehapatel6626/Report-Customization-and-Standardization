@@ -1,0 +1,5 @@
+b) BanglaLekha dataset: Comprises 9,154 images, each with
+two Bengali captions. It focuses on themes such as animals,
+birds, food, trees, and buildings. It features a smaller vo-
+cabulary size than other datasets due to fewer captions per
+image.

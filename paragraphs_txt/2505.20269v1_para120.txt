@@ -1,0 +1,9 @@
+To check the unsatisfiability of the expression C ∧ F ∧ ¬E, we still need to
+take into account the formula ¬E, referring to the prediction of the ANN. Given
+an input C predicted as class ci by the ANN, formula E must be equivalent to
+(cid:86)N
+j=1,j̸=i oi > oj. This formula asserts that the maximum value of the last layer
+is in output oi. Therefore, ¬E must ensure that (cid:87)N
+j=1,j̸=i oi ≤ oj. Since MILP
+solvers can not directly represent disjunctions, we use implications (6) and a
+linear constraint (7) over binary variables to define ¬E.

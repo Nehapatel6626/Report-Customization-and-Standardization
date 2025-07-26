@@ -1,0 +1,1 @@
+3.11 Rod profile (refractive index) plotted against position in the rod cross section.

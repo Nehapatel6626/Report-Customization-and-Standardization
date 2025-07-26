@@ -1,0 +1,3 @@
+– Boston weather forecast for the event date
+– Historical trafﬁc patterns on Thanksgiving days
+– Impact on airport-city-suburb travel times

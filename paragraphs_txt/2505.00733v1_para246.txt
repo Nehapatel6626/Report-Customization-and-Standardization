@@ -1,0 +1,2 @@
+4 the number of distinct elements that can be part of a relationship
+5 the number of element instances that can be part of a relationship

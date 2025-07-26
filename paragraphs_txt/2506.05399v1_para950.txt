@@ -1,0 +1,4 @@
+[129] A. Abu-Srhan, M. A. Abushariah, O. S. Al-Kadi, The effect of loss
+function on conditional generative adversarial networks, Journal of
+King Saud University-Computer and Information Sciences 34 (9) (2022)
+6977–6988.

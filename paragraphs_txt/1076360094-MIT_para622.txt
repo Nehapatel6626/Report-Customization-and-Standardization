@@ -1,0 +1,1 @@
+ﬁles and scores close to 1 correspond to malicious ﬁles. This data is separate

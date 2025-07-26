@@ -1,0 +1,4 @@
+Niemczyk, S., Opfer, S., Fredivianus, N., and Geihs, K. (2017). Ice: self-configuration of information
+processing in heterogeneous agent teams. In Proceedings of the Symposium on Applied Computing (New
+York, NY, USA: Association for Computing Machinery), SAC ’17, 417–423. doi:10.1145/3019612.
+3019653

@@ -1,0 +1,1 @@
+This tree structure enables the storage of complex relationships.

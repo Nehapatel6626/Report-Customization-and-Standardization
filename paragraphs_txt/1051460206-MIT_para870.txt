@@ -1,0 +1,1 @@
+Before  an image  is passed through the CNN,  we perform  three transformations  on the

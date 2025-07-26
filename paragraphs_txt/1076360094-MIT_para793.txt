@@ -1,0 +1,16 @@
+Name
+nv
+y
+Sm
+Sb
+o()
+Smutants
+Sm
+mutant
+Sevade
+p1
+p3
+P1
+P3
+cutof f
+fmutate(Sm, Sb)

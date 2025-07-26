@@ -1,0 +1,9 @@
+We introduce the new SRB-300 (300 h Swiss Regional Broadcasts) dataset, an
+annotated speech corpus that addresses the limitations of previous Swiss German
+datasets. The SRB-300 dataset includes 303 hours of audio recordings from 39
+regional Swiss German radio and TV broadcast stations across German-speaking
+Switzerland. It captures realistic and spontaneous speech in a variety of contexts,
+such as news reports, interviews, discussions, and live events from both indoor
+and outdoor settings. This dataset offers a representative selection of all major
+Swiss dialects and is designed for training with long audio samples. The following
+sections detail the dataset and describe the collection process.

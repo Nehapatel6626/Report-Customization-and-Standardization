@@ -1,0 +1,12 @@
+Description
+Minimum probability used in selecting data
+weight between data used for training and tuning
+weight between training data used for primary and secondary classiﬁers
+Samples received by decision system
+predicted probability for received samples produced by decision function
+predicted labels for received samples produced by decision function
+Samples selected for updated the system
+Samples selected for updated the system
+Samples selected for updated the system
+Samples used to train classiﬁers
+Samples used to train primary classiﬁers

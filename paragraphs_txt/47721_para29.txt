@@ -1,0 +1,6 @@
+Study population / Sample specifications 
+It is important to describe which would be 
+the study population 
+How study subjects would be selected, 
+randomization process and other details 
+should be given

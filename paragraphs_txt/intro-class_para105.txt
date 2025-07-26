@@ -1,0 +1,14 @@
+Table look-ups
+Autonomy
+All actions are completely specified
+no need in sensing, no autonomy
+example: Monkey and the banana
+Structure of an agent
+agent = architecture + program
+Agent types
+medical diagnosis
+Satellite image analysis system
+part-picking robot
+Interactive English tutor
+cooking agent
+taxi driver

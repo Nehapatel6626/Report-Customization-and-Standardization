@@ -1,0 +1,5 @@
+To enable ROSA to reason about when the managed subsystem should be adapted and what type of
+adaptation is needed, the KB contains a set of generic rules that define how the status of the system can be
+inferred based on monitored information, e.g., how to infer if a constraint is violated and how to propagate a
+constraint violation. A change in status only occurs when measurements are updated or when a component
+fails. The complete status inference rules are depicted as decision diagrams in Figure 3.

@@ -1,0 +1,119 @@
+Artificial Intelligence
+
+CMSC671
+
+Instructor: Professor Yun Peng
+ITE Building Room 341
+(410)455-3816
+ypeng@umbc.edu
+
+Some material adopted from notes by
+    Charles R. Dyer, University of Wisconsin-Madison and
+    Tim Finin and Marie desJargins, University of Maryland 
+         Baltimore County
+Introduction 
+
+Chapter 1
+What is artificial intelligence? 
+There are no clear consensus on the definition of AI
+Here’s one from John McCarthy, (He coined the phrase AI in 1956) - see http:// www. formal. Stanford. EDU/ jmc/ whatisai/)
+Q. What is artificial intelligence?
+A. It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.
+Q. Yes, but what is intelligence?
+A. Intelligence is the computational part of the ability to achieve goals in the world. Varying kinds and degrees of intelligence occur in people, many animals and some machines.
+Other possible AI definitions
+Collection of hard problems which can be solved by humans and other living things, but for which we don’t have good algorithms for solving. 
+e. g., understanding spoken natural language, medical diagnosis, circuit design, learning, self-adaptation, reasoning, chess playing, proving math theories, etc.
+•   Definition from R & N book: a program that
+Acts like human (Turing test)
+Thinks like human (human-like patterns of thinking steps)
+Acts or thinks rationally (logically, correctly)
+•   Some problems used to be thought of as AI but are now considered not
+e. g., symbolic mathematics in 1965, pattern recognition in 1970
+
+What’s easy and what’s hard?
+It’s been easier to mechanize many of the high level cognitive tasks we usually associate with “intelligence” in people
+ e. g., symbolic integration, proving theorems, playing chess, some aspect of medical diagnosis, etc.
+It’s been very hard to mechanize tasks that animals can do easily
+walking around without running into things
+catching prey and avoiding predators
+interpreting complex sensory information (visual, aural, …)
+modeling the internal states of other animals from their behavior
+working as a team (ants, bees)
+Is there a fundamental difference between the two categories?
+Why some complex problems (e.g., solving differential equations, database operations) are not subjects of AI
+Foundations of AI
+Computer
+Science & 
+Engineering
+AI
+Mathematics
+Cognitive
+Science
+Philosophy
+Psychology
+Linguistics
+Biology
+Economics
+computer hardware and software
+rules of reasoning
+logic, algorithms, optimization
+high level human/animal thinking
+human/animal brain activity
+complex systems games
+communication
+History of AI
+The birth of AI (1943 – 1956)
+Pitts and McCulloch (1943): simplified mathematical model of neurons (resting/firing states) can realize all propositional logic primitives (can compute all Turing computable functions)
+Allen Turing: Turing machine and Turing test (1950)
+Claude Shannon: information theory; early game theory, possibility of chess playing computers
+Tracing back to Boole, Aristotle, Euclid (logics, syllogisms, algebra of symbols)
+Early enthusiasm (1952 – 1969)
+1956 Dartmouth conference
+	John McCarthy (Lisp);
+	Marvin Minsky (first neural network machine);
+	Alan Newell and Herbert Simon (GPS);
+Emphasize on intelligent general problem solving
+	Heuristics of human problem solving (means-ends analysis in GPS );
+	Resolution by John Robinson (basis for automatic theorem proving);
+	heuristic search (A*, AO*, game tree search)
+Emphasis on knowledge (1966 – 1974)
+domain specific knowledge is the key to overcome existing difficulties
+knowledge representation (KR) paradigms
+declarative vs. procedural representation
+
+Knowledge-based systems (1969 – 1979)
+DENDRAL: the first knowledge intensive system (determining 3D structures of complex chemical compounds)
+MYCIN: first rule-based expert system (containing 450 rules for diagnosing blood infectious diseases)
+	EMYCIN: an ES shell
+PROSPECTOR: first knowledge-based system that made significant profit (geological ES for mineral deposits)
+AI became an industry (1980 – 1989)
+wide applications in various domains
+commercially available tools
+Current trends (1990 – present)
+more realistic goals 
+more practical (application oriented)
+resurgence of neural networks and emergence of genetic algorithms
+distributed AI, intelligent agents, and semantic web
+Possible Approaches
+What can AI systems do
+Here are some example applications
+Computer vision: face recognition from a large set
+Robotics: autonomous (mostly) automobile
+Natural language processing: simple machine translation
+Expert systems: medical diagnosis in a narrow domain
+Spoken language systems: ~1000 word continuous speech
+Planning and scheduling: Hubble Telescope experiments
+Learning: text categorization into ~1000 topics
+User modeling: Bayesian reasoning in Windows help (the infamous paper clip…)
+Games: Grand Master level in chess (world champion), checkers, etc.
+What can’t AI systems do yet?
+Understand natural language robustly (e.g., read and understand articles in a newspaper)
+Surf the web
+Interpret an arbitrary visual scene
+Learn a natural language
+Play Go well
+Construct plans in dynamic real-time domains
+Refocus attention in complex environments
+Perform life-long learning
+Exhibit true autonomy and intelligence!

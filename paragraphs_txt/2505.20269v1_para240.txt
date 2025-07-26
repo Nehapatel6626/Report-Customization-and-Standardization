@@ -1,0 +1,11 @@
+In the experiments of this work, we considered all instances of the datasets
+used, which considerably increased the experiments running time. As future
+work, we can change the design of experiments, using only a subset of the
+datasets, to allow the use of larger ANNs. More experiments are necessary,
+especially with additional layers and neurons, to further validate our findings and
+understand the performance of these encodings. Furthermore, others encodings
+[9, 10] can be evaluated for computing logic-based minimal explanations for
+ANNs. Moreover, in order to improve the scalability of computing logic-based
+explanations, the ANNs can be simplified, before or during building their
+encodings, via pruning or slicing as proposed by [12]. This results in equivalent
+ANNs with smaller sizes.

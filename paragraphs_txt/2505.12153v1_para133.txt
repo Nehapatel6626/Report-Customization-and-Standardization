@@ -1,0 +1,8 @@
+Here, Ft denotes the force applied by the robotic tool at time
+t, which must be controlled to avoid excessive pressure on
+tissues. The term Td,t represents the degree of tissue damage
+detected at time t, measured through real-time force sensors or
+medical imaging. The binary indicator Ct takes a value of 1 if
+a critical surgical error occurs and 0 otherwise. The parameters
+w1, w2, w3 are weighting coefficients that adjust the relative
+contribution of each risk factor to the overall score.

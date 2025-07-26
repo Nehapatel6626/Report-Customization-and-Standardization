@@ -1,0 +1,1 @@
+Cross-validation would prove especially useful in datasets where neither Naïve Bayes nor Decision Trees perform well, and instead there is some intermediate value of χ for which the Hybrid classifier outperforms them both. Unfortunately though, neither of the two datasets that we considered showed this trend.

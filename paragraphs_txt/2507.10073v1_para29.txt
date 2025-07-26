@@ -1,0 +1,11 @@
+The usage of LLMs as human simulacra (representation) began with the application
+as non-player characters (NPCs) in a Sims-style game world to simulate interpersonal
+communication and day-to-day lives [park2023generative]. The application of LLMs as
+synthetic characters has expanded beyond gaming environments into various fields of social
+science research [argyle2023out]. These disciplines have increasingly adopted these models
+as replacements in social studies, arguing that conditioning through prompting causes the
+systems to accurately emulate response distributions from a variety of human subgroups
+[argyle2023out]. This approach represents a paradigm shift in research methodology,
+promising unprecedented scalability and diversity in social science investigations. However,
+this methodological innovation comes with profound methodological and ethical challenges.
+Current research raises critical concerns about several fundamental issues:

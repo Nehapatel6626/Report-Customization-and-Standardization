@@ -1,0 +1,3 @@
+• nroute: Generates permutations starting/ending at A.
+• ndist: Computes tour length using distance matrix D.
+• nvalid: Checks tour validity (start/end at A, no repeats).

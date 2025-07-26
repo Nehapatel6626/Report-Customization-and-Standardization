@@ -1,0 +1,3 @@
+Scytale cipher: Spartan warriors used it to encrypt messages.                                                           A leather belt was wrapped around a baton (cylinder): = σκυτάλη in greek. Encryption was performed by writing the message along the axis, and then unwrapping the belt. 
+Decryption involved wrapping the belt around a scytale of the same diameter and reading along the axis.
+This encryption consists of a secret permutation of the characters of the message, called a transposition.

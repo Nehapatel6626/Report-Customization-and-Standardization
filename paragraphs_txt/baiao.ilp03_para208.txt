@@ -1,0 +1,27 @@
+chooseDerivedHorizontalFragmentationMethod(A,B,C):- 
+   fdt:classification(A,navigation),
+   fdt:navigatesFromTo(A,C,B),
+   fdt:relationshipAccess(D,B,C), fdt:relationship(D),
+   fdt:relationshipType(D,N:1),
+   fdt:isNotVerticallyFragmented(B),
+   fdt:isNotDerivedFragmented(B).
+chooseDerivedHorizontalFragmentationMethod(A,B,C):- 
+   fdt:classification(A,navigation), 
+   fdt:navigatesFromTo(A,C,B),
+   fdt:relationshipAccess(D,C,B), fdt:relationship(D),
+   fdt:relationshipType(D,1:N),
+   fdt:isNotVerticallyFragmented(B),
+   fdt:isNotDerivedFragmented(B).
+chooseDerivedHorizontalFragmentationMethod(A,B,C):- 
+   fdt:classification(A,navigation), fdt:navigatesFromTo(A,C,B),
+   fdt:relationshipAccess(D,C,B), fdt:relationship(D),
+   fdt:relationshipType(D,1:1),
+   fdt:isNotVerticallyFragmented(B),
+   fdt:isNotDerivedFragmented(B).
+choosePrimaryHorizontalFragmentationMethod(A,B):- 
+   fdt:classification(A,selection), 
+   fdt:operationAccess(A,[B]).
+chooseVerticalFragmentationMethod(A,B):-
+   cardinality(B,medium), classification(A,projection).
+chooseVerticalFragmentationMethod(A,B):- 
+   fdt:classification(A,projection),

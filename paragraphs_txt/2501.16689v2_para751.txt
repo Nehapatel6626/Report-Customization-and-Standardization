@@ -1,0 +1,2 @@
+S∗ = arg min
+s∈Solutions

@@ -1,0 +1,6 @@
+the minimum water visibility in which the configuration can be used. Runtime behavior: if the measured
+water visibility is higher than 3.25, the component configuration High is selected since it has priority
+number one. If the water visibility drops below 3.25, its constraint status is set to violated (see Figure 3a),
+and, consequently, its status is set to unfeasible (see Figure 3b). Depending on the water visibility, the
+component configuration Medium or Low is then selected. If the water visibility increases again above 3.25,
+the High component configuration status becomes feasible and is selected.
