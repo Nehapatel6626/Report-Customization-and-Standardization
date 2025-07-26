@@ -40,7 +40,7 @@ The user-friendly app supports:
 ![Screenshot 2](Images/theme_customization.png)
 
 ### 3. Standardize Existing Presentation
-![Screenshot 3](Images/standardize_existing.png)
+![Screenshot 3](Images/standardize_existing)
 
 ## 🛠 Technologies Used
 
