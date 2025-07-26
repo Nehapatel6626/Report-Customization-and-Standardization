@@ -34,13 +34,13 @@ The user-friendly app supports:
 ## 📸 Screenshots
 
 ### 1. Presentation Generation Interface
-![Screenshot 1](Images/Screenshot (180).png)
+![Screenshot 1](Images/generate_ppt.png)
 
 ### 2. Theme Customization
-![Screenshot 2](Images/Screenshot (176).png)
+![Screenshot 2](Images/theme_customization.png)
 
 ### 3. Standardize Existing Presentation
-![Screenshot 3](Images/Screenshot (174).png)
+![Screenshot 3](Images/standardize_existing.png)
 
 ## 🛠 Technologies Used
 
